@@ -1,0 +1,6 @@
+FROM caddy:2-alpine
+
+# The official binary has cap_net_bind_service=ep. Remove that file capability
+# so it can execute with the empty runtime capability set on unprivileged 8443.
+# https://github.com/caddyserver/caddy-docker/blob/master/2.11/alpine/Dockerfile
+RUN setcap -r /usr/bin/caddy
