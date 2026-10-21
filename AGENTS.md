@@ -1,0 +1,7 @@
+# Gallery changes
+
+This repository is the published Unit408 design gallery. Preserve existing design assets and concurrent publications. Keep edits limited to the requested feature or design set.
+
+Shared stars are implemented by `ops/picks/client.js` and the additive `ops/picks/patch_gallery.py` tool. Read `SHARED-PICKS.md` before rebuilding or adding a set. Regenerate shared-picks scripts and the catalogue after a rebuild, update only the isolated shortlist service’s catalogue, and verify the affected workflows. Do not overwrite the sync code with an older generated site.js.
+
+Never commit private access links, raw bearer tokens, auth.json, environment credentials or SQLite data. Use synthetic credentials and selections in tests. Preserve the dedicated API data and the server’s unrelated private routes.

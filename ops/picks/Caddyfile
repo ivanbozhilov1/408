@@ -1,0 +1,24 @@
+# Primary references:
+# https://caddyserver.com/docs/caddyfile/options
+# https://caddyserver.com/docs/caddyfile/directives/tls
+{
+	admin off
+	auto_https off
+	persist_config off
+	grace_period 10s
+	servers {
+		protocols h1 h2
+		strict_sni_host on
+		timeouts {
+			read_header 10s
+			read_body 15s
+			write 20s
+			idle 30s
+		}
+	}
+}
+
+https://seo.cebugrandrealty.com:8443 {
+	tls /run/picks-tls/cert.pem /run/picks-tls/key.pem
+	reverse_proxy picks:8080
+}

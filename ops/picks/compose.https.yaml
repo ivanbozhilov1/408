@@ -1,0 +1,32 @@
+# Overlay only: docker compose -f compose.yaml -f compose.https.yaml ...
+# Official image source: https://github.com/caddyserver/caddy-docker
+services:
+  https:
+    image: unit408-picks-https:local
+    build:
+      context: .
+      dockerfile: Dockerfile.https
+    restart: unless-stopped
+    user: "10001:10001"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 128m
+    cpus: 0.25
+    pids_limit: 64
+    stop_grace_period: 20s
+    ports:
+      - "72.62.243.45:8443:8443/tcp"
+    command: ["caddy", "run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
+    environment:
+      XDG_DATA_HOME: /data
+      XDG_CONFIG_HOME: /config
+    tmpfs:
+      - /data:rw,noexec,nosuid,nodev,uid=10001,gid=10001,mode=0700,size=8m
+      - /config:rw,noexec,nosuid,nodev,uid=10001,gid=10001,mode=0700,size=2m
+      - /tmp:rw,noexec,nosuid,nodev,uid=10001,gid=10001,mode=0700,size=4m
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./tls:/run/picks-tls:ro
