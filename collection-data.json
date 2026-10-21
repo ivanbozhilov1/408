@@ -9,61 +9,82 @@
       "letter": "P",
       "name": "Walnut Atelier",
       "date": "2026-10-21",
-      "version": "v001",
-      "status": "REVIEWED_CONCEPT_FIT_CONDITIONAL",
+      "version": "v002-lighting · source set v001",
+      "status": "REVIEWED_V002_LIGHTING_CONCEPT_FIT_CONDITIONAL",
       "isNew": true,
       "reviewAccepted": true,
       "archival": false,
       "summary": "Walnut Parsons storage bed, black reeded bedsides, amber-glass lamps and taupe textiles.",
       "reviewNotes": [
-        "4/4 plant-removal edits checked against the previously reviewed designs. Supplier photographs govern the purchase. Wilke artwork unavailable; bedside finish conflict and made-to-order lead time unresolved.",
+        "5/5 revised views and three same-camera pairs passed independent visual source/material and lighting-continuity review. Physical fit and source availability remain conditional.",
+        "Supplier photographs govern the purchase. Wilke artwork unavailable; bedside finish conflict and made-to-order lead time unresolved.",
         "Review checks visible product identity, materials and lighting only. No human design approval or construction-fit certification is implied.",
         "Exact finished sleeping pad 1828.8 × 1981.2 × 50 mm on a continuous flat deck. Bed opening, deck height/support, foam grade and custom fabrication remain supplier-measured conditions; a nominal 2-inch mattress is not exact 50 mm.",
         "Existing short honey parquet and ivory walls retained. Mirror on the perpendicular return between the doors; 75-inch TV on the footwall and split AC at its high window-side corner. Door swings and all seated TV sightlines require physical validation.",
         "Main camera is a disclosed virtual cutaway 1175 mm outside the south wall. Opposite camera is within the native plan. These images are planning concepts, not a surveyed photograph or a construction drawing.",
-        "D3: diffuse daylight, all electrical lights off. N1: selected bedside lamps at 2700 K and downward valance light at 3000 K only. Existing ceiling discs remain off; no new ceiling lights or bulbs.",
+        "D3 remains diffuse daylight. D4 is a golden-hour study from the same opposite camera. N1 turns on the existing circular white ceiling panels visible in each view, alongside selected 2700 K bedside lamps and the 3000 K downward valance wash. The original room photograph shows two circular panels; total room count, off-frame positions, fixture CCT and lumens remain unmeasured.",
         "Davies Beige opaque curtains conceal the old window AC, separate white voile and slim valance. Full installed scope, hardware, controls, exact fabric and blackout performance require written confirmation.",
-        "Each alternative includes two sleeping pillows and two blank owner-photo frames. Common equipment and allowances are included once per alternative, not added across P/Q/R."
+        "Each alternative includes two sleeping pillows and two blank owner-photo frames. Common equipment and allowances are included once per alternative, not added across P/Q/R.",
+        "The omitted plant and P planter allowance retain their product IDs and supplier references as history. The published plant-removal budget excludes floor plants and planters; its figures are preserved without further recalculation."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/5a7935fbbd26b475ffe923ed.png",
+      "hero": "collection-assets/d454d684fa2b912c0e13460f.png",
       "plan": "collection-assets/6fb356e758faf1a4dc0578ff.svg",
       "views": [
         {
-          "label": "Main · Day",
+          "slot": "P-main-D3",
+          "image": "collection-assets/d454d684fa2b912c0e13460f.png",
+          "sha256": "d454d684fa2b912c0e13460fa2f65516ca606b395b9bbe6ec3ef7eabeec92972",
+          "sourceSha256": "05740b36464f5735a80ee464ff3fea9a8eb51e07828b266d86b24cfd242cab30",
+          "label": "Main · D3 day",
           "kind": "main-day",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "5a7935fbbd26b475ffe923ed875fc9a2802b03ce57c73e99b2364c893bf450b6",
-          "reviewAccepted": true,
-          "image": "collection-assets/5a7935fbbd26b475ffe923ed.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         },
         {
-          "label": "Main · Night",
+          "slot": "P-main-N1",
+          "image": "collection-assets/aec6d14fe1491cb7e334516a.png",
+          "sha256": "aec6d14fe1491cb7e334516aebcba817b6bac871a2bdeefede47f2e7b19c84e8",
+          "sourceSha256": "adf8a8781b6abc396267727968f1ba0c168c83cca8533b02b61cf8dac8476624",
+          "label": "Main · N1 night",
           "kind": "main-night",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "563da7df49391df0fe84db868bbaa60a9864d3e3ae3fed188547787b0ceb791f",
-          "reviewAccepted": true,
-          "image": "collection-assets/563da7df49391df0fe84db86.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         },
         {
-          "label": "Opposite · Day",
+          "slot": "P-opposite-D3",
+          "image": "collection-assets/ef9ab51cc8d3cf60e7de9bef.png",
+          "sha256": "ef9ab51cc8d3cf60e7de9beff4df0cee82ea67c5adbd1d6ce359b9f751d5877b",
+          "sourceSha256": "1506e555c6717186054d209287f019f80ffbd02c478f8e66fcd77663bcc361ee",
+          "label": "Opposite · D3 day",
           "kind": "opposite-day",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "0d7fdaaa25c7b55f8d0b952d1fc7d047eaf898d1dbdf82bd9a53452942b6bf02",
-          "reviewAccepted": true,
-          "image": "collection-assets/0d7fdaaa25c7b55f8d0b952d.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         },
         {
-          "label": "Opposite · Night",
+          "slot": "P-opposite-D4",
+          "image": "collection-assets/e23135e351ad0700faa75bd2.png",
+          "sha256": "e23135e351ad0700faa75bd29ab9348c9259beda95d58719cbe6bcbce3790293",
+          "sourceSha256": "1506e555c6717186054d209287f019f80ffbd02c478f8e66fcd77663bcc361ee",
+          "label": "Opposite · D4 golden hour",
+          "kind": "opposite-golden",
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
+        },
+        {
+          "slot": "P-opposite-N1",
+          "image": "collection-assets/bc7fc39ce07956fca3bff481.png",
+          "sha256": "bc7fc39ce07956fca3bff481cd5c2bbfab4e453df2bf2b49936ba086d956cb6f",
+          "sourceSha256": "760b9611a972d55ecc255329f4ce9960802fb1e550f2764825e0286ea3bfd905",
+          "label": "Opposite · N1 night",
           "kind": "opposite-night",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "904180adc1f3409c417a3212408d577c1fad1f141683f53668297b6f25c0df31",
-          "reviewAccepted": true,
-          "image": "collection-assets/904180adc1f3409c417a3212.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         }
       ],
       "products": [
@@ -341,7 +362,7 @@
           "totalCents": 1169910,
           "lowCents": null,
           "highCents": null,
-          "status": "Live listing available=True; Cebu stock/address delivery/checkout/installation unresolved.",
+          "status": "Omitted from revised room views; earlier source reference. Live listing available=True; Cebu stock/address delivery/checkout/installation unresolved.",
           "source": "https://ourhome.ph/products/flourish-faux-olive-tree?variant=48096628146417",
           "priceDate": "2026-10-21 live official Shopify JSON",
           "variant": "Default Title",
@@ -350,7 +371,7 @@
             "Depth": 1000,
             "Height": 1750
           },
-          "notes": "Removed from this design at the user's request. Retained only to preserve existing saved-item IDs.",
+          "notes": "Omitted from revised room views; earlier source reference. Removed from this design at the user's request. Retained only to preserve existing saved-item IDs.",
           "commonToSchemes": false,
           "image": "collection-assets/d5045b96c01047f4001b0a47.jpg",
           "removedFromDesign": true
@@ -665,12 +686,12 @@
           "totalCents": null,
           "lowCents": 150000,
           "highCents": 150000,
-          "status": "planning_allowance_not_supplier_quote",
+          "status": "Omitted from revised room views; earlier source reference. planning_allowance_not_supplier_quote",
           "source": null,
           "priceDate": "Planning allowance",
           "variant": "Exact specification / scope below",
           "dimensions": null,
-          "notes": "Removed from this design at the user's request. Retained only to preserve existing saved-item IDs.",
+          "notes": "Omitted from revised room views; earlier source reference. Removed from this design at the user's request. Retained only to preserve existing saved-item IDs.",
           "commonToSchemes": false,
           "image": null,
           "removedFromDesign": true
@@ -728,7 +749,62 @@
         "totalLowCents": 68354165,
         "totalHighCents": 78337943,
         "note": "PHP planning range, not an installed quotation. Dated source figures from 20–21 October 2026; curtain allocation from 16 October. Low includes 10% contingency; high includes 15%. Allowances cover exact mattress/deck, all-vendor delivery, AC installation, mounting/assembly and valance LED integration. Conditional options included only in high range. Stock, fitting and installation require written confirmation. Floor plants and planters are excluded."
-      }
+      },
+      "renderHistory": [
+        {
+          "version": "v001-plant-removal",
+          "hero": "collection-assets/5a7935fbbd26b475ffe923ed.png",
+          "views": [
+            {
+              "label": "Main · Day",
+              "kind": "main-day",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "5a7935fbbd26b475ffe923ed875fc9a2802b03ce57c73e99b2364c893bf450b6",
+              "reviewAccepted": true,
+              "image": "collection-assets/5a7935fbbd26b475ffe923ed.png"
+            },
+            {
+              "label": "Main · Night",
+              "kind": "main-night",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "563da7df49391df0fe84db868bbaa60a9864d3e3ae3fed188547787b0ceb791f",
+              "reviewAccepted": true,
+              "image": "collection-assets/563da7df49391df0fe84db86.png"
+            },
+            {
+              "label": "Opposite · Day",
+              "kind": "opposite-day",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "0d7fdaaa25c7b55f8d0b952d1fc7d047eaf898d1dbdf82bd9a53452942b6bf02",
+              "reviewAccepted": true,
+              "image": "collection-assets/0d7fdaaa25c7b55f8d0b952d.png"
+            },
+            {
+              "label": "Opposite · Night",
+              "kind": "opposite-night",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "904180adc1f3409c417a3212408d577c1fad1f141683f53668297b6f25c0df31",
+              "reviewAccepted": true,
+              "image": "collection-assets/904180adc1f3409c417a3212.png"
+            }
+          ],
+          "reviewNotes": [
+            "4/4 plant-removal edits checked against the previously reviewed designs. Supplier photographs govern the purchase. Wilke artwork unavailable; bedside finish conflict and made-to-order lead time unresolved.",
+            "Review checks visible product identity, materials and lighting only. No human design approval or construction-fit certification is implied.",
+            "Exact finished sleeping pad 1828.8 × 1981.2 × 50 mm on a continuous flat deck. Bed opening, deck height/support, foam grade and custom fabrication remain supplier-measured conditions; a nominal 2-inch mattress is not exact 50 mm.",
+            "Existing short honey parquet and ivory walls retained. Mirror on the perpendicular return between the doors; 75-inch TV on the footwall and split AC at its high window-side corner. Door swings and all seated TV sightlines require physical validation.",
+            "Main camera is a disclosed virtual cutaway 1175 mm outside the south wall. Opposite camera is within the native plan. These images are planning concepts, not a surveyed photograph or a construction drawing.",
+            "D3: diffuse daylight, all electrical lights off. N1: selected bedside lamps at 2700 K and downward valance light at 3000 K only. Existing ceiling discs remain off; no new ceiling lights or bulbs.",
+            "Davies Beige opaque curtains conceal the old window AC, separate white voile and slim valance. Full installed scope, hardware, controls, exact fabric and blackout performance require written confirmation.",
+            "Each alternative includes two sleeping pillows and two blank owner-photo frames. Common equipment and allowances are included once per alternative, not added across P/Q/R."
+          ]
+        }
+      ],
+      "renderReviewSha256": "bbaf45f07b49556d6ca16f49f0b4ccb3d2738f59d3b8e105f09485f74fc04d54"
     },
     {
       "id": "astra-pqr-20261021-v001::Q",
@@ -737,61 +813,82 @@
       "letter": "Q",
       "name": "Amber Cloud",
       "date": "2026-10-21",
-      "version": "v001",
-      "status": "REVIEWED_CONCEPT_FIT_CONDITIONAL",
+      "version": "v002-lighting · source set v001",
+      "status": "REVIEWED_V002_LIGHTING_CONCEPT_FIT_CONDITIONAL",
       "isNew": true,
       "reviewAccepted": true,
       "archival": false,
       "summary": "Floating beige Tavia bed, low orange glass lamps, dark upholstered bedsides and an ivory diamond rug.",
       "reviewNotes": [
-        "4/4 plant-removal edits checked against the previously reviewed designs. Exact photographed PLINTH III dark-gray variant and Wallis artwork are unavailable; do not substitute another finish silently.",
+        "5/5 revised views and three same-camera pairs passed independent visual source/material and lighting-continuity review. Physical fit and source availability remain conditional.",
+        "Exact photographed PLINTH III dark-gray variant and Wallis artwork are unavailable; do not substitute another finish silently.",
         "Review checks visible product identity, materials and lighting only. No human design approval or construction-fit certification is implied.",
         "Exact finished sleeping pad 1828.8 × 1981.2 × 50 mm on a continuous flat deck. Bed opening, deck height/support, foam grade and custom fabrication remain supplier-measured conditions; a nominal 2-inch mattress is not exact 50 mm.",
         "Existing short honey parquet and ivory walls retained. Mirror on the perpendicular return between the doors; 75-inch TV on the footwall and split AC at its high window-side corner. Door swings and all seated TV sightlines require physical validation.",
         "Main camera is a disclosed virtual cutaway 1175 mm outside the south wall. Opposite camera is within the native plan. These images are planning concepts, not a surveyed photograph or a construction drawing.",
-        "D3: diffuse daylight, all electrical lights off. N1: selected bedside lamps at 2700 K and downward valance light at 3000 K only. Existing ceiling discs remain off; no new ceiling lights or bulbs.",
+        "D3 remains diffuse daylight. D4 is a golden-hour study from the same opposite camera. N1 turns on the existing circular white ceiling panels visible in each view, alongside selected 2700 K bedside lamps and the 3000 K downward valance wash. The original room photograph shows two circular panels; total room count, off-frame positions, fixture CCT and lumens remain unmeasured.",
         "Davies Beige opaque curtains conceal the old window AC, separate white voile and slim valance. Full installed scope, hardware, controls, exact fabric and blackout performance require written confirmation.",
-        "Each alternative includes two sleeping pillows and two blank owner-photo frames. Common equipment and allowances are included once per alternative, not added across P/Q/R."
+        "Each alternative includes two sleeping pillows and two blank owner-photo frames. Common equipment and allowances are included once per alternative, not added across P/Q/R.",
+        "The omitted plant and P planter allowance retain their product IDs and supplier references as history. The published plant-removal budget excludes floor plants and planters; its figures are preserved without further recalculation."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/93178b0d0f31cab187f728df.png",
+      "hero": "collection-assets/476bea57134cc44f8ab8afca.png",
       "plan": "collection-assets/3d42a5a92f86a685495a057f.svg",
       "views": [
         {
-          "label": "Main · Day",
+          "slot": "Q-main-D3",
+          "image": "collection-assets/476bea57134cc44f8ab8afca.png",
+          "sha256": "476bea57134cc44f8ab8afca7de1498a2d662fd737a20aeefabb2eb70b4a07d1",
+          "sourceSha256": "21f99899b7fbec7b053d025744226936ec6885723d48ae1caf12ed449bc6e548",
+          "label": "Main · D3 day",
           "kind": "main-day",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "93178b0d0f31cab187f728dfb4bed394eab837776201aa5d81cfee1ee2c701c5",
-          "reviewAccepted": true,
-          "image": "collection-assets/93178b0d0f31cab187f728df.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         },
         {
-          "label": "Main · Night",
+          "slot": "Q-main-N1",
+          "image": "collection-assets/362287277787ba2af2dc4bdb.png",
+          "sha256": "362287277787ba2af2dc4bdb72297ca6a9c301ee24155e518c3d487f8c9a82b4",
+          "sourceSha256": "9b44a4969ce77ebedae602c32696c1a4d538c67539c753346cb0d62e147e8ca9",
+          "label": "Main · N1 night",
           "kind": "main-night",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "6512b4b5c7342f33f1d5cf881518db8b0a6f80a53257cf6ed9bc5904062b8eb9",
-          "reviewAccepted": true,
-          "image": "collection-assets/6512b4b5c7342f33f1d5cf88.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         },
         {
-          "label": "Opposite · Day",
+          "slot": "Q-opposite-D3",
+          "image": "collection-assets/4557ce15db47038bcacc1472.png",
+          "sha256": "4557ce15db47038bcacc14725314e52889da81eb209e3be0bd9c6e9d180b6899",
+          "sourceSha256": "759896da8cb81cf11e66e761c1c8f38811a929c3c5d74f777e31351e6c32f83d",
+          "label": "Opposite · D3 day",
           "kind": "opposite-day",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "479e2d673d4f313fa3f47cfb4b65ffa45115544f0f4e3babc308df8249d7517c",
-          "reviewAccepted": true,
-          "image": "collection-assets/479e2d673d4f313fa3f47cfb.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         },
         {
-          "label": "Opposite · Night",
+          "slot": "Q-opposite-D4",
+          "image": "collection-assets/c0143be0c61df5958c1a42b4.png",
+          "sha256": "c0143be0c61df5958c1a42b4b6772e720934ecdec2def243ee2a48cbd103c29e",
+          "sourceSha256": "759896da8cb81cf11e66e761c1c8f38811a929c3c5d74f777e31351e6c32f83d",
+          "label": "Opposite · D4 golden hour",
+          "kind": "opposite-golden",
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
+        },
+        {
+          "slot": "Q-opposite-N1",
+          "image": "collection-assets/950582b4b34d3c869b9d13d8.png",
+          "sha256": "950582b4b34d3c869b9d13d8dbd1cf243ed4fb1126bf19379ce109c268632ec9",
+          "sourceSha256": "0b6e7fb9ea5b7e2ebc207d5930ad71b9671de3f6b9e19a4ef78ac95a2ac01731",
+          "label": "Opposite · N1 night",
           "kind": "opposite-night",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "132157206b204221717efa922274f29d11977cdc2c3d7a6dcbc21027da115f2d",
-          "reviewAccepted": true,
-          "image": "collection-assets/132157206b204221717efa92.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         }
       ],
       "products": [
@@ -1060,7 +1157,7 @@
           "totalCents": 679900,
           "lowCents": null,
           "highCents": null,
-          "status": "Live listing available=True; Cebu stock/address delivery/checkout/installation unresolved.",
+          "status": "Omitted from revised room views; earlier source reference. Live listing available=True; Cebu stock/address delivery/checkout/installation unresolved.",
           "source": "https://crateandbarrel.com.ph/products/potted-faux-agave-sisal-plant?variant=50239578833112",
           "priceDate": "2026-10-21 live official Shopify JSON",
           "variant": "Default Title",
@@ -1069,7 +1166,7 @@
             "Depth": 660.4,
             "Height": 622.3
           },
-          "notes": "Removed from this design at the user's request. Retained only to preserve existing saved-item IDs.",
+          "notes": "Omitted from revised room views; earlier source reference. Removed from this design at the user's request. Retained only to preserve existing saved-item IDs.",
           "commonToSchemes": false,
           "image": "collection-assets/21e73aab8d622fe4fd5385b8.jpg",
           "removedFromDesign": true
@@ -1406,7 +1503,62 @@
         "totalLowCents": 54336425,
         "totalHighCents": 63671648,
         "note": "PHP planning range, not an installed quotation. Dated source figures from 20–21 October 2026; curtain allocation from 16 October. Low includes 10% contingency; high includes 15%. Allowances cover exact mattress/deck, all-vendor delivery, AC installation, mounting/assembly and valance LED integration. Conditional options included only in high range. Stock, fitting and installation require written confirmation. Floor plants and planters are excluded."
-      }
+      },
+      "renderHistory": [
+        {
+          "version": "v001-plant-removal",
+          "hero": "collection-assets/93178b0d0f31cab187f728df.png",
+          "views": [
+            {
+              "label": "Main · Day",
+              "kind": "main-day",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "93178b0d0f31cab187f728dfb4bed394eab837776201aa5d81cfee1ee2c701c5",
+              "reviewAccepted": true,
+              "image": "collection-assets/93178b0d0f31cab187f728df.png"
+            },
+            {
+              "label": "Main · Night",
+              "kind": "main-night",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "6512b4b5c7342f33f1d5cf881518db8b0a6f80a53257cf6ed9bc5904062b8eb9",
+              "reviewAccepted": true,
+              "image": "collection-assets/6512b4b5c7342f33f1d5cf88.png"
+            },
+            {
+              "label": "Opposite · Day",
+              "kind": "opposite-day",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "479e2d673d4f313fa3f47cfb4b65ffa45115544f0f4e3babc308df8249d7517c",
+              "reviewAccepted": true,
+              "image": "collection-assets/479e2d673d4f313fa3f47cfb.png"
+            },
+            {
+              "label": "Opposite · Night",
+              "kind": "opposite-night",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "132157206b204221717efa922274f29d11977cdc2c3d7a6dcbc21027da115f2d",
+              "reviewAccepted": true,
+              "image": "collection-assets/132157206b204221717efa92.png"
+            }
+          ],
+          "reviewNotes": [
+            "4/4 plant-removal edits checked against the previously reviewed designs. Exact photographed PLINTH III dark-gray variant and Wallis artwork are unavailable; do not substitute another finish silently.",
+            "Review checks visible product identity, materials and lighting only. No human design approval or construction-fit certification is implied.",
+            "Exact finished sleeping pad 1828.8 × 1981.2 × 50 mm on a continuous flat deck. Bed opening, deck height/support, foam grade and custom fabrication remain supplier-measured conditions; a nominal 2-inch mattress is not exact 50 mm.",
+            "Existing short honey parquet and ivory walls retained. Mirror on the perpendicular return between the doors; 75-inch TV on the footwall and split AC at its high window-side corner. Door swings and all seated TV sightlines require physical validation.",
+            "Main camera is a disclosed virtual cutaway 1175 mm outside the south wall. Opposite camera is within the native plan. These images are planning concepts, not a surveyed photograph or a construction drawing.",
+            "D3: diffuse daylight, all electrical lights off. N1: selected bedside lamps at 2700 K and downward valance light at 3000 K only. Existing ceiling discs remain off; no new ceiling lights or bulbs.",
+            "Davies Beige opaque curtains conceal the old window AC, separate white voile and slim valance. Full installed scope, hardware, controls, exact fabric and blackout performance require written confirmation.",
+            "Each alternative includes two sleeping pillows and two blank owner-photo frames. Common equipment and allowances are included once per alternative, not added across P/Q/R."
+          ]
+        }
+      ],
+      "renderReviewSha256": "bbaf45f07b49556d6ca16f49f0b4ccb3d2738f59d3b8e105f09485f74fc04d54"
     },
     {
       "id": "astra-pqr-20261021-v001::R",
@@ -1415,61 +1567,82 @@
       "letter": "R",
       "name": "Cane & Ink",
       "date": "2026-10-21",
-      "version": "v001",
-      "status": "REVIEWED_CONCEPT_FIT_CONDITIONAL",
+      "version": "v002-lighting · source set v001",
+      "status": "REVIEWED_V002_LIGHTING_CONCEPT_FIT_CONDITIONAL",
       "isNew": true,
       "reviewAccepted": true,
       "archival": false,
       "summary": "Rounded cane Stockholm bed, light-wood open-shelf bedsides, white reading lamps and broad blue jacquard.",
       "reviewNotes": [
-        "4/4 plant-removal edits checked against the previously reviewed designs. Weyar artwork unavailable; Icon frame page now returns 404, with only a dated price. Raised cane footboard remains visible above the thin sleeping pad.",
+        "5/5 revised views and three same-camera pairs passed independent visual source/material and lighting-continuity review. Physical fit and source availability remain conditional.",
+        "Weyar artwork unavailable; Icon frame page now returns 404, with only a dated price. Raised cane footboard remains visible above the thin sleeping pad.",
         "Review checks visible product identity, materials and lighting only. No human design approval or construction-fit certification is implied.",
         "Exact finished sleeping pad 1828.8 × 1981.2 × 50 mm on a continuous flat deck. Bed opening, deck height/support, foam grade and custom fabrication remain supplier-measured conditions; a nominal 2-inch mattress is not exact 50 mm.",
         "Existing short honey parquet and ivory walls retained. Mirror on the perpendicular return between the doors; 75-inch TV on the footwall and split AC at its high window-side corner. Door swings and all seated TV sightlines require physical validation.",
         "Main camera is a disclosed virtual cutaway 1175 mm outside the south wall. Opposite camera is within the native plan. These images are planning concepts, not a surveyed photograph or a construction drawing.",
-        "D3: diffuse daylight, all electrical lights off. N1: selected bedside lamps at 2700 K and downward valance light at 3000 K only. Existing ceiling discs remain off; no new ceiling lights or bulbs.",
+        "D3 remains diffuse daylight. D4 is a golden-hour study from the same opposite camera. N1 turns on the existing circular white ceiling panels visible in each view, alongside selected 2700 K bedside lamps and the 3000 K downward valance wash. The original room photograph shows two circular panels; total room count, off-frame positions, fixture CCT and lumens remain unmeasured.",
         "Davies Beige opaque curtains conceal the old window AC, separate white voile and slim valance. Full installed scope, hardware, controls, exact fabric and blackout performance require written confirmation.",
-        "Each alternative includes two sleeping pillows and two blank owner-photo frames. Common equipment and allowances are included once per alternative, not added across P/Q/R."
+        "Each alternative includes two sleeping pillows and two blank owner-photo frames. Common equipment and allowances are included once per alternative, not added across P/Q/R.",
+        "The omitted plant and P planter allowance retain their product IDs and supplier references as history. The published plant-removal budget excludes floor plants and planters; its figures are preserved without further recalculation."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/9d77c47db07924fe1d531efd.png",
+      "hero": "collection-assets/8d85d4362c15f5da012fc847.png",
       "plan": "collection-assets/b62b6fe8859d3a19435294a6.svg",
       "views": [
         {
-          "label": "Main · Day",
+          "slot": "R-main-D3",
+          "image": "collection-assets/8d85d4362c15f5da012fc847.png",
+          "sha256": "8d85d4362c15f5da012fc847da1444bbbbd15a21699a15391b6cb2bf3d15a173",
+          "sourceSha256": "74d6a8845e982ab924cc7755fb0c1711df5b9c68d3e25b466d49d443fe3ec858",
+          "label": "Main · D3 day",
           "kind": "main-day",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "9d77c47db07924fe1d531efdbce5a9afcd9315eb0ff8b48ebefba3d47c75d4b1",
-          "reviewAccepted": true,
-          "image": "collection-assets/9d77c47db07924fe1d531efd.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         },
         {
-          "label": "Main · Night",
+          "slot": "R-main-N1",
+          "image": "collection-assets/38f856466f88d05886b14aca.png",
+          "sha256": "38f856466f88d05886b14aca0c1eda4a398a1e64902c4681233ae0aca71f0c55",
+          "sourceSha256": "f7964ad7308ff69e537788a7dd3231644dad63d9d12b5b35f7f523a02360057c",
+          "label": "Main · N1 night",
           "kind": "main-night",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "7fee161c52fb23cdddfc5451042ca1d798338345cf2864b8ff15cc37e7b30c0c",
-          "reviewAccepted": true,
-          "image": "collection-assets/7fee161c52fb23cdddfc5451.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         },
         {
-          "label": "Opposite · Day",
+          "slot": "R-opposite-D3",
+          "image": "collection-assets/5bc853877f2022ae967e7cbd.png",
+          "sha256": "5bc853877f2022ae967e7cbd7264b56058682c1ca4304b3825d234478a82f3dc",
+          "sourceSha256": "70948329bd830e7180f9b8358aba9fce870386e806009dbffd83c7f71a156b39",
+          "label": "Opposite · D3 day",
           "kind": "opposite-day",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "cf7e7c2a712bec8e018f0c3b98c9e804bcedf0692db9e778f0fe3d10ace02fcf",
-          "reviewAccepted": true,
-          "image": "collection-assets/cf7e7c2a712bec8e018f0c3b.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         },
         {
-          "label": "Opposite · Night",
+          "slot": "R-opposite-D4",
+          "image": "collection-assets/2c5d15f3637ff3ace176ec15.png",
+          "sha256": "2c5d15f3637ff3ace176ec15b0fa3b6b9fd43b5de926ea6877a2e7e568a7df80",
+          "sourceSha256": "70948329bd830e7180f9b8358aba9fce870386e806009dbffd83c7f71a156b39",
+          "label": "Opposite · D4 golden hour",
+          "kind": "opposite-golden",
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
+        },
+        {
+          "slot": "R-opposite-N1",
+          "image": "collection-assets/255ca688c1281ce0e8fcbce9.png",
+          "sha256": "255ca688c1281ce0e8fcbce91d057dbb0c77f518944796f92c794e69c3fe7716",
+          "sourceSha256": "c848bf76d6b7059d992cc93c05003fffb5077c4a5c56742b61a3690a7db138e8",
+          "label": "Opposite · N1 night",
           "kind": "opposite-night",
-          "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
-          "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
-          "sha256": "755556d4c81a6c538a34f2401e3b148a29c11af6eafddd12253e8d4ab21a8714",
-          "reviewAccepted": true,
-          "image": "collection-assets/755556d4c81a6c538a34f240.png"
+          "method": "Built-in image generation using earlier source-reviewed views and original room evidence. Revised plant removal and existing-fixture lighting; physical fit remains conditional.",
+          "effectiveStatus": "Passed independent v002 visual source/material and pair review; fit remains conditional",
+          "reviewAccepted": true
         }
       ],
       "products": [
@@ -1748,7 +1921,7 @@
           "totalCents": 919500,
           "lowCents": null,
           "highCents": null,
-          "status": "Live listing available=True; Cebu stock/address delivery/checkout/installation unresolved.",
+          "status": "Omitted from revised room views; earlier source reference. Live listing available=True; Cebu stock/address delivery/checkout/installation unresolved.",
           "source": "https://crateandbarrel.com.ph/products/potted-faux-pencil-cactus-5?variant=49052462842072",
           "priceDate": "2026-10-21 live official Shopify JSON",
           "variant": "Default Title",
@@ -1757,7 +1930,7 @@
             "Depth": 919.48,
             "Height": 1529.08
           },
-          "notes": "Removed from this design at the user's request. Retained only to preserve existing saved-item IDs.",
+          "notes": "Omitted from revised room views; earlier source reference. Removed from this design at the user's request. Retained only to preserve existing saved-item IDs.",
           "commonToSchemes": false,
           "image": "collection-assets/e9dc5ee8b117d38ba08d3958.jpg",
           "removedFromDesign": true
@@ -2094,7 +2267,62 @@
         "totalLowCents": 49677265,
         "totalHighCents": 58800708,
         "note": "PHP planning range, not an installed quotation. Dated source figures from 20–21 October 2026; curtain allocation from 16 October. Low includes 10% contingency; high includes 15%. Allowances cover exact mattress/deck, all-vendor delivery, AC installation, mounting/assembly and valance LED integration. Conditional options included only in high range. Stock, fitting and installation require written confirmation. Floor plants and planters are excluded."
-      }
+      },
+      "renderHistory": [
+        {
+          "version": "v001-plant-removal",
+          "hero": "collection-assets/9d77c47db07924fe1d531efd.png",
+          "views": [
+            {
+              "label": "Main · Day",
+              "kind": "main-day",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "9d77c47db07924fe1d531efdbce5a9afcd9315eb0ff8b48ebefba3d47c75d4b1",
+              "reviewAccepted": true,
+              "image": "collection-assets/9d77c47db07924fe1d531efd.png"
+            },
+            {
+              "label": "Main · Night",
+              "kind": "main-night",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "7fee161c52fb23cdddfc5451042ca1d798338345cf2864b8ff15cc37e7b30c0c",
+              "reviewAccepted": true,
+              "image": "collection-assets/7fee161c52fb23cdddfc5451.png"
+            },
+            {
+              "label": "Opposite · Day",
+              "kind": "opposite-day",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "cf7e7c2a712bec8e018f0c3b98c9e804bcedf0692db9e778f0fe3d10ace02fcf",
+              "reviewAccepted": true,
+              "image": "collection-assets/cf7e7c2a712bec8e018f0c3b.png"
+            },
+            {
+              "label": "Opposite · Night",
+              "kind": "opposite-night",
+              "method": "Floor plant and planter removed. Edit checked against the reviewed furniture, materials and lighting. Physical fit remains conditional.",
+              "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
+              "sha256": "755556d4c81a6c538a34f2401e3b148a29c11af6eafddd12253e8d4ab21a8714",
+              "reviewAccepted": true,
+              "image": "collection-assets/755556d4c81a6c538a34f240.png"
+            }
+          ],
+          "reviewNotes": [
+            "4/4 plant-removal edits checked against the previously reviewed designs. Weyar artwork unavailable; Icon frame page now returns 404, with only a dated price. Raised cane footboard remains visible above the thin sleeping pad.",
+            "Review checks visible product identity, materials and lighting only. No human design approval or construction-fit certification is implied.",
+            "Exact finished sleeping pad 1828.8 × 1981.2 × 50 mm on a continuous flat deck. Bed opening, deck height/support, foam grade and custom fabrication remain supplier-measured conditions; a nominal 2-inch mattress is not exact 50 mm.",
+            "Existing short honey parquet and ivory walls retained. Mirror on the perpendicular return between the doors; 75-inch TV on the footwall and split AC at its high window-side corner. Door swings and all seated TV sightlines require physical validation.",
+            "Main camera is a disclosed virtual cutaway 1175 mm outside the south wall. Opposite camera is within the native plan. These images are planning concepts, not a surveyed photograph or a construction drawing.",
+            "D3: diffuse daylight, all electrical lights off. N1: selected bedside lamps at 2700 K and downward valance light at 3000 K only. Existing ceiling discs remain off; no new ceiling lights or bulbs.",
+            "Davies Beige opaque curtains conceal the old window AC, separate white voile and slim valance. Full installed scope, hardware, controls, exact fabric and blackout performance require written confirmation.",
+            "Each alternative includes two sleeping pillows and two blank owner-photo frames. Common equipment and allowances are included once per alternative, not added across P/Q/R."
+          ]
+        }
+      ],
+      "renderReviewSha256": "bbaf45f07b49556d6ca16f49f0b4ccb3d2738f59d3b8e105f09485f74fc04d54"
     },
     {
       "id": "gpt-abc-initial-draft-20261020:A",
@@ -24695,7 +24923,7 @@
       {
         "namespace": "astra-pqr-20261021-v001",
         "title": "Astra P / Q / R · Walnut Atelier / Amber Cloud / Cane & Ink",
-        "status": "Source/material reviewed concepts; physical fit conditional"
+        "status": "15 v002 revised frames and nine pairs passed independent visual review; source availability and physical fit conditional; v001 history preserved"
       },
       {
         "namespace": "gpt-abc-initial-draft-20261020",
