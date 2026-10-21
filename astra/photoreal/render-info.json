@@ -1,0 +1,103 @@
+{
+  "renderer": "Blender Cycles",
+  "geometry_basis": "Same audited metric model as the dimension-controlled technical views. Material and lighting changes only.",
+  "source_manifest_sha256": "3f82ff0200b932db0e21e5c0166db53920b595be6e3f2a2847318d57734da9de",
+  "coordinate_contract": "Original world geometry, UV mapping for rugs/art and camera projections retained. Materials do not displace the measured meshes.",
+  "limitations": [
+    "A/B 2000 × 2150 mm outer frames remain nominal, not verified Gregory/Seymour dimensions.",
+    "The room follows the supplied drawing; unmeasured heights, internal support and installed AC dimensions remain assumptions.",
+    "Product forms and surface patterns are approximations, not manufacturer CAD."
+  ],
+  "renders": {
+    "A-main": {
+      "file": "A-main.png",
+      "sha256": "4f47f582b74e1a473b357fb8895598e0a8a1cc6ecd0ba7322af7eafea21bcc30",
+      "blender_version": "4.5.9 LTS",
+      "renderer_script_sha256": "998e8ad60678f7ac93edd3285aaecb8cf3c2738b3a353dd0cfe9d6972cf20131",
+      "resolution_px": [
+        1920,
+        1440
+      ],
+      "samples": 384,
+      "geometry_check": "PASS",
+      "maximum_coordinate_error_mm": 0.0002384185791015625,
+      "camera_check": "PASS",
+      "maximum_projection_error_px": 0.0002783848128729005
+    },
+    "A-opposite": {
+      "file": "A-opposite.png",
+      "sha256": "7e19a156d5a02158b4d749816561ddae61d877261ee931e7fe5e808807c4d391",
+      "blender_version": "4.5.9 LTS",
+      "renderer_script_sha256": "998e8ad60678f7ac93edd3285aaecb8cf3c2738b3a353dd0cfe9d6972cf20131",
+      "resolution_px": [
+        1920,
+        1440
+      ],
+      "samples": 384,
+      "geometry_check": "PASS",
+      "maximum_coordinate_error_mm": 0.0002384185791015625,
+      "camera_check": "PASS",
+      "maximum_projection_error_px": 0.00031981634310795926
+    },
+    "B-main": {
+      "file": "B-main.png",
+      "sha256": "9304b231a23431783e4a4daa69046ecf948fac046379c3608fb2705697770280",
+      "blender_version": "4.5.9 LTS",
+      "renderer_script_sha256": "998e8ad60678f7ac93edd3285aaecb8cf3c2738b3a353dd0cfe9d6972cf20131",
+      "resolution_px": [
+        1920,
+        1440
+      ],
+      "samples": 384,
+      "geometry_check": "PASS",
+      "maximum_coordinate_error_mm": 0.0002373009921896596,
+      "camera_check": "PASS",
+      "maximum_projection_error_px": 0.0003045959938390297
+    },
+    "B-opposite": {
+      "file": "B-opposite.png",
+      "sha256": "73c74dd637f30d092cd2b156c181a347e1f2dc8a9540aa71f220d86918ee8a06",
+      "blender_version": "4.5.9 LTS",
+      "renderer_script_sha256": "998e8ad60678f7ac93edd3285aaecb8cf3c2738b3a353dd0cfe9d6972cf20131",
+      "resolution_px": [
+        1920,
+        1440
+      ],
+      "samples": 384,
+      "geometry_check": "PASS",
+      "maximum_coordinate_error_mm": 0.0002373009921896596,
+      "camera_check": "PASS",
+      "maximum_projection_error_px": 0.00033020809132722206
+    },
+    "C-main": {
+      "file": "C-main.png",
+      "sha256": "9ccd49ac270991dd10993c6bebf80ece5f807acadc3db8701a9d046184e19a23",
+      "blender_version": "4.5.9 LTS",
+      "renderer_script_sha256": "998e8ad60678f7ac93edd3285aaecb8cf3c2738b3a353dd0cfe9d6972cf20131",
+      "resolution_px": [
+        1920,
+        1440
+      ],
+      "samples": 384,
+      "geometry_check": "PASS",
+      "maximum_coordinate_error_mm": 0.0002384185791015625,
+      "camera_check": "PASS",
+      "maximum_projection_error_px": 0.0002572164656839959
+    },
+    "C-opposite": {
+      "file": "C-opposite.png",
+      "sha256": "9217efbe989bfd8764a40de97792d94a307f0dfa0e1320174be5ed177117b30b",
+      "blender_version": "4.5.9 LTS",
+      "renderer_script_sha256": "998e8ad60678f7ac93edd3285aaecb8cf3c2738b3a353dd0cfe9d6972cf20131",
+      "resolution_px": [
+        1920,
+        1440
+      ],
+      "samples": 384,
+      "geometry_check": "PASS",
+      "maximum_coordinate_error_mm": 0.0002384185791015625,
+      "camera_check": "PASS",
+      "maximum_projection_error_px": 0.000313117008545305
+    }
+  }
+}
