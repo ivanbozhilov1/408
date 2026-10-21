@@ -1,0 +1,132 @@
+{
+  "method": "Native Cycles render with shaped cloth and detailed furniture; no image-based room restaging.",
+  "layout": "Measured room, furniture outer envelopes and positions, rug size/orientation and 50 mm mattress retained.",
+  "detail": "Bedding is draped within the bed footprint. Rounded furniture, upholstery and seam detail remain within accepted furniture envelopes.",
+  "cameras": "Bed-facing: diagonal from inside room, eye level 1650 mm, 78 degree horizontal FOV. TV-facing: original inside-room camera, 70 degree horizontal FOV.",
+  "limitations": [
+    "A/B outer frames remain nominal 2000 x 2150 mm, not confirmed Gregory/Seymour dimensions.",
+    "Detailed forms, surface finishes and bedding are illustrative; the source room is drawing-derived, not a new site survey."
+  ],
+  "asset_credits": [
+    {
+      "asset": "Stretch Poplin fabric scan",
+      "source": "https://polyhaven.com/a/stretch_poplin",
+      "license": "CC0"
+    },
+    {
+      "asset": "Throw Pillows 01 native mesh and baked normal detail",
+      "source": "https://polyhaven.com/a/throw_pillows_01",
+      "license": "CC0"
+    },
+    {
+      "asset": "European Walnut Veneer 05 scan",
+      "source": "https://polyhaven.com/a/european_walnut_veneer_05",
+      "license": "CC0"
+    },
+    {
+      "asset": "Natural Walnut Veneer scan",
+      "source": "https://polyhaven.com/a/natural_walnut_veneer",
+      "license": "CC0"
+    }
+  ],
+  "texture_note": "Photographic scans and illustrative material textures affect shading only; no generated room image or image-based relocation is used.",
+  "measured_dimensions_sha256": "b8b3c5f1734e5e9c13588783cb4aa8ea8f8cd0b52d85107faf1a4d66a9cbb1da",
+  "renders": {
+    "A-main": {
+      "file": "A-main.png",
+      "sha256": "9f8de7f43564fad9c5206ac0b0382a668dbd269896c8a590974571e7a11533a3",
+      "size_px": [
+        1920,
+        1440
+      ],
+      "samples": 512,
+      "renderer_sha256": "be6ac60803841252eb4ef4ac8bfaca56c3740bb97e305c2fd326e8f90528cb02",
+      "detail_module_hashes": {
+        "bedding_detail.py": "89bafca507f0949b6d2d2b9fd9d43f79da3239a543f3782bda44f0d2fb9d4dd7",
+        "furniture_detail.py": "708dce0ca5a8b9d9076df58cdc2e22a0bd7703a1b4699919cd4363a9c8bc43cc",
+        "photographic_finish.py": "d0709d54160f66013deb27c0e7e5c72d6cde21c5a0776c7df2487ca612bddf92",
+        "wardrobe_finish.py": "bb83b9f12b7576eca6eaadc5f9eb4d4cdbaae4cf4b9be0347d5b0cc8d6980c3d"
+      }
+    },
+    "A-opposite": {
+      "file": "A-opposite.png",
+      "sha256": "2c38cbc5bc378419b3f5fe1eee97100883b5ebb21f2c44ad8a042d17522af36f",
+      "size_px": [
+        1920,
+        1440
+      ],
+      "samples": 512,
+      "renderer_sha256": "be6ac60803841252eb4ef4ac8bfaca56c3740bb97e305c2fd326e8f90528cb02",
+      "detail_module_hashes": {
+        "bedding_detail.py": "89bafca507f0949b6d2d2b9fd9d43f79da3239a543f3782bda44f0d2fb9d4dd7",
+        "furniture_detail.py": "708dce0ca5a8b9d9076df58cdc2e22a0bd7703a1b4699919cd4363a9c8bc43cc",
+        "photographic_finish.py": "d0709d54160f66013deb27c0e7e5c72d6cde21c5a0776c7df2487ca612bddf92",
+        "wardrobe_finish.py": "bb83b9f12b7576eca6eaadc5f9eb4d4cdbaae4cf4b9be0347d5b0cc8d6980c3d"
+      }
+    },
+    "B-main": {
+      "file": "B-main.png",
+      "sha256": "3a2079f5ab88a0a788719771ee2a5473f51948176875b1e630963117c3c614f7",
+      "size_px": [
+        1920,
+        1440
+      ],
+      "samples": 512,
+      "renderer_sha256": "be6ac60803841252eb4ef4ac8bfaca56c3740bb97e305c2fd326e8f90528cb02",
+      "detail_module_hashes": {
+        "bedding_detail.py": "89bafca507f0949b6d2d2b9fd9d43f79da3239a543f3782bda44f0d2fb9d4dd7",
+        "furniture_detail.py": "708dce0ca5a8b9d9076df58cdc2e22a0bd7703a1b4699919cd4363a9c8bc43cc",
+        "photographic_finish.py": "d0709d54160f66013deb27c0e7e5c72d6cde21c5a0776c7df2487ca612bddf92",
+        "wardrobe_finish.py": "bb83b9f12b7576eca6eaadc5f9eb4d4cdbaae4cf4b9be0347d5b0cc8d6980c3d"
+      }
+    },
+    "B-opposite": {
+      "file": "B-opposite.png",
+      "sha256": "36e124f2e9d91d2a55cb1c1d9eb3f585792441b24855f12a81f2dd4edbad39c9",
+      "size_px": [
+        1920,
+        1440
+      ],
+      "samples": 512,
+      "renderer_sha256": "be6ac60803841252eb4ef4ac8bfaca56c3740bb97e305c2fd326e8f90528cb02",
+      "detail_module_hashes": {
+        "bedding_detail.py": "89bafca507f0949b6d2d2b9fd9d43f79da3239a543f3782bda44f0d2fb9d4dd7",
+        "furniture_detail.py": "708dce0ca5a8b9d9076df58cdc2e22a0bd7703a1b4699919cd4363a9c8bc43cc",
+        "photographic_finish.py": "d0709d54160f66013deb27c0e7e5c72d6cde21c5a0776c7df2487ca612bddf92",
+        "wardrobe_finish.py": "bb83b9f12b7576eca6eaadc5f9eb4d4cdbaae4cf4b9be0347d5b0cc8d6980c3d"
+      }
+    },
+    "C-main": {
+      "file": "C-main.png",
+      "sha256": "84ca82469ba357bd5363c46e786a7aae027c782c1ae1a28042667e894d52b9d4",
+      "size_px": [
+        1920,
+        1440
+      ],
+      "samples": 512,
+      "renderer_sha256": "be6ac60803841252eb4ef4ac8bfaca56c3740bb97e305c2fd326e8f90528cb02",
+      "detail_module_hashes": {
+        "bedding_detail.py": "89bafca507f0949b6d2d2b9fd9d43f79da3239a543f3782bda44f0d2fb9d4dd7",
+        "furniture_detail.py": "708dce0ca5a8b9d9076df58cdc2e22a0bd7703a1b4699919cd4363a9c8bc43cc",
+        "photographic_finish.py": "d0709d54160f66013deb27c0e7e5c72d6cde21c5a0776c7df2487ca612bddf92",
+        "wardrobe_finish.py": "bb83b9f12b7576eca6eaadc5f9eb4d4cdbaae4cf4b9be0347d5b0cc8d6980c3d"
+      }
+    },
+    "C-opposite": {
+      "file": "C-opposite.png",
+      "sha256": "62283d272f45d2399a90142b9a6f5dd2277a746b7e632d426557bb1ff02bc74e",
+      "size_px": [
+        1920,
+        1440
+      ],
+      "samples": 512,
+      "renderer_sha256": "be6ac60803841252eb4ef4ac8bfaca56c3740bb97e305c2fd326e8f90528cb02",
+      "detail_module_hashes": {
+        "bedding_detail.py": "89bafca507f0949b6d2d2b9fd9d43f79da3239a543f3782bda44f0d2fb9d4dd7",
+        "furniture_detail.py": "708dce0ca5a8b9d9076df58cdc2e22a0bd7703a1b4699919cd4363a9c8bc43cc",
+        "photographic_finish.py": "d0709d54160f66013deb27c0e7e5c72d6cde21c5a0776c7df2487ca612bddf92",
+        "wardrobe_finish.py": "bb83b9f12b7576eca6eaadc5f9eb4d4cdbaae4cf4b9be0347d5b0cc8d6980c3d"
+      }
+    }
+  }
+}
