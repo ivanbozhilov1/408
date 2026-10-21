@@ -1,5 +1,9 @@
 # Isah’s shared picks
 
+The main `index.html` shows all GPT/Astra and Claude/Fable designs together. Its `collection.js` shortlist saves only in the current browser and supports explicit export/import. It does not write to this shared service. Use its **Shared shortlist** link for synchronized preferences, exclusions and the regeneration brief.
+
+The original D/E/F page is preserved at `fable-def.html`; G/H/I, J/K/L and M/N/O retain their original folders. Existing root private-access links, shared-item links and D/E/F picks links route to `fable-def.html` with the fragment preserved. The patch tool targets this preserved page and keeps all243 shared item IDs unchanged. The unified collection runtime, images and product data remain separate and unchanged.
+
 ## Exclusions and the next design
 
 The D/E/F, G/H/I, J/K/L and M/N/O schedules also let the editor exclude a product, its family and selected characteristics. Exclusions sync alongside stars, can be edited, and can be explicitly restored to neutral. A delayed offline star or unstar cannot remove a newer exclusion. Restore uses the current saved revision. The separate Astra presentation currently has no item controls.
@@ -20,7 +24,7 @@ Preserve the existing render assets and the shared-picks changes. After adding o
 
 ```sh
 python ops/picks/patch_gallery.py . --api https://seo.cebugrandrealty.com:8443/api/picks --catalog ops/picks/catalog.json
-python -m unittest discover -s ops/picks -p test_server.py -v
+python -m unittest discover -s ops/picks -p 'test_*.py' -v
 node --test ops/picks/test_preferences.mjs
 ```
 
@@ -34,4 +38,4 @@ The HTTPS sidecar receives only a scoped certificate/key copy for the existing h
 
 Before changing persisted data, export through the authenticated GET `/api/picks` or make a SQLite backup. To stop sync, stop only the `unit408-picks` Compose project using its base and HTTPS override files, and disable only its certificate-refresh timer. Keep its data volume. Reverting the sync release restores browser-only stars; retain the deployment data and private links for recovery. Rotate the two capability credentials only through a separate explicit owner request.
 
-Verification for this release includes20 backend tests,11 isolated browser workflows, independent code/privacy review, and separate live checks recorded by the deploying task. Private links and raw user choices do not belong in public test reports.
+Verification covers the backend and patch-regression suites above, matching/generation tests, and isolated browser checks for both the unified collection and shared exclusions. Record release-specific results and any separate live checks with the deploying task. Private links and raw user choices do not belong in public test reports.

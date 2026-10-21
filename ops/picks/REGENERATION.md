@@ -6,13 +6,13 @@ Let Isah mark furniture as preferred, neutral or excluded. An exclusion must pre
 
 ## Using the gallery
 
-Open the existing private editing link and choose **Exclude** beside a furniture item. The dialog always excludes the same product and family across the supported sets. Each checked characteristic independently excludes that characteristic in the same furniture category; for example, an arched mirror rule does not exclude round tables. The traits are visible, conservative suggestions derived from product metadata. Uncheck any characteristic that is not the reason for rejection. Use the note for details missing from the metadata.
+Open the existing private editing link, or use **Shared shortlist** from the unified collection, and choose **Exclude** beside a furniture item. Existing root access links route to the preserved D/E/F page at `fable-def.html`. The dialog always excludes the same product and family across the supported sets. Each checked characteristic independently excludes that characteristic in the same furniture category; for example, an arched mirror rule does not exclude round tables. The traits are visible, conservative suggestions derived from product metadata. Uncheck any characteristic that is not the reason for rejection. Use the note for details missing from the metadata.
 
 The excluded list has **Edit** and **Restore** controls. Restore returns an item to neutral; star it separately to prefer it. Restore checks the saved revision, so an old offline tab cannot undo a newer exclusion. Other products matching a saved exclusion show why they are blocked. If an already preferred product now conflicts, resolve it by un-starring the product or changing the exclusion before export.
 
 Preferences use the existing authenticated shared service. Viewers can inspect and export but cannot change decisions. Browser changes queue while offline. **Prepare regeneration brief** fetches a fresh snapshot, requires the exclusion-capable service, and refuses an export with queued changes, unresolved identities or conflicting preferences. The download contains product information and choices, never access credentials. Keep this personal preference file private.
 
-Controls are integrated into the existing D/E/F, G/H/I, J/K/L and M/N/O item schedules. The separate Astra A/B/C presentation has no shared item controls and is preserved. A future Astra adapter needs its own item metadata and schedule integration before its items can be selected here.
+Controls are integrated into the existing D/E/F, G/H/I, J/K/L and M/N/O item schedules. The unified collection's separate browser-only saved pieces and the Astra presentations are preserved. They do not automatically become shared preferences. A future adapter needs its own item identity mapping and schedule integration before those items can be selected here.
 
 ## Regeneration workflow
 

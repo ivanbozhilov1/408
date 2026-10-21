@@ -14,6 +14,11 @@ END = '// END UNIT408 SHARED PICKS\n'
 
 def patch(gallery: Path, endpoint: str, catalog_path: Path) -> list[str]:
     pages = sorted(gallery.glob('**/index.html'))
+    legacy_root = gallery / 'fable-def.html'
+    if legacy_root.exists():
+        # The unified collection has its own runtime; preserve its root page.
+        # The DEF schedule retains its existing IDs at this compatibility route.
+        pages = [legacy_root if page == gallery / 'index.html' else page for page in pages]
     pages = [page for page in pages if '.git' not in page.parts and (page.parent / 'site.js').exists()]
     catalog = []
     boards = {}
@@ -36,7 +41,7 @@ def patch(gallery: Path, endpoint: str, catalog_path: Path) -> list[str]:
             item_id = unescape(row[1])
             catalog.append({'id': f'{board}:{item_id}', 'board': board, 'label': label,
                             'name': unescape(re.sub('<[^>]+>', '', name[1])),
-                            'url': '/bedroom-design-options/' + ('' if board == 'def' else board + '/') + '?shared-picks=1#row-' + item_id,
+                            'url': '/bedroom-design-options/' + (('fable-def.html' if legacy_root.exists() else '') if board == 'def' else board + '/') + '?shared-picks=1#row-' + item_id,
                             'product': {key: value for key, value in products.get(item_id, {}).items()
                                         if key in ('id', 'role', 'name', 'brand', 'sku', 'variant', 'family', 'url', 'scope', 'materials', 'dimensions')}})
     if not catalog or len({item['id'] for item in catalog}) != len(catalog):
