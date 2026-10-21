@@ -1,5 +1,9 @@
 # Isah’s shared picks
 
+The main `index.html` now shows all GPT/Astra and Claude/Fable designs together. Its `collection.js` shortlist saves only in the current browser and supports explicit export/import. It does not write to this shared service. The page links to the existing shared shortlist.
+
+The original D/E/F page is preserved at `fable-def.html`; G/H/I, J/K/L and M/N/O retain their original folders. Existing root private-access links, shared-item links and D/E/F picks links route to `fable-def.html` with the fragment preserved. The patch tool targets this preserved page and keeps all243 shared item IDs unchanged. No service catalogue expansion or server change was required for the combined gallery.
+
 Each browser connects once through its private access link. The editing link belongs to Isah; the viewing link shows her choices and cannot change them. Access links are delivered privately and never stored in this repository. Without a private connection, the original browser-only stars still work.
 
 Connected pages refresh every five seconds while visible. Item changes are queued locally if the API is unavailable and retry automatically. The first editor connection adds the browser’s existing stars to the shared list. It never replaces the shared list with a local snapshot. Selections from other design sets appear below the current set’s shortlist. Disconnect restores that browser’s original local list.
