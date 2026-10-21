@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-800 -780 6800 5650" role="img" aria-labelledby="title desc">
+<title id="title">B · dimensioned bedroom layout</title><desc id="desc">Native irregular room outline, furniture footprints, rug long axis perpendicular to wardrobe, door swings. Dimensions in millimetres. Drawing-derived, with nominal A/B beds.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10Z" fill="#496c71"/></marker></defs>
+<rect x="-800" y="-780" width="6800" height="5650" fill="#faf8f3"/>
+<style>text{font-family:Arial,sans-serif;fill:#24363a;font-size:105px}.small{font-size:85px}.dim{stroke:#496c71;stroke-width:7;marker-start:url(#arrow);marker-end:url(#arrow)}.outline{stroke:#24363a;stroke-width:18}.guide{stroke:#496c71;stroke-width:6;stroke-dasharray:28 20}</style>
+<text x="0" y="-590" class="" text-anchor="start">B+ · Sage &amp; Soft Oak Retreat</text>
+<text x="0" y="-440" class="small" text-anchor="start">Dimensions in mm · orthographic plan · source and assumptions below</text>
+<line x1="0" y1="-220" x2="5270" y2="-220" class="dim"/>
+<text x="2635" y="-270" class="" text-anchor="middle">5,270 reference span · irregular room</text>
+<polygon points="0.0,-1.693201 4856.799936,-1.693201 4856.799936,150.70093 5270.0,150.70093 5270.0,3764.139433 4829.704201,3764.139433 4829.704201,3925.0 1793.358199,3925.0 1793.358199,3865.735376 411.507549,3865.735376 411.507549,2306.233826 733.261873,2306.233826 733.261873,2158.919299 0.0,2158.919299" fill="#eeebe2" class="outline"/>
+<rect x="5100" y="150.70093" width="170" height="3613.438503" fill="#dbddd4" stroke="#54676a" stroke-width="9" stroke-dasharray="25 20"/>
+<rect x="1450" y="950" width="3000" height="2000" fill="#ded4c2" stroke="#54676a" stroke-width="9"/>
+<rect x="1950.0" y="160" width="2000" height="2150" fill="#bdafa0" stroke="#54676a" stroke-width="9"/>
+<text x="2950.0" y="1420" class="" text-anchor="middle">Bed 2,000 × 2,150</text>
+<text x="2950.0" y="1570" class="small" text-anchor="middle">nominal outer frame</text>
+<rect x="2035.6" y="240" width="1828.8" height="1981.2" fill="none" stroke="#ffffff" stroke-width="9"/>
+<rect x="1300.0" y="200" width="550" height="420" fill="#bfa987" stroke="#54676a" stroke-width="9"/>
+<text x="1575.0" y="440.0" class="small" text-anchor="middle">NS</text>
+<rect x="4050.0" y="200" width="550" height="420" fill="#bfa987" stroke="#54676a" stroke-width="9"/>
+<text x="4325.0" y="440.0" class="small" text-anchor="middle">NS</text>
+<rect x="3950" y="3020" width="780" height="740" fill="#b0beb7" stroke="#54676a" stroke-width="9"/>
+<text x="4340.0" y="3390.0" class="small" text-anchor="middle">Chair</text>
+<rect x="2300.0" y="3530" width="1300" height="395" fill="#bfa987" stroke="#54676a" stroke-width="9"/>
+<text x="2950" y="3752.5" class="small" text-anchor="middle">Console</text>
+<line x1="2950" y1="-15" x2="2950" y2="3970" class="guide"/>
+<rect x="0.0" y="-1.693201" width="599.480016" height="2160.6125" fill="#d9dad7" stroke="#54676a" stroke-width="9"/>
+<text x="295" y="1080" text-anchor="middle" transform="rotate(-90 295 1080)">Wardrobe front runs head-to-foot</text>
+<line x1="600" y1="1080" x2="1350" y2="1080" class="dim"/>
+<path d="M600,1080h130v130" fill="none" stroke="#496c71" stroke-width="10"/>
+<text x="950" y="1010" class="" text-anchor="middle">90°</text>
+<line x1="1530" y1="2770" x2="4370" y2="2770" class="dim"/>
+<text x="2950" y="2680" class="" text-anchor="middle">Rug 3,000 × 2,000</text>
+<text x="2950" y="2910" class="small" text-anchor="middle">Long edge perpendicular to wardrobe</text>
+<path d="M1684.8863190000002,3865.735376 A878.8067020000003,878.8067020000003 0 0 0 806.079617,2986.928674" fill="none" class="guide"/>
+<line x1="806.079617" y1="3865.735376" x2="806.079617" y2="2986.928674" class="outline"/>
+<path d="M262.484448,2356.953139 A768.823627,768.823627 0 0 0 -506.339179,3125.776766" fill="none" class="guide"/>
+<line x1="262.484448" y1="3125.776766" x2="-506.339179" y2="3125.776766" class="outline"/>
+<text x="1100" y="4120" class="small" text-anchor="middle">Hall door</text>
+<text x="120" y="2630" class="small" text-anchor="middle">Bath</text>
+<line x1="5520" y1="0" x2="5520" y2="3925" class="dim"/>
+<text x="5650" y="1960" text-anchor="middle" transform="rotate(90 5650 1960)">3,925 reference depth · returns retained</text>
+<text x="0" y="4400" class="" text-anchor="start">Rug exposed each side 500 · beyond bed foot 640 · bedside gaps 100 each</text>
+<text x="0" y="4580" class="small" text-anchor="start">Dashed areas: door swings / curtain reserve. Bed, rug, art, TV and console share centre line.</text>
+<text x="0" y="4750" class="small" text-anchor="start">Model dimensions are controlled. Site survey, unmeasured heights and exact A/B bed products remain unverified.</text>
+</svg>

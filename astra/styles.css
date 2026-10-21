@@ -30,3 +30,12 @@ html{scroll-padding-top:10rem}
   .astra-navigation .scheme-nav a{min-height:60px;padding:.5rem;text-align:center}
 }
 @media print{.astra-header{display:none}}
+
+/* Drawing-based layout evidence accompanies every technical view. */
+.measured-layout{margin:2rem 0 3rem;padding:1.5rem;background:var(--surface);border:1px solid var(--line)}
+.measured-layout h3{margin-bottom:.75rem}.measured-layout>p{font-size:.85rem;line-height:1.6;max-width:950px}
+.measured-plan{display:block;width:100%;max-width:1000px;height:auto;margin:1.5rem auto;background:#faf8f3}
+.dimensions-scroll{overflow-x:auto;margin:1.5rem 0}.dimension-table{width:100%;border-collapse:collapse;font-size:.8rem;text-align:left}
+.dimension-table caption{text-align:left;padding-bottom:.75rem;color:var(--muted)}.dimension-table th,.dimension-table td{padding:.75rem;border-bottom:1px solid var(--line);vertical-align:top}.dimension-table td:nth-child(2){white-space:nowrap}
+.measurement-note{color:var(--muted)}.measurement-basis{margin:3rem 0;padding:2rem;border:1px solid var(--line)}.measurement-basis h2{margin-bottom:1rem}.measurement-basis p,.measurement-basis li{font-size:.85rem;line-height:1.7}.measurement-basis ul{padding-left:1.2rem}.measurement-basis li{margin:.75rem 0}
+@media(max-width:760px){.measured-layout,.measurement-basis{padding:1rem}.dimension-table{font-size:.7rem}.dimension-table th,.dimension-table td{padding:.55rem}}
