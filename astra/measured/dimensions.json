@@ -1,0 +1,821 @@
+{
+  "version": "astra-measured-2026-10-21-v1",
+  "units": "mm",
+  "coordinate_system": "native x right, plan y head-to-foot; Three x,height,plan-y in metres",
+  "floor_polygon_mm": [
+    [
+      0.0,
+      -1.693201
+    ],
+    [
+      4856.799936,
+      -1.693201
+    ],
+    [
+      4856.799936,
+      150.70093
+    ],
+    [
+      5270.0,
+      150.70093
+    ],
+    [
+      5270.0,
+      3764.139433
+    ],
+    [
+      4829.704201,
+      3764.139433
+    ],
+    [
+      4829.704201,
+      3925.0
+    ],
+    [
+      1793.358199,
+      3925.0
+    ],
+    [
+      1793.358199,
+      3865.735376
+    ],
+    [
+      411.507549,
+      3865.735376
+    ],
+    [
+      411.507549,
+      2306.233826
+    ],
+    [
+      733.261873,
+      2306.233826
+    ],
+    [
+      733.261873,
+      2158.919299
+    ],
+    [
+      0.0,
+      2158.919299
+    ]
+  ],
+  "closet_rect_mm": [
+    0.0,
+    -1.693201,
+    599.480016,
+    2160.6125
+  ],
+  "window_endpoints_mm": [
+    [
+      5270.0,
+      150.70093
+    ],
+    [
+      5270.0,
+      3764.139433
+    ]
+  ],
+  "layouts": {
+    "A": {
+      "title": "Walnut & Rust Atelier",
+      "centreline_x_mm": 2950,
+      "bed": {
+        "rect_mm": [
+          1950.0,
+          160,
+          2000,
+          2150
+        ],
+        "width": 2000,
+        "depth": 2150,
+        "height": 1000,
+        "deck_top_mm": 450,
+        "status": "owner_authorized_nominal_outer_frame"
+      },
+      "rug": {
+        "rect_mm": [
+          1500.04,
+          950,
+          2899.92,
+          2000
+        ],
+        "thickness_mm": 8.89,
+        "thickness_status": "published"
+      },
+      "bedsides": [
+        [
+          1370.0,
+          200,
+          480,
+          398
+        ],
+        [
+          4050.0,
+          200,
+          480,
+          398
+        ]
+      ],
+      "nightstand": {
+        "width": 480,
+        "depth": 398,
+        "height": 595
+      },
+      "chair": {
+        "width": 580,
+        "depth": 590,
+        "height": 790,
+        "rect_mm": [
+          4420,
+          3020,
+          580,
+          590
+        ],
+        "rotation_deg": 180,
+        "orientation": "faces_head_wall; axis_aligned_footprint"
+      },
+      "console": {
+        "width": 1200,
+        "depth": 396,
+        "height": 463,
+        "rect_mm": [
+          2350.0,
+          3529,
+          1200,
+          396
+        ]
+      },
+      "lamp": {
+        "width": 250,
+        "depth": 250,
+        "height": 450
+      },
+      "art": {
+        "width": 700,
+        "height": 700,
+        "bottom_mm": 1150,
+        "depth_mm": 35,
+        "external_frame_status": "curated_size_not_freshly_verified"
+      },
+      "mirror": {
+        "width": 600,
+        "height": 900,
+        "depth": 30,
+        "x": 411.507549,
+        "y": 3220.3083484999997,
+        "bottom": 650,
+        "status": "A_axes_and_all_projection_assumed"
+      },
+      "assets": {
+        "rug": {
+          "product": "R5005135 Rug",
+          "id": "PRD-ASTRA-AF-R5005135",
+          "url": "https://store.ashleyfurniture.ph/products/r5005135-rug?variant=49921657667870",
+          "sha256": "2c788730f982cf66115ac9215be49203a10d66226848d5bb09f5f6bcf547c939"
+        },
+        "art": {
+          "product": "BRANCH 03 WITH OAK FRAME",
+          "id": "PRD-DS-9647715254557",
+          "url": "https://www.designstory.com.ph/products/branch-03?variant=49403671118109",
+          "sha256": "fb847d5537859e6af1a97bf3b8ad84f18b024dd080b179b7a6bcae7a27d01d10"
+        }
+      }
+    },
+    "B": {
+      "title": "Sage & Soft Oak Retreat",
+      "centreline_x_mm": 2950,
+      "bed": {
+        "rect_mm": [
+          1950.0,
+          160,
+          2000,
+          2150
+        ],
+        "width": 2000,
+        "depth": 2150,
+        "height": 1100,
+        "deck_top_mm": 450,
+        "status": "owner_authorized_nominal_outer_frame"
+      },
+      "rug": {
+        "rect_mm": [
+          1450,
+          950,
+          3000,
+          2000
+        ],
+        "thickness_mm": 18,
+        "thickness_status": "published"
+      },
+      "bedsides": [
+        [
+          1300.0,
+          200,
+          550,
+          420
+        ],
+        [
+          4050.0,
+          200,
+          550,
+          420
+        ]
+      ],
+      "nightstand": {
+        "width": 550,
+        "depth": 420,
+        "height": 600
+      },
+      "chair": {
+        "width": 780,
+        "depth": 740,
+        "height": 830,
+        "rect_mm": [
+          3950,
+          3020,
+          780,
+          740
+        ],
+        "rotation_deg": 180,
+        "orientation": "faces_head_wall; axis_aligned_footprint"
+      },
+      "console": {
+        "width": 1300,
+        "depth": 395,
+        "height": 540,
+        "rect_mm": [
+          2300.0,
+          3530,
+          1300,
+          395
+        ]
+      },
+      "lamp": {
+        "width": 260,
+        "depth": 260,
+        "height": 280
+      },
+      "art": {
+        "width": 900,
+        "height": 1200,
+        "bottom_mm": 1250,
+        "depth_mm": 35,
+        "external_frame_status": "curated_dimensions"
+      },
+      "mirror": {
+        "width": 400,
+        "height": 800,
+        "depth": 30,
+        "x": 411.507549,
+        "y": 3320.3083484999997,
+        "bottom": 900,
+        "status": "published_width_height_projection_assumed"
+      },
+      "assets": {
+        "rug": {
+          "product": "STOENSE off-white rug 200x300cm [00426809]",
+          "id": "PRD-IKEA-X2-00426809",
+          "url": "https://www.ikea.com/ph/en/p/stoense-rug-low-pile-off-white-00426809/",
+          "sha256": "1f0ffaba22b38770b1e1af824e29a102570715cba4d529e188d0ec7bf9a57442"
+        },
+        "art": {
+          "product": "Perfect Pieces Green Pastures",
+          "id": "PRD-ASTRA-OH-9559494525169",
+          "url": "https://ourhome.ph/products/perfect-pieces-green-pastures?variant=48060364226801",
+          "sha256": "bc9d809910d5cd4c16fde8d0ad95122d7e91db57743020f822d384ec59598c7b"
+        }
+      }
+    },
+    "C": {
+      "title": "Indigo & Oak Salon",
+      "centreline_x_mm": 2950,
+      "bed": {
+        "rect_mm": [
+          1997.5,
+          160,
+          1905,
+          2146.3
+        ],
+        "width": 1905,
+        "depth": 2146.3,
+        "height": 1244.6,
+        "deck_top_mm": 450,
+        "status": "published_outer_frame_internal_support_assumed"
+      },
+      "rug": {
+        "rect_mm": [
+          1500,
+          950,
+          2900,
+          2000
+        ],
+        "thickness_mm": 10,
+        "thickness_status": "assumed"
+      },
+      "bedsides": [
+        [
+          1487.5,
+          200,
+          410,
+          410
+        ],
+        [
+          4002.5,
+          200,
+          410,
+          410
+        ]
+      ],
+      "nightstand": {
+        "width": 410,
+        "depth": 410,
+        "height": 500
+      },
+      "chair": {
+        "width": 690,
+        "depth": 700,
+        "height": 840,
+        "rect_mm": [
+          4310,
+          2990,
+          690,
+          700
+        ],
+        "rotation_deg": 180,
+        "orientation": "faces_head_wall; axis_aligned_footprint"
+      },
+      "console": {
+        "width": 1214,
+        "depth": 421,
+        "height": 451,
+        "rect_mm": [
+          2343.0,
+          3504,
+          1214,
+          421
+        ]
+      },
+      "lamp": {
+        "width": 240,
+        "depth": 240,
+        "height": 330
+      },
+      "art": {
+        "width": 300,
+        "height": 400,
+        "bottom_mm": 1394.6,
+        "depth_mm": 35,
+        "external_frame_status": "curated_size_not_freshly_verified"
+      },
+      "mirror": {
+        "width": 400,
+        "height": 1300,
+        "depth": 30,
+        "x": 411.507549,
+        "y": 3320.3083484999997,
+        "bottom": 650,
+        "status": "published_width_height_projection_assumed"
+      },
+      "assets": {
+        "rug": {
+          "product": "Metro Weave Carpet by Francis Libiran 200x290cm [39242457]",
+          "id": "PRD-OURHOME-39242457",
+          "url": "https://ourhome.ph/products/metro-weave?variant=47562107027697",
+          "sha256": "2941303fc244cb369bcf8d5e908cd7a97a0833cce4cd91ef608131df94df2b6c"
+        },
+        "art": {
+          "product": "The Blue Cape by Amelie Hegardt",
+          "id": "PRD-DS-9264171155741",
+          "url": "https://www.designstory.com.ph/products/the-blue-cape?variant=48368607822109",
+          "sha256": "957719821237fdd400df823975109ca24ba64e171ca84cf7b77423b3a142d642"
+        }
+      }
+    }
+  },
+  "mattress": {
+    "width": 1828.8,
+    "depth": 1981.2,
+    "height": 50,
+    "support": "continuous_flat",
+    "deck_top_mm": 450
+  },
+  "tv": {
+    "width": 1668.1,
+    "height": 957.8,
+    "depth": 77,
+    "centre_x": 2950,
+    "bottom_mm": 800,
+    "mounting_status": "wall_mount_and_elevation_assumed"
+  },
+  "ac": {
+    "width": 790,
+    "depth": 192,
+    "height": 275,
+    "x": 3955,
+    "y": 3733,
+    "bottom_mm": 2200,
+    "status": "provisional_envelope_not_confirmed_installed_unit"
+  },
+  "cameras": {
+    "units": "mm",
+    "fixed_across_schemes": true,
+    "horizontal_fov_degrees": 70,
+    "perspective_vertical_fov_degrees": 55.412927352596554,
+    "viewport_px": [
+      1920,
+      1440
+    ],
+    "screenshot_px": [
+      1920,
+      1440
+    ],
+    "main": {
+      "type": "perspective",
+      "position_mm": [
+        2950,
+        2300,
+        6500
+      ],
+      "target_mm": [
+        2950,
+        800,
+        1800
+      ],
+      "note": "Virtual exterior cutaway: camera2575mm beyond foot wall; foot wall/TV/AC/console hidden for framing. Physical room footprint unchanged."
+    },
+    "opposite": {
+      "type": "perspective",
+      "position_mm": [
+        5000,
+        1550,
+        175
+      ],
+      "target_mm": [
+        2760,
+        1350,
+        3400
+      ],
+      "note": "Virtual eye1550mm near northeast floor corner, 70deg horizontal FOV. Physical standing clearance is not claimed."
+    }
+  },
+  "assumptions": [
+    "A/B2000x2150mm nominal king outerframes authorized by user; not verified Gregory/Seymour product dimensions.",
+    "A headboard1000mm and B1100mm assumed; C1244.6mm published. All internal frame/support geometry and450mm deck elevation are planning assumptions.",
+    "Room outline drawing-derived, not a physical site survey. Ceiling2700, window sill900/head2350, wardrobe2600 and curtain reserve170mm are assumptions.",
+    "Furniture outer sizes control meshes; detailed silhouettes/materials are source-informed approximations, not factory CAD.",
+    "Chairs and consoles face the head wall at180deg; their rectangular footprints stay axis-aligned. All bed/rug/artwork/TV/console axes x2950; bedside gaps100mm each.",
+    "Rug textures use source images; pile/underlay, textile folds and original parquet block scale are not physically surveyed."
+  ],
+  "doors": [
+    {
+      "id": "D-S",
+      "hinge_mm": [
+        806.079617,
+        3865.735376
+      ],
+      "open_leaf_end_mm": [
+        806.079617,
+        2986.928674
+      ],
+      "clear_jamb_gap_derived_mm": 877.204847,
+      "swing": "inward into master; hinge west/plan-left"
+    },
+    {
+      "id": "D-W",
+      "hinge_mm": [
+        262.484448,
+        3125.776766
+      ],
+      "open_leaf_end_mm": [
+        -506.339179,
+        3125.776766
+      ],
+      "clear_jamb_gap_derived_mm": 768.744752,
+      "swing": "out of bedroom toward plan-left/west; hinge at south/lower jamb"
+    }
+  ],
+  "render_sha256": {
+    "A-main.png": "373254b7a6ba0e0bb92558a1028db47edfc1dc12abdf4444c9a1755fe5760e29",
+    "A-opposite.png": "8797897526c052a1b00a473d0089811d57daa4d3d7c3151245c995c82280343f",
+    "B-main.png": "0e7f091023071a27c61acad45a14bd43c6d9a1ba5df6c2e0714fc3691bb9f30c",
+    "B-opposite.png": "eea5f92e32de2f31500155e0f88ab531dd7ceafd9ef81c21c8d82c363f48e9bf",
+    "C-main.png": "303ef6c3be833c9f132b39af5980100e7e303bb18e5e05a255919748e002d3e6",
+    "C-opposite.png": "1a52e851238986e29f30535578d24df8d3504a1956638c2e2428d7d5381be78c"
+  },
+  "dimension_sources": [
+    {
+      "id": "PRD-ASTRA-MF-7916368298162",
+      "name": "Haru Side Table",
+      "role": "nightstand",
+      "url": "https://mandauefoam.ph/products/haru-side-table?variant=43624933130418",
+      "dimensions_mm": {
+        "width": 480,
+        "depth": 398,
+        "height": 595
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "PRD-DF26-mandaue-yago-wood-table-lamp",
+      "name": "Yago Wood Table Lamp",
+      "role": "lamp",
+      "url": "https://mandauefoam.ph/products/yago-wood-table-lamp",
+      "dimensions_mm": {
+        "width": 250,
+        "depth": 250,
+        "height": 450
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "PRD-MEJORE-10251152294162",
+      "name": "Helena Arm Chair",
+      "role": "chair",
+      "url": "https://mejore.ph/products/helena-arm-chair?variant=51717307924754",
+      "dimensions_mm": {
+        "width": 580,
+        "depth": 590,
+        "height": 790
+      },
+      "dimension_status": "fresh_primary_page_confirmed"
+    },
+    {
+      "id": "PRD-MF-124806",
+      "name": "Brugge 120 cm TV Stand",
+      "role": "console",
+      "url": "https://mandauefoam.ph/products/brugge-120-cm-tv-stand?variant=43629575766194",
+      "dimensions_mm": {
+        "width": 1200,
+        "depth": 396,
+        "height": 463
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "PRD-DF26-wilcon-arendal-arched-mirror-957700000047",
+      "name": "Heim Arendal Arched Mirror Gold 60x90cm",
+      "role": "mirror",
+      "url": "https://shop.wilcon.com.ph/arendal-arched-mirror-957700000047.html",
+      "dimensions_mm": {
+        "width": null,
+        "depth": null,
+        "height": null
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "PRD-ASTRA-AF-R5005135",
+      "name": "R5005135 Rug",
+      "role": "rug",
+      "url": "https://store.ashleyfurniture.ph/products/r5005135-rug?variant=49921657667870",
+      "dimensions_mm": {
+        "width": 2000,
+        "depth": 2899.92,
+        "height": 8.89
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "PRD-ASTRA-MF-8950498984114",
+      "name": "Astrid Night Stand",
+      "role": "nightstand",
+      "url": "https://mandauefoam.ph/products/astrid-night-stand?variant=47751677804722",
+      "dimensions_mm": {
+        "width": 550,
+        "depth": 420,
+        "height": 600
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "PRD-IKEA-X2-40404985",
+      "name": "DEJSA Table lamp",
+      "role": "lamp",
+      "url": "https://www.ikea.com/ph/en/p/dejsa-table-lamp-beige-opal-glass-40404985/",
+      "dimensions_mm": {
+        "width": 260,
+        "depth": 260,
+        "height": 280
+      },
+      "dimension_status": "fresh_primary_exact_article_confirmed"
+    },
+    {
+      "id": "PRD-ASTRA-MF-7746236940466",
+      "name": "Matilda Armchair",
+      "role": "chair",
+      "url": "https://mandauefoam.ph/products/matilda-armchair?variant=43194033471666",
+      "dimensions_mm": {
+        "width": 780,
+        "depth": 740,
+        "height": 830
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "PRD-exp-blims-8ccd2e5501",
+      "name": "SEOUL TV CABINET",
+      "role": "console",
+      "url": "https://blimsfurniture.com.ph/products/seoul-tv-cabinet?variant=46031409086691",
+      "dimensions_mm": {
+        "width": 1300,
+        "depth": 395,
+        "height": 540
+      },
+      "dimension_status": "published_dimensions_prior_audit_2026-10-21"
+    },
+    {
+      "id": "PRD-MF-138692",
+      "name": "Jari Decorative Pill Mirror 40x80cm",
+      "role": "mirror",
+      "url": "https://mandauefoam.ph/products/jarves-black-rectangle-mirror-50x80-cm-copy?variant=46960714514610",
+      "dimensions_mm": {
+        "width": 400,
+        "depth": null,
+        "height": 800
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "PRD-IKEA-X2-00426809",
+      "name": "STOENSE off-white rug 200x300cm [00426809]",
+      "role": "rug",
+      "url": "https://www.ikea.com/ph/en/p/stoense-rug-low-pile-off-white-00426809/",
+      "dimensions_mm": {
+        "width": 2000,
+        "depth": 3000,
+        "height": 18
+      },
+      "dimension_status": "published_dimensions_prior_audit_2026-10-21"
+    },
+    {
+      "id": "PRD-IKEA-X2-70613553",
+      "name": "PLÃ–JKER Nightstand",
+      "role": "nightstand",
+      "url": "https://www.ikea.com/ph/en/p/ploejker-nightstand-dark-gray-70613553/",
+      "dimensions_mm": {
+        "width": 410,
+        "depth": 410,
+        "height": 500
+      },
+      "dimension_status": "published_dimensions_prior_audit_2026-10-21"
+    },
+    {
+      "id": "PRD-IKEA-X2-40595640",
+      "name": "NYMÃ…NE Table lamp",
+      "role": "lamp",
+      "url": "https://www.ikea.com/ph/en/p/nymane-table-lamp-anthracite-40595640/",
+      "dimensions_mm": {
+        "width": 240,
+        "depth": 240,
+        "height": 330
+      },
+      "dimension_status": "fresh_primary_exact_article_confirmed"
+    },
+    {
+      "id": "PRD-IKEA-X2-30525921",
+      "name": "PERSBOL Armchair",
+      "role": "chair",
+      "url": "https://www.ikea.com/ph/en/p/persbol-armchair-black-tibbleby-beige-gray-30525921/",
+      "dimensions_mm": {
+        "width": 690,
+        "depth": 700,
+        "height": 840
+      },
+      "dimension_status": "fresh_primary_page_confirmed"
+    },
+    {
+      "id": "PRD-IKEA-X2-50507025",
+      "name": "BOASTAD TV unit",
+      "role": "console",
+      "url": "https://www.ikea.com/ph/en/p/boastad-tv-unit-black-oak-veneer-50507025/",
+      "dimensions_mm": {
+        "width": 1214,
+        "depth": 421,
+        "height": 451
+      },
+      "dimension_status": "fresh_primary_exact_article_confirmed"
+    },
+    {
+      "id": "PRD-OURHOME-39242457",
+      "name": "Metro Weave Carpet by Francis Libiran 200x290cm [39242457]",
+      "role": "rug",
+      "url": "https://ourhome.ph/products/metro-weave?variant=47562107027697",
+      "dimensions_mm": {
+        "width": 2000,
+        "depth": 2900,
+        "height": null
+      },
+      "dimension_status": "fresh_primary_size_option_confirmed_variant_sku_mapping_curated"
+    },
+    {
+      "id": "PRD-DS-9647715254557",
+      "name": "BRANCH 03 WITH OAK FRAME",
+      "role": "art",
+      "url": "https://www.designstory.com.ph/products/branch-03?variant=49403671118109",
+      "dimensions_mm": {
+        "width": null,
+        "depth": null,
+        "height": null
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "PRD-ASTRA-OH-9559494525169",
+      "name": "Perfect Pieces Green Pastures",
+      "role": "art",
+      "url": "https://ourhome.ph/products/perfect-pieces-green-pastures?variant=48060364226801",
+      "dimensions_mm": {
+        "width": 900,
+        "depth": 35,
+        "height": 1200
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "PRD-DS-9264171155741",
+      "name": "The Blue Cape by Amelie Hegardt",
+      "role": "art",
+      "url": "https://www.designstory.com.ph/products/the-blue-cape?variant=48368607822109",
+      "dimensions_mm": {
+        "width": null,
+        "depth": null,
+        "height": null
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "EXT-BED-GREGORY",
+      "name": "Our Home Gregory King bed frame â€” Cigar Oak",
+      "role": "bed",
+      "url": "https://ourhome.ph/products/our-home-gregory-bedframe?variant=43710134943985",
+      "dimensions_mm": {
+        "width": null,
+        "depth": null,
+        "height": null,
+        "status": "King outer dimensions unpublished; published Queen measurements must not be scaled"
+      },
+      "dimension_status": "unconfirmed_actual_king"
+    },
+    {
+      "id": "EXT-BED-SEYMOUR",
+      "name": "Our Home Seymour King bed frame â€” Gray",
+      "role": "bed",
+      "url": "https://ourhome.ph/products/our-home-seymour-bedframe?variant=43710183932145",
+      "dimensions_mm": {
+        "width": null,
+        "depth": null,
+        "height": null,
+        "status": "King outer dimensions unpublished"
+      },
+      "dimension_status": "unconfirmed_actual_king"
+    },
+    {
+      "id": "EXT-BED-LANNISTER",
+      "name": "Salem LANNISTER King bed frame â€” Velvet Dark Brown",
+      "role": "bed",
+      "url": "https://www.salem.ph/products/lannister",
+      "dimensions_mm": {
+        "width": 1905,
+        "depth": 2146.3,
+        "height": 1244.6,
+        "status": "Published King outer75x84.5in; headboard49in; placement/recess remain unverified"
+      },
+      "dimension_status": "published_dimensions_prior_audit_2026-10-21"
+    },
+    {
+      "id": "EXT-IKEA-60458618",
+      "name": "IKEA LINDBYN wall mirror â€” Black",
+      "role": "mirror",
+      "url": "https://www.ikea.com/ph/en/p/lindbyn-mirror-black-60458618/",
+      "dimensions_mm": {
+        "width": 400,
+        "height": 1300,
+        "depth": null,
+        "status": "Published width/height; actual depth not published",
+        "planning_projection": 30
+      },
+      "dimension_status": "dated_curated_2026-10-20_not_freshly_confirmed"
+    },
+    {
+      "id": "SYS-TV75",
+      "name": "75-inch Crystal UHD TV UA75U8520HGXXP",
+      "role": "technical",
+      "url": "https://www.smappliance.com/products/ua75u8520hgxxp-samsung-75-crystal-uhd-4k-smart-tv",
+      "dimensions_mm": {
+        "depth": 77,
+        "width": 1668.1,
+        "height": 957.8
+      },
+      "dimension_status": "fresh_manufacturer_exact_model_confirmed"
+    },
+    {
+      "id": "SYS-AC",
+      "name": "TCL 1.5 HP split inverter TAC-13CSD/KEI2",
+      "role": "technical",
+      "url": "https://www.smappliance.com/products/tac-13csd-kei2-tcl-1-5hp-ai-split-inv-ac-full-dc",
+      "dimensions_mm": {},
+      "dimension_status": "unconfirmed_installed_unit"
+    }
+  ]
+}
