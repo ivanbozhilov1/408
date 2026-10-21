@@ -1,0 +1,4 @@
+# Personal preference downloads and local generation review evidence.
+unit408-regeneration-*.json
+candidate-check*.json
+private-preferences/

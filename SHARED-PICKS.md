@@ -1,5 +1,13 @@
 # Isah’s shared picks
 
+## Exclusions and the next design
+
+The D/E/F, G/H/I, J/K/L and M/N/O schedules also let the editor exclude a product, its family and selected characteristics. Exclusions sync alongside stars, can be edited, and can be explicitly restored to neutral. A delayed offline star or unstar cannot remove a newer exclusion. Restore uses the current saved revision. The separate Astra presentation currently has no item controls.
+
+**Prepare regeneration brief** downloads a fresh, conflict-checked preference snapshot. It does not generate images. Use [the regeneration workflow](ops/picks/REGENERATION.md) and run `node ops/picks/check_design.mjs --brief ... --candidates ...` before rendering. Every candidate in a rejected category needs a recorded human source-photo review; every finished image still needs visual review. Never fabricate those attestations or commit the private preference download.
+
+For this update, deploy the exclusion-capable API before the gallery. Keep the updated API on UI rollback, or stop writes before any older API is restored. Preserve SQLite data, exclusions and permanent operation records.
+
 Each browser connects once through its private access link. The editing link belongs to Isah; the viewing link shows her choices and cannot change them. Access links are delivered privately and never stored in this repository. Without a private connection, the original browser-only stars still work.
 
 Connected pages refresh every five seconds while visible. Item changes are queued locally if the API is unavailable and retry automatically. The first editor connection adds the browser’s existing stars to the shared list. It never replaces the shared list with a local snapshot. Selections from other design sets appear below the current set’s shortlist. Disconnect restores that browser’s original local list.
@@ -13,6 +21,7 @@ Preserve the existing render assets and the shared-picks changes. After adding o
 ```sh
 python ops/picks/patch_gallery.py . --api https://seo.cebugrandrealty.com:8443/api/picks --catalog ops/picks/catalog.json
 python -m unittest discover -s ops/picks -p test_server.py -v
+node --test ops/picks/test_preferences.mjs
 ```
 
 Copy the updated catalogue into the dedicated deployment at `/docker/unit408-picks/catalog.json` and restart only that project before publishing new item IDs. Catalogue updates preserve old selections. The backend source and Compose definition live in `ops/picks/`; `auth.json` must contain only the two SHA256 token hashes and is ignored by Git. Tokens must never be committed, placed in public JavaScript, included in query strings, or logged.
