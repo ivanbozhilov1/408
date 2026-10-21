@@ -33,3 +33,11 @@ nav .nav-picks b{font-weight:650;font-variant-numeric:tabular-nums}
 .picks-text textarea{width:100%;margin-top:.75rem;border:1px solid #aeb1a5;background:var(--paper);padding:.75rem;font:.8rem/1.5 ui-monospace,Consolas,monospace;color:var(--ink);resize:vertical}
 @media(max-width:760px){.picks-section{padding:1.25rem;margin-bottom:4rem}.picks-tools button{padding:.5rem .7rem;font-size:.8rem}.nav-picks-label{display:none}nav .nav-picks{padding:.4rem .55rem;font-size:.8rem}.picks-group li{grid-template-columns:auto 1fr;gap:.35rem .75rem}.picks-group li .numeric{grid-column:2}.picks-group h3{flex-direction:column;align-items:flex-start;gap:.25rem}.picks-group h3 span{text-align:left}}
 @media print{.picks-tools,.picks-text,.pick-cell,.pick-head,.nav-picks{display:none!important}.picks-section{border:0;padding:0}}
+.site-header{flex-wrap:wrap;row-gap:.6rem}
+.set-nav{flex-basis:100%;flex-wrap:wrap;gap:.15rem 1rem;font-size:.72rem;line-height:1.5;text-transform:uppercase;letter-spacing:.13em;color:var(--muted)}
+.set-nav a,.set-nav span{display:inline;min-width:0;min-height:0;border:0;border-radius:0;padding:0;font-size:inherit}
+.set-nav a{padding:.3rem 0;margin:-.3rem 0;color:var(--ink);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:.3em}
+.set-nav a:hover{background:none;text-decoration-color:var(--ink)}
+.set-nav [aria-current="page"]{color:var(--accent);font-weight:650}
+.scheme-section,.budget-section,.picks-section{scroll-margin-top:9.5rem}
+@media(max-width:760px){.site-header{row-gap:.4rem}.set-nav{font-size:.62rem;letter-spacing:.1em;gap:.15rem .75rem}.scheme-section,.budget-section,.picks-section{scroll-margin-top:8.25rem}}
