@@ -1,8 +1,16 @@
 # Isah’s shared picks
 
-The main `index.html` now shows all GPT/Astra and Claude/Fable designs together. Its `collection.js` shortlist saves only in the current browser and supports explicit export/import. It does not write to this shared service. The page links to the existing shared shortlist.
+The main `index.html` shows all 18 finished GPT/Astra and Claude/Fable designs together. Connect through **Shared choices** to synchronize preferred, neutral and excluded items on this same page. Without a private connection, choices stay in the current browser and support explicit export/import.
 
-The original D/E/F page is preserved at `fable-def.html`; G/H/I, J/K/L and M/N/O retain their original folders. Existing root private-access links, shared-item links and D/E/F picks links route to `fable-def.html` with the fragment preserved. The patch tool targets this preserved page and keeps all243 shared item IDs unchanged. No service catalogue expansion or server change was required for the combined gallery.
+The original D/E/F page is preserved at `fable-def.html`; G/H/I, J/K/L and M/N/O retain their original folders. Root private-access links connect directly on the combined page and remove the private fragment before loading collection data. Existing legacy item/picks links remain compatible. The catalogue keeps all 243 original IDs and adds Astra items for 627 unique IDs across current and historical versions. Historical choices remain retained even though archive browsing links and archived picks are hidden from the main page.
+
+## Exclusions and the next design
+
+The combined Astra/Fable schedules and preserved Fable pages let the editor exclude a product, its family and selected characteristics. Exclusions sync alongside preferred choices, can be edited, and can be explicitly restored to neutral. A delayed offline preference or neutral action cannot remove a newer exclusion. Restore uses the current saved revision. The same stable product ID shares its decision across design versions.
+
+**Prepare regeneration brief** downloads a fresh, conflict-checked preference snapshot. It does not generate images. Use [the regeneration workflow](ops/picks/REGENERATION.md) and run `node ops/picks/check_design.mjs --brief ... --candidates ...` before rendering. Every candidate in a rejected category needs a recorded human source-photo review; every finished image still needs visual review. Never fabricate those attestations or commit the private preference download.
+
+For this update, deploy the exclusion-capable API before the gallery. Keep the updated API on UI rollback, or stop writes before any older API is restored. Preserve SQLite data, exclusions and permanent operation records.
 
 Each browser connects once through its private access link. The editing link belongs to Isah; the viewing link shows her choices and cannot change them. Access links are delivered privately and never stored in this repository. Without a private connection, the original browser-only stars still work.
 
@@ -16,7 +24,8 @@ Preserve the existing render assets and the shared-picks changes. After adding o
 
 ```sh
 python ops/picks/patch_gallery.py . --api https://seo.cebugrandrealty.com:8443/api/picks --catalog ops/picks/catalog.json
-python -m unittest discover -s ops/picks -p test_server.py -v
+python -m unittest discover -s ops/picks -p 'test_*.py' -v
+node --test ops/picks/test_preferences.mjs
 ```
 
 Copy the updated catalogue into the dedicated deployment at `/docker/unit408-picks/catalog.json` and restart only that project before publishing new item IDs. Catalogue updates preserve old selections. The backend source and Compose definition live in `ops/picks/`; `auth.json` must contain only the two SHA256 token hashes and is ignored by Git. Tokens must never be committed, placed in public JavaScript, included in query strings, or logged.
@@ -29,4 +38,4 @@ The HTTPS sidecar receives only a scoped certificate/key copy for the existing h
 
 Before changing persisted data, export through the authenticated GET `/api/picks` or make a SQLite backup. To stop sync, stop only the `unit408-picks` Compose project using its base and HTTPS override files, and disable only its certificate-refresh timer. Keep its data volume. Reverting the sync release restores browser-only stars; retain the deployment data and private links for recovery. Rotate the two capability credentials only through a separate explicit owner request.
 
-Verification for this release includes20 backend tests,11 isolated browser workflows, independent code/privacy review, and separate live checks recorded by the deploying task. Private links and raw user choices do not belong in public test reports.
+Verification covers the backend and patch-regression suites above, matching/generation tests, and isolated browser checks for both the unified collection and shared exclusions. Record release-specific results and any separate live checks with the deploying task. Private links and raw user choices do not belong in public test reports.

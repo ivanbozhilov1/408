@@ -19,7 +19,7 @@ import time
 from urllib.parse import urlsplit
 
 
-MAX_BODY = 1024
+MAX_BODY = 4096
 ALLOWED_ORIGIN = "https://ivanbozhilov1.github.io"
 OPERATION_PATTERN = re.compile(r"[A-Za-z0-9_-]{8,128}\Z")
 TOKEN_PATTERN = re.compile(r"[A-Za-z0-9_-]{32,256}\Z")
@@ -66,6 +66,17 @@ class Store:
                     id TEXT NOT NULL,
                     starred INTEGER NOT NULL CHECK (starred IN (0, 1))
                 );
+                CREATE TABLE IF NOT EXISTS exclusions (
+                    id TEXT PRIMARY KEY,
+                    traits TEXT NOT NULL,
+                    note TEXT NOT NULL
+                );
+                CREATE TABLE IF NOT EXISTS decision_operations (
+                    operation_hash TEXT PRIMARY KEY,
+                    id TEXT NOT NULL,
+                    decision TEXT NOT NULL CHECK (decision IN ('preferred', 'neutral', 'excluded')),
+                    exclusion TEXT
+                );
             """)
 
     @contextmanager
@@ -84,6 +95,10 @@ class Store:
             "SELECT revision, updated_at FROM state WHERE singleton = 1").fetchone()
         return {"revision": revision,
                 "picks": [row[0] for row in db.execute("SELECT id FROM picks ORDER BY id")],
+                "exclusions": [{"id": item_id, "traits": json.loads(traits), "note": note}
+                               for item_id, traits, note in db.execute(
+                                   "SELECT id, traits, note FROM exclusions ORDER BY id")],
+                "preferenceSchema": 2,
                 "updatedAt": updated_at, "role": role}
 
     def read(self, role):
@@ -95,6 +110,13 @@ class Store:
         digest = hashlib.sha256(operation_id.encode("ascii")).hexdigest()
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
+            if db.execute("SELECT 1 FROM decision_operations WHERE operation_hash = ?",
+                          (digest,)).fetchone() is not None:
+                return None
+            if starred and db.execute("SELECT 1 FROM exclusions WHERE id = ?",
+                                      (item_id,)).fetchone() is not None:
+                # A legacy client cannot express an explicit restoration.
+                return None
             previous = db.execute(
                 "SELECT id, starred FROM operations WHERE operation_hash = ?", (digest,)).fetchone()
             if previous is not None:
@@ -110,6 +132,51 @@ class Store:
                 db.execute("UPDATE state SET revision = revision + 1, updated_at = ?", (utc_now(),))
             db.execute("INSERT INTO operations (operation_hash, id, starred) VALUES (?, ?, ?)",
                        (digest, item_id, int(starred)))
+            return self.snapshot(db, "editor")
+
+    def update_decision(self, item_id, decision, operation_id, exclusion=None, restore_revision=None):
+        digest = hashlib.sha256(operation_id.encode("ascii")).hexdigest()
+        # The existing replay column also holds explicit restore metadata; older
+        # exclusion payloads remain unchanged and need no schema migration.
+        replay_value = {"restoreRevision": restore_revision} if restore_revision is not None else exclusion
+        payload = (json.dumps(replay_value, sort_keys=True, separators=(",", ":"))
+                   if replay_value is not None else None)
+        with self.connect() as db:
+            db.execute("BEGIN IMMEDIATE")
+            if db.execute("SELECT 1 FROM operations WHERE operation_hash = ?",
+                          (digest,)).fetchone() is not None:
+                return None
+            previous = db.execute(
+                "SELECT id, decision, exclusion FROM decision_operations WHERE operation_hash = ?",
+                (digest,)).fetchone()
+            if previous is not None:
+                if previous != (item_id, decision, payload):
+                    return None
+                return self.snapshot(db, "editor")
+            was_starred = db.execute("SELECT 1 FROM picks WHERE id = ?", (item_id,)).fetchone() is not None
+            previous_exclusion = db.execute(
+                "SELECT traits, note FROM exclusions WHERE id = ?", (item_id,)).fetchone()
+            if decision == "preferred" and previous_exclusion is not None:
+                return None
+            if restore_revision is not None:
+                revision = db.execute("SELECT revision FROM state WHERE singleton = 1").fetchone()[0]
+                if restore_revision != revision:
+                    return None
+            next_exclusion = ((json.dumps(exclusion["traits"], separators=(",", ":")), exclusion["note"])
+                              if decision == "excluded" else None)
+            if decision == "neutral" and restore_revision is None:
+                next_exclusion = previous_exclusion
+            if was_starred != (decision == "preferred") or previous_exclusion != next_exclusion:
+                db.execute("DELETE FROM picks WHERE id = ?", (item_id,))
+                db.execute("DELETE FROM exclusions WHERE id = ?", (item_id,))
+                if decision == "preferred":
+                    db.execute("INSERT INTO picks VALUES (?)", (item_id,))
+                elif next_exclusion is not None:
+                    db.execute("INSERT INTO exclusions VALUES (?, ?, ?)", (item_id, *next_exclusion))
+                db.execute("UPDATE state SET revision = revision + 1, updated_at = ?", (utc_now(),))
+            # Keep replay records indefinitely: delayed clients may retry after restoration.
+            db.execute("INSERT INTO decision_operations VALUES (?, ?, ?, ?)",
+                       (digest, item_id, decision, payload))
             return self.snapshot(db, "editor")
 
 
@@ -340,15 +407,23 @@ class Handler(BaseHTTPRequestHandler):
         except (ValueError, UnicodeError, RecursionError):
             self.fail(400, "invalid JSON")
             return
-        if (not isinstance(value, dict) or set(value) != {"id", "starred", "operationId"}
+        if (not isinstance(value, dict) or not {"id", "operationId"} <= set(value)
                 or type(value["id"]) is not str or value["id"] not in self.server.store.allowed_ids
-                or type(value["starred"]) is not bool or type(value["operationId"]) is not str
+                or type(value["operationId"]) is not str
                 or OPERATION_PATTERN.fullmatch(value["operationId"]) is None):
             self.fail(400, "invalid pick")
             return
-        result = self.server.store.update(value["id"], value["starred"], value["operationId"])
+        if set(value) == {"id", "starred", "operationId"} and type(value["starred"]) is bool:
+            result = self.server.store.update(value["id"], value["starred"], value["operationId"])
+        elif valid_decision(value):
+            result = self.server.store.update_decision(
+                value["id"], value["decision"], value["operationId"], value.get("exclusion"),
+                value.get("restoreRevision"))
+        else:
+            self.fail(400, "invalid pick")
+            return
         if result is None:
-            self.fail(409, "operation already used")
+            self.reply(409, {**self.server.store.read("editor"), "error": "operation or exclusion conflict"})
             return
         self.reply(200, result)
 
@@ -359,6 +434,34 @@ class Handler(BaseHTTPRequestHandler):
     do_DELETE = dispatch
     do_PATCH = dispatch
     do_HEAD = dispatch
+
+
+def valid_decision(value):
+    if type(value.get("decision")) is not str or value["decision"] not in ("preferred", "neutral", "excluded"):
+        return False
+    keys = {"id", "decision", "operationId"}
+    if "restoreRevision" in value:
+        if (value["decision"] != "neutral" or type(value["restoreRevision"]) is not int
+                or not 0 <= value["restoreRevision"] <= 9007199254740991):
+            return False
+        keys.add("restoreRevision")
+    if value["decision"] != "excluded":
+        return set(value) == keys
+    exclusion = value.get("exclusion")
+    if (set(value) != keys | {"exclusion"} or not isinstance(exclusion, dict)
+            or set(exclusion) != {"traits", "note"}):
+        return False
+    traits, note = exclusion["traits"], exclusion["note"]
+    if (type(traits) is not list or len(traits) > 16
+            or any(type(trait) is not str or not trait.strip() or len(trait) > 80 for trait in traits)
+            or len(set(traits)) != len(traits) or type(note) is not str or len(note) > 500):
+        return False
+    try:
+        for text in [*traits, note]:
+            text.encode("utf-8")
+    except UnicodeError:
+        return False
+    return True
 
 
 def load_json_file(path, limit):

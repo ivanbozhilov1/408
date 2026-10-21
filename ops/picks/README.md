@@ -1,9 +1,14 @@
 # Unit 408 shortlist service
 
 An isolated Python standard-library HTTP + SQLite API for the public gallery's
-private shared stars. It stores catalogue item IDs, the current starred set,
-a revision and UTC update timestamp, and a durable idempotency log. It accepts
-no furniture descriptions, names, contact information, or tokens in the database.
+private shared preferences. It stores catalogue item IDs, preferred and excluded
+decisions, selected exclusion traits and optional notes, a revision and UTC
+update timestamp, and durable idempotency logs. Access tokens are never stored
+in the database. Notes and exported choices are private user data.
+
+The unified Astra/Fable adapter and legacy schedules use the same 627-item
+catalogue. See [REGENERATION.md](REGENERATION.md) for matching, source-review
+requirements, catalogue regeneration and the safe additive release sequence.
 
 ## Configuration
 
@@ -31,9 +36,17 @@ using the API from the gallery. Browser access requires HTTPS.
 - `PUT /api/picks` requires the editor bearer and `Content-Type: application/json`.
   Body: `{"id":"catalogue-id","starred":true,"operationId":"unique-operation-id"}`.
 - Successful pick reads/writes return
-  `{"revision":1,"picks":["catalogue-id"],"updatedAt":"2026-10-21T00:00:00.000Z","role":"editor"}`.
+  `{"revision":1,"picks":["catalogue-id"],"exclusions":[],"preferenceSchema":2,"updatedAt":"2026-10-21T00:00:00.000Z","role":"editor"}`.
   The viewer bearer returns `"role":"viewer"`. An empty initial set has revision
   `0` and `updatedAt: null`. The revision/timestamp change only when the set changes.
+
+Schema 2 writes use `decision: "preferred" | "neutral" | "excluded"` instead
+of `starred`. Excluded writes include `exclusion: {"traits":[],"note":""}`.
+Restoring an excluded item requires `decision: "neutral"` and `restoreRevision`
+equal to the latest snapshot revision. Ordinary neutral or preferred writes
+cannot override an exact saved exclusion. The legacy starred request remains
+compatible. Family/trait matching is performed by clients and the strict
+regeneration gate; the server enforces exact saved exclusions atomically.
 
 `operationId` must have 8–128 URL-safe ASCII letters, digits, underscores or
 hyphens; a fresh UUID per user action works. Retry an uncertain request with the
@@ -51,9 +64,11 @@ New mutations accept only current catalogue IDs. Existing selections and replay
 records are retained when the catalogue shrinks and remain available after it
 expands. Reads include all saved selections, including temporarily unavailable
 IDs. Catalogue changes do not modify the revision or saved timestamp.
-Before updating the catalogue or service, stop the service and back up the data
-volume plus auth/catalogue files. Restore that copy with the corresponding
-catalogue and application files to roll back. There is no public backup/export
+Before updating the catalogue or service, back up SQLite using its backup
+facility and privately preserve the matching auth/catalogue/application files.
+The schema 2 tables are additive. Roll back the UI first and retain the updated
+API; old server code ignores exclusions. Do not delete tables or replay records.
+There is no public backup/export
 endpoint. Before any user-requested purge, export a complete backup of the
 stopped service's data volume and matching configuration. Purging must be an
 explicit user request and include review of pending offline retries; deleting
@@ -95,12 +110,17 @@ the shortlist, with no automatic eviction. The regression processes over 4096
 later operations, unstars the original item, restarts, and proves replay of its
 original star cannot resurrect the selection.
 
-Run `python -m unittest discover -s tools/unit408_picks -p test_server.py -v`
+Run `python -m unittest discover -s ops/picks -p 'test_*.py' -v`
 from the repository root. Tests use only random ephemeral tokens and temporary
 databases. For local operation, set the environment above and run `python
-tools/unit408_picks/server.py`. Production operation uses `docker compose up -d
+ops/picks/server.py`. Production operation uses `docker compose up -d
 --build` from this folder after provisioning files and reviewing proxy routing.
 This repository change does not deploy the service or create/distribute tokens.
+
+Run `node --test ops/picks/test_collection_sync.cjs ops/picks/test_legacy_sync.cjs`
+for adapter, migration, offline replay, cross-page queue and export regressions.
+Run `node --test ops/picks/test_preferences.mjs` for matching and regeneration rules.
+These tests use synthetic credentials and fixtures, with no production writes.
 
 Test environment note: Python 3.13 on restricted Windows creates `0700`
 temporary directories with ACLs that exclude the sandbox process. Integration

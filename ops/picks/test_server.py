@@ -87,6 +87,15 @@ class ApiTests(unittest.TestCase):
         return self.request("PUT", token=token or self.editor,
                             payload={"id": item_id, "starred": starred, "operationId": operation})
 
+    def decide(self, decision="excluded", item_id="def:D-BED", operation="decision-0001",
+               exclusion=None, token=None, restore_revision=None):
+        payload = {"id": item_id, "decision": decision, "operationId": operation}
+        if decision == "excluded":
+            payload["exclusion"] = exclusion if exclusion is not None else {"traits": [], "note": ""}
+        if restore_revision is not None:
+            payload["restoreRevision"] = restore_revision
+        return self.request("PUT", token=token or self.editor, payload=payload)
+
     def test_public_health_and_private_read_auth(self):
         status, data, _ = self.request(path="/api/health")
         self.assertEqual((status, data), (200, {"ok": True}))
@@ -96,10 +105,12 @@ class ApiTests(unittest.TestCase):
         for token, role in ((self.editor, "editor"), (self.viewer, "viewer")):
             status, data, _ = self.request(token=token)
             self.assertEqual(status, 200)
-            self.assertEqual(data, {"revision": 0, "picks": [], "updatedAt": None, "role": role})
+            self.assertEqual(data, {"revision": 0, "picks": [], "exclusions": [], "preferenceSchema": 2,
+                                    "updatedAt": None, "role": role})
 
     def test_viewer_cannot_write(self):
         self.assertEqual(self.put(token=self.viewer)[0], 403)
+        self.assertEqual(self.decide(token=self.viewer)[0], 403)
         self.assertEqual(self.request(token=self.editor)[1]["revision"], 0)
         self.assertEqual(self.request("PUT", payload={"id": "def:D-BED", "starred": True,
                                                      "operationId": "operation-0001"})[0], 401)
@@ -114,7 +125,8 @@ class ApiTests(unittest.TestCase):
         self.stop()
         self.start()
         self.assertEqual(self.request(token=self.viewer)[1],
-                         {"revision": 1, "picks": ["def:D-BED"], "updatedAt": timestamp, "role": "viewer"})
+                         {"revision": 1, "picks": ["def:D-BED"], "exclusions": [], "preferenceSchema": 2,
+                          "updatedAt": timestamp, "role": "viewer"})
         self.put(starred=False, operation="operation-0002")
         self.assertEqual(self.put()[1]["picks"], [])
         self.assertEqual(self.request(token=self.viewer)[1]["revision"], 2)
@@ -185,7 +197,7 @@ class ApiTests(unittest.TestCase):
                                           headers={"Content-Type": "application/json"})[0], 400)
 
     def test_body_and_content_type_limits(self):
-        self.assertEqual(self.request("PUT", token=self.editor, raw=b"x" * 1025,
+        self.assertEqual(self.request("PUT", token=self.editor, raw=b"x" * (server.MAX_BODY + 1),
                                       headers={"Content-Type": "application/json"})[0], 413)
         self.assertEqual(self.request("PUT", token=self.editor, raw=b"x" * 1024,
                                       headers={"Content-Type": "application/json"})[0], 400)
@@ -302,8 +314,211 @@ class ApiTests(unittest.TestCase):
         replay = self.put()[1]
         self.assertEqual((replay["revision"], replay["picks"]), (2, []))
 
+    def test_decisions_are_mutually_exclusive_and_restoration_is_explicit(self):
+        preferred = self.decide("preferred")[1]
+        self.assertEqual((preferred["picks"], preferred["exclusions"]), (["def:D-BED"], []))
+        exclusion = {"traits": ["tufted upholstery"], "note": "Avoid dust-catching details."}
+        excluded = self.decide(operation="decision-0002", exclusion=exclusion)[1]
+        self.assertEqual((excluded["revision"], excluded["picks"], excluded["exclusions"]),
+                         (2, [], [{"id": "def:D-BED", **exclusion}]))
+        self.assertEqual(self.decide("preferred", operation="decision-0003")[0], 409)
+        restored = self.decide("neutral", operation="decision-0004", restore_revision=2)[1]
+        self.assertEqual((restored["revision"], restored["picks"], restored["exclusions"]), (3, [], []))
+        preferred = self.decide("preferred", operation="decision-0005")[1]
+        self.assertEqual((preferred["revision"], preferred["picks"], preferred["exclusions"]),
+                         (4, ["def:D-BED"], []))
+        neutral = self.decide("neutral", operation="decision-0006")[1]
+        self.assertEqual((neutral["revision"], neutral["picks"], neutral["exclusions"]), (5, [], []))
+        self.decide(operation="decision-0007")
+        neutral = self.decide("neutral", operation="decision-0008", restore_revision=6)[1]
+        self.assertEqual((neutral["revision"], neutral["picks"], neutral["exclusions"]), (7, [], []))
+
+    def test_offline_preferred_and_neutral_cannot_remove_newer_exclusion(self):
+        excluded = self.decide()[1]
+        status, conflict, _ = self.decide("preferred", operation="offline-preferred")
+        self.assertEqual(status, 409)
+        self.assertEqual({key: value for key, value in conflict.items() if key != "error"}, excluded)
+        self.assertEqual(self.decide("neutral", operation="offline-neutral")[1], excluded)
+        self.assertEqual(self.request(token=self.editor)[1], excluded)
+
+    def test_stale_explicit_restore_uses_global_revision_and_preserves_exclusion(self):
+        self.decide()
+        changed = self.decide("preferred", item_id="jkl:J-BED", operation="another-preference")[1]
+        status, conflict, _ = self.decide("neutral", operation="stale-restore", restore_revision=1)
+        self.assertEqual(status, 409)
+        self.assertEqual(conflict["revision"], 2)
+        self.assertEqual(conflict["exclusions"], changed["exclusions"])
+        restored = self.decide("neutral", operation="current-restore", restore_revision=2)[1]
+        self.assertEqual((restored["revision"], restored["exclusions"]), (3, []))
+        self.assertEqual(self.decide("neutral", operation="noop-restore", restore_revision=3)[1], restored)
+
+    def test_accepted_restore_retry_cannot_clear_later_reexclusion(self):
+        self.decide()
+        self.decide("neutral", operation="accepted-restore", restore_revision=1)
+        excluded_again = self.decide(operation="exclude-again")[1]
+        self.stop()
+        self.start()
+        self.assertEqual(self.decide("neutral", operation="accepted-restore", restore_revision=1)[1],
+                         excluded_again)
+        self.assertEqual(self.decide("neutral", operation="accepted-restore", restore_revision=3)[0], 409)
+        self.assertEqual(self.decide("neutral", operation="accepted-restore")[0], 409)
+        self.assertEqual(self.request(token=self.editor)[1], excluded_again)
+
+    def test_old_client_cannot_restore_exclusion(self):
+        self.put()
+        excluded = self.decide()[1]
+        self.assertEqual(self.put(operation="old-new-operation")[0], 409)
+        self.assertEqual(self.put()[0], 409)
+        self.assertEqual(self.put(starred=False, operation="legacy-unstar-01")[1], excluded)
+        self.assertEqual(self.request(token=self.editor)[1], excluded)
+        with closing(sqlite3.connect(self.httpd.store.path)) as db:
+            self.assertEqual(db.execute("SELECT COUNT(*) FROM operations").fetchone()[0], 2)
+
+    def test_decision_idempotency_payload_conflict_and_cross_form_conflict(self):
+        initial = self.decide()[1]
+        self.assertEqual(self.decide()[1], initial)
+        self.assertEqual(self.decide("preferred")[0], 409)
+        self.assertEqual(self.decide(item_id="jkl:J-BED")[0], 409)
+        self.assertEqual(self.decide(exclusion={"traits": [], "note": "changed"})[0], 409)
+        self.assertEqual(self.decide(exclusion={"traits": ["wood"], "note": ""})[0], 409)
+        self.assertEqual(self.put(starred=False, operation="decision-0001")[0], 409)
+        self.assertEqual(self.put(item_id="jkl:J-BED")[0], 200)
+        self.assertEqual(self.decide("preferred", item_id="jkl:J-BED", operation="operation-0001")[0], 409)
+        self.assertEqual(self.request(token=self.editor)[1]["revision"], 2)
+
+    def test_offline_exclusion_retry_after_restore_does_not_reapply(self):
+        self.decide()
+        neutral = self.decide("neutral", operation="decision-restore", restore_revision=1)[1]
+        self.assertEqual(self.decide()[1], neutral)
+        self.decide(operation="decision-again")
+        self.decide("neutral", operation="decision-restore-again", restore_revision=3)
+        preferred = self.decide("preferred", operation="decision-prefer")[1]
+        self.stop()
+        self.start()
+        self.assertEqual(self.decide()[1], preferred)
+        self.assertEqual(self.decide(operation="decision-again")[1], preferred)
+        self.assertEqual(self.decide("neutral", operation="decision-restore", restore_revision=1)[1], preferred)
+
+    def test_exclusion_persistence_edit_and_noop(self):
+        exclusion = {"traits": ["woven shade", "exposed bulb"], "note": "Bedroom only: café style."}
+        original = self.decide(exclusion=exclusion)[1]
+        self.assertEqual(self.decide(exclusion=exclusion, operation="decision-noop")[1], original)
+        self.stop()
+        self.start()
+        self.assertEqual(self.request(token=self.editor)[1], original)
+        edited = self.decide(exclusion={**exclusion, "note": "Updated"}, operation="decision-edit")[1]
+        self.assertEqual(edited["revision"], original["revision"] + 1)
+        self.assertEqual(edited["exclusions"][0]["note"], "Updated")
+
+    def test_exclusions_survive_catalogue_shrink_and_expand(self):
+        original = self.decide()[1]
+        ids = self.ids
+        self.stop()
+        self.ids = frozenset({"jkl:J-BED"})
+        self.start()
+        self.assertEqual(self.request(token=self.editor)[1], original)
+        self.assertEqual(self.decide("neutral", operation="decision-restore")[0], 400)
+        self.stop()
+        self.ids = ids
+        self.start()
+        self.assertEqual(self.decide()[1], original)
+        self.assertEqual(self.decide("neutral", operation="decision-restore", restore_revision=1)[1]["exclusions"], [])
+
+    def test_restore_revision_validation_requires_safe_integer_and_neutral(self):
+        good = {"id": "def:D-BED", "decision": "neutral", "operationId": "validate-restore", "restoreRevision": 0}
+        invalid = [{**good, "restoreRevision": value}
+                   for value in (None, True, False, -1, 1.0, "1", [], 9007199254740992)]
+        invalid += [{**good, "decision": "preferred"},
+                    {**good, "decision": "excluded", "exclusion": {"traits": [], "note": ""}}]
+        for value in invalid:
+            with self.subTest(value=value):
+                self.assertEqual(self.request("PUT", token=self.editor, payload=value)[0], 400)
+        self.assertTrue(server.valid_decision({**good, "restoreRevision": 9007199254740991}))
+        self.assertEqual(self.request("PUT", token=self.editor, payload=good)[0], 200)
+        self.assertEqual(self.request(token=self.editor)[1]["revision"], 0)
+
+    def test_decision_validation_rejects_invalid_shapes_and_bounds(self):
+        good = {"id": "def:D-BED", "decision": "excluded", "operationId": "decision-0001",
+                "exclusion": {"traits": [], "note": ""}}
+        invalid = [{**good, "decision": value} for value in (None, [], 1, "hide", "neutral", "preferred")]
+        invalid += [{**good, "starred": True}, {key: value for key, value in good.items() if key != "exclusion"}]
+        invalid += [{**good, "exclusion": value} for value in (
+            None, [], {}, {"traits": []}, {"note": ""}, {"traits": [], "note": "", "extra": True},
+            {"traits": "wood", "note": ""}, {"traits": [None], "note": ""},
+            {"traits": [[]], "note": ""}, {"traits": [""], "note": ""},
+            {"traits": [" \n "], "note": ""}, {"traits": ["oak", "oak"], "note": ""},
+            {"traits": [str(number) for number in range(17)], "note": ""},
+            {"traits": ["a" * 81], "note": ""}, {"traits": ["\ud800"], "note": ""},
+            {"traits": [], "note": None}, {"traits": [], "note": "n" * 501},
+            {"traits": [], "note": "\ud800"})]
+        for value in invalid:
+            with self.subTest(value=value):
+                self.assertEqual(self.request("PUT", token=self.editor, payload=value)[0], 400)
+        self.assertEqual(self.request(token=self.editor)[1]["revision"], 0)
+        with closing(sqlite3.connect(self.httpd.store.path)) as db:
+            self.assertEqual(db.execute("SELECT COUNT(*) FROM decision_operations").fetchone()[0], 0)
+        boundary = {"traits": [str(number) + "a" * 78 for number in range(16)], "note": "n" * 500}
+        self.assertEqual(self.decide(exclusion=boundary)[0], 200)
+
+    def test_concurrent_decisions_remain_atomic(self):
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            results = list(pool.map(lambda number: self.decide(
+                "excluded" if number % 2 else "preferred", operation=f"concurrent-{number:04}"), range(16)))
+        self.assertTrue(all(status in (200, 409) for status, _, _ in results))
+        for _, state, _ in results:
+            self.assertFalse(set(state["picks"]) & {row["id"] for row in state["exclusions"]})
+        with closing(sqlite3.connect(self.httpd.store.path)) as db:
+            self.assertEqual(db.execute("SELECT COUNT(*) FROM decision_operations").fetchone()[0],
+                             sum(status == 200 for status, _, _ in results))
+
+    def test_decision_failure_rolls_back_item_and_revision(self):
+        original = self.put()[1]
+        with closing(sqlite3.connect(self.httpd.store.path)) as db:
+            db.execute("CREATE TRIGGER fail_operation BEFORE INSERT ON decision_operations "
+                       "BEGIN SELECT RAISE(ABORT, 'test storage failure'); END")
+        self.assertEqual(self.decide()[0], 503)
+        self.assertEqual(self.request(token=self.editor)[1], original)
+
+    def test_decision_replay_survives_over_4096_operations_and_restart(self):
+        self.decide()
+        restored = self.decide("neutral", operation="decision-restore", restore_revision=1)[1]
+        for number in range(4100):
+            self.httpd.store.update_decision("jkl:J-BED", "neutral", f"later-decision-{number:04}")
+        self.stop()
+        self.start()
+        self.assertEqual(self.decide()[1], restored)
+        with closing(sqlite3.connect(self.httpd.store.path)) as db:
+            rows = db.execute("SELECT operation_hash FROM decision_operations").fetchall()
+            self.assertEqual(len(rows), 4102)
+            self.assertTrue(all(len(row[0]) == 64 for row in rows))
+            self.assertNotIn("later-decision-4099", "\n".join(db.iterdump()))
+
 
 class ConfigurationTests(unittest.TestCase):
+    def test_existing_v1_database_upgrade_preserves_state_and_replays(self):
+        with temporary_fixture() as directory:
+            digest = hashlib.sha256(b"legacy-operation").hexdigest()
+            with closing(sqlite3.connect(directory / "picks.sqlite3")) as db:
+                db.executescript("""
+                    CREATE TABLE state (singleton INTEGER PRIMARY KEY, revision INTEGER NOT NULL, updated_at TEXT);
+                    INSERT INTO state VALUES (1, 7, '2026-10-20T00:00:00.000Z');
+                    CREATE TABLE picks (id TEXT PRIMARY KEY);
+                    INSERT INTO picks VALUES ('def:D-BED');
+                    CREATE TABLE operations (sequence INTEGER PRIMARY KEY, operation_hash TEXT NOT NULL UNIQUE,
+                                             id TEXT NOT NULL, starred INTEGER NOT NULL);
+                """)
+                db.execute("INSERT INTO operations VALUES (1, ?, 'def:D-BED', 1)", (digest,))
+                db.commit()
+            store = server.Store(directory, frozenset({"def:D-BED"}))
+            state = store.read("editor")
+            self.assertEqual(state, {"revision": 7, "updatedAt": "2026-10-20T00:00:00.000Z", "role": "editor",
+                                     "picks": ["def:D-BED"], "exclusions": [], "preferenceSchema": 2})
+            self.assertEqual(store.update("def:D-BED", True, "legacy-operation"), state)
+            self.assertIsNone(store.update_decision("def:D-BED", "preferred", "legacy-operation"))
+            store.update_decision("def:D-BED", "excluded", "new-exclusion", {"traits": [], "note": ""})
+            with closing(sqlite3.connect(store.path)) as db:
+                self.assertEqual(db.execute("SELECT * FROM operations").fetchall(), [(1, digest, "def:D-BED", 1)])
+
     def test_environment_validates_hash_only_auth_and_catalogue(self):
         with temporary_fixture() as directory:
             root = Path(directory)
