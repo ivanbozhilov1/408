@@ -13,6 +13,7 @@ END = '// END UNIT408 SHARED PICKS\n'
 
 
 def patch(gallery: Path, endpoint: str, catalog_path: Path) -> list[str]:
+    preserved_ids = json.loads(catalog_path.read_text(encoding='utf-8')) if catalog_path.exists() else []
     pages = sorted(gallery.glob('**/index.html'))
     legacy_root = gallery / 'fable-def.html'
     if legacy_root.exists():
@@ -46,6 +47,15 @@ def patch(gallery: Path, endpoint: str, catalog_path: Path) -> list[str]:
                                         if key in ('id', 'role', 'name', 'brand', 'sku', 'variant', 'family', 'url', 'scope', 'materials', 'dimensions')}})
     if not catalog or len({item['id'] for item in catalog}) != len(catalog):
         raise ValueError('Catalogue is empty or contains duplicate IDs')
+    if (gallery / 'collection-data.json').exists():
+        # Read legacy metadata first, then build the unified catalogue before
+        # embedding it. Every sender shares one queue and must know Astra rules.
+        from collection_catalog import build as build_collection_catalog
+        legacy_urls = {item['id']: item['url'] for item in catalog}
+        build_collection_catalog(gallery)
+        collection = json.loads((gallery / 'collection-catalog.json').read_text(encoding='utf-8'))
+        catalog = [{**item, 'url': legacy_urls.get(item['id'], item['url'])} for item in collection['items']]
+        preserved_ids.extend(json.loads((gallery / 'ops/picks/catalog.json').read_text(encoding='utf-8')))
     template = Path(__file__).with_name('client.js').read_text(encoding='utf-8')
     engine = Path(__file__).with_name('preferences.js').read_text(encoding='utf-8')
     for page, board in boards.items():
@@ -97,7 +107,8 @@ def patch(gallery: Path, endpoint: str, catalog_path: Path) -> list[str]:
             '.picks-sync [data-exclusions] button{margin:.25rem}.picks-sync button:disabled{opacity:.65}\n')
         css_path.write_text(css, encoding='utf-8')
     catalog_path.parent.mkdir(parents=True, exist_ok=True)
-    catalog_path.write_text(json.dumps([item['id'] for item in catalog], indent=2) + '\n', encoding='utf-8')
+    allowed_ids = list(dict.fromkeys(preserved_ids + [item['id'] for item in catalog]))
+    catalog_path.write_text(json.dumps(allowed_ids, indent=2) + '\n', encoding='utf-8')
     return list(boards.values())
 
 

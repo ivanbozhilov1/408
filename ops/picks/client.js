@@ -243,6 +243,15 @@
         : 'Isah’s stars update here automatically. Picks from other design sets also appear below. This viewing page is read-only.';
       if (session.role === 'editor') {
         for (const operation of pending()) {
+          // Recheck queued positives against confirmed exclusions. A future
+          // queued restore must not authorize an earlier preferred choice.
+          pullCache();
+          const positive = operation.decision ? operation.decision === 'preferred' : operation.starred === true;
+          if (positive && exclusionMatches(entries.get(operation.id), excluded).length) {
+            acknowledge(operation);
+            conflictNotice = ' · An older preferred choice was not applied because it now matches an exclusion. The saved exclusion was kept.';
+            paint(); continue;
+          }
           let saved;
           try { saved = await request('PUT', operation); }
           catch (failure) {
