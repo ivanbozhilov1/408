@@ -13,6 +13,11 @@ END = '// END UNIT408 SHARED PICKS\n'
 
 def patch(gallery: Path, endpoint: str, catalog_path: Path) -> list[str]:
     pages = sorted(gallery.glob('**/index.html'))
+    legacy_root = gallery / 'fable-def.html'
+    if legacy_root.exists():
+        # The combined collection is a separate runtime. DEF keeps its original
+        # board ID, assets and shared-picks behavior at this compatibility route.
+        pages = [legacy_root if page == gallery / 'index.html' else page for page in pages]
     pages = [page for page in pages if '.git' not in page.parts and (page.parent / 'site.js').exists()]
     catalog = []
     boards = {}
@@ -32,7 +37,7 @@ def patch(gallery: Path, endpoint: str, catalog_path: Path) -> list[str]:
             item_id = unescape(row[1])
             catalog.append({'id': f'{board}:{item_id}', 'board': board, 'label': label,
                             'name': unescape(re.sub('<[^>]+>', '', name[1])),
-                            'url': '/bedroom-design-options/' + ('' if board == 'def' else board + '/') + '?shared-picks=1#row-' + item_id})
+                            'url': '/bedroom-design-options/' + (('fable-def.html' if legacy_root.exists() else '') if board == 'def' else board + '/') + '?shared-picks=1#row-' + item_id})
     if not catalog or len({item['id'] for item in catalog}) != len(catalog):
         raise ValueError('Catalogue is empty or contains duplicate IDs')
     template = Path(__file__).with_name('client.js').read_text(encoding='utf-8')
