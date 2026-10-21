@@ -208,7 +208,7 @@ test('private fragment is consumed before data loading and does not route to the
 function galleryHarness() {
   const nodes=new Map(),node=key=>{if(!nodes.has(key))nodes.set(key,{value:'',innerHTML:'',textContent:'',style:{}});return nodes.get(key)};
   const writes=[],calls=[];
-  const context=vm.createContext({console,URL,URLSearchParams,Intl,Date,setTimeout,clearTimeout,document:{querySelector:node,querySelectorAll:()=>[]},window:{addEventListener:()=>{}},location:{hash:'',search:'',href:'https://example.test/bedroom-design-options/'},localStorage:{getItem:()=>null,setItem:(...args)=>writes.push(args)},fixture:simple,calls});
+  const context=vm.createContext({console,URL,URLSearchParams,Intl,Date,setTimeout,clearTimeout,document:{body:{dataset:{}},querySelector:node,querySelectorAll:()=>[]},window:{addEventListener:()=>{}},location:{hash:'',search:'',href:'https://example.test/bedroom-design-options/'},localStorage:{getItem:()=>null,setItem:(...args)=>writes.push(args)},fixture:simple,calls});
   const start=gallerySource.indexOf("const $=s=>");
   const end=gallerySource.indexOf("document.addEventListener('click'");
   vm.runInContext(gallerySource.slice(start,end),context);
@@ -232,8 +232,49 @@ test('gallery static integration preserves grouping, comparison, paths and isola
   const index=fs.readFileSync(base+'index.html','utf8');
   assert.match(index,/collection-preferences\.js.*collection-sync\.js.*collection\.js/);
   assert.match(index,/connect-src 'self' https:\/\/seo\.cebugrandrealty\.com:8443/);
-  assert.match(index,/value="opposite-golden"/);assert.match(gallerySource,/unit408-combined-qa-v1/);
+  assert.match(index,/<select\b[^>]*\bid="compare-view"/);assert.match(gallerySource,/unit408-combined-qa-v1/);
   assert.match(gallerySource,/location\.origin\+location\.pathname\+'#picks='/);
   assert.match(gallerySource,/function renderGrid/);assert.match(gallerySource,/compared\.length<3/);
   assert.match(syncSource,/setInterval\(.*5000\)/);assert.match(syncSource,/if \(!document.hidden\)/);
+});
+
+test('comparison offers delivered human and legacy views, preserves valid selections, and reports missing views', () => {
+  const h=galleryHarness(),select=h.node('#compare-view');
+  h.context.comparisonFixture=[
+    {id:'human',name:'Human views',letter:'P',author:'Astra',version:'current',views:[
+      {kind:'entrance-day',image:'entrance.png',label:'Entrance'},
+      {kind:'window-ac-golden',image:'window-golden.png',label:'Window golden',cameraPlan:'camera-plans/window.svg'}
+    ]},
+    {id:'legacy',name:'Legacy views',letter:'D',author:'Fable',version:'current',views:[
+      {kind:'main-day',image:'main.png',label:'Main'},
+      {kind:'opposite-golden',image:'opposite-golden.png',label:'Opposite golden'}
+    ]}
+  ];
+  const options=()=>Array.from(select.innerHTML.matchAll(/<option value="([^"]+)"/g),match=>match[1]);
+  vm.runInContext('designs=comparisonFixture;pageDesigns=designs;compared=[];',h.context);
+  assert.equal(vm.runInContext('syncCompareView()',h.context),'entrance-day');
+  assert.deepEqual(options(),['entrance-day','window-ac-golden','main-day','opposite-golden']);
+  assert.equal(select.disabled,false);
+
+  select.value='window-ac-golden';
+  vm.runInContext("compared=['human'];syncCompareView()",h.context);
+  assert.deepEqual(options(),['entrance-day','window-ac-golden']);
+  assert.equal(select.value,'window-ac-golden','A still-available selection must survive rebuilding options');
+
+  vm.runInContext("compared=['legacy'];syncCompareView()",h.context);
+  assert.deepEqual(options(),['main-day','opposite-golden']);
+  assert.equal(select.value,'main-day','An unavailable selection must fall back to a delivered view');
+
+  select.value='window-ac-golden';
+  vm.runInContext("compared=['human','legacy'];renderCompare()",h.context);
+  assert.equal(select.value,'window-ac-golden');
+  assert.match(h.node('#compare-grid').innerHTML,/src="window-golden\.png"/);
+  assert.match(h.node('#compare-grid').innerHTML,/href="camera-plans\/window\.svg"/);
+  assert.equal((h.node('#compare-grid').innerHTML.match(/No delivered view in this version\./g)||[]).length,1);
+  assert.doesNotMatch(h.node('#compare-grid').innerHTML,/src="(?:main|opposite-golden)\.png"/,'A missing angle must not silently substitute another image');
+
+  vm.runInContext('designs=[];pageDesigns=[];compared=[];',h.context);
+  assert.equal(vm.runInContext('syncCompareView()',h.context),'');
+  assert.equal(select.disabled,true);
+  assert.deepEqual(options(),[]);
 });
