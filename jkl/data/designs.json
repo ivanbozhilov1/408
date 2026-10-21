@@ -1,7 +1,7 @@
 {
   "title": "Unit 408 — three bedroom directions (J, K, L)",
   "as_of": "21 October 2026",
-  "overview": "Three new, fully sourced directions for Isah and Ivan, distinct from the six rejected A/B/C schemes: D low timber with paper light and terracotta; E ivory curves with caramel and thin black; F dark timber and leather-look with green velvet-tone textiles and brass. Every visible piece is a real catalogue product; technical essentials stay common by agreement.",
+  "overview": "Three new, fully sourced directions for Isah and Ivan, distinct from every earlier scheme: J White Gallery, a white room with one lilac-mauve accent, hidden valance light and a gallery of small frames; K Stitched Oak, a box-stitched headboard, natural oak and thin black lines under a crystal pendant; L Flax Wine, flax, wine and wicker around a mahogany spindle bed with pine and cane. Every visible piece is a real catalogue product; technical essentials stay common by agreement.",
   "requirements": [
     "MANDATORY: finished 50 mm mattress, 72 × 78 inches (1828.8 × 1981.2 mm), on continuous flat support with no exposed slats or gaps. No thick mattress, topper or box spring.",
     "All prices assume new purchases. Three distinct sets of visible furniture, bedside lamps, fixtures, mirrors, rugs, textiles, plants and decor. Matching bedside pairs within each design.",
@@ -12,13 +12,14 @@
     "Common technical essentials are owner-approved. Existing Davies Beige blackout/voile treatment and concealed old window AC remain a fixed room requirement."
   ],
   "procurement_gates": [
-    "No scheme is purchase-ready until the bed supplier accepts the exact 50 mm mattress and a continuous flat deck. Figaro lists a steel deck (continuity unverified); Fieche and Dylan publish no support type. King outer sizes are unpublished for Figaro and Dylan.",
-    "Prices are frozen pass-3 catalogue references (snapshot 20 Oct 2026, 23:14–23:17 Manila) with each line's own price date; beds and soft goods were read from supplier JSON on 20 Oct 2026. Product existence and photos are verified; exact Cebu stock, address delivery and checkout totals are not.",
-    "Colour and size gates: Fieche variant \"Grey\" vs sand photo; MX3 console width; Agatha chair and SALTSJÖBADEN swivel footprints; E cushion-cover size; lamp and pendant socket types.",
-    "TV mount is the True Vision TV73-69F (in stock per manufacturer API); installer to confirm substrate, anchors and Samsung fixings. HAY Donut cord set is not in the catalogue (QUOTE REQUIRED).",
+    "No scheme is purchase-ready until the bed supplier accepts the exact 50 mm mattress (1828.8 × 1981.2 mm) on a continuous flat deck. Geo (K) has slats, so a custom deck is required; Gibson (J) and Fidel (L) do not publish slats vs solid deck. Outer sizes are unpublished for all three frames.",
+    "Availability: Gibson King was listed unavailable on the 20 Oct capture and the Nitori stand mirror (J) is \"unavailable online\"; confirm stock before choosing J.",
+    "Prices are frozen pass-3 catalogue references (snapshot 20 Oct 2026) with each line's own price date; the Our Home beds were read from supplier JSON on 20 Oct 2026 (Fidel King from the collection JSON). Product existence and Cebu fulfilment require checkout confirmation.",
+    "Colour and size gates: J Vesper quilt and L faux-linen comforter are Full/Queen or Double-Queen sizes (short drop on the thin mattress); FAGERBACKEN dimensions unpublished; Kolya, Alphalux cane and Deidra lamp sockets and pendant sockets to confirm.",
+    "TV mount is the True Vision TV73-69F (in stock per manufacturer API); installer to confirm substrate, anchors and Samsung fixings.",
     "Curtain ₱42,420 is the carried 16 October quote reference: ₱36,720 master treatment plus ₱3,800 valance and ₱1,900 sticks allocations. Remeasurement quote required.",
     "Trade/freight/mattress/deck reserves total ₱35,000–84,000 as estimator allowances, not supplier quotations. 10 % contingency added, totals rounded up to the next ₱1,000.",
-    "Boards, measured plans and scaled product elevations are the acceptance basis. No AI room renders are included; generation/jobs.json holds optional render jobs with frozen references."
+    "Boards, measured plans and the model views are the acceptance basis. The style renders are AI studies painted over the model views, not photographs; check every piece against the schedule."
   ],
   "allowances": [
     {
@@ -1779,8 +1780,8 @@
   ],
   "source_notes": [
     "Catalogue of record: frozen Airtable pass-3 snapshot (9,853 products / 9,901 offers, LIVE-PASS3-READ-RECEIPT.json). No live Airtable read in this run; no Airtable writes.",
-    "50 visible selections across D/E/F, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across D, E, F or the six rejected schemes (UNIQUENESS-MATRIX.md).",
-    "Product photos are unaltered retailer references. Plans use published dimensions where available and flag defaults where not.",
+    "50 visible selections across J/K/L, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across J, K, L, the twelve earlier schemes or the parallel GHI and MNO sets (UNIQUENESS-MATRIX.md).",
+    "Product photos are unaltered retailer references, except the J gallery card, a 3 × 2 composite of the Jahn frame photo. Plans use published dimensions where available and flag defaults where not.",
     "PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made."
   ]
 }
