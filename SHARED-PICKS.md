@@ -1,12 +1,12 @@
 # Isah’s shared picks
 
-The main `index.html` shows all GPT/Astra and Claude/Fable designs together. Its `collection.js` shortlist saves only in the current browser and supports explicit export/import. It does not write to this shared service. Use its **Shared shortlist** link for synchronized preferences, exclusions and the regeneration brief.
+The main `index.html` shows all 18 finished GPT/Astra and Claude/Fable designs together. Connect through **Shared choices** to synchronize preferred, neutral and excluded items on this same page. Without a private connection, choices stay in the current browser and support explicit export/import.
 
-The original D/E/F page is preserved at `fable-def.html`; G/H/I, J/K/L and M/N/O retain their original folders. Existing root private-access links, shared-item links and D/E/F picks links route to `fable-def.html` with the fragment preserved. The patch tool targets this preserved page and keeps all243 shared item IDs unchanged. The unified collection runtime, images and product data remain separate and unchanged.
+The original D/E/F page is preserved at `fable-def.html`; G/H/I, J/K/L and M/N/O retain their original folders. Root private-access links connect directly on the combined page and remove the private fragment before loading collection data. Existing legacy item/picks links remain compatible. The catalogue keeps all 243 original IDs and adds Astra items for 627 unique IDs across current and historical versions. Historical choices remain retained even though archive browsing links and archived picks are hidden from the main page.
 
 ## Exclusions and the next design
 
-The D/E/F, G/H/I, J/K/L and M/N/O schedules also let the editor exclude a product, its family and selected characteristics. Exclusions sync alongside stars, can be edited, and can be explicitly restored to neutral. A delayed offline star or unstar cannot remove a newer exclusion. Restore uses the current saved revision. The separate Astra presentation currently has no item controls.
+The combined Astra/Fable schedules and preserved Fable pages let the editor exclude a product, its family and selected characteristics. Exclusions sync alongside preferred choices, can be edited, and can be explicitly restored to neutral. A delayed offline preference or neutral action cannot remove a newer exclusion. Restore uses the current saved revision. The same stable product ID shares its decision across design versions.
 
 **Prepare regeneration brief** downloads a fresh, conflict-checked preference snapshot. It does not generate images. Use [the regeneration workflow](ops/picks/REGENERATION.md) and run `node ops/picks/check_design.mjs --brief ... --candidates ...` before rendering. Every candidate in a rejected category needs a recorded human source-photo review; every finished image still needs visual review. Never fabricate those attestations or commit the private preference download.
 
