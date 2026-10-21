@@ -42,7 +42,17 @@ class GalleryPatchTests(unittest.TestCase):
             (self.root / 'index.html').write_text(
                 '<html><script src="collection.js"></script><a href="fable-def.html?shared-picks=1#picks">Shared shortlist</a></html>', encoding='utf-8')
             (self.root / 'collection.js').write_text('/* Independent collection runtime. */', encoding='utf-8')
-            (self.root / 'collection-data.json').write_text('{"schemes":[]}', encoding='utf-8')
+            designs = [{
+                'id': f'fable-{board}:{item_id[0]}', 'namespace': f'fable-{board}',
+                'author': 'Fable', 'letter': item_id[0], 'name': 'Example',
+                'products': [{'id': f'fable-{board}::{item_id}', 'name': 'Example bed',
+                              'category': 'bed', 'legacyIds': [f'{board}:{item_id}']}]
+            } for board, item_id in [('def', 'D-BED'), ('ghi', 'G-BED'), ('jkl', 'J-BED'), ('mno', 'M-BED')]]
+            (self.root / 'collection-data.json').write_text(json.dumps({'designs': designs}), encoding='utf-8')
+            # The split collection retains the pre-existing shared-ID allowlist.
+            (self.root / 'ops' / 'picks').mkdir(parents=True)
+            (self.root / 'ops' / 'picks' / 'catalog.json').write_text(
+                json.dumps(['ghi:G-BED', 'def:D-BED', 'jkl:J-BED', 'mno:M-BED']), encoding='utf-8')
 
     def test_split_collection_is_preserved_and_def_links_use_compatibility_page(self):
         self.fixture(split=True)
@@ -52,6 +62,10 @@ class GalleryPatchTests(unittest.TestCase):
         self.assertEqual(set(boards), {'def', 'ghi', 'jkl', 'mno'})
         self.assertEqual(json.loads((self.root / 'catalog.json').read_text()),
                          ['ghi:G-BED', 'def:D-BED', 'jkl:J-BED', 'mno:M-BED'])
+        unified = json.loads((self.root / 'collection-catalog.json').read_text())['items']
+        self.assertEqual({item['id']: item['localId'] for item in unified}, {
+            'def:D-BED': 'fable-def::D-BED', 'ghi:G-BED': 'fable-ghi::G-BED',
+            'jkl:J-BED': 'fable-jkl::J-BED', 'mno:M-BED': 'fable-mno::M-BED'})
         for name, original in protected.items():
             self.assertEqual((self.root / name).read_bytes(), original, name)
         for folder in [self.root, self.root / 'ghi', self.root / 'jkl', self.root / 'mno']:
