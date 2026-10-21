@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-collection-v001 / 2026-10-21T13:56Z",
+  "build": "408-collection-v002 / 2026-10-21T16:03Z",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -14022,29 +14022,32 @@
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/fable-def.html",
-      "hero": "assets/D-render-main.png",
+      "hero": "assets/D-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "D-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/D-render-main.png"
+          "image": "assets/D-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "D-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/D-render-opposite.png"
+          "image": "assets/D-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "D-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/D-render-seating.png"
+          "image": "assets/D-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -14851,29 +14854,32 @@
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/fable-def.html",
-      "hero": "assets/E-render-main.png",
+      "hero": "assets/E-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "E-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/E-render-main.png"
+          "image": "assets/E-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "E-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/E-render-opposite.png"
+          "image": "assets/E-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "E-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/E-render-seating.png"
+          "image": "assets/E-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -15681,29 +15687,32 @@
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/fable-def.html",
-      "hero": "assets/F-render-main.png",
+      "hero": "assets/F-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "F-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/F-render-main.png"
+          "image": "assets/F-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "F-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/F-render-opposite.png"
+          "image": "assets/F-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "F-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/F-render-seating.png"
+          "image": "assets/F-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -16512,29 +16521,32 @@
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/ghi/",
-      "hero": "collection-assets/fe79274f17966580957c4dff.png",
+      "hero": "ghi/assets/G-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "G-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "collection-assets/fe79274f17966580957c4dff.png"
+          "image": "ghi/assets/G-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "G-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/G-render-opposite.png"
+          "image": "ghi/assets/G-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "G-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "collection-assets/cbc180bd3193cad6308d7cc6.png"
+          "image": "ghi/assets/G-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -17294,29 +17306,32 @@
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/ghi/",
-      "hero": "ghi/assets/H-render-main.png",
+      "hero": "ghi/assets/H-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "H-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/H-render-main.png"
+          "image": "ghi/assets/H-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "H-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/H-render-opposite.png"
+          "image": "ghi/assets/H-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "H-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "collection-assets/6c719ab7ee5539f80543a62c.png"
+          "image": "ghi/assets/H-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -18127,29 +18142,32 @@
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/ghi/",
-      "hero": "ghi/assets/I-render-main.png",
+      "hero": "ghi/assets/I-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "I-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/I-render-main.png"
+          "image": "ghi/assets/I-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "I-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "collection-assets/a29af1a20bf537a7fc9a036c.png"
+          "image": "ghi/assets/I-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "I-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "collection-assets/1863f5484e0a72eb930fcd5d.png"
+          "image": "ghi/assets/I-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -18935,29 +18953,32 @@
         "J-main mattress reads about 100 mm despite 50 mm requirement; final status retains QA major after cap. Local dist lacks the later live cross-browser sync/header version; do not redeploy it over public jkl/."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/jkl/",
-      "hero": "jkl/assets/J-render-main.png",
+      "hero": "jkl/assets/J-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "J-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/J-render-main.png"
+          "image": "jkl/assets/J-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "J-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/J-render-opposite.png"
+          "image": "jkl/assets/J-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "J-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/J-render-seating.png"
+          "image": "jkl/assets/J-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -19764,29 +19785,32 @@
         "J-main mattress reads about 100 mm despite 50 mm requirement; final status retains QA major after cap. Local dist lacks the later live cross-browser sync/header version; do not redeploy it over public jkl/."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/jkl/",
-      "hero": "jkl/assets/K-render-main.png",
+      "hero": "jkl/assets/K-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "K-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/K-render-main.png"
+          "image": "jkl/assets/K-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "K-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/K-render-opposite.png"
+          "image": "jkl/assets/K-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "K-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/K-render-seating.png"
+          "image": "jkl/assets/K-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -20567,29 +20591,32 @@
         "J-main mattress reads about 100 mm despite 50 mm requirement; final status retains QA major after cap. Local dist lacks the later live cross-browser sync/header version; do not redeploy it over public jkl/."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/jkl/",
-      "hero": "jkl/assets/L-render-main.png",
+      "hero": "jkl/assets/L-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "L-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/L-render-main.png"
+          "image": "jkl/assets/L-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "L-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/L-render-opposite.png"
+          "image": "jkl/assets/L-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "L-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/L-render-seating.png"
+          "image": "jkl/assets/L-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -21396,29 +21423,32 @@
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/mno/",
-      "hero": "mno/assets/M-render-main.png",
+      "hero": "mno/assets/M-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "M-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/M-render-main.png"
+          "image": "mno/assets/M-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "M-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/M-render-opposite.png"
+          "image": "mno/assets/M-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "M-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/M-render-seating.png"
+          "image": "mno/assets/M-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -22178,29 +22208,32 @@
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/mno/",
-      "hero": "mno/assets/N-render-main.png",
+      "hero": "mno/assets/N-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "N-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/N-render-main.png"
+          "image": "mno/assets/N-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "N-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/N-render-opposite.png"
+          "image": "mno/assets/N-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "N-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/N-render-seating.png"
+          "image": "mno/assets/N-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -23010,29 +23043,32 @@
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/mno/",
-      "hero": "mno/assets/O-render-main.png",
+      "hero": "mno/assets/O-render-entry.png",
       "plan": null,
       "views": [
         {
-          "label": "O-render-main.png",
+          "label": "Main · hallway door, eye level",
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/O-render-main.png"
+          "image": "mno/assets/O-render-entry.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "O-render-opposite.png",
+          "label": "Opposite · window-AC corner, eye level",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/O-render-opposite.png"
+          "image": "mno/assets/O-render-windowac.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "O-render-seating.png",
+          "label": "Side · bathroom door, eye level",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/O-render-seating.png"
+          "image": "mno/assets/O-render-bathroom.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
