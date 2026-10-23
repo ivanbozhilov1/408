@@ -13,7 +13,7 @@
     "nativeInputs": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/file"}},
     "sourceImages": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/file"}},
     "preference": {"type": "object", "required": ["revision", "checkedRevision", "exclusionRevision", "checkedExclusionRevision"]},
-    "candidateGate": {"type": "object", "required": ["checkerSha256", "preferencesSha256", "preferenceRevision", "brief", "candidates", "result"], "properties": {"brief": {"$ref": "#/$defs/file"}, "candidates": {"$ref": "#/$defs/file"}, "result": {"$ref": "#/$defs/file"}}},
+    "candidateGate": {"type": "object", "required": ["checkerSha256", "preferencesSha256", "usageSha256", "preferenceRevision", "brief", "candidates", "result"], "properties": {"brief": {"$ref": "#/$defs/file"}, "candidates": {"$ref": "#/$defs/file"}, "result": {"$ref": "#/$defs/file"}, "collection": {"$ref": "#/$defs/file"}}},
     "productBindings": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["catalogueId", "candidateId", "photoSha256"]}},
     "views": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["id", "designId", "sourcePath", "sourceSha256", "destination", "productIds", "width", "height"], "properties": {"width": {"type": "integer", "minimum": 1}, "height": {"type": "integer", "minimum": 1}, "productIds": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}}}},
     "publicFiles": {"type": "array", "items": {"allOf": [{"$ref": "#/$defs/file"}, {"required": ["destination"]}]}}

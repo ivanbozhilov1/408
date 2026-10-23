@@ -8,7 +8,7 @@ python ops/release/release.py prepare --gallery /current/gallery --accepted-mani
 python ops/release/release.py readback --manifest /fresh/release/release-manifest.json --base-url https://ivanbozhilov1.github.io/bedroom-design-options/ --chromium /path/to/chrome
 ```
 
-The operator selects the trusted gallery. The deterministic checker is always its canonical `ops/picks/check_design.mjs` and adjacent `preferences.js`; a job cannot supply an executable or shell hook. Prepare requires a clean tracked checkout, pins HEAD, queries the actual `origin/main` tip with read-only `git ls-remote`, requires it match `targetHead` and be an ancestor, and repeats admission after encoding. A repository with no origin can prepare a synthetic/local fixture but records a deployment hold. No implicit Git/API/network mutation occurs.
+The operator selects the trusted gallery. The deterministic checker is always its canonical `ops/picks/check_design.mjs` and adjacent `preferences.js` and `usage.js`; a job cannot supply an executable or shell hook. Prepare requires a clean tracked checkout, pins HEAD, queries the actual `origin/main` tip with read-only `git ls-remote`, requires it match `targetHead` and be an ancestor, and repeats admission after encoding. A repository with no origin can prepare a synthetic/local fixture but records a deployment hold. No implicit Git/API/network mutation occurs.
 
 Only upload `public/`. The sibling `stage/`, `changed-assets/`, acceptance references and release receipt are local review materials. `changed-assets/` contains only runtime files whose bytes differ from the selected checkout; `release-manifest.json` records their before/after hashes and the approved PNG source changes. Originals and previous derivatives remain in the source repository. Publication consumes owner-approved images; flags in a manifest are never a substitute for actually doing the independent review.
 
@@ -27,7 +27,7 @@ See [accepted-manifest.schema.json](accepted-manifest.schema.json). Paths in fil
   "sourceImages": [{"path": "accepted/view.png", "sha256": "<SHA256>"}],
   "preference": {"revision": 7, "checkedRevision": 7, "exclusionRevision": 7, "checkedExclusionRevision": 7},
   "candidateGate": {
-    "checkerSha256": "<trusted gallery checker hash>", "preferencesSha256": "<trusted dependency hash>", "preferenceRevision": 7,
+    "checkerSha256": "<trusted gallery checker hash>", "preferencesSha256": "<trusted preference dependency hash>", "usageSha256": "<trusted usage dependency hash>", "preferenceRevision": 7,
     "brief": {"path": "current-brief.json", "sha256": "<SHA256>"},
     "candidates": {"path": "candidates.json", "sha256": "<SHA256>"},
     "result": {"path": "candidate-check.json", "sha256": "<exact checker stdout SHA256>"}
@@ -40,6 +40,8 @@ See [accepted-manifest.schema.json](accepted-manifest.schema.json). Paths in fil
 ```
 
 The abbreviated `nativeInputs` example must be expanded to **every** frozen source group (dimension owner, geometry, cameras, scene, lighting, visibility, owner rules, preferences, exclusions), selected supplier photos, fixed inputs, source review and distinctness review. The contract must be unexpired `design-pack-inputs/v1` with a valid intrinsic hash. Preferences/exclusions must match both frozen and checked revisions. Source files, photos, candidate identities and per-view visibility are checked again. Any reviewed public HTML/data overlay uses `{path, sha256, destination}` in `publicFiles`; the independent review must bind the identical list. New sets must supply reviewed collection data; existing slots require exact `designId`/`slot` targets.
+
+For a brief with `generation.unusedItemsOnly:true`, add `candidateGate.collection:{path,sha256}` bound to the operator-selected gallery's complete `collection-data.json`. It must match `preference_gate.collection` in the frozen contract. The checker receives that canonical collection, so all saved versions and reused model variants remain part of the unused-product test. `usageSha256` must match the contract's `usage_dependency` as well as the current canonical file. Changes to either dependency or the collection require renewed evidence; an older usage snapshot cannot silently pass.
 
 The real independent review JSON contains `accepted:true`, `independent:true`, `reviewer:{id,role:"independent"}`, `unresolvedCritical:[]`, `acceptedAt`, the exact contract **file** hash in `contractSha256`, identical `nativeInputs`/`sourceImages` arrays, `preference:{revision,exclusionRevision}`, and identical `publicFiles` if used. Do not synthesize this receipt for a real view. Tests use clearly labelled synthetic evidence only.
 

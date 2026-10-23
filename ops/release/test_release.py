@@ -20,7 +20,7 @@ class ReleaseGuardTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(dir=HERE.parent); self.addCleanup(self.temp.cleanup)
         self.base = Path(self.temp.name); self.gallery = self.base / 'gallery'; self.gallery.mkdir()
-        for name in ('check_design.mjs', 'preferences.js'):
+        for name in ('check_design.mjs', 'preferences.js', 'usage.js'):
             path = self.gallery / 'ops/picks' / name; path.parent.mkdir(parents=True, exist_ok=True); shutil.copyfile(HERE / 'ops/picks' / name, path)
         self.git('init'); self.git('add', '.'); self.git('-c', 'user.email=synthetic@example.invalid', '-c', 'user.name=Synthetic test', 'commit', '-m', 'fixture')
         self.write('native.txt', 'synthetic native input'); self.write('image.png', 'synthetic reviewed image bytes')
@@ -38,10 +38,14 @@ class ReleaseGuardTests(unittest.TestCase):
         contract['jobs'] = {'view': {'visible_product_ids': ['bed']}}
         contract.pop('contract_sha256')
         contract['contract_sha256'] = hashlib.sha256(json.dumps(contract, sort_keys=True, separators=(',', ':'), ensure_ascii=False).encode()).hexdigest()
+        contract['preference_gate']['usage_dependency'] = {'sha256': digest(self.gallery/'ops/picks/usage.js')}
+        contract.pop('contract_sha256')
+        contract['contract_sha256'] = hashlib.sha256(json.dumps(contract, sort_keys=True, separators=(',', ':'), ensure_ascii=False).encode()).hexdigest()
         self.write('contract.json', contract)
         native = [self.bound('native.txt')]; source = [self.bound('image.png')]; stamp = datetime.now(timezone.utc).isoformat()
         self.write('review.json', {'accepted': True, 'independent': True, 'reviewer': {'id': 'synthetic fixture', 'role': 'independent'}, 'unresolvedCritical': [], 'acceptedAt': stamp, 'contractSha256': self.bound('contract.json')['sha256'], 'nativeInputs': native, 'sourceImages': source, 'preference': {'revision': 7, 'exclusionRevision': 7}})
         self.accepted = {'schema': 1, 'galleryHead': self.git('rev-parse', 'HEAD'), 'acceptedAt': stamp, 'contract': self.bound('contract.json'), 'nativeInputs': native, 'sourceImages': source, 'preference': {'revision': 7, 'checkedRevision': 7, 'exclusionRevision': 7, 'checkedExclusionRevision': 7}, 'review': self.bound('review.json'), 'candidateGate': {'checkerSha256': digest(self.gallery/'ops/picks/check_design.mjs'), 'preferencesSha256': digest(self.gallery/'ops/picks/preferences.js'), 'preferenceRevision': 7, 'brief': self.bound('brief.json'), 'candidates': self.bound('candidates.json'), 'result': self.bound('gate.json')}, 'views': [{'id': 'view', 'sourcePath': 'image.png', 'sourceSha256': self.bound('image.png')['sha256'], 'destination': 'renders/view.png', 'productIds': ['bed'], 'width': 2, 'height': 2}]}
+        self.accepted['candidateGate']['usageSha256'] = digest(self.gallery/'ops/picks/usage.js')
         self.catalogue = self.write('catalogue.json', {'service': 'unit408-picks', 'independentReadback': True, 'verifiedAt': stamp, 'ids': ['bed']})
         self.manifest = self.write('accepted.json', self.accepted)
         self.accepted['productBindings'] = [{'catalogueId': 'bed', 'candidateId': 'bed', 'photoSha256': native_record['sha256']}]
@@ -54,6 +58,45 @@ class ReleaseGuardTests(unittest.TestCase):
         return subprocess.run(['git', '-C', str(self.gallery), *args], check=True, capture_output=True, text=True).stdout.strip()
     def check(self):
         self.write('accepted.json', self.accepted); return validate(self.manifest, self.gallery, self.catalogue)
+    def unused_gate(self):
+        """Compile the real current checker policy using clearly synthetic furniture."""
+        collection = self.gallery/'collection-data.json'
+        collection.write_text(json.dumps({'designs': [{'id': 'saved::A', 'name': 'Synthetic saved fixture', 'products': [{'id': 'used-chair', 'name': 'Synthetic used chair', 'role': 'chair', 'category': 'chair', 'url': 'https://example.invalid/used-chair', 'source': 'https://example.invalid/used-chair', 'family': 'Fixture Used Chair', 'variant': 'Oak'}]}]}), encoding='utf-8')
+        script = """import {pathToFileURL} from 'node:url'; import fs from 'node:fs';
+const root=process.argv[1]; await import(pathToFileURL(root+'/ops/picks/usage.js'));
+await import(pathToFileURL(root+'/ops/picks/preferences.js'));
+const collection=JSON.parse(fs.readFileSync(root+'/collection-data.json'));
+const usage=globalThis.Unit408Usage.build(collection.designs).snapshot;
+console.log(JSON.stringify(globalThis.Unit408Preferences.compile({preferenceSchema:2,revision:7,picks:[],exclusions:[]},[],{unusedItemsOnly:true,usage})));"""
+        result = subprocess.run(['node', '--input-type=module', '-e', script, str(self.gallery)], check=True, capture_output=True, text=True)
+        self.write('brief.json', json.loads(result.stdout))
+        result = subprocess.run(['node', str(self.gallery/'ops/picks/check_design.mjs'), '--brief', str(self.base/'brief.json'), '--candidates', str(self.base/'candidates.json'), '--collection', str(collection)], check=True, capture_output=True, text=True)
+        self.write('gate.json', json.loads(result.stdout))
+        gate = self.accepted['candidateGate']
+        gate.update({'brief': self.bound('brief.json'), 'result': self.bound('gate.json'), 'collection': {'path': str(collection), 'sha256': digest(collection)}})
+        contract = json.loads((self.base/'contract.json').read_text())
+        contract['preference_gate'].update({'brief': gate['brief'], 'result_sha256': gate['result']['sha256'], 'collection': gate['collection']})
+        contract.pop('contract_sha256')
+        contract['contract_sha256'] = hashlib.sha256(json.dumps(contract, sort_keys=True, separators=(',', ':'), ensure_ascii=False).encode()).hexdigest()
+        self.write('contract.json', contract); self.accepted['contract'] = self.bound('contract.json')
+        review = json.loads((self.base/'review.json').read_text()); review['contractSha256'] = self.accepted['contract']['sha256']
+        self.write('review.json', review); self.accepted['review'] = self.bound('review.json')
+    def test_current_unused_policy_passes_with_bound_canonical_collection(self):
+        self.unused_gate(); self.check()
+    def test_unused_policy_without_collection_binding_holds(self):
+        self.unused_gate(); self.accepted['candidateGate'].pop('collection')
+        with self.assertRaisesRegex(Hold, 'current frozen collection binding'):
+            self.check()
+    def test_current_collection_change_invalidates_gate(self):
+        self.unused_gate(); (self.gallery/'collection-data.json').write_text('{}')
+        with self.assertRaisesRegex(Hold, 'candidate usage collection hash changed'):
+            self.check()
+    def test_usage_dependency_change_invalidates_gate(self):
+        with (self.gallery/'ops/picks/usage.js').open('a') as stream: stream.write('\n// changed synthetic dependency\n')
+        self.git('add', '.'); self.git('-c', 'user.email=synthetic@example.invalid', '-c', 'user.name=Synthetic test', 'commit', '-m', 'changed fixture dependency')
+        self.accepted['galleryHead'] = self.git('rev-parse', 'HEAD')
+        with self.assertRaisesRegex(Hold, 'current deterministic candidate gate'):
+            self.check()
     def test_valid_local_admission_has_no_network_mutation(self):
         original = subprocess.run; calls = []
         def record(cmd, **kwargs):
@@ -111,6 +154,8 @@ class ReleaseGuardTests(unittest.TestCase):
         self.accepted['galleryHead'] = self.git('rev-parse', 'HEAD'); self.accepted['sourceImages'] = [self.bound('image.png')]
         view = self.accepted['views'][0]; view.update({'sourceSha256': digest(self.base/'image.png'), 'designId': 'fixture', 'slot': 'view', 'width': 1, 'height': 1})
         review = json.loads((self.base/'review.json').read_text()); review['sourceImages'] = self.accepted['sourceImages']; self.write('review.json', review); self.accepted['review'] = self.bound('review.json'); self.write('accepted.json', self.accepted)
+        self.accepted['candidateGate']['usageSha256'] = digest(self.gallery/'ops/picks/usage.js')
+        self.write('accepted.json', self.accepted)
         before = digest(self.gallery/'collection-data.json')
         result = prepare(self.gallery, self.manifest, self.base/'prepared', self.catalogue, Path(os.environ['UNIT408_CHROMIUM']))
         self.assertEqual(result['status'], 'LOCAL_PREPARED'); self.assertEqual(result['servedImages'][0]['width'], 1)

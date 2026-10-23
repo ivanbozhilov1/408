@@ -88,10 +88,11 @@ def validate(accepted_path: Path, gallery: Path, catalogue_path: Path | None):
             raise Hold('frozen ' + group + ' revision differs from accepted manifest')
     gate = accepted.get('candidateGate', {})
     checker = gallery / 'ops/picks/check_design.mjs'; preferences = gallery / 'ops/picks/preferences.js'
-    if gate.get('checkerSha256') != digest(checker) or gate.get('preferencesSha256') != digest(preferences) or gate.get('preferenceRevision') != preference['revision']:
+    usage = gallery / 'ops/picks/usage.js'
+    if gate.get('checkerSha256') != digest(checker) or gate.get('preferencesSha256') != digest(preferences) or gate.get('usageSha256') != digest(usage) or gate.get('preferenceRevision') != preference['revision']:
         raise Hold('current deterministic candidate gate and exact preference revision binding required')
     frozen_gate = contract.get('preference_gate', {})
-    if frozen_gate.get('checker', {}).get('sha256') != gate['checkerSha256'] or frozen_gate.get('dependency', {}).get('sha256') != gate['preferencesSha256'] or frozen_gate.get('revision') != preference['revision']:
+    if frozen_gate.get('checker', {}).get('sha256') != gate['checkerSha256'] or frozen_gate.get('dependency', {}).get('sha256') != gate['preferencesSha256'] or frozen_gate.get('usage_dependency', {}).get('sha256') != gate['usageSha256'] or frozen_gate.get('revision') != preference['revision']:
         raise Hold('candidate gate differs from frozen contract')
     brief = bound_file(base, gate['brief'], 'candidate brief'); candidates = bound_file(base, gate['candidates'], 'candidate list'); result = bound_file(base, gate['result'], 'candidate gate result')
     brief_data = json.loads(brief.read_text(encoding='utf-8'))
@@ -99,7 +100,16 @@ def validate(accepted_path: Path, gallery: Path, catalogue_path: Path | None):
         raise Hold('candidate gate exact input/result bytes differ from frozen contract')
     if brief_data.get('revision') != preference['revision']:
         raise Hold('candidate brief preference revision differs')
-    replay = subprocess.run(['node', str(checker), '--brief', str(brief), '--candidates', str(candidates)], capture_output=True, text=True)
+    command = ['node', str(checker), '--brief', str(brief), '--candidates', str(candidates)]
+    collection_record = gate.get('collection')
+    if bool(collection_record) != bool(frozen_gate.get('collection')) or (brief_data.get('generation', {}).get('unusedItemsOnly') is True and not collection_record):
+        raise Hold('unused-product policy requires the current frozen collection binding')
+    if collection_record:
+        collection = bound_file(base, collection_record, 'candidate usage collection')
+        if collection != (gallery / 'collection-data.json').resolve() or not collection.is_relative_to(gallery) or frozen_gate['collection'].get('sha256') != digest(collection):
+            raise Hold('candidate usage collection differs from current canonical gallery collection')
+        command.extend(['--collection', str(collection)])
+    replay = subprocess.run(command, capture_output=True, text=True)
     expected_result = json.loads(result.read_text(encoding='utf-8'))
     if replay.returncode or expected_result.get('ok') is not True or json.loads(replay.stdout) != expected_result:
         raise Hold('candidate gate replay blocked or differs from bound PASS result')
