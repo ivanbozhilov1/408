@@ -14,8 +14,8 @@
   "procurement_gates": [
     "No scheme is purchase-ready until the bed supplier accepts the exact 50 mm mattress and a continuous flat deck. Figaro lists a steel deck (continuity unverified); Fieche and Dylan publish no support type. King outer sizes are unpublished for Figaro and Dylan.",
     "Prices are frozen pass-3 catalogue references (snapshot 20 Oct 2026, 23:14–23:17 Manila) with each line's own price date; beds and soft goods were read from supplier JSON on 20 Oct 2026. Product existence and photos are verified; exact Cebu stock, address delivery and checkout totals are not.",
-    "Colour and size gates: Fieche variant \"Grey\" vs sand photo; MX3 console width; Agatha chair and SALTSJÖBADEN swivel footprints; E cushion-cover size; lamp and pendant socket types.",
-    "TV mount is the True Vision TV73-69F (in stock per manufacturer API); installer to confirm substrate, anchors and Samsung fixings. HAY Donut cord set is not in the catalogue (QUOTE REQUIRED).",
+    "Colour and size gates: Fieche variant \"Grey\" vs sand photo; MX3 console width; Agatha chair and SALTSJÖBADEN swivel footprints; E cushion-cover size; lamp socket types.",
+    "TV mount is the True Vision TV73-69F (in stock per manufacturer API); installer to confirm substrate, anchors and Samsung fixings.",
     "Curtain ₱42,420 is the carried 16 October quote reference: ₱36,720 master treatment plus ₱3,800 valance and ₱1,900 sticks allocations. Remeasurement quote required.",
     "Trade/freight/mattress/deck reserves total ₱35,000–84,000 as estimator allowances, not supplier quotations. 10 % contingency added, totals rounded up to the next ₱1,000.",
     "Boards, measured plans and scaled product elevations are the acceptance basis. No AI room renders are included; generation/jobs.json holds optional render jobs with frozen references."
@@ -68,20 +68,20 @@
     {
       "id": "D",
       "title": "Low Timber Horizon",
-      "rationale": "Low walnut-stained timber bed and 340 mm oak bedsides, paper light (sculpted paper lamps, rice-paper donut), ash leaning mirror, terracotta quilt and clay vase; natural wool/jute check rug. Pale-to-mid timber dominant, terracotta accent, paper light.",
+      "rationale": "Low walnut-stained timber bed and 340 mm oak bedsides, paper light (sculpted paper lamps), ash leaning mirror, terracotta quilt and clay vase; natural wool/jute check rug. Pale-to-mid timber dominant, terracotta accent, paper light.",
       "palette": [
         "#b89468",
         "#c8673f",
         "#efe6d3"
       ],
       "budget": {
-        "design_centavos": 18136598,
+        "design_centavos": 17556598,
         "common_centavos": 11992450,
-        "priced_centavos": 30129048,
+        "priced_centavos": 29549048,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 370000,
-        "total_high_php": 424000
+        "total_low_php": 364000,
+        "total_high_php": 418000
       },
       "fit_notes": [
         "Falcon II bedsides (480×398) and the Agatha chair (width unpublished) pass the conditional static layout; chair width to confirm.",
@@ -92,20 +92,20 @@
     {
       "id": "E",
       "title": "Ivory Cocoon",
-      "rationale": "Curved sand bouclé Fieche bed, white two-drawer Nina bedsides, cream sphere lamps, rounded beige swivel armchair, cream Charlotte bench, thin gold round mirror, pleated cotton flush light and a beige lattice low-pile rug. Ivory upholstery dominant, caramel accent, soft ceramic light.",
+      "rationale": "Curved sand bouclé Fieche bed, white two-drawer Nina bedsides, cream sphere lamps, rounded beige swivel armchair, cream Charlotte bench, thin gold round mirror and a beige lattice low-pile rug. Ivory upholstery dominant, caramel accent, soft ceramic light.",
       "palette": [
         "#efe5d6",
         "#b9865a",
         "#2b2b2b"
       ],
       "budget": {
-        "design_centavos": 15318900,
+        "design_centavos": 13708900,
         "common_centavos": 12090450,
-        "priced_centavos": 27409350,
+        "priced_centavos": 25799350,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 341000,
-        "total_high_php": 394000
+        "total_low_php": 323000,
+        "total_high_php": 377000
       },
       "fit_notes": [
         "Fieche published 1910 × 2080 outer; Nina bedsides 400 mm each side fit the headboard wall.",
@@ -116,20 +116,20 @@
     {
       "id": "F",
       "title": "Evening Library",
-      "rationale": "Black/wengue mahogany Dylan bed with leather-look headboard, wenge drawer bedsides, amber-glass lamps, cognac leather LANDSKRONA club chair, black fluted console, bronze full-length mirror, brass ring pendant, burnt-green linen duvet on a black flatweave rug, tall dark-pot greenery. Dark timber and leather-look dominant, forest-green accent, brass and amber light.",
+      "rationale": "Black/wengue mahogany Dylan bed with leather-look headboard, wenge drawer bedsides, amber-glass lamps, cognac leather LANDSKRONA club chair, black fluted console, bronze full-length mirror, burnt-green linen duvet on a black flatweave rug, tall dark-pot greenery. Dark timber and leather-look dominant, forest-green accent, brass and amber light.",
       "palette": [
         "#2a211c",
         "#4f5a3c",
         "#b58a44"
       ],
       "budget": {
-        "design_centavos": 17442500,
-        "common_centavos": 12120250,
-        "priced_centavos": 29562750,
+        "design_centavos": 17042600,
+        "common_centavos": 12090450,
+        "priced_centavos": 29133050,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 364000,
-        "total_high_php": 418000
+        "total_low_php": 359000,
+        "total_high_php": 413000
       },
       "fit_notes": [
         "LANDSKRONA 890×890 in the window-side corner passes the conditional static layout.",
@@ -318,34 +318,6 @@
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
       "materials": "Use surface: 54 % wool, 46 % jute; Warp: 100 % cotton"
-    },
-    {
-      "id": "D-CEILING",
-      "schemes": [
-        "D"
-      ],
-      "role": "ceiling",
-      "name": "Paper Shade Donut",
-      "brand": "HAY",
-      "sku": "Paper Shade Donut",
-      "variant": "Ø60 x H58 cm; retailer SKU DS002528; Shopify variant 49098933862685",
-      "quantity": 1,
-      "unit_centavos": 580000,
-      "line_centavos": 580000,
-      "url": "https://www.designstory.com.ph/products/rice-paper-shade-copy?variant=49098933862685",
-      "status": "Available online | Cebu delivery: unconfirmed | price date 2026-09-10 | HAY",
-      "notes": "Ribbed rice-paper donut shade Ø60 × H58 cm, bamboo frame. Shade only — see D-CEIL-CORD.",
-      "dimensions": {
-        "width": 600,
-        "depth": 600,
-        "height": 580
-      },
-      "scope": "design_piece",
-      "image": "assets/products/D-CEILING.webp",
-      "family": "HAY Paper Shade Donut",
-      "price_date": "2026-09-10",
-      "price_basis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
-      "materials": "Paper; bamboo frame"
     },
     {
       "id": "D-BEDSPREAD",
@@ -746,34 +718,6 @@
       "materials": "Pile: 50 % polypropylene, 50 % polyester (100% recycled); Backing: Synthetic rubber, Vinyl rubber"
     },
     {
-      "id": "E-CEILING",
-      "schemes": [
-        "E"
-      ],
-      "role": "ceiling",
-      "name": "Matin Flush Lamp",
-      "brand": "HAY",
-      "sku": "Matin Flush Lamp",
-      "variant": "380 - White; retailer SKU DS001888; Shopify variant 44372270121245",
-      "quantity": 1,
-      "unit_centavos": 1610000,
-      "line_centavos": 1610000,
-      "url": "https://www.designstory.com.ph/products/matin-flush-mount?variant=44372270121245",
-      "status": "Available online | Cebu delivery: unconfirmed | price date 2026-09-10 | HAY",
-      "notes": "Pleated cotton flush ceiling lamp Ø380 mm, white; complete fixture.",
-      "dimensions": {
-        "width": 380,
-        "depth": 380,
-        "height": 160
-      },
-      "scope": "design_piece",
-      "image": "assets/products/E-CEILING.webp",
-      "family": "HAY Matin Flush",
-      "price_date": "2026-09-10",
-      "price_basis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
-      "materials": "Cotton fabric; PVC lamination; ABS; painted sheet-metal bracket"
-    },
-    {
       "id": "E-BEDSPREAD",
       "schemes": [
         "E"
@@ -837,7 +781,7 @@
       "line_centavos": 161000,
       "url": "https://crateandbarrel.com.ph/products/belamy-standard-white-pleated-sham",
       "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Crate & Barrel",
-      "notes": "White pleated standard shams (cotton blend), one per LAPPTÅTEL pillow; the pleat echoes the Matin flush lamp.",
+      "notes": "White pleated standard shams (cotton blend), one per LAPPTÅTEL pillow.",
       "dimensions": {},
       "scope": "design_piece",
       "image": "assets/products/E-PILLOWCASES.webp",
@@ -1194,34 +1138,6 @@
       "price_date": "2026-09-10",
       "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
       "materials": "100% jute"
-    },
-    {
-      "id": "F-CEILING",
-      "schemes": [
-        "F"
-      ],
-      "role": "ceiling",
-      "name": "AKTERSPRING Pendant lamp",
-      "brand": "IKEA",
-      "sku": "40591637",
-      "variant": "AKTERSPRING Pendant lamp, opal glass/brass plated, 73 cm; article 40591637",
-      "quantity": 1,
-      "unit_centavos": 399900,
-      "line_centavos": 399900,
-      "url": "https://www.ikea.com/ph/en/p/akterspring-pendant-lamp-opal-glass-brass-plated-40591637/",
-      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
-      "notes": "Brass-plated ring pendant with opal glass globes, Ø73 cm. Socket count/type per IKEA page before bulbs.",
-      "dimensions": {
-        "width": 730,
-        "depth": 730,
-        "height": 700
-      },
-      "scope": "design_piece",
-      "image": "assets/products/F-CEILING.avif",
-      "family": "IKEA AKTERSPRING",
-      "price_date": "2026-09-10",
-      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Shade: Glass; Tube: Steel"
     },
     {
       "id": "F-BEDSPREAD",
@@ -1665,27 +1581,6 @@
       "family": "AC-LAMP-BULBS"
     },
     {
-      "id": "CEIL-BULBS-E14",
-      "schemes": [
-        "F"
-      ],
-      "role": "technical",
-      "name": "SOLHETTA E14 opal LED bulb 250 lm, 2-piece pack",
-      "brand": "",
-      "sku": "305.839.87",
-      "variant": "305.839.87",
-      "quantity": 2,
-      "unit_centavos": 14900,
-      "line_centavos": 29800,
-      "url": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e14-250-lumen-globe-opal-30583987/",
-      "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
-      "notes": "For the AKTERSPRING pendant globes; socket count and type to confirm on the IKEA page.",
-      "dimensions": {},
-      "scope": "technical_essential",
-      "image": "assets/products/B-LAMP-BULBS.jpg",
-      "family": "B-LAMP-BULBS"
-    },
-    {
       "id": "REQUIRED-MATTRESS50",
       "schemes": [
         "D",
@@ -1732,6 +1627,115 @@
       "family": "REQUIRED-FLAT-DECK"
     },
     {
+      "id": "D-CEILING",
+      "schemes": [
+        "D"
+      ],
+      "role": "ceiling",
+      "name": "Paper Shade Donut",
+      "brand": "HAY",
+      "sku": "Paper Shade Donut",
+      "variant": "Ø60 x H58 cm; retailer SKU DS002528; Shopify variant 49098933862685",
+      "quantity": 1,
+      "unit_centavos": 580000,
+      "line_centavos": 580000,
+      "url": "https://www.designstory.com.ph/products/rice-paper-shade-copy?variant=49098933862685",
+      "status": "Available online | Cebu delivery: unconfirmed | price date 2026-09-10 | HAY",
+      "notes": "Ribbed rice-paper donut shade Ø60 × H58 cm, bamboo frame. Shade only — see D-CEIL-CORD.",
+      "dimensions": {
+        "width": 600,
+        "depth": 600,
+        "height": 580
+      },
+      "scope": "design_piece",
+      "image": "assets/products/D-CEILING.webp",
+      "family": "HAY Paper Shade Donut",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
+      "materials": "Paper; bamboo frame",
+      "removedFromDesign": true
+    },
+    {
+      "id": "E-CEILING",
+      "schemes": [
+        "E"
+      ],
+      "role": "ceiling",
+      "name": "Matin Flush Lamp",
+      "brand": "HAY",
+      "sku": "Matin Flush Lamp",
+      "variant": "380 - White; retailer SKU DS001888; Shopify variant 44372270121245",
+      "quantity": 1,
+      "unit_centavos": 1610000,
+      "line_centavos": 1610000,
+      "url": "https://www.designstory.com.ph/products/matin-flush-mount?variant=44372270121245",
+      "status": "Available online | Cebu delivery: unconfirmed | price date 2026-09-10 | HAY",
+      "notes": "Pleated cotton flush ceiling lamp Ø380 mm, white; complete fixture.",
+      "dimensions": {
+        "width": 380,
+        "depth": 380,
+        "height": 160
+      },
+      "scope": "design_piece",
+      "image": "assets/products/E-CEILING.webp",
+      "family": "HAY Matin Flush",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
+      "materials": "Cotton fabric; PVC lamination; ABS; painted sheet-metal bracket",
+      "removedFromDesign": true
+    },
+    {
+      "id": "F-CEILING",
+      "schemes": [
+        "F"
+      ],
+      "role": "ceiling",
+      "name": "AKTERSPRING Pendant lamp",
+      "brand": "IKEA",
+      "sku": "40591637",
+      "variant": "AKTERSPRING Pendant lamp, opal glass/brass plated, 73 cm; article 40591637",
+      "quantity": 1,
+      "unit_centavos": 399900,
+      "line_centavos": 399900,
+      "url": "https://www.ikea.com/ph/en/p/akterspring-pendant-lamp-opal-glass-brass-plated-40591637/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Brass-plated ring pendant with opal glass globes, Ø73 cm. Socket count/type per IKEA page before bulbs.",
+      "dimensions": {
+        "width": 730,
+        "depth": 730,
+        "height": 700
+      },
+      "scope": "design_piece",
+      "image": "assets/products/F-CEILING.avif",
+      "family": "IKEA AKTERSPRING",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Shade: Glass; Tube: Steel",
+      "removedFromDesign": true
+    },
+    {
+      "id": "CEIL-BULBS-E14",
+      "schemes": [
+        "F"
+      ],
+      "role": "technical",
+      "name": "SOLHETTA E14 opal LED bulb 250 lm, 2-piece pack",
+      "brand": "",
+      "sku": "305.839.87",
+      "variant": "305.839.87",
+      "quantity": 2,
+      "unit_centavos": 14900,
+      "line_centavos": 29800,
+      "url": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e14-250-lumen-globe-opal-30583987/",
+      "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
+      "notes": "For the AKTERSPRING pendant globes; socket count and type to confirm on the IKEA page.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/B-LAMP-BULBS.jpg",
+      "family": "B-LAMP-BULBS",
+      "removedFromDesign": true
+    },
+    {
       "id": "D-CEIL-CORD",
       "schemes": [
         "D"
@@ -1752,13 +1756,15 @@
       "image": null,
       "family": "D-CEIL-CORD",
       "price_date": "2026-10-20",
-      "price_basis": null
+      "price_basis": null,
+      "removedFromDesign": true
     }
   ],
   "source_notes": [
     "Catalogue of record: frozen Airtable pass-3 snapshot (9,853 products / 9,901 offers, LIVE-PASS3-READ-RECEIPT.json). No live Airtable read in this run; no Airtable writes.",
     "47 visible selections across D/E/F, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across D, E, F or the six rejected schemes (UNIQUENESS-MATRIX.md).",
     "Product photos are unaltered retailer references. Plans use published dimensions where available and flag defaults where not.",
-    "PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made."
+    "PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made.",
+    "23 October 2026 (Ivan): no scheme adds a ceiling light; the room keeps its existing flush ceiling discs. D-CEILING, E-CEILING, F-CEILING, CEIL-BULBS-E14 and D-CEIL-CORD removed from the schedule and the budgets recomputed."
   ]
 }

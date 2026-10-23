@@ -3,16 +3,16 @@
   "date": "2026-10-23",
   "release": {
     "accepted_design_ids": [
-      "Q1"
+      "Q1",
+      "Q2"
     ],
-    "released_count": 1,
-    "pending_count": 2,
+    "released_count": 2,
+    "pending_count": 1,
     "pending_design_ids": [
-      "Q2",
       "Q3"
     ],
-    "view_count": 2,
-    "product_count": 13
+    "view_count": 4,
+    "product_count": 24
   },
   "designs": [
     {
@@ -211,6 +211,185 @@
       ],
       "acceptance": {
         "qa_sha256": "e186a63a20b457e1b95d11c341fe524eba795fa9bc364bd6134b34c61ed07d04",
+        "render_kind": "real_codex_image"
+      }
+    },
+    {
+      "id": "Q2",
+      "name": "Moss & Graphite",
+      "palette": [
+        "#3d5145",
+        "#272b29",
+        "#a27b50"
+      ],
+      "description": "A rounded walnut headboard and raised closed bedsides anchor burnt-green linen, a dark striped rug and an amber glow. The caramel leather chair and black fluted console make this the richest, most tailored option.",
+      "bed": {
+        "name": "Rounded walnut · 150 × 200 cm",
+        "url": "https://www.lazada.com.ph/products/new-chinese-style-north-american-walnut-solid-wood-bed-18m-i15658815614-s133772299277.html",
+        "variant": "905# solid wood bed sheet [ thickened silent bed board] / Frame structure + silent bed board / Applicable mattress size1500mm*2000mm",
+        "mattress_mm": [
+          1500,
+          2000
+        ],
+        "outer_mm": [
+          1510,
+          2100,
+          1110
+        ],
+        "availability": "The exact 1500 × 2000 mm variant is listed. Selected-variant price, on-hand stock and Cebu delivery are unconfirmed; no quote or checkout was made.",
+        "evidence": "Current seller variant data and dimension chart, checked 23 Oct 2026. Listing title says 1.8 m; the selected mattress variant is 1.5 × 2.0 m. Photos are shared listing images and do not establish variant scale. Chart gives 111 cm headboard height; table says 110 cm, with 1–2 cm stated manual tolerance. Materials: Seller chart identifies North American black walnut main material, solid wood support boards; material claim not independently authenticated.",
+        "limitations": "Separate headboard width and internal mattress opening/recess are not independently dimensioned. The complete published bed envelope is used for this conditional layout. Continuous support for a 50 mm mattress must be confirmed.",
+        "substitution": ""
+      },
+      "clearances": {
+        "wardrobe_route_mm": 1085.5,
+        "foot_to_console_mm": 1265,
+        "right_table_to_curtain_mm": 865.0,
+        "chair_to_curtain_mm": 150,
+        "note": "Chair to curtain reserve: 15.0 cm. Plant canopy and drawer operation need site review."
+      },
+      "plan": "assets/Q2-plan.svg",
+      "matrix": "assets/Q2-selection-matrix.jpg",
+      "views": [
+        {
+          "view": "entry",
+          "file": "assets/Q2-entry.png",
+          "sha256": "87e50e3a32d83a7b46ded07030a7b9f12ee0751fee0587cbd178208a6468a5bd",
+          "provenance": {
+            "generation_sha256": "ce07b7be4cf2fc67a156c763b5957748a99bf06c0ec8cc93f6993c2258344784",
+            "final_sha256": "87e50e3a32d83a7b46ded07030a7b9f12ee0751fee0587cbd178208a6468a5bd",
+            "method": "local_repair"
+          },
+          "label": "From the hall doorway",
+          "caption": "Photoreal design visualization. Plans and source product photos govern dimensions; support and installation details remain conditional."
+        },
+        {
+          "view": "windowac",
+          "file": "assets/Q2-windowac.png",
+          "sha256": "552daa80749b8f7b72476b35011d01ffa484745eadec16ca295dfcd6b3c675a6",
+          "provenance": {
+            "generation_sha256": "bf88c8031a8f3e97b97eccb444a29f1f98c9bec7e83d57238fa461d565876b8e",
+            "final_sha256": "552daa80749b8f7b72476b35011d01ffa484745eadec16ca295dfcd6b3c675a6",
+            "method": "local_repair"
+          },
+          "label": "From the window-AC corner",
+          "caption": "Photoreal design visualization. Plans and source product photos govern dimensions; support and installation details remain conditional."
+        }
+      ],
+      "products": [
+        {
+          "id": "Q2-BED",
+          "name": "New Chinese Style North American Walnut Solid Wood Bed 1.8m — 1500 × 2000 mm mattress variant",
+          "role": "bed",
+          "url": "https://www.lazada.com.ph/products/new-chinese-style-north-american-walnut-solid-wood-bed-18m-i15658815614-s133772299277.html",
+          "image": "assets/products/Q2-BED.jpg",
+          "quantity": 1,
+          "dimension_label": "151 cm width × 210 cm depth × 111 cm height",
+          "evidence_label": "Current seller variant data and dimension chart, checked 23 Oct 2026. Listing title says 1.8 m; the selected mattress variant is 1.5 × 2.0 m. Photos are shared listing images and do not establish variant scale. Chart gives 111 cm headboard height; table says 110 cm, with 1–2 cm stated manual tolerance. Materials: Seller chart identifies North American black walnut main material, solid wood support boards; material claim not independently authenticated."
+        },
+        {
+          "id": "Q2-F-NIGHTSTAND",
+          "name": "Wren 2-Drawer Nightstand – Wenge",
+          "role": "nightstand",
+          "url": "https://www.furnituremanila.com.ph/product/wren-2-drawer-nightstand-wenge/",
+          "image": "assets/products/Q2-F-NIGHTSTAND.jpg",
+          "quantity": 2,
+          "dimension_label": "45 cm width × 40 cm depth × 50 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q2-F-LAMP",
+          "name": "Umber Glass Table Lamp",
+          "role": "lamp",
+          "url": "https://ourhome.ph/products/umber-glass-table-lamp?variant=48054431973617",
+          "image": "assets/products/Q2-F-LAMP.webp",
+          "quantity": 2,
+          "dimension_label": "27 cm width × 24 cm depth × 44.5 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q2-F-CHAIR",
+          "name": "LANDSKRONA Armchair",
+          "role": "chair",
+          "url": "https://www.ikea.com/ph/en/p/landskrona-armchair-grann-bomstad-golden-brown-wood-s99269198/",
+          "image": "assets/products/Q2-F-CHAIR.avif",
+          "quantity": 1,
+          "dimension_label": "89 cm width × 89 cm depth × 78 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q2-F-CONSOLE",
+          "name": "Lindy TV Stand",
+          "role": "console",
+          "url": "https://mandauefoam.ph/products/lindy-tv-stand?variant=46168874746034",
+          "image": "assets/products/Q2-F-CONSOLE.webp",
+          "quantity": 1,
+          "dimension_label": "150 cm width × 40 cm depth × 50 cm height",
+          "evidence_label": "Sourced 2026-09-08; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q2-F-MIRROR",
+          "name": "Heim Lavi Full Body Mirror Bronze 60x150cm",
+          "role": "mirror",
+          "url": "https://shop.wilcon.com.ph/full-body-mirror-342200000022.html",
+          "image": "assets/products/Q2-F-MIRROR.jpg",
+          "quantity": 1,
+          "dimension_label": "60 cm width × 150 cm height",
+          "evidence_label": "Sourced 2026-10-20; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q2-U-RUG",
+          "name": "Rouen Jute/Wool Blend Triple Striped Black Area Rug 6'x9'",
+          "role": "rug",
+          "url": "https://crateandbarrel.com.ph/products/rouen-jute-wool-blend-triple-striped-black-area-rug-6x9?variant=44999344160984",
+          "image": "assets/products/Q2-U-RUG.webp",
+          "quantity": 1,
+          "dimension_label": "183 cm width × 274 cm depth",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q2-F-BEDSPREAD",
+          "name": "European Flax ®-Certified Linen Burnt Green Full/Queen Size Duvet Cover",
+          "role": "bedspread",
+          "url": "https://crateandbarrel.com.ph/products/european-flax-r-certified-linen-burnt-green-full-queen-size-duvet-cover",
+          "image": "assets/products/Q2-F-BEDSPREAD.webp",
+          "quantity": 1,
+          "dimension_label": "Dimensions not published in retained catalogue evidence",
+          "evidence_label": "Sourced 2026-10-20; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q2-S-ART",
+          "name": "A58000395 Wall Art",
+          "role": "art",
+          "url": "https://store.ashleyfurniture.ph/products/a58000395-wall-art?variant=49911216996638",
+          "image": "assets/products/Q2-S-ART.webp",
+          "quantity": 1,
+          "dimension_label": "101.6 cm width × 5.08 cm depth × 101.6 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q2-F-PLANT",
+          "name": "A54200037 Greenery",
+          "role": "plant",
+          "url": "https://store.ashleyfurniture.ph/products/greenery-a54200037?variant=48426346316062",
+          "image": "assets/products/Q2-F-PLANT.webp",
+          "quantity": 1,
+          "dimension_label": "73.66 cm width × 73.66 cm depth × 167.64 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q2-F-CANDLE",
+          "name": "Barteau Small Brass Taper Candle Holder 7\"",
+          "role": "candle_holder",
+          "url": "https://crateandbarrel.com.ph/products/barteau-small-brass-taper-candle-holder-7",
+          "image": "assets/products/Q2-F-CANDLE.jpg",
+          "quantity": 1,
+          "dimension_label": "8.255 cm width × 8.255 cm depth × 17.78 cm height",
+          "evidence_label": "Sourced 2026-10-20; stock and Cebu delivery not freshly confirmed."
+        }
+      ],
+      "acceptance": {
+        "qa_sha256": "60b6bd11d0744c1253f0a83cf19d0712050393af4df1f6189a76a9206cc9d799",
         "render_kind": "real_codex_image"
       }
     }
