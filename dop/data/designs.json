@@ -1,0 +1,645 @@
+{
+  "title": "Unit 408 dining area: three Opus directions (D, E, F)",
+  "as_of": "23 October 2026",
+  "overview": "Three dining area directions for Unit 408: DIND Midnight Velvet, DINE Heritage Persian and DINF Pale Oak and Rush.",
+  "requirements": [
+    "All prices assume new purchases. Three distinct sets of visible furniture, lighting, rugs, textiles and decor; no model or family repeats across the schemes or the parallel sets.",
+    "Every piece fits the measured room with clear walkways and door swings; plans use published dimensions and flag the rest.",
+    "Seating, tables and storage are real catalogue products with a supplier photo, price and source link."
+  ],
+  "procurement_gates": [
+    "Prices are catalogue references with each line's own price date. Product existence and photos are verified; exact Cebu stock, address delivery and checkout totals are not.",
+    "Pieces flagged \"dims unpublished\" in the room placement report keep the layout size; measure them at the showroom before ordering.",
+    "Delivery path for the sofa, dining table and buffet (lift, corridor, door widths) to be confirmed with the building before ordering.",
+    "Style renders are AI interpretations painted over the dimension-led model views; supplier photo boards, measured plans and the item schedule are the acceptance basis."
+  ],
+  "allowances": [
+    {
+      "id": "Q-DELIVERY",
+      "name": "Cebu freight, delivery and handling",
+      "low_centavos": 500000,
+      "high_centavos": 1500000,
+      "basis": "Planning allowance only; no shipping rates/address allocation obtained. Overseas freight not included."
+    },
+    {
+      "id": "Q-MOUNTING",
+      "name": "TV/art/pendant installation and assembly",
+      "low_centavos": 500000,
+      "high_centavos": 1000000,
+      "basis": "Planning allowance only; installer must specify anchors and verify substrate. Includes no structural rebuilding."
+    },
+    {
+      "id": "Q-FINISH",
+      "name": "Paint touch-up and site coordination",
+      "low_centavos": 500000,
+      "high_centavos": 1200000,
+      "basis": "Estimator reserve, not a contractor quote."
+    }
+  ],
+  "schemes": [
+    {
+      "id": "DIND",
+      "title": "Midnight Velvet",
+      "rationale": "a smoked dark oak table on slab legs with five navy velvet chairs with woven backs in the window and east-wall corner, a cream rug drawn in fine brown diamonds, an open black-and-walnut three-tier shelf in the arch-counter corner, a navy-and-sand abstract on the west wall at the table's end, a split-leaf philodendron in the window corner",
+      "palette": [
+        "#3b2e26",
+        "#1f2a44",
+        "#ece4d4"
+      ],
+      "budget": {
+        "design_centavos": 26668210,
+        "common_centavos": 0,
+        "priced_centavos": 26668210,
+        "reserve_low_centavos": 1500000,
+        "reserve_high_centavos": 3700000,
+        "total_low_php": 310000,
+        "total_high_php": 335000
+      },
+      "fit_notes": [
+        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Table 1600 x 850 in the window and east-wall corner (Ivan, 23 Oct): east end 100 off the east wall under the split unit, south edge 3455; five seats as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 58 short of the 180 curtain strip.",
+        "Shelf 640 x 340, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 155 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.49 m stays clear between the shelf and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
+        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
+      ],
+      "table": "1600 x 850, the current proposal (not yet approved); long side parallel to the south window, in the south-east corner: centre 3030 from the counter wall, east end 100 off the east wall"
+    },
+    {
+      "id": "DINE",
+      "title": "Heritage Persian",
+      "rationale": "a black stone oval on a reeded black X-base with five turned dark-wood cane-back side chairs in the window and east-wall corner, a soft grey hand-knotted Persian-pattern rug, a dark walnut ladder shelf in the arch-counter corner, a warm dune print on the west wall at the table's end, a leafy tree in the window corner",
+      "palette": [
+        "#1c1c1e",
+        "#5a3a26",
+        "#c9c2b6"
+      ],
+      "budget": {
+        "design_centavos": 24907400,
+        "common_centavos": 0,
+        "priced_centavos": 24907400,
+        "reserve_low_centavos": 1500000,
+        "reserve_high_centavos": 3700000,
+        "total_low_php": 291000,
+        "total_high_php": 315000
+      },
+      "fit_notes": [
+        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Oval 1400 x 900 in the window and east-wall corner (Ivan, 23 Oct): east end 200 off the east wall under the split unit; the pedestal base leaves the knees free; five seats as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 108 short of the 180 curtain strip.",
+        "Ladder shelf 670 x 330, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its foot stops 160 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.54 m stays clear between the shelf and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
+        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
+      ],
+      "table": "1400 x 900 oval (Mejore 6-seater), in the 1600 x 850 class; long axis parallel to the south window, in the south-east corner: centre 3030 from the counter wall, east end 200 off the east wall"
+    },
+    {
+      "id": "DINF",
+      "title": "Pale Oak and Rush",
+      "rationale": "a pale oak veneer table with five solid oak armchairs with woven rush seats and backs in the window and east-wall corner, a light tan textured wool rug, an open natural bamboo console in the arch-counter corner, a soft green landscape on the west wall at the table's end, a manzanita spray in a cream vase in the window corner",
+      "palette": [
+        "#d9b98a",
+        "#c49a62",
+        "#e6d8c0"
+      ],
+      "budget": {
+        "design_centavos": 24766800,
+        "common_centavos": 0,
+        "priced_centavos": 24766800,
+        "reserve_low_centavos": 1500000,
+        "reserve_high_centavos": 3700000,
+        "total_low_php": 289000,
+        "total_high_php": 314000
+      },
+      "fit_notes": [
+        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Table 1500 x 800 in the window and east-wall corner (Ivan, 23 Oct): east end 150 off the east wall under the split unit; five armchairs 533 wide as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 100 short of the 180 curtain strip.",
+        "Console 900 x 350, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 150 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.52 m stays clear between the console and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
+        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
+      ],
+      "table": "1500 x 800, in the 1600 x 850 class; long side parallel to the south window, in the south-east corner: centre 3030 from the counter wall, east end 150 off the east wall"
+    }
+  ],
+  "items": [
+    {
+      "id": "DIND-TABLE",
+      "schemes": [
+        "DIND"
+      ],
+      "room": "DIN",
+      "role": "dining_table",
+      "name": "axo series dining table",
+      "brand": "BoConcept",
+      "sku": "370072300702",
+      "variant": "axo series dining table; manufacturer variant/SKU 370072300702; master 37007230; selected configuration codes: vaConfigurationSize=401; vaMaterialLeg=0702; vaMaterialTabletop=0702",
+      "quantity": 1,
+      "unit_centavos": 12189000,
+      "line_centavos": 12189000,
+      "url": "https://www.boconcept.com/en-ph/p/axo-series/3707230-2:401-9:0702-13:0702/",
+      "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | BoConcept",
+      "notes": "Smoked dark oak top on slab legs, 1600 x 850 x 745 (the proposal footprint); long side parallel to the window",
+      "dimensions": {
+        "width": 1600,
+        "depth": 850,
+        "height": 745
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DIND-TABLE.jpg",
+      "family": "BoConcept axo",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact selected configuration; selected public product price.value, not the lower family starting-price field. Displayed selected RRP; no separate positive beforePrice published.",
+      "materials": "Published material groups: Wood; Oak; finish: Tabletop: lacquered|Leg: lacquered"
+    },
+    {
+      "id": "DIND-CHAIR",
+      "schemes": [
+        "DIND"
+      ],
+      "room": "DIN",
+      "role": "dining_chair",
+      "name": "Our Home Hilaire Dining Chair",
+      "brand": "Our Home",
+      "sku": "10426073",
+      "variant": "Blue",
+      "quantity": 5,
+      "unit_centavos": 1165500,
+      "line_centavos": 5827500,
+      "url": "https://ourhome.ph/products/our-home-hilaire-dining-chair?variant=45293841121521",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-08 | Our Home",
+      "notes": "Navy velvet tub seat with a woven-strap back on slim black legs (variant Blue, as the product photo); 2 + 2 + 1, the wall end unseated",
+      "dimensions": {
+        "width": 600,
+        "depth": 650,
+        "height": 850
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DIND-CHAIR.jpg",
+      "family": "Our Home Hilaire",
+      "price_date": "2026-09-08",
+      "price_basis": "Official online listed price for the exact variant; per item. Cebu branch price and delivered total unconfirmed.",
+      "materials": "Metal; foam"
+    },
+    {
+      "id": "DIND-RUG",
+      "schemes": [
+        "DIND"
+      ],
+      "room": "DIN",
+      "role": "rug",
+      "name": "Fez Performance Hand-Tufted Sand Brown Area Rug 8'x10'",
+      "brand": "Crate & Barrel",
+      "sku": "494440",
+      "variant": "Fez Performance Hand-Tufted Sand Brown Area Rug 8'x10'; Sand Brown; published SKU 494440; Shopify variant 44463559508184",
+      "quantity": 1,
+      "unit_centavos": 6799900,
+      "line_centavos": 6799900,
+      "url": "https://crateandbarrel.com.ph/products/fez-performance-hand-tufted-sand-brown-area-rug-8x10?variant=44463559508184",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+      "notes": "Hand-tufted cream rug with fine sand-brown diamond lines, 8'x10' laid long side to the window",
+      "dimensions": {
+        "width": 3048,
+        "depth": 2438
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DIND-RUG.jpg",
+      "family": "Crate & Barrel Fez",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+      "materials": "100% PET polyester; Pattern scales up or down, according to size"
+    },
+    {
+      "id": "DIND-BUFFET",
+      "schemes": [
+        "DIND"
+      ],
+      "room": "DIN",
+      "role": "buffet",
+      "name": "StackLine Industrial 3-Tier Open Shelf Bookcase",
+      "brand": "Furniture Manila",
+      "sku": "bs1513-shelf-darkwalnut-mob",
+      "variant": "SKU bs1513-shelf-darkwalnut-mob",
+      "quantity": 1,
+      "unit_centavos": 299900,
+      "line_centavos": 299900,
+      "url": "https://www.furnituremanila.com.ph/product/1513-display-shelf/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | Furniture Manila",
+      "notes": "Open three-tier shelf, black steel frame with grey oak-look shelves, 640 x 340 x 940, in the north-west corner between the arch and the pass-through; open, no doors",
+      "dimensions": {
+        "width": 640,
+        "depth": 340,
+        "height": 940
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DIND-BUFFET.jpg",
+      "family": "Furniture Manila StackLine",
+      "price_date": "2026-09-10",
+      "price_basis": "Published price for the selected listing variant",
+      "materials": null
+    },
+    {
+      "id": "DIND-ART",
+      "schemes": [
+        "DIND"
+      ],
+      "room": "DIN",
+      "role": "art",
+      "name": "A58000239 Wall Art",
+      "brand": "Ashley",
+      "sku": "A58000239",
+      "variant": "A58000239 Wall Art; manufacturer SKU A58000239; Default Title",
+      "quantity": 1,
+      "unit_centavos": 1210000,
+      "line_centavos": 1210000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000239-wall-art?variant=45493165359390",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Framed abstract in navy, sand and olive, 71 x 99 portrait, on the plain west wall at the table's west end",
+      "dimensions": {
+        "width": 711.2,
+        "depth": 25.4,
+        "height": 990.6
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DIND-ART.webp",
+      "family": "Ashley A58000239",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": null
+    },
+    {
+      "id": "DIND-PLANT",
+      "schemes": [
+        "DIND"
+      ],
+      "room": "DIN",
+      "role": "plant",
+      "name": "Flourish Faux Split Leaf Philodendron Plant",
+      "brand": "Flourish",
+      "sku": "39243064",
+      "variant": "Default Title",
+      "quantity": 1,
+      "unit_centavos": 341910,
+      "line_centavos": 341910,
+      "url": "https://ourhome.ph/products/flourish-faux-split-leaf-philodendron-plant?variant=48096628211953",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Flourish",
+      "notes": "Faux split-leaf philodendron in a black pot in the south-west window corner",
+      "dimensions": {
+        "width": 950
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DIND-PLANT.webp",
+      "family": "Flourish Split Leaf Philodendron",
+      "price_date": "2026-09-10",
+      "price_basis": "Official public online catalog price for the selected variant; per item. Cebu branch quotation and delivered total unconfirmed.",
+      "materials": null
+    },
+    {
+      "id": "DINE-TABLE",
+      "schemes": [
+        "DINE"
+      ],
+      "room": "DIN",
+      "role": "dining_table",
+      "name": "Benson Oval Dining Table with Reeded X-Base and Stone Top",
+      "brand": "Mejore",
+      "sku": "MCI-BEN-DNTB-001",
+      "variant": "Benson Oval Dining Table with Reeded X-Base and Stone Top; 6-Seater; official listing SKU MCI-BEN-DNTB-001",
+      "quantity": 1,
+      "unit_centavos": 7450000,
+      "line_centavos": 7450000,
+      "url": "https://mejore.ph/products/benson-dining-table?variant=51752749138194",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-09 | Mejore",
+      "notes": "Black stone oval top on a reeded black X-base, 6-seater 140 x 90 x 76 (published on the listing); long axis parallel to the window",
+      "dimensions": {
+        "width": 1400,
+        "depth": 900,
+        "height": 760
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINE-TABLE.jpg",
+      "family": "Mejore Benson",
+      "price_date": "2026-09-09",
+      "price_basis": "Per selected exact variant 6-Seater; published PHP variant price, not a from-price. Table only; chairs or styling accessories not assumed included.",
+      "materials": "Solid wood base, stone top"
+    },
+    {
+      "id": "DINE-CHAIR",
+      "schemes": [
+        "DINE"
+      ],
+      "room": "DIN",
+      "role": "dining_chair",
+      "name": "Philip Side Chair",
+      "brand": "Mejore",
+      "sku": "MCI-PHI-DBCH-C&S0003S",
+      "variant": "Philip Side Chair; official listing SKU MCI-PHI-DBCH-C&S0003S",
+      "quantity": 5,
+      "unit_centavos": 1522500,
+      "line_centavos": 7612500,
+      "url": "https://mejore.ph/products/philip-cane-back-side-chair?variant=44369465311506",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-09 | Mejore",
+      "notes": "Dark turned-wood side chair with a cane back and a pale grey seat, 48 x 46 x 93 (published on the listing); 2 + 2 + 1, the wall end unseated",
+      "dimensions": {
+        "width": 480,
+        "depth": 460,
+        "height": 930
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINE-CHAIR.png",
+      "family": "Mejore Philip",
+      "price_date": "2026-09-09",
+      "price_basis": "Per selected exact variant Default Title; published PHP variant price, not a from-price.",
+      "materials": "Solid wood, cane weaving (solihiya), fabric seat"
+    },
+    {
+      "id": "DINE-RUG",
+      "schemes": [
+        "DINE"
+      ],
+      "room": "DIN",
+      "role": "rug",
+      "name": "Avalon Wool Hand-Knotted Light Grey Area Rug 8'x10'",
+      "brand": "Crate & Barrel",
+      "sku": "503988",
+      "variant": "Avalon Wool Hand-Knotted Light Grey Area Rug 8'x10'; Light Grey; published SKU 503988; Shopify variant 44463560851672",
+      "quantity": 1,
+      "unit_centavos": 6499900,
+      "line_centavos": 6499900,
+      "url": "https://crateandbarrel.com.ph/products/avalon-wool-hand-knotted-light-grey-area-rug-8x10?variant=44463560851672",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+      "notes": "Hand-knotted wool rug in a traditional Persian pattern, soft grey and taupe on cream with a border (Light Grey, as the product photo), 8'x10' laid long side to the window. Replaces the IKEA ONSEVIG, which an earlier bedroom scheme already used",
+      "dimensions": {
+        "width": 3048,
+        "depth": 2438
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINE-RUG.jpg",
+      "family": "Crate & Barrel Avalon",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+      "materials": "100% wool; Pattern scales up or down, according to size"
+    },
+    {
+      "id": "DINE-BUFFET",
+      "schemes": [
+        "DINE"
+      ],
+      "room": "DIN",
+      "role": "buffet",
+      "name": "TierCraft Industrial Ladder Shelf Bookcase",
+      "brand": "Furniture Manila",
+      "sku": "bs1518-bookshelf-darkwalnut-mob",
+      "variant": "SKU bs1518-bookshelf-darkwalnut-mob",
+      "quantity": 1,
+      "unit_centavos": 465000,
+      "line_centavos": 465000,
+      "url": "https://www.furnituremanila.com.ph/product/tiercraft-industrial-ladder-shelf-bookcase-5-tier-dark-walnut-finish/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | Furniture Manila",
+      "notes": "Five-tier leaning ladder shelf, dark walnut-look shelves on a black steel A-frame, 670 x 330 x 1600, in the north-west corner between the arch and the pass-through; open, no doors",
+      "dimensions": {
+        "width": 670,
+        "depth": 330,
+        "height": 1600
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINE-BUFFET.jpg",
+      "family": "Furniture Manila TierCraft",
+      "price_date": "2026-09-10",
+      "price_basis": "Published price for the selected listing variant",
+      "materials": null
+    },
+    {
+      "id": "DINE-ART",
+      "schemes": [
+        "DINE"
+      ],
+      "room": "DIN",
+      "role": "art",
+      "name": "A58000478 Wall Art",
+      "brand": "Ashley",
+      "sku": "A58000478",
+      "variant": "A58000478 Wall Art; manufacturer SKU A58000478; Default Title; Multi",
+      "quantity": 1,
+      "unit_centavos": 1380000,
+      "line_centavos": 1380000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000478-wall-art?variant=50443729568030",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Framed print of ochre and sand dunes, 120 x 80, on the plain west wall at the table's west end",
+      "dimensions": {
+        "width": 1200.15,
+        "depth": 35.052,
+        "height": 800.1
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINE-ART.jpg",
+      "family": "Ashley A58000478",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made of high-quality canvas material"
+    },
+    {
+      "id": "DINE-PLANT",
+      "schemes": [
+        "DINE"
+      ],
+      "room": "DIN",
+      "role": "plant",
+      "name": "A54200032 Greenery",
+      "brand": "Ashley",
+      "sku": "A54200032",
+      "variant": "A54200032 Greenery; manufacturer SKU A54200032; Default Title; Green",
+      "quantity": 1,
+      "unit_centavos": 1500000,
+      "line_centavos": 1500000,
+      "url": "https://store.ashleyfurniture.ph/products/greenery-a54200032?variant=48424623702302",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Faux leafy tree 183 high in a black pot in the south-west window corner",
+      "dimensions": {
+        "width": 838.2,
+        "depth": 787.4,
+        "height": 1828.8
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINE-PLANT.webp",
+      "family": "Ashley A54200032",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made with plastic"
+    },
+    {
+      "id": "DINF-TABLE",
+      "schemes": [
+        "DINF"
+      ],
+      "room": "DIN",
+      "role": "dining_table",
+      "name": "TONSTAD Table",
+      "brand": "IKEA",
+      "sku": "80594064",
+      "variant": "Table, oak veneer, 150x80 cm (59x31 1/2 \")",
+      "quantity": 1,
+      "unit_centavos": 1799900,
+      "line_centavos": 1799900,
+      "url": "https://www.ikea.com/ph/en/p/tonstad-table-oak-veneer-80594064/",
+      "status": "Available for delivery | Cebu delivery: unconfirmed | price date 2026-09-08 | IKEA",
+      "notes": "Oak veneer table 1500 x 800 on round legs; long side parallel to the window",
+      "dimensions": {
+        "width": 1500,
+        "depth": 800
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINF-TABLE.avif",
+      "family": "IKEA TONSTAD",
+      "price_date": "2026-09-08",
+      "price_basis": "Per listed item/combination for exact article number",
+      "materials": null
+    },
+    {
+      "id": "DINF-CHAIR",
+      "schemes": [
+        "DINF"
+      ],
+      "room": "DIN",
+      "role": "dining_chair",
+      "name": "Forge Barley Brown Oak Wood Dining Side Chair by Jake Arnold",
+      "brand": "Crate & Barrel",
+      "sku": "265938",
+      "variant": "Forge Barley Brown Oak Wood Dining Side Chair by Jake Arnold; Single listed configuration; published SKU 265938; Shopify variant 43717493752024",
+      "quantity": 5,
+      "unit_centavos": 2309500,
+      "line_centavos": 11547500,
+      "url": "https://crateandbarrel.com.ph/products/forge-barley-brown-oak-wood-dining-side-chair-by-jake-arnold?variant=43717493752024",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+      "notes": "Solid oak armchair with a woven rush seat and back (Barley Brown Oak, as the product photo), 533 x 565 x 902; 2 + 2 + 1, the wall end unseated",
+      "dimensions": {
+        "width": 533.4,
+        "depth": 565.15,
+        "height": 901.7
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINF-CHAIR.webp",
+      "family": "Crate & Barrel Forge",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+      "materials": "FSC®-certified red oak with barley brown finish; Woven seagrass"
+    },
+    {
+      "id": "DINF-RUG",
+      "schemes": [
+        "DINF"
+      ],
+      "room": "DIN",
+      "role": "rug",
+      "name": "Bozeman Wool Textured Light Tan Area Rug 8'x10'",
+      "brand": "Crate & Barrel",
+      "sku": "186418",
+      "variant": "Bozeman Wool Textured Light Tan Area Rug 8'x10'; Single listed configuration; published SKU 186418; Shopify variant 44998418137304",
+      "quantity": 1,
+      "unit_centavos": 8799500,
+      "line_centavos": 8799500,
+      "url": "https://crateandbarrel.com.ph/products/bozeman-wool-textured-light-tan-area-rug-8x10?variant=44998418137304",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+      "notes": "Textured wool rug in cream and light tan streaks, 8'x10' laid long side to the window",
+      "dimensions": {
+        "width": 3048,
+        "depth": 2438
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINF-RUG.jpg",
+      "family": "Crate & Barrel Bozeman",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+      "materials": "100% New Zealand wool"
+    },
+    {
+      "id": "DINF-BUFFET",
+      "schemes": [
+        "DINF"
+      ],
+      "room": "DIN",
+      "role": "buffet",
+      "name": "Larson Bamboo Console Table",
+      "brand": "Mandaue Foam",
+      "sku": "111721",
+      "variant": "Single published variant; SKU 111721",
+      "quantity": 1,
+      "unit_centavos": 560000,
+      "line_centavos": 560000,
+      "url": "https://mandauefoam.ph/products/larson-bamboo-console-table?variant=43178081484978",
+      "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | Mandaue Foam",
+      "notes": "Natural bamboo console with a slatted lower shelf, 900 x 350 x 760, in the north-west corner between the arch and the pass-through; open, no doors",
+      "dimensions": {
+        "width": 900,
+        "depth": 350,
+        "height": 760
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINF-BUFFET.webp",
+      "family": "Mandaue Foam Larson",
+      "price_date": "2026-09-10",
+      "price_basis": "Official public catalog price in PHP for the selected exact variant; no member discount inferred.",
+      "materials": "Bamboo"
+    },
+    {
+      "id": "DINF-ART",
+      "schemes": [
+        "DINF"
+      ],
+      "room": "DIN",
+      "role": "art",
+      "name": "A58000483 Wall Art",
+      "brand": "Ashley",
+      "sku": "A58000483",
+      "variant": "A58000483 Wall Art; manufacturer SKU A58000483; Default Title; Multi",
+      "quantity": 1,
+      "unit_centavos": 1360000,
+      "line_centavos": 1360000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000483-wall-art?variant=50443729600798",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Framed soft green landscape with trees, 120 x 80, on the plain west wall at the table's west end",
+      "dimensions": {
+        "width": 1200.15,
+        "depth": 35.052,
+        "height": 800.1
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINF-ART.jpg",
+      "family": "Ashley A58000483",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made of sturdy canvas material"
+    },
+    {
+      "id": "DINF-PLANT",
+      "schemes": [
+        "DINF"
+      ],
+      "room": "DIN",
+      "role": "plant",
+      "name": "Faux Manzanita Leaf Spray 51\"",
+      "brand": "Crate & Barrel",
+      "sku": "623546",
+      "variant": "Faux Manzanita Leaf Spray 51\"; Single listed configuration; published SKU 623546; Shopify variant 50720995737816",
+      "quantity": 1,
+      "unit_centavos": 699900,
+      "line_centavos": 699900,
+      "url": "https://crateandbarrel.com.ph/products/faux-manzanita-leaf-spray-51?variant=50720995737816",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+      "notes": "Faux manzanita leaf spray in a cream vase, about 130 high, in the south-west window corner",
+      "dimensions": {
+        "width": 635,
+        "height": 1295.4
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINF-PLANT.webp",
+      "family": "Crate & Barrel Manzanita",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+      "materials": "Plastic and iron; Contains 30% recycled post-consumer plastic"
+    }
+  ],
+  "source_notes": [
+    "Catalogue of record: the frozen Airtable catalogue snapshot. No Airtable writes.",
+    "18 visible selections, each with a supplier photo where one was captured; models and families were checked against the earlier schemes and the parallel sets' claims (uniqueness.py).",
+    "Product photos are unaltered retailer references. Plans use published dimensions where available and flag defaults where not.",
+    "PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made."
+  ]
+}
