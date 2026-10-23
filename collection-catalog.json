@@ -10740,27 +10740,28 @@
       }
     },
     {
-      "id": "ghi:G-CEILING",
+      "id": "fable-ghi-20261021::G-CEILING",
       "localId": "fable-ghi-20261021::G-CEILING",
       "designId": "fable-ghi-20261021:G",
       "designIds": [
         "fable-ghi-20261021:G"
       ],
-      "board": "ghi",
+      "board": "fable-ghi-20261021",
       "label": "Fable / Claude · G · Graphite Steel",
       "name": "HEKTAR Pendant lamp",
       "url": "/bedroom-design-options/#design=fable-ghi-20261021%3AG",
       "product": {
-        "role": "ceiling",
         "name": "HEKTAR Pendant lamp",
-        "brand": "IKEA",
-        "sku": "70390369",
-        "variant": "HEKTAR Pendant lamp, dark gray, 22 cm; article 70390369",
-        "family": "IKEA HEKTAR",
+        "role": "ceiling",
+        "category": "ceiling",
         "url": "https://www.ikea.com/ph/en/p/hektar-pendant-lamp-dark-gray-70390369/",
+        "variant": "HEKTAR Pendant lamp, dark gray, 22 cm; article 70390369",
+        "brand": "",
+        "sku": "",
+        "family": "",
+        "materials": "",
         "scope": "design_piece",
-        "materials": "Ceiling cup/ Reflector: Steel, Epoxy/polyester powder coating; Shade: Steel, Paint, Epoxy/polyester powder coating",
-        "dimensions": {}
+        "dimensions": ""
       }
     },
     {
@@ -11456,29 +11457,28 @@
       }
     },
     {
-      "id": "ghi:H-CEILING",
+      "id": "fable-ghi-20261021::H-CEILING",
       "localId": "fable-ghi-20261021::H-CEILING",
       "designId": "fable-ghi-20261021:H",
       "designIds": [
         "fable-ghi-20261021:H"
       ],
-      "board": "ghi",
+      "board": "fable-ghi-20261021",
       "label": "Fable / Claude · H · Travertine Blush",
       "name": "SIMRISHAMN Pendant lamp, 3-armed",
       "url": "/bedroom-design-options/#design=fable-ghi-20261021%3AH",
       "product": {
-        "role": "ceiling",
         "name": "SIMRISHAMN Pendant lamp, 3-armed",
-        "brand": "IKEA",
-        "sku": "60407836",
-        "variant": "SIMRISHAMN Pendant lamp, 3-armed, chrome plated/opal glass, 55 cm; article 60407836",
-        "family": "IKEA SIMRISHAMN",
+        "role": "ceiling",
+        "category": "ceiling",
         "url": "https://www.ikea.com/ph/en/p/simrishamn-pendant-lamp-3-armed-chrome-plated-opal-glass-60407836/",
+        "variant": "SIMRISHAMN Pendant lamp, 3-armed, chrome plated/opal glass, 55 cm; article 60407836",
+        "brand": "",
+        "sku": "",
+        "family": "",
+        "materials": "",
         "scope": "design_piece",
-        "materials": "Ceiling cup/ Arm: Steel, Chrome plated; Shade: Glass, Paint",
-        "dimensions": {
-          "height": 550
-        }
+        "dimensions": ""
       }
     },
     {
@@ -11664,27 +11664,29 @@
       }
     },
     {
-      "id": "ghi:CEIL-BULBS-E14",
+      "id": "fable-ghi-20261021::CEIL-BULBS-E14",
       "localId": "fable-ghi-20261021::CEIL-BULBS-E14",
       "designId": "fable-ghi-20261021:H",
       "designIds": [
         "fable-ghi-20261021:H",
         "fable-ghi-20261021:I"
       ],
-      "board": "ghi",
+      "board": "fable-ghi-20261021",
       "label": "Fable / Claude · H · Travertine Blush",
       "name": "SOLHETTA E14 opal LED bulb 250 lm, 2-piece pack",
       "url": "/bedroom-design-options/#design=fable-ghi-20261021%3AH",
       "product": {
-        "role": "technical",
         "name": "SOLHETTA E14 opal LED bulb 250 lm, 2-piece pack",
-        "brand": "",
-        "sku": "305.839.87",
-        "variant": "305.839.87",
-        "family": "B-LAMP-BULBS",
+        "role": "technical",
+        "category": "technical",
         "url": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e14-250-lumen-globe-opal-30583987/",
+        "variant": "305.839.87",
+        "brand": "",
+        "sku": "",
+        "family": "",
+        "materials": "",
         "scope": "technical_essential",
-        "dimensions": {}
+        "dimensions": ""
       }
     },
     {
@@ -11875,29 +11877,28 @@
       }
     },
     {
-      "id": "ghi:I-CEILING",
+      "id": "fable-ghi-20261021::I-CEILING",
       "localId": "fable-ghi-20261021::I-CEILING",
       "designId": "fable-ghi-20261021:I",
       "designIds": [
         "fable-ghi-20261021:I"
       ],
-      "board": "ghi",
+      "board": "fable-ghi-20261021",
       "label": "Fable / Claude · I · Plum Lacquer",
       "name": "HÖGVIND Pendant lamp with 3 lamps",
       "url": "/bedroom-design-options/#design=fable-ghi-20261021%3AI",
       "product": {
-        "role": "ceiling",
         "name": "HÖGVIND Pendant lamp with 3 lamps",
-        "brand": "IKEA",
-        "sku": "40499262",
-        "variant": "HÖGVIND Pendant lamp with 3 lamps, nickel plated/gray glass, 41 cm; article 40499262",
-        "family": "IKEA HÖGVIND pendant",
+        "role": "ceiling",
+        "category": "ceiling",
         "url": "https://www.ikea.com/ph/en/p/hoegvind-pendant-lamp-with-3-lamps-nickel-plated-gray-glass-40499262/",
+        "variant": "HÖGVIND Pendant lamp with 3 lamps, nickel plated/gray glass, 41 cm; article 40499262",
+        "brand": "",
+        "sku": "",
+        "family": "",
+        "materials": "",
         "scope": "design_piece",
-        "materials": "Shade: Glass; Ceiling cup/ Shade holder/ Lampholder cup: Steel, Brush finish nickel-plated",
-        "dimensions": {
-          "width": 410
-        }
+        "dimensions": ""
       }
     },
     {
@@ -12239,29 +12240,28 @@
       }
     },
     {
-      "id": "jkl:J-CEILING",
+      "id": "fable-jkl-20261021::J-CEILING",
       "localId": "fable-jkl-20261021::J-CEILING",
       "designId": "fable-jkl-20261021:J",
       "designIds": [
         "fable-jkl-20261021:J"
       ],
-      "board": "jkl",
+      "board": "fable-jkl-20261021",
       "label": "Fable / Claude · J · White Gallery",
       "name": "KÄRRNOCKA Ceiling lamp",
       "url": "/bedroom-design-options/#design=fable-jkl-20261021%3AJ",
       "product": {
-        "role": "ceiling",
         "name": "KÄRRNOCKA Ceiling lamp",
-        "brand": "IKEA",
-        "sku": "20599465",
-        "variant": "KÄRRNOCKA Ceiling lamp, white, 37 cm; article 20599465",
-        "family": "IKEA KÄRRNOCKA",
+        "role": "ceiling",
+        "category": "ceiling",
         "url": "https://www.ikea.com/ph/en/p/kaerrnocka-ceiling-lamp-white-20599465/",
+        "variant": "KÄRRNOCKA Ceiling lamp, white, 37 cm; article 20599465",
+        "brand": "",
+        "sku": "",
+        "family": "",
+        "materials": "",
         "scope": "design_piece",
-        "materials": "Ceiling bracket: Steel, Powder coating; Shade: Polypropylene",
-        "dimensions": {
-          "height": 130
-        }
+        "dimensions": ""
       }
     },
     {
@@ -13009,31 +13009,28 @@
       }
     },
     {
-      "id": "jkl:K-CEILING",
+      "id": "fable-jkl-20261021::K-CEILING",
       "localId": "fable-jkl-20261021::K-CEILING",
       "designId": "fable-jkl-20261021:K",
       "designIds": [
         "fable-jkl-20261021:K"
       ],
-      "board": "jkl",
+      "board": "fable-jkl-20261021",
       "label": "Fable / Claude · K · Stitched Oak",
       "name": "Blown SW3 & SW4",
       "url": "/bedroom-design-options/#design=fable-jkl-20261021%3AK",
       "product": {
-        "role": "ceiling",
         "name": "Blown SW3 & SW4",
-        "brand": "&Tradition",
-        "sku": "Blown SW3 & SW4",
-        "variant": "Silver Lustre / SW3: Ø: 28cm; retailer SKU DS001600; Shopify variant 41309259694246",
-        "family": "&Tradition Blown SW3",
+        "role": "ceiling",
+        "category": "ceiling",
         "url": "https://www.designstory.com.ph/products/copy-of-blown-sw4?variant=41309259694246",
+        "variant": "Silver Lustre / SW3: Ø: 28cm; retailer SKU DS001600; Shopify variant 41309259694246",
+        "brand": "",
+        "sku": "",
+        "family": "",
+        "materials": "",
         "scope": "design_piece",
-        "materials": "Mouth-blown glass; metal fitting; fabric cord",
-        "dimensions": {
-          "width": 280,
-          "depth": 280,
-          "height": 280
-        }
+        "dimensions": ""
       }
     },
     {
@@ -13457,29 +13454,28 @@
       }
     },
     {
-      "id": "jkl:L-CEILING",
+      "id": "fable-jkl-20261021::L-CEILING",
       "localId": "fable-jkl-20261021::L-CEILING",
       "designId": "fable-jkl-20261021:L",
       "designIds": [
         "fable-jkl-20261021:L"
       ],
-      "board": "jkl",
+      "board": "fable-jkl-20261021",
       "label": "Fable / Claude · L · Flax Wine",
       "name": "NARRKOLV Pendant lamp",
       "url": "/bedroom-design-options/#design=fable-jkl-20261021%3AL",
       "product": {
-        "role": "ceiling",
         "name": "NARRKOLV Pendant lamp",
-        "brand": "IKEA",
-        "sku": "70595870",
-        "variant": "NARRKOLV Pendant lamp, rattan, 56 cm; article 70595870",
-        "family": "IKEA NARRKOLV",
+        "role": "ceiling",
+        "category": "ceiling",
         "url": "https://www.ikea.com/ph/en/p/narrkolv-pendant-lamp-rattan-70595870/",
+        "variant": "NARRKOLV Pendant lamp, rattan, 56 cm; article 70595870",
+        "brand": "",
+        "sku": "",
+        "family": "",
+        "materials": "",
         "scope": "design_piece",
-        "materials": "Shade: Rattan, Stain; Ceiling cup/ Lampholder cup: Steel, Powder coating; Ring/ Junction box: Polypropylene; Protection layer: Synthetic rubber",
-        "dimensions": {
-          "height": 140
-        }
+        "dimensions": ""
       }
     },
     {
@@ -13905,27 +13901,28 @@
       }
     },
     {
-      "id": "mno:M-CEILING",
+      "id": "fable-mno-20261021::M-CEILING",
       "localId": "fable-mno-20261021::M-CEILING",
       "designId": "fable-mno-20261021:M",
       "designIds": [
         "fable-mno-20261021:M"
       ],
-      "board": "mno",
+      "board": "fable-mno-20261021",
       "label": "Fable / Claude · M · Walnut Poppy",
       "name": "Mega Bulb SR2",
       "url": "/bedroom-design-options/#design=fable-mno-20261021%3AM",
       "product": {
-        "role": "ceiling",
         "name": "Mega Bulb SR2",
-        "brand": "&Tradition",
-        "sku": "Mega Bulb SR2",
-        "variant": "Silver / Black Fabric Cord",
-        "family": "&Tradition Mega Bulb",
+        "role": "ceiling",
+        "category": "ceiling",
         "url": "https://www.designstory.com.ph/products/mega-bulb-sr2?variant=40394652287142",
+        "variant": "Silver / Black Fabric Cord",
+        "brand": "",
+        "sku": "",
+        "family": "",
+        "materials": "",
         "scope": "design_piece",
-        "materials": "Mouth-blown glass; porcelain lamp holder; clear PVC cord",
-        "dimensions": {}
+        "dimensions": ""
       }
     },
     {
@@ -14624,31 +14621,28 @@
       }
     },
     {
-      "id": "mno:N-CEILING",
+      "id": "fable-mno-20261021::N-CEILING",
       "localId": "fable-mno-20261021::N-CEILING",
       "designId": "fable-mno-20261021:N",
       "designIds": [
         "fable-mno-20261021:N"
       ],
-      "board": "mno",
+      "board": "fable-mno-20261021",
       "label": "Fable / Claude · N · Butter Embroidery",
       "name": "MISTERHULT Pendant lamp",
       "url": "/bedroom-design-options/#design=fable-mno-20261021%3AN",
       "product": {
-        "role": "ceiling",
         "name": "MISTERHULT Pendant lamp",
-        "brand": "IKEA",
-        "sku": "70441019",
-        "variant": "MISTERHULT Pendant lamp, bamboo/handmade, 45 cm; article 70441019",
-        "family": "IKEA MISTERHULT",
+        "role": "ceiling",
+        "category": "ceiling",
         "url": "https://www.ikea.com/ph/en/p/misterhult-pendant-lamp-bamboo-handmade-70441019/",
+        "variant": "MISTERHULT Pendant lamp, bamboo/handmade, 45 cm; article 70441019",
+        "brand": "",
+        "sku": "",
+        "family": "",
+        "materials": "",
         "scope": "design_piece",
-        "materials": "Base/ Shade: Bamboo, Clear acrylic lacquer; Bracket: Steel, Epoxy/polyester powder coating",
-        "dimensions": {
-          "width": 450,
-          "depth": 450,
-          "height": 400
-        }
+        "dimensions": ""
       }
     },
     {
@@ -15060,31 +15054,28 @@
       }
     },
     {
-      "id": "mno:O-CEILING",
+      "id": "fable-mno-20261021::O-CEILING",
       "localId": "fable-mno-20261021::O-CEILING",
       "designId": "fable-mno-20261021:O",
       "designIds": [
         "fable-mno-20261021:O"
       ],
-      "board": "mno",
+      "board": "fable-mno-20261021",
       "label": "Fable / Claude · O · Copper Marble",
       "name": "Flowerpot VP1",
       "url": "/bedroom-design-options/#design=fable-mno-20261021%3AO",
       "product": {
-        "role": "ceiling",
         "name": "Flowerpot VP1",
-        "brand": "&Tradition",
-        "sku": "Flowerpot VP1",
-        "variant": "Polished copper",
-        "family": "&Tradition Flowerpot VP1",
+        "role": "ceiling",
+        "category": "ceiling",
         "url": "https://www.designstory.com.ph/products/flowerpot-vp1?variant=43414805381354",
+        "variant": "Polished copper",
+        "brand": "",
+        "sku": "",
+        "family": "",
+        "materials": "",
         "scope": "design_piece",
-        "materials": "Lacquered metal; fabric cord",
-        "dimensions": {
-          "width": 230,
-          "depth": 230,
-          "height": 160
-        }
+        "dimensions": ""
       }
     },
     {

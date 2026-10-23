@@ -678,5 +678,15 @@
   "stu:U-CUSHION",
   "stu:U-ART",
   "stu:U-PLANT",
-  "stu:U-DECOR"
+  "stu:U-DECOR",
+  "fable-ghi-20261021::G-CEILING",
+  "fable-ghi-20261021::H-CEILING",
+  "fable-ghi-20261021::CEIL-BULBS-E14",
+  "fable-ghi-20261021::I-CEILING",
+  "fable-jkl-20261021::J-CEILING",
+  "fable-jkl-20261021::K-CEILING",
+  "fable-jkl-20261021::L-CEILING",
+  "fable-mno-20261021::M-CEILING",
+  "fable-mno-20261021::N-CEILING",
+  "fable-mno-20261021::O-CEILING"
 ]
