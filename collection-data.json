@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-view-titles / 2026-10-23T03:50:11+00:00",
+  "build": "408-night-views-def / 2026-10-23T12:11:36+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -14222,6 +14222,30 @@
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/D-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
+        },
+        {
+          "label": "Night · hallway door",
+          "kind": "other",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "assets/D-render-entry-night.webp",
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+        },
+        {
+          "label": "Night · bathroom door",
+          "kind": "other",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "assets/D-render-bathroom-night.webp",
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+        },
+        {
+          "label": "Night · window-AC corner",
+          "kind": "other",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "assets/D-render-windowac-night.webp",
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         }
       ],
       "products": [
@@ -15054,6 +15078,30 @@
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/E-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
+        },
+        {
+          "label": "Night · hallway door",
+          "kind": "other",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "assets/E-render-entry-night.webp",
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+        },
+        {
+          "label": "Night · bathroom door",
+          "kind": "other",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "assets/E-render-bathroom-night.webp",
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+        },
+        {
+          "label": "Night · window-AC corner",
+          "kind": "other",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "assets/E-render-windowac-night.webp",
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         }
       ],
       "products": [
@@ -15887,6 +15935,30 @@
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/F-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
+        },
+        {
+          "label": "Night · hallway door",
+          "kind": "other",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "assets/F-render-entry-night.webp",
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+        },
+        {
+          "label": "Night · bathroom door",
+          "kind": "other",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "assets/F-render-bathroom-night.webp",
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+        },
+        {
+          "label": "Night · window-AC corner",
+          "kind": "other",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "assets/F-render-windowac-night.webp",
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         }
       ],
       "products": [
