@@ -678,5 +678,22 @@
   "stu:U-CUSHION",
   "stu:U-ART",
   "stu:U-PLANT",
-  "stu:U-DECOR"
+  "stu:U-DECOR",
+  "hop:HD-CABINET",
+  "hop:HD-LAMP",
+  "hop:HD-RUG",
+  "hop:HD-PLANT",
+  "hop:HD-LIGHT",
+  "hop:HAL-MAP",
+  "hop:HE-CABINET",
+  "hop:HE-RUG",
+  "hop:HE-PLANT",
+  "hop:HE-SCONCES",
+  "hop:HE-PAINT",
+  "hop:HF-CABINET",
+  "hop:HF-LAMP",
+  "hop:HF-RUG",
+  "hop:HF-MIRROR",
+  "hop:HF-SPOTS",
+  "hop:HF-PAINT"
 ]

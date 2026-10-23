@@ -1,0 +1,607 @@
+{
+  "title": "Unit 408 hallway: three Opus directions (HD, HE, HF)",
+  "as_of": "23 October 2026",
+  "overview": "Three more hallway directions for Unit 408 around the same fixed idea: the owner's LEGO Art World Map 31203 hung at true scale (104 x 65 cm, bottom edge at 1.1 m) on the plain wall over a solid floor-standing dresser with six or more drawers whose top holds photos and keepsakes. In this set the map is centred 2.87 m from the living end so it clears the light switch near the living end. D Harbour Grey, the premium build (grey grooved lacquer, navy art glass, a chrome picture-light bar, a black-and-white rug, a slender grey-green tree), E Conservatory Sage, the value build (a sage-painted map wall, smoked-oak shaker drawers, woven sedge wall lamps, a green-grid rug, a bird-of-paradise) and F Charcoal Gallery, mid-price (a charcoal map wall, an espresso eight-drawer dresser, an amber-glass cube lamp, black gallery spots, a tall black mirror). Fixed in all three: both arches dark, the honey-amber parquet, Davies Beige blackout and voile with valance boards on the window run, no hallway aircon, no added ceiling light. The wall lights and wall paint are proposals; hallway lighting is still undecided. Nothing in the hallway is measured: conditional fit; hallway unmeasured.",
+  "requirements": [
+    "Three distinct hallway sets with the same wall composition: the owner's LEGO Art World Map 31203 at true scale (1040 x 650, bottom at 1100) over a solid floor-standing dresser with six or more drawers and a display top. No model or family repeats across the schemes, the Fable hallway sets (A, B, C and H), the Astra hallway set or the other rooms' claims.",
+    "Conditional fit; hallway unmeasured: the ceiling, the corridor width and length, both arches, the window run and the light switch position are accepted assumptions (ASSUMED.md); every plan and view depends on them until the tape numbers arrive.",
+    "The dressers, lamps, rugs, plants, the mirror and the wall lights are real catalogue products with a supplier photo, price and source link; the map is owner-supplied at nil and the wall paint (E, F) is a planning allowance, not a product.",
+    "Kept in every scheme: both arches dark, the parquet throughout, Davies Beige blackout + voile with valance boards on the window run (Seoul Blinds offer, priced in the curtain quote, not here), no hallway aircon, no added ceiling light; the wall lights are plug-in proposals, labelled as proposals."
+  ],
+  "procurement_gates": [
+    "Prices are frozen 20 Oct 2026 catalogue references with each line's own price date. Product existence and photos are verified; exact Cebu stock, address delivery and checkout totals are not.",
+    "No scheme is purchase-ready until the hallway is taped: the light switch position against the map and the wall lights, the corridor length, the dresser depth against the passage width, and the map's hanging height against the dresser top.",
+    "Hallway lighting is undecided (Ivan, 23 Oct): the picture-light bar (D), the woven wall lamps (E) and the gallery spots (F) are proposals; confirm a plug-in route from the outlet behind the dresser before ordering.",
+    "Pieces flagged \"dims unpublished\" or \"partial\" in the room placement report (the plant in E, the rug lengths) keep the layout size; measure them at the showroom before ordering.",
+    "Style renders are AI interpretations painted over the dimension-led model views; the supplier photo boards, the plan and the item schedule are the acceptance basis."
+  ],
+  "allowances": [
+    {
+      "id": "Q-DELIVERY",
+      "name": "Cebu delivery and handling (one dresser, small goods)",
+      "low_centavos": 300000,
+      "high_centavos": 800000,
+      "basis": "Planning allowance only; no shipping rates or address allocation obtained."
+    },
+    {
+      "id": "Q-MOUNTING",
+      "name": "LEGO map hanging, dresser levelling and anchoring, wall-light fixing and cord channels",
+      "low_centavos": 300000,
+      "high_centavos": 900000,
+      "basis": "Planning allowance only; the map hangs on its own LEGO brackets; installer to verify the substrate and anchor the dresser to the wall."
+    }
+  ],
+  "schemes": [
+    {
+      "id": "HD",
+      "title": "Harbour Grey",
+      "rationale": "a light-grey lacquer double dresser with finely grooved handleless fronts on steel legs, a navy art-glass lamp, a chrome LED bar over the map as a picture light, a bold black-and-white rug and a slender grey-green tree: cool, crisp and the map's blues carried into the lamp",
+      "palette": [
+        "#9a9994",
+        "#2f4f7f",
+        "#f2f0eb"
+      ],
+      "budget": {
+        "design_centavos": 15728900,
+        "common_centavos": 249900,
+        "priced_centavos": 15978800,
+        "reserve_low_centavos": 600000,
+        "reserve_high_centavos": 1700000,
+        "total_low_php": 183000,
+        "total_high_php": 195000
+      },
+      "fit_notes": [
+        "BoConcept Lugano 1540 x 480 x 930: the tallest top of the three, so the map's bottom edge at 1100 leaves a 170 mm reveal (photos up to 13 x 18 cm stand under it); raise the map 80 mm to 1180 if a 250 mm reveal matters more than the 1.1 m line.",
+        "The map (1040) is centred on the dresser (1540) with 250 mm of top free at each end; the chrome bar hangs about 120 mm above the map's top edge; the light switch stays about 120 mm beyond the dresser's living end.",
+        "Passage: 2300 (assumed) less 480 leaves about 1.82 m beside the dresser.",
+        "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
+      ]
+    },
+    {
+      "id": "HE",
+      "title": "Conservatory Sage",
+      "rationale": "the map wall painted soft sage, a smoked-oak shaker dresser with round knobs, a pair of woven sedge wall lamps flanking the map, an off-white rug with a fine green grid and a bird-of-paradise in the corner: a garden-room hallway where the map is framed by green",
+      "palette": [
+        "#7f9a6e",
+        "#7a6a55",
+        "#efe9dc"
+      ],
+      "budget": {
+        "design_centavos": 4834900,
+        "common_centavos": 859800,
+        "priced_centavos": 5694700,
+        "reserve_low_centavos": 600000,
+        "reserve_high_centavos": 1700000,
+        "total_low_php": 70000,
+        "total_high_php": 82000
+      },
+      "fit_notes": [
+        "BLIMS Lauren 1500 x 450 x 850: top at 850 leaves the 250 mm reveal under the map; 230 mm of top free at each end of the map for frames and a bowl, no table lamp.",
+        "The woven wall lamps sit 150 mm outside the map's side edges, shades at 1.55 to 1.85 m; the left one stays 40 mm right of and 80 mm above the assumed switch plate, so the switch position must be taped before drilling.",
+        "Passage: 2300 (assumed) less 450 leaves about 1.85 m.",
+        "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
+      ]
+    },
+    {
+      "id": "HF",
+      "title": "Charcoal Gallery",
+      "rationale": "the map wall painted deep charcoal, an espresso eight-drawer dresser with a reeded bottom row, an amber-glass cube lamp with a linen shade, two black gallery spots over the map, an off-white diamond-lattice rug and a tall black-framed mirror at the living end: the map lit like an exhibit",
+      "palette": [
+        "#3a2a22",
+        "#c8862f",
+        "#ece6da",
+        "#3b3d40"
+      ],
+      "budget": {
+        "design_centavos": 6665400,
+        "common_centavos": 739800,
+        "priced_centavos": 7405200,
+        "reserve_low_centavos": 600000,
+        "reserve_high_centavos": 1700000,
+        "total_low_php": 89000,
+        "total_high_php": 101000
+      },
+      "fit_notes": [
+        "BLIMS Freya 1500 x 500 x 825: the lowest top gives a 275 mm reveal; the deepest dresser of the three, so 2300 (assumed) less 500 leaves about 1.80 m of passage.",
+        "The HOVET mirror (780 x 1960) leans at the living end of the plain wall, y 310 to 1090, more than 800 mm short of the switch; the two black spots sit above the map's top corners and aim down at it.",
+        "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "HD-CABINET",
+      "schemes": [
+        "HD"
+      ],
+      "room": "HAL",
+      "role": "console",
+      "name": "Lugano double dresser, carved fronts",
+      "brand": "BoConcept",
+      "sku": "3800VF000008A01",
+      "variant": "Lugano double dresser, carved fronts; manufacturer variant/SKU 3800VF000008A01; master 3800VF00; selected configuration codes: vaMaterial=0008; vaMaterialLeg=0128",
+      "quantity": 1,
+      "unit_centavos": 13369000,
+      "line_centavos": 13369000,
+      "url": "https://www.boconcept.com/en-ph/p/lugano/380vf00-4:0008-9:0128/",
+      "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | BoConcept",
+      "notes": "Light-grey lacquer double dresser, six wide drawers with finely grooved handleless fronts, slim powder-coated steel legs; 1540 x 480 x 930. Solid, floor-standing, the display top for photos and keepsakes; the premium build of the three.",
+      "dimensions": {
+        "width": 1540,
+        "depth": 480,
+        "height": 930
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HD-CABINET.jpg",
+      "family": "BoConcept Lugano",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact selected configuration; selected public product price.value, not the lower family starting-price field. Displayed selected RRP; no separate positive beforePrice published.",
+      "materials": "Published material groups: Wood; finish: Base cabinet: lacquered|Front: lacquered|Leg: powder coated"
+    },
+    {
+      "id": "HD-LAMP",
+      "schemes": [
+        "HD"
+      ],
+      "room": "HAL",
+      "role": "table_lamp",
+      "name": "Lemmitt Table Lamp",
+      "brand": "Ashley",
+      "sku": "L430784",
+      "variant": "Lemmitt Table Lamp; manufacturer SKU L430784; Navy",
+      "quantity": 1,
+      "unit_centavos": 660000,
+      "line_centavos": 660000,
+      "url": "https://store.ashleyfurniture.ph/products/lemmitt-table-lamp?variant=50128947478814",
+      "status": "sold_out_online | Cebu delivery: unconfirmed | price date 2026-09-08 | Ashley",
+      "notes": "Round navy art-glass base with a white drum shade, 356 x 356 x 546; stands at the dining end of the dresser top, just past the map's edge.",
+      "dimensions": {
+        "width": 355.6,
+        "depth": 355.6,
+        "height": 546.1
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HD-LAMP.webp",
+      "family": "Ashley Lemmitt",
+      "price_date": "2026-09-08",
+      "price_basis": "Per listed item, exact official Philippine online variant price; not a confirmed Cebu branch quotation.",
+      "materials": "Made of art glass and crystal with drum hardback fabric shade"
+    },
+    {
+      "id": "HD-RUG",
+      "schemes": [
+        "HD"
+      ],
+      "room": "HAL",
+      "role": "rug",
+      "name": "KONSTRUNDA Rug",
+      "brand": "IKEA",
+      "sku": "30622941",
+      "variant": "KONSTRUNDA Rug, white/black, 80x160 cm; article 30622941",
+      "quantity": 1,
+      "unit_centavos": 699900,
+      "line_centavos": 699900,
+      "url": "https://www.ikea.com/ph/en/p/konstrunda-rug-white-black-30622941/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "White and black bars with notched ends, 80 x 160 (published), long side along the corridor in front of the dresser; the parquet shows on every side.",
+      "dimensions": {
+        "width": 800,
+        "depth": 1600,
+        "height": 10
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HD-RUG.jpg",
+      "family": "IKEA KONSTRUNDA",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Use surface: 100 % wool; Base fabric: 100% polyester (min. 90% recycled); Surface coating: 100 % EVA plastic; Back fabric: 100 % cotton"
+    },
+    {
+      "id": "HD-PLANT",
+      "schemes": [
+        "HD"
+      ],
+      "room": "HAL",
+      "role": "plant",
+      "name": "A54300009 Greenery",
+      "brand": "Ashley",
+      "sku": "A54300009",
+      "variant": "A54300009 Greenery; manufacturer SKU A54300009; Default Title",
+      "quantity": 1,
+      "unit_centavos": 1000000,
+      "line_centavos": 1000000,
+      "url": "https://store.ashleyfurniture.ph/products/a54300009-greenery?variant=45493108998430",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Faux eucalyptus-style tree, small grey-green leaves on a slender trunk in a black pot; dims unpublished, estimated 550 x 550 x 1500 from the supplier photo, measure at the showroom. In the window-side corner at the dining end, clear of every view of the map.",
+      "dimensions": {
+        "width": 550,
+        "depth": 550,
+        "height": 1500
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HD-PLANT.webp",
+      "family": "Ashley A54300009",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": null
+    },
+    {
+      "id": "HD-LIGHT",
+      "schemes": [
+        "HD"
+      ],
+      "room": "HAL",
+      "role": "wall_light",
+      "name": "FLASKPOST LED cabinet/wall light",
+      "brand": "IKEA",
+      "sku": "40591091",
+      "variant": "FLASKPOST LED cabinet/wall light, chrome plated, 82 cm; article 40591091",
+      "quantity": 1,
+      "unit_centavos": 249900,
+      "line_centavos": 249900,
+      "url": "https://www.ikea.com/ph/en/p/flaskpost-led-cabinet-wall-light-chrome-plated-40591091/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Lighting proposal (hallway lighting undecided): an 82 cm chrome LED bar mounted about 120 mm above the map's top edge, angled at the mosaic like a picture light; installer to confirm hardwiring or a plug-in lead from the outlet behind the dresser.",
+      "dimensions": {
+        "width": 820,
+        "depth": 140,
+        "height": 40
+      },
+      "scope": "technical_essential",
+      "image": "assets/products/HD-LIGHT.png",
+      "family": "IKEA FLASKPOST",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Base/ Shade: Steel, Chrome plated; End cap: Silicone rubber; Joint: Zinc"
+    },
+    {
+      "id": "HE-CABINET",
+      "schemes": [
+        "HE"
+      ],
+      "room": "HAL",
+      "role": "console",
+      "name": "LAUREN DRESSER",
+      "brand": "BLIMS Fine Furniture",
+      "sku": "IDRZ0149K",
+      "variant": "Default published variant; SKU IDRZ0149K",
+      "quantity": 1,
+      "unit_centavos": 3695000,
+      "line_centavos": 3695000,
+      "url": "https://blimsfurniture.com.ph/products/lauren-dresser",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | BLIMS Fine Furniture",
+      "notes": "Smoked greige oak dresser, six shaker-framed drawers in two columns with small round knobs, short tapered legs; 1500 x 450 x 850. Top at 850 gives the 250 mm reveal under the map.",
+      "dimensions": {
+        "width": 1500,
+        "depth": 450,
+        "height": 850
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HE-CABINET.png",
+      "family": "BLIMS Fine Furniture LAUREN",
+      "price_date": "2026-09-10",
+      "price_basis": "Published price for the selected listing variant",
+      "materials": null
+    },
+    {
+      "id": "HE-RUG",
+      "schemes": [
+        "HE"
+      ],
+      "room": "HAL",
+      "role": "rug",
+      "name": "RIDSTIG Rug, flatwoven",
+      "brand": "IKEA",
+      "sku": "40600967",
+      "variant": "RIDSTIG Rug, flatwoven, off-white/green, 133x195 cm; article 40600967",
+      "quantity": 1,
+      "unit_centavos": 149900,
+      "line_centavos": 149900,
+      "url": "https://www.ikea.com/ph/en/p/ridstig-rug-flatwoven-off-white-green-40600967/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Off-white flatweave with a fine green grid, 133 x 195 (published), long side along the corridor in front of the dresser.",
+      "dimensions": {
+        "width": 1330,
+        "depth": 1950,
+        "height": 6
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HE-RUG.png",
+      "family": "IKEA RIDSTIG",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "100 % cotton"
+    },
+    {
+      "id": "HE-PLANT",
+      "schemes": [
+        "HE"
+      ],
+      "room": "HAL",
+      "role": "plant",
+      "name": "A54200036 Greenery",
+      "brand": "Ashley",
+      "sku": "A54200036",
+      "variant": "A54200036 Greenery; manufacturer SKU A54200036; Default Title",
+      "quantity": 1,
+      "unit_centavos": 990000,
+      "line_centavos": 990000,
+      "url": "https://store.ashleyfurniture.ph/products/greenery-a54200036?variant=48426152526110",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Faux bird-of-paradise with broad paddle leaves in a black pot; dims unpublished, estimated 600 x 600 x 1500 from the supplier photo, measure at the showroom. In the window-side corner at the dining end.",
+      "dimensions": {
+        "width": 600,
+        "depth": 600,
+        "height": 1500
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HE-PLANT.webp",
+      "family": "Ashley A54200036",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": null
+    },
+    {
+      "id": "HE-SCONCES",
+      "schemes": [
+        "HE"
+      ],
+      "room": "HAL",
+      "role": "wall_light",
+      "name": "MÅNALG Wall lamp",
+      "brand": "IKEA",
+      "sku": "90483895",
+      "variant": "MÅNALG Wall lamp, sedge/handmade; article 90483895",
+      "quantity": 2,
+      "unit_centavos": 129900,
+      "line_centavos": 259800,
+      "url": "https://www.ikea.com/ph/en/p/manalg-wall-lamp-sedge-handmade-90483895/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Lighting proposal (hallway lighting undecided): a pair of woven sedge wall lamps 150 mm outside the map's side edges, shades at about 1.55 to 1.85 m; plug-in leads in wall-coloured cord channels down to the outlet behind the dresser.",
+      "dimensions": {
+        "width": 350,
+        "depth": 180,
+        "height": 290
+      },
+      "scope": "technical_essential",
+      "image": "assets/products/HE-SCONCES.png",
+      "family": "IKEA MÅNALG",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Shade: Sedge, Clear lacquer; Shade holder/ Mounting bracket: Steel, Powder coating; Lamp house: Polycarbonate plastic; Ball: Steel, Paint"
+    },
+    {
+      "id": "HE-PAINT",
+      "schemes": [
+        "HE"
+      ],
+      "room": "HAL",
+      "role": "wall_paint",
+      "scope": "technical_essential",
+      "name": "Sage-green paint on the plain (map) wall",
+      "brand": "To source",
+      "sku": null,
+      "variant": "Soft sage green, washable matte, skirting to cornice on the plain wall only (about 4.4 x 2.7 m); the other walls stay off-white",
+      "quantity": 1,
+      "unit_centavos": 600000,
+      "line_centavos": 600000,
+      "url": null,
+      "status": "Planning allowance (paint and labour); no colour card chosen, no quote obtained",
+      "notes": "Wall-treatment proposal for scheme E only; repaint to off-white is the fallback.",
+      "dimensions": {
+        "width": 4400,
+        "depth": 1,
+        "height": 2700
+      },
+      "price_basis": "allowance",
+      "image": null,
+      "family": "To source Sage-green paint on the plain (map) wall",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "HF-CABINET",
+      "schemes": [
+        "HF"
+      ],
+      "room": "HAL",
+      "role": "console",
+      "name": "FREYA DRESSER",
+      "brand": "BLIMS Fine Furniture",
+      "sku": "IDRZ0148Z",
+      "variant": "Default published variant; SKU IDRZ0148Z",
+      "quantity": 1,
+      "unit_centavos": 2621200,
+      "line_centavos": 2621200,
+      "url": "https://blimsfurniture.com.ph/products/freya-dresser",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | BLIMS Fine Furniture",
+      "notes": "Dark espresso dresser, eight drawers in two columns, the bottom row with reeded fronts, slim dark pulls; 1500 x 500 x 825. The most drawers and the lowest top of the three.",
+      "dimensions": {
+        "width": 1500,
+        "depth": 500,
+        "height": 825
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HF-CABINET.png",
+      "family": "BLIMS Fine Furniture FREYA",
+      "price_date": "2026-09-10",
+      "price_basis": "Published price for the selected listing variant",
+      "materials": null
+    },
+    {
+      "id": "HF-LAMP",
+      "schemes": [
+        "HF"
+      ],
+      "room": "HAL",
+      "role": "table_lamp",
+      "name": "Taron Table Lamp",
+      "brand": "Mejore Home",
+      "sku": "R27576-1S",
+      "variant": "Taron Table Lamp; official listing SKU R27576-1S",
+      "quantity": 1,
+      "unit_centavos": 2694400,
+      "line_centavos": 2694400,
+      "url": "https://mejore.ph/products/taron-table-lamp?variant=51717304647954",
+      "status": "Out of stock according to source | Cebu delivery: unconfirmed | price date 2026-09-09 | Mejore Home",
+      "notes": "Dark amber-to-smoke glass cube base with brass fittings under a rectangular natural linen shade, 58 cm high (published); footprint estimated at 330 x 250 from the supplier photo; at the dining end of the dresser top.",
+      "dimensions": {
+        "width": 330,
+        "depth": 250,
+        "height": 584
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HF-LAMP.webp",
+      "family": "Mejore Home Taron",
+      "price_date": "2026-09-09",
+      "price_basis": "Per selected exact variant Default Title; published PHP variant price, not a from-price. Table only; chairs or styling accessories not assumed included.",
+      "materials": "Dark amber glass; iron; beige linen fabric shade"
+    },
+    {
+      "id": "HF-RUG",
+      "schemes": [
+        "HF"
+      ],
+      "room": "HAL",
+      "role": "rug",
+      "name": "VÄGNÄT Rug, flatwoven",
+      "brand": "IKEA",
+      "sku": "70550824",
+      "variant": "VÄGNÄT Rug, flatwoven, off-white gray/handmade, 133x195 cm; article 70550824",
+      "quantity": 1,
+      "unit_centavos": 549900,
+      "line_centavos": 549900,
+      "url": "https://www.ikea.com/ph/en/p/vaegnaet-rug-flatwoven-off-white-gray-handmade-70550824/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Handmade off-white flatweave with a grey diamond lattice and small ochre accents, 133 x 195 (published), long side along the corridor.",
+      "dimensions": {
+        "width": 1330,
+        "depth": 1950,
+        "height": 8
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HF-RUG.png",
+      "family": "IKEA VÄGNÄT",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Use surface: 100 % wool; Warp: 100 % cotton"
+    },
+    {
+      "id": "HF-MIRROR",
+      "schemes": [
+        "HF"
+      ],
+      "room": "HAL",
+      "role": "mirror",
+      "name": "HOVET Mirror",
+      "brand": "IKEA",
+      "sku": "50515916",
+      "variant": "HOVET Mirror, black, 78x196 cm; article 50515916",
+      "quantity": 1,
+      "unit_centavos": 799900,
+      "line_centavos": 799900,
+      "url": "https://www.ikea.com/ph/en/p/hovet-mirror-black-50515916/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Tall mirror in a thin black frame, 780 x 1960, leaning on the plain wall at the living end, well clear of the light switch; it reflects the curtained window run.",
+      "dimensions": {
+        "width": 780,
+        "depth": 60,
+        "height": 1960
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HF-MIRROR.png",
+      "family": "IKEA HOVET",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Mirror glass: Glass, Plastic foil; Frame: Aluminum, Anodized"
+    },
+    {
+      "id": "HF-SPOTS",
+      "schemes": [
+        "HF"
+      ],
+      "room": "HAL",
+      "role": "wall_light",
+      "name": "SKURUP Wall lamp",
+      "brand": "IKEA",
+      "sku": "70357379",
+      "variant": "SKURUP Wall lamp, black; article 70357379",
+      "quantity": 2,
+      "unit_centavos": 69900,
+      "line_centavos": 139800,
+      "url": "https://www.ikea.com/ph/en/p/skurup-wall-lamp-black-70357379/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Lighting proposal (hallway lighting undecided): two black plug-in wall spots above the map's top corners, aimed down at the mosaic like gallery lights; cords in charcoal cord channels to the outlet behind the dresser.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/HF-SPOTS.png",
+      "family": "IKEA SKURUP",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Steel, Powder coating"
+    },
+    {
+      "id": "HF-PAINT",
+      "schemes": [
+        "HF"
+      ],
+      "room": "HAL",
+      "role": "wall_paint",
+      "scope": "technical_essential",
+      "name": "Charcoal paint on the plain (map) wall",
+      "brand": "To source",
+      "sku": null,
+      "variant": "Deep warm charcoal, washable matte, skirting to cornice on the plain wall only (about 4.4 x 2.7 m); the other walls stay off-white",
+      "quantity": 1,
+      "unit_centavos": 600000,
+      "line_centavos": 600000,
+      "url": null,
+      "status": "Planning allowance (paint and labour); no colour card chosen, no quote obtained",
+      "notes": "Wall-treatment proposal for scheme F only; repaint to off-white is the fallback.",
+      "dimensions": {
+        "width": 4400,
+        "depth": 1,
+        "height": 2700
+      },
+      "price_basis": "allowance",
+      "image": null,
+      "family": "To source Charcoal paint on the plain (map) wall",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "HAL-MAP",
+      "schemes": [
+        "HD",
+        "HE",
+        "HF"
+      ],
+      "room": "HAL",
+      "role": "art",
+      "scope": "fixed_room_treatment",
+      "name": "LEGO Art World Map 31203 (owner-supplied)",
+      "brand": "LEGO",
+      "sku": "31203",
+      "variant": "11,695-piece mosaic, 104 x 65 cm assembled, hung on its own brackets in three panels; owned, not purchased",
+      "quantity": 1,
+      "unit_centavos": null,
+      "line_centavos": null,
+      "url": null,
+      "status": "Owned; priced at nil; modelled as a fixed room element",
+      "notes": "At true scale on the plain wall: bottom edge 1100, top 1750, centred 2870 from the living end (edges 2350 to 3390), clear of the light switch toward the living end; 170 to 275 mm over each scheme's dresser top. Ivan, 23 Oct: 'make sure the lego map on the wall is up to scale'.",
+      "dimensions": {
+        "width": 1040,
+        "depth": 40,
+        "height": 650
+      },
+      "price_basis": "owned",
+      "image": null,
+      "family": "LEGO Art World Map 31203 (owner-supplied)",
+      "price_date": "2026-10-20"
+    }
+  ],
+  "source_notes": [
+    "Pieces come from the frozen 20 Oct 2026 catalogue export (prices as published that day); photos are the suppliers' own. No Airtable writes.",
+    "Room geometry: no drawing and no tape for the hallway; the room file carries accepted assumptions from the F034 and F035 photo camera fits and Ivan's 23 Oct answers (see ASSUMED.md). This set centres the map 2.87 m from the living end because the F035 fit places the light switch 1.65 to 2.25 m from the living end.",
+    "The LEGO Art World Map 31203 is the owner's, priced at nil and modelled as a fixed element at its published 1040 x 650; curtains per the Seoul Blinds quote are not priced in these sets.",
+    "Models and families were checked against the Fable and Astra hallway sets and the other rooms' claims (uniqueness.py)."
+  ]
+}
