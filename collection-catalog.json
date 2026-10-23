@@ -15246,6 +15246,1391 @@
       }
     },
     {
+      "id": "stu:S-BED",
+      "localId": "fable-stu-20261023::S-BED",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "Our Home Fino Bedframe — Black/Wengue / King 72 x 78 in",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "bed",
+        "name": "Our Home Fino Bedframe — Black/Wengue / King 72 x 78 in",
+        "brand": "Our Home",
+        "sku": "10395563",
+        "variant": "Black/Wengue / King 72 x 78 in",
+        "family": "Our Home Fino",
+        "url": "https://ourhome.ph/products/our-home-fino-bedframe?variant=43710185865457",
+        "scope": "design_piece",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:S-NIGHTSTAND",
+      "localId": "fable-stu-20261023::S-NIGHTSTAND",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "MALM 2-drawer chest",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "nightstand",
+        "name": "MALM 2-drawer chest",
+        "brand": "IKEA",
+        "sku": "10354642",
+        "variant": "MALM 2-drawer chest, white, 40x55 cm; article 10354642",
+        "family": "IKEA MALM",
+        "url": "https://www.ikea.com/ph/en/p/malm-2-drawer-chest-white-10354642/",
+        "scope": "design_piece",
+        "materials": "Top panel/ Side panel/ Rail/ Drawer front: Particleboard, Acrylic paint; Support rail, back: Particleboard; Back: Fiberboard; Drawer bottom: Fiberboard, Acrylic paint",
+        "dimensions": {
+          "width": 400,
+          "depth": 480,
+          "height": 550
+        }
+      }
+    },
+    {
+      "id": "stu:S-LAMP",
+      "localId": "fable-stu-20261023::S-LAMP",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "at home Larcy Table Lamp",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "lamp",
+        "name": "at home Larcy Table Lamp",
+        "brand": "abensonHOME catalog",
+        "sku": "",
+        "variant": "Table Lamp, Satin Nickel",
+        "family": "abensonHOME Larcy",
+        "url": "https://home.abenson.com/at-home-larcy-32-5x32-5x39cm-satin-nickel-metal-table-lamp.html",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 325,
+          "depth": 325,
+          "height": 390
+        }
+      }
+    },
+    {
+      "id": "stu:S-CHAIR",
+      "localId": "fable-stu-20261023::S-CHAIR",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "ISMANTORP Armchair",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "chair",
+        "name": "ISMANTORP Armchair",
+        "brand": "IKEA",
+        "sku": "00598216",
+        "variant": "ISMANTORP Armchair, metal light grey-beige/Tibbleby light beige; article 00598216",
+        "family": "IKEA ISMANTORP",
+        "url": "https://www.ikea.com/ph/en/p/ismantorp-armchair-metal-light-grey-beige-tibbleby-light-beige-00598216/",
+        "scope": "design_piece",
+        "materials": "Fabric: 100% polyester (min. 90% recycled); Backrest frame/ Bracket/ Armrest/ Seat frame/ Seat crossbar: Steel, Epoxy/polyester powder coating; Backrest: Layer-glued wood veneer; Seat: Particleboard",
+        "dimensions": {
+          "width": 720,
+          "depth": 660,
+          "height": 710
+        }
+      }
+    },
+    {
+      "id": "stu:S-CONSOLE",
+      "localId": "fable-stu-20261023::S-CONSOLE",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "BYÅS TV unit",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "console",
+        "name": "BYÅS TV unit",
+        "brand": "IKEA",
+        "sku": "00352573",
+        "variant": "TV unit, high gloss white, 160x42x45 cm (63x16 1/2x17 3/4 \")",
+        "family": "IKEA BYÅS",
+        "url": "https://www.ikea.com/ph/en/p/byas-tv-unit-high-gloss-white-00352573/",
+        "scope": "design_piece",
+        "materials": "Particleboard and fiberboard construction, including paper-honeycomb top; acrylic-painted, lacquered and foil finishes with plastic edging.",
+        "dimensions": {
+          "width": 1600,
+          "depth": 420,
+          "height": 450
+        }
+      }
+    },
+    {
+      "id": "stu:S-MIRROR",
+      "localId": "fable-stu-20261023::S-MIRROR",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "A58000346 Mirror",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "mirror",
+        "name": "A58000346 Mirror",
+        "brand": "Ashley",
+        "sku": "A58000346",
+        "variant": "A58000346 Mirror; manufacturer SKU A58000346; Default Title; Silver",
+        "family": "Ashley A58000346",
+        "url": "https://store.ashleyfurniture.ph/products/a58000346-mirror?variant=50120857354526",
+        "scope": "design_piece",
+        "materials": "Made with mirroed glass, metal and MDF",
+        "dimensions": {
+          "width": 609.6,
+          "depth": 124.968,
+          "height": 914.4
+        }
+      }
+    },
+    {
+      "id": "stu:S-RUG",
+      "localId": "fable-stu-20261023::S-RUG",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "GEOLOG Rug, high pile",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "rug",
+        "name": "GEOLOG Rug, high pile",
+        "brand": "IKEA",
+        "sku": "60627715",
+        "variant": "GEOLOG Rug, high pile, off-white, 160x230 cm; article 60627715",
+        "family": "IKEA GEOLOG",
+        "url": "https://www.ikea.com/ph/en/p/geolog-rug-high-pile-off-white-60627715/",
+        "scope": "design_piece",
+        "materials": "Use surface: 100% polyester (min. 90% recycled); Backing: 100 % Synthetic rubber",
+        "dimensions": {
+          "width": 1600,
+          "depth": 2300
+        }
+      }
+    },
+    {
+      "id": "stu:S-BEDSPREAD",
+      "localId": "fable-stu-20261023::S-BEDSPREAD",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "Bamboo Luxury Duvet Cover",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "bedspread",
+        "name": "Bamboo Luxury Duvet Cover",
+        "brand": "Linen & Homes",
+        "sku": "2400030",
+        "variant": "Ivory; listed Ivory / Queen, King to confirm",
+        "family": "Linen & Homes Bamboo Luxury",
+        "url": "https://www.rustans.com/products/linen-homes-bamboo-luxury-duvet-cover",
+        "scope": "design_piece",
+        "materials": "100% bamboo fibers",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:S-PILLOWCASES",
+      "localId": "fable-stu-20261023::S-PILLOWCASES",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "Bamboo Luxury Sheet Set (4-Piece) - Gray",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "sleeping_pillowcase_pack",
+        "name": "Bamboo Luxury Sheet Set (4-Piece) - Gray",
+        "brand": "Linen & Homes",
+        "sku": "2400011",
+        "variant": "Variant 'King'; SKU 2400011",
+        "family": "Linen & Homes Bamboo Luxury",
+        "url": "https://www.rustans.com/products/linen-and-homes-bamboo-luxury-sheet-set-4-piece-gray",
+        "scope": "design_piece",
+        "materials": "100% bamboo fiber, 300 thread count",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:S-CUSHION",
+      "localId": "fable-stu-20261023::S-CUSHION",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "A51000320 Pillow",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "accent_cushion_cover",
+        "name": "A51000320 Pillow",
+        "brand": "Ashley",
+        "sku": "A51000320",
+        "variant": "A51000320 Pillow; manufacturer SKU A51000320; Default Title; White/Blue",
+        "family": "Ashley A51000320",
+        "url": "https://store.ashleyfurniture.ph/products/a51000320-pillow?variant=50438790775070",
+        "scope": "design_piece",
+        "materials": "Made of soft fabric with 100% polyester fiber front and reverse",
+        "dimensions": {
+          "width": 450.088,
+          "depth": 450.088,
+          "height": 150.114
+        }
+      }
+    },
+    {
+      "id": "stu:S-ART",
+      "localId": "fable-stu-20261023::S-ART",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "A58000395 Wall Art",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "art",
+        "name": "A58000395 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000395",
+        "variant": "A58000395 Wall Art; manufacturer SKU A58000395; Default Title; Multi",
+        "family": "Ashley A58000395",
+        "url": "https://store.ashleyfurniture.ph/products/a58000395-wall-art?variant=49911216996638",
+        "scope": "design_piece",
+        "materials": "Made with canvas",
+        "dimensions": {
+          "width": 1016,
+          "depth": 50.8,
+          "height": 1016
+        }
+      }
+    },
+    {
+      "id": "stu:S-PLANT",
+      "localId": "fable-stu-20261023::S-PLANT",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "Faux Pencil Succulent",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "plant",
+        "name": "Faux Pencil Succulent",
+        "brand": "Crate & Barrel",
+        "sku": "577288",
+        "variant": "Faux Pencil Succulent; Single listed configuration; published SKU 577288; Shopify variant 44463580774616",
+        "family": "Crate & Barrel Pencil Succulent",
+        "url": "https://crateandbarrel.com.ph/products/faux-pencil-succulent?variant=44463580774616",
+        "scope": "design_piece",
+        "materials": "65% plastic, 20% cement vase, 10% artificial soil and 5% iron wire",
+        "dimensions": {
+          "width": 240.03,
+          "height": 199.898
+        }
+      }
+    },
+    {
+      "id": "stu:S-DECOR",
+      "localId": "fable-stu-20261023::S-DECOR",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "A52000139 Vase",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "decor",
+        "name": "A52000139 Vase",
+        "brand": "Ashley",
+        "sku": "A52000139",
+        "variant": "A52000139 Vase; manufacturer SKU A52000139; Default Title; Transparent Blue",
+        "family": "Ashley A52000139",
+        "url": "https://store.ashleyfurniture.ph/products/a52000139-vase?variant=45493388968222",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 180.34,
+          "depth": 647.7,
+          "height": 231.14
+        }
+      }
+    },
+    {
+      "id": "stu:DUVET-INSERT",
+      "localId": "fable-stu-20261023::DUVET-INSERT",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "Hypoallergenic Lightweight King Duvet Insert",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "bedding_insert",
+        "name": "Hypoallergenic Lightweight King Duvet Insert",
+        "brand": "Crate & Barrel",
+        "sku": "448389",
+        "variant": "Single listed variant; SKU 448389",
+        "family": "Crate & Barrel Hypoallergenic insert",
+        "url": "https://crateandbarrel.com.ph/products/hypoallergenic-lightweight-king-duvet-insert",
+        "scope": "technical_essential",
+        "materials": "100% cambric cotton cover; microfiber cluster fill",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:SYS-TV75",
+      "localId": "fable-stu-20261023::SYS-TV75",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "75-inch Crystal UHD TV UA75U8520HGXXP",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "75-inch Crystal UHD TV UA75U8520HGXXP",
+        "brand": "",
+        "sku": "10179413",
+        "variant": "10179413",
+        "family": "SYS-TV75",
+        "url": "https://www.smappliance.com/products/ua75u8520hgxxp-samsung-75-crystal-uhd-4k-smart-tv",
+        "scope": "technical_essential",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:SYS-AC",
+      "localId": "fable-stu-20261023::SYS-AC",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "TCL 1.5 HP split inverter TAC-13CSD/KEI2",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "TCL 1.5 HP split inverter TAC-13CSD/KEI2",
+        "brand": "",
+        "sku": "10177771",
+        "variant": "10177771",
+        "family": "SYS-AC",
+        "url": "https://www.smappliance.com/products/tac-13csd-kei2-tcl-1-5hp-ai-split-inv-ac-full-dc",
+        "scope": "technical_essential",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:SYS-MOUNT",
+      "localId": "fable-stu-20261023::SYS-MOUNT",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "True Vision extra-large TV wall mount TV73-69F, 60–120 in, 120 kg, VESA 400×300 listed",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "True Vision extra-large TV wall mount TV73-69F, 60–120 in, 120 kg, VESA 400×300 listed",
+        "brand": "",
+        "sku": "TV73-69F",
+        "variant": "TV73-69F (manufacturer product 5959)",
+        "family": "SYS-MOUNT",
+        "url": "https://www.truevision.com.ph/product/true-vision-extra-large-full-motion-tv-wall-mount-for-60-120/",
+        "scope": "technical_essential",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:CUR-BASE",
+      "localId": "fable-stu-20261023::CUR-BASE",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "Master bedroom drapes + sheers,2 tracks,inverted pleats",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "Master bedroom drapes + sheers,2 tracks,inverted pleats",
+        "brand": "",
+        "sku": "16 Oct2026 supplier quotation",
+        "variant": "16 Oct2026 supplier quotation",
+        "family": "CUR-BASE",
+        "url": null,
+        "scope": "fixed_room_treatment",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:CUR-BOARD",
+      "localId": "fable-stu-20261023::CUR-BOARD",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "Finished valance/pelmet:1 of6 quoted areas",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "Finished valance/pelmet:1 of6 quoted areas",
+        "brand": "",
+        "sku": "22800/6 allocation",
+        "variant": "22800/6 allocation",
+        "family": "CUR-BOARD",
+        "url": null,
+        "scope": "fixed_room_treatment",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:CUR-STICKS",
+      "localId": "fable-stu-20261023::CUR-STICKS",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "Four curtain pull sticks:1 of6 quoted areas",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "Four curtain pull sticks:1 of6 quoted areas",
+        "brand": "",
+        "sku": "11400/6 allocation",
+        "variant": "11400/6 allocation",
+        "family": "CUR-STICKS",
+        "url": null,
+        "scope": "fixed_room_treatment",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:SHARED-FLAT-SHEET",
+      "localId": "fable-stu-20261023::SHARED-FLAT-SHEET",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "DVALA flat sheet, white",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "DVALA flat sheet, white",
+        "brand": "",
+        "sku": "806.211.71",
+        "variant": "806.211.71",
+        "family": "SHARED-FLAT-SHEET",
+        "url": "https://www.ikea.com/ph/en/p/dvala-flat-sheet-white-80621171/",
+        "scope": "technical_essential",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:SHARED-SLEEPING-PILLOWS",
+      "localId": "fable-stu-20261023::SHARED-SLEEPING-PILLOWS",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "LAPPTATEL pillow, side/back sleeper",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "LAPPTATEL pillow, side/back sleeper",
+        "brand": "",
+        "sku": "604.603.72",
+        "variant": "604.603.72",
+        "family": "SHARED-SLEEPING-PILLOWS",
+        "url": "https://www.ikea.com/ph/en/p/lapptatel-pillow-side-back-sleeper-60460372/",
+        "scope": "technical_essential",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:SHARED-RUG-UNDERLAY",
+      "localId": "fable-stu-20261023::SHARED-RUG-UNDERLAY",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "STOPP FILT anti-slip rug underlay",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "STOPP FILT anti-slip rug underlay",
+        "brand": "",
+        "sku": "301.830.84",
+        "variant": "301.830.84",
+        "family": "SHARED-RUG-UNDERLAY",
+        "url": "https://www.ikea.com/ph/en/p/stopp-filt-rug-underlay-with-anti-slip-30183084/",
+        "scope": "technical_essential",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:SHARED-CUSHION-INSERT",
+      "localId": "fable-stu-20261023::SHARED-CUSHION-INSERT",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "INNER cushion insert, white",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "INNER cushion insert, white",
+        "brand": "",
+        "sku": "402.621.94",
+        "variant": "402.621.94",
+        "family": "SHARED-CUSHION-INSERT",
+        "url": "https://www.ikea.com/ph/en/p/inner-cushion-white-40262194/",
+        "scope": "technical_essential",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:LAMP-BULBS-E27",
+      "localId": "fable-stu-20261023::LAMP-BULBS-E27",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack",
+        "brand": "",
+        "sku": "105.914.84",
+        "variant": "105.914.84",
+        "family": "AC-LAMP-BULBS",
+        "url": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/",
+        "scope": "technical_essential",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:REQUIRED-MATTRESS50",
+      "localId": "fable-stu-20261023::REQUIRED-MATTRESS50",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "Made-to-order mattress, finished 50 mm × 1828.8 × 1981.2 mm",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "Made-to-order mattress, finished 50 mm × 1828.8 × 1981.2 mm",
+        "brand": "",
+        "sku": "Exact specification requires supplier acceptance",
+        "variant": "Exact specification requires supplier acceptance",
+        "family": "REQUIRED-MATTRESS50",
+        "url": "https://uratex.com.ph/products/mattress-made-to-order",
+        "scope": "technical_essential",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:REQUIRED-FLAT-DECK",
+      "localId": "fable-stu-20261023::REQUIRED-FLAT-DECK",
+      "designId": "fable-stu-20261023:S",
+      "designIds": [
+        "fable-stu-20261023:S",
+        "fable-stu-20261023:T",
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · S · Wengue Teal",
+      "name": "Continuous flat bed support and any frame adaptation",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AS",
+      "product": {
+        "role": "technical",
+        "name": "Continuous flat bed support and any frame adaptation",
+        "brand": "",
+        "sku": "Bed-specific engineered specification required",
+        "variant": "Bed-specific engineered specification required",
+        "family": "REQUIRED-FLAT-DECK",
+        "url": null,
+        "scope": "technical_essential",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:T-BED",
+      "localId": "fable-stu-20261023::T-BED",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "BJÖRKSNÄS bed frame — birch/Luröy, 180x200 cm",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "bed",
+        "name": "BJÖRKSNÄS bed frame — birch/Luröy, 180x200 cm",
+        "brand": "IKEA",
+        "sku": "692.475.70",
+        "variant": "birch/Luröy, 180x200 cm",
+        "family": "IKEA BJÖRKSNÄS",
+        "url": "https://www.ikea.com/ph/en/p/bjoerksnaes-bed-frame-birch-luroey-s69247570/",
+        "scope": "design_piece",
+        "materials": "birch, birch veneer, leather straps, polyester cushions",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:T-NIGHTSTAND",
+      "localId": "fable-stu-20261023::T-NIGHTSTAND",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "Nat13 Night Table",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "nightstand",
+        "name": "Nat13 Night Table",
+        "brand": "Furniture Manila",
+        "sku": "13-nighttable-natural-pcf",
+        "variant": "SKU 13-nighttable-natural-pcf",
+        "family": "Furniture Manila Nat13",
+        "url": "https://www.furnituremanila.com.ph/product/nat13-night-table/",
+        "scope": "design_piece",
+        "materials": "Engineered Wood with Veneer",
+        "dimensions": {
+          "width": 450,
+          "depth": 400,
+          "height": 500
+        }
+      }
+    },
+    {
+      "id": "stu:T-LAMP",
+      "localId": "fable-stu-20261023::T-LAMP",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "BLIDVÄDER Table lamp",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "lamp",
+        "name": "BLIDVÄDER Table lamp",
+        "brand": "IKEA",
+        "sku": "80514166",
+        "variant": "BLIDVÄDER Table lamp, off-white ceramic/beige, 50 cm; article 80514166",
+        "family": "IKEA BLIDVÄDER",
+        "url": "https://www.ikea.com/ph/en/p/blidvaeder-table-lamp-off-white-ceramic-beige-80514166/",
+        "scope": "design_piece",
+        "materials": "Base: Stoneware, Colored glaze; Tube: Steel, Brass plated; Shade: 85 % polyester (100% recycled), 15 % linen",
+        "dimensions": {
+          "height": 500
+        }
+      }
+    },
+    {
+      "id": "stu:T-CHAIR",
+      "localId": "fable-stu-20261023::T-CHAIR",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "Arbour Club Armchair",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "chair",
+        "name": "Arbour Club Armchair",
+        "brand": "HAY",
+        "sku": "AB215-A414-AA43-01LS",
+        "variant": "Oiled waxed solid oak frame, Atlas 621 upholstery",
+        "family": "HAY Arbour Club",
+        "url": "https://www.hay.com/hay/furniture/seating/sofa/arbour/arbour-club-armchair-oiled-waxed-solid-oak-frame-upholstery-atlas-621",
+        "scope": "design_piece",
+        "materials": "Atlas 621 upholstery; oiled waxed solid oak frame",
+        "dimensions": {
+          "width": 750,
+          "depth": 850,
+          "height": 750
+        }
+      }
+    },
+    {
+      "id": "stu:T-CONSOLE",
+      "localId": "fable-stu-20261023::T-CONSOLE",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "Amanda Multi-Layered TV Cabinet",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "console",
+        "name": "Amanda Multi-Layered TV Cabinet",
+        "brand": "abensonHome",
+        "sku": "",
+        "variant": "Finish as photographed (pale grey-oak); listing text says Cherry. Confirm the finish before purchase.",
+        "family": "abensonHome Amanda",
+        "url": "https://home.abenson.com/abensonhome-amanda-amino-cherry-tv-cabinet.html",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 1500,
+          "depth": 400,
+          "height": 450
+        }
+      }
+    },
+    {
+      "id": "stu:T-MIRROR",
+      "localId": "fable-stu-20261023::T-MIRROR",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "Jea Natural Maple Framed Mirror 60x150cm",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "mirror",
+        "name": "Jea Natural Maple Framed Mirror 60x150cm",
+        "brand": "Mandaue Foam",
+        "sku": "138697",
+        "variant": "Single published variant; SKU 138697",
+        "family": "Mandaue Foam Jea",
+        "url": "https://mandauefoam.ph/products/jea-natural-maple-framed-mirror-60x150-cm?variant=46960645210290",
+        "scope": "design_piece",
+        "materials": "Body: MDF Backing: MDF",
+        "dimensions": {
+          "width": 600,
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "stu:T-RUG",
+      "localId": "fable-stu-20261023::T-RUG",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "JÄRNVÄG Rug, low pile",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "rug",
+        "name": "JÄRNVÄG Rug, low pile",
+        "brand": "IKEA",
+        "sku": "70623076",
+        "variant": "JÄRNVÄG Rug, low pile, ornament pattern pink/beige, 160x230 cm; article 70623076",
+        "family": "IKEA JÄRNVÄG",
+        "url": "https://www.ikea.com/ph/en/p/jaernvaeg-rug-low-pile-ornament-pattern-pink-beige-70623076/",
+        "scope": "design_piece",
+        "materials": "Use surface: 100 % polypropylene; Backing: 100 % Synthetic rubber",
+        "dimensions": {
+          "width": 1600,
+          "depth": 2300
+        }
+      }
+    },
+    {
+      "id": "stu:T-BEDSPREAD",
+      "localId": "fable-stu-20261023::T-BEDSPREAD",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "REMS bedspread",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "bedspread",
+        "name": "REMS bedspread",
+        "brand": "BoConcept",
+        "sku": "104011033760",
+        "variant": "REMS bedspread; manufacturer variant/SKU 104011033760; master 104011033760; selected configuration codes: ",
+        "family": "BoConcept REMS",
+        "url": "https://www.boconcept.com/en-ph/p/rems/104_11033760/",
+        "scope": "design_piece",
+        "materials": "Published material groups: Fabric; composition: Front: 100% linen - Back: 100% cotton",
+        "dimensions": {
+          "width": 2500,
+          "depth": 2500
+        }
+      }
+    },
+    {
+      "id": "stu:T-PILLOWCASES",
+      "localId": "fable-stu-20261023::T-PILLOWCASES",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "Family Home Hotel Living Fitted Sheet Set",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "sleeping_pillowcase_pack",
+        "name": "Family Home Hotel Living Fitted Sheet Set",
+        "brand": "Family Home",
+        "sku": "38200101",
+        "variant": "Colour as photographed (peach); listed colours White, Mocha, Sand, Gray. Confirm colour and King SKU; priced on White / Queen SKU 38200101.",
+        "family": "Family Home Hotel Living",
+        "url": "https://ourhome.ph/products/family-home-hotel-living-fitted-sheet-set",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:T-CUSHION",
+      "localId": "fable-stu-20261023::T-CUSHION",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "Terracotta 36\"x16\" Laundered Linen Throw Pillow Cover",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "accent_cushion_cover",
+        "name": "Terracotta 36\"x16\" Laundered Linen Throw Pillow Cover",
+        "brand": "Crate & Barrel",
+        "sku": "462148",
+        "variant": "Terracotta 36\"x16\" Laundered Linen Throw Pillow Cover; Terracotta; published SKU 462148; Shopify variant 43189788016856",
+        "family": "Crate & Barrel Laundered Linen lumbar",
+        "url": "https://crateandbarrel.com.ph/products/terracotta-36x16-laundered-linen-throw-pillow-cover?variant=43189788016856",
+        "scope": "design_piece",
+        "materials": "Linen-rayon; Reverses to cream cotton-linen",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:T-ART",
+      "localId": "fable-stu-20261023::T-ART",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "A58000251 Wall Art",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "art",
+        "name": "A58000251 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000251",
+        "variant": "A58000251 Wall Art; manufacturer SKU A58000251; Default Title; Multi",
+        "family": "Ashley A58000251",
+        "url": "https://store.ashleyfurniture.ph/products/a58000251-wall-art?variant=45493205369118",
+        "scope": "design_piece",
+        "materials": "Made with paperboard",
+        "dimensions": {
+          "width": 609.6,
+          "depth": 25.4,
+          "height": 787.4
+        }
+      }
+    },
+    {
+      "id": "stu:T-PLANT",
+      "localId": "fable-stu-20261023::T-PLANT",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "Faux Olive and Berry Stem",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "plant",
+        "name": "Faux Olive and Berry Stem",
+        "brand": "Crate & Barrel",
+        "sku": "478700",
+        "variant": "Faux Olive and Berry Stem; Single listed configuration; published SKU 478700; Shopify variant 43898183680216",
+        "family": "Crate & Barrel Olive and Berry Stem",
+        "url": "https://crateandbarrel.com.ph/products/faux-olive-and-berry-stem?variant=43898183680216",
+        "scope": "design_piece",
+        "materials": "Polyester, split twigs, plastic, iron and styrofoam",
+        "dimensions": {
+          "width": 127,
+          "height": 1016
+        }
+      }
+    },
+    {
+      "id": "stu:T-PLANTER",
+      "localId": "fable-stu-20261023::T-PLANTER",
+      "designId": "fable-stu-20261023:T",
+      "designIds": [
+        "fable-stu-20261023:T"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · T · Birch Coral",
+      "name": "Antiguo White Terracotta Vase 8\"",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AT",
+      "product": {
+        "role": "planter",
+        "name": "Antiguo White Terracotta Vase 8\"",
+        "brand": "Crate & Barrel",
+        "sku": "349209",
+        "variant": "Antiguo White Terracotta Vase 8\"; Single listed configuration; published SKU 349209; Shopify variant 51611369898200",
+        "family": "Crate & Barrel Antiguo",
+        "url": "https://crateandbarrel.com.ph/products/antiguo-white-terracotta-vase-9?variant=51611369898200",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "height": 199.898
+        }
+      }
+    },
+    {
+      "id": "stu:U-BED",
+      "localId": "fable-stu-20261023::U-BED",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "HEMNES bed frame — white stain/Luröy, 180x200 cm",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "bed",
+        "name": "HEMNES bed frame — white stain/Luröy, 180x200 cm",
+        "brand": "IKEA",
+        "sku": "891.984.13",
+        "variant": "white stain/Luröy, 180x200 cm",
+        "family": "IKEA HEMNES",
+        "url": "https://www.ikea.com/ph/en/p/hemnes-bed-frame-white-stain-luroey-s89198413/",
+        "scope": "design_piece",
+        "materials": "solid pine, white stain, Luröy slats",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:U-NIGHTSTAND",
+      "localId": "fable-stu-20261023::U-NIGHTSTAND",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "002 Night Table",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "nightstand",
+        "name": "002 Night Table",
+        "brand": "Furniture Manila",
+        "sku": "002-nighttable-black-gat",
+        "variant": "SKU 002-nighttable-black-gat",
+        "family": "Furniture Manila 002",
+        "url": "https://www.furnituremanila.com.ph/product/002-night-table/",
+        "scope": "design_piece",
+        "materials": "Leather",
+        "dimensions": {
+          "width": 406.4,
+          "depth": 406.4,
+          "height": 457.2
+        }
+      }
+    },
+    {
+      "id": "stu:U-LAMP",
+      "localId": "fable-stu-20261023::U-LAMP",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "Taylow Glass Table Lamp",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "lamp",
+        "name": "Taylow Glass Table Lamp",
+        "brand": "Ashley",
+        "sku": "L430794",
+        "variant": "Taylow Glass Table Lamp; manufacturer SKU L430794; Default Title",
+        "family": "Ashley Taylow",
+        "url": "https://store.ashleyfurniture.ph/products/taylow-glass-table-lamp?variant=50595170091294",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:U-CHAIR",
+      "localId": "fable-stu-20261023::U-CHAIR",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "Porro Neve armchair",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "chair",
+        "name": "Porro Neve armchair",
+        "brand": "Porro",
+        "sku": "PNEFN/W35",
+        "variant": "Porro Neve armchair / Black Stained Ash; manufacturer SKU PNEFN/W35",
+        "family": "Porro Neve",
+        "url": "https://kuysenstore.com/products/porro-neve-armchair",
+        "scope": "design_piece",
+        "materials": "Black Stained Ash, Red Stained Ash, Natural Ash, Stained Ash Leather",
+        "dimensions": {
+          "width": 570,
+          "depth": 530,
+          "height": 780
+        }
+      }
+    },
+    {
+      "id": "stu:U-CONSOLE",
+      "localId": "fable-stu-20261023::U-CONSOLE",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "JÄTTESTA TV unit",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "console",
+        "name": "JÄTTESTA TV unit",
+        "brand": "IKEA",
+        "sku": "70514609",
+        "variant": "TV unit, black, 160x40x49 cm (63x15 3/4x19 1/4 \")",
+        "family": "IKEA JÄTTESTA",
+        "url": "https://www.ikea.com/ph/en/p/jaettesta-tv-unit-black-70514609/",
+        "scope": "design_piece",
+        "materials": "Stained bamboo panels with tinted acrylic lacquer; powder-coated steel frame and aluminum cover caps.",
+        "dimensions": {
+          "width": 1600,
+          "depth": 400,
+          "height": 490
+        }
+      }
+    },
+    {
+      "id": "stu:U-MIRROR",
+      "localId": "fable-stu-20261023::U-MIRROR",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "A58000438 Accent Mirror",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "mirror",
+        "name": "A58000438 Accent Mirror",
+        "brand": "Ashley",
+        "sku": "A58000438",
+        "variant": "A58000438 Accent Mirror; manufacturer SKU A58000438; Default Title; Black",
+        "family": "Ashley A58000438",
+        "url": "https://store.ashleyfurniture.ph/products/a58000438-accent-mirror?variant=50124782731550",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 584.2,
+          "depth": 22.098,
+          "height": 1066.8
+        }
+      }
+    },
+    {
+      "id": "stu:U-RUG",
+      "localId": "fable-stu-20261023::U-RUG",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "Rouen Jute/Wool Blend Triple Striped Black Area Rug 6'x9'",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "rug",
+        "name": "Rouen Jute/Wool Blend Triple Striped Black Area Rug 6'x9'",
+        "brand": "Crate & Barrel",
+        "sku": "230625",
+        "variant": "Rouen Jute/Wool Blend Triple Striped Black Area Rug 6'x9'; Single listed configuration; published SKU 230625; Shopify variant 44999344160984",
+        "family": "Crate & Barrel Rouen",
+        "url": "https://crateandbarrel.com.ph/products/rouen-jute-wool-blend-triple-striped-black-area-rug-6x9?variant=44999344160984",
+        "scope": "design_piece",
+        "materials": "wool; jute",
+        "dimensions": {
+          "width": 1830,
+          "depth": 2740
+        }
+      }
+    },
+    {
+      "id": "stu:U-BEDSPREAD",
+      "localId": "fable-stu-20261023::U-BEDSPREAD",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "Q5001671K King Coverlet Duvet Cover Set",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "bedspread",
+        "name": "Q5001671K King Coverlet Duvet Cover Set",
+        "brand": "Ashley",
+        "sku": "Q5001671K",
+        "variant": "Q5001671K King Coverlet Duvet Cover Set; manufacturer SKU Q5001671K; Default Title; White",
+        "family": "Ashley Q5001671K",
+        "url": "https://store.ashleyfurniture.ph/products/q5001671k-king-coverlet-duvet-cover-set?variant=50111664849182",
+        "scope": "design_piece",
+        "materials": "Made with cotton; Polyester fill",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:U-PILLOWCASES",
+      "localId": "fable-stu-20261023::U-PILLOWCASES",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "Canadian T300 Tencel Fitted Sheet Set",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "sleeping_pillowcase_pack",
+        "name": "Canadian T300 Tencel Fitted Sheet Set",
+        "brand": "Our Home Philippines",
+        "sku": "39230983",
+        "variant": "Fossil Gray / King (listed Steel Blue / Queen SKU 39230983; Fossil Gray King SKU and price to confirm)",
+        "family": "Our Home Canadian T300",
+        "url": "https://ourhome.ph/products/canadian-t300-tencel-fitted-sheet-set",
+        "scope": "design_piece",
+        "materials": "Tencel (lyocell and modal fibers, per listing)",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:U-CUSHION",
+      "localId": "fable-stu-20261023::U-CUSHION",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "Telas De Mercato Santiago Green Plain Cushion Cover",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "accent_cushion_cover",
+        "name": "Telas De Mercato Santiago Green Plain Cushion Cover",
+        "brand": "Telas de Mercato",
+        "sku": "39237341",
+        "variant": "Default Title",
+        "family": "Telas de Mercato Santiago",
+        "url": "https://ourhome.ph/products/telas-de-mercato-santiago-green-plain-cushion-cover?variant=46019275522289",
+        "scope": "design_piece",
+        "materials": "100% Polyester",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "stu:U-ART",
+      "localId": "fable-stu-20261023::U-ART",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "A58000352 Wall Art",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "art",
+        "name": "A58000352 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000352",
+        "variant": "A58000352 Wall Art; manufacturer SKU A58000352; Default Title; Multi",
+        "family": "Ashley A58000352",
+        "url": "https://store.ashleyfurniture.ph/products/a58000352-wall-art?variant=49910784327966",
+        "scope": "design_piece",
+        "materials": "Made with canvas",
+        "dimensions": {
+          "width": 1059.942,
+          "depth": 50.038,
+          "height": 1059.942
+        }
+      }
+    },
+    {
+      "id": "stu:U-PLANT",
+      "localId": "fable-stu-20261023::U-PLANT",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "at home Jael Peperomia Plant",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "plant",
+        "name": "at home Jael Peperomia Plant",
+        "brand": "abensonHOME catalog",
+        "sku": "",
+        "variant": "Artificial Plastic Peperomia Plant, Plastic Pot",
+        "family": "abensonHOME Jael Peperomia",
+        "url": "https://home.abenson.com/at-home-jael-peperomia-plant-green-artificial-plastic-peperomia-plant.html",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 254,
+          "depth": 254,
+          "height": 317.5
+        }
+      }
+    },
+    {
+      "id": "stu:U-DECOR",
+      "localId": "fable-stu-20261023::U-DECOR",
+      "designId": "fable-stu-20261023:U",
+      "designIds": [
+        "fable-stu-20261023:U"
+      ],
+      "board": "stu",
+      "label": "Fable / Claude · U · Whitewash Emerald",
+      "name": "Fern Green 12.5\" Round Marble Tray",
+      "url": "/bedroom-design-options/#design=fable-stu-20261023%3AU",
+      "product": {
+        "role": "decor",
+        "name": "Fern Green 12.5\" Round Marble Tray",
+        "brand": "Crate & Barrel",
+        "sku": "605874",
+        "variant": "Single listed variant; SKU 605874",
+        "family": "Crate & Barrel Fern Green marble tray",
+        "url": "https://crateandbarrel.com.ph/products/fern-green-12-5-round-marble-tray",
+        "scope": "design_piece",
+        "materials": "Green marble",
+        "dimensions": {
+          "width": 317.5,
+          "depth": 317.5,
+          "height": 25.4
+        }
+      }
+    },
+    {
       "id": "gpt-ghi-rejected-v001-20261021::G-bed",
       "localId": "gpt-ghi-rejected-v001-20261021::G-bed",
       "designId": "gpt-ghi-rejected-v001-20261021:G",
