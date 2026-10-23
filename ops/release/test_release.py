@@ -143,8 +143,7 @@ console.log(JSON.stringify(globalThis.Unit408Preferences.compile({preferenceSche
         self.write('candidates.json', '{}')
         with self.assertRaisesRegex(Hold, 'candidate list hash changed'):
             self.check()
-    @unittest.skipUnless(os.environ.get('UNIT408_CHROMIUM'), 'explicit installed Chromium required for full synthetic prepare')
-    def test_full_synthetic_prepare_stages_changed_assets_without_touching_checkout(self):
+    def prepare_view_fixture(self):
         def chunk(kind, data):
             return struct.pack('!I', len(data))+kind+data+struct.pack('!I', zlib.crc32(kind+data)&0xffffffff)
         png = b'\x89PNG\r\n\x1a\n'+chunk(b'IHDR', struct.pack('!2I5B', 1, 1, 8, 6, 0, 0, 0))+chunk(b'IDAT', zlib.compress(b'\x00\xff\x00\x00\xff'))+chunk(b'IEND', b'')
@@ -161,8 +160,17 @@ console.log(JSON.stringify(globalThis.Unit408Preferences.compile({preferenceSche
         review = json.loads((self.base/'review.json').read_text()); review['sourceImages'] = self.accepted['sourceImages']; self.write('review.json', review); self.accepted['review'] = self.bound('review.json'); self.write('accepted.json', self.accepted)
         self.accepted['candidateGate']['usageSha256'] = digest(self.gallery/'ops/picks/usage.js')
         self.write('accepted.json', self.accepted)
-        before = digest(self.gallery/'collection-data.json')
-        result = prepare(self.gallery, self.manifest, self.base/'prepared', self.catalogue, Path(os.environ['UNIT408_CHROMIUM']))
+        return digest(self.gallery/'collection-data.json')
+    @unittest.skipUnless(os.environ.get('UNIT408_CHROMIUM'), 'explicit installed Chromium required for full synthetic prepare')
+    def test_full_synthetic_prepare_stages_changed_assets_without_touching_checkout(self):
+        before = self.prepare_view_fixture()
+        calls = []; original_run = subprocess.run
+        def record(command, **kwargs):
+            calls.append(command); return original_run(command, **kwargs)
+        with patch('public_artifact.subprocess.run', side_effect=record):
+            result = prepare(self.gallery, self.manifest, self.base/'prepared', self.catalogue, Path(os.environ['UNIT408_CHROMIUM']))
+        encoders = [command[1] for command in calls if command[0] == 'node' and command[1].endswith('webp_views.mjs')]
+        self.assertEqual(encoders, [str(HERE/'ops/images/webp_views.mjs')])
         self.assertEqual(result['status'], 'LOCAL_PREPARED'); self.assertEqual(result['servedImages'][0]['width'], 1)
         self.assertEqual(digest(self.gallery/'collection-data.json'), before)
         self.assertTrue((self.base/'prepared/changed-assets/collection-data.json').is_file())

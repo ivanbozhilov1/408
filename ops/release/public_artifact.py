@@ -127,7 +127,7 @@ def reachable(root: Path) -> set[Path]:
         seen.add(root / '.nojekyll')
     return seen
 
-def build(gallery: Path, out: Path, *, encode=True, chromium=None, cache_dir=None) -> dict:
+def build(gallery: Path, out: Path, *, encode=True, chromium=None, cache_dir=None, encoder_script=None) -> dict:
     gallery = gallery.resolve(); out = out.resolve()
     if out.exists() or out.is_relative_to(gallery):
         raise ValueError('output must be a fresh directory outside the gallery')
@@ -148,7 +148,7 @@ def build(gallery: Path, out: Path, *, encode=True, chromium=None, cache_dir=Non
                 for record in json.loads(old.read_text())['derivatives']:
                     source = resolve(gallery, gallery / 'collection-data.json', record['sourcePath'])
                     dest = scratch / source.relative_to(gallery); dest.parent.mkdir(parents=True, exist_ok=True); shutil.copyfile(source, dest)
-            cmd = ['node', str(gallery / 'ops/images/webp_views.mjs'), str(scratch)]
+            cmd = ['node', str(encoder_script or gallery / 'ops/images/webp_views.mjs'), str(scratch)]
             if chromium:
                 cmd.extend(['--chromium', str(chromium)])
             if cache_dir:

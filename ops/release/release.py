@@ -188,7 +188,6 @@ def prepare(gallery, accepted_path, out, catalogue=None, chromium=None):
         for record in json.loads(derivative.read_text())['derivatives']:
             original = resolve(gallery, gallery / 'collection-data.json', record['sourcePath'])
             dest = stage / original.relative_to(gallery); dest.parent.mkdir(parents=True, exist_ok=True); shutil.copyfile(original, dest)
-    code = stage / 'ops/images/webp_views.mjs'; code.parent.mkdir(parents=True); shutil.copyfile(gallery / 'ops/images/webp_views.mjs', code)
     changes = []
     for record in accepted.get('publicFiles', []):
         source = bound_file(accepted_path.parent, record, 'public file')
@@ -214,7 +213,11 @@ def prepare(gallery, accepted_path, out, catalogue=None, chromium=None):
             if design['id'] == view['designId'] and view.get('hero') is True:
                 design['hero'] = view['destination']
     datafile.write_text(json.dumps(data, indent=2)+'\n', encoding='utf-8')
-    staged = time.perf_counter(); public = build(stage, out / 'public', chromium=chromium, cache_dir=gallery / '.cache/render-webp')
+    # Keep executable/module resolution in this trusted installed checkout, while
+    # the encoder reads only staged public data. Staging code loses node_modules
+    # resolution when the fresh output is outside the repository (as in CI).
+    encoder_script = Path(__file__).resolve().parents[1] / 'images/webp_views.mjs'
+    staged = time.perf_counter(); public = build(stage, out / 'public', chromium=chromium, cache_dir=gallery / '.cache/render-webp', encoder_script=encoder_script)
     # Inputs and HEAD are checked again after encoding; changes cannot reuse earlier approval.
     validate(accepted_path, gallery, catalogue)
     derivative_data = json.loads((out / 'public/render-derivatives.json').read_text())['derivatives']
