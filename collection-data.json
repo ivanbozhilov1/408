@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-dining-room-file / 2026-10-23T16:30:00+08:00",
+  "build": "408-dining-room-file-v2 / 2026-10-23T17:00:00+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -27694,7 +27694,7 @@
       "short": "Dining",
       "status": "queued",
       "statusLabel": "Room file set from photos and Ivan's answers · no designs yet",
-      "lead": "Sheet 1 right blow-up (1:50), re-read on 23 Oct 2026 against the 7 Sep contractor photos (F023–F029) and Ivan's answers: the dining is 3680 wide and ends at the arch–counter corner (90°, Ivan); the arch to the living is in the WEST wall; the kitchen pass-through starts at the north wall's east end and runs on along the passage; the east wall's free north end is the passage to the master bedroom; the kitchen has no door. Nothing taped yet.",
+      "lead": "Sheet 1 right blow-up (1:50), re-read on 23 Oct 2026 against the 7 Sep contractor photos (F023–F029) and Ivan's answers: the dining is 3680 wide and ends at the arch–counter corner (90°, Ivan); the arch to the living is in the WEST wall; the kitchen pass-through starts at the north wall's east end and runs on along the passage; the east wall's free north end is the passage to the master bedroom; the kitchen has no door. Nothing taped yet. Second pass the same day: Ivan confirmed the arch is on his right from the counter, doubted a table pointing at the window and asked for a carpet under it, and called 1800 × 900 massive, so the table is now 1600 × 850 with its long side parallel to the window on a 2800 × 2300 rug.",
       "plan": {
         "image": "rooms/dining-plan.png",
         "caption": "Sheet 1 dining blow-up, 1:50. Re-read 23 Oct as 3680 × 4468 mm (the 3831 chain ran past the arch–counter corner); west window 1735 between piers, south window 3558 in four lights."
@@ -27716,11 +27716,11 @@
       "model": [
         {
           "image": "rooms/DIN-plan.webp",
-          "caption": "Deterministic room model from 408-DIN.json, plan view: table 1800 × 900 north–south for six, rug 2000 × 2900, pass-through at the north-east, piers framing the west window, the passage to the master bedroom at the east wall's north end."
+          "caption": "Deterministic room model from 408-DIN.json, plan view: table 1600 × 850 with its long side parallel to the south window, six seats as 2 + 2 + 1 + 1, rug 2800 × 2300 under table and chairs, pass-through at the north-east, piers framing the west window, the passage to the master bedroom at the east wall's north end."
         },
         {
           "image": "rooms/DIN-arch.webp",
-          "caption": "Room model from the arch looking east: the table and chairs, the proposed split unit high on the east wall centred on the table, the passage beyond."
+          "caption": "Room model from the arch looking east: the table across the room, the proposed split unit high on the east wall centred on the table, the passage beyond."
         },
         {
           "image": "rooms/DIN-window.webp",
@@ -27728,11 +27728,11 @@
         },
         {
           "image": "rooms/dining-overlay-f027.webp",
-          "caption": "F027 with the proposal drawn at true scale: 1800 × 900 table, six chairs, 200 × 290 rug, split unit on the east wall. Camera matched by eye; dimensions plan-drawn, not surveyed."
+          "caption": "F027 with the second-pass proposal drawn at true scale: 1600 × 850 table parallel to the window, six chairs, 2800 × 2300 rug, split unit on the east wall. Camera matched by eye; dimensions plan-drawn, not surveyed."
         },
         {
           "image": "rooms/dining-overlay-f025.webp",
-          "caption": "F025 with the same proposal, looking at the arch and the pass-through; the table's north end leaves a lane between the arch and the passage. Camera matched by eye; dimensions plan-drawn, not surveyed."
+          "caption": "F025 with the same proposal, looking at the arch and the pass-through; the north 1.7 m stays a lane between the arch and the passage. Camera matched by eye; dimensions plan-drawn, not surveyed."
         },
         {
           "image": "rooms/dining-overlay-f023.webp",
@@ -27748,12 +27748,17 @@
         {
           "label": "Arch to the living A-W",
           "value": "≈1400 wide, head ≈2200, in the west wall 370 from the north corner",
-          "basis": "photos; sizes assumed"
+          "basis": "photos; Ivan 23 Oct: on the right from the counter; sizes assumed"
         },
         {
           "label": "Passage to the master bedroom",
           "value": "1566 mm at the east wall's north end",
           "basis": "drawn + Ivan"
+        },
+        {
+          "label": "Table and rug (proposal)",
+          "value": "1600 × 850, long side parallel to the south window, 2 + 2 + 1 + 1 seats, rug 2800 × 2300",
+          "basis": "second pass after Ivan's remarks; nothing bought"
         },
         {
           "label": "Kitchen pass-through W-PASS",
@@ -27790,11 +27795,10 @@
         "Tape: ceiling height, window sills and heads, the arch (width, head, offset from the north corner)",
         "Tape: the pass-through opening (length, counter height, head) and the passage width to the master bedroom",
         "Fan centre from the west and north walls",
-        "Ivan to confirm: standing at the counter facing the dining, is the arch on the RIGHT? The photos say yes; the drawing was first read the other way.",
         "Blind line for the 1735 west window (the quote needs it)"
       ],
       "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack). The dining room file now passes the engine's gate with warnings only: every height is an assumed value with a stated basis and none is accepted yet. The photo overlays (tools/design-pack/room/overlay/dining) are the first-pass layout check before any AI render.",
-      "emptyNote": "No dining-area designs are published yet. The layout proposal (1800 × 900 table for six, no buffet, split unit on the east wall, fan kept) is on the overlays above."
+      "emptyNote": "No dining-area designs are published yet. The layout proposal (1600 × 850 table for six with its long side to the window, rug under it, no buffet, split unit on the east wall, fan kept) is on the overlays above."
     },
     {
       "id": "hallway",
