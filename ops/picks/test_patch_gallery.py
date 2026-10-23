@@ -70,7 +70,7 @@ class GalleryPatchTests(unittest.TestCase):
             self.assertEqual((self.root / name).read_bytes(), original, name)
         for folder in [self.root, self.root / 'ghi', self.root / 'jkl', self.root / 'mno']:
             script = (folder / 'site.js').read_text(encoding='utf-8')
-            self.assertIn('/bedroom-design-options/fable-def.html?shared-picks=1#row-D-BED', script)
+            self.assertIn('/408/fable-def.html?shared-picks=1#row-D-BED', script)
             self.assertIn('"family": "Example Family"', script)
             self.assertIn('Unit408Preferences', script)
             self.assertNotIn('private-lineage-must-not-be-published', script)
@@ -80,8 +80,8 @@ class GalleryPatchTests(unittest.TestCase):
         self.fixture(split=False)
         patch(self.root, 'https://api.example/api/picks', self.root / 'catalog.json')
         script = (self.root / 'site.js').read_text(encoding='utf-8')
-        self.assertIn('/bedroom-design-options/?shared-picks=1#row-D-BED', script)
-        self.assertNotIn('/bedroom-design-options/fable-def.html?', script)
+        self.assertIn('/408/?shared-picks=1#row-D-BED', script)
+        self.assertNotIn('/408/fable-def.html?', script)
         self.assertIn('site.js?v=', (self.root / 'index.html').read_text())
 
     def test_repatch_is_idempotent_in_the_split_layout(self):

@@ -199,16 +199,16 @@ test('confirmed shared export contains no access credential; pending/offline exp
 });
 
 test('private fragment is consumed before data loading and does not route to the legacy page', () => {
-  const location={hash:'#sync='+token,pathname:'/bedroom-design-options/',search:'?shared-picks=1'};let replaced;
+  const location={hash:'#sync='+token,pathname:'/408/',search:'?shared-picks=1'};let replaced;
   runtime({location,history:{replaceState:(_a,_b,path)=>{replaced=path;location.hash='#picks'}}});
-  assert.equal(replaced,'/bedroom-design-options/?shared-picks=1#picks');assert.equal(replaced.includes(token),false);
+  assert.equal(replaced,'/408/?shared-picks=1#picks');assert.equal(replaced.includes(token),false);
   assert.doesNotMatch(gallerySource,/const legacyRedirect[^\n]*sync=|const legacyRedirect[^\n]*shared-picks/);
 });
 
 function galleryHarness() {
   const nodes=new Map(),node=key=>{if(!nodes.has(key))nodes.set(key,{value:'',innerHTML:'',textContent:'',style:{}});return nodes.get(key)};
   const writes=[],calls=[];
-  const context=vm.createContext({console,URL,URLSearchParams,Intl,Date,setTimeout,clearTimeout,document:{body:{dataset:{}},querySelector:node,querySelectorAll:()=>[]},window:{addEventListener:()=>{}},location:{hash:'',search:'',href:'https://example.test/bedroom-design-options/'},localStorage:{getItem:()=>null,setItem:(...args)=>writes.push(args)},fixture:simple,calls});
+  const context=vm.createContext({console,URL,URLSearchParams,Intl,Date,setTimeout,clearTimeout,document:{body:{dataset:{}},querySelector:node,querySelectorAll:()=>[]},window:{addEventListener:()=>{}},location:{hash:'',search:'',href:'https://example.test/408/'},localStorage:{getItem:()=>null,setItem:(...args)=>writes.push(args)},fixture:simple,calls});
   const start=gallerySource.indexOf("const $=s=>");
   const end=gallerySource.indexOf("document.addEventListener('click'");
   vm.runInContext(gallerySource.slice(start,end),context);
