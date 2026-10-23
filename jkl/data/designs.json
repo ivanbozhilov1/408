@@ -76,13 +76,13 @@
         "#fbfaf7"
       ],
       "budget": {
-        "design_centavos": 10534800,
+        "design_centavos": 10434900,
         "common_centavos": 11992450,
-        "priced_centavos": 22527250,
+        "priced_centavos": 22427350,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 287000,
-        "total_high_php": 341000
+        "total_low_php": 286000,
+        "total_high_php": 340000
       },
       "fit_notes": [
         "861 bedsides 500 × 400 mm; Amber 150 console 1500 × 400 × 460 mm.",
@@ -100,13 +100,13 @@
         "#efe7d8"
       ],
       "budget": {
-        "design_centavos": 41603300,
+        "design_centavos": 38363300,
         "common_centavos": 12002450,
-        "priced_centavos": 53605750,
+        "priced_centavos": 50365750,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 629000,
-        "total_high_php": 683000
+        "total_low_php": 593000,
+        "total_high_php": 647000
       },
       "fit_notes": [
         "TONSTAD 400 × 400 × 590 mm; Sierra console 1600 × 380 × 500 mm; Terni 650 × 800 mm.",
@@ -124,13 +124,13 @@
         "#efe4cc"
       ],
       "budget": {
-        "design_centavos": 14069500,
+        "design_centavos": 13769600,
         "common_centavos": 11992450,
-        "priced_centavos": 26061950,
+        "priced_centavos": 25762050,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 326000,
-        "total_high_php": 380000
+        "total_low_php": 322000,
+        "total_high_php": 376000
       },
       "fit_notes": [
         "PS 2026 bedsides only 300 mm wide (a narrow pair); HEMNES 1480 × 470 × 570 mm.",
@@ -323,32 +323,6 @@
       "materials": "Use surface: 100 % polyester (100% recycled); Backing: 100 % Synthetic rubber; Back fabric: 100% polyester (min. 90% recycled)"
     },
     {
-      "id": "J-CEILING",
-      "schemes": [
-        "J"
-      ],
-      "role": "ceiling",
-      "name": "KÄRRNOCKA Ceiling lamp",
-      "brand": "IKEA",
-      "sku": "20599465",
-      "variant": "KÄRRNOCKA Ceiling lamp, white, 37 cm; article 20599465",
-      "quantity": 1,
-      "unit_centavos": 99900,
-      "line_centavos": 99900,
-      "url": "https://www.ikea.com/ph/en/p/kaerrnocka-ceiling-lamp-white-20599465/",
-      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
-      "notes": "Photo: flush white stepped/layered polypropylene diffuser on a white steel bracket, no drop. Available. Alt P40 IKEA FRIHULT ceiling lamp (semi-flush opal glass globe on anodised cup, H250, PHP 1,499).",
-      "dimensions": {
-        "height": 130
-      },
-      "scope": "design_piece",
-      "image": "assets/products/J-CEILING.avif",
-      "family": "IKEA KÄRRNOCKA",
-      "price_date": "2026-09-10",
-      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Ceiling bracket: Steel, Powder coating; Shade: Polypropylene"
-    },
-    {
       "id": "J-VALANCE-LED",
       "schemes": [
         "J"
@@ -366,7 +340,7 @@
       "notes": "Lighting and electrical / LED strip light, 3000K warm white, 220V double-line (no low-voltage driver needed per listing). Pair with Alphalux Linear Surface Aluminum Profile 2 m (PHP 230 each) as a diffuser channel inside the valance. Availability online, Cebu stock unconfirmed. Alt IKEA ORMANÄS smart LED light strip 4 m (PHP 1,999, in stock, dimmable).",
       "dimensions": {},
       "scope": "design_piece",
-      "image": "assets/products/J-VALANCE-LED.jpg",
+      "image": null,
       "family": "Alphalux Linear Led Striplight",
       "price_date": "2026-10-20",
       "price_basis": "Official online store price for this exact listing/variant on 2026-10-20 (gql-search-led-strip.json); per listed unit as titled",
@@ -466,7 +440,7 @@
         "height": 9.906
       },
       "scope": "design_piece",
-      "image": "assets/products/J-THROW.jpg",
+      "image": null,
       "family": "Ashley A51000261",
       "price_date": "2026-09-10",
       "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
@@ -769,34 +743,6 @@
       "materials": null
     },
     {
-      "id": "K-CEILING",
-      "schemes": [
-        "K"
-      ],
-      "role": "ceiling",
-      "name": "Blown SW3 & SW4",
-      "brand": "&Tradition",
-      "sku": "Blown SW3 & SW4",
-      "variant": "Silver Lustre / SW3: Ø: 28cm; retailer SKU DS001600; Shopify variant 41309259694246",
-      "quantity": 1,
-      "unit_centavos": 3240000,
-      "line_centavos": 3240000,
-      "url": "https://www.designstory.com.ph/products/copy-of-blown-sw4?variant=41309259694246",
-      "status": "Available online | Cebu delivery: unconfirmed | price date 2026-09-10 | &Tradition",
-      "notes": "Photo: mouth-blown silver-lustre glass with an all-over faceted/diamond-quilted relief, black top cap and black cord. Available. Alt P52 IKEA HÖGVIND 3-lamp pendant (ribbed smoky glass shades, PHP 5,999) - budget fallback. No priced true crystal-prism chandelier exists; Barovier&Toso crystal pieces are unpriced and oversized.",
-      "dimensions": {
-        "width": 280,
-        "depth": 280,
-        "height": 280
-      },
-      "scope": "design_piece",
-      "image": "assets/products/K-CEILING.webp",
-      "family": "&Tradition Blown SW3",
-      "price_date": "2026-09-10",
-      "price_basis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
-      "materials": "Mouth-blown glass; metal fitting; fabric cord"
-    },
-    {
       "id": "K-BEDSPREAD",
       "schemes": [
         "K"
@@ -862,7 +808,7 @@
       "notes": "20x20 in, Ink Black, 100% organic cotton basketweave",
       "dimensions": {},
       "scope": "design_piece",
-      "image": "assets/products/K-CUSHION.jpg",
+      "image": "assets/products/K-CUSHION.webp",
       "family": "Crate & Barrel Organic Cotton Basketweave",
       "price_date": "2026-09-10",
       "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
@@ -890,7 +836,7 @@
         "height": 9.906
       },
       "scope": "design_piece",
-      "image": "assets/products/K-THROW.jpg",
+      "image": "assets/products/K-THROW.webp",
       "family": "Ashley A51000258",
       "price_date": "2026-09-10",
       "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
@@ -1194,32 +1140,6 @@
       "materials": "100 % jute"
     },
     {
-      "id": "L-CEILING",
-      "schemes": [
-        "L"
-      ],
-      "role": "ceiling",
-      "name": "NARRKOLV Pendant lamp",
-      "brand": "IKEA",
-      "sku": "70595870",
-      "variant": "NARRKOLV Pendant lamp, rattan, 56 cm; article 70595870",
-      "quantity": 1,
-      "unit_centavos": 299900,
-      "line_centavos": 299900,
-      "url": "https://www.ikea.com/ph/en/p/narrkolv-pendant-lamp-rattan-70595870/",
-      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
-      "notes": "Photo: wide shallow dome of stained natural rattan weave, black cup. Available. Alt P90 Crate & Barrel Plantsman (handwoven natural arurog dome, satin black iron, PHP 10,005).",
-      "dimensions": {
-        "height": 140
-      },
-      "scope": "design_piece",
-      "image": "assets/products/L-CEILING.avif",
-      "family": "IKEA NARRKOLV",
-      "price_date": "2026-09-10",
-      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Shade: Rattan, Stain; Ceiling cup/ Lampholder cup: Steel, Powder coating; Ring/ Junction box: Polypropylene; Protection layer: Synthetic rubber"
-    },
-    {
       "id": "L-BEDSPREAD",
       "schemes": [
         "L"
@@ -1313,7 +1233,7 @@
         "height": 4.064
       },
       "scope": "design_piece",
-      "image": "assets/products/L-THROW.webp",
+      "image": null,
       "family": "Crate & Barrel Casual Textured Fringe",
       "price_date": "2026-09-10",
       "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
@@ -1394,7 +1314,7 @@
         "height": 381
       },
       "scope": "design_piece",
-      "image": "assets/products/L-BASKET.webp",
+      "image": null,
       "family": "Crate & Barrel Beane",
       "price_date": "2026-09-10",
       "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
@@ -1780,7 +1700,7 @@
   ],
   "source_notes": [
     "Catalogue of record: frozen Airtable pass-3 snapshot (9,853 products / 9,901 offers, LIVE-PASS3-READ-RECEIPT.json). No live Airtable read in this run; no Airtable writes.",
-    "50 visible selections across J/K/L, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across J, K, L, the twelve earlier schemes or the parallel GHI and MNO sets (UNIQUENESS-MATRIX.md).",
+    "47 visible selections across J/K/L, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across J, K, L, the twelve earlier schemes or the parallel GHI and MNO sets (UNIQUENESS-MATRIX.md).",
     "Product photos are unaltered retailer references, except the J gallery card, a 3 × 2 composite of the Jahn frame photo. Plans use published dimensions where available and flag defaults where not.",
     "PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made."
   ]

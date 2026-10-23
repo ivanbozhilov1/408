@@ -75,13 +75,13 @@
         "#6b6e70"
       ],
       "budget": {
-        "design_centavos": 25614400,
+        "design_centavos": 25464500,
         "common_centavos": 12090450,
-        "priced_centavos": 37704850,
+        "priced_centavos": 37554950,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 454000,
-        "total_high_php": 508000
+        "total_low_php": 452000,
+        "total_high_php": 506000
       },
       "fit_notes": [
         "GRÅFJÄLLET bedsides 450×360 each side of the Gavino King; Gavino outer size not published, fit uses the mattress envelope.",
@@ -100,13 +100,13 @@
         "#8f8a86"
       ],
       "budget": {
-        "design_centavos": 23692678,
-        "common_centavos": 12135150,
-        "priced_centavos": 35827828,
+        "design_centavos": 23292778,
+        "common_centavos": 12090450,
+        "priced_centavos": 35383228,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 433000,
-        "total_high_php": 487000
+        "total_low_php": 428000,
+        "total_high_php": 482000
       },
       "fit_notes": [
         "Venice bedsides 500×400 each side of the Frances King (published King outer not confirmed; fit uses the mattress envelope plus wings).",
@@ -125,13 +125,13 @@
         "#7d7f84"
       ],
       "budget": {
-        "design_centavos": 17329400,
-        "common_centavos": 12135150,
-        "priced_centavos": 29464550,
+        "design_centavos": 16729500,
+        "common_centavos": 12090450,
+        "priced_centavos": 28819950,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 363000,
-        "total_high_php": 417000
+        "total_low_php": 356000,
+        "total_high_php": 410000
       },
       "fit_notes": [
         "KULLEN bedsides 350×400 each side of the Griffin II King (drawer base, slats: CONDITIONAL flat deck).",
@@ -326,30 +326,6 @@
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
       "materials": "Use surface: 100 % wool; Warp: 100 % cotton"
-    },
-    {
-      "id": "G-CEILING",
-      "schemes": [
-        "G"
-      ],
-      "role": "ceiling",
-      "name": "HEKTAR Pendant lamp",
-      "brand": "IKEA",
-      "sku": "70390369",
-      "variant": "HEKTAR Pendant lamp, dark gray, 22 cm; article 70390369",
-      "quantity": 1,
-      "unit_centavos": 149900,
-      "line_centavos": 149900,
-      "url": "https://www.ikea.com/ph/en/p/hektar-pendant-lamp-dark-gray-70390369/",
-      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
-      "notes": "Dark-grey industrial steel dome pendant; complete fixture.",
-      "dimensions": {},
-      "scope": "design_piece",
-      "image": "assets/products/G-CEILING.avif",
-      "family": "IKEA HEKTAR",
-      "price_date": "2026-09-10",
-      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Ceiling cup/ Reflector: Steel, Epoxy/polyester powder coating; Shade: Steel, Paint, Epoxy/polyester powder coating"
     },
     {
       "id": "G-BEDSPREAD",
@@ -691,32 +667,6 @@
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
       "materials": "Use surface: 56% polyester (min. 90% recycled), 44 % polypropylene; Backing: 100 % Synthetic rubber"
-    },
-    {
-      "id": "H-CEILING",
-      "schemes": [
-        "H"
-      ],
-      "role": "ceiling",
-      "name": "SIMRISHAMN Pendant lamp, 3-armed",
-      "brand": "IKEA",
-      "sku": "60407836",
-      "variant": "SIMRISHAMN Pendant lamp, 3-armed, chrome plated/opal glass, 55 cm; article 60407836",
-      "quantity": 1,
-      "unit_centavos": 399900,
-      "line_centavos": 399900,
-      "url": "https://www.ikea.com/ph/en/p/simrishamn-pendant-lamp-3-armed-chrome-plated-opal-glass-60407836/",
-      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
-      "notes": "Three-armed chrome pendant with opal glass globes, 55 cm; complete fixture.",
-      "dimensions": {
-        "height": 550
-      },
-      "scope": "design_piece",
-      "image": "assets/products/H-CEILING.avif",
-      "family": "IKEA SIMRISHAMN",
-      "price_date": "2026-09-10",
-      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Ceiling cup/ Arm: Steel, Chrome plated; Shade: Glass, Paint"
     },
     {
       "id": "H-BEDSPREAD",
@@ -1086,32 +1036,6 @@
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
       "materials": "Use surface: 100 % wool; Warp: 100 % cotton"
-    },
-    {
-      "id": "I-CEILING",
-      "schemes": [
-        "I"
-      ],
-      "role": "ceiling",
-      "name": "HÖGVIND Pendant lamp with 3 lamps",
-      "brand": "IKEA",
-      "sku": "40499262",
-      "variant": "HÖGVIND Pendant lamp with 3 lamps, nickel plated/gray glass, 41 cm; article 40499262",
-      "quantity": 1,
-      "unit_centavos": 599900,
-      "line_centavos": 599900,
-      "url": "https://www.ikea.com/ph/en/p/hoegvind-pendant-lamp-with-3-lamps-nickel-plated-gray-glass-40499262/",
-      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
-      "notes": "Three smoked grey glass shades on a nickel canopy, 41 cm; complete fixture.",
-      "dimensions": {
-        "width": 410
-      },
-      "scope": "design_piece",
-      "image": "assets/products/I-CEILING.avif",
-      "family": "IKEA HÖGVIND pendant",
-      "price_date": "2026-09-10",
-      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Shade: Glass; Ceiling cup/ Shade holder/ Lampholder cup: Steel, Brush finish nickel-plated"
     },
     {
       "id": "I-BEDSPREAD",
@@ -1551,28 +1475,6 @@
       "family": "AC-LAMP-BULBS"
     },
     {
-      "id": "CEIL-BULBS-E14",
-      "schemes": [
-        "H",
-        "I"
-      ],
-      "role": "technical",
-      "name": "SOLHETTA E14 opal LED bulb 250 lm, 2-piece pack",
-      "brand": "",
-      "sku": "305.839.87",
-      "variant": "305.839.87",
-      "quantity": 3,
-      "unit_centavos": 14900,
-      "line_centavos": 44700,
-      "url": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e14-250-lumen-globe-opal-30583987/",
-      "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
-      "notes": "For the SIMRISHAMN opal globes (H) or the HÖGVIND three-shade pendant (I); socket count and type to confirm on the IKEA page.",
-      "dimensions": {},
-      "scope": "technical_essential",
-      "image": "assets/products/B-LAMP-BULBS.jpg",
-      "family": "B-LAMP-BULBS"
-    },
-    {
       "id": "REQUIRED-MATTRESS50",
       "schemes": [
         "G",
@@ -1621,7 +1523,7 @@
   ],
   "source_notes": [
     "Catalogue of record: frozen live-Airtable snapshot of 20 Oct 2026 (tmp/408-bedroom-fresh-live-airtable-2026-10-20). No Airtable writes.",
-    "43 visible selections across G/H/I, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across G, H, I or the twelve earlier schemes, and sibling-set claims (JKL, MNO) were respected (UNIQUENESS-MATRIX.md).",
+    "40 visible selections across G/H/I, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across G, H, I or the twelve earlier schemes, and sibling-set claims (JKL, MNO) were respected (UNIQUENESS-MATRIX.md).",
     "Product photos are unaltered retailer references; the Parker duvet and sham use the supplier's own Simply Taupe variant images. Plans use published dimensions where available and flag defaults where not.",
     "PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made."
   ]

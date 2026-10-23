@@ -16,9 +16,9 @@ As of 21 October 2026. All purchases priced as new.
 
 | Design | Priced merchandise + carried curtains | Estimator reserves | Total with 10% contingency |
 |---|---:|---:|---:|
-| M · Walnut Poppy | ₱405,138.60 | ₱35,000–84,000 | ₱485,000–539,000 |
-| N · Butter Embroidery | ₱263,100.90 | ₱35,000–84,000 | ₱328,000–382,000 |
-| O · Copper Marble | ₱387,848.70 | ₱35,000–84,000 | ₱466,000–520,000 |
+| M · Walnut Poppy | ₱386,839.60 | ₱35,000–84,000 | ₱465,000–518,000 |
+| N · Butter Embroidery | ₱258,002.90 | ₱35,000–84,000 | ₱323,000–377,000 |
+| O · Copper Marble | ₱359,149.70 | ₱35,000–84,000 | ₱434,000–488,000 |
 
 Quote-required items are shown explicitly and covered by the reserves, not silently priced at zero.
 
@@ -51,7 +51,6 @@ Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing pane
 | [Our Home Farkins Tv Stand With Open Cabinet](https://ourhome.ph/products/our-home-farkins-tv-stand-with-open-cabinet?variant=43710124720369) | Dark brown oak/Walnut | 1 | 17,055.00 | 17,055.00 |
 | [Muriel Floor Mirror](https://mejore.ph/products/muriel-floor-mirror?variant=52048959209746) | Muriel Floor Mirror; Dark Walnut; official listing SKU MCI-MUR-MIRROR001/A | 1 | 25,600.00 | 25,600.00 |
 | [Avignon Wool Flatweave Taupe Area Rug 6'x9'](https://crateandbarrel.com.ph/products/avignon-wool-flatweave-taupe-area-rug-6x9?variant=50420123566296) | Avignon Wool Flatweave Taupe Area Rug 6'x9'; Taupe; published SKU 227797; Shopify variant 50420123566296 | 1 | 37,995.00 | 37,995.00 |
-| [Mega Bulb SR2](https://www.designstory.com.ph/products/mega-bulb-sr2?variant=40394652287142) | Silver / Black Fabric Cord | 1 | 18,200.00 | 18,200.00 |
 | [QUILT COVER NGRIP NHOTEL3 WH Q](https://www.nitori.com.ph/products/quilt-cover-ngrip-nhotel3-wh-q) | Single listed variant; SKU 250752596400 | 1 | 1,999.00 | 1,999.00 |
 | [Aire Crinkle Organic Cotton Linen Blend Cotton Cream Standard Pillow Sham](https://crateandbarrel.com.ph/products/aire-crinkle-organic-cotton-linen-blend-cotton-cream-standard-pillow-sham) | Variant 'Cream'; SKU 591673 | 2 | 1,435.00 | 2,870.00 |
 | [Telas De Mercato Dapney](https://ourhome.ph/products/telas-de-mercato-dapney?variant=43936181354737) | Red | 1 | 1,979.10 | 1,979.10 |
@@ -69,7 +68,7 @@ Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing pane
 | [LAPPTATEL pillow, side/back sleeper](https://www.ikea.com/ph/en/p/lapptatel-pillow-side-back-sleeper-60460372/) | 604.603.72 | 2 | 399.00 | 798.00 |
 | [STOPP FILT anti-slip rug underlay](https://www.ikea.com/ph/en/p/stopp-filt-rug-underlay-with-anti-slip-30183084/) | 301.830.84 | 2 | 499.00 | 998.00 |
 | [INNER cushion insert, white](https://www.ikea.com/ph/en/p/inner-cushion-white-40262194/) | 402.621.94 | 2 | 200.00 | 400.00 |
-| [SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack](https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/) | 105.914.84 | 3 | 99.00 | 297.00 |
+| [SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack](https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/) | 105.914.84 | 2 | 99.00 | 198.00 |
 | [Made-to-order mattress, finished 50 mm × 1828.8 × 1981.2 mm](https://uratex.com.ph/products/mattress-made-to-order) | Exact specification requires supplier acceptance | 1 | Quote required | Quote required |
 | Continuous flat bed support and any frame adaptation | Bed-specific engineered specification required | 1 | Quote required | Quote required |
 
@@ -90,7 +89,6 @@ Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral he
 | [FRYKSÅS TV unit](https://www.ikea.com/ph/en/p/fryksas-tv-unit-rattan-40574100/) | FRYKSÅS TV unit, rattan, 157x41x49 cm; article 40574100 | 1 | 14,999.00 | 14,999.00 |
 | [Heim Bontoc Rectangular Mirror Light Brown/Walnut 30x120cm](https://shop.wilcon.com.ph/rectangular-mirror-957700000147.html) | Item 957700000147; model 4873-C-822 | 1 | 1,199.00 | 1,199.00 |
 | [TELEGRAFLINJE Rug, flatwoven](https://www.ikea.com/ph/en/p/telegraflinje-rug-flatwoven-yellow-beige-10560091/) | TELEGRAFLINJE Rug, flatwoven, yellow-beige, 170x240 cm; article 10560091 | 1 | 8,499.00 | 8,499.00 |
-| [MISTERHULT Pendant lamp](https://www.ikea.com/ph/en/p/misterhult-pendant-lamp-bamboo-handmade-70441019/) | MISTERHULT Pendant lamp, bamboo/handmade, 45 cm; article 70441019 | 1 | 4,999.00 | 4,999.00 |
 | [Uratex Premium Touch Duvet Cover](https://ourhome.ph/products/uratex-premium-touch-duvet-cover) | Brave Brown / Queen | 1 | 4,399.20 | 4,399.20 |
 | [Uratex Premium Touch Pillowcase](https://ourhome.ph/products/uratex-premium-touch-pillowcase) | Glowing White / Queen 20x30 | 1 | 879.20 | 879.20 |
 | [FJUNKLOCKA Cushion cover](https://www.ikea.com/ph/en/p/fjunklocka-cushion-cover-yellow-white-30622088/) | FJUNKLOCKA Cushion cover, yellow/white, 50x50 cm; article 30622088 | 2 | 349.00 | 698.00 |
@@ -110,7 +108,7 @@ Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral he
 | [LAPPTATEL pillow, side/back sleeper](https://www.ikea.com/ph/en/p/lapptatel-pillow-side-back-sleeper-60460372/) | 604.603.72 | 2 | 399.00 | 798.00 |
 | [STOPP FILT anti-slip rug underlay](https://www.ikea.com/ph/en/p/stopp-filt-rug-underlay-with-anti-slip-30183084/) | 301.830.84 | 2 | 499.00 | 998.00 |
 | [INNER cushion insert, white](https://www.ikea.com/ph/en/p/inner-cushion-white-40262194/) | 402.621.94 | 2 | 200.00 | 400.00 |
-| [SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack](https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/) | 105.914.84 | 3 | 99.00 | 297.00 |
+| [SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack](https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/) | 105.914.84 | 2 | 99.00 | 198.00 |
 | [Made-to-order mattress, finished 50 mm × 1828.8 × 1981.2 mm](https://uratex.com.ph/products/mattress-made-to-order) | Exact specification requires supplier acceptance | 1 | Quote required | Quote required |
 | Continuous flat bed support and any frame adaptation | Bed-specific engineered specification required | 1 | Quote required | Quote required |
 
@@ -131,7 +129,6 @@ Low charcoal SLATTUM bed with a rounded headboard on slim black legs; GT01 charc
 | [WEST SIDEBOARD](https://blimsfurniture.com.ph/products/west-sideboard?variant=47257542295779) | Default Title; SKU IBUC0029L | 1 | 44,950.00 | 44,950.00 |
 | [Aosta Black Wall Mirror 25"x40"](https://crateandbarrel.com.ph/products/aosta-black-wall-mirror-25x40?variant=51611369996504) | Aosta Black Wall Mirror 25"x40"; Black; published SKU 273240; Shopify variant 51611369996504 | 1 | 14,799.00 | 14,799.00 |
 | [Safi Diamond Moroccan Dark Grey Area Rug 6'x9'](https://crateandbarrel.com.ph/products/safi-diamond-moroccan-dark-grey-area-rug-6x9?variant=44253405708504) | Safi Diamond Moroccan Dark Grey Area Rug 6'x9'; Dark Grey; published SKU 222368; Shopify variant 44253405708504 | 1 | 59,995.00 | 59,995.00 |
-| [Flowerpot VP1](https://www.designstory.com.ph/products/flowerpot-vp1?variant=43414805381354) | Polished copper | 1 | 28,600.00 | 28,600.00 |
 | [Uratex Wink Duvet Cover](https://ourhome.ph/products/uratex-wink-duvet-cover) | Great Gray / Queen | 1 | 3,799.20 | 3,799.20 |
 | [Cozysoft Organic Jersey Charcoal Grey Queen Sheet Set](https://crateandbarrel.com.ph/products/cozysoft-organic-jersey-charcoal-grey-queen-bed-sheet-set) | Single listed variant; SKU 421975 | 1 | 3,995.00 | 3,995.00 |
 | [KORALLBUSKE Cushion cover](https://www.ikea.com/ph/en/p/korallbuske-cushion-cover-light-beige-anthracite-10605042/) | KORALLBUSKE Cushion cover, light beige/anthracite, 50x50 cm; article 10605042 | 1 | 499.00 | 499.00 |
@@ -149,12 +146,12 @@ Low charcoal SLATTUM bed with a rounded headboard on slim black legs; GT01 charc
 | [LAPPTATEL pillow, side/back sleeper](https://www.ikea.com/ph/en/p/lapptatel-pillow-side-back-sleeper-60460372/) | 604.603.72 | 2 | 399.00 | 798.00 |
 | [STOPP FILT anti-slip rug underlay](https://www.ikea.com/ph/en/p/stopp-filt-rug-underlay-with-anti-slip-30183084/) | 301.830.84 | 2 | 499.00 | 998.00 |
 | [INNER cushion insert, white](https://www.ikea.com/ph/en/p/inner-cushion-white-40262194/) | 402.621.94 | 2 | 200.00 | 400.00 |
-| [SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack](https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/) | 105.914.84 | 3 | 99.00 | 297.00 |
+| [SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack](https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/) | 105.914.84 | 2 | 99.00 | 198.00 |
 | [Made-to-order mattress, finished 50 mm × 1828.8 × 1981.2 mm](https://uratex.com.ph/products/mattress-made-to-order) | Exact specification requires supplier acceptance | 1 | Quote required | Quote required |
 | Continuous flat bed support and any frame adaptation | Bed-specific engineered specification required | 1 | Quote required | Quote required |
 
 ## Source and verification scope
 
-- 44 visible selections across M/N/O, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across M, N, O or the twelve earlier schemes (UNIQUENESS-MATRIX.md).
+- 41 visible selections across M/N/O, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across M, N, O or the twelve earlier schemes (UNIQUENESS-MATRIX.md).
 - Catalogue prices are the frozen pass-3 Airtable capture (20 Oct 2026); the O bed price is the IKEA Philippines page read 21 Oct 2026. Where a published colour other than the priced variant is selected, the line says so and the price must be confirmed.
 - No purchases, supplier contact or Airtable writes were made.

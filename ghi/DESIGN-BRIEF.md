@@ -16,9 +16,9 @@ As of 21 October 2026. All purchases priced as new.
 
 | Design | Priced merchandise + carried curtains | Estimator reserves | Total with 10% contingency |
 |---|---:|---:|---:|
-| G · Graphite Steel | ₱377,048.50 | ₱35,000–84,000 | ₱454,000–508,000 |
-| H · Travertine Blush | ₱358,278.28 | ₱35,000–84,000 | ₱433,000–487,000 |
-| I · Plum Lacquer | ₱294,645.50 | ₱35,000–84,000 | ₱363,000–417,000 |
+| G · Graphite Steel | ₱375,549.50 | ₱35,000–84,000 | ₱452,000–506,000 |
+| H · Travertine Blush | ₱353,832.28 | ₱35,000–84,000 | ₱428,000–482,000 |
+| I · Plum Lacquer | ₱288,199.50 | ₱35,000–84,000 | ₱356,000–410,000 |
 
 Quote-required items are shown explicitly and covered by the reserves, not silently priced at zero.
 
@@ -50,7 +50,6 @@ Chalk-white tufted Gavino bed and a plain white duvet against anthracite powder-
 | [FJÄLLBO TV unit](https://www.ikea.com/ph/en/p/fjaellbo-tv-unit-black-30339293/) | TV unit, black, 150x36x54 cm (59x14 1/8x21 1/4 ") | 1 | 9,999.00 | 9,999.00 |
 | [A58000434 Floor Mirror](https://store.ashleyfurniture.ph/products/a58000434-floor-mirror?variant=50124779028766) | A58000434 Floor Mirror; manufacturer SKU A58000434; Default Title; Black | 1 | 18,500.00 | 18,500.00 |
 | [TANNISBY Rug, flatwoven](https://www.ikea.com/ph/en/p/tannisby-rug-flatwoven-handmade-gray-black-20500148/) | TANNISBY Rug, flatwoven, handmade/gray black, 160x230 cm; article 20500148 | 1 | 15,999.00 | 15,999.00 |
-| [HEKTAR Pendant lamp](https://www.ikea.com/ph/en/p/hektar-pendant-lamp-dark-gray-70390369/) | HEKTAR Pendant lamp, dark gray, 22 cm; article 70390369 | 1 | 1,499.00 | 1,499.00 |
 | [Super Soft White Duvet Cover](https://mandauefoam.ph/products/super-soft-white-duvet-cover) | Variant 'Double-Queen 92x92"'; SKU 136185 | 1 | 1,055.00 | 1,055.00 |
 | [Super Soft Cloud Gray Pillowcases](https://mandauefoam.ph/products/super-soft-cloud-gray-pillowcase) | Variant 'Pillowcase 20x30 Inches'; SKU 136214 | 2 | 275.00 | 550.00 |
 | [Chunky Woven Wool Fringe 23"x23" Storm Grey Throw Pillow Cover](https://crateandbarrel.com.ph/products/chunky-woven-wool-fringe-23x23-storm-grey-throw-pillow-cover?variant=50721043480792) | Chunky Woven Wool Fringe 23"x23" Storm Grey Throw Pillow Cover; Storm Grey; published SKU 622706; Shopify variant 50721043480792 | 1 | 4,599.00 | 4,599.00 |
@@ -90,7 +89,6 @@ Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery
 | [Youset TV Bench](https://mandauefoam.ph/products/youset-tv-bench?variant=43506625675442) | White Marble (listed variant Black Marble SKU 123659; White Marble SKU to confirm) | 1 | 3,430.00 | 3,430.00 |
 | [Perfect Pieces Emilia](https://ourhome.ph/products/perfect-pieces-emilia?variant=48061006348529) | Default Title | 1 | 14,950.00 | 14,950.00 |
 | [ÄLSKEGRAS Rug, low pile](https://www.ikea.com/ph/en/p/aelskegras-rug-low-pile-gray-beige-leaf-pattern-20625780/) | ÄLSKEGRAS Rug, low pile, gray beige/leaf pattern, 160x230 cm; article 20625780 | 1 | 9,999.00 | 9,999.00 |
-| [SIMRISHAMN Pendant lamp, 3-armed](https://www.ikea.com/ph/en/p/simrishamn-pendant-lamp-3-armed-chrome-plated-opal-glass-60407836/) | SIMRISHAMN Pendant lamp, 3-armed, chrome plated/opal glass, 55 cm; article 60407836 | 1 | 3,999.00 | 3,999.00 |
 | [Parker Organic Percale Duvet Cover - Queen](https://www.rustans.com/products/pottery-barn-parker-organic-percale-duvet-cover-queen) | Simply Taupe (SKU 3365400); Queen listing, King to confirm | 1 | 18,500.00 | 18,500.00 |
 | [Parker Organic Percale Sham](https://www.rustans.com/products/pottery-barn-parker-organic-percale-sham) | Simply Taupe (SKU 3365415; frozen record lists Seaglass SKU 3365414, same ₱2,950) | 2 | 2,950.00 | 5,900.00 |
 | [Telas Gessato Cushion Cover](https://ourhome.ph/products/telas-gessato-cushion-cover?variant=39379838173263) | Coral / Stripe | 1 | 1,799.78 | 1,799.78 |
@@ -110,7 +108,6 @@ Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery
 | [STOPP FILT anti-slip rug underlay](https://www.ikea.com/ph/en/p/stopp-filt-rug-underlay-with-anti-slip-30183084/) | 301.830.84 | 2 | 499.00 | 998.00 |
 | [INNER cushion insert, white](https://www.ikea.com/ph/en/p/inner-cushion-white-40262194/) | 402.621.94 | 1 | 200.00 | 200.00 |
 | [SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack](https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/) | 105.914.84 | 2 | 99.00 | 198.00 |
-| [SOLHETTA E14 opal LED bulb 250 lm, 2-piece pack](https://www.ikea.com/ph/en/p/solhetta-led-bulb-e14-250-lumen-globe-opal-30583987/) | 305.839.87 | 3 | 149.00 | 447.00 |
 | [Made-to-order mattress, finished 50 mm × 1828.8 × 1981.2 mm](https://uratex.com.ph/products/mattress-made-to-order) | Exact specification requires supplier acceptance | 1 | Quote required | Quote required |
 | Continuous flat bed support and any frame adaptation | Bed-specific engineered specification required | 1 | Quote required | Quote required |
 
@@ -132,7 +129,6 @@ Charcoal button-tufted wingback Griffin II on a walnut drawer base, dressed in a
 | [Sigma Senor I Tv Stand](https://ourhome.ph/products/sigma-senor-i-tv-stand?variant=42572833718513) | Black | 1 | 18,550.00 | 18,550.00 |
 | [Sabrina Floor Mirror](https://mejore.ph/products/sabrina-floor-mirror?variant=52049007575314) | Sabrina Floor Mirror; Black; official listing SKU MCI-SAB-MIRROR001/A | 1 | 25,520.00 | 25,520.00 |
 | [RÅVAROR Rug, flatwoven](https://www.ikea.com/ph/en/p/ravaror-rug-flatwoven-handwoven-black-brown-gray-90610921/) | RÅVAROR Rug, flatwoven, handwoven black/brown gray, 170x240 cm; article 90610921 | 1 | 11,999.00 | 11,999.00 |
-| [HÖGVIND Pendant lamp with 3 lamps](https://www.ikea.com/ph/en/p/hoegvind-pendant-lamp-with-3-lamps-nickel-plated-gray-glass-40499262/) | HÖGVIND Pendant lamp with 3 lamps, nickel plated/gray glass, 41 cm; article 40499262 | 1 | 5,999.00 | 5,999.00 |
 | [QUILT COVER NGRIP MJ03 PLAIN GY Q](https://www.nitori.com.ph/products/quilt-cover-ngrip-mj03-plain-gy-q) | Single listed variant; SKU 250752611400 | 1 | 1,999.00 | 1,999.00 |
 | [NFIT FITTED PILLOWCASE NCOOL GY 26NC-01](https://www.nitori.com.ph/products/nfit-fitted-pillowcase-ncool-gy-26nc-01) | Single listed variant; SKU 2115100102405 | 2 | 389.00 | 778.00 |
 | [Pintig Pillow Covers - Maroon](https://anthillmarkets.com/products/pintig-pillow-case?variant=40651462311971) | Maroon | 1 | 2,999.00 | 2,999.00 |
@@ -151,13 +147,12 @@ Charcoal button-tufted wingback Griffin II on a walnut drawer base, dressed in a
 | [STOPP FILT anti-slip rug underlay](https://www.ikea.com/ph/en/p/stopp-filt-rug-underlay-with-anti-slip-30183084/) | 301.830.84 | 2 | 499.00 | 998.00 |
 | [INNER cushion insert, white](https://www.ikea.com/ph/en/p/inner-cushion-white-40262194/) | 402.621.94 | 1 | 200.00 | 200.00 |
 | [SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack](https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/) | 105.914.84 | 2 | 99.00 | 198.00 |
-| [SOLHETTA E14 opal LED bulb 250 lm, 2-piece pack](https://www.ikea.com/ph/en/p/solhetta-led-bulb-e14-250-lumen-globe-opal-30583987/) | 305.839.87 | 3 | 149.00 | 447.00 |
 | [Made-to-order mattress, finished 50 mm × 1828.8 × 1981.2 mm](https://uratex.com.ph/products/mattress-made-to-order) | Exact specification requires supplier acceptance | 1 | Quote required | Quote required |
 | Continuous flat bed support and any frame adaptation | Bed-specific engineered specification required | 1 | Quote required | Quote required |
 
 ## Source and verification scope
 
 - Catalogue of record: frozen live-Airtable snapshot of 20 Oct 2026 (tmp/408-bedroom-fresh-live-airtable-2026-10-20). No Airtable writes.
-- 43 visible selections across G/H/I, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across G, H, I or the twelve earlier schemes, and sibling-set claims (JKL, MNO) were respected (UNIQUENESS-MATRIX.md).
+- 40 visible selections across G/H/I, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across G, H, I or the twelve earlier schemes, and sibling-set claims (JKL, MNO) were respected (UNIQUENESS-MATRIX.md).
 - Product photos are unaltered retailer references; the Parker duvet and sham use the supplier's own Simply Taupe variant images. Plans use published dimensions where available and flag defaults where not.
 - PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made.

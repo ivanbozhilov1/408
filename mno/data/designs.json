@@ -76,13 +76,13 @@
         "#efe8dc"
       ],
       "budget": {
-        "design_centavos": 28393510,
-        "common_centavos": 12120350,
-        "priced_centavos": 40513860,
+        "design_centavos": 26573510,
+        "common_centavos": 12110450,
+        "priced_centavos": 38683960,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 485000,
-        "total_high_php": 539000
+        "total_low_php": 465000,
+        "total_high_php": 518000
       },
       "fit_notes": [
         "Gervaise King outer size is not published; planning envelope 1990 × 2140 mm platform plus attached wing/drawer units about 520 mm each side (total about 3.0 m) — confirm with Our Home before order.",
@@ -101,13 +101,13 @@
         "#f4f0e6"
       ],
       "budget": {
-        "design_centavos": 14189740,
-        "common_centavos": 12120350,
-        "priced_centavos": 26310090,
+        "design_centavos": 13689840,
+        "common_centavos": 12110450,
+        "priced_centavos": 25800290,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 328000,
-        "total_high_php": 382000
+        "total_low_php": 323000,
+        "total_high_php": 377000
       },
       "fit_notes": [
         "Fulton King outer size is not published (the listed L211 × W185 × H117 cm is the Queen listing); planning envelope mattress + 160 mm each way, headboard 1170 mm.",
@@ -125,13 +125,13 @@
         "#f4f3f0"
       ],
       "budget": {
-        "design_centavos": 26664520,
-        "common_centavos": 12120350,
-        "priced_centavos": 38784870,
+        "design_centavos": 23804520,
+        "common_centavos": 12110450,
+        "priced_centavos": 35914970,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 466000,
-        "total_high_php": 520000
+        "total_low_php": 434000,
+        "total_high_php": 488000
       },
       "fit_notes": [
         "SLATTUM 180 × 200 cm has an inner opening narrower than the 72 in mattress: the custom continuous deck must sit ON the rails (outer 1840 × 2060 mm), not inside them — REQUIRED-FLAT-DECK.",
@@ -325,30 +325,6 @@
       "price_date": "2026-09-10",
       "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
       "materials": "100% Wool"
-    },
-    {
-      "id": "M-CEILING",
-      "schemes": [
-        "M"
-      ],
-      "role": "ceiling",
-      "name": "Mega Bulb SR2",
-      "brand": "&Tradition",
-      "sku": "Mega Bulb SR2",
-      "variant": "Silver / Black Fabric Cord",
-      "quantity": 1,
-      "unit_centavos": 1820000,
-      "line_centavos": 1820000,
-      "url": "https://www.designstory.com.ph/products/mega-bulb-sr2?variant=40394652287142",
-      "status": "Available online | Cebu delivery: unconfirmed | price date 2026-09-10 | &Tradition",
-      "notes": "Mouth-blown clear glass bulb pendant with porcelain holder, 'Silver / Black Fabric Cord' style (photo and price are that variant, read live 21 Oct 2026; the frozen catalogue offer was Clear / Clear PVC Cord at PHP 16,800).",
-      "dimensions": {},
-      "scope": "design_piece",
-      "image": "assets/products/M-CEILING.webp",
-      "family": "&Tradition Mega Bulb",
-      "price_date": "2026-10-21",
-      "price_basis": "Design Story live variant price PHP 18,200 (product .js read 21 Oct 2026, research/variant-photos)",
-      "materials": "Mouth-blown glass; porcelain lamp holder; clear PVC cord"
     },
     {
       "id": "M-BEDSPREAD",
@@ -693,34 +669,6 @@
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
       "materials": "100 % cotton"
-    },
-    {
-      "id": "N-CEILING",
-      "schemes": [
-        "N"
-      ],
-      "role": "ceiling",
-      "name": "MISTERHULT Pendant lamp",
-      "brand": "IKEA",
-      "sku": "70441019",
-      "variant": "MISTERHULT Pendant lamp, bamboo/handmade, 45 cm; article 70441019",
-      "quantity": 1,
-      "unit_centavos": 499900,
-      "line_centavos": 499900,
-      "url": "https://www.ikea.com/ph/en/p/misterhult-pendant-lamp-bamboo-handmade-70441019/",
-      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
-      "notes": "Handmade bamboo pendant shade Ø45 cm.",
-      "dimensions": {
-        "width": 450,
-        "depth": 450,
-        "height": 400
-      },
-      "scope": "design_piece",
-      "image": "assets/products/N-CEILING.avif",
-      "family": "IKEA MISTERHULT",
-      "price_date": "2026-09-10",
-      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Base/ Shade: Bamboo, Clear acrylic lacquer; Bracket: Steel, Epoxy/polyester powder coating"
     },
     {
       "id": "N-BEDSPREAD",
@@ -1129,34 +1077,6 @@
       "price_date": "2026-09-10",
       "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
       "materials": "50% New Zealand wool and 50% nylon"
-    },
-    {
-      "id": "O-CEILING",
-      "schemes": [
-        "O"
-      ],
-      "role": "ceiling",
-      "name": "Flowerpot VP1",
-      "brand": "&Tradition",
-      "sku": "Flowerpot VP1",
-      "variant": "Polished copper",
-      "quantity": 1,
-      "unit_centavos": 2860000,
-      "line_centavos": 2860000,
-      "url": "https://www.designstory.com.ph/products/flowerpot-vp1?variant=43414805381354",
-      "status": "Available online | Cebu delivery: unconfirmed | price date 2026-09-10 | &Tradition",
-      "notes": "Layered hemispherical dome pendant Ø230 mm in Polished copper (photo and price are that variant, read live 21 Oct 2026; the frozen offer was Matt White at PHP 20,500): the copper accent.",
-      "dimensions": {
-        "width": 230,
-        "depth": 230,
-        "height": 160
-      },
-      "scope": "design_piece",
-      "image": "assets/products/O-CEILING.webp",
-      "family": "&Tradition Flowerpot VP1",
-      "price_date": "2026-10-21",
-      "price_basis": "Design Story live variant price PHP 28,600 for Polished copper (product .js read 21 Oct 2026, research/variant-photos)",
-      "materials": "Lacquered metal; fabric cord"
     },
     {
       "id": "O-BEDSPREAD",
@@ -1586,12 +1506,12 @@
       "brand": "",
       "sku": "105.914.84",
       "variant": "105.914.84",
-      "quantity": 3,
+      "quantity": 2,
       "unit_centavos": 9900,
-      "line_centavos": 29700,
+      "line_centavos": 19800,
       "url": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/",
       "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
-      "notes": "Three 2-packs per scheme: bedside pair, ceiling fitting and spares. Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
+      "notes": "Two 2-packs per scheme for the bedside pair plus spare (no ceiling fitting). Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
       "dimensions": {},
       "scope": "technical_essential",
       "image": "assets/products/AC-LAMP-BULBS.jpg",
@@ -1645,7 +1565,7 @@
     }
   ],
   "source_notes": [
-    "44 visible selections across M/N/O, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across M, N, O or the twelve earlier schemes (UNIQUENESS-MATRIX.md).",
+    "41 visible selections across M/N/O, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across M, N, O or the twelve earlier schemes (UNIQUENESS-MATRIX.md).",
     "Catalogue prices are the frozen pass-3 Airtable capture (20 Oct 2026); the O bed price is the IKEA Philippines page read 21 Oct 2026. Where a published colour other than the priced variant is selected, the line says so and the price must be confirmed.",
     "No purchases, supplier contact or Airtable writes were made."
   ]
