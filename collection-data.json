@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-room-switcher / 2026-10-23T16:10:00+08:00",
+  "build": "408-hallway-overlay / 2026-10-23T15:50:00+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -27469,10 +27469,65 @@
         "commonTechnicalCents": 7580950
       },
       "room": "master"
+    },
+    {
+      "id": "fable-hallway-overlay-20261023:H",
+      "namespace": "fable-hallway-overlay-20261023",
+      "author": "Fable / Claude",
+      "letter": "H",
+      "originalLetter": "H",
+      "name": "World Map Wall",
+      "date": "2026-10-23",
+      "version": "fable-hallway-overlay-20261023",
+      "status": "PHOTO_OVERLAY_CAMERA_FIT_OWNER_APPROVED_DIMENSIONS_PLACEHOLDER",
+      "archival": false,
+      "isNew": true,
+      "reviewAccepted": false,
+      "summary": "The hallway's first entry: Ivan's chosen pieces placed on the 7 Sep photographs at true scale through fitted cameras, no AI render. The LEGO Art World Map (104 x 65 cm, LED frame considered) on the plain wall with a console under it, a runner on the kept parquet, and the accepted Seoul Blinds curtains (Davies Beige blackout + voile, valance board with diffused LED) on the window run. Every dimension is a placeholder until the corridor is taped.",
+      "reviewNotes": [
+        "Camera matched by eye from hand-picked photo points (pinhole fit, 33 px rms on F034, 37 px on F035); dimensions site-measured where taped, else placeholder. Ivan, 23 Oct: \"The overlays look right.\" The pieces are stand-in boxes (map 1140 x 750 with a 50 mm frame, console 1200 x 350 x 800, runner 0.8 x 3.0 m), not chosen products.",
+        "Not settled by the photos: the corridor length (3.0 m to over 4.4 m depending on the lens assumption; the room file keeps 4.4 m), the living end's skew (that arch is the living's diagonal wall), both arch widths and heads, the ceiling (assumed 2.7 m), the window sill and head (about 0.9 and 2.35 m by proportion) and the light switch position on the plain wall, which the map must clear.",
+        "Night views for this entry wait for the tape. When they come, the valance LED rule applies: LED light diffused behind the curtain valance (Ivan, 23 Oct)."
+      ],
+      "originalUrl": "https://github.com/ivanbozhilov1/Ivan/pull/31",
+      "originalLabel": "Room file and overlay toolkit (Ivan repo PR #31)",
+      "hero": "collection-assets/eb42d243c2d2efd37a7ee126.webp",
+      "plan": "rooms/HAL-plan.webp",
+      "views": [
+        {
+          "slot": "H-hallway-living-day",
+          "kind": "hallway-living-day",
+          "label": "From the living · Day",
+          "image": "collection-assets/eb42d243c2d2efd37a7ee126.webp",
+          "sha256": "eb42d243c2d2efd37a7ee126336e39f2e07d449b8e5eab9d146b21760d7c731f",
+          "caption": "7 Sep photo F034 from the living through its arch, down the corridor to the dining arch. The console, the LEGO map and the runner are projected through a camera fitted to the corridor body; the living arch itself is not pinhole-matchable from here and is left unprojected. Placeholder dimensions: width 2.3 m, length 4.4 m.",
+          "method": "Photo overlay, no AI: a pinhole camera fitted by least squares to hand-picked photo points, the room wireframe and the furniture boxes projected and composited at 70 % opacity. Camera matched by eye; dimensions site-measured where taped, else placeholder.",
+          "effectiveStatus": "Owner-approved camera fit (Ivan, 23 Oct); every dimension is a placeholder until the corridor is taped.",
+          "reviewAccepted": false
+        },
+        {
+          "slot": "H-hallway-inside-day",
+          "kind": "hallway-inside-day",
+          "label": "Inside the corridor · Day",
+          "image": "collection-assets/30a49d5a5047bf9e831423f4.webp",
+          "sha256": "30a49d5a5047bf9e831423f43a1e065f76ae8efdbe788c15e280d2be7da1f9f9",
+          "caption": "7 Sep photo F035 from inside the corridor near the living end, looking at the dining arch (ultrawide lens, focal fixed at 448 px). The plain wall with the map and console is on the left, the window run on the right. The window head and sill at the right border miss by about 75 px: the placeholder 2.35 m head and 0.9 m sill, or lens distortion at the edge.",
+          "method": "Photo overlay, no AI: a pinhole camera fitted by least squares to hand-picked photo points, the room wireframe and the furniture boxes projected and composited at 70 % opacity. Camera matched by eye; dimensions site-measured where taped, else placeholder.",
+          "effectiveStatus": "Owner-approved camera fit (Ivan, 23 Oct); every dimension is a placeholder until the corridor is taped.",
+          "reviewAccepted": false
+        }
+      ],
+      "products": [],
+      "budget": {
+        "datedAllocationCents": 2870000,
+        "totalCents": 2870000,
+        "note": "Hallway share of the accepted Seoul Blinds quote (PHP 174,900 for six openings; O04 Hallway 359 x 249 cm, Davies Beige blackout + voile, two tracks, valance board), split by opening width. The LEGO map, its frame, the console and the runner are not priced yet."
+      },
+      "room": "hallway"
     }
   ],
   "coverage": {
-    "summary": "21 current finished concepts: six Astra and fifteen Fable. Thirty current Astra images show three human viewpoints. Older studies remain outside the main gallery.",
+    "summary": "21 current finished concepts: six Astra and fifteen Fable. Thirty current Astra images show three human viewpoints. Older studies remain outside the main gallery. One hallway entry (23 Oct) puts the chosen pieces on the real photographs at true scale; its dimensions are placeholders.",
     "sets": [
       {
         "namespace": "astra-pqr-20261021-v001",
@@ -27548,6 +27603,11 @@
         "namespace": "gpt-ghi-rejected-v001-20261021",
         "title": "Walnut & Garden / Blue Skies & Bamboo / Blush & Blue",
         "status": "HUMAN_REJECTED_AND_STOPPED_INCOMPLETE_PHOTOREAL_REVERSE_GATE"
+      },
+      {
+        "namespace": "fable-hallway-overlay-20261023",
+        "title": "Hallway H · World Map Wall (photo overlays)",
+        "status": "Owner-approved camera fit on the 7 Sep photographs; placeholder dimensions until the corridor is taped; pieces are stand-in boxes."
       }
     ]
   },
@@ -27774,9 +27834,9 @@
       "id": "hallway",
       "label": "Hallway, dining to living",
       "short": "Hallway",
-      "status": "placeholder",
-      "statusLabel": "Placeholder · not drawn, not taped",
-      "lead": "Not on any sheet of the plan. Read from the 7 Sep contractor photos F030–F035 and the 23 Oct dimension audit: a straight corridor from the living's north-east arch to the arch in the dining's west wall, with a window run on one side. It stays a placeholder until it is taped.",
+      "status": "designs",
+      "statusLabel": "Photo overlays · placeholder dimensions, not taped",
+      "lead": "Not on any sheet of the plan. A straight corridor from the living's north-east arch to the arch in the dining's west wall: the window run on the walker's right going living to dining, a plain wall on the left. Ivan's 23 Oct answers fix what goes where (the LEGO World Map on the plain wall with furniture under it, the accepted Seoul Blinds curtains, the parquet kept with a runner, no hallway aircon), and the two composites put those pieces on the 7 Sep photographs at true scale through fitted cameras. Every dimension stays a placeholder until the corridor is taped.",
       "plan": null,
       "photos": [
         {
@@ -27784,60 +27844,99 @@
           "caption": "7 Sep 2026, F034: from the living through its arch, down the corridor to the dining arch and the dining's ceiling fan."
         },
         {
+          "image": "rooms/hallway-photo-f035.jpg",
+          "caption": "7 Sep 2026, F035: inside the corridor near the living end, looking at the dining arch; the plain wall and its light switch at the left, the window run at the right."
+        },
+        {
           "image": "rooms/hallway-photo-f030.jpg",
-          "caption": "7 Sep 2026, F030: the corridor's window run (three sliding panels, about 3.6 m by the curtain quote) with the living arch frame at the right."
+          "caption": "7 Sep 2026, F030: the corridor's window run (three sliding panels, 359 cm by the curtain quote) with the living arch frame at the right."
         }
       ],
       "model": [
         {
           "image": "rooms/HAL-plan.webp",
-          "caption": "Placeholder room model: 2150 × 3600 mm guessed from a single-photo perspective reading (width about 0.83 of floor-to-ceiling)."
+          "caption": "Placeholder room model in plan: 2300 x 4400 mm, window wall at the left edge, plain wall at the right with the LEGO map and console mid-length, runner centred. Width from the photo camera fits; length undetermined."
         },
         {
           "image": "rooms/HAL-main.webp",
-          "caption": "Placeholder room model, looking up the corridor to the living arch. Every value is a placeholder."
+          "caption": "Placeholder room model from the living end looking to the dining arch: plain wall with map and console on the left, window run on the right. Every value is a placeholder."
+        },
+        {
+          "image": "rooms/HAL-opposite.webp",
+          "caption": "Placeholder room model from the dining end looking back to the living arch (drawn square; the real living end is probably skewed, since that arch is the living's diagonal wall)."
         }
       ],
       "dimensions": [
         {
           "label": "Width",
-          "value": "about 2.0–2.3 m",
-          "basis": "photo estimate, low confidence"
+          "value": "about 2.3 m (end-wall proportion 0.85 in F034 and F035 with a 2.7 m ceiling)",
+          "basis": "photo camera fit, placeholder"
         },
         {
           "label": "Length",
-          "value": "about 3.6–4.5 m: the window run plus the two arch jambs",
-          "basis": "photo estimate, low confidence"
+          "value": "not determined by the photos: 3.0 m to over 4.4 m depending on the lens; the quoted 3.59 m window run plus its piers needs at least 4.0 m; the room file keeps 4.4 m",
+          "basis": "photo camera fit, low confidence"
         },
         {
-          "label": "Window side",
-          "value": "three-panel sliding run, about 3.6 m",
-          "basis": "curtain quote + photo"
+          "label": "Ceiling",
+          "value": "2.7 m assumed",
+          "basis": "placeholder"
         },
         {
-          "label": "Other side",
-          "value": "plain wall with a switch",
-          "basis": "photo"
+          "label": "Window side (walker's right, living to dining)",
+          "value": "three-panel sliding run 359 x 249 cm; head about 2.35 m, sill about 0.9 m",
+          "basis": "Seoul Blinds quote O04 + photo proportion"
+        },
+        {
+          "label": "Plain wall (walker's left)",
+          "value": "takes the LEGO Art World Map 31203 (104 x 65 cm; LED frame considered) with furniture under it; a light switch at about 1.4 m height, 0.5 to 1.7 m from the living end, which the map must clear",
+          "basis": "Ivan 23 Oct + photo"
         },
         {
           "label": "Living end",
-          "value": "round-headed dark timber arch in the living's north-east diagonal, the wider of the two; width and head unmeasured",
-          "basis": "photo"
+          "value": "round-headed dark timber arch in the living's north-east diagonal, the wider of the two; probably a skewed corridor end; width and head unmeasured",
+          "basis": "photo camera fit"
         },
         {
           "label": "Dining end",
-          "value": "round-headed dark timber arch into the dining's west wall; width and head unmeasured",
-          "basis": "photo"
+          "value": "round-headed dark timber arch into the dining's west wall, about 1.45 m clear, piers about 0.25 m on the plain-wall side and 0.6 m on the window side; head unmeasured",
+          "basis": "photo proportion"
+        },
+        {
+          "label": "Curtains",
+          "value": "Seoul Blinds offer accepted: Davies Beige blackout + voile on two tracks, valance board; LED light diffused behind the valance is the rule for every night view; hallway share about PHP 28,700 of the PHP 174,900 headline",
+          "basis": "Ivan 23 Oct + quote"
+        },
+        {
+          "label": "Arches",
+          "value": "stay dark",
+          "basis": "Ivan 23 Oct"
+        },
+        {
+          "label": "Floor",
+          "value": "parquet colour and style kept; add carpets (a runner here)",
+          "basis": "Ivan 23 Oct"
+        },
+        {
+          "label": "Aircon",
+          "value": "none in the hallway; the dining split goes above the dining table facing this corridor, the old window units stay hidden behind the curtains",
+          "basis": "Ivan 23 Oct"
+        },
+        {
+          "label": "Lighting",
+          "value": "undecided (one downlight in the model)",
+          "basis": "Ivan 23 Oct"
         }
       ],
       "toMeasure": [
-        "Length between the arch faces, clear width",
-        "Both arch widths and heads",
+        "Length between the arch faces and the clear width",
+        "Both arch clear widths and heads, and the living end's skew (where each jamb of the living arch sits along the corridor)",
         "Ceiling height",
-        "Window run, sill and head"
+        "Window run, sill and head",
+        "Light switch and outlet positions along the plain wall (the map must clear the switch)"
       ],
-      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack); the room-pack wiring for the rest of the unit is draft PR ivanbozhilov1/Ivan#6. The engine's gate blocks AI renders while a room file still holds placeholder values, so the first pack for a room needs its heights taped or accepted as assumptions.",
-      "emptyNote": "The hallway has no drawing and no measurements, so no pack can be generated yet. Tape it (length, width, arch widths and heads, ceiling, sill, head) and this placeholder becomes a room file."
+      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack); the hallway's room file and photo-overlay toolkit are draft PR ivanbozhilov1/Ivan#31. The engine's gate blocks AI renders while the room file holds placeholder values, so the first hallway pack with AI views needs the tape (length, width, arches, ceiling, sill, head).",
+      "emptyNote": "The hallway's only entry so far is the photo overlay; packs with AI views follow the tape."
     }
   ]
 }
