@@ -1,0 +1,126 @@
+{
+  "design": "A",
+  "name": "Cognac Salon",
+  "room": "Living room",
+  "views": [
+    {
+      "view": "reverse",
+      "file": "A-reverse.png",
+      "sha256": "72141743122cb773c7fd0501065d1f64abc99a32ffcd15f066565c86e96b5aef"
+    },
+    {
+      "view": "entry",
+      "file": "A-entry.png",
+      "sha256": "7c4fa98d8f776e6bb8735f92100622d37ac5c2fee0465c4ed40535791caff0fd"
+    }
+  ],
+  "basis": "Original room photographs retained; furniture follows a proposed layout based on the drawing.",
+  "wall_recess_mm": {
+    "depth": 307,
+    "along_wall": 1161,
+    "basis": "Drawing values; existence and location confirmed by owner"
+  },
+  "tv_span_beside_shelf_zone_mm": 2182,
+  "furniture": [
+    {
+      "id": "A-TV-01",
+      "label": "75-inch-class TV",
+      "size_mm": [
+        1668,
+        80,
+        958
+      ]
+    },
+    {
+      "id": "A-CONSOLE-01",
+      "label": "Walnut tambour console",
+      "size_mm": [
+        1800,
+        400,
+        500
+      ]
+    },
+    {
+      "id": "A-SHELF-01",
+      "label": "Open shelf in existing recess",
+      "size_mm": [
+        1100,
+        270,
+        1614
+      ]
+    },
+    {
+      "id": "A-SOFA-01",
+      "label": "Cognac three-seat sofa",
+      "size_mm": [
+        2100,
+        900,
+        820
+      ]
+    },
+    {
+      "id": "A-CHAIR-01",
+      "label": "North olive timber chair",
+      "size_mm": [
+        760,
+        800,
+        800
+      ]
+    },
+    {
+      "id": "A-CHAIR-02",
+      "label": "South olive timber chair",
+      "size_mm": [
+        760,
+        800,
+        800
+      ]
+    },
+    {
+      "id": "A-COFFEE-01",
+      "label": "Walnut rectangular coffee table",
+      "size_mm": [
+        1400,
+        650,
+        400
+      ]
+    },
+    {
+      "id": "A-RUG-01",
+      "label": "Rust Persian-style rug",
+      "size_mm": [
+        3000,
+        2200,
+        10
+      ]
+    },
+    {
+      "id": "A-SIDE-01",
+      "label": "Small round walnut side table",
+      "size_mm": [
+        450,
+        450,
+        550
+      ]
+    },
+    {
+      "id": "A-LAMP-TABLE-01",
+      "label": "Amber ceramic table lamp",
+      "size_mm": [
+        220,
+        220,
+        460
+      ]
+    },
+    {
+      "id": "A-PLANT-01",
+      "label": "Compact fern foliage envelope",
+      "size_mm": [
+        400,
+        400,
+        800
+      ]
+    }
+  ],
+  "limits": "Site dimensions, camera calibration and retail-product fit remain unverified."
+}
