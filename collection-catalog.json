@@ -18938,6 +18938,759 @@
       }
     },
     {
+      "id": "lop:LVD-SOFA",
+      "localId": "opus-liv-def-20261023::LVD-SOFA",
+      "designId": "opus-liv-def-20261023:D",
+      "designIds": [
+        "opus-liv-def-20261023:D"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · D · Midnight and Cherry",
+      "name": "Our Home Our Home Cleburne 3 Seater Sofa",
+      "url": "/408/#design=opus-liv-def-20261023%3AD",
+      "product": {
+        "role": "sofa",
+        "name": "Our Home Cleburne 3 Seater Sofa",
+        "brand": "Our Home",
+        "sku": "10415901",
+        "variant": "Blue / 3 Seater",
+        "family": "Our Home Cleburne 3 Seater Sofa",
+        "url": "https://ourhome.ph/products/our-home-cleburne-3-seater-sofa?variant=43710176428273",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1854,
+          "depth": 920,
+          "height": 850
+        }
+      }
+    },
+    {
+      "id": "lop:LVD-ARMCHAIR",
+      "localId": "opus-liv-def-20261023::LVD-ARMCHAIR",
+      "designId": "opus-liv-def-20261023:D",
+      "designIds": [
+        "opus-liv-def-20261023:D"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · D · Midnight and Cherry",
+      "name": "IKEA OSKARSHAMN Wing chair",
+      "url": "/408/#design=opus-liv-def-20261023%3AD",
+      "product": {
+        "role": "armchair",
+        "name": "OSKARSHAMN Wing chair",
+        "brand": "IKEA",
+        "sku": "10521679",
+        "variant": "OSKARSHAMN Wing chair, Tonerud red; article 10521679",
+        "family": "IKEA OSKARSHAMN Wing chair",
+        "url": "https://www.ikea.com/ph/en/p/oskarshamn-wing-chair-tonerud-red-10521679/",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 820,
+          "depth": 860,
+          "height": 990
+        }
+      }
+    },
+    {
+      "id": "lop:LVD-COFFEE",
+      "localId": "opus-liv-def-20261023::LVD-COFFEE",
+      "designId": "opus-liv-def-20261023:D",
+      "designIds": [
+        "opus-liv-def-20261023:D"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · D · Midnight and Cherry",
+      "name": "Mandaue Foam Youset Coffee Table",
+      "url": "/408/#design=opus-liv-def-20261023%3AD",
+      "product": {
+        "role": "coffee_table",
+        "name": "Youset Coffee Table",
+        "brand": "Mandaue Foam",
+        "sku": "123653",
+        "variant": "Black Marble; SKU 123653",
+        "family": "Mandaue Foam Youset Coffee Table",
+        "url": "https://mandauefoam.ph/products/youset-coffee-table?variant=43506582028466",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1000,
+          "depth": 500,
+          "height": 400
+        }
+      }
+    },
+    {
+      "id": "lop:LVD-SIDE",
+      "localId": "opus-liv-def-20261023::LVD-SIDE",
+      "designId": "opus-liv-def-20261023:D",
+      "designIds": [
+        "opus-liv-def-20261023:D"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · D · Midnight and Cherry",
+      "name": "Mandaue Foam Youset Side Table",
+      "url": "/408/#design=opus-liv-def-20261023%3AD",
+      "product": {
+        "role": "side_table",
+        "name": "Youset Side Table",
+        "brand": "Mandaue Foam",
+        "sku": "123657",
+        "variant": "Black Marble; SKU 123657",
+        "family": "Mandaue Foam Youset Side Table",
+        "url": "https://mandauefoam.ph/products/youset-side-table?variant=43506620498098",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 480,
+          "depth": 480,
+          "height": 570
+        }
+      }
+    },
+    {
+      "id": "lop:LVD-CONSOLE",
+      "localId": "opus-liv-def-20261023::LVD-CONSOLE",
+      "designId": "opus-liv-def-20261023:D",
+      "designIds": [
+        "opus-liv-def-20261023:D"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · D · Midnight and Cherry",
+      "name": "IKEA BESTÅ BURS TV unit",
+      "url": "/408/#design=opus-liv-def-20261023%3AD",
+      "product": {
+        "role": "tv_console",
+        "name": "BESTÅ BURS TV unit",
+        "brand": "IKEA",
+        "sku": "60353536",
+        "variant": "TV unit, high gloss white, 180x41x49 cm (70 7/8x16 1/8x19 1/4 \")",
+        "family": "IKEA BESTÅ BURS TV unit",
+        "url": "https://www.ikea.com/ph/en/p/besta-burs-tv-unit-high-gloss-white-60353536/",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1800,
+          "depth": 410,
+          "height": 490
+        }
+      }
+    },
+    {
+      "id": "lop:LVD-SHELF",
+      "localId": "opus-liv-def-20261023::LVD-SHELF",
+      "designId": "opus-liv-def-20261023:D",
+      "designIds": [
+        "opus-liv-def-20261023:D"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · D · Midnight and Cherry",
+      "name": "IKEA BILLY / OXBERG Bookcase with glass-door",
+      "url": "/408/#design=opus-liv-def-20261023%3AD",
+      "product": {
+        "role": "shelf",
+        "name": "BILLY / OXBERG Bookcase with glass-door",
+        "brand": "IKEA",
+        "sku": "59545358",
+        "variant": "BILLY / OXBERG Bookcase with glass-door, white/glass, 40x30x202 cm; article 59545358",
+        "family": "IKEA BILLY / OXBERG Bookcase with glass-door",
+        "url": "https://www.ikea.com/ph/en/p/billy-oxberg-bookcase-with-glass-door-white-glass-s59545358/",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 400,
+          "depth": 300,
+          "height": 2020
+        }
+      }
+    },
+    {
+      "id": "lop:LVD-LAMP",
+      "localId": "opus-liv-def-20261023::LVD-LAMP",
+      "designId": "opus-liv-def-20261023:D",
+      "designIds": [
+        "opus-liv-def-20261023:D"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · D · Midnight and Cherry",
+      "name": "Mandaue Foam Bernth Floor Lamp",
+      "url": "/408/#design=opus-liv-def-20261023%3AD",
+      "product": {
+        "role": "floor_lamp",
+        "name": "Bernth Floor Lamp",
+        "brand": "Mandaue Foam",
+        "sku": "137584",
+        "variant": "Single published variant; SKU 137584",
+        "family": "Mandaue Foam Bernth Floor Lamp",
+        "url": "https://mandauefoam.ph/products/bernth-floor-lamp?variant=46906427637938",
+        "scope": "design_piece",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "lop:LVD-RUG",
+      "localId": "opus-liv-def-20261023::LVD-RUG",
+      "designId": "opus-liv-def-20261023:D",
+      "designIds": [
+        "opus-liv-def-20261023:D"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · D · Midnight and Cherry",
+      "name": "IKEA STOCKHOLM 2025 Rug, flatwoven",
+      "url": "/408/#design=opus-liv-def-20261023%3AD",
+      "product": {
+        "role": "rug",
+        "name": "STOCKHOLM 2025 Rug, flatwoven",
+        "brand": "IKEA",
+        "sku": "70593767",
+        "variant": "STOCKHOLM 2025 Rug, flatwoven, gray/white handwoven, 170x240 cm; article 70593767",
+        "family": "IKEA STOCKHOLM 2025 Rug, flatwoven",
+        "url": "https://www.ikea.com/ph/en/p/stockholm-2025-rug-flatwoven-gray-white-handwoven-70593767/",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1700,
+          "depth": 2400
+        }
+      }
+    },
+    {
+      "id": "lop:LVD-ART",
+      "localId": "opus-liv-def-20261023::LVD-ART",
+      "designId": "opus-liv-def-20261023:D",
+      "designIds": [
+        "opus-liv-def-20261023:D"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · D · Midnight and Cherry",
+      "name": "Ashley A58000253 Wall Art",
+      "url": "/408/#design=opus-liv-def-20261023%3AD",
+      "product": {
+        "role": "art",
+        "name": "A58000253 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000253",
+        "variant": "A58000253 Wall Art; manufacturer SKU A58000253; Default Title; Black/White",
+        "family": "Ashley A58000253 Wall Art",
+        "url": "https://store.ashleyfurniture.ph/products/a58000253-wall-art?variant=45493421375774",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 609,
+          "depth": 25,
+          "height": 787
+        }
+      }
+    },
+    {
+      "id": "lop:LVD-PLANT",
+      "localId": "opus-liv-def-20261023::LVD-PLANT",
+      "designId": "opus-liv-def-20261023:D",
+      "designIds": [
+        "opus-liv-def-20261023:D"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · D · Midnight and Cherry",
+      "name": "Heim Heim Fiddle Tree Artificial Potted Plant 150cm",
+      "url": "/408/#design=opus-liv-def-20261023%3AD",
+      "product": {
+        "role": "plant",
+        "name": "Heim Fiddle Tree Artificial Potted Plant 150cm",
+        "brand": "Heim",
+        "sku": "284400024095",
+        "variant": "Item 284400024095; model Jws3252",
+        "family": "Heim Fiddle Tree Artificial Potted Plant 150cm",
+        "url": "https://shop.wilcon.com.ph/fiddle-tree-artificial-plant-284400024095.html",
+        "scope": "design_piece",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "lop:LVE-SOFA",
+      "localId": "opus-liv-def-20261023::LVE-SOFA",
+      "designId": "opus-liv-def-20261023:E",
+      "designIds": [
+        "opus-liv-def-20261023:E"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · E · Apricot and Charcoal",
+      "name": "Our Home Francis Libiran Our Home Francis Libiran Florence 3 Seater Round Sofa",
+      "url": "/408/#design=opus-liv-def-20261023%3AE",
+      "product": {
+        "role": "sofa",
+        "name": "Our Home Francis Libiran Florence 3 Seater Round Sofa",
+        "brand": "Our Home Francis Libiran",
+        "sku": "10428711",
+        "variant": "Brown",
+        "family": "Our Home Francis Libiran Florence 3 Seater Round Sofa",
+        "url": "https://ourhome.ph/products/our-home-francis-libiran-florence-3-seater-round-sofa?variant=47589290377457",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1880,
+          "depth": 940,
+          "height": 790
+        }
+      }
+    },
+    {
+      "id": "lop:LVE-ARMCHAIR",
+      "localId": "opus-liv-def-20261023::LVE-ARMCHAIR",
+      "designId": "opus-liv-def-20261023:E",
+      "designIds": [
+        "opus-liv-def-20261023:E"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · E · Apricot and Charcoal",
+      "name": "BLIMS Fine Furniture DARCY ACCENT CHAIR",
+      "url": "/408/#design=opus-liv-def-20261023%3AE",
+      "product": {
+        "role": "armchair",
+        "name": "DARCY ACCENT CHAIR",
+        "brand": "BLIMS Fine Furniture",
+        "sku": "ISSF0042C",
+        "variant": "Beige / Ivory; SKU ISSF0042C",
+        "family": "BLIMS Fine Furniture DARCY ACCENT CHAIR",
+        "url": "https://blimsfurniture.com.ph/products/darcy-accent-chair?variant=45157088755939",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 780,
+          "depth": 880,
+          "height": 750
+        }
+      }
+    },
+    {
+      "id": "lop:LVE-COFFEE",
+      "localId": "opus-liv-def-20261023::LVE-COFFEE",
+      "designId": "opus-liv-def-20261023:E",
+      "designIds": [
+        "opus-liv-def-20261023:E"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · E · Apricot and Charcoal",
+      "name": "Crate & Barrel Willy Charcoal Concrete 44\" Round Pedestal Coffee Table by Leanne Ford",
+      "url": "/408/#design=opus-liv-def-20261023%3AE",
+      "product": {
+        "role": "coffee_table",
+        "name": "Willy Charcoal Concrete 44\" Round Pedestal Coffee Table by Leanne Ford",
+        "brand": "Crate & Barrel",
+        "sku": "357177",
+        "variant": "Willy Charcoal Concrete 44\" Round Pedestal Coffee Table by Leanne Ford; Charcoal; published SKU 357177; Shopify variant 51611616477400",
+        "family": "Crate & Barrel Willy Charcoal Concrete 44\" Round Pedestal Coffee Table by Leanne Ford",
+        "url": "https://crateandbarrel.com.ph/products/willy-charcoal-concrete-44-round-pedestal-coffee-table-by-leanne-ford?variant=51611616477400",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1117,
+          "depth": 1117,
+          "height": 431
+        }
+      }
+    },
+    {
+      "id": "lop:LVE-SIDE",
+      "localId": "opus-liv-def-20261023::LVE-SIDE",
+      "designId": "opus-liv-def-20261023:E",
+      "designIds": [
+        "opus-liv-def-20261023:E"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · E · Apricot and Charcoal",
+      "name": "Crate & Barrel Fleur Tall Faux Travertine Resin Drink Table",
+      "url": "/408/#design=opus-liv-def-20261023%3AE",
+      "product": {
+        "role": "side_table",
+        "name": "Fleur Tall Faux Travertine Resin Drink Table",
+        "brand": "Crate & Barrel",
+        "sku": "566118",
+        "variant": "Fleur Tall Faux Travertine Resin Drink Table; Travertine; published SKU 566118; Shopify variant 44463573991640",
+        "family": "Crate & Barrel Fleur Tall Faux Travertine Resin Drink Table",
+        "url": "https://crateandbarrel.com.ph/products/fleur-tall-faux-travertine-resin-drink-table?variant=44463573991640",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 295,
+          "depth": 289,
+          "height": 660
+        }
+      }
+    },
+    {
+      "id": "lop:LVE-CONSOLE",
+      "localId": "opus-liv-def-20261023::LVE-CONSOLE",
+      "designId": "opus-liv-def-20261023:E",
+      "designIds": [
+        "opus-liv-def-20261023:E"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · E · Apricot and Charcoal",
+      "name": "Mandaue Foam Lindy TV Stand",
+      "url": "/408/#design=opus-liv-def-20261023%3AE",
+      "product": {
+        "role": "tv_console",
+        "name": "Lindy TV Stand",
+        "brand": "Mandaue Foam",
+        "sku": "133916",
+        "variant": "Black; SKU 133916",
+        "family": "Mandaue Foam Lindy TV Stand",
+        "url": "https://mandauefoam.ph/products/lindy-tv-stand?variant=46168874746034",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1500,
+          "depth": 400,
+          "height": 500
+        }
+      }
+    },
+    {
+      "id": "lop:LVE-SHELF",
+      "localId": "opus-liv-def-20261023::LVE-SHELF",
+      "designId": "opus-liv-def-20261023:E",
+      "designIds": [
+        "opus-liv-def-20261023:E"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · E · Apricot and Charcoal",
+      "name": "IKEA FJÄLLBO Wall shelf",
+      "url": "/408/#design=opus-liv-def-20261023%3AE",
+      "product": {
+        "role": "shelf",
+        "name": "FJÄLLBO Wall shelf",
+        "brand": "IKEA",
+        "sku": "00430585",
+        "variant": "FJÄLLBO Wall shelf, black, 101x20 cm; article 00430585",
+        "family": "IKEA FJÄLLBO Wall shelf",
+        "url": "https://www.ikea.com/ph/en/p/fjaellbo-wall-shelf-black-00430585/",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1010,
+          "depth": 200,
+          "height": 210
+        }
+      }
+    },
+    {
+      "id": "lop:LVE-LAMP",
+      "localId": "opus-liv-def-20261023::LVE-LAMP",
+      "designId": "opus-liv-def-20261023:E",
+      "designIds": [
+        "opus-liv-def-20261023:E"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · E · Apricot and Charcoal",
+      "name": "IKEA STRANDAD Floor lamp",
+      "url": "/408/#design=opus-liv-def-20261023%3AE",
+      "product": {
+        "role": "floor_lamp",
+        "name": "STRANDAD Floor lamp",
+        "brand": "IKEA",
+        "sku": "90594836",
+        "variant": "STRANDAD Floor lamp, white/black; article 90594836",
+        "family": "IKEA STRANDAD Floor lamp",
+        "url": "https://www.ikea.com/ph/en/p/strandad-floor-lamp-white-black-90594836/",
+        "scope": "design_piece",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "lop:LVE-RUG",
+      "localId": "opus-liv-def-20261023::LVE-RUG",
+      "designId": "opus-liv-def-20261023:E",
+      "designIds": [
+        "opus-liv-def-20261023:E"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · E · Apricot and Charcoal",
+      "name": "IKEA STOENSE Rug, low pile",
+      "url": "/408/#design=opus-liv-def-20261023%3AE",
+      "product": {
+        "role": "rug",
+        "name": "STOENSE Rug, low pile",
+        "brand": "IKEA",
+        "sku": "00425536",
+        "variant": "STOENSE Rug, low pile, off-white, 170x240 cm; article 00425536",
+        "family": "IKEA STOENSE Rug, low pile",
+        "url": "https://www.ikea.com/ph/en/p/stoense-rug-low-pile-off-white-00425536/",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1700,
+          "depth": 2400
+        }
+      }
+    },
+    {
+      "id": "lop:LVE-ART",
+      "localId": "opus-liv-def-20261023::LVE-ART",
+      "designId": "opus-liv-def-20261023:E",
+      "designIds": [
+        "opus-liv-def-20261023:E"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · E · Apricot and Charcoal",
+      "name": "Ashley A58000471 Wall Art",
+      "url": "/408/#design=opus-liv-def-20261023%3AE",
+      "product": {
+        "role": "art",
+        "name": "A58000471 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000471",
+        "variant": "A58000471 Wall Art; manufacturer SKU A58000471; Default Title; Monochromatic finish in elegant black-and-white",
+        "family": "Ashley A58000471 Wall Art",
+        "url": "https://store.ashleyfurniture.ph/products/a58000471-wall-art?variant=50450656461086",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 800,
+          "depth": 34,
+          "height": 800
+        }
+      }
+    },
+    {
+      "id": "lop:LVE-PLANT",
+      "localId": "opus-liv-def-20261023::LVE-PLANT",
+      "designId": "opus-liv-def-20261023:E",
+      "designIds": [
+        "opus-liv-def-20261023:E"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · E · Apricot and Charcoal",
+      "name": "Flourish Flourish Olive tree with pot - Small",
+      "url": "/408/#design=opus-liv-def-20261023%3AE",
+      "product": {
+        "role": "plant",
+        "name": "Flourish Olive tree with pot - Small",
+        "brand": "Flourish",
+        "sku": "39226753",
+        "variant": "Small; SKU 39226753",
+        "family": "Flourish Olive tree with pot - Small",
+        "url": "https://ourhome.ph/products/flourish-olive-tree-with-pot?variant=42663399686385",
+        "scope": "design_piece",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "lop:LVF-SOFA",
+      "localId": "opus-liv-def-20261023::LVF-SOFA",
+      "designId": "opus-liv-def-20261023:F",
+      "designIds": [
+        "opus-liv-def-20261023:F"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · F · Narra and Solihiya",
+      "name": "Mejore Charlotte 2-Seater Sofa",
+      "url": "/408/#design=opus-liv-def-20261023%3AF",
+      "product": {
+        "role": "sofa",
+        "name": "Charlotte 2-Seater Sofa",
+        "brand": "Mejore",
+        "sku": "MCI-CHA-LRSF-CS0111S",
+        "variant": "Charlotte 2-Seater Sofa; official listing SKU MCI-CHA-LRSF-CS0111S",
+        "family": "Mejore Charlotte 2-Seater Sofa",
+        "url": "https://mejore.ph/products/charlotte-2-seater-sofa?variant=44337276256530",
+        "scope": "design_piece",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "lop:LVF-ARMCHAIR",
+      "localId": "opus-liv-def-20261023::LVF-ARMCHAIR",
+      "designId": "opus-liv-def-20261023:F",
+      "designIds": [
+        "opus-liv-def-20261023:F"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · F · Narra and Solihiya",
+      "name": "Mejore Charlotte Lounge Chair",
+      "url": "/408/#design=opus-liv-def-20261023%3AF",
+      "product": {
+        "role": "armchair",
+        "name": "Charlotte Lounge Chair",
+        "brand": "Mejore",
+        "sku": "MCI-CHA-LRCH-CS0011/A",
+        "variant": "Charlotte Lounge Chair; Beige; official listing SKU MCI-CHA-LRCH-CS0011/A",
+        "family": "Mejore Charlotte Lounge Chair",
+        "url": "https://mejore.ph/products/charlotte-lounge-chair?variant=51715830120722",
+        "scope": "design_piece",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "lop:LVF-COFFEE",
+      "localId": "opus-liv-def-20261023::LVF-COFFEE",
+      "designId": "opus-liv-def-20261023:F",
+      "designIds": [
+        "opus-liv-def-20261023:F"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · F · Narra and Solihiya",
+      "name": "Mejore Stella Coffee Table",
+      "url": "/408/#design=opus-liv-def-20261023%3AF",
+      "product": {
+        "role": "coffee_table",
+        "name": "Stella Coffee Table",
+        "brand": "Mejore",
+        "sku": "MCI-STE-LRTB-STL-0003/A",
+        "variant": "Stella Coffee Table; Walnut Brown; official listing SKU MCI-STE-LRTB-STL-0003/A",
+        "family": "Mejore Stella Coffee Table",
+        "url": "https://mejore.ph/products/stella-coffee-table?variant=44196038148370",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 800,
+          "depth": 800,
+          "height": 350
+        }
+      }
+    },
+    {
+      "id": "lop:LVF-CONSOLE",
+      "localId": "opus-liv-def-20261023::LVF-CONSOLE",
+      "designId": "opus-liv-def-20261023:F",
+      "designIds": [
+        "opus-liv-def-20261023:F"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · F · Narra and Solihiya",
+      "name": "BLIMS Fine Furniture ISTANBUL TV CABINET",
+      "url": "/408/#design=opus-liv-def-20261023%3AF",
+      "product": {
+        "role": "tv_console",
+        "name": "ISTANBUL TV CABINET",
+        "brand": "BLIMS Fine Furniture",
+        "sku": "ITVB0121L",
+        "variant": "Default Title; SKU ITVB0121L",
+        "family": "BLIMS Fine Furniture ISTANBUL TV CABINET",
+        "url": "https://blimsfurniture.com.ph/products/istanbul-tv-cabinet?variant=46215030440163",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1800,
+          "depth": 450,
+          "height": 599
+        }
+      }
+    },
+    {
+      "id": "lop:LVF-SHELF",
+      "localId": "opus-liv-def-20261023::LVF-SHELF",
+      "designId": "opus-liv-def-20261023:F",
+      "designIds": [
+        "opus-liv-def-20261023:F"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · F · Narra and Solihiya",
+      "name": "Urban Concepts Rance Multipurpose Rack",
+      "url": "/408/#design=opus-liv-def-20261023%3AF",
+      "product": {
+        "role": "shelf",
+        "name": "Rance Multipurpose Rack",
+        "brand": "Urban Concepts",
+        "sku": "F5-4704",
+        "variant": "Display Rack; SKU F5-4704",
+        "family": "Urban Concepts Rance Multipurpose Rack",
+        "url": "https://www.urbanconcepts.ph/product/rance-multipurpose-rack/",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 900,
+          "depth": 300,
+          "height": 1800
+        }
+      }
+    },
+    {
+      "id": "lop:LVF-LAMP",
+      "localId": "opus-liv-def-20261023::LVF-LAMP",
+      "designId": "opus-liv-def-20261023:F",
+      "designIds": [
+        "opus-liv-def-20261023:F"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · F · Narra and Solihiya",
+      "name": "IKEA VARPTROSS Floor lamp",
+      "url": "/408/#design=opus-liv-def-20261023%3AF",
+      "product": {
+        "role": "floor_lamp",
+        "name": "VARPTROSS Floor lamp",
+        "brand": "IKEA",
+        "sku": "70601220",
+        "variant": "VARPTROSS Floor lamp, bamboo, 118 cm; article 70601220",
+        "family": "IKEA VARPTROSS Floor lamp",
+        "url": "https://www.ikea.com/ph/en/p/varptross-floor-lamp-bamboo-70601220/",
+        "scope": "design_piece",
+        "dimensions": {
+          "height": 1180
+        }
+      }
+    },
+    {
+      "id": "lop:LVF-RUG",
+      "localId": "opus-liv-def-20261023::LVF-RUG",
+      "designId": "opus-liv-def-20261023:F",
+      "designIds": [
+        "opus-liv-def-20261023:F"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · F · Narra and Solihiya",
+      "name": "IKEA TVERSTED Rug, low pile",
+      "url": "/408/#design=opus-liv-def-20261023%3AF",
+      "product": {
+        "role": "rug",
+        "name": "TVERSTED Rug, low pile",
+        "brand": "IKEA",
+        "sku": "30560863",
+        "variant": "TVERSTED Rug, low pile, beige, 170x240 cm; article 30560863",
+        "family": "IKEA TVERSTED Rug, low pile",
+        "url": "https://www.ikea.com/ph/en/p/tversted-rug-low-pile-beige-30560863/",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1700,
+          "depth": 2400
+        }
+      }
+    },
+    {
+      "id": "lop:LVF-ART",
+      "localId": "opus-liv-def-20261023::LVF-ART",
+      "designId": "opus-liv-def-20261023:F",
+      "designIds": [
+        "opus-liv-def-20261023:F"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · F · Narra and Solihiya",
+      "name": "Mo's Crib Mo's Crib Small Woven Wall Art",
+      "url": "/408/#design=opus-liv-def-20261023%3AF",
+      "product": {
+        "role": "art",
+        "name": "Mo's Crib Small Woven Wall Art",
+        "brand": "Mo's Crib",
+        "sku": "472008",
+        "variant": "Single listed variant; SKU 472008",
+        "family": "Mo's Crib Small Woven Wall Art",
+        "url": "https://crateandbarrel.com.ph/products/mos-crib-small-woven-wall-art-1",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 444,
+          "depth": 6
+        }
+      }
+    },
+    {
+      "id": "lop:LVF-PLANT",
+      "localId": "opus-liv-def-20261023::LVF-PLANT",
+      "designId": "opus-liv-def-20261023:F",
+      "designIds": [
+        "opus-liv-def-20261023:F"
+      ],
+      "board": "lop",
+      "label": "Claude Opus · F · Narra and Solihiya",
+      "name": "Crate & Barrel Potted Faux Philodendron 24\"",
+      "url": "/408/#design=opus-liv-def-20261023%3AF",
+      "product": {
+        "role": "plant",
+        "name": "Potted Faux Philodendron 24\"",
+        "brand": "Crate & Barrel",
+        "sku": "247656",
+        "variant": "Potted Faux Philodendron 24\"; Single listed configuration; published SKU 247656; Shopify variant 43717498011864",
+        "family": "Crate & Barrel Potted Faux Philodendron 24\"",
+        "url": "https://crateandbarrel.com.ph/products/potted-faux-philodendron-24?variant=43717498011864",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 469,
+          "depth": 546,
+          "height": 609
+        }
+      }
+    },
+    {
       "id": "din:DINA-TABLE",
       "localId": "fable-din-abc-20261023::DINA-TABLE",
       "designId": "fable-din-abc-20261023:A",

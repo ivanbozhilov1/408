@@ -4,15 +4,14 @@
   "release": {
     "accepted_design_ids": [
       "Q1",
-      "Q2"
-    ],
-    "released_count": 2,
-    "pending_count": 1,
-    "pending_design_ids": [
+      "Q2",
       "Q3"
     ],
-    "view_count": 4,
-    "product_count": 24
+    "released_count": 3,
+    "pending_count": 0,
+    "pending_design_ids": [],
+    "view_count": 6,
+    "product_count": 36
   },
   "designs": [
     {
@@ -390,6 +389,195 @@
       ],
       "acceptance": {
         "qa_sha256": "60b6bd11d0744c1253f0a83cf19d0712050393af4df1f6189a76a9206cc9d799",
+        "render_kind": "real_codex_image"
+      }
+    },
+    {
+      "id": "Q3",
+      "name": "Linen & Blush",
+      "palette": [
+        "#cfb4a8",
+        "#d7c1a0",
+        "#eee9df"
+      ],
+      "description": "A walnut storage frame meets pale timber drawers, a blush armchair and quiet ivory textiles. A white console, arched dark mirror and tall olive-stem composition keep the atmosphere light and composed.",
+      "bed": {
+        "name": "Walnut box storage · 150 × 200 cm",
+        "url": "https://www.lazada.com.ph/products/walnut-wood-storage-bed-18m-i15442193773-s132921572944.html",
+        "variant": "Walnut bed [single bed] / Box frame structure / Applicable mattress size1500mm*2000 mm",
+        "mattress_mm": [
+          1500,
+          2000
+        ],
+        "outer_mm": [
+          1560,
+          2200,
+          1000
+        ],
+        "availability": "The exact 1500 × 2000 mm variant is listed. Selected-variant price, on-hand stock and Cebu delivery are unconfirmed; no quote or checkout was made.",
+        "evidence": "Current seller variant data and dimension chart, checked 23 Oct 2026. Listing title says 1.8 m; the selected mattress variant is 1.5 × 2.0 m. Photos are shared listing images and do not establish variant scale. Materials: Seller labels African walnut sections, pine deck and solid wood core; do not equate this to North American black walnut.",
+        "limitations": "Separate headboard width and internal mattress opening/recess are not independently dimensioned. The complete published bed envelope is used for this conditional layout. Continuous support for a 50 mm mattress must be confirmed. Box-frame drawer extension is unpublished; usable drawer clearance has not been approved.",
+        "substitution": ""
+      },
+      "clearances": {
+        "wardrobe_route_mm": 1060.5,
+        "foot_to_console_mm": 1145,
+        "right_table_to_curtain_mm": 840.0,
+        "chair_to_curtain_mm": 130,
+        "note": "Chair to curtain reserve: 13.0 cm. Plant canopy and drawer operation need site review."
+      },
+      "plan": "assets/Q3-plan.svg",
+      "matrix": "assets/Q3-selection-matrix.jpg",
+      "views": [
+        {
+          "view": "entry",
+          "file": "assets/Q3-entry.png",
+          "sha256": "d61bfb9b56404ce1110bdfcc9c07ab10825d35650c44c529539b619b97280ea5",
+          "provenance": {
+            "generation_sha256": "1526fc30ef6191bf54eff7c8d0646a9db0dbf9c513ea9b64d2e4ec0aa3abcebd",
+            "final_sha256": "d61bfb9b56404ce1110bdfcc9c07ab10825d35650c44c529539b619b97280ea5",
+            "method": "local_repair"
+          },
+          "label": "From the hall doorway",
+          "caption": "Photoreal design visualization. Plans and source product photos govern dimensions; support and installation details remain conditional."
+        },
+        {
+          "view": "windowac",
+          "file": "assets/Q3-windowac.png",
+          "sha256": "b634d58f2d5d51fcfb72cca422c123ea66023aa2404344b7474780354cdb1811",
+          "provenance": {
+            "generation_sha256": "5534bbc85b832ffc30d67db7cc1cfbeae014fb6d7d9e4b8c489cf27b22c29540",
+            "final_sha256": "b634d58f2d5d51fcfb72cca422c123ea66023aa2404344b7474780354cdb1811",
+            "method": "local_repair"
+          },
+          "label": "From the window-AC corner",
+          "caption": "Photoreal design visualization. Plans and source product photos govern dimensions; support and installation details remain conditional."
+        }
+      ],
+      "products": [
+        {
+          "id": "Q3-BED",
+          "name": "Walnut Wood Storage Bed 1.8m — 1500 × 2000 mm mattress variant",
+          "role": "bed",
+          "url": "https://www.lazada.com.ph/products/walnut-wood-storage-bed-18m-i15442193773-s132921572944.html",
+          "image": "assets/products/Q3-BED.jpg",
+          "quantity": 1,
+          "dimension_label": "156 cm width × 220 cm depth × 100 cm height",
+          "evidence_label": "Current seller variant data and dimension chart, checked 23 Oct 2026. Listing title says 1.8 m; the selected mattress variant is 1.5 × 2.0 m. Photos are shared listing images and do not establish variant scale. Materials: Seller labels African walnut sections, pine deck and solid wood core; do not equate this to North American black walnut."
+        },
+        {
+          "id": "Q3-T-NIGHTSTAND",
+          "name": "Nat13 Night Table",
+          "role": "nightstand",
+          "url": "https://www.furnituremanila.com.ph/product/nat13-night-table/",
+          "image": "assets/products/Q3-T-NIGHTSTAND.jpg",
+          "quantity": 2,
+          "dimension_label": "45 cm width × 40 cm depth × 50 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q3-E-LAMP",
+          "name": "Flourish Huesca Lamp",
+          "role": "lamp",
+          "url": "https://ourhome.ph/products/flourish-huesca-lamp?variant=47186880987377",
+          "image": "assets/products/Q3-E-LAMP.webp",
+          "quantity": 2,
+          "dimension_label": "41.3 cm width × 49.5 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q3-T-CHAIR",
+          "name": "Arbour Club Armchair",
+          "role": "chair",
+          "url": "https://www.hay.com/hay/furniture/seating/sofa/arbour/arbour-club-armchair-oiled-waxed-solid-oak-frame-upholstery-atlas-621",
+          "image": "assets/products/Q3-T-CHAIR.jpg",
+          "quantity": 1,
+          "dimension_label": "75 cm width × 85 cm depth × 75 cm height",
+          "evidence_label": "Sourced 2026-10-21; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q3-S-CONSOLE",
+          "name": "BYÅS TV unit",
+          "role": "console",
+          "url": "https://www.ikea.com/ph/en/p/byas-tv-unit-high-gloss-white-00352573/",
+          "image": "assets/products/Q3-S-CONSOLE.avif",
+          "quantity": 1,
+          "dimension_label": "160 cm width × 42 cm depth × 45 cm height",
+          "evidence_label": "Sourced 2026-09-08; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q3-U-MIRROR",
+          "name": "A58000438 Accent Mirror",
+          "role": "mirror",
+          "url": "https://store.ashleyfurniture.ph/products/a58000438-accent-mirror?variant=50124782731550",
+          "image": "assets/products/Q3-U-MIRROR.webp",
+          "quantity": 1,
+          "dimension_label": "58.42 cm width × 2.2098 cm depth × 106.68 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q3-E-RUG",
+          "name": "TVERSTED Rug, low pile",
+          "role": "rug",
+          "url": "https://www.ikea.com/ph/en/p/tversted-rug-low-pile-beige-30560863/",
+          "image": "assets/products/Q3-E-RUG.avif",
+          "quantity": 1,
+          "dimension_label": "170 cm width × 240 cm depth",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q3-S-BEDSPREAD",
+          "name": "Bamboo Luxury Duvet Cover",
+          "role": "bedspread",
+          "url": "https://www.rustans.com/products/linen-homes-bamboo-luxury-duvet-cover",
+          "image": "assets/products/Q3-S-BEDSPREAD.webp",
+          "quantity": 1,
+          "dimension_label": "Dimensions not published in retained catalogue evidence",
+          "evidence_label": "Sourced 2026-10-20; stock and Cebu delivery not freshly confirmed. Exact queen textile dimensions and included pieces need confirmation; image is a styling reference."
+        },
+        {
+          "id": "Q3-E-ART",
+          "name": "A58000375 Wall Art",
+          "role": "art",
+          "url": "https://store.ashleyfurniture.ph/products/a58000375-wall-art?variant=50115468329246",
+          "image": "assets/products/Q3-E-ART.webp",
+          "quantity": 1,
+          "dimension_label": "69.85 cm width × 5.08 cm depth × 119.685 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q3-D-PLANT",
+          "name": "Olive-stem composition: Haute Cannelée Tall Terracotta Vase 19\"",
+          "role": "plant",
+          "url": "https://crateandbarrel.com.ph/products/haute-cannelee-tall-terracotta-vase-19-by-athena-calderone?variant=43704983650520",
+          "image": "assets/products/Q3-D-PLANT.jpg",
+          "quantity": 1,
+          "dimension_label": "23.44 cm width × 23.44 cm depth × 48.26 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q3-D-STEMS",
+          "name": "Extra-Large Faux Olive Stem 72\"",
+          "role": "stems",
+          "url": "https://crateandbarrel.com.ph/products/extra-large-faux-olive-stem-72?variant=50500467491032",
+          "image": "assets/products/Q3-D-STEMS.webp",
+          "quantity": 2,
+          "dimension_label": "71.12 cm width × 7.62 cm depth × 182.88 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q3-E-DECOR",
+          "name": "Alura Low-Wide Cream White Porcelain Vase",
+          "role": "decor",
+          "url": "https://crateandbarrel.com.ph/products/alura-low-wide-cream-white-porcelain-vase?variant=51903010046168",
+          "image": "assets/products/Q3-E-DECOR.webp",
+          "quantity": 1,
+          "dimension_label": "35.56 cm width × 17.145 cm depth × 32.385 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        }
+      ],
+      "acceptance": {
+        "qa_sha256": "fd5c63652a0dc4076cf758338673fb87399907630442b2ea424811f488d723a3",
         "render_kind": "real_codex_image"
       }
     }

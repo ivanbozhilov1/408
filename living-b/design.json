@@ -1,0 +1,117 @@
+{
+  "design": "B",
+  "name": "Olive Lounge",
+  "room": "Living room",
+  "views": [
+    {
+      "view": "reverse",
+      "file": "B-reverse.png",
+      "sha256": "f26c05249510f048d01505f999c4e66d20e877879c48eaa8ca64f9a5887eecee"
+    },
+    {
+      "view": "entry",
+      "file": "B-entry.png",
+      "sha256": "6dfb3824db1126e3d60e445d8b0ecb1054c68befe26dad545a349a4af77b852e"
+    }
+  ],
+  "basis": "Original room photographs retained; furniture follows a proposed layout based on the drawing.",
+  "wall_recess_mm": {
+    "depth": 307,
+    "along_wall": 1161,
+    "basis": "Drawing values; existence and location confirmed by owner"
+  },
+  "tv_span_beside_shelf_zone_mm": 2182,
+  "furniture": [
+    {
+      "id": "B-TV-01",
+      "label": "TV, minimum 75-inch diagonal",
+      "size_mm": [
+        1668,
+        80,
+        958
+      ]
+    },
+    {
+      "id": "B-CONSOLE-01",
+      "label": "Ivory rounded closed cabinet",
+      "size_mm": [
+        1800,
+        380,
+        550
+      ]
+    },
+    {
+      "id": "B-SHELF-01",
+      "label": "Open shelf within existing TV-wall recess",
+      "size_mm": [
+        1100,
+        270,
+        1614
+      ]
+    },
+    {
+      "id": "B-SECTIONAL-01",
+      "label": "One olive sectional with integrated chaise",
+      "size_mm": [
+        2850,
+        1710,
+        820
+      ]
+    },
+    {
+      "id": "B-COFFEE-01",
+      "label": "Compact organic pale-stone-look single-pedestal table",
+      "size_mm": [
+        950,
+        600,
+        420
+      ]
+    },
+    {
+      "id": "B-RUG-01",
+      "label": "Geometric oatmeal/olive rug",
+      "size_mm": [
+        3150,
+        2200,
+        10
+      ]
+    },
+    {
+      "id": "B-SIDE-01",
+      "label": "Plum side table",
+      "size_mm": [
+        400,
+        400,
+        520
+      ]
+    },
+    {
+      "id": "B-LAMP-TABLE-01",
+      "label": "Cream mushroom lamp",
+      "size_mm": [
+        220,
+        220,
+        400
+      ]
+    },
+    {
+      "id": "B-LAMP-FLOOR-01",
+      "label": "Brass floor lamp",
+      "size_mm": [
+        280,
+        280,
+        1550
+      ]
+    },
+    {
+      "id": "B-PLANT-01",
+      "label": "Ficus",
+      "size_mm": [
+        600,
+        600,
+        1500
+      ]
+    }
+  ],
+  "limits": "Site dimensions, camera calibration and retail-product fit remain unverified."
+}
