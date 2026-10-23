@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-living-abc / 2026-10-23T21:10:24+08:00",
+  "build": "408-living-abc / 2026-10-23T22:11:23+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -27487,43 +27487,44 @@
         "Seating option A, a classic 3 + 1 + 1: sofa along the south window facing the TV, two woven armchairs along the east window south of the window AC with a side table between them.",
         "Author Claude Fable (Fable 5.1 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout.",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
-        "Render QA pass 1 (23 Oct 2026): 0 of 4 views pass; the others drift from the model view and wait for a corrected re-render."
+        "Render QA pass 1 (23 Oct 2026): 0 of 4 views pass; the others drift from the model view and wait for a corrected re-render.",
+        "Aspect check (23 Oct 2026): Codex returned the 4:3 model views at 3:2, so every pass-1 render came back stretched or cropped. 0 of 4 renders kept after a 4:3 de-stretch; the other views show the model view until the re-render."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/liv/",
-      "hero": "liv/assets/LVA-render-liv_entry.webp",
+      "hero": "liv/assets/LVA-room-liv_entry.webp",
       "plan": "liv/assets/PLAN-LVA-LIV.png",
       "views": [
         {
           "label": "Entrance door · Day",
           "kind": "liv-door-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVA-render-liv_entry.webp",
-          "caption": "AI style render at standing eye level just inside door D-W, looking along the bay to the east window and the seating. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVA-room-liv_entry.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and no piece in it could be measured against the model. A re-render from 3:2 model views is due after 30 Oct 2026."
         },
         {
           "label": "TV wall · Day",
           "kind": "liv-tv-wall-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVA-render-liv_main.webp",
-          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall, over the seating group. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVA-room-liv_main.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and its de-stretched copy missed the 3% check (TV width 1.034, width:height 0.947 of the model). A re-render from 3:2 model views is due after 30 Oct 2026."
         },
         {
           "label": "Window corner · Day",
           "kind": "liv-window-corner-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVA-render-liv_opposite.webp",
-          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVA-room-liv_opposite.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and no piece in it could be measured against the model. A re-render from 3:2 model views is due after 30 Oct 2026."
         },
         {
           "label": "Hallway arch · Day",
           "kind": "liv-arch-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVA-render-liv_arch.webp",
-          "caption": "AI style render at standing eye level from the hallway arch, looking back across the seating to the bay and door D-W. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVA-room-liv_arch.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and no piece in it could be measured against the model. A re-render from 3:2 model views is due after 30 Oct 2026."
         }
       ],
       "products": [
@@ -27764,43 +27765,44 @@
         "Seating option B: the straight Clark 3-seater is ordered in the published Belfast Light Teal fabric (listing photo grey), the Ava ottoman in Carbon and the Alice tub chair in Yellow; sofa plus ottoman read as a sectional with a chaise. The Crate & Barrel faux cactus shares a product family with bedroom set MNO’s faux palm stems (different SKU and role); kept because the two alternatives are claimed by bedroom set F and dining set A.",
         "Author Claude Fable (Fable 5.1 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout.",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
-        "Render QA pass 1 (23 Oct 2026): 1 of 4 views pass (Hallway arch · Day); the others drift from the model view and wait for a corrected re-render."
+        "Render QA pass 1 (23 Oct 2026): 1 of 4 views pass (Hallway arch · Day); the others drift from the model view and wait for a corrected re-render.",
+        "Aspect check (23 Oct 2026): Codex returned the 4:3 model views at 3:2, so every pass-1 render came back stretched or cropped. 0 of 4 renders kept after a 4:3 de-stretch; the other views show the model view until the re-render."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/liv/",
-      "hero": "liv/assets/LVB-render-liv_entry.webp",
+      "hero": "liv/assets/LVB-room-liv_entry.webp",
       "plan": "liv/assets/PLAN-LVB-LIV.png",
       "views": [
         {
           "label": "Entrance door · Day",
           "kind": "liv-door-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVB-render-liv_entry.webp",
-          "caption": "AI style render at standing eye level just inside door D-W, looking along the bay to the east window and the seating. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVB-room-liv_entry.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and no piece in it could be measured against the model. A re-render from 3:2 model views is due after 30 Oct 2026."
         },
         {
           "label": "TV wall · Day",
           "kind": "liv-tv-wall-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVB-render-liv_main.webp",
-          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall, over the seating group. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVB-room-liv_main.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and its de-stretched copy missed the 3% check (TV width 1.077, width:height 0.958 of the model). A re-render from 3:2 model views is due after 30 Oct 2026."
         },
         {
           "label": "Window corner · Day",
           "kind": "liv-window-corner-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVB-render-liv_opposite.webp",
-          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVB-room-liv_opposite.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and no piece in it could be measured against the model. A re-render from 3:2 model views is due after 30 Oct 2026."
         },
         {
           "label": "Hallway arch · Day",
           "kind": "liv-arch-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVB-render-liv_arch.webp",
-          "caption": "AI style render at standing eye level from the hallway arch, looking back across the seating to the bay and door D-W. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): PASS."
+          "image": "liv/assets/LVB-room-liv_arch.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and no piece in it could be measured against the model. A re-render from 3:2 model views is due after 30 Oct 2026."
         }
       ],
       "products": [
@@ -28018,43 +28020,44 @@
         "Seating option C: two identical charcoal 2-seaters in an L along the south and east windows, a marble corner table between them, the lounge chair on the TV-wall side 1000 mm off the console.",
         "Author Claude Fable (Fable 5.1 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout.",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
-        "Render QA pass 1 (23 Oct 2026): 0 of 4 views pass; the others drift from the model view and wait for a corrected re-render. These renders also predate the floor-lamp move: the plan and model views show the lamp at the west arm of the south 2-seater, the renders still show it in front of the TV."
+        "Render QA pass 1 (23 Oct 2026): 0 of 4 views pass; the others drift from the model view and wait for a corrected re-render. These renders also predate the floor-lamp move: the plan and model views show the lamp at the west arm of the south 2-seater, the renders still show it in front of the TV.",
+        "Aspect check (23 Oct 2026): Codex returned the 4:3 model views at 3:2, so every pass-1 render came back stretched or cropped. 0 of 4 renders kept after a 4:3 de-stretch; the other views show the model view until the re-render."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/liv/",
-      "hero": "liv/assets/LVC-render-liv_entry.webp",
+      "hero": "liv/assets/LVC-room-liv_entry.webp",
       "plan": "liv/assets/PLAN-LVC-LIV.png",
       "views": [
         {
           "label": "Entrance door · Day",
           "kind": "liv-door-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVC-render-liv_entry.webp",
-          "caption": "AI style render at standing eye level just inside door D-W, looking along the bay to the east window and the seating. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVC-room-liv_entry.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and its de-stretched copy missed the 3% check (SOFA-E width 1.092, width:height 1.149 of the model). A re-render from 3:2 model views is due after 30 Oct 2026."
         },
         {
           "label": "TV wall · Day",
           "kind": "liv-tv-wall-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVC-render-liv_main.webp",
-          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall, over the seating group. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVC-room-liv_main.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and its de-stretched copy missed the 3% check (TV width 0.988, width:height 0.916 of the model). A re-render from 3:2 model views is due after 30 Oct 2026."
         },
         {
           "label": "Window corner · Day",
           "kind": "liv-window-corner-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVC-render-liv_opposite.webp",
-          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVC-room-liv_opposite.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and no piece in it could be measured against the model. A re-render from 3:2 model views is due after 30 Oct 2026."
         },
         {
           "label": "Hallway arch · Day",
           "kind": "liv-arch-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVC-render-liv_arch.webp",
-          "caption": "AI style render at standing eye level from the hallway arch, looking back across the seating to the bay and door D-W. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 1 (23 Oct 2026): drifts from the model view; corrected re-render pending."
+          "image": "liv/assets/LVC-room-liv_arch.webp",
+          "caption": "Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: Codex returned the 4:3 model view at 3:2, stretched or cropped, and no piece in it could be measured against the model. A re-render from 3:2 model views is due after 30 Oct 2026."
         }
       ],
       "products": [
