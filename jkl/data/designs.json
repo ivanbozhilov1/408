@@ -1,7 +1,7 @@
 {
   "title": "Unit 408 — three bedroom directions (J, K, L)",
   "as_of": "21 October 2026",
-  "overview": "Three new, fully sourced directions for Isah and Ivan, distinct from every earlier scheme: J White Gallery, a white room with one lilac-mauve accent, hidden valance light and a gallery of small frames; K Stitched Oak, a box-stitched headboard, natural oak and thin black lines under a crystal pendant; L Flax Wine, flax, wine and wicker around a mahogany spindle bed with pine and cane. Every visible piece is a real catalogue product; technical essentials stay common by agreement.",
+  "overview": "Three new, fully sourced directions for Isah and Ivan, distinct from every earlier scheme: J White Gallery, a white room with one lilac-mauve accent, hidden valance light and a gallery of small frames; K Stitched Oak, a box-stitched headboard, natural oak and thin black lines; L Flax Wine, flax, wine and wicker around a mahogany spindle bed with pine and cane. Every visible piece is a real catalogue product; technical essentials stay common by agreement.",
   "requirements": [
     "MANDATORY: finished 50 mm mattress, 72 × 78 inches (1828.8 × 1981.2 mm), on continuous flat support with no exposed slats or gaps. No thick mattress, topper or box spring.",
     "All prices assume new purchases. Three distinct sets of visible furniture, bedside lamps, fixtures, mirrors, rugs, textiles, plants and decor. Matching bedside pairs within each design.",
@@ -15,7 +15,7 @@
     "No scheme is purchase-ready until the bed supplier accepts the exact 50 mm mattress (1828.8 × 1981.2 mm) on a continuous flat deck. Geo (K) has slats, so a custom deck is required; Gibson (J) and Fidel (L) do not publish slats vs solid deck. Outer sizes are unpublished for all three frames.",
     "Availability: Gibson King was listed unavailable on the 20 Oct capture and the Nitori stand mirror (J) is \"unavailable online\"; confirm stock before choosing J.",
     "Prices are frozen pass-3 catalogue references (snapshot 20 Oct 2026) with each line's own price date; the Our Home beds were read from supplier JSON on 20 Oct 2026 (Fidel King from the collection JSON). Product existence and Cebu fulfilment require checkout confirmation.",
-    "Colour and size gates: J Vesper quilt and L faux-linen comforter are Full/Queen or Double-Queen sizes (short drop on the thin mattress); FAGERBACKEN dimensions unpublished; Kolya, Alphalux cane and Deidra lamp sockets and pendant sockets to confirm.",
+    "Colour and size gates: J Vesper quilt and L faux-linen comforter are Full/Queen or Double-Queen sizes (short drop on the thin mattress); FAGERBACKEN dimensions unpublished; Kolya, Alphalux cane and Deidra lamp sockets to confirm.",
     "TV mount is the True Vision TV73-69F (in stock per manufacturer API); installer to confirm substrate, anchors and Samsung fixings.",
     "Curtain ₱42,420 is the carried 16 October quote reference: ₱36,720 master treatment plus ₱3,800 valance and ₱1,900 sticks allocations. Remeasurement quote required.",
     "Trade/freight/mattress/deck reserves total ₱35,000–84,000 as estimator allowances, not supplier quotations. 10 % contingency added, totals rounded up to the next ₱1,000.",
@@ -93,7 +93,7 @@
     {
       "id": "K",
       "title": "Stitched Oak",
-      "rationale": "Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; a faceted silver-glass Blown pendant as the jewel; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.",
+      "rationale": "Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.",
       "palette": [
         "#c39a68",
         "#1e1e1e",
@@ -321,6 +321,33 @@
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
       "materials": "Use surface: 100 % polyester (100% recycled); Backing: 100 % Synthetic rubber; Back fabric: 100% polyester (min. 90% recycled)"
+    },
+    {
+      "id": "J-CEILING",
+      "schemes": [
+        "J"
+      ],
+      "role": "ceiling",
+      "name": "KÄRRNOCKA Ceiling lamp",
+      "brand": "IKEA",
+      "sku": "20599465",
+      "variant": "KÄRRNOCKA Ceiling lamp, white, 37 cm; article 20599465",
+      "quantity": 1,
+      "unit_centavos": 99900,
+      "line_centavos": 99900,
+      "url": "https://www.ikea.com/ph/en/p/kaerrnocka-ceiling-lamp-white-20599465/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Photo: flush white stepped/layered polypropylene diffuser on a white steel bracket, no drop. Available. Alt P40 IKEA FRIHULT ceiling lamp (semi-flush opal glass globe on anodised cup, H250, PHP 1,499).",
+      "dimensions": {
+        "height": 130
+      },
+      "scope": "design_piece",
+      "image": "assets/products/J-CEILING.avif",
+      "family": "IKEA KÄRRNOCKA",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Ceiling bracket: Steel, Powder coating; Shade: Polypropylene",
+      "removedFromDesign": true
     },
     {
       "id": "J-VALANCE-LED",
@@ -743,6 +770,35 @@
       "materials": null
     },
     {
+      "id": "K-CEILING",
+      "schemes": [
+        "K"
+      ],
+      "role": "ceiling",
+      "name": "Blown SW3 & SW4",
+      "brand": "&Tradition",
+      "sku": "Blown SW3 & SW4",
+      "variant": "Silver Lustre / SW3: Ø: 28cm; retailer SKU DS001600; Shopify variant 41309259694246",
+      "quantity": 1,
+      "unit_centavos": 3240000,
+      "line_centavos": 3240000,
+      "url": "https://www.designstory.com.ph/products/copy-of-blown-sw4?variant=41309259694246",
+      "status": "Available online | Cebu delivery: unconfirmed | price date 2026-09-10 | &Tradition",
+      "notes": "Photo: mouth-blown silver-lustre glass with an all-over faceted/diamond-quilted relief, black top cap and black cord. Available. Alt P52 IKEA HÖGVIND 3-lamp pendant (ribbed smoky glass shades, PHP 5,999) - budget fallback. No priced true crystal-prism chandelier exists; Barovier&Toso crystal pieces are unpriced and oversized.",
+      "dimensions": {
+        "width": 280,
+        "depth": 280,
+        "height": 280
+      },
+      "scope": "design_piece",
+      "image": "assets/products/K-CEILING.webp",
+      "family": "&Tradition Blown SW3",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
+      "materials": "Mouth-blown glass; metal fitting; fabric cord",
+      "removedFromDesign": true
+    },
+    {
       "id": "K-BEDSPREAD",
       "schemes": [
         "K"
@@ -1138,6 +1194,33 @@
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
       "materials": "100 % jute"
+    },
+    {
+      "id": "L-CEILING",
+      "schemes": [
+        "L"
+      ],
+      "role": "ceiling",
+      "name": "NARRKOLV Pendant lamp",
+      "brand": "IKEA",
+      "sku": "70595870",
+      "variant": "NARRKOLV Pendant lamp, rattan, 56 cm; article 70595870",
+      "quantity": 1,
+      "unit_centavos": 299900,
+      "line_centavos": 299900,
+      "url": "https://www.ikea.com/ph/en/p/narrkolv-pendant-lamp-rattan-70595870/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Photo: wide shallow dome of stained natural rattan weave, black cup. Available. Alt P90 Crate & Barrel Plantsman (handwoven natural arurog dome, satin black iron, PHP 10,005).",
+      "dimensions": {
+        "height": 140
+      },
+      "scope": "design_piece",
+      "image": "assets/products/L-CEILING.avif",
+      "family": "IKEA NARRKOLV",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Shade: Rattan, Stain; Ceiling cup/ Lampholder cup: Steel, Powder coating; Ring/ Junction box: Polypropylene; Protection layer: Synthetic rubber",
+      "removedFromDesign": true
     },
     {
       "id": "L-BEDSPREAD",

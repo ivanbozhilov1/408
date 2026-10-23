@@ -27,7 +27,7 @@ Quote-required items are shown explicitly and covered by the reserves, not silen
 - No scheme is purchase-ready until the bed supplier accepts the exact 50 mm mattress (1828.8 × 1981.2 mm) on a continuous flat deck. Geo (K) has slats, so a custom deck is required; Gibson (J) and Fidel (L) do not publish slats vs solid deck. Outer sizes are unpublished for all three frames.
 - Availability: Gibson King was listed unavailable on the 20 Oct capture and the Nitori stand mirror (J) is "unavailable online"; confirm stock before choosing J.
 - Prices are frozen pass-3 catalogue references (snapshot 20 Oct 2026) with each line's own price date; the Our Home beds were read from supplier JSON on 20 Oct 2026 (Fidel King from the collection JSON). Product existence and Cebu fulfilment require checkout confirmation.
-- Colour and size gates: J Vesper quilt and L faux-linen comforter are Full/Queen or Double-Queen sizes (short drop on the thin mattress); FAGERBACKEN dimensions unpublished; Kolya, Alphalux cane and Deidra lamp sockets and pendant sockets to confirm.
+- Colour and size gates: J Vesper quilt and L faux-linen comforter are Full/Queen or Double-Queen sizes (short drop on the thin mattress); FAGERBACKEN dimensions unpublished; Kolya, Alphalux cane and Deidra lamp sockets to confirm.
 - TV mount is the True Vision TV73-69F (in stock per manufacturer API); installer to confirm substrate, anchors and Samsung fixings.
 - Curtain ₱42,420 is the carried 16 October quote reference: ₱36,720 master treatment plus ₱3,800 valance and ₱1,900 sticks allocations. Remeasurement quote required.
 - Trade/freight/mattress/deck reserves total ₱35,000–84,000 as estimator allowances, not supplier quotations. 10 % contingency added, totals rounded up to the next ₱1,000.
@@ -75,7 +75,7 @@ Grey diamond-tufted Gibson bed in a white room: white-painted 861 two-drawer bed
 
 ## K · Stitched Oak
 
-Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; a faceted silver-glass Blown pendant as the jewel; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.
+Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.
 
 - TONSTAD 400 × 400 × 590 mm; Sierra console 1600 × 380 × 500 mm; Terni 650 × 800 mm.
 - Geo King outer size unpublished; drawers along the sides and foot: keep 600 mm clear at the foot for drawer pull.

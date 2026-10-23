@@ -34,7 +34,7 @@ Quote-required items are shown explicitly and covered by the reserves, not silen
 
 ## G · Graphite Steel
 
-Chalk-white tufted Gavino bed and a plain white duvet against anthracite powder-coated steel: GRÅFJÄLLET door bedsides, a FJÄLLBO mesh-door console and a slim black floor mirror. A graphite embossed-felt Kartell Clap armchair, a storm-grey chunky wool cushion and a grey-black TANNISBY kilim give the felt-and-wool texture. Light is directional: two black Tripod HM9 angled task lamps and a dark HEKTAR industrial pendant. Two brushed-black frames over the bed hold the owners' own black-and-white photographs; a spiky agave in a cement bowl softens the console. Squint phrase: black steel, chalk, felt.
+Chalk-white tufted Gavino bed and a plain white duvet against anthracite powder-coated steel: GRÅFJÄLLET door bedsides, a FJÄLLBO mesh-door console and a slim black floor mirror. A graphite embossed-felt Kartell Clap armchair, a storm-grey chunky wool cushion and a grey-black TANNISBY kilim give the felt-and-wool texture. Light is directional: two black Tripod HM9 angled task lamps. Two brushed-black frames over the bed hold the owners' own black-and-white photographs; a spiky agave in a cement bowl softens the console. Squint phrase: black steel, chalk, felt.
 
 - GRÅFJÄLLET bedsides 450×360 each side of the Gavino King; Gavino outer size not published, fit uses the mattress envelope.
 - FJÄLLBO 1500 mm console passes the ≤1600 mm short-console rule on the TV wall.
@@ -73,7 +73,7 @@ Chalk-white tufted Gavino bed and a plain white duvet against anthracite powder-
 
 ## H · Travertine Blush
 
-Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery (listed Grey; the supplier photo reads sand), taupe percale bedding on a soft low-pile leaf rug; stone surfaces carry the room: sintered-stone Venice bedsides, a white-marble Youset console, a marble-banded Emilia mirror and a stone-textured round wall piece. Blush is the single accent, on one coral-blush striped cushion and one blush-banded ceramic vase. Light is frosted: opal-globe Journey SHY1 bedside lamps and a three-globe SIMRISHAMN opal pendant. A soft beige Heather armchair with a back pillow sits in the window corner. Squint phrase: stone and blush.
+Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery (listed Grey; the supplier photo reads sand), taupe percale bedding on a soft low-pile leaf rug; stone surfaces carry the room: sintered-stone Venice bedsides, a white-marble Youset console, a marble-banded Emilia mirror and a stone-textured round wall piece. Blush is the single accent, on one coral-blush striped cushion and one blush-banded ceramic vase. Light is frosted: opal-globe Journey SHY1 bedside lamps. A soft beige Heather armchair with a back pillow sits in the window corner. Squint phrase: stone and blush.
 
 - Venice bedsides 500×400 each side of the Frances King (published King outer not confirmed; fit uses the mattress envelope plus wings).
 - Youset 1400 mm console passes the short-console rule.
@@ -113,7 +113,7 @@ Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery
 
 ## I · Plum Lacquer
 
-Charcoal button-tufted wingback Griffin II on a walnut drawer base, dressed in a quiet grey quilt cover with a plum-and-lilac handwoven Pintig cushion and a 1.8 m dark-red eucalyptus branch in a smoked-grey glass floor vase. Dark case goods: black-brown KULLEN two-drawer bedsides and a black Sigma Senor console. Smoked glass is the light: HÖGVIND grey-glass table lamps and the matching three-lamp HÖGVIND pendant. A dark-grey Kelly swivel tub chair, a black wavy Sabrina floor mirror, a dark RÅVAROR stripe flatweave with fine wine-red lines and one large black-and-grey abstract canvas over the bed. Squint phrase: dark lacquer, plum, smoked glass.
+Charcoal button-tufted wingback Griffin II on a walnut drawer base, dressed in a quiet grey quilt cover with a plum-and-lilac handwoven Pintig cushion and a 1.8 m dark-red eucalyptus branch in a smoked-grey glass floor vase. Dark case goods: black-brown KULLEN two-drawer bedsides and a black Sigma Senor console. Smoked glass is the light: HÖGVIND grey-glass table lamps. A dark-grey Kelly swivel tub chair, a black wavy Sabrina floor mirror, a dark RÅVAROR stripe flatweave with fine wine-red lines and one large black-and-grey abstract canvas over the bed. Squint phrase: dark lacquer, plum, smoked glass.
 
 - KULLEN bedsides 350×400 each side of the Griffin II King (drawer base, slats: CONDITIONAL flat deck).
 - Sigma Senor I 1230 mm console passes the short-console rule.

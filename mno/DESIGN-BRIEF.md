@@ -27,7 +27,7 @@ Quote-required items are shown explicitly and covered by the reserves, not silen
 - No scheme is purchase-ready until the bed supplier accepts the exact 50 mm mattress and a continuous flat deck. Gervaise (M) and Fulton (N) publish no deck construction or King outer size; SLATTUM (O) has a slatted base and a 180 cm opening, so the deck must sit on its rails (rail height unpublished).
 - Owner decision: an earlier pack excluded Gervaise because its drawers are attached to the headboard wings; M uses them as the bedside pair. Accept that, or swap M's bed and add a closed walnut bedside pair.
 - Prices are frozen pass-3 catalogue references (snapshot 20 Oct 2026, 23:14–23:17 Manila) with each line's own price date; beds and soft goods were read from supplier JSON on 20 Oct 2026; six chosen-colour variants and the SLATTUM page were read live on 21 Oct 2026. Product existence and photos are verified; exact Cebu stock, address delivery and checkout totals are not.
-- Colour and size gates: the Uratex Brave Brown (N) and Great Gray (O) covers photograph as sand-camel and pale greige; every Queen cover must be at least 72 in wide; GT01, WEST, Ebony Stone Jug, Q/Wood and Gervaise drawer sizes are unpublished; Imogen showed sold out in the capture; lamp and pendant socket types.
+- Colour and size gates: the Uratex Brave Brown (N) and Great Gray (O) covers photograph as sand-camel and pale greige; every Queen cover must be at least 72 in wide; GT01, WEST, Ebony Stone Jug, Q/Wood and Gervaise drawer sizes are unpublished; Imogen showed sold out in the capture; lamp socket types.
 - TV mount is the True Vision TV73-69F (in stock per manufacturer API); installer to confirm substrate, anchors and Samsung fixings.
 - Curtain ₱42,420 is the carried 16 October quote reference: ₱36,720 master treatment plus ₱3,800 valance and ₱1,900 sticks allocations. Remeasurement quote required.
 - Trade/freight/mattress/deck reserves total ₱35,000–84,000 as estimator allowances, not supplier quotations. 10 % contingency added, totals rounded up to the next ₱1,000.
@@ -35,7 +35,7 @@ Quote-required items are shown explicitly and covered by the reserves, not silen
 
 ## M · Walnut Poppy
 
-Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing panels and attached walnut drawers as the bedside pair; one poppy-red velvet cushion and one oxblood-red bottle vase as the only colour; black stone-jug lamps and a bare-bulb Mega Bulb pendant on a black cord; taupe wool flatweave with parquet margins. Squint phrase: walnut and red.
+Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing panels and attached walnut drawers as the bedside pair; one poppy-red velvet cushion and one oxblood-red bottle vase as the only colour; black stone-jug lamps; taupe wool flatweave with parquet margins. Squint phrase: walnut and red.
 
 - Gervaise King outer size is not published; planning envelope 1990 × 2140 mm platform plus attached wing/drawer units about 520 mm each side (total about 3.0 m) — confirm with Our Home before order.
 - The attached drawers are the bedside pair: no loose bedsides are added.
@@ -74,7 +74,7 @@ Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing pane
 
 ## N · Butter Embroidery
 
-Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral headboard; butter-yellow print cushions and white pillowcases on a sand-camel Brave Brown duvet; Imogen rattan-door bedsides, FRYKSÅS rattan console, AGEN rattan armchair and a bamboo MISTERHULT pendant; pleated KUDDLAVA lamps; yellow-beige TELEGRAFLINJE flat-weave. Squint phrase: yellow, bamboo, embroidery.
+Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral headboard; butter-yellow print cushions and white pillowcases on a sand-camel Brave Brown duvet; Imogen rattan-door bedsides, FRYKSÅS rattan console and AGEN rattan armchair; pleated KUDDLAVA lamps; yellow-beige TELEGRAFLINJE flat-weave. Squint phrase: yellow, bamboo, embroidery.
 
 - Fulton King outer size is not published (the listed L211 × W185 × H117 cm is the Queen listing); planning envelope mattress + 160 mm each way, headboard 1170 mm.
 - Imogen night stands showed sold out in the frozen capture — re-check stock before order (fallback: same-scheme swap logged in SELECTION-MATRIX.md).
@@ -114,7 +114,7 @@ Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral he
 
 ## O · Copper Marble
 
-Low charcoal SLATTUM bed with a rounded headboard on slim black legs; GT01 charcoal two-drawer bedsides with white marble-look tops and champagne legs; WEST fluted sideboard with a white stone top; Flowerpot VP1 dome pendant in polished copper; black Pantop cone lamps; dark-grey Safi rug, LILLEHEM charcoal armchair, Aosta black arch mirror and a monstera in a cement pot against white walls. Squint phrase: charcoal, marble, copper.
+Low charcoal SLATTUM bed with a rounded headboard on slim black legs; GT01 charcoal two-drawer bedsides with white marble-look tops and champagne legs; WEST fluted sideboard with a white stone top; black Pantop cone lamps; dark-grey Safi rug, LILLEHEM charcoal armchair, Aosta black arch mirror and a monstera in a cement pot against white walls. Squint phrase: charcoal, marble, copper.
 
 - SLATTUM 180 × 200 cm has an inner opening narrower than the 72 in mattress: the custom continuous deck must sit ON the rails (outer 1840 × 2060 mm), not inside them — REQUIRED-FLAT-DECK.
 - GT01 and WEST dimensions are not published in the frozen catalogue; planning sizes 500 × 400 × 550 mm and 1500 × 450 × 780 mm — confirm WEST ≤ 1600 mm.
