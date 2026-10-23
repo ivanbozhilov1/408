@@ -68,18 +68,18 @@ function client(server, {storage = new Store(), locals = [], items = simple} = {
 async function flush(instance) { await instance.refresh(); if(instance.state().pending) await instance.refresh(); }
 async function scopeFor(value = token) { return Buffer.from(await webcrypto.subtle.digest('SHA-256',new TextEncoder().encode(value))).subarray(0,16).toString('hex'); }
 
-test('all 693 catalogue IDs map uniquely; all 309 legacy Fable wire IDs are preserved', () => {
+test('all 710 catalogue IDs map uniquely; all 326 legacy Fable wire IDs are preserved', () => {
   const data = JSON.parse(fs.readFileSync(base + 'collection-data.json'));
   const local = new Map(data.designs.flatMap(d=>d.products).map(p=>[p.id,p]));
-  assert.equal(catalog.length,693); assert.equal(new Set(catalog.map(x=>x.id)).size,693);
-  assert.equal(new Set(catalog.map(x=>x.localId)).size,693);
+  assert.equal(catalog.length,710); assert.equal(new Set(catalog.map(x=>x.id)).size,710);
+  assert.equal(new Set(catalog.map(x=>x.localId)).size,710);
   let legacy = 0;
   for(const item of catalog){
     const product=local.get(item.localId); assert.ok(product);
-    const prior=product.legacyIds.find(id=>/^(def|ghi|jkl|mno|stu|hal):/.test(id));
+    const prior=product.legacyIds.find(id=>/^(def|ghi|jkl|mno|stu|hal|hop):/.test(id));
     if(prior){legacy++;assert.equal(item.id,prior)}else assert.equal(item.id,product.id);
   }
-  assert.equal(legacy,309);
+  assert.equal(legacy,326);
 });
 
 test('preferred → neutral → excluded; plain neutral and preferred cannot clear exclusion; fresh Restore works', async () => {

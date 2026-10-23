@@ -17968,6 +17968,477 @@
           "height": 1200
         }
       }
+    },
+    {
+      "id": "hop:HD-CABINET",
+      "localId": "opus-hal-def-20261023::HD-CABINET",
+      "designId": "opus-hal-def-20261023:D",
+      "designIds": [
+        "opus-hal-def-20261023:D"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · D · Harbour Grey",
+      "name": "BoConcept Lugano double dresser, carved fronts",
+      "url": "/408/#design=opus-hal-def-20261023%3AD",
+      "product": {
+        "role": "console",
+        "name": "Lugano double dresser, carved fronts",
+        "brand": "BoConcept",
+        "sku": "3800VF000008A01",
+        "variant": "Lugano double dresser, carved fronts; manufacturer variant/SKU 3800VF000008A01; master 3800VF00; selected configuration codes: vaMaterial=0008; vaMaterialLeg=0128",
+        "family": "BoConcept Lugano",
+        "url": "https://www.boconcept.com/en-ph/p/lugano/380vf00-4:0008-9:0128/",
+        "scope": "design_piece",
+        "materials": "Published material groups: Wood; finish: Base cabinet: lacquered|Front: lacquered|Leg: powder coated",
+        "dimensions": {
+          "width": 1540,
+          "depth": 480,
+          "height": 930
+        }
+      }
+    },
+    {
+      "id": "hop:HD-LAMP",
+      "localId": "opus-hal-def-20261023::HD-LAMP",
+      "designId": "opus-hal-def-20261023:D",
+      "designIds": [
+        "opus-hal-def-20261023:D"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · D · Harbour Grey",
+      "name": "Ashley Lemmitt Table Lamp",
+      "url": "/408/#design=opus-hal-def-20261023%3AD",
+      "product": {
+        "role": "table_lamp",
+        "name": "Lemmitt Table Lamp",
+        "brand": "Ashley",
+        "sku": "L430784",
+        "variant": "Lemmitt Table Lamp; manufacturer SKU L430784; Navy",
+        "family": "Ashley Lemmitt",
+        "url": "https://store.ashleyfurniture.ph/products/lemmitt-table-lamp?variant=50128947478814",
+        "scope": "design_piece",
+        "materials": "Made of art glass and crystal with drum hardback fabric shade",
+        "dimensions": {
+          "width": 355.6,
+          "depth": 355.6,
+          "height": 546.1
+        }
+      }
+    },
+    {
+      "id": "hop:HD-RUG",
+      "localId": "opus-hal-def-20261023::HD-RUG",
+      "designId": "opus-hal-def-20261023:D",
+      "designIds": [
+        "opus-hal-def-20261023:D"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · D · Harbour Grey",
+      "name": "IKEA KONSTRUNDA Rug",
+      "url": "/408/#design=opus-hal-def-20261023%3AD",
+      "product": {
+        "role": "rug",
+        "name": "KONSTRUNDA Rug",
+        "brand": "IKEA",
+        "sku": "30622941",
+        "variant": "KONSTRUNDA Rug, white/black, 80x160 cm; article 30622941",
+        "family": "IKEA KONSTRUNDA",
+        "url": "https://www.ikea.com/ph/en/p/konstrunda-rug-white-black-30622941/",
+        "scope": "design_piece",
+        "materials": "Use surface: 100 % wool; Base fabric: 100% polyester (min. 90% recycled); Surface coating: 100 % EVA plastic; Back fabric: 100 % cotton",
+        "dimensions": {
+          "width": 800,
+          "depth": 1600,
+          "height": 10
+        }
+      }
+    },
+    {
+      "id": "hop:HD-PLANT",
+      "localId": "opus-hal-def-20261023::HD-PLANT",
+      "designId": "opus-hal-def-20261023:D",
+      "designIds": [
+        "opus-hal-def-20261023:D"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · D · Harbour Grey",
+      "name": "Ashley A54300009 Greenery",
+      "url": "/408/#design=opus-hal-def-20261023%3AD",
+      "product": {
+        "role": "plant",
+        "name": "A54300009 Greenery",
+        "brand": "Ashley",
+        "sku": "A54300009",
+        "variant": "A54300009 Greenery; manufacturer SKU A54300009; Default Title",
+        "family": "Ashley A54300009",
+        "url": "https://store.ashleyfurniture.ph/products/a54300009-greenery?variant=45493108998430",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 550,
+          "depth": 550,
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "hop:HD-LIGHT",
+      "localId": "opus-hal-def-20261023::HD-LIGHT",
+      "designId": "opus-hal-def-20261023:D",
+      "designIds": [
+        "opus-hal-def-20261023:D"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · D · Harbour Grey",
+      "name": "IKEA FLASKPOST LED cabinet/wall light",
+      "url": "/408/#design=opus-hal-def-20261023%3AD",
+      "product": {
+        "role": "wall_light",
+        "name": "FLASKPOST LED cabinet/wall light",
+        "brand": "IKEA",
+        "sku": "40591091",
+        "variant": "FLASKPOST LED cabinet/wall light, chrome plated, 82 cm; article 40591091",
+        "family": "IKEA FLASKPOST",
+        "url": "https://www.ikea.com/ph/en/p/flaskpost-led-cabinet-wall-light-chrome-plated-40591091/",
+        "scope": "technical_essential",
+        "materials": "Base/ Shade: Steel, Chrome plated; End cap: Silicone rubber; Joint: Zinc",
+        "dimensions": {
+          "width": 820,
+          "depth": 140,
+          "height": 40
+        }
+      }
+    },
+    {
+      "id": "hop:HAL-MAP",
+      "localId": "opus-hal-def-20261023::HAL-MAP",
+      "designId": "opus-hal-def-20261023:D",
+      "designIds": [
+        "opus-hal-def-20261023:D",
+        "opus-hal-def-20261023:E",
+        "opus-hal-def-20261023:F"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · D · Harbour Grey",
+      "name": "LEGO Art World Map 31203 (owner-supplied)",
+      "url": "/408/#design=opus-hal-def-20261023%3AD",
+      "product": {
+        "role": "art",
+        "name": "LEGO Art World Map 31203 (owner-supplied)",
+        "brand": "LEGO",
+        "sku": "31203",
+        "variant": "11,695-piece mosaic, 104 x 65 cm assembled, hung on its own brackets in three panels; owned, not purchased",
+        "family": "LEGO Art World Map 31203 (owner-supplied)",
+        "url": null,
+        "scope": "fixed_room_treatment",
+        "dimensions": {
+          "width": 1040,
+          "depth": 40,
+          "height": 650
+        }
+      }
+    },
+    {
+      "id": "hop:HE-CABINET",
+      "localId": "opus-hal-def-20261023::HE-CABINET",
+      "designId": "opus-hal-def-20261023:E",
+      "designIds": [
+        "opus-hal-def-20261023:E"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · E · Conservatory Sage",
+      "name": "BLIMS Fine Furniture LAUREN DRESSER",
+      "url": "/408/#design=opus-hal-def-20261023%3AE",
+      "product": {
+        "role": "console",
+        "name": "LAUREN DRESSER",
+        "brand": "BLIMS Fine Furniture",
+        "sku": "IDRZ0149K",
+        "variant": "Default published variant; SKU IDRZ0149K",
+        "family": "BLIMS Fine Furniture LAUREN",
+        "url": "https://blimsfurniture.com.ph/products/lauren-dresser",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 1500,
+          "depth": 450,
+          "height": 850
+        }
+      }
+    },
+    {
+      "id": "hop:HE-RUG",
+      "localId": "opus-hal-def-20261023::HE-RUG",
+      "designId": "opus-hal-def-20261023:E",
+      "designIds": [
+        "opus-hal-def-20261023:E"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · E · Conservatory Sage",
+      "name": "IKEA RIDSTIG Rug, flatwoven",
+      "url": "/408/#design=opus-hal-def-20261023%3AE",
+      "product": {
+        "role": "rug",
+        "name": "RIDSTIG Rug, flatwoven",
+        "brand": "IKEA",
+        "sku": "40600967",
+        "variant": "RIDSTIG Rug, flatwoven, off-white/green, 133x195 cm; article 40600967",
+        "family": "IKEA RIDSTIG",
+        "url": "https://www.ikea.com/ph/en/p/ridstig-rug-flatwoven-off-white-green-40600967/",
+        "scope": "design_piece",
+        "materials": "100 % cotton",
+        "dimensions": {
+          "width": 1330,
+          "depth": 1950,
+          "height": 6
+        }
+      }
+    },
+    {
+      "id": "hop:HE-PLANT",
+      "localId": "opus-hal-def-20261023::HE-PLANT",
+      "designId": "opus-hal-def-20261023:E",
+      "designIds": [
+        "opus-hal-def-20261023:E"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · E · Conservatory Sage",
+      "name": "Ashley A54200036 Greenery",
+      "url": "/408/#design=opus-hal-def-20261023%3AE",
+      "product": {
+        "role": "plant",
+        "name": "A54200036 Greenery",
+        "brand": "Ashley",
+        "sku": "A54200036",
+        "variant": "A54200036 Greenery; manufacturer SKU A54200036; Default Title",
+        "family": "Ashley A54200036",
+        "url": "https://store.ashleyfurniture.ph/products/greenery-a54200036?variant=48426152526110",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 600,
+          "depth": 600,
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "hop:HE-SCONCES",
+      "localId": "opus-hal-def-20261023::HE-SCONCES",
+      "designId": "opus-hal-def-20261023:E",
+      "designIds": [
+        "opus-hal-def-20261023:E"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · E · Conservatory Sage",
+      "name": "IKEA MÅNALG Wall lamp",
+      "url": "/408/#design=opus-hal-def-20261023%3AE",
+      "product": {
+        "role": "wall_light",
+        "name": "MÅNALG Wall lamp",
+        "brand": "IKEA",
+        "sku": "90483895",
+        "variant": "MÅNALG Wall lamp, sedge/handmade; article 90483895",
+        "family": "IKEA MÅNALG",
+        "url": "https://www.ikea.com/ph/en/p/manalg-wall-lamp-sedge-handmade-90483895/",
+        "scope": "technical_essential",
+        "materials": "Shade: Sedge, Clear lacquer; Shade holder/ Mounting bracket: Steel, Powder coating; Lamp house: Polycarbonate plastic; Ball: Steel, Paint",
+        "dimensions": {
+          "width": 350,
+          "depth": 180,
+          "height": 290
+        }
+      }
+    },
+    {
+      "id": "hop:HE-PAINT",
+      "localId": "opus-hal-def-20261023::HE-PAINT",
+      "designId": "opus-hal-def-20261023:E",
+      "designIds": [
+        "opus-hal-def-20261023:E"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · E · Conservatory Sage",
+      "name": "Sage-green paint on the plain (map) wall",
+      "url": "/408/#design=opus-hal-def-20261023%3AE",
+      "product": {
+        "role": "wall_paint",
+        "name": "Sage-green paint on the plain (map) wall",
+        "brand": "To source",
+        "sku": null,
+        "variant": "Soft sage green, washable matte, skirting to cornice on the plain wall only (about 4.4 x 2.7 m); the other walls stay off-white",
+        "family": "To source Sage-green paint on the plain (map) wall",
+        "url": null,
+        "scope": "technical_essential",
+        "dimensions": {
+          "width": 4400,
+          "depth": 1,
+          "height": 2700
+        }
+      }
+    },
+    {
+      "id": "hop:HF-CABINET",
+      "localId": "opus-hal-def-20261023::HF-CABINET",
+      "designId": "opus-hal-def-20261023:F",
+      "designIds": [
+        "opus-hal-def-20261023:F"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · F · Charcoal Gallery",
+      "name": "BLIMS Fine Furniture FREYA DRESSER",
+      "url": "/408/#design=opus-hal-def-20261023%3AF",
+      "product": {
+        "role": "console",
+        "name": "FREYA DRESSER",
+        "brand": "BLIMS Fine Furniture",
+        "sku": "IDRZ0148Z",
+        "variant": "Default published variant; SKU IDRZ0148Z",
+        "family": "BLIMS Fine Furniture FREYA",
+        "url": "https://blimsfurniture.com.ph/products/freya-dresser",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 1500,
+          "depth": 500,
+          "height": 825
+        }
+      }
+    },
+    {
+      "id": "hop:HF-LAMP",
+      "localId": "opus-hal-def-20261023::HF-LAMP",
+      "designId": "opus-hal-def-20261023:F",
+      "designIds": [
+        "opus-hal-def-20261023:F"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · F · Charcoal Gallery",
+      "name": "Mejore Home Taron Table Lamp",
+      "url": "/408/#design=opus-hal-def-20261023%3AF",
+      "product": {
+        "role": "table_lamp",
+        "name": "Taron Table Lamp",
+        "brand": "Mejore Home",
+        "sku": "R27576-1S",
+        "variant": "Taron Table Lamp; official listing SKU R27576-1S",
+        "family": "Mejore Home Taron",
+        "url": "https://mejore.ph/products/taron-table-lamp?variant=51717304647954",
+        "scope": "design_piece",
+        "materials": "Dark amber glass; iron; beige linen fabric shade",
+        "dimensions": {
+          "width": 330,
+          "depth": 250,
+          "height": 584
+        }
+      }
+    },
+    {
+      "id": "hop:HF-RUG",
+      "localId": "opus-hal-def-20261023::HF-RUG",
+      "designId": "opus-hal-def-20261023:F",
+      "designIds": [
+        "opus-hal-def-20261023:F"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · F · Charcoal Gallery",
+      "name": "IKEA VÄGNÄT Rug, flatwoven",
+      "url": "/408/#design=opus-hal-def-20261023%3AF",
+      "product": {
+        "role": "rug",
+        "name": "VÄGNÄT Rug, flatwoven",
+        "brand": "IKEA",
+        "sku": "70550824",
+        "variant": "VÄGNÄT Rug, flatwoven, off-white gray/handmade, 133x195 cm; article 70550824",
+        "family": "IKEA VÄGNÄT",
+        "url": "https://www.ikea.com/ph/en/p/vaegnaet-rug-flatwoven-off-white-gray-handmade-70550824/",
+        "scope": "design_piece",
+        "materials": "Use surface: 100 % wool; Warp: 100 % cotton",
+        "dimensions": {
+          "width": 1330,
+          "depth": 1950,
+          "height": 8
+        }
+      }
+    },
+    {
+      "id": "hop:HF-MIRROR",
+      "localId": "opus-hal-def-20261023::HF-MIRROR",
+      "designId": "opus-hal-def-20261023:F",
+      "designIds": [
+        "opus-hal-def-20261023:F"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · F · Charcoal Gallery",
+      "name": "IKEA HOVET Mirror",
+      "url": "/408/#design=opus-hal-def-20261023%3AF",
+      "product": {
+        "role": "mirror",
+        "name": "HOVET Mirror",
+        "brand": "IKEA",
+        "sku": "50515916",
+        "variant": "HOVET Mirror, black, 78x196 cm; article 50515916",
+        "family": "IKEA HOVET",
+        "url": "https://www.ikea.com/ph/en/p/hovet-mirror-black-50515916/",
+        "scope": "design_piece",
+        "materials": "Mirror glass: Glass, Plastic foil; Frame: Aluminum, Anodized",
+        "dimensions": {
+          "width": 780,
+          "depth": 60,
+          "height": 1960
+        }
+      }
+    },
+    {
+      "id": "hop:HF-SPOTS",
+      "localId": "opus-hal-def-20261023::HF-SPOTS",
+      "designId": "opus-hal-def-20261023:F",
+      "designIds": [
+        "opus-hal-def-20261023:F"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · F · Charcoal Gallery",
+      "name": "IKEA SKURUP Wall lamp",
+      "url": "/408/#design=opus-hal-def-20261023%3AF",
+      "product": {
+        "role": "wall_light",
+        "name": "SKURUP Wall lamp",
+        "brand": "IKEA",
+        "sku": "70357379",
+        "variant": "SKURUP Wall lamp, black; article 70357379",
+        "family": "IKEA SKURUP",
+        "url": "https://www.ikea.com/ph/en/p/skurup-wall-lamp-black-70357379/",
+        "scope": "technical_essential",
+        "materials": "Steel, Powder coating",
+        "dimensions": {}
+      }
+    },
+    {
+      "id": "hop:HF-PAINT",
+      "localId": "opus-hal-def-20261023::HF-PAINT",
+      "designId": "opus-hal-def-20261023:F",
+      "designIds": [
+        "opus-hal-def-20261023:F"
+      ],
+      "board": "hop",
+      "label": "Claude Opus · F · Charcoal Gallery",
+      "name": "Charcoal paint on the plain (map) wall",
+      "url": "/408/#design=opus-hal-def-20261023%3AF",
+      "product": {
+        "role": "wall_paint",
+        "name": "Charcoal paint on the plain (map) wall",
+        "brand": "To source",
+        "sku": null,
+        "variant": "Deep warm charcoal, washable matte, skirting to cornice on the plain wall only (about 4.4 x 2.7 m); the other walls stay off-white",
+        "family": "To source Charcoal paint on the plain (map) wall",
+        "url": null,
+        "scope": "technical_essential",
+        "dimensions": {
+          "width": 4400,
+          "depth": 1,
+          "height": 2700
+        }
+      }
     }
   ]
 }
