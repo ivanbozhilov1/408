@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-valance-pass4-def / 2026-10-23T23:51:25+08:00",
+  "build": "408-living-def / 2026-10-24T00:47:20+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -28064,10 +28064,983 @@
         "totalCents": null
       },
       "room": "hallway"
+    },
+    {
+      "id": "opus-liv-def-20261023:D",
+      "namespace": "opus-liv-def-20261023",
+      "author": "Claude Opus",
+      "letter": "D",
+      "originalLetter": "LVD",
+      "name": "Midnight and Cherry",
+      "date": "2026-10-23",
+      "version": "opus-liv-def-20261023",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "summary": "A navy velvet channel-tufted 3-seater and one cherry-red wing chair against white high gloss, chrome and black, a charcoal-and-white striped flatweave underfoot and white glass-door bookcases filling the TV-wall recess. Seating option D: 3-seater along the south window facing the TV, the wing chair along the east window south of the window AC, an oval coffee table between, a side table at the east end of the sofa, the striped rug 2400 x 1700 under the table and the front sofa legs. Conditional fit on assumed heights (see Still to measure).",
+      "reviewNotes": [
+        "Conditional fit: the living area is not site-measured. The pack accepted these values as assumptions (ASSUMED.md): ceiling 2700 (as the master bedroom), east window sill/head 1000/1900 and south window 950/2050 (photo-fit from J055), door heights 2100, the window AC under the north end of the east window, the ceiling fan at its J055 position, and the hallway arch 1800 clear with its round head crowned at 2200 (photo F034). Every plan and view depends on them until taped.",
+        "Seating option D, a crisp city room in saturated jewel colours: navy velvet 3-seater along the south window, one cherry-red wing chair along the east window south of the window AC, white high gloss, chrome and a white marble look; two glass-door bookcases fill the TV-wall recess.",
+        "Author Claude Opus (Opus 5.5 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout. None of D/E/F repeats the palettes of Fable A/B/C or Astra A/B/C (CONCEPTS.md).",
+        "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
+        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)"
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/lop/",
+      "hero": "lop/assets/LVD-render-liv_entry.png",
+      "plan": "lop/assets/PLAN-LVD-LIV.png",
+      "views": [
+        {
+          "label": "Entrance door · Day",
+          "kind": "liv-door-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_entry.png",
+          "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "TV wall · Day",
+          "kind": "liv-tv-wall-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_main.png",
+          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Window corner · Day",
+          "kind": "liv-window-corner-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_opposite.png",
+          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Hallway arch · Day",
+          "kind": "liv-arch-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_arch.png",
+          "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Entrance door · Night",
+          "kind": "liv-door-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_entry-night.png",
+          "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "TV wall · Night",
+          "kind": "liv-tv-wall-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_main-night.png",
+          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Window corner · Night",
+          "kind": "liv-window-corner-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_opposite-night.png",
+          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Hallway arch · Night",
+          "kind": "liv-arch-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_arch-night.png",
+          "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        }
+      ],
+      "products": [
+        {
+          "id": "opus-liv-def-20261023::LVD-SOFA",
+          "originalId": "LVD-SOFA",
+          "legacyIds": [
+            "LVD-SOFA",
+            "lop:LVD-SOFA"
+          ],
+          "category": "sofa",
+          "name": "Our Home Our Home Cleburne 3 Seater Sofa",
+          "qty": 1,
+          "unitCents": 2515500,
+          "totalCents": 2515500,
+          "status": "Catalogue export 20 Oct 2026 | availability Online listing available | Cebu delivery unconfirmed",
+          "source": "https://ourhome.ph/products/our-home-cleburne-3-seater-sofa?variant=43710176428273",
+          "priceDate": "2026-10-20",
+          "variant": "Blue / 3 Seater",
+          "notes": "Navy velvet channel-tufted 3-seater on black legs; the anchor of the room, along the south window facing the TV.",
+          "brand": "Our Home",
+          "sku": "10415901",
+          "family": "Our Home Cleburne 3 Seater Sofa",
+          "scope": "design_piece",
+          "dimensions": "1854 × 920 × 850 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVD-ARMCHAIR",
+          "originalId": "LVD-ARMCHAIR",
+          "legacyIds": [
+            "LVD-ARMCHAIR",
+            "lop:LVD-ARMCHAIR"
+          ],
+          "category": "armchair",
+          "name": "IKEA OSKARSHAMN Wing chair",
+          "qty": 1,
+          "unitCents": 1499900,
+          "totalCents": 1499900,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://www.ikea.com/ph/en/p/oskarshamn-wing-chair-tonerud-red-10521679/",
+          "priceDate": "2026-10-20",
+          "variant": "OSKARSHAMN Wing chair, Tonerud red; article 10521679",
+          "notes": "Cherry-red high wing chair on pale legs, along the east window south of the window AC, turned to the group.",
+          "brand": "IKEA",
+          "sku": "10521679",
+          "family": "IKEA OSKARSHAMN Wing chair",
+          "scope": "design_piece",
+          "dimensions": "820 × 860 × 990 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVD-COFFEE",
+          "originalId": "LVD-COFFEE",
+          "legacyIds": [
+            "LVD-COFFEE",
+            "lop:LVD-COFFEE"
+          ],
+          "category": "coffee_table",
+          "name": "Mandaue Foam Youset Coffee Table",
+          "qty": 1,
+          "unitCents": 385000,
+          "totalCents": 385000,
+          "status": "Catalogue export 20 Oct 2026 | availability Catalog listed | Cebu delivery unconfirmed",
+          "source": "https://mandauefoam.ph/products/youset-coffee-table?variant=43506582028466",
+          "priceDate": "2026-10-20",
+          "variant": "Black Marble; SKU 123653",
+          "notes": "Oval white marble-look top and lower shelf on a black metal frame.",
+          "brand": "Mandaue Foam",
+          "sku": "123653",
+          "family": "Mandaue Foam Youset Coffee Table",
+          "scope": "design_piece",
+          "dimensions": "1000 × 500 × 400 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVD-SIDE",
+          "originalId": "LVD-SIDE",
+          "legacyIds": [
+            "LVD-SIDE",
+            "lop:LVD-SIDE"
+          ],
+          "category": "side_table",
+          "name": "Mandaue Foam Youset Side Table",
+          "qty": 1,
+          "unitCents": 185000,
+          "totalCents": 185000,
+          "status": "Catalogue export 20 Oct 2026 | availability Catalog listed | Cebu delivery unconfirmed",
+          "source": "https://mandauefoam.ph/products/youset-side-table?variant=43506620498098",
+          "priceDate": "2026-10-20",
+          "variant": "Black Marble; SKU 123657",
+          "notes": "Round white marble-look top on a black hoop frame, at the east end of the sofa.",
+          "brand": "Mandaue Foam",
+          "sku": "123657",
+          "family": "Mandaue Foam Youset Side Table",
+          "scope": "design_piece",
+          "dimensions": "480 × 480 × 570 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVD-CONSOLE",
+          "originalId": "LVD-CONSOLE",
+          "legacyIds": [
+            "LVD-CONSOLE",
+            "lop:LVD-CONSOLE"
+          ],
+          "category": "tv_console",
+          "name": "IKEA BESTÅ BURS TV unit",
+          "qty": 1,
+          "unitCents": 1999900,
+          "totalCents": 1999900,
+          "status": "Catalogue export 20 Oct 2026 | availability Available for delivery | Cebu delivery unconfirmed",
+          "source": "https://www.ikea.com/ph/en/p/besta-burs-tv-unit-high-gloss-white-60353536/",
+          "priceDate": "2026-10-20",
+          "variant": "TV unit, high gloss white, 180x41x49 cm (70 7/8x16 1/8x19 1/4 \")",
+          "notes": "High-gloss white low TV unit, 1800 long, centred under the 75 in TV.",
+          "brand": "IKEA",
+          "sku": "60353536",
+          "family": "IKEA BESTÅ BURS TV unit",
+          "scope": "design_piece",
+          "dimensions": "1800 × 410 × 490 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVD-SHELF",
+          "originalId": "LVD-SHELF",
+          "legacyIds": [
+            "LVD-SHELF",
+            "lop:LVD-SHELF"
+          ],
+          "category": "shelf",
+          "name": "IKEA BILLY / OXBERG Bookcase with glass-door",
+          "qty": 2,
+          "unitCents": 399900,
+          "totalCents": 799800,
+          "status": "Catalogue export 20 Oct 2026 | availability Catalog listed | Cebu delivery unconfirmed",
+          "source": "https://www.ikea.com/ph/en/p/billy-oxberg-bookcase-with-glass-door-white-glass-s59545358/",
+          "priceDate": "2026-10-20",
+          "variant": "BILLY / OXBERG Bookcase with glass-door, white/glass, 40x30x202 cm; article 59545358",
+          "notes": "Two white bookcases with glass doors side by side in the TV-wall recess (800 of its 1161 run, 300 deep in the 307 depth).",
+          "brand": "IKEA",
+          "sku": "59545358",
+          "family": "IKEA BILLY / OXBERG Bookcase with glass-door",
+          "scope": "design_piece",
+          "dimensions": "400 × 300 × 2020 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVD-LAMP",
+          "originalId": "LVD-LAMP",
+          "legacyIds": [
+            "LVD-LAMP",
+            "lop:LVD-LAMP"
+          ],
+          "category": "floor_lamp",
+          "name": "Mandaue Foam Bernth Floor Lamp",
+          "qty": 1,
+          "unitCents": 254000,
+          "totalCents": 254000,
+          "status": "Catalogue export 20 Oct 2026 | availability Catalog listed | Cebu delivery unconfirmed",
+          "source": "https://mandauefoam.ph/products/bernth-floor-lamp?variant=46906427637938",
+          "priceDate": "2026-10-20",
+          "variant": "Single published variant; SKU 137584",
+          "notes": "Chrome stem with a white pleated shade, at the west end of the sofa. Dimensions unpublished: planned at 350 x 350 x 1600.",
+          "brand": "Mandaue Foam",
+          "sku": "137584",
+          "family": "Mandaue Foam Bernth Floor Lamp",
+          "scope": "design_piece",
+          "dimensions": ""
+        },
+        {
+          "id": "opus-liv-def-20261023::LVD-RUG",
+          "originalId": "LVD-RUG",
+          "legacyIds": [
+            "LVD-RUG",
+            "lop:LVD-RUG"
+          ],
+          "category": "rug",
+          "name": "IKEA STOCKHOLM 2025 Rug, flatwoven",
+          "qty": 1,
+          "unitCents": 1199900,
+          "totalCents": 1199900,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://www.ikea.com/ph/en/p/stockholm-2025-rug-flatwoven-gray-white-handwoven-70593767/",
+          "priceDate": "2026-10-20",
+          "variant": "STOCKHOLM 2025 Rug, flatwoven, gray/white handwoven, 170x240 cm; article 70593767",
+          "notes": "Handwoven charcoal flatweave with white stripes, 170 x 240 cm, long side along the TV wall, under the table and the front sofa legs.",
+          "brand": "IKEA",
+          "sku": "70593767",
+          "family": "IKEA STOCKHOLM 2025 Rug, flatwoven",
+          "scope": "design_piece",
+          "dimensions": "1700 × 2400 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVD-ART",
+          "originalId": "LVD-ART",
+          "legacyIds": [
+            "LVD-ART",
+            "lop:LVD-ART"
+          ],
+          "category": "art",
+          "name": "Ashley A58000253 Wall Art",
+          "qty": 1,
+          "unitCents": 1160000,
+          "totalCents": 1160000,
+          "status": "Catalogue export 20 Oct 2026 | availability online_variant_available_cebu_stock_unconfirmed | Cebu delivery unconfirmed",
+          "source": "https://store.ashleyfurniture.ph/products/a58000253-wall-art?variant=45493421375774",
+          "priceDate": "2026-10-20",
+          "variant": "A58000253 Wall Art; manufacturer SKU A58000253; Default Title; Black/White",
+          "notes": "Navy, white and grey geometric print in a black frame, on the notch wall.",
+          "brand": "Ashley",
+          "sku": "A58000253",
+          "family": "Ashley A58000253 Wall Art",
+          "scope": "design_piece",
+          "dimensions": "609 × 25 × 787 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVD-PLANT",
+          "originalId": "LVD-PLANT",
+          "legacyIds": [
+            "LVD-PLANT",
+            "lop:LVD-PLANT"
+          ],
+          "category": "plant",
+          "name": "Heim Heim Fiddle Tree Artificial Potted Plant 150cm",
+          "qty": 1,
+          "unitCents": 207900,
+          "totalCents": 207900,
+          "status": "Catalogue export 20 Oct 2026 | availability online_variant_available_cebu_stock_unconfirmed | Cebu delivery unconfirmed",
+          "source": "https://shop.wilcon.com.ph/fiddle-tree-artificial-plant-284400024095.html",
+          "priceDate": "2026-10-20",
+          "variant": "Item 284400024095; model Jws3252",
+          "notes": "Faux fiddle-leaf fig, 150 cm, in a black pot, in the south-east corner. Pot size unpublished: planned at 450 x 450 x 1500.",
+          "brand": "Heim",
+          "sku": "284400024095",
+          "family": "Heim Fiddle Tree Artificial Potted Plant 150cm",
+          "scope": "design_piece",
+          "dimensions": ""
+        }
+      ],
+      "budget": {
+        "retailCents": 10206900,
+        "reserveLowCents": 1500000,
+        "reserveHighCents": 3700000,
+        "totalLowCents": 12900000,
+        "totalHighCents": 15300000,
+        "note": "Dated planning range (frozen 20 Oct 2026 catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Designs are alternatives, so rows must not be summed across them.",
+        "reserveCents": null,
+        "totalCents": null
+      },
+      "room": "living"
+    },
+    {
+      "id": "opus-liv-def-20261023:E",
+      "namespace": "opus-liv-def-20261023",
+      "author": "Claude Opus",
+      "letter": "E",
+      "originalLetter": "LVE",
+      "name": "Apricot and Charcoal",
+      "date": "2026-10-23",
+      "version": "opus-liv-def-20261023",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "summary": "One sculptural round-armed bouclé sofa in warm apricot-tan with a cream swivel chair and a charcoal concrete pedestal table, a black fluted TV stand and black steel shelves, a rice-paper column lamp and one faux travertine drink table. Seating option E: round-armed 3-seater along the south window facing the TV, the swivel chair on the east side south of the window AC turned toward the TV, the 1117 round table between, the drink table at the east end of the sofa, an off-white rug 2400 x 1700. Conditional fit on assumed heights (see Still to measure).",
+      "reviewNotes": [
+        "Conditional fit: the living area is not site-measured. The pack accepted these values as assumptions (ASSUMED.md): ceiling 2700 (as the master bedroom), east window sill/head 1000/1900 and south window 950/2050 (photo-fit from J055), door heights 2100, the window AC under the north end of the east window, the ceiling fan at its J055 position, and the hallway arch 1800 clear with its round head crowned at 2200 (photo F034). Every plan and view depends on them until taped.",
+        "Seating option E, soft modern with rounded forms: a round-armed apricot-tan sofa along the south window, a cream swivel chair on the east side turned toward the TV, a charcoal concrete-look pedestal table as the one heavy anchor; three black wall shelves in the TV-wall recess.",
+        "Author Claude Opus (Opus 5.5 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout. None of D/E/F repeats the palettes of Fable A/B/C or Astra A/B/C (CONCEPTS.md).",
+        "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
+        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)"
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/lop/",
+      "hero": "lop/assets/LVE-render-liv_entry.png",
+      "plan": "lop/assets/PLAN-LVE-LIV.png",
+      "views": [
+        {
+          "label": "Entrance door · Day",
+          "kind": "liv-door-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_entry.png",
+          "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "TV wall · Day",
+          "kind": "liv-tv-wall-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_main.png",
+          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Window corner · Day",
+          "kind": "liv-window-corner-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_opposite.png",
+          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Hallway arch · Day",
+          "kind": "liv-arch-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_arch.png",
+          "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Entrance door · Night",
+          "kind": "liv-door-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_entry-night.png",
+          "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "TV wall · Night",
+          "kind": "liv-tv-wall-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_main-night.png",
+          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Window corner · Night",
+          "kind": "liv-window-corner-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_opposite-night.png",
+          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Hallway arch · Night",
+          "kind": "liv-arch-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_arch-night.png",
+          "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        }
+      ],
+      "products": [
+        {
+          "id": "opus-liv-def-20261023::LVE-SOFA",
+          "originalId": "LVE-SOFA",
+          "legacyIds": [
+            "LVE-SOFA",
+            "lop:LVE-SOFA"
+          ],
+          "category": "sofa",
+          "name": "Our Home Francis Libiran Our Home Francis Libiran Florence 3 Seater Round Sofa",
+          "qty": 1,
+          "unitCents": 3995000,
+          "totalCents": 3995000,
+          "status": "Catalogue export 20 Oct 2026 | availability Online listing available | Cebu delivery unconfirmed",
+          "source": "https://ourhome.ph/products/our-home-francis-libiran-florence-3-seater-round-sofa?variant=47589290377457",
+          "priceDate": "2026-10-20",
+          "variant": "Brown",
+          "notes": "Round-armed bouclé 3-seater, listed colour Brown (a warm apricot-tan in the product photo), on black feet; the one curve of the room.",
+          "brand": "Our Home Francis Libiran",
+          "sku": "10428711",
+          "family": "Our Home Francis Libiran Florence 3 Seater Round Sofa",
+          "scope": "design_piece",
+          "dimensions": "1880 × 940 × 790 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVE-ARMCHAIR",
+          "originalId": "LVE-ARMCHAIR",
+          "legacyIds": [
+            "LVE-ARMCHAIR",
+            "lop:LVE-ARMCHAIR"
+          ],
+          "category": "armchair",
+          "name": "BLIMS Fine Furniture DARCY ACCENT CHAIR",
+          "qty": 1,
+          "unitCents": 2795000,
+          "totalCents": 2795000,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://blimsfurniture.com.ph/products/darcy-accent-chair?variant=45157088755939",
+          "priceDate": "2026-10-20",
+          "variant": "Beige / Ivory; SKU ISSF0042C",
+          "notes": "Cream low swivel chair on a metal swivel base, east side, turned toward the TV.",
+          "brand": "BLIMS Fine Furniture",
+          "sku": "ISSF0042C",
+          "family": "BLIMS Fine Furniture DARCY ACCENT CHAIR",
+          "scope": "design_piece",
+          "dimensions": "780 × 880 × 750 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVE-COFFEE",
+          "originalId": "LVE-COFFEE",
+          "legacyIds": [
+            "LVE-COFFEE",
+            "lop:LVE-COFFEE"
+          ],
+          "category": "coffee_table",
+          "name": "Crate & Barrel Willy Charcoal Concrete 44\" Round Pedestal Coffee Table by Leanne Ford",
+          "qty": 1,
+          "unitCents": 5999000,
+          "totalCents": 5999000,
+          "status": "Catalogue export 20 Oct 2026 | availability Online listing available | Cebu delivery unconfirmed",
+          "source": "https://crateandbarrel.com.ph/products/willy-charcoal-concrete-44-round-pedestal-coffee-table-by-leanne-ford?variant=51611616477400",
+          "priceDate": "2026-10-20",
+          "variant": "Willy Charcoal Concrete 44\" Round Pedestal Coffee Table by Leanne Ford; Charcoal; published SKU 357177; Shopify variant 51611616477400",
+          "notes": "Charcoal concrete round pedestal table, 1117 diameter.",
+          "brand": "Crate & Barrel",
+          "sku": "357177",
+          "family": "Crate & Barrel Willy Charcoal Concrete 44\" Round Pedestal Coffee Table by Leanne Ford",
+          "scope": "design_piece",
+          "dimensions": "1117 × 1117 × 431 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVE-SIDE",
+          "originalId": "LVE-SIDE",
+          "legacyIds": [
+            "LVE-SIDE",
+            "lop:LVE-SIDE"
+          ],
+          "category": "side_table",
+          "name": "Crate & Barrel Fleur Tall Faux Travertine Resin Drink Table",
+          "qty": 1,
+          "unitCents": 3499000,
+          "totalCents": 3499000,
+          "status": "Catalogue export 20 Oct 2026 | availability Online listing available | Cebu delivery unconfirmed",
+          "source": "https://crateandbarrel.com.ph/products/fleur-tall-faux-travertine-resin-drink-table?variant=44463573991640",
+          "priceDate": "2026-10-20",
+          "variant": "Fleur Tall Faux Travertine Resin Drink Table; Travertine; published SKU 566118; Shopify variant 44463573991640",
+          "notes": "Faux travertine drink table on a sculpted column, at the east end of the sofa.",
+          "brand": "Crate & Barrel",
+          "sku": "566118",
+          "family": "Crate & Barrel Fleur Tall Faux Travertine Resin Drink Table",
+          "scope": "design_piece",
+          "dimensions": "295 × 289 × 660 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVE-CONSOLE",
+          "originalId": "LVE-CONSOLE",
+          "legacyIds": [
+            "LVE-CONSOLE",
+            "lop:LVE-CONSOLE"
+          ],
+          "category": "tv_console",
+          "name": "Mandaue Foam Lindy TV Stand",
+          "qty": 1,
+          "unitCents": 985000,
+          "totalCents": 985000,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://mandauefoam.ph/products/lindy-tv-stand?variant=46168874746034",
+          "priceDate": "2026-10-20",
+          "variant": "Black; SKU 133916",
+          "notes": "Black fluted sliding-door TV stand on slim black legs, 1500 long, centred under the TV.",
+          "brand": "Mandaue Foam",
+          "sku": "133916",
+          "family": "Mandaue Foam Lindy TV Stand",
+          "scope": "design_piece",
+          "dimensions": "1500 × 400 × 500 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVE-SHELF",
+          "originalId": "LVE-SHELF",
+          "legacyIds": [
+            "LVE-SHELF",
+            "lop:LVE-SHELF"
+          ],
+          "category": "shelf",
+          "name": "IKEA FJÄLLBO Wall shelf",
+          "qty": 3,
+          "unitCents": 199900,
+          "totalCents": 599700,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://www.ikea.com/ph/en/p/fjaellbo-wall-shelf-black-00430585/",
+          "priceDate": "2026-10-20",
+          "variant": "FJÄLLBO Wall shelf, black, 101x20 cm; article 00430585",
+          "notes": "Three black steel bracket wall shelves with wood-look boards (1010 wide) one above the other in the TV-wall recess.",
+          "brand": "IKEA",
+          "sku": "00430585",
+          "family": "IKEA FJÄLLBO Wall shelf",
+          "scope": "design_piece",
+          "dimensions": "1010 × 200 × 210 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVE-LAMP",
+          "originalId": "LVE-LAMP",
+          "legacyIds": [
+            "LVE-LAMP",
+            "lop:LVE-LAMP"
+          ],
+          "category": "floor_lamp",
+          "name": "IKEA STRANDAD Floor lamp",
+          "qty": 1,
+          "unitCents": 79900,
+          "totalCents": 79900,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://www.ikea.com/ph/en/p/strandad-floor-lamp-white-black-90594836/",
+          "priceDate": "2026-10-20",
+          "variant": "STRANDAD Floor lamp, white/black; article 90594836",
+          "notes": "White rice-paper column shade on a black steel base, at the west end of the sofa. Dimensions unpublished: planned at 300 x 300 x 1500.",
+          "brand": "IKEA",
+          "sku": "90594836",
+          "family": "IKEA STRANDAD Floor lamp",
+          "scope": "design_piece",
+          "dimensions": ""
+        },
+        {
+          "id": "opus-liv-def-20261023::LVE-RUG",
+          "originalId": "LVE-RUG",
+          "legacyIds": [
+            "LVE-RUG",
+            "lop:LVE-RUG"
+          ],
+          "category": "rug",
+          "name": "IKEA STOENSE Rug, low pile",
+          "qty": 1,
+          "unitCents": 599900,
+          "totalCents": 599900,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://www.ikea.com/ph/en/p/stoense-rug-low-pile-off-white-00425536/",
+          "priceDate": "2026-10-20",
+          "variant": "STOENSE Rug, low pile, off-white, 170x240 cm; article 00425536",
+          "notes": "Off-white low-pile rug, 170 x 240 cm, long side along the TV wall.",
+          "brand": "IKEA",
+          "sku": "00425536",
+          "family": "IKEA STOENSE Rug, low pile",
+          "scope": "design_piece",
+          "dimensions": "1700 × 2400 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVE-ART",
+          "originalId": "LVE-ART",
+          "legacyIds": [
+            "LVE-ART",
+            "lop:LVE-ART"
+          ],
+          "category": "art",
+          "name": "Ashley A58000471 Wall Art",
+          "qty": 1,
+          "unitCents": 1300000,
+          "totalCents": 1300000,
+          "status": "Catalogue export 20 Oct 2026 | availability online_variant_available_cebu_stock_unconfirmed | Cebu delivery unconfirmed",
+          "source": "https://store.ashleyfurniture.ph/products/a58000471-wall-art?variant=50450656461086",
+          "priceDate": "2026-10-20",
+          "variant": "A58000471 Wall Art; manufacturer SKU A58000471; Default Title; Monochromatic finish in elegant black-and-white",
+          "notes": "Black and white brushstroke print in a black frame, 800 x 800, on the notch wall.",
+          "brand": "Ashley",
+          "sku": "A58000471",
+          "family": "Ashley A58000471 Wall Art",
+          "scope": "design_piece",
+          "dimensions": "800 × 34 × 800 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVE-PLANT",
+          "originalId": "LVE-PLANT",
+          "legacyIds": [
+            "LVE-PLANT",
+            "lop:LVE-PLANT"
+          ],
+          "category": "plant",
+          "name": "Flourish Flourish Olive tree with pot - Small",
+          "qty": 1,
+          "unitCents": 260910,
+          "totalCents": 260910,
+          "status": "Catalogue export 20 Oct 2026 | availability online_variant_available_cebu_stock_unconfirmed | Cebu delivery unconfirmed",
+          "source": "https://ourhome.ph/products/flourish-olive-tree-with-pot?variant=42663399686385",
+          "priceDate": "2026-10-20",
+          "variant": "Small; SKU 39226753",
+          "notes": "Faux olive tree (small) in a black pot, south-east corner. Size unpublished: planned at 500 x 500 x 1300.",
+          "brand": "Flourish",
+          "sku": "39226753",
+          "family": "Flourish Olive tree with pot - Small",
+          "scope": "design_piece",
+          "dimensions": ""
+        }
+      ],
+      "budget": {
+        "retailCents": 20113410,
+        "reserveLowCents": 1500000,
+        "reserveHighCents": 3700000,
+        "totalLowCents": 23800000,
+        "totalHighCents": 26200000,
+        "note": "Dated planning range (frozen 20 Oct 2026 catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Designs are alternatives, so rows must not be summed across them.",
+        "reserveCents": null,
+        "totalCents": null
+      },
+      "room": "living"
+    },
+    {
+      "id": "opus-liv-def-20261023:F",
+      "namespace": "opus-liv-def-20261023",
+      "author": "Claude Opus",
+      "letter": "F",
+      "originalLetter": "LVF",
+      "name": "Narra and Solihiya",
+      "date": "2026-10-23",
+      "version": "opus-liv-def-20261023",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "summary": "A Filipino heritage sala in dark-stained solid wood and solihiya cane: a scroll-armed 2-seater and two matching lounge chairs with cream cushions, a round cane-arched coffee table, a dark walnut TV cabinet, a bamboo column lamp and a woven black-and-cream wall piece. Seating option F: 2-seater along the south window facing the TV, the two lounge chairs side by side along the east window, both south of the window AC, the round coffee table between, a cream rug 2400 x 1700. Conditional fit on assumed heights (see Still to measure).",
+      "reviewNotes": [
+        "Conditional fit: the living area is not site-measured. The pack accepted these values as assumptions (ASSUMED.md): ceiling 2700 (as the master bedroom), east window sill/head 1000/1900 and south window 950/2050 (photo-fit from J055), door heights 2100, the window AC under the north end of the east window, the ceiling fan at its J055 position, and the hallway arch 1800 clear with its round head crowned at 2200 (photo F034). Every plan and view depends on them until taped.",
+        "Seating option F, a Filipino heritage sala in dark narra-stained hardwood and solihiya cane: a 2-seater along the south window and two matching lounge chairs side by side along the east window, a round cane-arched coffee table; a rack in the TV-wall recess.",
+        "Author Claude Opus (Opus 5.5 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout. None of D/E/F repeats the palettes of Fable A/B/C or Astra A/B/C (CONCEPTS.md).",
+        "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
+        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)"
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/lop/",
+      "hero": "lop/assets/LVF-render-liv_entry.png",
+      "plan": "lop/assets/PLAN-LVF-LIV.png",
+      "views": [
+        {
+          "label": "Entrance door · Day",
+          "kind": "liv-door-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_entry.png",
+          "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "TV wall · Day",
+          "kind": "liv-tv-wall-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_main.png",
+          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Window corner · Day",
+          "kind": "liv-window-corner-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_opposite.png",
+          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Hallway arch · Day",
+          "kind": "liv-arch-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_arch.png",
+          "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Entrance door · Night",
+          "kind": "liv-door-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_entry-night.png",
+          "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "TV wall · Night",
+          "kind": "liv-tv-wall-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_main-night.png",
+          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Window corner · Night",
+          "kind": "liv-window-corner-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_opposite-night.png",
+          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Hallway arch · Night",
+          "kind": "liv-arch-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_arch-night.png",
+          "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        }
+      ],
+      "products": [
+        {
+          "id": "opus-liv-def-20261023::LVF-SOFA",
+          "originalId": "LVF-SOFA",
+          "legacyIds": [
+            "LVF-SOFA",
+            "lop:LVF-SOFA"
+          ],
+          "category": "sofa",
+          "name": "Mejore Charlotte 2-Seater Sofa",
+          "qty": 1,
+          "unitCents": 6000000,
+          "totalCents": 6000000,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://mejore.ph/products/charlotte-2-seater-sofa?variant=44337276256530",
+          "priceDate": "2026-10-20",
+          "variant": "Charlotte 2-Seater Sofa; official listing SKU MCI-CHA-LRSF-CS0111S",
+          "notes": "Scroll-armed 2-seater in dark-stained solid wood with solihiya cane sides and cream cushions. Mejore publishes no dimensions: planned at 1550 x 850 x 900 until checked in the showroom.",
+          "brand": "Mejore",
+          "sku": "MCI-CHA-LRSF-CS0111S",
+          "family": "Mejore Charlotte 2-Seater Sofa",
+          "scope": "design_piece",
+          "dimensions": ""
+        },
+        {
+          "id": "opus-liv-def-20261023::LVF-ARMCHAIR",
+          "originalId": "LVF-ARMCHAIR",
+          "legacyIds": [
+            "LVF-ARMCHAIR",
+            "lop:LVF-ARMCHAIR"
+          ],
+          "category": "armchair",
+          "name": "Mejore Charlotte Lounge Chair",
+          "qty": 2,
+          "unitCents": 3928500,
+          "totalCents": 7857000,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://mejore.ph/products/charlotte-lounge-chair?variant=51715830120722",
+          "priceDate": "2026-10-20",
+          "variant": "Charlotte Lounge Chair; Beige; official listing SKU MCI-CHA-LRCH-CS0011/A",
+          "notes": "Matching scroll-armed lounge chairs, dark walnut finish, cane sides, beige cushions; side by side along the east window, both south of the window AC. Dimensions unpublished: planned at 900 x 850 x 900.",
+          "brand": "Mejore",
+          "sku": "MCI-CHA-LRCH-CS0011/A",
+          "family": "Mejore Charlotte Lounge Chair",
+          "scope": "design_piece",
+          "dimensions": ""
+        },
+        {
+          "id": "opus-liv-def-20261023::LVF-COFFEE",
+          "originalId": "LVF-COFFEE",
+          "legacyIds": [
+            "LVF-COFFEE",
+            "lop:LVF-COFFEE"
+          ],
+          "category": "coffee_table",
+          "name": "Mejore Stella Coffee Table",
+          "qty": 1,
+          "unitCents": 3170000,
+          "totalCents": 3170000,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://mejore.ph/products/stella-coffee-table?variant=44196038148370",
+          "priceDate": "2026-10-20",
+          "variant": "Stella Coffee Table; Walnut Brown; official listing SKU MCI-STE-LRTB-STL-0003/A",
+          "notes": "Round solid-wood top on two arched cane-panelled legs, 800 diameter.",
+          "brand": "Mejore",
+          "sku": "MCI-STE-LRTB-STL-0003/A",
+          "family": "Mejore Stella Coffee Table",
+          "scope": "design_piece",
+          "dimensions": "800 × 800 × 350 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVF-CONSOLE",
+          "originalId": "LVF-CONSOLE",
+          "legacyIds": [
+            "LVF-CONSOLE",
+            "lop:LVF-CONSOLE"
+          ],
+          "category": "tv_console",
+          "name": "BLIMS Fine Furniture ISTANBUL TV CABINET",
+          "qty": 1,
+          "unitCents": 2399500,
+          "totalCents": 2399500,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://blimsfurniture.com.ph/products/istanbul-tv-cabinet?variant=46215030440163",
+          "priceDate": "2026-10-20",
+          "variant": "Default Title; SKU ITVB0121L",
+          "notes": "Dark walnut TV cabinet with a glass sliding door, 1800 long.",
+          "brand": "BLIMS Fine Furniture",
+          "sku": "ITVB0121L",
+          "family": "BLIMS Fine Furniture ISTANBUL TV CABINET",
+          "scope": "design_piece",
+          "dimensions": "1800 × 450 × 599 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVF-SHELF",
+          "originalId": "LVF-SHELF",
+          "legacyIds": [
+            "LVF-SHELF",
+            "lop:LVF-SHELF"
+          ],
+          "category": "shelf",
+          "name": "Urban Concepts Rance Multipurpose Rack",
+          "qty": 1,
+          "unitCents": 727500,
+          "totalCents": 727500,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://www.urbanconcepts.ph/product/rance-multipurpose-rack/",
+          "priceDate": "2026-10-20",
+          "variant": "Display Rack; SKU F5-4704",
+          "notes": "Open solid rubberwood rack, 900 x 300 x 1800, in the TV-wall recess.",
+          "brand": "Urban Concepts",
+          "sku": "F5-4704",
+          "family": "Urban Concepts Rance Multipurpose Rack",
+          "scope": "design_piece",
+          "dimensions": "900 × 300 × 1800 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVF-LAMP",
+          "originalId": "LVF-LAMP",
+          "legacyIds": [
+            "LVF-LAMP",
+            "lop:LVF-LAMP"
+          ],
+          "category": "floor_lamp",
+          "name": "IKEA VARPTROSS Floor lamp",
+          "qty": 1,
+          "unitCents": 499900,
+          "totalCents": 499900,
+          "status": "Catalogue export 20 Oct 2026 | availability Catalog listed | Cebu delivery unconfirmed",
+          "source": "https://www.ikea.com/ph/en/p/varptross-floor-lamp-bamboo-70601220/",
+          "priceDate": "2026-10-20",
+          "variant": "VARPTROSS Floor lamp, bamboo, 118 cm; article 70601220",
+          "notes": "Bamboo slat column floor lamp, 1180 high, in the south-east corner. Footprint unpublished: planned at 250 x 250.",
+          "brand": "IKEA",
+          "sku": "70601220",
+          "family": "IKEA VARPTROSS Floor lamp",
+          "scope": "design_piece",
+          "dimensions": "1180 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVF-RUG",
+          "originalId": "LVF-RUG",
+          "legacyIds": [
+            "LVF-RUG",
+            "lop:LVF-RUG"
+          ],
+          "category": "rug",
+          "name": "IKEA TVERSTED Rug, low pile",
+          "qty": 1,
+          "unitCents": 1199900,
+          "totalCents": 1199900,
+          "status": "Catalogue export 20 Oct 2026 | availability In stock according to source | Cebu delivery unconfirmed",
+          "source": "https://www.ikea.com/ph/en/p/tversted-rug-low-pile-beige-30560863/",
+          "priceDate": "2026-10-20",
+          "variant": "TVERSTED Rug, low pile, beige, 170x240 cm; article 30560863",
+          "notes": "Low-pile cream rug with a fine grey diamond line, 170 x 240 cm, long side along the TV wall.",
+          "brand": "IKEA",
+          "sku": "30560863",
+          "family": "IKEA TVERSTED Rug, low pile",
+          "scope": "design_piece",
+          "dimensions": "1700 × 2400 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVF-ART",
+          "originalId": "LVF-ART",
+          "legacyIds": [
+            "LVF-ART",
+            "lop:LVF-ART"
+          ],
+          "category": "art",
+          "name": "Mo's Crib Mo's Crib Small Woven Wall Art",
+          "qty": 1,
+          "unitCents": 1259500,
+          "totalCents": 1259500,
+          "status": "Catalogue export 20 Oct 2026 | availability online_variant_available_cebu_stock_unconfirmed | Cebu delivery unconfirmed",
+          "source": "https://crateandbarrel.com.ph/products/mos-crib-small-woven-wall-art-1",
+          "priceDate": "2026-10-20",
+          "variant": "Single listed variant; SKU 472008",
+          "notes": "Black and cream hand-woven sun wall piece, 444 diameter, on the notch wall.",
+          "brand": "Mo's Crib",
+          "sku": "472008",
+          "family": "Mo's Crib Small Woven Wall Art",
+          "scope": "design_piece",
+          "dimensions": "444 × 6 mm"
+        },
+        {
+          "id": "opus-liv-def-20261023::LVF-PLANT",
+          "originalId": "LVF-PLANT",
+          "legacyIds": [
+            "LVF-PLANT",
+            "lop:LVF-PLANT"
+          ],
+          "category": "plant",
+          "name": "Crate & Barrel Potted Faux Philodendron 24\"",
+          "qty": 1,
+          "unitCents": 250500,
+          "totalCents": 250500,
+          "status": "Catalogue export 20 Oct 2026 | availability Online listing available | Cebu delivery unconfirmed",
+          "source": "https://crateandbarrel.com.ph/products/potted-faux-philodendron-24?variant=43717498011864",
+          "priceDate": "2026-10-20",
+          "variant": "Potted Faux Philodendron 24\"; Single listed configuration; published SKU 247656; Shopify variant 43717498011864",
+          "notes": "Faux philodendron in a white glazed ceramic pot, 609 high, at the west end of the sofa by the south window.",
+          "brand": "Crate & Barrel",
+          "sku": "247656",
+          "family": "Crate & Barrel Potted Faux Philodendron 24\"",
+          "scope": "design_piece",
+          "dimensions": "469 × 546 × 609 mm"
+        }
+      ],
+      "budget": {
+        "retailCents": 23363800,
+        "reserveLowCents": 1500000,
+        "reserveHighCents": 3700000,
+        "totalLowCents": 27400000,
+        "totalHighCents": 29800000,
+        "note": "Dated planning range (frozen 20 Oct 2026 catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Designs are alternatives, so rows must not be summed across them.",
+        "reserveCents": null,
+        "totalCents": null
+      },
+      "room": "living"
     }
   ],
   "coverage": {
-    "summary": "24 current finished concepts: six Astra and eighteen Fable (three of them hallway). Thirty current Astra images show three human viewpoints. Older studies remain outside the main gallery.",
+    "summary": "27 current finished concepts: six Astra, eighteen Fable (three of them hallway) and three Opus (living area). Thirty current Astra images show three human viewpoints. Older studies remain outside the main gallery.",
     "sets": [
       {
         "namespace": "astra-pqr-20261021-v001",
@@ -28148,6 +29121,11 @@
         "namespace": "gpt-ghi-rejected-v001-20261021",
         "title": "Walnut & Garden / Blue Skies & Bamboo / Blush & Blue",
         "status": "HUMAN_REJECTED_AND_STOPPED_INCOMPLETE_PHOTOREAL_REVERSE_GATE"
+      },
+      {
+        "namespace": "opus-liv-def-20261023",
+        "title": "Opus living D / E / F · Midnight and Cherry / Apricot and Charcoal / Narra and Solihiya",
+        "status": "Living-area set: three seating layouts with four views each by day and by night; conditional fit on assumed heights (ASSUMED.md), product availability and Cebu delivery unverified; no human acceptance evidenced."
       }
     ]
   },
@@ -28213,8 +29191,8 @@
       "id": "living",
       "label": "Living area",
       "short": "Living",
-      "status": "queued",
-      "statusLabel": "Room file ready · no designs yet",
+      "status": "designs",
+      "statusLabel": "Three designs · conditional fit on assumed heights",
       "lead": "Sheet 1 left blow-up (1:50); every dimension chain closes. Heights, sills, heads and the ceiling-fan position are placeholders. Checked 23 Oct 2026 against Jamaica's photo J055 (the bay looking east); J054 is low confidence.",
       "plan": {
         "image": "rooms/living-plan.png",
@@ -28285,7 +29263,7 @@
         "Whether a ceiling fan exists (J054 shows only downlights)",
         "Is the north-east diagonal an arch: clear width and head"
       ],
-      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack); the room-pack wiring for the rest of the unit is draft PR ivanbozhilov1/Ivan#6. The engine's gate blocks AI renders while a room file still holds placeholder values, so the first pack for a room needs its heights taped or accepted as assumptions.",
+      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack). The Claude Opus D / E / F set (23 Oct 2026) accepted the unmeasured heights and positions as assumptions, recorded in the pack’s ASSUMED.md and in Still to measure; every plan and view is a conditional fit until the room is taped. It draws the hallway arch with its round head (photo F034).",
       "emptyNote": "No living-area designs are published yet. Packs are generated offline by the room-pack chain and appear here as a set once published."
     },
     {
