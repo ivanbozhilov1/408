@@ -24072,7 +24072,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
-        "Known render limit (QA pass 3, 23 Oct): the S window-AC view adds a snake plant in a floor pot that is not in the scheme; the scheme plant is the pencil succulent on the console. The T window-AC view was re-rendered the same day to remove an invented floor olive tree (QA pass 4)."
+        "Render fixes (23 Oct): both window-AC views were re-rendered once to remove an invented floor plant, the snake plant in S (QA pass 5) and the olive tree in T (QA pass 4). Each scheme now shows only its own plant."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
       "hero": "stu/assets/S-render-entry.webp",
@@ -24831,7 +24831,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
-        "Known render limit (QA pass 3, 23 Oct): the S window-AC view adds a snake plant in a floor pot that is not in the scheme; the scheme plant is the pencil succulent on the console. The T window-AC view was re-rendered the same day to remove an invented floor olive tree (QA pass 4)."
+        "Render fixes (23 Oct): both window-AC views were re-rendered once to remove an invented floor plant, the snake plant in S (QA pass 5) and the olive tree in T (QA pass 4). Each scheme now shows only its own plant."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
       "hero": "stu/assets/T-render-entry.webp",
@@ -25565,7 +25565,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
-        "Known render limit (QA pass 3, 23 Oct): the S window-AC view adds a snake plant in a floor pot that is not in the scheme; the scheme plant is the pencil succulent on the console. The T window-AC view was re-rendered the same day to remove an invented floor olive tree (QA pass 4)."
+        "Render fixes (23 Oct): both window-AC views were re-rendered once to remove an invented floor plant, the snake plant in S (QA pass 5) and the olive tree in T (QA pass 4). Each scheme now shows only its own plant."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
       "hero": "stu/assets/U-render-entry.webp",
