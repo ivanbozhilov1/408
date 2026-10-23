@@ -1,4 +1,4 @@
-# Unit 408 — three further bedroom directions (HD, HE, HF)
+# Unit 408 — three Opus hallway directions (HD, HE, HF)
 
 As of 23 October 2026. All purchases priced as new.
 
@@ -7,7 +7,7 @@ As of 23 October 2026. All purchases priced as new.
 - Three distinct hallway sets with the same wall composition: the owner's LEGO Art World Map 31203 at true scale (1040 x 650, bottom at 1100) over a solid floor-standing dresser with six or more drawers and a display top. No model or family repeats across the schemes, the Fable hallway sets (A, B, C and H), the Astra hallway set or the other rooms' claims.
 - Conditional fit; hallway unmeasured: the ceiling, the corridor width and length, both arches, the window run and the light switch position are accepted assumptions (ASSUMED.md); every plan and view depends on them until the tape numbers arrive.
 - The dressers, lamps, rugs, plants, the mirror and the wall lights are real catalogue products with a supplier photo, price and source link; the map is owner-supplied at nil and the wall paint (E, F) is a planning allowance, not a product.
-- Kept in every scheme: both arches dark, the parquet throughout, Davies Beige blackout + voile with valance boards on the window run (Seoul Blinds offer, priced in the curtain quote, not here), no hallway aircon, no added ceiling light; the wall lights are plug-in proposals, labelled as proposals.
+- Kept in every scheme: both arches open with dark-stained casings, the parquet throughout, Davies Beige blackout + voile with valance boards on the window run (Seoul Blinds offer, priced in the curtain quote, not here), no hallway aircon, no added ceiling light; the wall lights are plug-in proposals, labelled as proposals.
 
 ## Budget comparison
 

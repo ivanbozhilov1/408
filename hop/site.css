@@ -41,6 +41,10 @@ nav .nav-picks b{font-weight:650;font-variant-numeric:tabular-nums}
 .set-nav [aria-current="page"]{color:var(--accent);font-weight:650}
 .scheme-section,.budget-section,.picks-section{scroll-margin-top:9.5rem}
 @media(max-width:760px){.site-header{row-gap:.4rem}.set-nav{font-size:.62rem;letter-spacing:.1em;gap:.15rem .75rem}.scheme-section,.budget-section,.picks-section{scroll-margin-top:8.25rem}}
+.render-withheld{background:#efe9dc;aspect-ratio:3/2;min-height:240px;padding:2rem;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:.6rem;border:1px solid var(--warn)}
+.render-withheld span{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+.render-withheld strong{font:1.6rem var(--serif);color:var(--warn)}
+.render-withheld p{font-size:.85rem;max-width:26rem}
 
 /* UNIT408 SHARED PICKS */
 .picks-sync{border:1px solid var(--line,#d8d2c7);padding:1rem;margin:1rem 0;overflow-wrap:anywhere}.picks-sync p{margin:.5rem 0}.picks-sync button,.picks-sync input{font:inherit;min-height:44px;padding:.55rem .8rem;max-width:100%}.picks-sync label{display:block;margin:.75rem 0}.picks-sync input{display:block;width:100%;box-sizing:border-box}.picks-sync ul{padding-left:1.25rem}.picks-sync li{margin:.5rem 0}.picks-sync [hidden]{display:none!important}.pick:disabled{cursor:default;opacity:.65}
