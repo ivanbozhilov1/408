@@ -69,7 +69,7 @@ def build(root=ROOT):
             entries[wire_id] = {
                 'id': wire_id, 'localId': local_id, 'designId': design['id'], 'designIds': [design['id']],
                 'board': board, 'label': design['author'] + ' · ' + design['letter'] + ' · ' + design['name'],
-                'name': product['name'], 'url': '/bedroom-design-options/#design=' + quote(design['id'], safe=''),
+                'name': product['name'], 'url': '/408/#design=' + quote(design['id'], safe=''),
                 'product': metadata,
             }
     old_ids = json.loads((root / 'ops/picks/catalog.json').read_text(encoding='utf-8'))

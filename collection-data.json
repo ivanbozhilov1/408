@@ -14222,7 +14222,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/fable-def.html",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/fable-def.html",
       "hero": "assets/D-render-entry.webp",
       "plan": null,
       "views": [
@@ -14246,9 +14246,9 @@
           "label": "Window corner · Day",
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/D-render-windowac.webp",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
+          "effectiveStatus": "INDEPENDENTLY_REVIEWED_2600_MM_ONE_VIEW_PILOT_OTHER_D_VIEWS_PENDING",
+          "image": "assets/D-render-windowac-ceiling2600-v1.webp",
+          "caption": "Independently reviewed 2600 mm ceiling and 50 mm mattress source-model view from the old window-AC corner, with no fan. This is the only D view updated so far; the other five D views remain pending. AI perspective and physical fit remain conditional."
         },
         {
           "label": "Entrance door · Night",
@@ -15079,7 +15079,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/fable-def.html",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/fable-def.html",
       "hero": "assets/E-render-entry.webp",
       "plan": null,
       "views": [
@@ -15937,7 +15937,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/fable-def.html",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/fable-def.html",
       "hero": "assets/F-render-entry.webp",
       "plan": null,
       "views": [
@@ -16791,12 +16791,12 @@
       "version": "fable-ghi-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Chalk-white tufted Gavino bed and a plain white duvet against anthracite powder-coated steel: GRÅFJÄLLET door bedsides, a FJÄLLBO mesh-door console and a slim black floor mirror. A graphite embossed-felt Kartell Clap armchair, a storm-grey chunky wool cushion and a grey-black TANNISBY kilim give the felt-and-wool texture. Light is directional: two black Tripod HM9 angled task lamps and a dark HEKTAR industrial pendant. Two brushed-black frames over the bed hold the owners' own black-and-white photographs; a spiky agave in a cement bowl softens the console. Squint phrase: black steel, chalk, felt.",
+      "summary": "Chalk-white tufted Gavino bed and a plain white duvet against anthracite powder-coated steel: GRÅFJÄLLET door bedsides, a FJÄLLBO mesh-door console and a slim black floor mirror. A graphite embossed-felt Kartell Clap armchair, a storm-grey chunky wool cushion and a grey-black TANNISBY kilim give the felt-and-wool texture. Light is directional: two black Tripod HM9 angled task lamps. Two brushed-black frames over the bed hold the owners' own black-and-white photographs; a spiky agave in a cement bowl softens the console. Squint phrase: black steel, chalk, felt.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/ghi/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/ghi/",
       "hero": "ghi/assets/G-render-entry.webp",
       "plan": null,
       "views": [
@@ -17024,7 +17024,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "ghi/assets/products/G-CEILING.avif"
+          "image": "ghi/assets/products/G-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-ghi-20261021::G-BEDSPREAD",
@@ -17556,11 +17557,11 @@
         }
       ],
       "budget": {
-        "retailCents": 37704850,
+        "retailCents": 37554950,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 45400000,
-        "totalHighCents": 50800000,
+        "totalLowCents": 45200000,
+        "totalHighCents": 50600000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -17577,12 +17578,12 @@
       "version": "fable-ghi-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery (listed Grey; the supplier photo reads sand), taupe percale bedding on a soft low-pile leaf rug; stone surfaces carry the room: sintered-stone Venice bedsides, a white-marble Youset console, a marble-banded Emilia mirror and a stone-textured round wall piece. Blush is the single accent, on one coral-blush striped cushion and one blush-banded ceramic vase. Light is frosted: opal-globe Journey SHY1 bedside lamps and a three-globe SIMRISHAMN opal pendant. A soft beige Heather armchair with a back pillow sits in the window corner. Squint phrase: stone and blush.",
+      "summary": "Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery (listed Grey; the supplier photo reads sand), taupe percale bedding on a soft low-pile leaf rug; stone surfaces carry the room: sintered-stone Venice bedsides, a white-marble Youset console, a marble-banded Emilia mirror and a stone-textured round wall piece. Blush is the single accent, on one coral-blush striped cushion and one blush-banded ceramic vase. Light is frosted: opal-globe Journey SHY1 bedside lamps. A soft beige Heather armchair with a back pillow sits in the window corner. Squint phrase: stone and blush.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/ghi/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/ghi/",
       "hero": "ghi/assets/H-render-entry.webp",
       "plan": null,
       "views": [
@@ -17810,7 +17811,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "ghi/assets/products/H-CEILING.avif"
+          "image": "ghi/assets/products/H-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-ghi-20261021::H-BEDSPREAD",
@@ -18335,7 +18337,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "technical_essential",
           "priceBasis": null,
-          "image": "jkl/assets/products/B-LAMP-BULBS.jpg"
+          "image": "jkl/assets/products/B-LAMP-BULBS.jpg",
+          "removedFromDesign": true
         },
         {
           "id": "fable-ghi-20261021::REQUIRED-MATTRESS50",
@@ -18393,11 +18396,11 @@
         }
       ],
       "budget": {
-        "retailCents": 35827828,
+        "retailCents": 35383228,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 43300000,
-        "totalHighCents": 48700000,
+        "totalLowCents": 42800000,
+        "totalHighCents": 48200000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -18414,12 +18417,12 @@
       "version": "fable-ghi-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Charcoal button-tufted wingback Griffin II on a walnut drawer base, dressed in a quiet grey quilt cover with a plum-and-lilac handwoven Pintig cushion and a 1.8 m dark-red eucalyptus branch in a smoked-grey glass floor vase. Dark case goods: black-brown KULLEN two-drawer bedsides and a black Sigma Senor console. Smoked glass is the light: HÖGVIND grey-glass table lamps and the matching three-lamp HÖGVIND pendant. A dark-grey Kelly swivel tub chair, a black wavy Sabrina floor mirror, a dark RÅVAROR stripe flatweave with fine wine-red lines and one large black-and-grey abstract canvas over the bed. Squint phrase: dark lacquer, plum, smoked glass.",
+      "summary": "Charcoal button-tufted wingback Griffin II on a walnut drawer base, dressed in a quiet grey quilt cover with a plum-and-lilac handwoven Pintig cushion and a 1.8 m dark-red eucalyptus branch in a smoked-grey glass floor vase. Dark case goods: black-brown KULLEN two-drawer bedsides and a black Sigma Senor console. Smoked glass is the light: HÖGVIND grey-glass table lamps. A dark-grey Kelly swivel tub chair, a black wavy Sabrina floor mirror, a dark RÅVAROR stripe flatweave with fine wine-red lines and one large black-and-grey abstract canvas over the bed. Squint phrase: dark lacquer, plum, smoked glass.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/ghi/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/ghi/",
       "hero": "ghi/assets/I-render-entry.webp",
       "plan": null,
       "views": [
@@ -18647,7 +18650,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "ghi/assets/products/I-CEILING.avif"
+          "image": "ghi/assets/products/I-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-ghi-20261021::I-BEDSPREAD",
@@ -19147,7 +19151,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "technical_essential",
           "priceBasis": null,
-          "image": "jkl/assets/products/B-LAMP-BULBS.jpg"
+          "image": "jkl/assets/products/B-LAMP-BULBS.jpg",
+          "removedFromDesign": true
         },
         {
           "id": "fable-ghi-20261021::REQUIRED-MATTRESS50",
@@ -19205,11 +19210,11 @@
         }
       ],
       "budget": {
-        "retailCents": 29464550,
+        "retailCents": 28819950,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 36300000,
-        "totalHighCents": 41700000,
+        "totalLowCents": 35600000,
+        "totalHighCents": 41000000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -19231,7 +19236,7 @@
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "J-main mattress reads about 100 mm despite 50 mm requirement; final status retains QA major after cap. Local dist lacks the later live cross-browser sync/header version; do not redeploy it over public jkl/."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/jkl/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/jkl/",
       "hero": "jkl/assets/J-render-entry.webp",
       "plan": null,
       "views": [
@@ -19459,7 +19464,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "jkl/assets/products/J-CEILING.avif"
+          "image": "jkl/assets/products/J-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-jkl-20261021::J-VALANCE-LED",
@@ -20038,11 +20044,11 @@
         }
       ],
       "budget": {
-        "retailCents": 22527250,
+        "retailCents": 22427350,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 28700000,
-        "totalHighCents": 34100000,
+        "totalLowCents": 28600000,
+        "totalHighCents": 34000000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -20059,12 +20065,12 @@
       "version": "fable-jkl-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; a faceted silver-glass Blown pendant as the jewel; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.",
+      "summary": "Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "J-main mattress reads about 100 mm despite 50 mm requirement; final status retains QA major after cap. Local dist lacks the later live cross-browser sync/header version; do not redeploy it over public jkl/."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/jkl/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/jkl/",
       "hero": "jkl/assets/K-render-entry.webp",
       "plan": null,
       "views": [
@@ -20292,7 +20298,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
-          "image": "jkl/assets/products/K-CEILING.webp"
+          "image": "jkl/assets/products/K-CEILING.webp",
+          "removedFromDesign": true
         },
         {
           "id": "fable-jkl-20261021::K-BEDSPREAD",
@@ -20845,11 +20852,11 @@
         }
       ],
       "budget": {
-        "retailCents": 53605750,
+        "retailCents": 50365750,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 62900000,
-        "totalHighCents": 68300000,
+        "totalLowCents": 59300000,
+        "totalHighCents": 64700000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -20871,7 +20878,7 @@
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "J-main mattress reads about 100 mm despite 50 mm requirement; final status retains QA major after cap. Local dist lacks the later live cross-browser sync/header version; do not redeploy it over public jkl/."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/jkl/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/jkl/",
       "hero": "jkl/assets/L-render-entry.webp",
       "plan": null,
       "views": [
@@ -21099,7 +21106,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "jkl/assets/products/L-CEILING.avif"
+          "image": "jkl/assets/products/L-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-jkl-20261021::L-BEDSPREAD",
@@ -21678,11 +21686,11 @@
         }
       ],
       "budget": {
-        "retailCents": 26061950,
+        "retailCents": 25762050,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 32600000,
-        "totalHighCents": 38000000,
+        "totalLowCents": 32200000,
+        "totalHighCents": 37600000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -21699,12 +21707,12 @@
       "version": "fable-mno-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing panels and attached walnut drawers as the bedside pair; one poppy-red velvet cushion and one oxblood-red bottle vase as the only colour; black stone-jug lamps and a bare-bulb Mega Bulb pendant on a black cord; taupe wool flatweave with parquet margins. Squint phrase: walnut and red.",
+      "summary": "Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing panels and attached walnut drawers as the bedside pair; one poppy-red velvet cushion and one oxblood-red bottle vase as the only colour; black stone-jug lamps; taupe wool flatweave with parquet margins. Squint phrase: walnut and red.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/mno/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/mno/",
       "hero": "mno/assets/M-render-entry.webp",
       "plan": null,
       "views": [
@@ -21800,7 +21808,7 @@
           "source": "https://mejore.ph/products/ebony-stone-jug-table-lamp?variant=51717300224274",
           "priceDate": "2026-09-09",
           "variant": "Ebony Stone Jug Table Lamp; official listing SKU PJ-TL6872B",
-          "notes": "Black stone jug base on a brass foot with a white drum shade: a dark, weighty bedside glow beside the walnut drawers (bare-bulb character stays with the Mega Bulb pendant). Dimensions unpublished — planning Ø300 × 600 mm; socket type to confirm.",
+          "notes": "Black stone jug base on a brass foot with a white drum shade: a dark, weighty bedside glow beside the walnut drawers. Dimensions unpublished — planning Ø300 × 600 mm; socket type to confirm.",
           "commonToSchemes": [
             "M"
           ],
@@ -21932,7 +21940,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Design Story live variant price PHP 18,200 (product .js read 21 Oct 2026, research/variant-photos)",
-          "image": "mno/assets/products/M-CEILING.webp"
+          "image": "mno/assets/products/M-CEILING.webp",
+          "removedFromDesign": true
         },
         {
           "id": "fable-mno-20261021::M-BEDSPREAD",
@@ -22390,14 +22399,14 @@
           ],
           "category": "technical",
           "name": "SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack",
-          "qty": 3,
+          "qty": 2,
           "unitCents": 9900,
-          "totalCents": 29700,
+          "totalCents": 19800,
           "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
           "source": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/",
           "priceDate": null,
           "variant": "105.914.84",
-          "notes": "Three 2-packs per scheme: bedside pair, ceiling fitting and spares. Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
+          "notes": "Two 2-packs per scheme for the bedside pair plus spare (no ceiling fitting). Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
           "commonToSchemes": [
             "M",
             "N",
@@ -22464,11 +22473,11 @@
         }
       ],
       "budget": {
-        "retailCents": 40513860,
+        "retailCents": 38683960,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 48500000,
-        "totalHighCents": 53900000,
+        "totalLowCents": 46500000,
+        "totalHighCents": 51800000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -22485,12 +22494,12 @@
       "version": "fable-mno-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral headboard; butter-yellow print cushions and white pillowcases on a sand-camel Brave Brown duvet; Imogen rattan-door bedsides, FRYKSÅS rattan console, AGEN rattan armchair and a bamboo MISTERHULT pendant; pleated KUDDLAVA lamps; yellow-beige TELEGRAFLINJE flat-weave. Squint phrase: yellow, bamboo, embroidery.",
+      "summary": "Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral headboard; butter-yellow print cushions and white pillowcases on a sand-camel Brave Brown duvet; Imogen rattan-door bedsides, FRYKSÅS rattan console and AGEN rattan armchair; pleated KUDDLAVA lamps; yellow-beige TELEGRAFLINJE flat-weave. Squint phrase: yellow, bamboo, embroidery.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/mno/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/mno/",
       "hero": "mno/assets/N-render-entry.webp",
       "plan": null,
       "views": [
@@ -22718,7 +22727,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "mno/assets/products/N-CEILING.avif"
+          "image": "mno/assets/products/N-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-mno-20261021::N-BEDSPREAD",
@@ -23226,14 +23236,14 @@
           ],
           "category": "technical",
           "name": "SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack",
-          "qty": 3,
+          "qty": 2,
           "unitCents": 9900,
-          "totalCents": 29700,
+          "totalCents": 19800,
           "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
           "source": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/",
           "priceDate": null,
           "variant": "105.914.84",
-          "notes": "Three 2-packs per scheme: bedside pair, ceiling fitting and spares. Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
+          "notes": "Two 2-packs per scheme for the bedside pair plus spare (no ceiling fitting). Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
           "commonToSchemes": [
             "M",
             "N",
@@ -23300,11 +23310,11 @@
         }
       ],
       "budget": {
-        "retailCents": 26310090,
+        "retailCents": 25800290,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 32800000,
-        "totalHighCents": 38200000,
+        "totalLowCents": 32300000,
+        "totalHighCents": 37700000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -23321,12 +23331,12 @@
       "version": "fable-mno-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Low charcoal SLATTUM bed with a rounded headboard on slim black legs; GT01 charcoal two-drawer bedsides with white marble-look tops and champagne legs; WEST fluted sideboard with a white stone top; Flowerpot VP1 dome pendant in polished copper; black Pantop cone lamps; dark-grey Safi rug, LILLEHEM charcoal armchair, Aosta black arch mirror and a monstera in a cement pot against white walls. Squint phrase: charcoal, marble, copper.",
+      "summary": "Low charcoal SLATTUM bed with a rounded headboard on slim black legs; GT01 charcoal two-drawer bedsides with white marble-look tops and champagne legs; WEST fluted sideboard with a white stone top; black Pantop cone lamps; dark-grey Safi rug, LILLEHEM charcoal armchair, Aosta black arch mirror and a monstera in a cement pot against white walls. Squint phrase: charcoal, marble, copper.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/mno/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/mno/",
       "hero": "mno/assets/O-render-entry.webp",
       "plan": null,
       "views": [
@@ -23422,7 +23432,7 @@
           "source": "https://www.designstory.com.ph/products/copy-of-pantop-table-lamp-pre-order?variant=43081612525802",
           "priceDate": "2026-09-10",
           "variant": "Matt Black",
-          "notes": "Cone/bell metal table lamp Ø230 × 380 mm in Matt Black (photo is that colour; live price read 21 Oct 2026 PHP 22,400 each = frozen offer). No copper table lamp exists in the catalogue (swap logged); copper is carried by the VP1 pendant.",
+          "notes": "Cone/bell metal table lamp Ø230 × 380 mm in Matt Black (photo is that colour; live price read 21 Oct 2026 PHP 22,400 each = frozen offer). No copper table lamp exists in the catalogue (swap logged).",
           "commonToSchemes": [
             "O"
           ],
@@ -23554,7 +23564,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Design Story live variant price PHP 28,600 for Polished copper (product .js read 21 Oct 2026, research/variant-photos)",
-          "image": "mno/assets/products/O-CEILING.webp"
+          "image": "mno/assets/products/O-CEILING.webp",
+          "removedFromDesign": true
         },
         {
           "id": "fable-mno-20261021::O-BEDSPREAD",
@@ -24012,14 +24023,14 @@
           ],
           "category": "technical",
           "name": "SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack",
-          "qty": 3,
+          "qty": 2,
           "unitCents": 9900,
-          "totalCents": 29700,
+          "totalCents": 19800,
           "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
           "source": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/",
           "priceDate": null,
           "variant": "105.914.84",
-          "notes": "Three 2-packs per scheme: bedside pair, ceiling fitting and spares. Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
+          "notes": "Two 2-packs per scheme for the bedside pair plus spare (no ceiling fitting). Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
           "commonToSchemes": [
             "M",
             "N",
@@ -24086,11 +24097,11 @@
         }
       ],
       "budget": {
-        "retailCents": 38784870,
+        "retailCents": 35914970,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 46600000,
-        "totalHighCents": 52000000,
+        "totalLowCents": 43400000,
+        "totalHighCents": 48800000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -24113,7 +24124,7 @@
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
         "Render fixes (23 Oct): both window-AC views were re-rendered once to remove an invented floor plant, the snake plant in S (QA pass 5) and the olive tree in T (QA pass 4). Each scheme now shows only its own plant."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/stu/",
       "hero": "stu/assets/S-render-entry.webp",
       "plan": null,
       "views": [
@@ -24873,7 +24884,7 @@
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
         "Render fixes (23 Oct): both window-AC views were re-rendered once to remove an invented floor plant, the snake plant in S (QA pass 5) and the olive tree in T (QA pass 4). Each scheme now shows only its own plant."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/stu/",
       "hero": "stu/assets/T-render-entry.webp",
       "plan": null,
       "views": [
@@ -25608,7 +25619,7 @@
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
         "Render fixes (23 Oct): both window-AC views were re-rendered once to remove an invented floor plant, the snake plant in S (QA pass 5) and the olive tree in T (QA pass 4). Each scheme now shows only its own plant."
       ],
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/stu/",
       "hero": "stu/assets/U-render-entry.webp",
       "plan": null,
       "views": [
@@ -27482,7 +27493,7 @@
       "archival": false,
       "summary": "Walnut and Linen. Squint and the room is one warm walnut rectangle on pale oatmeal, ivory and a thread of sage. The Our Home Stanley table, 1800 x 900, has a walnut-finish rubberwood top, even-grained and mid-brown, on splayed, braced walnut legs; it stands with its long side parallel to the four-light window, centred between the side walls. Four Mandaue Foam Carmen chairs, beige woven-fabric seat and rounded back on slim whitewash timber legs, sit two on the window side and one at each end; on the lane side toward the counter a Mandaue Foam Mizell bench, 1220 long, whitewash frame with a flat upholstered seat in a milky cocoa fabric, tucks half under the table. Under all of it an IKEA STOENSE low-pile rug, off-white and plain, 300 x 200, laid long side to the window, every chair leg on it. On the plain wall opposite the window a single wide IKEA BLODFLADER framed print, 118 x 78, soft beige-brown-green botanical tones in a thin pale frame, centred on the free run between the arch and the pass-through. In the south-west corner by the window a Flourish faux eucalyptus tree, 170 high, grey-green leaves in a simple pot. Walls stay the existing cream, floor the honey-amber parquet, the ceiling fan stays, Davies Beige blackout and voile on both windows, and a white split unit sits high on the east wall over the table. 1800 x 900, the size Ivan approved on 23 Oct ('1800 x 900 table for six'); long side parallel to the south window. Conditional fit: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide (head 2200, 370 from the north corner), pass-through counter 1050 and head 1550, passage 1566, fan centred over the table are all assumed values with a stated basis and none accepted; drawn or photo-fixed: 3680 x 4468, south window 3558, west window 1735. The existing window unit is shown removed because the proposed split unit replaces it. Nothing taped, nothing bought.",
       "reviewNotes": "Render QA (independent reviewer against the model views and product photos, 23 Oct): all four views pass. The arch-corner view needed two correction passes (south window width, art and chair count), the passage and arch views one, and the window-corner view passed first time. Minor: a small vase and bowl appear on the table in the arch-corner view. Conditional fit: the layout rests on assumed values with a stated basis and none accepted yet: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 and head 1550, the passage to the master bedroom 1566, the fan centred over the table. Drawn or photo-fixed: 3680 wide, 4468 deep, south window 3558 in four lights, west window 1735 between piers. See ASSUMED.md. Table 1800 x 900 centred 2750 from the counter wall: 940 clear to each side wall at the table ends, the end chairs pulled back still 440 clear; the bench sits on the lane (north) side and slides under the table; the north 1.7 m stays a lane between the arch and the passage. Rug 300 x 200 laid long side to the window: 340 to each side wall, every pulled-back chair and the bench stay on it. No buffet (the room is 3680 wide), no pendant (the fan stays), split unit high on the east wall over the table, Davies Beige blackout + voile on both windows. The existing window unit under the south window is shown removed: the proposed split unit on the east wall replaces it (Ivan 23 Oct: split above the table); removal date pending.",
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/din/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/din/",
       "hero": "din/assets/DINA-render-din_main.webp",
       "plan": "din/assets/PLAN-DINA-DIN.png",
       "views": [
@@ -27695,7 +27706,7 @@
       "archival": false,
       "summary": "Black Frame and Cane. Squint and the room is black lines, cane and a dark slab top on ivory. The Mandaue Foam Jimmi table, 1500 x 900, has a matte dark charcoal-grey cement-look top with faint light mottling and no wood grain, on a thin black powder-coated steel frame with straight square black legs; it stands with its long side parallel to the four-light window, centred between the side walls, the compact alternative to 1800. The tabletop is bare: no vase, bowl, fruit or plant on it. Six Mandaue Foam Hadwin chairs, a curved woven natural cane back and a smooth almond-tan upholstered seat on slim tapered light wood-look legs, as in the product photo, sit two on each long side and one at each end. Under them an Ashley rug, 200 x 290, a low-pile patchwork of light grey and soft beige blocks as in the product photo, laid long side to the window with every chair leg on it. On the plain wall opposite the window one Ashley canvas, 120 x 80, a black, grey and white abstract in a thin black frame, centred on the free run between the arch and the pass-through. In the south-west corner by the window a tall Ashley faux olive-style tree, 182 high, small narrow leaves on a slim trunk in a small black pot. Walls stay the existing cream, floor the honey-amber parquet, the ceiling fan stays, Davies Beige blackout and voile on both windows, and a white split unit sits high on the east wall over the table. 1500 x 900, the compact alternative (Ivan: '1800x900 feels massive table'); long side parallel to the south window. Conditional fit: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide (head 2200, 370 from the north corner), pass-through counter 1050 and head 1550, passage 1566, fan centred over the table are all assumed values with a stated basis and none accepted; drawn or photo-fixed: 3680 x 4468, south window 3558, west window 1735. The existing window unit is shown removed because the proposed split unit replaces it. Nothing taped, nothing bought.",
       "reviewNotes": "Render QA (independent reviewers against the model views and product photos, 23 Oct, after the two allowed correction passes; curtains drawn over the glazing are not counted, as the QA kit rules, because the scheme mandates them): no view passes in full. The arch-corner view shows a strip of wall at the right edge where the model has glass, the window-corner view enlarges and raises the canvas, the passage view sets the table higher and further away with an extra chair in view, and the arch view widens the table's far end and shifts the rug. Products, the bare tabletop and the floor match in every view. Use B's renders for finishes, not for exact positions. Conditional fit: the layout rests on assumed values with a stated basis and none accepted yet: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 and head 1550, the passage to the master bedroom 1566, the fan centred over the table. Drawn or photo-fixed: 3680 wide, 4468 deep, south window 3558 in four lights, west window 1735 between piers. See ASSUMED.md. Table 1500 x 900 centred 2750 from the counter wall: 1090 clear to each side wall at the table ends, the end chairs pulled back still 590 clear; six seats as 2 + 2 + 1 + 1; the north 1.7 m stays a lane between the arch and the passage. Rug 290 x 200 laid long side to the window: 390 to each side wall, every pulled-back chair stays on it. No buffet (the room is 3680 wide), no pendant (the fan stays), split unit high on the east wall over the table, Davies Beige blackout + voile on both windows. The existing window unit under the south window is shown removed: the proposed split unit on the east wall replaces it (Ivan 23 Oct: split above the table); removal date pending.",
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/din/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/din/",
       "hero": "din/assets/DINB-render-din_main.webp",
       "plan": "din/assets/PLAN-DINB-DIN.png",
       "views": [
@@ -27883,7 +27894,7 @@
       "archival": false,
       "summary": "Cocoa and Charcoal. Squint and the room is dark cocoa wood, charcoal upholstery and cream, warm and low-contrast. The Our Home Geordie table, 1800 x 900, is solid rubberwood stained a dark chocolate-brown cocoa (not reddish), a plain rectangular top on splayed round cocoa legs with an X brace; it stands with its long side parallel to the four-light window, centred between the side walls. The tabletop is bare: no vase, bowl, runner, fruit or plant on it. Six Mandaue Foam Macie chairs, tall slim upholstered backs and seats in dark grey fabric on dark tapered legs, sit two on each long side and one at each end. Under them an Ashley rug, 290 x 200, wide alternating stripes of dark taupe-brown and light greige with fringed short ends, as in the product photo, laid long side to the window with every chair leg on it. On the plain wall opposite the window one Ashley canvas, 120 x 80, a brown-toned Highland cow portrait in a thin light wood frame, centred on the free run between the arch and the pass-through. In the south-west corner by the window a Flourish faux schefflera, 135 high, a sparse leaning single-trunk tree with small leaflets in umbrella-shaped clusters, in a plain beige round pot. Walls stay the existing cream, floor the honey-amber parquet, the ceiling fan stays, Davies Beige blackout and voile on both windows, and a white split unit sits high on the east wall over the table. 1800 x 900, the size Ivan approved on 23 Oct ('1800 x 900 table for six'); long side parallel to the south window. Conditional fit: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide (head 2200, 370 from the north corner), pass-through counter 1050 and head 1550, passage 1566, fan centred over the table are all assumed values with a stated basis and none accepted; drawn or photo-fixed: 3680 x 4468, south window 3558, west window 1735. The existing window unit is shown removed because the proposed split unit replaces it. Nothing taped, nothing bought.",
       "reviewNotes": "Render QA (independent reviewers against the model views and product photos, 23 Oct, after the two allowed correction passes; curtains drawn over the glazing are not counted, as the QA kit rules, because the scheme mandates them): the window-corner and passage views pass. The arch-corner view shows a thin strip of wall at the right edge where the model has glass, and the arch view widens the table's far end and draws the rug turned and wider than the model. Products, the bare tabletop and the floor match. Use C's renders for finishes, not for exact positions. Conditional fit: the layout rests on assumed values with a stated basis and none accepted yet: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 and head 1550, the passage to the master bedroom 1566, the fan centred over the table. Drawn or photo-fixed: 3680 wide, 4468 deep, south window 3558 in four lights, west window 1735 between piers. See ASSUMED.md. Table 1800 x 900 centred 2750 from the counter wall: 940 clear to each side wall at the table ends, the end chairs pulled back still 440 clear; six seats as 2 + 2 + 1 + 1; the north 1.7 m stays a lane between the arch and the passage. Rug 290 x 200 laid long side to the window: 390 to each side wall, every pulled-back chair stays on it. No buffet (the room is 3680 wide), no pendant (the fan stays), split unit high on the east wall over the table, Davies Beige blackout + voile on both windows. The existing window unit under the south window is shown removed: the proposed split unit on the east wall replaces it (Ivan 23 Oct: split above the table); removal date pending.",
-      "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/din/",
+      "originalUrl": "https://ivanbozhilov1.github.io/408/din/",
       "hero": "din/assets/DINC-render-din_main.webp",
       "plan": "din/assets/PLAN-DINC-DIN.png",
       "views": [
