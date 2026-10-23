@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-def-night-kinds / 2026-10-23T13:00:55+08:00",
+  "build": "408-ceiling-rebuild-def / 2026-10-23T16:05:40+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -14191,7 +14191,7 @@
       "version": "fable-def-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Low walnut-stained timber bed and 340 mm oak bedsides, paper light (sculpted paper lamps, rice-paper donut), ash leaning mirror, terracotta quilt and clay vase; natural wool/jute check rug. Pale-to-mid timber dominant, terracotta accent, paper light.",
+      "summary": "Low walnut-stained timber bed and 340 mm oak bedsides, paper light (sculpted paper lamps), ash leaning mirror, terracotta quilt and clay vase; natural wool/jute check rug. Pale-to-mid timber dominant, terracotta accent, paper light.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
@@ -14229,7 +14229,7 @@
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/D-render-entry-night.webp",
-          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the existing flush ceiling discs on at 2700 K, the approved valance LED (3000 K) diffused behind the finished valance board and washing the closed Davies Beige blackout curtains, the old window AC hidden behind them (Ivan's rule, 23 Oct 2026), no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         },
         {
           "label": "Bathroom door · Night",
@@ -14237,7 +14237,7 @@
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/D-render-bathroom-night.webp",
-          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the existing flush ceiling discs on at 2700 K, the approved valance LED (3000 K) diffused behind the finished valance board and washing the closed Davies Beige blackout curtains, the old window AC hidden behind them (Ivan's rule, 23 Oct 2026), no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         },
         {
           "label": "Window corner · Night",
@@ -14245,7 +14245,7 @@
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/D-render-windowac-night.webp",
-          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the existing flush ceiling discs on at 2700 K, the approved valance LED (3000 K) diffused behind the finished valance board and washing the closed Davies Beige blackout curtains, the old window AC hidden behind them (Ivan's rule, 23 Oct 2026), no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         }
       ],
       "products": [
@@ -14447,7 +14447,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
-          "image": "assets/products/D-CEILING.webp"
+          "image": "assets/products/D-CEILING.webp",
+          "removedFromDesign": true
         },
         {
           "id": "fable-def-20261021::D-BEDSPREAD",
@@ -15023,15 +15024,16 @@
           "imageStatus": "No local source photo specified",
           "scope": "technical_essential",
           "priceBasis": null,
-          "image": null
+          "image": null,
+          "removedFromDesign": true
         }
       ],
       "budget": {
-        "retailCents": 30129048,
+        "retailCents": 29549048,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 37000000,
-        "totalHighCents": 42400000,
+        "totalLowCents": 36400000,
+        "totalHighCents": 41800000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -15047,7 +15049,7 @@
       "version": "fable-def-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Curved sand bouclé Fieche bed, white two-drawer Nina bedsides, cream sphere lamps, rounded beige swivel armchair, cream Charlotte bench, thin gold round mirror, pleated cotton flush light and a beige lattice low-pile rug. Ivory upholstery dominant, caramel accent, soft ceramic light.",
+      "summary": "Curved sand bouclé Fieche bed, white two-drawer Nina bedsides, cream sphere lamps, rounded beige swivel armchair, cream Charlotte bench, thin gold round mirror and a beige lattice low-pile rug. Ivory upholstery dominant, caramel accent, soft ceramic light.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
@@ -15085,7 +15087,7 @@
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/E-render-entry-night.webp",
-          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the existing flush ceiling discs on at 2700 K, the approved valance LED (3000 K) diffused behind the finished valance board and washing the closed Davies Beige blackout curtains, the old window AC hidden behind them (Ivan's rule, 23 Oct 2026), no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         },
         {
           "label": "Bathroom door · Night",
@@ -15093,7 +15095,7 @@
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/E-render-bathroom-night.webp",
-          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the existing flush ceiling discs on at 2700 K, the approved valance LED (3000 K) diffused behind the finished valance board and washing the closed Davies Beige blackout curtains, the old window AC hidden behind them (Ivan's rule, 23 Oct 2026), no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         },
         {
           "label": "Window corner · Night",
@@ -15101,7 +15103,7 @@
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/E-render-windowac-night.webp",
-          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the existing flush ceiling discs on at 2700 K, the approved valance LED (3000 K) diffused behind the finished valance board and washing the closed Davies Beige blackout curtains, the old window AC hidden behind them (Ivan's rule, 23 Oct 2026), no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         }
       ],
       "products": [
@@ -15303,7 +15305,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
-          "image": "assets/products/E-CEILING.webp"
+          "image": "assets/products/E-CEILING.webp",
+          "removedFromDesign": true
         },
         {
           "id": "fable-def-20261021::E-BEDSPREAD",
@@ -15372,7 +15375,7 @@
           "source": "https://crateandbarrel.com.ph/products/belamy-standard-white-pleated-sham",
           "priceDate": "2026-10-20",
           "variant": "Variant 'White'; SKU 111326",
-          "notes": "White pleated standard shams (cotton blend), one per LAPPTÅTEL pillow; the pleat echoes the Matin flush lamp.",
+          "notes": "White pleated standard shams (cotton blend), one per LAPPTÅTEL pillow.",
           "commonToSchemes": [
             "E"
           ],
@@ -15884,11 +15887,11 @@
         }
       ],
       "budget": {
-        "retailCents": 27409350,
+        "retailCents": 25799350,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 34100000,
-        "totalHighCents": 39400000,
+        "totalLowCents": 32300000,
+        "totalHighCents": 37700000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -15904,7 +15907,7 @@
       "version": "fable-def-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Black/wengue mahogany Dylan bed with leather-look headboard, wenge drawer bedsides, amber-glass lamps, cognac leather LANDSKRONA club chair, black fluted console, bronze full-length mirror, brass ring pendant, burnt-green linen duvet on a black flatweave rug, tall dark-pot greenery. Dark timber and leather-look dominant, forest-green accent, brass and amber light.",
+      "summary": "Black/wengue mahogany Dylan bed with leather-look headboard, wenge drawer bedsides, amber-glass lamps, cognac leather LANDSKRONA club chair, black fluted console, bronze full-length mirror, burnt-green linen duvet on a black flatweave rug, tall dark-pot greenery. Dark timber and leather-look dominant, forest-green accent, brass and amber light.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
@@ -15942,7 +15945,7 @@
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/F-render-entry-night.webp",
-          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the existing flush ceiling discs on at 2700 K, the approved valance LED (3000 K) diffused behind the finished valance board and washing the closed Davies Beige blackout curtains, the old window AC hidden behind them (Ivan's rule, 23 Oct 2026), no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         },
         {
           "label": "Bathroom door · Night",
@@ -15950,7 +15953,7 @@
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/F-render-bathroom-night.webp",
-          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the existing flush ceiling discs on at 2700 K, the approved valance LED (3000 K) diffused behind the finished valance board and washing the closed Davies Beige blackout curtains, the old window AC hidden behind them (Ivan's rule, 23 Oct 2026), no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         },
         {
           "label": "Window corner · Night",
@@ -15958,7 +15961,7 @@
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "assets/F-render-windowac-night.webp",
-          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the ceiling light on at 2700 K, the approved valance LED strip (3000 K) washing the closed blackout curtains, no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
+          "caption": "AI style render at night, same standing eye-level camera (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, lighting scene N1 of the 20 Oct lighting spec: both bedside lamps and the existing flush ceiling discs on at 2700 K, the approved valance LED (3000 K) diffused behind the finished valance board and washing the closed Davies Beige blackout curtains, the old window AC hidden behind them (Ivan's rule, 23 Oct 2026), no daylight; painted over the night deterministic model view; dimensions from the model, finishes interpretive."
         }
       ],
       "products": [
@@ -16186,7 +16189,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "assets/products/F-CEILING.avif"
+          "image": "assets/products/F-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-def-20261021::F-BEDSPREAD",
@@ -16683,7 +16687,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "technical_essential",
           "priceBasis": null,
-          "image": "jkl/assets/products/B-LAMP-BULBS.jpg"
+          "image": "jkl/assets/products/B-LAMP-BULBS.jpg",
+          "removedFromDesign": true
         },
         {
           "id": "fable-def-20261021::REQUIRED-MATTRESS50",
@@ -16741,11 +16746,11 @@
         }
       ],
       "budget": {
-        "retailCents": 29562750,
+        "retailCents": 29133050,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 36400000,
-        "totalHighCents": 41800000,
+        "totalLowCents": 35900000,
+        "totalHighCents": 41300000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
