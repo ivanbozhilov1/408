@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-hallway-overlay / 2026-10-23T15:50:00+08:00",
+  "build": "408-hallway-set-abc / 2026-10-23T22:30:00+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -27524,10 +27524,589 @@
         "note": "Hallway share of the accepted Seoul Blinds quote (PHP 174,900 for six openings; O04 Hallway 359 x 249 cm, Davies Beige blackout + voile, two tracks, valance board), split by opening width. The LEGO map, its frame, the console and the runner are not priced yet."
       },
       "room": "hallway"
+    },
+    {
+      "id": "fable-hal-abc-20261023:A",
+      "namespace": "fable-hal-abc-20261023",
+      "author": "Claude Fable",
+      "letter": "A",
+      "name": "Black Marble Archive",
+      "date": "2026-10-23",
+      "version": "fable-hal-abc-20261023",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "summary": "Black Marble Archive. A short corridor between two dark-painted arches, honey-amber parquet underfoot, the curtained window run on one side and the plain off-white wall on the other. On the plain wall the owner's LEGO Art World Map 31203, a 104 x 65 cm mosaic of small LEGO studs in deep blue oceans with tan and white continents, hangs at true scale with its bottom edge 1.1 m from the floor, centred over an Ashley Fargenta six-drawer dresser in black lacquer with a white replicated-marble top and slim brass bar pulls, standing on short black legs. On the dresser top, at the dining end, an At Home Gwen table lamp in gold with a white drum shade; at the living end a few framed family photographs and one small keepsake. A slim warm LED halo frame sits behind the map, switched off in daylight so it reads only as a thin shadow line around the mosaic. On the parquet in front of the dresser an IKEA STRÖG flatwoven natural jute rug, 120 x 180, its long side along the corridor, parquet showing on every side. The plain wall between the dresser and the dining arch stays empty, so the map is the single exhibit in the corridor. Davies Beige blackout and voile curtains with a valance board run the full length of the window side; daylight from the window, no ceiling light on. Conditional fit; hallway unmeasured: the corridor 2300 x 4400, ceiling 2700, both arches, the 3590 window run (Seoul Blinds quote O04) with sill 900 and head 2350, and the light switch are assumed values with a stated basis, none taped. The LEGO Art World Map 31203 hangs at its product size, 1040 x 650, bottom 1100. Nothing taped, nothing bought.",
+      "reviewNotes": [
+        "Render QA (independent reviewers against the 4:3 model views the renders were made from and the product photos, 23 Oct): the two corridor views and the corrected straight-on view pass. Minor: square dresser legs where the photo shows round ones; photo frames and a lidded box on the top (photos on the dresser are the brief). LEGO scale check: the straight-on view passes after the 4:3 resample (map aspect −5.0%, map to dresser −0.4%); the three-quarter view is withheld (map 13.8% too wide against the dresser) and queued for regeneration.",
+        "Ashley Fargenta 1499 x 406 x 889: top at 889, so the map's bottom edge at 1100 leaves a 211 mm reveal; the map (1040) is centred on the dresser (1499) with 230 mm of top free at each end for the lamp and the photos.",
+        "Passage: 2300 (assumed) less 406 leaves about 1.9 m beside the dresser. The map is centred at 2200 from the living end (edges 1680 to 2720); if the light switch proves to sit more than 1.6 m along the wall, slide the whole composition 200 mm toward the dining arch.",
+        "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/hal/",
+      "hero": "hal/assets/HA-render-hal_main.webp",
+      "plan": "hal/assets/PLAN-HA-HAL.png",
+      "views": [
+        {
+          "label": "From the living · Day",
+          "kind": "hallway-living-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hal/assets/HA-render-hal_main.webp",
+          "caption": "AI style render from the living just outside its arch (eye 1.45 m, 62° lens), looking down the corridor to the dining arch: the plain wall with the dresser and the LEGO World Map on the left, the curtained window run on the right; painted over the dimension-led deterministic model view. Not gated by the LEGO scale check (the map is seen at a grazing angle). Made from a 4:3 model view and returned at 3:2, so the scene reads slightly stretched sideways; a style interpretation, not a dimension certification."
+        },
+        {
+          "label": "From the dining · Day",
+          "kind": "hallway-dining-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hal/assets/HA-render-hal_opposite.webp",
+          "caption": "AI style render from the dining just outside its arch (eye 1.5 m), looking back down the corridor to the living arch: the window run on the left, the dresser and the map on the right; painted over the deterministic model view. Not gated by the LEGO scale check. Made from a 4:3 model view and returned at 3:2, so the scene reads slightly stretched sideways; a style interpretation, not a dimension certification."
+        },
+        {
+          "label": "Map wall, straight on · Day",
+          "kind": "hallway-mapwall-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hal/assets/HA-render-hal_elevation.webp",
+          "caption": "AI style render facing the map wall from just inside the window wall (eye 1.45 m, 62° lens); painted over the dimension-led deterministic model view. Corrected render: the 1536 x 1024 Codex image resampled horizontally to 1365 x 1024 (4:3, Lanczos) to undo the 3:2 stretch, not regenerated. LEGO scale check passed on this image (map aspect −5.0%, map to dresser −0.4%; limit ±5%)."
+        },
+        {
+          "label": "Map wall, three-quarter · Day",
+          "kind": "hallway-quarter-day",
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "AI_RENDER_WITHHELD_LEGO_SCALE_CHECK_FAILED_MODEL_VIEW_SHOWN",
+          "image": "hal/assets/HA-room-hal_quarter.webp",
+          "caption": "Deterministic model view at true scale, no AI: from just inside the living arch turned toward the plain wall (eye 1.55 m, 62° lens); proxy forms at the published sizes. The AI style render of this view is withheld. Failed the LEGO scale check: the map reads 13.8% too wide against the dresser (limit ±5%). Queued for regeneration; Codex image generation is out of quota until 30 Oct."
+        }
+      ],
+      "products": [
+        {
+          "id": "fable-hal-abc-20261023::HA-CABINET",
+          "originalId": "HA-CABINET",
+          "legacyIds": [
+            "HA-CABINET",
+            "hal:HA-CABINET"
+          ],
+          "category": "console",
+          "name": "Fargenta Six Drawer Dresser — Fargenta Six Drawer Dresser; manufacturer SKU B2618-31W1; Default Title",
+          "qty": 1,
+          "unitCents": 5610000,
+          "totalCents": 5610000,
+          "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+          "source": "https://store.ashleyfurniture.ph/products/fargenta-six-drawer-dresser?variant=50761711780126",
+          "priceDate": "2026-09-10",
+          "variant": "Fargenta Six Drawer Dresser; manufacturer SKU B2618-31W1; Default Title",
+          "notes": "Black lacquer six-drawer dresser (3 x 2) with a white replicated-marble top and slim brass bar pulls on short black legs; 1499 x 406 x 889. Solid, floor-standing, the display top for photos and keepsakes. Alternate: BoConcept Lugano double dresser, carved fronts (PHP 133,690).",
+          "commonToSchemes": [
+            "A"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+          "image": "hal/assets/products/HA-CABINET.jpg"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HA-LAMP",
+          "originalId": "HA-LAMP",
+          "legacyIds": [
+            "HA-LAMP",
+            "hal:HA-LAMP"
+          ],
+          "category": "table_lamp",
+          "name": "At Home Gwen Table Lamp - Gold — HWP-39253723",
+          "qty": 1,
+          "unitCents": 249900,
+          "totalCents": 249900,
+          "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-08 | At Home",
+          "source": "https://smhome.ph/products/at-home-gwen-table-lamp-gold?variant=49503958958273",
+          "priceDate": "2026-09-08",
+          "variant": "HWP-39253723",
+          "notes": "Gold stem and base with a white drum shade, 250 x 250 x 490; stands at the dining end of the dresser top, beside the map, not over it.",
+          "commonToSchemes": [
+            "A"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "per selected exact listed item",
+          "image": "hal/assets/products/HA-LAMP.jpg"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HA-RUG",
+          "originalId": "HA-RUG",
+          "legacyIds": [
+            "HA-RUG",
+            "hal:HA-RUG"
+          ],
+          "category": "rug",
+          "name": "STRÖG Rug, flatwoven — STRÖG Rug, flatwoven, natural, 120x180 cm; article 30527048",
+          "qty": 1,
+          "unitCents": 199900,
+          "totalCents": 199900,
+          "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+          "source": "https://www.ikea.com/ph/en/p/stroeg-rug-flatwoven-natural-30527048/",
+          "priceDate": "2026-09-10",
+          "variant": "STRÖG Rug, flatwoven, natural, 120x180 cm; article 30527048",
+          "notes": "Natural flatwoven jute, 120 x 180 (published), long side along the corridor in front of the dresser; the parquet shows on every side.",
+          "commonToSchemes": [
+            "A"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+          "image": "hal/assets/products/HA-RUG.jpg"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HA-LED",
+          "originalId": "HA-LED",
+          "legacyIds": [
+            "HA-LED",
+            "hal:HA-LED"
+          ],
+          "category": "led_halo",
+          "name": "LED halo behind the LEGO map — 24 V warm-white (2700 K) LED strip in an aluminium diffuser channel on a 20 mm spacer frame behind the map's four edges; dimmable driver on the nearest socket circuit",
+          "qty": 1,
+          "unitCents": null,
+          "totalCents": null,
+          "status": "Allowance; no supplier chosen, no quote obtained",
+          "source": null,
+          "priceDate": "2026-10-20",
+          "variant": "24 V warm-white (2700 K) LED strip in an aluminium diffuser channel on a 20 mm spacer frame behind the map's four edges; dimmable driver on the nearest socket circuit",
+          "notes": "Ivan, 23 Oct: 'maybe put some led frame around it'. Scheme A only. Night-view rule: the halo and the LED behind the curtain valance are the only added light; no ceiling light is added.",
+          "commonToSchemes": [
+            "A"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "technical_essential",
+          "priceBasis": "allowance",
+          "image": null
+        },
+        {
+          "id": "fable-hal-abc-20261023::HAL-MAP",
+          "originalId": "HAL-MAP",
+          "legacyIds": [
+            "HAL-MAP",
+            "hal:HAL-MAP"
+          ],
+          "category": "art",
+          "name": "LEGO Art World Map 31203 (owner-supplied) — 11,695-piece mosaic, 104 x 65 cm assembled, wall-hung; owned, not purchased",
+          "qty": 1,
+          "unitCents": null,
+          "totalCents": null,
+          "status": "Owned; priced at nil; modelled as a fixed room element",
+          "source": null,
+          "priceDate": "2026-10-20",
+          "variant": "11,695-piece mosaic, 104 x 65 cm assembled, wall-hung; owned, not purchased",
+          "notes": "At true scale on the plain wall: bottom edge 1100, top 1750, centred at 2200 from the living end, 211 to 320 mm over each scheme's cabinet top. Ivan, 23 Oct: 'make sure the lego map on the wall is up to scale'.",
+          "commonToSchemes": [
+            "A"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "fixed_room_treatment",
+          "priceBasis": "owned",
+          "image": null
+        }
+      ],
+      "budget": {
+        "retailCents": 6059800,
+        "reserveLowCents": 600000,
+        "reserveHighCents": 1700000,
+        "totalLowCents": 7400000,
+        "totalHighCents": 8600000,
+        "note": "Dated planning range (frozen pass-3 catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
+        "reserveCents": null,
+        "totalCents": null
+      },
+      "room": "hallway"
+    },
+    {
+      "id": "fable-hal-abc-20261023:B",
+      "namespace": "fable-hal-abc-20261023",
+      "author": "Claude Fable",
+      "letter": "B",
+      "name": "Chalk and Linen",
+      "date": "2026-10-23",
+      "version": "fable-hal-abc-20261023",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "summary": "Chalk and Linen. A short corridor between two dark-painted arches, honey-amber parquet underfoot, the curtained window run on one side and the plain off-white wall on the other. On the plain wall the owner's LEGO Art World Map 31203, a 104 x 65 cm mosaic of small LEGO studs in deep blue oceans with tan and white continents, hangs at true scale with its bottom edge 1.1 m from the floor, centred over an IKEA HAUGA 6-drawer dresser in white with flat fronts and small round knobs, two per drawer, standing flat on the floor. On the dresser top, at the dining end, an IKEA VINDKRAFT table lamp in white moulded paper pulp, a ridged dome shade on a tapered base; at the living end framed photographs in pale wood frames and a white ceramic bowl. On the parquet in front of the dresser an IKEA TIPHEDE flatwoven cotton rug in natural with fine black stripes, 120 x 180, its long side along the corridor, parquet showing on every side. By the dining end of the plain wall, between the dresser and the arch, a Flourish schefflera 1.2 m tall in a dark square planter. Davies Beige blackout and voile curtains with a valance board run the full length of the window side; daylight from the window, no ceiling light on; the whole wall stays pale so the map is the only colour. Conditional fit; hallway unmeasured: the corridor 2300 x 4400, ceiling 2700, both arches, the 3590 window run (Seoul Blinds quote O04) with sill 900 and head 2350, and the light switch are assumed values with a stated basis, none taped. The LEGO Art World Map 31203 hangs at its product size, 1040 x 650, bottom 1100. Nothing taped, nothing bought.",
+      "reviewNotes": [
+        "Render QA (independent reviewers against the 4:3 model views the renders were made from and the product photos, 23 Oct): the two corridor views and the three-quarter view pass. Minor: one knob per drawer where HAUGA has two; the VINDKRAFT lamp reads smooth on a cylinder base where the photo shows a ribbed dome on a tapered base; in the view from the living the plant's leaves are broader than the schefflera photo. LEGO scale check: the three-quarter view passes (map to dresser +3.7%); the straight-on view is withheld (map 5.9% too wide against the dresser, 5.3% too wide for its height) and queued for regeneration.",
+        "IKEA HAUGA 1380 x 460 x 840: top at 840 leaves a 260 mm reveal under the map; the map overhangs nothing (1040 on 1380, 170 mm free each end).",
+        "The deepest cabinet of the three: 2300 (assumed) less 460 leaves about 1.84 m of passage; re-check if the corridor tapes under 2.0 m.",
+        "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/hal/",
+      "hero": "hal/assets/HB-render-hal_main.webp",
+      "plan": "hal/assets/PLAN-HB-HAL.png",
+      "views": [
+        {
+          "label": "From the living · Day",
+          "kind": "hallway-living-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hal/assets/HB-render-hal_main.webp",
+          "caption": "AI style render from the living just outside its arch (eye 1.45 m, 62° lens), looking down the corridor to the dining arch: the plain wall with the dresser and the LEGO World Map on the left, the curtained window run on the right; painted over the dimension-led deterministic model view. Not gated by the LEGO scale check (the map is seen at a grazing angle). Made from a 4:3 model view and returned at 3:2, so the scene reads slightly stretched sideways; a style interpretation, not a dimension certification."
+        },
+        {
+          "label": "From the dining · Day",
+          "kind": "hallway-dining-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hal/assets/HB-render-hal_opposite.webp",
+          "caption": "AI style render from the dining just outside its arch (eye 1.5 m), looking back down the corridor to the living arch: the window run on the left, the dresser and the map on the right; painted over the deterministic model view. Not gated by the LEGO scale check. Made from a 4:3 model view and returned at 3:2, so the scene reads slightly stretched sideways; a style interpretation, not a dimension certification."
+        },
+        {
+          "label": "Map wall, straight on · Day",
+          "kind": "hallway-mapwall-day",
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "AI_RENDER_WITHHELD_LEGO_SCALE_CHECK_FAILED_MODEL_VIEW_SHOWN",
+          "image": "hal/assets/HB-room-hal_elevation.webp",
+          "caption": "Deterministic model view at true scale, no AI: level and straight on, from 700 mm beyond the window wall (eye 0.9 m, 62° lens), so verticals stay parallel; proxy forms at the published sizes. The AI style render of this view is withheld. Failed the LEGO scale check: the map reads 5.9% too wide against the dresser and 5.3% too wide for its height (limit ±5%). Queued for regeneration; Codex image generation is out of quota until 30 Oct."
+        },
+        {
+          "label": "Map wall, three-quarter · Day",
+          "kind": "hallway-quarter-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hal/assets/HB-render-hal_quarter.webp",
+          "caption": "AI style render from just inside the living arch turned toward the plain wall (eye 1.55 m, 62° lens): the cabinet and the map in perspective, the corridor receding to the dining arch; painted over the dimension-led deterministic model view. Made from a 4:3 model view and returned at 3:2, so the scene reads slightly stretched sideways; a style interpretation, not a dimension certification. LEGO scale check passed on this image (map to dresser +3.7%; limit ±5%)."
+        }
+      ],
+      "products": [
+        {
+          "id": "fable-hal-abc-20261023::HB-CABINET",
+          "originalId": "HB-CABINET",
+          "legacyIds": [
+            "HB-CABINET",
+            "hal:HB-CABINET"
+          ],
+          "category": "console",
+          "name": "HAUGA 6-drawer dresser — HAUGA 6-drawer dresser, white, 138x46x84 cm; article 80581537",
+          "qty": 1,
+          "unitCents": 1199900,
+          "totalCents": 1199900,
+          "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+          "source": "https://www.ikea.com/ph/en/p/hauga-6-drawer-dresser-white-80581537/",
+          "priceDate": "2026-09-10",
+          "variant": "HAUGA 6-drawer dresser, white, 138x46x84 cm; article 80581537",
+          "notes": "White six-drawer dresser (3 x 2) with flat fronts and small round knobs, 1380 x 460 x 840; the quietest cabinet under the map and the cheapest of the three. Alternate: IKEA IDANÄS 6-drawer dresser, white (PHP 27,999, taller).",
+          "commonToSchemes": [
+            "B"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+          "image": "hal/assets/products/HB-CABINET.avif"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HB-LAMP",
+          "originalId": "HB-LAMP",
+          "legacyIds": [
+            "HB-LAMP",
+            "hal:HB-LAMP"
+          ],
+          "category": "table_lamp",
+          "name": "VINDKRAFT Table lamp — VINDKRAFT Table lamp, white moulded paper pulp, 46 cm; article 70601300",
+          "qty": 1,
+          "unitCents": 149900,
+          "totalCents": 149900,
+          "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+          "source": "https://www.ikea.com/ph/en/p/vindkraft-table-lamp-white-moulded-paper-pulp-70601300/",
+          "priceDate": "2026-09-10",
+          "variant": "VINDKRAFT Table lamp, white moulded paper pulp, 46 cm; article 70601300",
+          "notes": "White moulded paper-pulp lamp, 46 cm high (published; footprint estimated at 250), a soft matte glow on the dresser top at the dining end. IKEA DEJSA (PHP 2,999) was dropped: a bedroom set already claims it.",
+          "commonToSchemes": [
+            "B"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+          "image": "hal/assets/products/HB-LAMP.avif"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HB-RUG",
+          "originalId": "HB-RUG",
+          "legacyIds": [
+            "HB-RUG",
+            "hal:HB-RUG"
+          ],
+          "category": "rug",
+          "name": "TIPHEDE Rug, flatwoven — TIPHEDE Rug, flatwoven, natural/black, 120x180 cm; article 00456759",
+          "qty": 1,
+          "unitCents": 59900,
+          "totalCents": 59900,
+          "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+          "source": "https://www.ikea.com/ph/en/p/tiphede-rug-flatwoven-natural-black-00456759/",
+          "priceDate": "2026-09-10",
+          "variant": "TIPHEDE Rug, flatwoven, natural/black, 120x180 cm; article 00456759",
+          "notes": "Natural and black cotton flatweave with a fine stripe, 120 x 180 (published), long side along the corridor in front of the dresser.",
+          "commonToSchemes": [
+            "B"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+          "image": "hal/assets/products/HB-RUG.jpg"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HB-PLANT",
+          "originalId": "HB-PLANT",
+          "legacyIds": [
+            "HB-PLANT",
+            "hal:HB-PLANT"
+          ],
+          "category": "plant",
+          "name": "Flourish Schefflera — Single listed variant; SKU 39227065",
+          "qty": 1,
+          "unitCents": 485910,
+          "totalCents": 485910,
+          "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Flourish",
+          "source": "https://ourhome.ph/products/flourish-schefflera",
+          "priceDate": "2026-10-20",
+          "variant": "Single listed variant; SKU 39227065",
+          "notes": "Faux schefflera, 1.19 m high (published), in a dark square planter by the dining end of the plain wall, between the dresser and the arch; footprint estimated at 450.",
+          "commonToSchemes": [
+            "B"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Official online store price for this exact variant (products.json variant 42508843090161: price 4859.1, compare-at 5399); per listed unit as titled",
+          "image": "hal/assets/products/HB-PLANT.jpg"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HAL-MAP",
+          "originalId": "HAL-MAP",
+          "legacyIds": [
+            "HAL-MAP",
+            "hal:HAL-MAP"
+          ],
+          "category": "art",
+          "name": "LEGO Art World Map 31203 (owner-supplied) — 11,695-piece mosaic, 104 x 65 cm assembled, wall-hung; owned, not purchased",
+          "qty": 1,
+          "unitCents": null,
+          "totalCents": null,
+          "status": "Owned; priced at nil; modelled as a fixed room element",
+          "source": null,
+          "priceDate": "2026-10-20",
+          "variant": "11,695-piece mosaic, 104 x 65 cm assembled, wall-hung; owned, not purchased",
+          "notes": "At true scale on the plain wall: bottom edge 1100, top 1750, centred at 2200 from the living end, 211 to 320 mm over each scheme's cabinet top. Ivan, 23 Oct: 'make sure the lego map on the wall is up to scale'.",
+          "commonToSchemes": [
+            "B"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "fixed_room_treatment",
+          "priceBasis": "owned",
+          "image": null
+        }
+      ],
+      "budget": {
+        "retailCents": 1895610,
+        "reserveLowCents": 600000,
+        "reserveHighCents": 1700000,
+        "totalLowCents": 2800000,
+        "totalHighCents": 4000000,
+        "note": "Dated planning range (frozen pass-3 catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
+        "reserveCents": null,
+        "totalCents": null
+      },
+      "room": "hallway"
+    },
+    {
+      "id": "fable-hal-abc-20261023:C",
+      "namespace": "fable-hal-abc-20261023",
+      "author": "Claude Fable",
+      "letter": "C",
+      "name": "Honey and Ink",
+      "date": "2026-10-23",
+      "version": "fable-hal-abc-20261023",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "summary": "Honey and Ink. A short corridor between two dark-painted arches, honey-amber parquet underfoot, the curtained window run on one side and the plain off-white wall on the other. On the plain wall the owner's LEGO Art World Map 31203, a 104 x 65 cm mosaic of small LEGO studs in deep blue oceans with tan and white continents, hangs at true scale with its bottom edge 1.1 m from the floor, centred over an abensonHome Fowler 6-chest drawer in summer oak, a mid-century chest of six drawers with angled drawer fronts and slim splayed legs, its honey timber tonal with the parquet. On the dresser top, at the dining end, an Ashley Lanson metal table lamp, a textured charcoal-black bottle base under a beige linen drum shade; at the living end framed photographs in thin black frames. On the parquet in front of the dresser a Mandaue Foam Asne Geo printed rug, 80 x 150, blocks of terracotta, black and ivory, its long side along the corridor, parquet showing on every side. By the dining end of the plain wall, between the dresser and the arch, a Heim monstera 1.2 m tall, broad split dark-green leaves in a black pot. Davies Beige blackout and voile curtains with a valance board run the full length of the window side; daylight from the window, no ceiling light on; the map's blue is the only cool colour in the picture. Conditional fit; hallway unmeasured: the corridor 2300 x 4400, ceiling 2700, both arches, the 3590 window run (Seoul Blinds quote O04) with sill 900 and head 2350, and the light switch are assumed values with a stated basis, none taped. The LEGO Art World Map 31203 hangs at its product size, 1040 x 650, bottom 1100. Nothing taped, nothing bought.",
+      "reviewNotes": [
+        "Render QA (independent reviewers against the 4:3 model views the renders were made from and the product photos, 23 Oct): the two corridor views pass. Minor: the lamp base reads plain black without the photo's speckle; a few small decor pieces on the top. LEGO scale check: the straight-on and three-quarter views are withheld (straight-on: map 5.5% too wide against the dresser and 10.5% too wide for its height; three-quarter: 14.8% too wide against the dresser) and queued for regeneration.",
+        "abensonHome Fowler 1400 x 390 x 780: the lowest top (780) gives a 320 mm reveal under the map; the drawers sit on legs, so the skirting line stays visible along the wall.",
+        "Passage: 2300 (assumed) less 390 leaves about 1.9 m; the 80 x 150 rug sits in front of the dresser only, parquet showing on every side.",
+        "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/hal/",
+      "hero": "hal/assets/HC-render-hal_main.webp",
+      "plan": "hal/assets/PLAN-HC-HAL.png",
+      "views": [
+        {
+          "label": "From the living · Day",
+          "kind": "hallway-living-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hal/assets/HC-render-hal_main.webp",
+          "caption": "AI style render from the living just outside its arch (eye 1.45 m, 62° lens), looking down the corridor to the dining arch: the plain wall with the dresser and the LEGO World Map on the left, the curtained window run on the right; painted over the dimension-led deterministic model view. Not gated by the LEGO scale check (the map is seen at a grazing angle). Made from a 4:3 model view and returned at 3:2, so the scene reads slightly stretched sideways; a style interpretation, not a dimension certification."
+        },
+        {
+          "label": "From the dining · Day",
+          "kind": "hallway-dining-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hal/assets/HC-render-hal_opposite.webp",
+          "caption": "AI style render from the dining just outside its arch (eye 1.5 m), looking back down the corridor to the living arch: the window run on the left, the dresser and the map on the right; painted over the deterministic model view. Not gated by the LEGO scale check. Made from a 4:3 model view and returned at 3:2, so the scene reads slightly stretched sideways; a style interpretation, not a dimension certification."
+        },
+        {
+          "label": "Map wall, straight on · Day",
+          "kind": "hallway-mapwall-day",
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "AI_RENDER_WITHHELD_LEGO_SCALE_CHECK_FAILED_MODEL_VIEW_SHOWN",
+          "image": "hal/assets/HC-room-hal_elevation.webp",
+          "caption": "Deterministic model view at true scale, no AI: level and straight on, from 700 mm beyond the window wall (eye 0.9 m, 62° lens), so verticals stay parallel; proxy forms at the published sizes. The AI style render of this view is withheld. Failed the LEGO scale check: the map reads 5.5% too wide against the dresser and 10.5% too wide for its height (limit ±5%). Queued for regeneration; Codex image generation is out of quota until 30 Oct."
+        },
+        {
+          "label": "Map wall, three-quarter · Day",
+          "kind": "hallway-quarter-day",
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "AI_RENDER_WITHHELD_LEGO_SCALE_CHECK_FAILED_MODEL_VIEW_SHOWN",
+          "image": "hal/assets/HC-room-hal_quarter.webp",
+          "caption": "Deterministic model view at true scale, no AI: from just inside the living arch turned toward the plain wall (eye 1.55 m, 62° lens); proxy forms at the published sizes. The AI style render of this view is withheld. Failed the LEGO scale check: the map reads 14.8% too wide against the dresser (limit ±5%). Queued for regeneration; Codex image generation is out of quota until 30 Oct."
+        }
+      ],
+      "products": [
+        {
+          "id": "fable-hal-abc-20261023::HC-CABINET",
+          "originalId": "HC-CABINET",
+          "legacyIds": [
+            "HC-CABINET",
+            "hal:HC-CABINET"
+          ],
+          "category": "console",
+          "name": "Fowler 6-Chest Drawer — 6-Drawer, MDF Particle Board, Summer Oak",
+          "qty": 1,
+          "unitCents": 1299500,
+          "totalCents": 1299500,
+          "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | abensonHome",
+          "source": "https://home.abenson.com/abensonhome-fowler-6-chest-drawer-summer-oak.html",
+          "priceDate": "2026-09-10",
+          "variant": "6-Drawer, MDF Particle Board, Summer Oak",
+          "notes": "Summer-oak mid-century six-drawer chest (3 x 2) on splayed legs with angled drawer fronts, 1400 x 390 x 780; tonal with the honey-amber parquet. Alternate: Mandaue Foam Ardel chest of 6 drawers (PHP 15,100, walnut chevron, closer to the Astra set's walnut, so second choice).",
+          "commonToSchemes": [
+            "C"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Published official category-card online price",
+          "image": "hal/assets/products/HC-CABINET.jpg"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HC-LAMP",
+          "originalId": "HC-LAMP",
+          "legacyIds": [
+            "HC-LAMP",
+            "hal:HC-LAMP"
+          ],
+          "category": "table_lamp",
+          "name": "Lanson Metal Table Lamp — Lanson Metal Table Lamp; manufacturer SKU L204454; Default Title",
+          "qty": 1,
+          "unitCents": 750000,
+          "totalCents": 750000,
+          "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+          "source": "https://store.ashleyfurniture.ph/products/lanson-metal-table-lamp?variant=50498206466334",
+          "priceDate": "2026-09-10",
+          "variant": "Lanson Metal Table Lamp; manufacturer SKU L204454; Default Title",
+          "notes": "Textured charcoal-black metal bottle base with a beige linen drum shade; dims unpublished, estimated 280 x 280 x 610 from the retailer photo, measure at the showroom. The ink accent on the dresser top at the dining end. IKEA NYMÅNE (PHP 1,999) was dropped: a bedroom set already claims it.",
+          "commonToSchemes": [
+            "C"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+          "image": "hal/assets/products/HC-LAMP.jpg"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HC-RUG",
+          "originalId": "HC-RUG",
+          "legacyIds": [
+            "HC-RUG",
+            "hal:HC-RUG"
+          ],
+          "category": "rug",
+          "name": "Asne Geo Printed Rug — 80x150 cm; SKU 140583",
+          "qty": 1,
+          "unitCents": 54250,
+          "totalCents": 54250,
+          "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | Mandaue Foam",
+          "source": "https://mandauefoam.ph/products/asne-geo-printed-rug?variant=47887278964914",
+          "priceDate": "2026-09-10",
+          "variant": "80x150 cm; SKU 140583",
+          "notes": "Printed geometric rug in terracotta, black and ivory blocks, 80 x 150 (published), in front of the dresser with the parquet showing on every side.",
+          "commonToSchemes": [
+            "C"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Official public catalog price in PHP for the selected exact variant; no member discount inferred.",
+          "image": "hal/assets/products/HC-RUG.jpg"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HC-PLANT",
+          "originalId": "HC-PLANT",
+          "legacyIds": [
+            "HC-PLANT",
+            "hal:HC-PLANT"
+          ],
+          "category": "plant",
+          "name": "Heim Monstera Artificial Potted Plant Green 120cm — Item 284400024093; model Jws3034",
+          "qty": 1,
+          "unitCents": 231900,
+          "totalCents": 231900,
+          "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Heim",
+          "source": "https://shop.wilcon.com.ph/monstera-artificial-plant-284400024093.html",
+          "priceDate": "2026-10-20",
+          "variant": "Item 284400024093; model Jws3034",
+          "notes": "Faux monstera, 120 cm (published in the title; footprint estimated at 500), broad split leaves in a black pot by the dining end of the plain wall, between the dresser and the arch. The Heim fiddle tree was dropped: bedroom E already claims it.",
+          "commonToSchemes": [
+            "C"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Official online price for item 284400024093 (Wilcon GraphQL final_price 2319, regular_price 2319); per listed unit",
+          "image": "hal/assets/products/HC-PLANT.jpg"
+        },
+        {
+          "id": "fable-hal-abc-20261023::HAL-MAP",
+          "originalId": "HAL-MAP",
+          "legacyIds": [
+            "HAL-MAP",
+            "hal:HAL-MAP"
+          ],
+          "category": "art",
+          "name": "LEGO Art World Map 31203 (owner-supplied) — 11,695-piece mosaic, 104 x 65 cm assembled, wall-hung; owned, not purchased",
+          "qty": 1,
+          "unitCents": null,
+          "totalCents": null,
+          "status": "Owned; priced at nil; modelled as a fixed room element",
+          "source": null,
+          "priceDate": "2026-10-20",
+          "variant": "11,695-piece mosaic, 104 x 65 cm assembled, wall-hung; owned, not purchased",
+          "notes": "At true scale on the plain wall: bottom edge 1100, top 1750, centred at 2200 from the living end, 211 to 320 mm over each scheme's cabinet top. Ivan, 23 Oct: 'make sure the lego map on the wall is up to scale'.",
+          "commonToSchemes": [
+            "C"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "fixed_room_treatment",
+          "priceBasis": "owned",
+          "image": null
+        }
+      ],
+      "budget": {
+        "retailCents": 2335650,
+        "reserveLowCents": 600000,
+        "reserveHighCents": 1700000,
+        "totalLowCents": 3300000,
+        "totalHighCents": 4500000,
+        "note": "Dated planning range (frozen pass-3 catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
+        "reserveCents": null,
+        "totalCents": null
+      },
+      "room": "hallway"
     }
   ],
   "coverage": {
-    "summary": "21 current finished concepts: six Astra and fifteen Fable. Thirty current Astra images show three human viewpoints. Older studies remain outside the main gallery. One hallway entry (23 Oct) puts the chosen pieces on the real photographs at true scale; its dimensions are placeholders.",
+    "summary": "24 current finished concepts: six Astra and eighteen Fable (three of them hallway). Thirty current Astra images show three human viewpoints. Older studies remain outside the main gallery. One hallway entry (23 Oct) puts the chosen pieces on the real photographs at true scale; its dimensions are placeholders.",
     "sets": [
       {
         "namespace": "astra-pqr-20261021-v001",
@@ -27608,6 +28187,11 @@
         "namespace": "fable-hallway-overlay-20261023",
         "title": "Hallway H · World Map Wall (photo overlays)",
         "status": "Owner-approved camera fit on the 7 Sep photographs; placeholder dimensions until the corridor is taped; pieces are stand-in boxes."
+      },
+      {
+        "namespace": "fable-hal-abc-20261023",
+        "title": "Hallway A / B / C · Black Marble Archive / Chalk and Linen / Honey and Ink",
+        "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED; hallway, conditional fit (hallway unmeasured); 4 of 12 AI renders withheld by the LEGO scale check, their true-scale model views shown"
       }
     ]
   },
@@ -27835,8 +28419,8 @@
       "label": "Hallway, dining to living",
       "short": "Hallway",
       "status": "designs",
-      "statusLabel": "Photo overlays · placeholder dimensions, not taped",
-      "lead": "Not on any sheet of the plan. A straight corridor from the living's north-east arch to the arch in the dining's west wall: the window run on the walker's right going living to dining, a plain wall on the left. Ivan's 23 Oct answers fix what goes where (the LEGO World Map on the plain wall with furniture under it, the accepted Seoul Blinds curtains, the parquet kept with a runner, no hallway aircon), and the two composites put those pieces on the 7 Sep photographs at true scale through fitted cameras. Every dimension stays a placeholder until the corridor is taped.",
+      "statusLabel": "Three Fable directions and the photo overlay · conditional fit, hallway unmeasured",
+      "lead": "Not on any sheet of the plan. A straight corridor from the living's north-east arch to the arch in the dining's west wall: the window run on the walker's right going living to dining, a plain wall on the left. Ivan's 23 Oct answers fix what goes where (the LEGO World Map on the plain wall with furniture under it, the accepted Seoul Blinds curtains, the parquet kept with a runner, no hallway aircon), and the two composites put those pieces on the 7 Sep photographs at true scale through fitted cameras. Every dimension stays a placeholder until the corridor is taped. Stage 2 the same day: three Fable directions (A Black Marble Archive, B Chalk and Linen, C Honey and Ink), each a solid six-drawer dresser under the map with room for photos on its top, rendered from four cameras. Ivan's rule: the hallway goes live only with the LEGO scale check, so any render whose map is off scale is withheld and its true-scale model view shown instead (4 of 12 for now, queued for regeneration).",
       "plan": null,
       "photos": [
         {
@@ -27935,7 +28519,7 @@
         "Window run, sill and head",
         "Light switch and outlet positions along the plain wall (the map must clear the switch)"
       ],
-      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack); the hallway's room file and photo-overlay toolkit are draft PR ivanbozhilov1/Ivan#31. The engine's gate blocks AI renders while the room file holds placeholder values, so the first hallway pack with AI views needs the tape (length, width, arches, ceiling, sill, head).",
+      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack). The hallway A/B/C pack (HABC, 23 Oct) carries every untaped value as an assumed value with a stated basis (the gate is never disabled), so each design is a conditional fit until the corridor is taped. The LEGO scale check (draft PR ivanbozhilov1/Ivan#31, tools/design-pack/room/overlay/hallway/scale) has three parts: a dimensioned elevation per scheme, a numeric ratio check, and a measured check of the map against the dresser on every elevation and three-quarter render. The photo overlays were the first-pass layout check before the AI renders.",
       "emptyNote": "The hallway's only entry so far is the photo overlay; packs with AI views follow the tape."
     }
   ]
