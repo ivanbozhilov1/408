@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-view-titles / 2026-10-23T03:50:11+00:00",
+  "build": "408-fable-stu / 2026-10-23T04:05:31+00:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -24007,28 +24007,28 @@
       "plan": null,
       "views": [
         {
-          "label": "Main · hallway door, eye level",
-          "kind": "main-day",
+          "label": "Entrance door · Day",
+          "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "stu/assets/S-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "Opposite · window-AC corner, eye level",
-          "kind": "opposite-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "stu/assets/S-render-windowac.webp",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
-        },
-        {
-          "label": "Side · bathroom door, eye level",
-          "kind": "other",
+          "label": "Bathroom door · Day",
+          "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "stu/assets/S-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
+        },
+        {
+          "label": "Window corner · Day",
+          "kind": "window-ac-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "stu/assets/S-render-windowac.webp",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -24766,28 +24766,28 @@
       "plan": null,
       "views": [
         {
-          "label": "Main · hallway door, eye level",
-          "kind": "main-day",
+          "label": "Entrance door · Day",
+          "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "stu/assets/T-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "Opposite · window-AC corner, eye level",
-          "kind": "opposite-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "stu/assets/T-render-windowac.webp",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
-        },
-        {
-          "label": "Side · bathroom door, eye level",
-          "kind": "other",
+          "label": "Bathroom door · Day",
+          "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "stu/assets/T-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
+        },
+        {
+          "label": "Window corner · Day",
+          "kind": "window-ac-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "stu/assets/T-render-windowac.webp",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
@@ -25500,28 +25500,28 @@
       "plan": null,
       "views": [
         {
-          "label": "Main · hallway door, eye level",
-          "kind": "main-day",
+          "label": "Entrance door · Day",
+          "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "stu/assets/U-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
-          "label": "Opposite · window-AC corner, eye level",
-          "kind": "opposite-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "stu/assets/U-render-windowac.webp",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
-        },
-        {
-          "label": "Side · bathroom door, eye level",
-          "kind": "other",
+          "label": "Bathroom door · Day",
+          "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "stu/assets/U-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
+        },
+        {
+          "label": "Window corner · Day",
+          "kind": "window-ac-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "stu/assets/U-render-windowac.webp",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
       "products": [
