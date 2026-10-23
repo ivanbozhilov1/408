@@ -27720,16 +27720,7 @@
           "caption": "22 Oct 2026, Jamaica J060: the two-level marble pass-through from the kitchen on the dining's north wall; the arch to the living at the far left."
         }
       ],
-      "model": [
-        {
-          "image": "rooms/DIN-plan.webp",
-          "caption": "Deterministic room model from 408-DIN.json, plan view, with the pass-through counter and the fan where the photos put them."
-        },
-        {
-          "image": "rooms/DIN-main.webp",
-          "caption": "Deterministic room model, main view. The red band lists the values still placeholder."
-        }
-      ],
+      "model": [],
       "dimensions": [
         {
           "label": "Footprint",
