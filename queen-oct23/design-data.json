@@ -1,0 +1,218 @@
+{
+  "version": 2,
+  "date": "2026-10-23",
+  "release": {
+    "accepted_design_ids": [
+      "Q1"
+    ],
+    "released_count": 1,
+    "pending_count": 2,
+    "pending_design_ids": [
+      "Q2",
+      "Q3"
+    ],
+    "view_count": 2,
+    "product_count": 13
+  },
+  "designs": [
+    {
+      "id": "Q1",
+      "name": "Clay & Paper",
+      "palette": [
+        "#b8704b",
+        "#f3e9d8",
+        "#6e4a32"
+      ],
+      "description": "A low walnut platform with warm terracotta stripes, a graphic woven rug and light sculptural furniture. White closed bedsides and an open-arm chair keep the room bright; geometric paper art gives it a little colour.",
+      "bed": {
+        "name": "Tahoe · Queen Walnut",
+        "url": "https://philux.ph/products/tahoe-bed?variant=39864421286052",
+        "variant": "Queen / Walnut / Natural walnut finish",
+        "mattress_mm": [
+          1524,
+          1981.2
+        ],
+        "outer_mm": [
+          1620,
+          2120,
+          880
+        ],
+        "availability": "₱142,000 for exact Queen / Walnut, excluding freight. Preorder; current holiday notice says 2027 delivery. Cebu service, freight and arrival require a quote.",
+        "evidence": "Official Philux queen dimensions and sizing FAQ, checked 23 Oct 2026. Shared seller gallery photo; it is not explicitly mapped to the walnut queen variant. Materials: Walnut option; exact internal secondary wood/material specifications not published.",
+        "limitations": "Separate headboard width and internal mattress opening/recess are not independently dimensioned. The complete published bed envelope is used for this conditional layout. Continuous support for a 50 mm mattress must be confirmed.",
+        "substitution": "This replaces shortlist option 3: that listing has a 150 × 200 cm variant, but its queen headboard width is ambiguous. The Tahoe preserves the low, broad walnut-headboard direction."
+      },
+      "clearances": {
+        "wardrobe_route_mm": 1080.5,
+        "foot_to_console_mm": 1245,
+        "right_table_to_curtain_mm": 860.0,
+        "chair_to_curtain_mm": 120,
+        "note": "Chair to curtain reserve: 12.0 cm. Plant canopy and drawer operation need site review."
+      },
+      "plan": "assets/Q1-plan.svg",
+      "matrix": "assets/Q1-selection-matrix.jpg",
+      "views": [
+        {
+          "view": "entry",
+          "file": "assets/Q1-entry.png",
+          "sha256": "f5ba65ab045ce03fe1cf5ecf1b8fca1d90b84ca92702604547880118028525b1",
+          "provenance": {
+            "generation_sha256": "f74c6864e5b2e809b2edf89b9e76d2838b52910e31d6ddc2339a47f89fc6e240",
+            "final_sha256": "f5ba65ab045ce03fe1cf5ecf1b8fca1d90b84ca92702604547880118028525b1",
+            "method": "local_repair"
+          },
+          "label": "From the hall doorway",
+          "caption": "Photoreal design visualization. Plans and source product photos govern dimensions; support and installation details remain conditional."
+        },
+        {
+          "view": "windowac",
+          "file": "assets/Q1-windowac.png",
+          "sha256": "47370e86d1e83e51dd86b7d987ff44e340899c40561145a726244209dfa00bde",
+          "provenance": {
+            "generation_sha256": "6e08ef18e2620e3bb3975c2063d762e3032a144e545b101231c5106468e4316e",
+            "final_sha256": "47370e86d1e83e51dd86b7d987ff44e340899c40561145a726244209dfa00bde",
+            "method": "local_repair"
+          },
+          "label": "From the window-AC corner",
+          "caption": "Photoreal design visualization. Plans and source product photos govern dimensions; support and installation details remain conditional."
+        }
+      ],
+      "products": [
+        {
+          "id": "Q1-BED",
+          "name": "Philux Tahoe Bed — 1524 × 1981.2 mm mattress variant",
+          "role": "bed",
+          "url": "https://philux.ph/products/tahoe-bed?variant=39864421286052",
+          "image": "assets/products/Q1-BED.jpg",
+          "quantity": 1,
+          "dimension_label": "162 cm width × 212 cm depth × 88 cm height",
+          "evidence_label": "Official Philux queen dimensions and sizing FAQ, checked 23 Oct 2026. Shared seller gallery photo; it is not explicitly mapped to the walnut queen variant. Materials: Walnut option; exact internal secondary wood/material specifications not published."
+        },
+        {
+          "id": "Q1-E-NIGHTSTAND",
+          "name": "Nina Bedside Table",
+          "role": "nightstand",
+          "url": "https://www.urbanconcepts.ph/product/nina-bedside-table/",
+          "image": "assets/products/Q1-E-NIGHTSTAND.webp",
+          "quantity": 2,
+          "dimension_label": "40 cm width × 50 cm depth × 50 cm height",
+          "evidence_label": "Sourced 2026-09-08; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q1-D-LAMP",
+          "name": "Chadrich Paper Table Lamp",
+          "role": "lamp",
+          "url": "https://store.ashleyfurniture.ph/products/chadrich-paper-table-lamp?variant=50476168970526",
+          "image": "assets/products/Q1-D-LAMP.webp",
+          "quantity": 2,
+          "dimension_label": "Dimensions not published in retained catalogue evidence",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q1-S-CHAIR",
+          "name": "ISMANTORP Armchair",
+          "role": "chair",
+          "url": "https://www.ikea.com/ph/en/p/ismantorp-armchair-metal-light-grey-beige-tibbleby-light-beige-00598216/",
+          "image": "assets/products/Q1-S-CHAIR.avif",
+          "quantity": 1,
+          "dimension_label": "72 cm width × 66 cm depth × 71 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q1-E-CONSOLE",
+          "name": "Charlotte TV Bench",
+          "role": "console",
+          "url": "https://mandauefoam.ph/products/charlotte-tv-bench",
+          "image": "assets/products/Q1-E-CONSOLE.webp",
+          "quantity": 1,
+          "dimension_label": "160 cm width × 40 cm depth × 50 cm height",
+          "evidence_label": "Sourced 2026-09-08; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q1-E-MIRROR",
+          "name": "Heim Oslo Round Mirror Gold 60cm",
+          "role": "mirror",
+          "url": "https://shop.wilcon.com.ph/oslo-round-mirror-957700000053.html",
+          "image": "assets/products/Q1-E-MIRROR.jpg",
+          "quantity": 1,
+          "dimension_label": "60 cm width × 60 cm height",
+          "evidence_label": "Sourced 2026-10-20; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q1-D-RUG",
+          "name": "BLÅLJUS Rug, flatwoven",
+          "role": "rug",
+          "url": "https://www.ikea.com/ph/en/p/blaljus-rug-flatwoven-handwoven-natural-gray-brown-check-90610902/",
+          "image": "assets/products/Q1-D-RUG.avif",
+          "quantity": 1,
+          "dimension_label": "170 cm width × 240 cm depth",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q1-D-BEDSPREAD",
+          "name": "Yucatan Terracotta Stripe Full/Queen Quilt",
+          "role": "bedspread",
+          "url": "https://crateandbarrel.com.ph/products/yucatan-terracotta-stripe-full-queen-quilt",
+          "image": "assets/products/Q1-D-BEDSPREAD.webp",
+          "quantity": 1,
+          "dimension_label": "Dimensions not published in retained catalogue evidence",
+          "evidence_label": "Sourced 2026-10-20; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q1-D-PILLOWCASES",
+          "name": "Jude Cotton Linen Standard Pillowcases, Set of 2 by Jake Arnold",
+          "role": "sleeping_pillowcase_pack",
+          "url": "https://crateandbarrel.com.ph/products/jude-cotton-linen-standard-bed-pillowcases-set-of-2-by-jake-arnold",
+          "image": "assets/products/Q1-D-PILLOWCASES.webp",
+          "quantity": 1,
+          "dimension_label": "Dimensions not published in retained catalogue evidence",
+          "evidence_label": "Sourced 2026-10-20; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q1-T-ART",
+          "name": "A58000251 Wall Art",
+          "role": "art",
+          "url": "https://store.ashleyfurniture.ph/products/a58000251-wall-art?variant=45493205369118",
+          "image": "assets/products/Q1-T-ART.webp",
+          "quantity": 1,
+          "dimension_label": "60.96 cm width × 2.54 cm depth × 78.74 cm height",
+          "evidence_label": "Official dimensions refreshed 23 Oct 2026. One artwork selected; stock and Cebu delivery unconfirmed."
+        },
+        {
+          "id": "Q1-E-PLANT",
+          "name": "Heim Fiddle Tree Artificial Potted Plant 150cm",
+          "role": "plant",
+          "url": "https://shop.wilcon.com.ph/fiddle-tree-artificial-plant-284400024095.html",
+          "image": "assets/products/Q1-E-PLANT.jpg",
+          "quantity": 1,
+          "dimension_label": "42 cm width × 42 cm depth × 150 cm height",
+          "evidence_label": "Sourced 2026-10-20; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q1-E-PLANTER",
+          "name": "Willis 13.5\" x 15.75\" Medium White Ceramic Planter",
+          "role": "planter",
+          "url": "https://crateandbarrel.com.ph/products/willis-13-5-x-15-75-medium-white-ceramic-planter?variant=52003308962008",
+          "image": "assets/products/Q1-E-PLANTER.png",
+          "quantity": 1,
+          "dimension_label": "Dimensions not published in retained catalogue evidence",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        },
+        {
+          "id": "Q1-D-DECOR",
+          "name": "Flourish Terracotta Vase with Handle",
+          "role": "decor",
+          "url": "https://ourhome.ph/products/flourish-terracotta-vase-with-handle?variant=44400025731313",
+          "image": "assets/products/Q1-D-DECOR.jpg",
+          "quantity": 1,
+          "dimension_label": "17.5 cm width × 15 cm height",
+          "evidence_label": "Sourced 2026-09-10; stock and Cebu delivery not freshly confirmed."
+        }
+      ],
+      "acceptance": {
+        "qa_sha256": "e186a63a20b457e1b95d11c341fe524eba795fa9bc364bd6134b34c61ed07d04",
+        "render_kind": "real_codex_image"
+      }
+    }
+  ]
+}
