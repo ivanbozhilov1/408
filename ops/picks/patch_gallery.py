@@ -58,6 +58,8 @@ def patch(gallery: Path, endpoint: str, catalog_path: Path) -> list[str]:
         preserved_ids.extend(json.loads((gallery / 'ops/picks/catalog.json').read_text(encoding='utf-8')))
     template = Path(__file__).with_name('client.js').read_text(encoding='utf-8')
     engine = Path(__file__).with_name('preferences.js').read_text(encoding='utf-8')
+    usage_path = Path(__file__).with_name('usage.js')
+    usage = usage_path.read_text(encoding='utf-8') if usage_path.exists() else ''
     for page, board in boards.items():
         script_path = page.parent / 'site.js'
         script = script_path.read_text(encoding='utf-8')
@@ -80,7 +82,7 @@ def patch(gallery: Path, endpoint: str, catalog_path: Path) -> list[str]:
                     raise ValueError(f'Expected one runtime anchor {old!r} in {script_path}')
                 script = script.replace(old, new, 1)
         client = template.replace('__PICKS_API__', json.dumps(endpoint)).replace('__PICKS_CATALOG__', json.dumps(catalog, ensure_ascii=False)).replace('__PICKS_BOARD__', json.dumps(board))
-        combined = script.rstrip() + '\n\n' + BEGIN + engine + '\n' + client + END
+        combined = script.rstrip() + '\n\n' + BEGIN + usage + '\n' + engine + '\n' + client + END
         script_path.write_text(combined, encoding='utf-8')
         version = hashlib.sha256(combined.encode('utf-8')).hexdigest()[:12]
         content = page.read_text(encoding='utf-8')
@@ -104,11 +106,29 @@ def patch(gallery: Path, endpoint: str, catalog_path: Path) -> list[str]:
             '.exclusion-dialog::backdrop{background:#0007}.exclusion-dialog label{display:block;margin:.7rem 0}'
             '.exclusion-dialog textarea{box-sizing:border-box;width:100%;font:inherit}.exclusion-dialog button{font:inherit;min-height:44px;padding:.55rem .8rem;margin:.25rem 0}'
             '.exclusion-dialog input{width:1.2rem;height:1.2rem;vertical-align:middle}'
-            '.picks-sync [data-exclusions] button{margin:.25rem}.picks-sync button:disabled{opacity:.65}\n')
+            '.picks-sync [data-exclusions] button{margin:.25rem}.picks-sync button:disabled{opacity:.65}'
+            '.picks-sync [data-unused-only]{display:inline-block;width:1.2rem;min-height:1.2rem;height:1.2rem;vertical-align:middle;margin:0 .4rem 0 0}\n')
         css_path.write_text(css, encoding='utf-8')
     catalog_path.parent.mkdir(parents=True, exist_ok=True)
     allowed_ids = list(dict.fromkeys(preserved_ids + [item['id'] for item in catalog]))
     catalog_path.write_text(json.dumps(allowed_ids, indent=2) + '\n', encoding='utf-8')
+    # The combined gallery and legacy schedules use the same gate implementation.
+    combined_preferences = gallery / 'collection-preferences.js'
+    if combined_preferences.exists():
+        combined_preferences.write_text(usage + '\n' + engine, encoding='utf-8')
+        for name in ('index.html', 'archive.html'):
+            page = gallery / name
+            if not page.exists():
+                continue
+            content = page.read_text(encoding='utf-8')
+            for source in ('collection-preferences.js', 'collection-sync.js', 'collection.js', 'collection.css'):
+                source_path = gallery / source
+                if source_path.exists():
+                    version = hashlib.sha256(source_path.read_bytes()).hexdigest()[:12]
+                    attribute = 'href' if source.endswith('.css') else 'src'
+                    content = re.sub(attribute + r'="' + re.escape(source) + r'(?:\?[^\"]*)?"',
+                                     f'{attribute}="{source}?v={version}"', content)
+            page.write_text(content, encoding='utf-8')
     return list(boards.values())
 
 

@@ -227,7 +227,7 @@
         if (!saved?.token && session) disconnect(false);
       } else if (session && (key === CACHE + scope || key?.startsWith(OPS))) { pullCache(); notify(); if (key.startsWith(OPS)) void refresh(); }
     }
-    async function exportBrief() {
+    async function exportBrief(generation = {}) {
       if (!session || pending().length) throw new Error('Wait for changes to sync before exporting shared choices.');
       await refresh();
       if (phase !== 'online' || pending().length || preferenceSchema !== 2) throw new Error('Reconnect and sync shared choices before exporting.');
@@ -235,7 +235,7 @@
       if (turn !== epoch || pending().length) throw new Error('Choices changed. Prepare a fresh export.');
       accept(snapshot); notify();
       if (snapshot.revision !== revision) throw new Error('Choices changed. Prepare a fresh export.');
-      const brief = rules.compile(snapshot, catalog);
+      const brief = rules.compile(snapshot, catalog, generation);
       if (brief.conflicts.length || brief.unresolved.length) throw new Error([...brief.conflicts, ...brief.unresolved].join(' '));
       return brief;
     }
@@ -262,6 +262,13 @@
     panel.innerHTML = '<strong>Shared furniture choices</strong><p data-sync-status role="status" aria-live="polite">Local choices stay in this browser. Connect once with your existing private access link.</p><details data-sync-setup><summary>Connect shared choices</summary><label>Private access code<input type="password" autocomplete="off" data-sync-code></label><button type="button" data-sync-connect>Connect</button></details><div class="sync-actions"><button type="button" data-sync-refresh hidden>Refresh</button><button type="button" data-sync-disconnect hidden>Disconnect</button><button type="button" data-sync-export hidden>Export shared choices</button></div><div data-sync-exclusions></div>';
     document.querySelector('#picks .section-head').after(panel);
     const status = panel.querySelector('[data-sync-status]');
+    const generationOptions = document.createElement('label');
+    const unusedOnly = document.createElement('input');
+    unusedOnly.type = 'checkbox'; unusedOnly.dataset.unusedOnly = '';
+    generationOptions.append(unusedOnly, document.createTextNode(' Unused items only for the next design'));
+    const generationHelp = document.createElement('p');
+    generationHelp.textContent = 'Check recorded product identities across saved designs, variants and previous versions. Older entries with only item IDs still need source-photo comparison. Exclusions apply; existing designs stay unchanged.';
+    panel.append(generationOptions, generationHelp);
     let savedAccess = null;
     try { if (!adapter.testMode) savedAccess = JSON.parse(root.localStorage.getItem(ACCESS) || 'null'); } catch { /* Storage may be disabled. */ }
     if (suppliedToken || savedAccess?.token) adapter.update({managed: true, readonly: true, items: [], picks: [], exclusions: [], pending: 0, phase: 'connecting'});
@@ -350,7 +357,13 @@
     panel.querySelector('[data-sync-refresh]').addEventListener('click', () => void client.refresh());
     panel.querySelector('[data-sync-export]').addEventListener('click', async () => {
       try {
-        const brief = await client.exportBrief(), blob = new Blob([JSON.stringify(brief, null, 2) + '\n'], {type: 'application/json'});
+        const generation = {unusedItemsOnly: unusedOnly.checked};
+        if (generation.unusedItemsOnly) {
+          const response = await fetch('collection-data.json', {cache: 'no-store'});
+          if (!response.ok || !root.Unit408Usage) throw new Error('Saved design usage is unavailable. Reload before preparing an unused-only brief.');
+          generation.usage = root.Unit408Usage.build((await response.json()).designs).snapshot;
+        }
+        const brief = await client.exportBrief(generation), blob = new Blob([JSON.stringify(brief, null, 2) + '\n'], {type: 'application/json'});
         const url = URL.createObjectURL(blob), a = document.createElement('a'); a.href = url; a.download = `unit408-shared-choices-r${brief.revision}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
       } catch (error) { status.textContent = error.message; }
     });

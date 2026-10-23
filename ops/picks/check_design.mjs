@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 import {readFile, writeFile} from 'node:fs/promises';
+import './usage.js';
 import './preferences.js';
 
-const help = `Usage: node tools/unit408_picks/check_design.mjs --brief brief.json --candidates candidates.json [--out report.json]
+const help = `Usage: node ops/picks/check_design.mjs --brief brief.json --candidates candidates.json [--collection collection-data.json] [--out report.json]
+Unused-only briefs require --collection with the current complete saved collection. A stale or edited usage snapshot blocks generation. All saved versions count; recolouring a used model does not make it unused.
 Candidates: a non-empty array of public product metadata, or:
 { "items": [{"id":"new-bed","role":"bed","name":"Product name","url":"https://supplier.example/product","family":"Brand Model","brand":"Brand","sku":"SKU","variant":"...","materials":"..."}],
   "preferenceRevision": 7,
@@ -21,13 +23,23 @@ if (args.length === 1 && ['--help', '-h'].includes(args[0])) {
   try {
     const options = {};
     for (let i = 0; i < args.length; i += 2) {
-      if (!['--brief', '--candidates', '--out'].includes(args[i]) || !args[i + 1] || args[i + 1].startsWith('--') || options[args[i]]) throw new Error('Unknown, duplicate, or incomplete option.');
+      if (!['--brief', '--candidates', '--collection', '--out'].includes(args[i]) || !args[i + 1] || args[i + 1].startsWith('--') || options[args[i]]) throw new Error('Unknown, duplicate, or incomplete option.');
       options[args[i]] = args[i + 1];
     }
     if (!options['--brief'] || !options['--candidates']) throw new Error('--brief and --candidates are required.');
     out = options['--out'];
     const [brief, candidates] = await Promise.all([options['--brief'], options['--candidates']].map(async path => JSON.parse(await readFile(path, 'utf8'))));
     const report = globalThis.Unit408Preferences.validateCandidates(brief, candidates);
+    if (brief?.generation?.unusedItemsOnly === true) {
+      let reason;
+      if (!options['--collection']) reason = 'Unused items only requires --collection with the current saved collection.';
+      else {
+        const collection = JSON.parse(await readFile(options['--collection'], 'utf8'));
+        const current = globalThis.Unit408Usage.build(collection.designs).snapshot;
+        if (!globalThis.Unit408Usage.validSnapshot(current) || JSON.stringify(current) !== JSON.stringify(brief.generation.usage)) reason = 'Saved design usage changed or the brief was edited. Export a fresh brief from the current gallery.';
+      }
+      if (reason) { report.ok = false; report.blocked = true; report.issues.push({code: 'stale_usage', reason}); }
+    }
     const json = JSON.stringify(report, null, 2) + '\n';
     if (out) await writeFile(out, json, 'utf8');
     process.stdout.write(json);
