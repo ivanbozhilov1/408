@@ -27705,36 +27705,27 @@
       "short": "Dining",
       "status": "queued",
       "statusLabel": "Room file ready · no designs yet",
-      "lead": "Sheet 1 right blow-up (1:50). XY traced from the chains; heights placeholder. Checked 23 Oct 2026 against Jamaica's J055 (from the hallway) and J060 (kitchen pass-through): orientation confirmed, one discrepancy on the west wall.",
+      "lead": "Sheet 1 shows a stepped west wall, with a 3831 mm north span and a 3680 mm south span ending at the same east inner face. The depth is 4468 mm. Ivan confirmed the living arch is on the right when facing the room from the kitchen counter. Opening and ceiling heights remain unmeasured.",
       "plan": {
         "image": "rooms/dining-plan.png",
-        "caption": "Sheet 1 dining blow-up, 1:50. 3680 clear × 4468 mm; west window 1735 between piers, south window 3558 in four lights."
+        "caption": "Sheet 1 dining blow-up, 1:50. North span 3831 mm; south span 3680 mm starts at the stepped west window face. Both end at the same east inner face; depth 4468 mm. South glazing 3558 mm, west window run 1735 mm."
       },
       "photos": [
         {
           "image": "rooms/hallway-photo-j055.jpg",
-          "caption": "22 Oct 2026, Jamaica J055, from the hallway looking south: the four-light south window with the AC under its east end, the dark arch to the living on the left, the ceiling fan with light kit."
+          "caption": "22 Oct 2026, Jamaica J055, from the hallway looking south: the four-light south window with the AC under its east end and the dark arch to the living. The visible fan is an existing fixture in the source photo and is excluded from proposed designs."
         },
         {
           "image": "rooms/dining-photo-j060.jpg",
-          "caption": "22 Oct 2026, Jamaica J060: the two-level marble pass-through from the kitchen on the dining's north wall; the arch to the living at the far left."
+          "caption": "22 Oct 2026, Jamaica J060: the two-level marble pass-through from the kitchen on the dining's north wall, with the living arch also visible."
         }
       ],
-      "model": [
-        {
-          "image": "rooms/DIN-plan.webp",
-          "caption": "Deterministic room model from 408-DIN.json, plan view, with the pass-through counter and the fan where the photos put them."
-        },
-        {
-          "image": "rooms/DIN-main.webp",
-          "caption": "Deterministic room model, main view. The red band lists the values still placeholder."
-        }
-      ],
+      "model": [],
       "dimensions": [
         {
           "label": "Footprint",
-          "value": "3680 × 4468 mm clear (3831 is to the outer face)",
-          "basis": "drawn"
+          "value": "North span 3831 mm; south span 3680 mm from the stepped west window face; depth 4468 mm. Both spans end at the same east inner face.",
+          "basis": "plan-drawn + corrected trace; not site surveyed"
         },
         {
           "label": "South window W-S",
@@ -27747,14 +27738,19 @@
           "basis": "drawn"
         },
         {
-          "label": "Arch to the living A-E",
-          "value": "1566 mm on the east wall",
-          "basis": "drawn + photo"
+          "label": "Arch to the living",
+          "value": "Upper west wall; width, height and exact offset unmeasured",
+          "basis": "owner-confirmed orientation + photo"
         },
         {
-          "label": "North-east opening A-N",
-          "value": "1071 mm, destination unknown",
-          "basis": "drawn"
+          "label": "East-side open passage",
+          "value": "1566 mm along the east wall; separate from the living arch",
+          "basis": "plan-drawn"
+        },
+        {
+          "label": "North pass-through span",
+          "value": "1071 mm in-room span; ledge projection and opening height unmeasured",
+          "basis": "plan-drawn + photo"
         },
         {
           "label": "Kitchen pass-through",
@@ -27762,23 +27758,17 @@
           "basis": "photo, not drawn"
         },
         {
-          "label": "Ceiling fan",
-          "value": "centred, south of mid-depth",
-          "basis": "photo, placeholder"
-        },
-        {
           "label": "Ceiling, sills, heads",
-          "value": "2700 / 900 / 2350 mm",
-          "basis": "placeholder"
+          "value": "Not measured; confirm on site",
+          "basis": "site measurement required"
         }
       ],
       "toMeasure": [
         "Ceiling height, sills, heads, arch head",
-        "Fan position",
-        "Counter height and length",
-        "Site check: which wall holds the dark arch. Facing the pass-through, the photos put it on the left-hand (west) wall near the pass-through corner; the drawing leaves a gap on the east wall instead."
+        "Living arch opening width and exact offset on the upper west wall",
+        "Kitchen counter height, length and projection"
       ],
-      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack); the room-pack wiring for the rest of the unit is draft PR ivanbozhilov1/Ivan#6. The engine's gate blocks AI renders while a room file still holds placeholder values, so the first pack for a room needs its heights taped or accepted as assumptions.",
+      "packs": "Dining design views are illustrative. The plan-derived outline and proposed furniture envelopes guide comparison; ceiling and opening heights, arch size, AC mounting, counter projection and operating clearances require on-site confirmation.",
       "emptyNote": "No dining-area designs are published yet. Packs are generated offline by the room-pack chain and appear here as a set once published."
     },
     {
