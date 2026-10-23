@@ -24000,7 +24000,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
-        "Known render limits (QA pass 3, 23 Oct): the window-AC views add a plant that is not in the scheme (T: an olive tree in a floor pot; S: a snake plant in a floor pot). The scheme pieces are the olive stem in the white vase (T) and the pencil succulent on the console (S)."
+        "Known render limit (QA pass 3, 23 Oct): the S window-AC view adds a snake plant in a floor pot that is not in the scheme; the scheme plant is the pencil succulent on the console. The T window-AC view was re-rendered the same day to remove an invented floor olive tree (QA pass 4)."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
       "hero": "stu/assets/S-render-entry.webp",
@@ -24759,7 +24759,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
-        "Known render limits (QA pass 3, 23 Oct): the window-AC views add a plant that is not in the scheme (T: an olive tree in a floor pot; S: a snake plant in a floor pot). The scheme pieces are the olive stem in the white vase (T) and the pencil succulent on the console (S)."
+        "Known render limit (QA pass 3, 23 Oct): the S window-AC view adds a snake plant in a floor pot that is not in the scheme; the scheme plant is the pencil succulent on the console. The T window-AC view was re-rendered the same day to remove an invented floor olive tree (QA pass 4)."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
       "hero": "stu/assets/T-render-entry.webp",
@@ -25493,7 +25493,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
-        "Known render limits (QA pass 3, 23 Oct): the window-AC views add a plant that is not in the scheme (T: an olive tree in a floor pot; S: a snake plant in a floor pot). The scheme pieces are the olive stem in the white vase (T) and the pencil succulent on the console (S)."
+        "Known render limit (QA pass 3, 23 Oct): the S window-AC view adds a snake plant in a floor pot that is not in the scheme; the scheme plant is the pencil succulent on the console. The T window-AC view was re-rendered the same day to remove an invented floor olive tree (QA pass 4)."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
       "hero": "stu/assets/U-render-entry.webp",
