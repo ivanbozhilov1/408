@@ -1,0 +1,135 @@
+{
+  "design": "C",
+  "name": "Terracotta Conversation",
+  "room": "Living room",
+  "views": [
+    {
+      "view": "reverse",
+      "file": "C-reverse.png",
+      "sha256": "9db4aa4443f9a9fc37f24e8d2487cbc44ad09a3c4df3ac38828ba478595e3e7a"
+    },
+    {
+      "view": "entry",
+      "file": "C-entry.png",
+      "sha256": "e9a06e0a38cd061ed415cb7cf7ab59302d5e7a1897172cb82d87f68a00b96384"
+    }
+  ],
+  "basis": "Original room photographs retained; furniture follows a proposed layout based on the drawing.",
+  "wall_recess_mm": {
+    "depth": 307,
+    "along_wall": 1161,
+    "basis": "Drawing values; existence and location confirmed by owner"
+  },
+  "tv_span_beside_shelf_zone_mm": 2182,
+  "furniture": [
+    {
+      "id": "C-TV-01",
+      "label": "TV, minimum 75-inch diagonal",
+      "size_mm": [
+        1668,
+        80,
+        958
+      ]
+    },
+    {
+      "id": "C-CONSOLE-01",
+      "label": "Dark oak closed credenza on black frame",
+      "size_mm": [
+        1700,
+        400,
+        520
+      ]
+    },
+    {
+      "id": "C-SHELF-01",
+      "label": "Open shelf within existing TV-wall recess",
+      "size_mm": [
+        1100,
+        270,
+        1614
+      ]
+    },
+    {
+      "id": "C-SOFA-S-01",
+      "label": "South-side compact terracotta sofa",
+      "size_mm": [
+        1800,
+        850,
+        820
+      ]
+    },
+    {
+      "id": "C-SOFA-E-01",
+      "label": "East-side compact terracotta sofa",
+      "size_mm": [
+        1700,
+        800,
+        820
+      ]
+    },
+    {
+      "id": "C-COFFEE-01",
+      "label": "Larger round smoked-glass nesting table",
+      "size_mm": [
+        900,
+        900,
+        450
+      ]
+    },
+    {
+      "id": "C-COFFEE-02",
+      "label": "Smaller round dark-wood nesting table",
+      "size_mm": [
+        550,
+        550,
+        350
+      ]
+    },
+    {
+      "id": "C-CORNER-01",
+      "label": "Corner side table",
+      "size_mm": [
+        400,
+        400,
+        520
+      ]
+    },
+    {
+      "id": "C-RUG-01",
+      "label": "Indigo rug with ivory pinstripe bands",
+      "size_mm": [
+        2800,
+        2200,
+        10
+      ]
+    },
+    {
+      "id": "C-LAMP-TABLE-01",
+      "label": "Opal globe lamp",
+      "size_mm": [
+        200,
+        200,
+        350
+      ]
+    },
+    {
+      "id": "C-LAMP-FLOOR-01",
+      "label": "Black reading lamp",
+      "size_mm": [
+        300,
+        300,
+        1450
+      ]
+    },
+    {
+      "id": "C-PLANT-01",
+      "label": "Snake plant in ribbed charcoal pot",
+      "size_mm": [
+        350,
+        350,
+        1000
+      ]
+    }
+  ],
+  "limits": "Site dimensions, camera calibration and retail-product fit remain unverified."
+}
