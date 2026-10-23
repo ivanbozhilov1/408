@@ -16,9 +16,9 @@ As of 21 October 2026. All purchases priced as new.
 
 | Design | Priced merchandise + carried curtains | Estimator reserves | Total with 10% contingency |
 |---|---:|---:|---:|
-| J · White Gallery | ₱225,272.50 | ₱35,000–84,000 | ₱287,000–341,000 |
-| K · Stitched Oak | ₱536,057.50 | ₱35,000–84,000 | ₱629,000–683,000 |
-| L · Flax Wine | ₱260,619.50 | ₱35,000–84,000 | ₱326,000–380,000 |
+| J · White Gallery | ₱224,273.50 | ₱35,000–84,000 | ₱286,000–340,000 |
+| K · Stitched Oak | ₱503,657.50 | ₱35,000–84,000 | ₱593,000–647,000 |
+| L · Flax Wine | ₱257,620.50 | ₱35,000–84,000 | ₱322,000–376,000 |
 
 Quote-required items are shown explicitly and covered by the reserves, not silently priced at zero.
 
@@ -27,7 +27,7 @@ Quote-required items are shown explicitly and covered by the reserves, not silen
 - No scheme is purchase-ready until the bed supplier accepts the exact 50 mm mattress (1828.8 × 1981.2 mm) on a continuous flat deck. Geo (K) has slats, so a custom deck is required; Gibson (J) and Fidel (L) do not publish slats vs solid deck. Outer sizes are unpublished for all three frames.
 - Availability: Gibson King was listed unavailable on the 20 Oct capture and the Nitori stand mirror (J) is "unavailable online"; confirm stock before choosing J.
 - Prices are frozen pass-3 catalogue references (snapshot 20 Oct 2026) with each line's own price date; the Our Home beds were read from supplier JSON on 20 Oct 2026 (Fidel King from the collection JSON). Product existence and Cebu fulfilment require checkout confirmation.
-- Colour and size gates: J Vesper quilt and L faux-linen comforter are Full/Queen or Double-Queen sizes (short drop on the thin mattress); FAGERBACKEN dimensions unpublished; Kolya, Alphalux cane and Deidra lamp sockets and pendant sockets to confirm.
+- Colour and size gates: J Vesper quilt and L faux-linen comforter are Full/Queen or Double-Queen sizes (short drop on the thin mattress); FAGERBACKEN dimensions unpublished; Kolya, Alphalux cane and Deidra lamp sockets to confirm.
 - TV mount is the True Vision TV73-69F (in stock per manufacturer API); installer to confirm substrate, anchors and Samsung fixings.
 - Curtain ₱42,420 is the carried 16 October quote reference: ₱36,720 master treatment plus ₱3,800 valance and ₱1,900 sticks allocations. Remeasurement quote required.
 - Trade/freight/mattress/deck reserves total ₱35,000–84,000 as estimator allowances, not supplier quotations. 10 % contingency added, totals rounded up to the next ₱1,000.
@@ -50,7 +50,6 @@ Grey diamond-tufted Gibson bed in a white room: white-painted 861 two-drawer bed
 | [Amber 150 cm TV Stand with 2 Doors](https://mandauefoam.ph/products/amber-150-cm-tv-stand-with-2-doors?variant=43332290969778) | SKU 117802; White | 1 | 4,225.00 | 4,225.00 |
 | [STAND MIRROR 40150WW 002FE](https://www.nitori.com.ph/products/stand-mirror-40150ww-002fe) | Single listed variant; SKU 2117100001641; full-length standing/floor mirror | 1 | 1,790.00 | 1,790.00 |
 | [VÄXELFEL Rug, low pile](https://www.ikea.com/ph/en/p/vaexelfel-rug-low-pile-off-white-20611453/) | VÄXELFEL Rug, low pile, off-white, 160x230 cm; article 20611453 | 1 | 3,499.00 | 3,499.00 |
-| [KÄRRNOCKA Ceiling lamp](https://www.ikea.com/ph/en/p/kaerrnocka-ceiling-lamp-white-20599465/) | KÄRRNOCKA Ceiling lamp, white, 37 cm; article 20599465 | 1 | 999.00 | 999.00 |
 | [Alphalux Linear Led Striplight 9.5w Warm White](https://shop.wilcon.com.ph/led-220v-striplight-95w-perm-283600002557.html) | SHV/ST/0/1/0 9.5W 3000K WW 220V double line; item 283600002557 | 1 | 620.00 | 620.00 |
 | [Vesper Quilt Set Full/Queen White](https://www.rustans.com/products/jqueen-vesper-quilt-set-full-queen-white) | Single listed variant; SKU 3435118 | 1 | 7,600.00 | 7,600.00 |
 | [Heirloom Scallop Quilted Sham White](https://www.rustans.com/products/pottery-barn-heirloom-scallop-quilted-sham-white) | Single listed variant; SKU 3316405 | 2 | 5,450.00 | 10,900.00 |
@@ -76,7 +75,7 @@ Grey diamond-tufted Gibson bed in a white room: white-painted 861 two-drawer bed
 
 ## K · Stitched Oak
 
-Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; a faceted silver-glass Blown pendant as the jewel; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.
+Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.
 
 - TONSTAD 400 × 400 × 590 mm; Sierra console 1600 × 380 × 500 mm; Terni 650 × 800 mm.
 - Geo King outer size unpublished; drawers along the sides and foot: keep 600 mm clear at the foot for drawer pull.
@@ -91,7 +90,6 @@ Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame;
 | [Sierra Media Stand](https://www.furnituremanila.com.ph/product/sierra-media-stand/) | SKU jit-tv25-tvstand-sonoma | 1 | 6,500.00 | 6,500.00 |
 | [A58000418 Accent Mirror](https://store.ashleyfurniture.ph/products/a58000418-accent-mirror?variant=50124687474974) | A58000418 Accent Mirror; manufacturer SKU A58000418; Default Title; Black | 1 | 11,000.00 | 11,000.00 |
 | [Bodrum Hand-Knotted Grey Area Rug 6'x9'](https://crateandbarrel.com.ph/products/bodrum-hand-knotted-grey-area-rug-6x9?variant=44019020890328) | Bodrum Hand-Knotted Grey Area Rug 6'x9'; Single listed configuration; published SKU 225938; Shopify variant 44019020890328 | 1 | 67,195.00 | 67,195.00 |
-| [Blown SW3 & SW4](https://www.designstory.com.ph/products/copy-of-blown-sw4?variant=41309259694246) | Silver Lustre / SW3: Ø: 28cm; retailer SKU DS001600; Shopify variant 41309259694246 | 1 | 32,400.00 | 32,400.00 |
 | [Q5001821K King Coverlet Set](https://store.ashleyfurniture.ph/products/q5001821k-king-coverlet-set-2-cs?variant=50443728879902) | Q5001821K King Coverlet Set; manufacturer SKU Q5001821K; Default Title; White | 1 | 33,700.00 | 33,700.00 |
 | [PB Classic 400TC Organic Cotton Percale Sheet Set](https://www.rustans.com/products/pottery-barn-pb-classic-400tc-organic-cotton-percale-sheet-set) | Variant 'King / White'; SKU 2675718 | 1 | 14,500.00 | 14,500.00 |
 | [Organic Cotton Basketweave 20"x20" Ink Black Throw Pillow Cover](https://crateandbarrel.com.ph/products/organic-cotton-basketweave-20x20-ink-black-throw-pillow-cover?variant=50239581028568) | Organic Cotton Basketweave 20"x20" Ink Black Throw Pillow Cover; Ink Black; published SKU 319292; Shopify variant 50239581028568 | 1 | 5,499.00 | 5,499.00 |
@@ -131,7 +129,6 @@ Our Home Fidel spindle bed in warm mahogany dressed in undyed faux-linen; knotty
 | [HEMNES TV unit](https://www.ikea.com/ph/en/p/hemnes-tv-unit-white-stain-light-brown-30413527/) | TV unit, white stain/light brown, 148x47x57 cm (58 1/4x18 1/2x22 1/2 ") | 1 | 14,999.00 | 14,999.00 |
 | [KOMPISHÄNG Floor mirror](https://www.ikea.com/ph/en/p/kompishaeng-floor-mirror-pine-40628792/) | KOMPISHÄNG Floor mirror, pine, 38 cm; article 40628792 | 1 | 4,999.00 | 4,999.00 |
 | [TIOKRONA Rug, flatwoven](https://www.ikea.com/ph/en/p/tiokrona-rug-flatwoven-natural-50628225/) | TIOKRONA Rug, flatwoven, natural, 160x230 cm; article 50628225 | 1 | 2,999.00 | 2,999.00 |
-| [NARRKOLV Pendant lamp](https://www.ikea.com/ph/en/p/narrkolv-pendant-lamp-rattan-70595870/) | NARRKOLV Pendant lamp, rattan, 56 cm; article 70595870 | 1 | 2,999.00 | 2,999.00 |
 | [Faux Linen Natural Color Comforter](https://mandauefoam.ph/products/faux-linen-natural-color-comforter) | Variant 'Comforter Double-Queen'; SKU 136248 | 1 | 2,360.00 | 2,360.00 |
 | [Faux Linen Natural Color 4pc Sheet Set](https://mandauefoam.ph/products/faux-linen-natural-color-4pc-sheet-set-1) | Variant 'Queen Sheet Set'; SKU 136245 | 1 | 2,520.00 | 2,520.00 |
 | [23'' Bubble Wool Mer Red Piece](https://crateandbarrel.com.ph/products/23-bubble-wool-mer-red-piece?variant=43898179191000) | 23'' Bubble Wool Mer Red Piece; Single listed configuration; published SKU 463207; Shopify variant 43898179191000 | 1 | 4,599.00 | 4,599.00 |
@@ -158,6 +155,6 @@ Our Home Fidel spindle bed in warm mahogany dressed in undyed faux-linen; knotty
 ## Source and verification scope
 
 - Catalogue of record: frozen Airtable pass-3 snapshot (9,853 products / 9,901 offers, LIVE-PASS3-READ-RECEIPT.json). No live Airtable read in this run; no Airtable writes.
-- 50 visible selections across J/K/L, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across J, K, L, the twelve earlier schemes or the parallel GHI and MNO sets (UNIQUENESS-MATRIX.md).
+- 47 visible selections across J/K/L, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across J, K, L, the twelve earlier schemes or the parallel GHI and MNO sets (UNIQUENESS-MATRIX.md).
 - Product photos are unaltered retailer references, except the J gallery card, a 3 × 2 composite of the Jahn frame photo. Plans use published dimensions where available and flag defaults where not.
 - PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made.

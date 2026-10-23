@@ -1,7 +1,7 @@
 {
   "title": "Unit 408 — three bedroom directions (J, K, L)",
   "as_of": "21 October 2026",
-  "overview": "Three new, fully sourced directions for Isah and Ivan, distinct from every earlier scheme: J White Gallery, a white room with one lilac-mauve accent, hidden valance light and a gallery of small frames; K Stitched Oak, a box-stitched headboard, natural oak and thin black lines under a crystal pendant; L Flax Wine, flax, wine and wicker around a mahogany spindle bed with pine and cane. Every visible piece is a real catalogue product; technical essentials stay common by agreement.",
+  "overview": "Three new, fully sourced directions for Isah and Ivan, distinct from every earlier scheme: J White Gallery, a white room with one lilac-mauve accent, hidden valance light and a gallery of small frames; K Stitched Oak, a box-stitched headboard, natural oak and thin black lines; L Flax Wine, flax, wine and wicker around a mahogany spindle bed with pine and cane. Every visible piece is a real catalogue product; technical essentials stay common by agreement.",
   "requirements": [
     "MANDATORY: finished 50 mm mattress, 72 × 78 inches (1828.8 × 1981.2 mm), on continuous flat support with no exposed slats or gaps. No thick mattress, topper or box spring.",
     "All prices assume new purchases. Three distinct sets of visible furniture, bedside lamps, fixtures, mirrors, rugs, textiles, plants and decor. Matching bedside pairs within each design.",
@@ -15,7 +15,7 @@
     "No scheme is purchase-ready until the bed supplier accepts the exact 50 mm mattress (1828.8 × 1981.2 mm) on a continuous flat deck. Geo (K) has slats, so a custom deck is required; Gibson (J) and Fidel (L) do not publish slats vs solid deck. Outer sizes are unpublished for all three frames.",
     "Availability: Gibson King was listed unavailable on the 20 Oct capture and the Nitori stand mirror (J) is \"unavailable online\"; confirm stock before choosing J.",
     "Prices are frozen pass-3 catalogue references (snapshot 20 Oct 2026) with each line's own price date; the Our Home beds were read from supplier JSON on 20 Oct 2026 (Fidel King from the collection JSON). Product existence and Cebu fulfilment require checkout confirmation.",
-    "Colour and size gates: J Vesper quilt and L faux-linen comforter are Full/Queen or Double-Queen sizes (short drop on the thin mattress); FAGERBACKEN dimensions unpublished; Kolya, Alphalux cane and Deidra lamp sockets and pendant sockets to confirm.",
+    "Colour and size gates: J Vesper quilt and L faux-linen comforter are Full/Queen or Double-Queen sizes (short drop on the thin mattress); FAGERBACKEN dimensions unpublished; Kolya, Alphalux cane and Deidra lamp sockets to confirm.",
     "TV mount is the True Vision TV73-69F (in stock per manufacturer API); installer to confirm substrate, anchors and Samsung fixings.",
     "Curtain ₱42,420 is the carried 16 October quote reference: ₱36,720 master treatment plus ₱3,800 valance and ₱1,900 sticks allocations. Remeasurement quote required.",
     "Trade/freight/mattress/deck reserves total ₱35,000–84,000 as estimator allowances, not supplier quotations. 10 % contingency added, totals rounded up to the next ₱1,000.",
@@ -76,13 +76,13 @@
         "#fbfaf7"
       ],
       "budget": {
-        "design_centavos": 10534800,
+        "design_centavos": 10434900,
         "common_centavos": 11992450,
-        "priced_centavos": 22527250,
+        "priced_centavos": 22427350,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 287000,
-        "total_high_php": 341000
+        "total_low_php": 286000,
+        "total_high_php": 340000
       },
       "fit_notes": [
         "861 bedsides 500 × 400 mm; Amber 150 console 1500 × 400 × 460 mm.",
@@ -93,20 +93,20 @@
     {
       "id": "K",
       "title": "Stitched Oak",
-      "rationale": "Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; a faceted silver-glass Blown pendant as the jewel; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.",
+      "rationale": "Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.",
       "palette": [
         "#c39a68",
         "#1e1e1e",
         "#efe7d8"
       ],
       "budget": {
-        "design_centavos": 41603300,
+        "design_centavos": 38363300,
         "common_centavos": 12002450,
-        "priced_centavos": 53605750,
+        "priced_centavos": 50365750,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 629000,
-        "total_high_php": 683000
+        "total_low_php": 593000,
+        "total_high_php": 647000
       },
       "fit_notes": [
         "TONSTAD 400 × 400 × 590 mm; Sierra console 1600 × 380 × 500 mm; Terni 650 × 800 mm.",
@@ -124,13 +124,13 @@
         "#efe4cc"
       ],
       "budget": {
-        "design_centavos": 14069500,
+        "design_centavos": 13769600,
         "common_centavos": 11992450,
-        "priced_centavos": 26061950,
+        "priced_centavos": 25762050,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 326000,
-        "total_high_php": 380000
+        "total_low_php": 322000,
+        "total_high_php": 376000
       },
       "fit_notes": [
         "PS 2026 bedsides only 300 mm wide (a narrow pair); HEMNES 1480 × 470 × 570 mm.",
@@ -346,7 +346,8 @@
       "family": "IKEA KÄRRNOCKA",
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Ceiling bracket: Steel, Powder coating; Shade: Polypropylene"
+      "materials": "Ceiling bracket: Steel, Powder coating; Shade: Polypropylene",
+      "removedFromDesign": true
     },
     {
       "id": "J-VALANCE-LED",
@@ -366,7 +367,7 @@
       "notes": "Lighting and electrical / LED strip light, 3000K warm white, 220V double-line (no low-voltage driver needed per listing). Pair with Alphalux Linear Surface Aluminum Profile 2 m (PHP 230 each) as a diffuser channel inside the valance. Availability online, Cebu stock unconfirmed. Alt IKEA ORMANÄS smart LED light strip 4 m (PHP 1,999, in stock, dimmable).",
       "dimensions": {},
       "scope": "design_piece",
-      "image": "assets/products/J-VALANCE-LED.jpg",
+      "image": null,
       "family": "Alphalux Linear Led Striplight",
       "price_date": "2026-10-20",
       "price_basis": "Official online store price for this exact listing/variant on 2026-10-20 (gql-search-led-strip.json); per listed unit as titled",
@@ -466,7 +467,7 @@
         "height": 9.906
       },
       "scope": "design_piece",
-      "image": "assets/products/J-THROW.jpg",
+      "image": null,
       "family": "Ashley A51000261",
       "price_date": "2026-09-10",
       "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
@@ -794,7 +795,8 @@
       "family": "&Tradition Blown SW3",
       "price_date": "2026-09-10",
       "price_basis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
-      "materials": "Mouth-blown glass; metal fitting; fabric cord"
+      "materials": "Mouth-blown glass; metal fitting; fabric cord",
+      "removedFromDesign": true
     },
     {
       "id": "K-BEDSPREAD",
@@ -862,7 +864,7 @@
       "notes": "20x20 in, Ink Black, 100% organic cotton basketweave",
       "dimensions": {},
       "scope": "design_piece",
-      "image": "assets/products/K-CUSHION.jpg",
+      "image": "assets/products/K-CUSHION.webp",
       "family": "Crate & Barrel Organic Cotton Basketweave",
       "price_date": "2026-09-10",
       "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
@@ -890,7 +892,7 @@
         "height": 9.906
       },
       "scope": "design_piece",
-      "image": "assets/products/K-THROW.jpg",
+      "image": "assets/products/K-THROW.webp",
       "family": "Ashley A51000258",
       "price_date": "2026-09-10",
       "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
@@ -1217,7 +1219,8 @@
       "family": "IKEA NARRKOLV",
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Shade: Rattan, Stain; Ceiling cup/ Lampholder cup: Steel, Powder coating; Ring/ Junction box: Polypropylene; Protection layer: Synthetic rubber"
+      "materials": "Shade: Rattan, Stain; Ceiling cup/ Lampholder cup: Steel, Powder coating; Ring/ Junction box: Polypropylene; Protection layer: Synthetic rubber",
+      "removedFromDesign": true
     },
     {
       "id": "L-BEDSPREAD",
@@ -1313,7 +1316,7 @@
         "height": 4.064
       },
       "scope": "design_piece",
-      "image": "assets/products/L-THROW.webp",
+      "image": null,
       "family": "Crate & Barrel Casual Textured Fringe",
       "price_date": "2026-09-10",
       "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
@@ -1394,7 +1397,7 @@
         "height": 381
       },
       "scope": "design_piece",
-      "image": "assets/products/L-BASKET.webp",
+      "image": null,
       "family": "Crate & Barrel Beane",
       "price_date": "2026-09-10",
       "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
@@ -1780,7 +1783,7 @@
   ],
   "source_notes": [
     "Catalogue of record: frozen Airtable pass-3 snapshot (9,853 products / 9,901 offers, LIVE-PASS3-READ-RECEIPT.json). No live Airtable read in this run; no Airtable writes.",
-    "50 visible selections across J/K/L, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across J, K, L, the twelve earlier schemes or the parallel GHI and MNO sets (UNIQUENESS-MATRIX.md).",
+    "47 visible selections across J/K/L, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across J, K, L, the twelve earlier schemes or the parallel GHI and MNO sets (UNIQUENESS-MATRIX.md).",
     "Product photos are unaltered retailer references, except the J gallery card, a 3 × 2 composite of the Jahn frame photo. Plans use published dimensions where available and flag defaults where not.",
     "PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made."
   ]
