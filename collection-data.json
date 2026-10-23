@@ -28868,6 +28868,675 @@
       ]
     },
     {
+      "id": "opus-din-def-20261023:D",
+      "namespace": "opus-din-def-20261023",
+      "author": "Claude Opus",
+      "letter": "D",
+      "name": "Midnight Velvet",
+      "date": "2026-10-23",
+      "version": "opus-din-def-20261023",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "isNew": true,
+      "room": "dining",
+      "summary": "Midnight Velvet. Squint and the room is deep navy velvet and smoked dark oak on cream, quiet and evening-rich. The BoConcept axo table, 1600 x 850, has a smoked dark-brown oak top, plain and rectangular, on two pairs of flat slab legs set in from the ends, as in the product photo; it stands in the corner between the four-light south window and the plain east wall, its long side parallel to the window and its east end a hand's width (10 cm) from the east wall under the split unit, so the counter side of the room stays open as a clear walkway from the kitchen and the bedroom passage to the arch. The tabletop is bare: no vase, bowl, runner, fruit or plant on it. Five Our Home Hilaire chairs, rounded tub seats in deep navy-blue velvet with a back of wide woven velvet straps, on slim black tapered legs, as in the product photo: two on the window side, two on the room side and one at the west end; the east end against the wall has no chair. Under them a Crate & Barrel Fez hand-tufted rug, 8 x 10 ft, a cream ground drawn with fine thin sand-brown lines in a large open diamond lattice with a few small dots, laid long side to the window and pushed up to the east wall, with every chair leg on it and its far edge short of the curtains. In the opposite corner, against the north wall right beside the arch and at the far end from the kitchen pass-through, a Furniture Manila StackLine open shelf, 64 wide, 34 deep and 94 high: a black square-post frame with ladder-rung sides and three grey-brown oak-look shelves, open with no doors and nothing on it, as in the product photo. On the plain west wall at the table's west end hangs one Ashley framed abstract, 71 x 99 portrait, a soft beige ground with a navy-blue curved shape, a pale blue block and a small olive circle, in a thin black frame. In the south-west corner by the window a Flourish faux split-leaf philodendron, large glossy dark-green split leaves in a black pot. Walls stay the existing cream, floor the honey-amber parquet, a plain flat white ceiling with no ceiling fan, pendant or hanging light of any kind, Davies Beige blackout and voile on the four-light south window, the room's only window, and a white split unit sits high on the east wall over the table.",
+      "reviewNotes": [
+        "Author namespace is Opus/Claude (Opus 5.5); raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
+        "Day views: four AI style renders that passed QA, each painted over the deterministic room-model view of its camera. Night views follow separately.",
+        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Table 1600 x 850 in the window and east-wall corner (Ivan, 23 Oct): east end 100 off the east wall under the split unit, south edge 3455; five seats as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 58 short of the 180 curtain strip.",
+        "Shelf 640 x 340, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 155 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.49 m stays clear between the shelf and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
+        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out.",
+        "Known limit, measured (projected table-top corners against the model view), not a QA criterion: Codex draws the table longer than it is; from the arch corner about 17% longer; from the passage its far end about 7% of the frame width past the model's; from the arch about 18% longer. Read sizes from the plan and the model views."
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/dop/",
+      "hero": "dop/assets/DIND-render-din_main.png",
+      "plan": "dop/assets/PLAN-DIND-DIN.png",
+      "views": [
+        {
+          "label": "From the arch corner · Day",
+          "kind": "arch-corner-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DIND-render-din_main.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the north-west corner beside the arch, looking south-east over the table in the window corner to the four-light window and the east wall with the proposed split unit, the bedroom passage at the left edge, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 17% longer than the true-scale model."
+        },
+        {
+          "label": "From the window corner · Day",
+          "kind": "window-corner-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DIND-render-din_opposite.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the south-east window corner, past the east end of the table, looking north-west to the art on the west wall, the open arch, the storage piece in the corner beside it and the kitchen pass-through at the right, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive."
+        },
+        {
+          "label": "From the passage · Day",
+          "kind": "passage-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DIND-render-din_side.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the mouth of the bedroom passage on the east wall, looking south-west across the table to the window, the plant in the window corner, the art on the west wall and the arch at the right edge, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn longer than the true-scale model, its far end about 7% of the frame width past the model's."
+        },
+        {
+          "label": "From the arch · Day",
+          "kind": "arch-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DIND-render-din_arch.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from just inside the arch at its south end, looking east-south-east along the table to the east wall with the proposed split unit, the window at the right and the bedroom passage at the left, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 18% longer than the true-scale model."
+        }
+      ],
+      "budget": {
+        "retailCents": 26668210,
+        "reserveLowCents": 1500000,
+        "reserveHighCents": 3700000,
+        "totalLowCents": 31000000,
+        "totalHighCents": 33500000,
+        "note": "Dated planning range (frozen catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
+        "reserveCents": null,
+        "totalCents": null
+      },
+      "products": [
+        {
+          "id": "opus-din-def-20261023::DIND-TABLE",
+          "originalId": "DIND-TABLE",
+          "legacyIds": [
+            "DIND-TABLE",
+            "dop:DIND-TABLE"
+          ],
+          "category": "dining_table",
+          "name": "BoConcept axo series dining table",
+          "qty": 1,
+          "unitCents": 12189000,
+          "totalCents": 12189000,
+          "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | BoConcept",
+          "source": "https://www.boconcept.com/en-ph/p/axo-series/3707230-2:401-9:0702-13:0702/",
+          "priceDate": "2026-09-10",
+          "variant": "axo series dining table; manufacturer variant/SKU 370072300702; master 37007230; selected configuration codes: vaConfigurationSize=401; vaMaterialLeg=0702; vaMaterialTabletop=0702",
+          "notes": "Smoked dark oak top on slab legs, 1600 x 850 x 745 (the proposal footprint); long side parallel to the window",
+          "commonToSchemes": [
+            "D"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per exact selected configuration; selected public product price.value, not the lower family starting-price field. Displayed selected RRP; no separate positive beforePrice published.",
+          "image": "dop/assets/products/DIND-TABLE.jpg"
+        },
+        {
+          "id": "opus-din-def-20261023::DIND-CHAIR",
+          "originalId": "DIND-CHAIR",
+          "legacyIds": [
+            "DIND-CHAIR",
+            "dop:DIND-CHAIR"
+          ],
+          "category": "dining_chair",
+          "name": "Our Home Hilaire Dining Chair",
+          "qty": 5,
+          "unitCents": 1165500,
+          "totalCents": 5827500,
+          "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-08 | Our Home",
+          "source": "https://ourhome.ph/products/our-home-hilaire-dining-chair?variant=45293841121521",
+          "priceDate": "2026-09-08",
+          "variant": "Blue",
+          "notes": "Navy velvet tub seat with a woven-strap back on slim black legs (variant Blue, as the product photo); 2 + 2 + 1, the wall end unseated",
+          "commonToSchemes": [
+            "D"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Official online listed price for the exact variant; per item. Cebu branch price and delivered total unconfirmed.",
+          "image": "dop/assets/products/DIND-CHAIR.jpg"
+        },
+        {
+          "id": "opus-din-def-20261023::DIND-RUG",
+          "originalId": "DIND-RUG",
+          "legacyIds": [
+            "DIND-RUG",
+            "dop:DIND-RUG"
+          ],
+          "category": "rug",
+          "name": "Crate & Barrel Fez Performance Hand-Tufted Sand Brown Area Rug 8'x10'",
+          "qty": 1,
+          "unitCents": 6799900,
+          "totalCents": 6799900,
+          "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+          "source": "https://crateandbarrel.com.ph/products/fez-performance-hand-tufted-sand-brown-area-rug-8x10?variant=44463559508184",
+          "priceDate": "2026-09-10",
+          "variant": "Fez Performance Hand-Tufted Sand Brown Area Rug 8'x10'; Sand Brown; published SKU 494440; Shopify variant 44463559508184",
+          "notes": "Hand-tufted cream rug with fine sand-brown diamond lines, 8'x10' laid long side to the window",
+          "commonToSchemes": [
+            "D"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+          "image": "dop/assets/products/DIND-RUG.jpg"
+        },
+        {
+          "id": "opus-din-def-20261023::DIND-BUFFET",
+          "originalId": "DIND-BUFFET",
+          "legacyIds": [
+            "DIND-BUFFET",
+            "dop:DIND-BUFFET"
+          ],
+          "category": "buffet",
+          "name": "Furniture Manila StackLine Industrial 3-Tier Open Shelf Bookcase",
+          "qty": 1,
+          "unitCents": 299900,
+          "totalCents": 299900,
+          "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | Furniture Manila",
+          "source": "https://www.furnituremanila.com.ph/product/1513-display-shelf/",
+          "priceDate": "2026-09-10",
+          "variant": "SKU bs1513-shelf-darkwalnut-mob",
+          "notes": "Open three-tier shelf, black steel frame with grey oak-look shelves, 640 x 340 x 940, in the north-west corner between the arch and the pass-through; open, no doors",
+          "commonToSchemes": [
+            "D"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Published price for the selected listing variant",
+          "image": "dop/assets/products/DIND-BUFFET.jpg"
+        },
+        {
+          "id": "opus-din-def-20261023::DIND-ART",
+          "originalId": "DIND-ART",
+          "legacyIds": [
+            "DIND-ART",
+            "dop:DIND-ART"
+          ],
+          "category": "art",
+          "name": "Ashley A58000239 Wall Art",
+          "qty": 1,
+          "unitCents": 1210000,
+          "totalCents": 1210000,
+          "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+          "source": "https://store.ashleyfurniture.ph/products/a58000239-wall-art?variant=45493165359390",
+          "priceDate": "2026-09-10",
+          "variant": "A58000239 Wall Art; manufacturer SKU A58000239; Default Title",
+          "notes": "Framed abstract in navy, sand and olive, 71 x 99 portrait, on the plain west wall at the table's west end",
+          "commonToSchemes": [
+            "D"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+          "image": "dop/assets/products/DIND-ART.webp"
+        },
+        {
+          "id": "opus-din-def-20261023::DIND-PLANT",
+          "originalId": "DIND-PLANT",
+          "legacyIds": [
+            "DIND-PLANT",
+            "dop:DIND-PLANT"
+          ],
+          "category": "plant",
+          "name": "Flourish Faux Split Leaf Philodendron Plant",
+          "qty": 1,
+          "unitCents": 341910,
+          "totalCents": 341910,
+          "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Flourish",
+          "source": "https://ourhome.ph/products/flourish-faux-split-leaf-philodendron-plant?variant=48096628211953",
+          "priceDate": "2026-09-10",
+          "variant": "Default Title",
+          "notes": "Faux split-leaf philodendron in a black pot in the south-west window corner",
+          "commonToSchemes": [
+            "D"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Official public online catalog price for the selected variant; per item. Cebu branch quotation and delivered total unconfirmed.",
+          "image": "dop/assets/products/DIND-PLANT.webp"
+        }
+      ]
+    },
+    {
+      "id": "opus-din-def-20261023:E",
+      "namespace": "opus-din-def-20261023",
+      "author": "Claude Opus",
+      "letter": "E",
+      "name": "Heritage Persian",
+      "date": "2026-10-23",
+      "version": "opus-din-def-20261023",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "isNew": true,
+      "room": "dining",
+      "summary": "Heritage Persian. Squint and the room is a black stone oval, dark turned wood with cane, and a soft grey Persian rug on cream walls, warmed by an ochre print. The Mejore Benson oval table, 140 x 90, has a polished black marble-look stone top with faint white veining on a black reeded, vertically fluted X-shaped pedestal base, as in the product photo; it stands in the corner between the four-light south window and the plain east wall, its long axis parallel to the window and its east end 20 cm from the east wall under the split unit, so the counter side of the room stays open as a clear walkway from the kitchen and the bedroom passage to the arch. The tabletop is bare: no vase, bowl, runner, fruit or plant on it. Five Mejore Philip side chairs, dark reddish-brown wood frames with turned front legs and stretchers, a natural cane-webbing back panel and a pale grey upholstered seat, as in the product photo: two on the window side, two on the room side and one at the west end; the east end against the wall has no chair. Under them a Crate & Barrel Avalon hand-knotted wool rug, 8 x 10 ft, a traditional Persian all-over floral pattern in soft grey and taupe on cream with a wide patterned border, as in the product photo, laid long side to the window and pushed up to the east wall, with every chair leg on it and its far edge short of the curtains. In the opposite corner, against the north wall right beside the arch and at the far end from the kitchen pass-through, a Furniture Manila TierCraft ladder shelf, 67 wide, 33 deep and 160 high, leaning against the wall: five dark walnut-look tray shelves with low raised rims on two dark brown-black A-frame rails, open with no doors and nothing on it, as in the product photo. On the plain west wall at the table's west end hangs one Ashley framed print, 120 x 80, soft ochre, sand and caramel dune shapes on cream in a thin frame. In the south-west corner by the window an Ashley faux leafy tree, 183 high, small green leaves on slim stems in a black pot. Walls stay the existing cream, floor the honey-amber parquet, a plain flat white ceiling with no ceiling fan, pendant or hanging light of any kind, Davies Beige blackout and voile on the four-light south window, the room's only window, and a white split unit sits high on the east wall over the table.",
+      "reviewNotes": [
+        "Author namespace is Opus/Claude (Opus 5.5); raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
+        "Day views: three AI style renders that passed QA, each painted over the deterministic room-model view of its camera; 'From the passage' shows its true-scale model view instead, its AI render pending re-render after 30 Oct 2026 (two takes of it failed QA). Night views follow separately.",
+        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Oval 1400 x 900 in the window and east-wall corner (Ivan, 23 Oct): east end 200 off the east wall under the split unit; the pedestal base leaves the knees free; five seats as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 108 short of the 180 curtain strip.",
+        "Ladder shelf 670 x 330, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its foot stops 160 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.54 m stays clear between the shelf and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
+        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out.",
+        "Known limit, measured (projected table-top corners against the model view), not a QA criterion: Codex draws the table longer than it is; from the arch corner about 24% longer; from the arch about 10% longer. Read sizes from the plan and the model views."
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/dop/",
+      "hero": "dop/assets/DINE-render-din_main.png",
+      "plan": "dop/assets/PLAN-DINE-DIN.png",
+      "views": [
+        {
+          "label": "From the arch corner · Day",
+          "kind": "arch-corner-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DINE-render-din_main.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the north-west corner beside the arch, looking south-east over the table in the window corner to the four-light window and the east wall with the proposed split unit, the bedroom passage at the left edge, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 24% longer than the true-scale model."
+        },
+        {
+          "label": "From the window corner · Day",
+          "kind": "window-corner-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DINE-render-din_opposite.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the south-east window corner, past the east end of the table, looking north-west to the art on the west wall, the open arch, the storage piece in the corner beside it and the kitchen pass-through at the right, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive."
+        },
+        {
+          "label": "From the passage · Day",
+          "kind": "passage-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DINE-room-din_side.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the mouth of the bedroom passage on the east wall, looking south-west across the table to the window, the plant in the window corner, the art on the west wall and the arch at the right edge. The AI render of this view is pending: two AI renders failed QA (the first drew the tree in the window corner as an olive tree with long narrow leaves where the Ashley tree has small round leaves, the second added a sixth chair); the next waits for the Codex image quota after 30 Oct 2026."
+        },
+        {
+          "label": "From the arch · Day",
+          "kind": "arch-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DINE-render-din_arch.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from just inside the arch at its south end, looking east-south-east along the table to the east wall with the proposed split unit, the window at the right and the bedroom passage at the left, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 10% longer than the true-scale model."
+        }
+      ],
+      "budget": {
+        "retailCents": 24907400,
+        "reserveLowCents": 1500000,
+        "reserveHighCents": 3700000,
+        "totalLowCents": 29100000,
+        "totalHighCents": 31500000,
+        "note": "Dated planning range (frozen catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
+        "reserveCents": null,
+        "totalCents": null
+      },
+      "products": [
+        {
+          "id": "opus-din-def-20261023::DINE-TABLE",
+          "originalId": "DINE-TABLE",
+          "legacyIds": [
+            "DINE-TABLE",
+            "dop:DINE-TABLE"
+          ],
+          "category": "dining_table",
+          "name": "Mejore Benson Oval Dining Table with Reeded X-Base and Stone Top",
+          "qty": 1,
+          "unitCents": 7450000,
+          "totalCents": 7450000,
+          "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-09 | Mejore",
+          "source": "https://mejore.ph/products/benson-dining-table?variant=51752749138194",
+          "priceDate": "2026-09-09",
+          "variant": "Benson Oval Dining Table with Reeded X-Base and Stone Top; 6-Seater; official listing SKU MCI-BEN-DNTB-001",
+          "notes": "Black stone oval top on a reeded black X-base, 6-seater 140 x 90 x 76 (published on the listing); long axis parallel to the window",
+          "commonToSchemes": [
+            "E"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per selected exact variant 6-Seater; published PHP variant price, not a from-price. Table only; chairs or styling accessories not assumed included.",
+          "image": "dop/assets/products/DINE-TABLE.jpg"
+        },
+        {
+          "id": "opus-din-def-20261023::DINE-CHAIR",
+          "originalId": "DINE-CHAIR",
+          "legacyIds": [
+            "DINE-CHAIR",
+            "dop:DINE-CHAIR"
+          ],
+          "category": "dining_chair",
+          "name": "Mejore Philip Side Chair",
+          "qty": 5,
+          "unitCents": 1522500,
+          "totalCents": 7612500,
+          "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-09 | Mejore",
+          "source": "https://mejore.ph/products/philip-cane-back-side-chair?variant=44369465311506",
+          "priceDate": "2026-09-09",
+          "variant": "Philip Side Chair; official listing SKU MCI-PHI-DBCH-C&S0003S",
+          "notes": "Dark turned-wood side chair with a cane back and a pale grey seat, 48 x 46 x 93 (published on the listing); 2 + 2 + 1, the wall end unseated",
+          "commonToSchemes": [
+            "E"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per selected exact variant Default Title; published PHP variant price, not a from-price.",
+          "image": "dop/assets/products/DINE-CHAIR.png"
+        },
+        {
+          "id": "opus-din-def-20261023::DINE-RUG",
+          "originalId": "DINE-RUG",
+          "legacyIds": [
+            "DINE-RUG",
+            "dop:DINE-RUG"
+          ],
+          "category": "rug",
+          "name": "Crate & Barrel Avalon Wool Hand-Knotted Light Grey Area Rug 8'x10'",
+          "qty": 1,
+          "unitCents": 6499900,
+          "totalCents": 6499900,
+          "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+          "source": "https://crateandbarrel.com.ph/products/avalon-wool-hand-knotted-light-grey-area-rug-8x10?variant=44463560851672",
+          "priceDate": "2026-09-10",
+          "variant": "Avalon Wool Hand-Knotted Light Grey Area Rug 8'x10'; Light Grey; published SKU 503988; Shopify variant 44463560851672",
+          "notes": "Hand-knotted wool rug in a traditional Persian pattern, soft grey and taupe on cream with a border (Light Grey, as the product photo), 8'x10' laid long side to the window. Replaces the IKEA ONSEVIG, which an earlier bedroom scheme already used",
+          "commonToSchemes": [
+            "E"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+          "image": "dop/assets/products/DINE-RUG.jpg"
+        },
+        {
+          "id": "opus-din-def-20261023::DINE-BUFFET",
+          "originalId": "DINE-BUFFET",
+          "legacyIds": [
+            "DINE-BUFFET",
+            "dop:DINE-BUFFET"
+          ],
+          "category": "buffet",
+          "name": "Furniture Manila TierCraft Industrial Ladder Shelf Bookcase",
+          "qty": 1,
+          "unitCents": 465000,
+          "totalCents": 465000,
+          "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | Furniture Manila",
+          "source": "https://www.furnituremanila.com.ph/product/tiercraft-industrial-ladder-shelf-bookcase-5-tier-dark-walnut-finish/",
+          "priceDate": "2026-09-10",
+          "variant": "SKU bs1518-bookshelf-darkwalnut-mob",
+          "notes": "Five-tier leaning ladder shelf, dark walnut-look shelves on a black steel A-frame, 670 x 330 x 1600, in the north-west corner between the arch and the pass-through; open, no doors",
+          "commonToSchemes": [
+            "E"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Published price for the selected listing variant",
+          "image": "dop/assets/products/DINE-BUFFET.jpg"
+        },
+        {
+          "id": "opus-din-def-20261023::DINE-ART",
+          "originalId": "DINE-ART",
+          "legacyIds": [
+            "DINE-ART",
+            "dop:DINE-ART"
+          ],
+          "category": "art",
+          "name": "Ashley A58000478 Wall Art",
+          "qty": 1,
+          "unitCents": 1380000,
+          "totalCents": 1380000,
+          "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+          "source": "https://store.ashleyfurniture.ph/products/a58000478-wall-art?variant=50443729568030",
+          "priceDate": "2026-09-10",
+          "variant": "A58000478 Wall Art; manufacturer SKU A58000478; Default Title; Multi",
+          "notes": "Framed print of ochre and sand dunes, 120 x 80, on the plain west wall at the table's west end",
+          "commonToSchemes": [
+            "E"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+          "image": "dop/assets/products/DINE-ART.jpg"
+        },
+        {
+          "id": "opus-din-def-20261023::DINE-PLANT",
+          "originalId": "DINE-PLANT",
+          "legacyIds": [
+            "DINE-PLANT",
+            "dop:DINE-PLANT"
+          ],
+          "category": "plant",
+          "name": "Ashley A54200032 Greenery",
+          "qty": 1,
+          "unitCents": 1500000,
+          "totalCents": 1500000,
+          "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+          "source": "https://store.ashleyfurniture.ph/products/greenery-a54200032?variant=48424623702302",
+          "priceDate": "2026-09-10",
+          "variant": "A54200032 Greenery; manufacturer SKU A54200032; Default Title; Green",
+          "notes": "Faux leafy tree 183 high in a black pot in the south-west window corner",
+          "commonToSchemes": [
+            "E"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+          "image": "dop/assets/products/DINE-PLANT.webp"
+        }
+      ]
+    },
+    {
+      "id": "opus-din-def-20261023:F",
+      "namespace": "opus-din-def-20261023",
+      "author": "Claude Opus",
+      "letter": "F",
+      "name": "Pale Oak and Rush",
+      "date": "2026-10-23",
+      "version": "opus-din-def-20261023",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "isNew": true,
+      "room": "dining",
+      "summary": "Pale Oak and Rush. Squint and the room is pale honey oak, woven rush and cream with a soft sage note, light and airy. The IKEA TONSTAD table, 150 x 80, is light natural oak veneer, a plain rectangular top with a slim apron on four slim straight round legs, as in the product photo; it stands in the corner between the four-light south window and the plain east wall, its long side parallel to the window and its east end 15 cm from the east wall under the split unit, so the counter side of the room stays open as a clear walkway from the kitchen and the bedroom passage to the arch. The tabletop is bare: no vase, bowl, runner, fruit or plant on it. Five Crate & Barrel Forge armchairs, solid light oak frames with round tapered legs and open arms, a curved backrest and a seat of woven natural rush cord, as in the product photo: two on the window side, two on the room side and one at the west end; the east end against the wall has no chair. Under them a Crate & Barrel Bozeman wool rug, 8 x 10 ft, textured cream with irregular light tan and taupe streaks, laid long side to the window and pushed up to the east wall, with every chair leg on it and its far edge short of the curtains. In the opposite corner, against the north wall right beside the arch and at the far end from the kitchen pass-through, a Mandaue Foam Larson bamboo console, 90 wide, 35 deep and 76 high: a plain natural bamboo top on four round splayed legs with a slatted lower shelf, open with no doors and nothing on it, as in the product photo. On the plain west wall at the table's west end hangs one Ashley framed print, 120 x 80, a soft green landscape with a few trees on pale sage grass under a pale sky, in a thin frame. In the south-west corner by the window a Crate & Barrel faux manzanita leaf spray, about 130 high, small green leaves on branching stems in a tall cream ceramic vase. Walls stay the existing cream, floor the honey-amber parquet, a plain flat white ceiling with no ceiling fan, pendant or hanging light of any kind, Davies Beige blackout and voile on the four-light south window, the room's only window, and a white split unit sits high on the east wall over the table.",
+      "reviewNotes": [
+        "Author namespace is Opus/Claude (Opus 5.5); raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
+        "Day views: two AI style renders that passed QA, each painted over the deterministic room-model view of its camera; 'From the window corner' and 'From the passage' show their true-scale model views instead, their AI renders pending re-render after 30 Oct 2026 (two takes of each failed QA). Night views follow separately.",
+        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Table 1500 x 800 in the window and east-wall corner (Ivan, 23 Oct): east end 150 off the east wall under the split unit; five armchairs 533 wide as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 100 short of the 180 curtain strip.",
+        "Console 900 x 350, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 150 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.52 m stays clear between the console and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
+        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out.",
+        "Known limit, measured (projected table-top corners against the model view), not a QA criterion: Codex draws the table longer than it is; from the arch corner about 22% longer; from the arch about 15% longer. Read sizes from the plan and the model views."
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/dop/",
+      "hero": "dop/assets/DINF-render-din_main.png",
+      "plan": "dop/assets/PLAN-DINF-DIN.png",
+      "views": [
+        {
+          "label": "From the arch corner · Day",
+          "kind": "arch-corner-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DINF-render-din_main.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the north-west corner beside the arch, looking south-east over the table in the window corner to the four-light window and the east wall with the proposed split unit, the bedroom passage at the left edge, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 22% longer than the true-scale model."
+        },
+        {
+          "label": "From the window corner · Day",
+          "kind": "window-corner-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DINF-room-din_opposite.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the south-east window corner, past the east end of the table, looking north-west to the art on the west wall, the open arch, the storage piece in the corner beside it and the kitchen pass-through at the right. The AI render of this view is pending: two AI renders failed QA (both drew the TONSTAD table on square legs; the product has round legs); the next waits for the Codex image quota after 30 Oct 2026."
+        },
+        {
+          "label": "From the passage · Day",
+          "kind": "passage-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DINF-room-din_side.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the mouth of the bedroom passage on the east wall, looking south-west across the table to the window, the plant in the window corner, the art on the west wall and the arch at the right edge. The AI render of this view is pending: two AI renders failed QA (the first drew the TONSTAD table on square legs where the product has round legs, the second drew the table too long and pulled an extra chair into view); the next waits for the Codex image quota after 30 Oct 2026."
+        },
+        {
+          "label": "From the arch · Day",
+          "kind": "arch-day",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "dop/assets/DINF-render-din_arch.png",
+          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from just inside the arch at its south end, looking east-south-east along the table to the east wall with the proposed split unit, the window at the right and the bedroom passage at the left, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 15% longer than the true-scale model."
+        }
+      ],
+      "budget": {
+        "retailCents": 24766800,
+        "reserveLowCents": 1500000,
+        "reserveHighCents": 3700000,
+        "totalLowCents": 28900000,
+        "totalHighCents": 31400000,
+        "note": "Dated planning range (frozen catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
+        "reserveCents": null,
+        "totalCents": null
+      },
+      "products": [
+        {
+          "id": "opus-din-def-20261023::DINF-TABLE",
+          "originalId": "DINF-TABLE",
+          "legacyIds": [
+            "DINF-TABLE",
+            "dop:DINF-TABLE"
+          ],
+          "category": "dining_table",
+          "name": "IKEA TONSTAD Table",
+          "qty": 1,
+          "unitCents": 1799900,
+          "totalCents": 1799900,
+          "status": "Available for delivery | Cebu delivery: unconfirmed | price date 2026-09-08 | IKEA",
+          "source": "https://www.ikea.com/ph/en/p/tonstad-table-oak-veneer-80594064/",
+          "priceDate": "2026-09-08",
+          "variant": "Table, oak veneer, 150x80 cm (59x31 1/2 \")",
+          "notes": "Oak veneer table 1500 x 800 on round legs; long side parallel to the window",
+          "commonToSchemes": [
+            "F"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per listed item/combination for exact article number",
+          "image": "dop/assets/products/DINF-TABLE.avif"
+        },
+        {
+          "id": "opus-din-def-20261023::DINF-CHAIR",
+          "originalId": "DINF-CHAIR",
+          "legacyIds": [
+            "DINF-CHAIR",
+            "dop:DINF-CHAIR"
+          ],
+          "category": "dining_chair",
+          "name": "Crate & Barrel Forge Barley Brown Oak Wood Dining Side Chair by Jake Arnold",
+          "qty": 5,
+          "unitCents": 2309500,
+          "totalCents": 11547500,
+          "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+          "source": "https://crateandbarrel.com.ph/products/forge-barley-brown-oak-wood-dining-side-chair-by-jake-arnold?variant=43717493752024",
+          "priceDate": "2026-09-10",
+          "variant": "Forge Barley Brown Oak Wood Dining Side Chair by Jake Arnold; Single listed configuration; published SKU 265938; Shopify variant 43717493752024",
+          "notes": "Solid oak armchair with a woven rush seat and back (Barley Brown Oak, as the product photo), 533 x 565 x 902; 2 + 2 + 1, the wall end unseated",
+          "commonToSchemes": [
+            "F"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+          "image": "dop/assets/products/DINF-CHAIR.webp"
+        },
+        {
+          "id": "opus-din-def-20261023::DINF-RUG",
+          "originalId": "DINF-RUG",
+          "legacyIds": [
+            "DINF-RUG",
+            "dop:DINF-RUG"
+          ],
+          "category": "rug",
+          "name": "Crate & Barrel Bozeman Wool Textured Light Tan Area Rug 8'x10'",
+          "qty": 1,
+          "unitCents": 8799500,
+          "totalCents": 8799500,
+          "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+          "source": "https://crateandbarrel.com.ph/products/bozeman-wool-textured-light-tan-area-rug-8x10?variant=44998418137304",
+          "priceDate": "2026-09-10",
+          "variant": "Bozeman Wool Textured Light Tan Area Rug 8'x10'; Single listed configuration; published SKU 186418; Shopify variant 44998418137304",
+          "notes": "Textured wool rug in cream and light tan streaks, 8'x10' laid long side to the window",
+          "commonToSchemes": [
+            "F"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+          "image": "dop/assets/products/DINF-RUG.jpg"
+        },
+        {
+          "id": "opus-din-def-20261023::DINF-BUFFET",
+          "originalId": "DINF-BUFFET",
+          "legacyIds": [
+            "DINF-BUFFET",
+            "dop:DINF-BUFFET"
+          ],
+          "category": "buffet",
+          "name": "Mandaue Foam Larson Bamboo Console Table",
+          "qty": 1,
+          "unitCents": 560000,
+          "totalCents": 560000,
+          "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | Mandaue Foam",
+          "source": "https://mandauefoam.ph/products/larson-bamboo-console-table?variant=43178081484978",
+          "priceDate": "2026-09-10",
+          "variant": "Single published variant; SKU 111721",
+          "notes": "Natural bamboo console with a slatted lower shelf, 900 x 350 x 760, in the north-west corner between the arch and the pass-through; open, no doors",
+          "commonToSchemes": [
+            "F"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Official public catalog price in PHP for the selected exact variant; no member discount inferred.",
+          "image": "dop/assets/products/DINF-BUFFET.webp"
+        },
+        {
+          "id": "opus-din-def-20261023::DINF-ART",
+          "originalId": "DINF-ART",
+          "legacyIds": [
+            "DINF-ART",
+            "dop:DINF-ART"
+          ],
+          "category": "art",
+          "name": "Ashley A58000483 Wall Art",
+          "qty": 1,
+          "unitCents": 1360000,
+          "totalCents": 1360000,
+          "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+          "source": "https://store.ashleyfurniture.ph/products/a58000483-wall-art?variant=50443729600798",
+          "priceDate": "2026-09-10",
+          "variant": "A58000483 Wall Art; manufacturer SKU A58000483; Default Title; Multi",
+          "notes": "Framed soft green landscape with trees, 120 x 80, on the plain west wall at the table's west end",
+          "commonToSchemes": [
+            "F"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+          "image": "dop/assets/products/DINF-ART.jpg"
+        },
+        {
+          "id": "opus-din-def-20261023::DINF-PLANT",
+          "originalId": "DINF-PLANT",
+          "legacyIds": [
+            "DINF-PLANT",
+            "dop:DINF-PLANT"
+          ],
+          "category": "plant",
+          "name": "Crate & Barrel Faux Manzanita Leaf Spray 51\"",
+          "qty": 1,
+          "unitCents": 699900,
+          "totalCents": 699900,
+          "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+          "source": "https://crateandbarrel.com.ph/products/faux-manzanita-leaf-spray-51?variant=50720995737816",
+          "priceDate": "2026-09-10",
+          "variant": "Faux Manzanita Leaf Spray 51\"; Single listed configuration; published SKU 623546; Shopify variant 50720995737816",
+          "notes": "Faux manzanita leaf spray in a cream vase, about 130 high, in the south-west window corner",
+          "commonToSchemes": [
+            "F"
+          ],
+          "imageStatus": "Existing source-photo file",
+          "scope": "design_piece",
+          "priceBasis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+          "image": "dop/assets/products/DINF-PLANT.webp"
+        }
+      ]
+    },
+    {
       "id": "fable-din-abc-20261023:A",
       "namespace": "fable-din-abc-20261023",
       "author": "Claude Fable",
@@ -29791,7 +30460,7 @@
       "label": "Dining area",
       "short": "Dining",
       "status": "designs",
-      "statusLabel": "Three Fable directions · 1 of 12 views rendered",
+      "statusLabel": "Six directions (three Fable, three Opus) · Fable: 1 of 12 views rendered; Opus: conditional fit",
       "lead": "Sheet 1 shows a stepped west wall, with a 3831 mm north span and a 3680 mm south span ending at the same east inner face. The depth is 4468 mm. Ivan confirmed the living arch is on the right when facing the room from the kitchen counter. Opening and ceiling heights remain unmeasured. Stage 2 the same evening: three Fable directions (A Walnut and Linen, B Black Frame and Cane, C Cocoa and Charcoal), re-laid on the stepped outline and rendered on 24 Oct from four eye-level cameras where the render passed its checks, the other views shown as model views; A and C carry the 1800 × 900 table Ivan approved, B the compact 1500 × 900 alternative. Every scheme is a conditional fit on assumed heights (ceiling 2700, sills 900, heads 2350), none accepted yet.",
       "plan": {
         "image": "rooms/dining-plan.png",

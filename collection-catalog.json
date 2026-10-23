@@ -18441,6 +18441,503 @@
       }
     },
     {
+      "id": "dop:DIND-TABLE",
+      "localId": "opus-din-def-20261023::DIND-TABLE",
+      "designId": "opus-din-def-20261023:D",
+      "designIds": [
+        "opus-din-def-20261023:D"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · D · Midnight Velvet",
+      "name": "BoConcept axo series dining table",
+      "url": "/408/#design=opus-din-def-20261023%3AD",
+      "product": {
+        "role": "dining_table",
+        "name": "axo series dining table",
+        "brand": "BoConcept",
+        "sku": "370072300702",
+        "variant": "axo series dining table; manufacturer variant/SKU 370072300702; master 37007230; selected configuration codes: vaConfigurationSize=401; vaMaterialLeg=0702; vaMaterialTabletop=0702",
+        "family": "BoConcept axo",
+        "url": "https://www.boconcept.com/en-ph/p/axo-series/3707230-2:401-9:0702-13:0702/",
+        "scope": "design_piece",
+        "materials": "Published material groups: Wood; Oak; finish: Tabletop: lacquered|Leg: lacquered",
+        "dimensions": {
+          "width": 1600,
+          "depth": 850,
+          "height": 745
+        }
+      }
+    },
+    {
+      "id": "dop:DIND-CHAIR",
+      "localId": "opus-din-def-20261023::DIND-CHAIR",
+      "designId": "opus-din-def-20261023:D",
+      "designIds": [
+        "opus-din-def-20261023:D"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · D · Midnight Velvet",
+      "name": "Our Home Hilaire Dining Chair",
+      "url": "/408/#design=opus-din-def-20261023%3AD",
+      "product": {
+        "role": "dining_chair",
+        "name": "Our Home Hilaire Dining Chair",
+        "brand": "Our Home",
+        "sku": "10426073",
+        "variant": "Blue",
+        "family": "Our Home Hilaire",
+        "url": "https://ourhome.ph/products/our-home-hilaire-dining-chair?variant=45293841121521",
+        "scope": "design_piece",
+        "materials": "Metal; foam",
+        "dimensions": {
+          "width": 600,
+          "depth": 650,
+          "height": 850
+        }
+      }
+    },
+    {
+      "id": "dop:DIND-RUG",
+      "localId": "opus-din-def-20261023::DIND-RUG",
+      "designId": "opus-din-def-20261023:D",
+      "designIds": [
+        "opus-din-def-20261023:D"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · D · Midnight Velvet",
+      "name": "Crate & Barrel Fez Performance Hand-Tufted Sand Brown Area Rug 8'x10'",
+      "url": "/408/#design=opus-din-def-20261023%3AD",
+      "product": {
+        "role": "rug",
+        "name": "Fez Performance Hand-Tufted Sand Brown Area Rug 8'x10'",
+        "brand": "Crate & Barrel",
+        "sku": "494440",
+        "variant": "Fez Performance Hand-Tufted Sand Brown Area Rug 8'x10'; Sand Brown; published SKU 494440; Shopify variant 44463559508184",
+        "family": "Crate & Barrel Fez",
+        "url": "https://crateandbarrel.com.ph/products/fez-performance-hand-tufted-sand-brown-area-rug-8x10?variant=44463559508184",
+        "scope": "design_piece",
+        "materials": "100% PET polyester; Pattern scales up or down, according to size",
+        "dimensions": {
+          "width": 3048,
+          "depth": 2438
+        }
+      }
+    },
+    {
+      "id": "dop:DIND-BUFFET",
+      "localId": "opus-din-def-20261023::DIND-BUFFET",
+      "designId": "opus-din-def-20261023:D",
+      "designIds": [
+        "opus-din-def-20261023:D"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · D · Midnight Velvet",
+      "name": "Furniture Manila StackLine Industrial 3-Tier Open Shelf Bookcase",
+      "url": "/408/#design=opus-din-def-20261023%3AD",
+      "product": {
+        "role": "buffet",
+        "name": "StackLine Industrial 3-Tier Open Shelf Bookcase",
+        "brand": "Furniture Manila",
+        "sku": "bs1513-shelf-darkwalnut-mob",
+        "variant": "SKU bs1513-shelf-darkwalnut-mob",
+        "family": "Furniture Manila StackLine",
+        "url": "https://www.furnituremanila.com.ph/product/1513-display-shelf/",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 640,
+          "depth": 340,
+          "height": 940
+        }
+      }
+    },
+    {
+      "id": "dop:DIND-ART",
+      "localId": "opus-din-def-20261023::DIND-ART",
+      "designId": "opus-din-def-20261023:D",
+      "designIds": [
+        "opus-din-def-20261023:D"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · D · Midnight Velvet",
+      "name": "Ashley A58000239 Wall Art",
+      "url": "/408/#design=opus-din-def-20261023%3AD",
+      "product": {
+        "role": "art",
+        "name": "A58000239 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000239",
+        "variant": "A58000239 Wall Art; manufacturer SKU A58000239; Default Title",
+        "family": "Ashley A58000239",
+        "url": "https://store.ashleyfurniture.ph/products/a58000239-wall-art?variant=45493165359390",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 711.2,
+          "depth": 25.4,
+          "height": 990.6
+        }
+      }
+    },
+    {
+      "id": "dop:DIND-PLANT",
+      "localId": "opus-din-def-20261023::DIND-PLANT",
+      "designId": "opus-din-def-20261023:D",
+      "designIds": [
+        "opus-din-def-20261023:D"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · D · Midnight Velvet",
+      "name": "Flourish Faux Split Leaf Philodendron Plant",
+      "url": "/408/#design=opus-din-def-20261023%3AD",
+      "product": {
+        "role": "plant",
+        "name": "Flourish Faux Split Leaf Philodendron Plant",
+        "brand": "Flourish",
+        "sku": "39243064",
+        "variant": "Default Title",
+        "family": "Flourish Split Leaf Philodendron",
+        "url": "https://ourhome.ph/products/flourish-faux-split-leaf-philodendron-plant?variant=48096628211953",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 950
+        }
+      }
+    },
+    {
+      "id": "dop:DINE-TABLE",
+      "localId": "opus-din-def-20261023::DINE-TABLE",
+      "designId": "opus-din-def-20261023:E",
+      "designIds": [
+        "opus-din-def-20261023:E"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · E · Heritage Persian",
+      "name": "Mejore Benson Oval Dining Table with Reeded X-Base and Stone Top",
+      "url": "/408/#design=opus-din-def-20261023%3AE",
+      "product": {
+        "role": "dining_table",
+        "name": "Benson Oval Dining Table with Reeded X-Base and Stone Top",
+        "brand": "Mejore",
+        "sku": "MCI-BEN-DNTB-001",
+        "variant": "Benson Oval Dining Table with Reeded X-Base and Stone Top; 6-Seater; official listing SKU MCI-BEN-DNTB-001",
+        "family": "Mejore Benson",
+        "url": "https://mejore.ph/products/benson-dining-table?variant=51752749138194",
+        "scope": "design_piece",
+        "materials": "Solid wood base, stone top",
+        "dimensions": {
+          "width": 1400,
+          "depth": 900,
+          "height": 760
+        }
+      }
+    },
+    {
+      "id": "dop:DINE-CHAIR",
+      "localId": "opus-din-def-20261023::DINE-CHAIR",
+      "designId": "opus-din-def-20261023:E",
+      "designIds": [
+        "opus-din-def-20261023:E"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · E · Heritage Persian",
+      "name": "Mejore Philip Side Chair",
+      "url": "/408/#design=opus-din-def-20261023%3AE",
+      "product": {
+        "role": "dining_chair",
+        "name": "Philip Side Chair",
+        "brand": "Mejore",
+        "sku": "MCI-PHI-DBCH-C&S0003S",
+        "variant": "Philip Side Chair; official listing SKU MCI-PHI-DBCH-C&S0003S",
+        "family": "Mejore Philip",
+        "url": "https://mejore.ph/products/philip-cane-back-side-chair?variant=44369465311506",
+        "scope": "design_piece",
+        "materials": "Solid wood, cane weaving (solihiya), fabric seat",
+        "dimensions": {
+          "width": 480,
+          "depth": 460,
+          "height": 930
+        }
+      }
+    },
+    {
+      "id": "dop:DINE-RUG",
+      "localId": "opus-din-def-20261023::DINE-RUG",
+      "designId": "opus-din-def-20261023:E",
+      "designIds": [
+        "opus-din-def-20261023:E"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · E · Heritage Persian",
+      "name": "Crate & Barrel Avalon Wool Hand-Knotted Light Grey Area Rug 8'x10'",
+      "url": "/408/#design=opus-din-def-20261023%3AE",
+      "product": {
+        "role": "rug",
+        "name": "Avalon Wool Hand-Knotted Light Grey Area Rug 8'x10'",
+        "brand": "Crate & Barrel",
+        "sku": "503988",
+        "variant": "Avalon Wool Hand-Knotted Light Grey Area Rug 8'x10'; Light Grey; published SKU 503988; Shopify variant 44463560851672",
+        "family": "Crate & Barrel Avalon",
+        "url": "https://crateandbarrel.com.ph/products/avalon-wool-hand-knotted-light-grey-area-rug-8x10?variant=44463560851672",
+        "scope": "design_piece",
+        "materials": "100% wool; Pattern scales up or down, according to size",
+        "dimensions": {
+          "width": 3048,
+          "depth": 2438
+        }
+      }
+    },
+    {
+      "id": "dop:DINE-BUFFET",
+      "localId": "opus-din-def-20261023::DINE-BUFFET",
+      "designId": "opus-din-def-20261023:E",
+      "designIds": [
+        "opus-din-def-20261023:E"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · E · Heritage Persian",
+      "name": "Furniture Manila TierCraft Industrial Ladder Shelf Bookcase",
+      "url": "/408/#design=opus-din-def-20261023%3AE",
+      "product": {
+        "role": "buffet",
+        "name": "TierCraft Industrial Ladder Shelf Bookcase",
+        "brand": "Furniture Manila",
+        "sku": "bs1518-bookshelf-darkwalnut-mob",
+        "variant": "SKU bs1518-bookshelf-darkwalnut-mob",
+        "family": "Furniture Manila TierCraft",
+        "url": "https://www.furnituremanila.com.ph/product/tiercraft-industrial-ladder-shelf-bookcase-5-tier-dark-walnut-finish/",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 670,
+          "depth": 330,
+          "height": 1600
+        }
+      }
+    },
+    {
+      "id": "dop:DINE-ART",
+      "localId": "opus-din-def-20261023::DINE-ART",
+      "designId": "opus-din-def-20261023:E",
+      "designIds": [
+        "opus-din-def-20261023:E"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · E · Heritage Persian",
+      "name": "Ashley A58000478 Wall Art",
+      "url": "/408/#design=opus-din-def-20261023%3AE",
+      "product": {
+        "role": "art",
+        "name": "A58000478 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000478",
+        "variant": "A58000478 Wall Art; manufacturer SKU A58000478; Default Title; Multi",
+        "family": "Ashley A58000478",
+        "url": "https://store.ashleyfurniture.ph/products/a58000478-wall-art?variant=50443729568030",
+        "scope": "design_piece",
+        "materials": "Made of high-quality canvas material",
+        "dimensions": {
+          "width": 1200.15,
+          "depth": 35.052,
+          "height": 800.1
+        }
+      }
+    },
+    {
+      "id": "dop:DINE-PLANT",
+      "localId": "opus-din-def-20261023::DINE-PLANT",
+      "designId": "opus-din-def-20261023:E",
+      "designIds": [
+        "opus-din-def-20261023:E"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · E · Heritage Persian",
+      "name": "Ashley A54200032 Greenery",
+      "url": "/408/#design=opus-din-def-20261023%3AE",
+      "product": {
+        "role": "plant",
+        "name": "A54200032 Greenery",
+        "brand": "Ashley",
+        "sku": "A54200032",
+        "variant": "A54200032 Greenery; manufacturer SKU A54200032; Default Title; Green",
+        "family": "Ashley A54200032",
+        "url": "https://store.ashleyfurniture.ph/products/greenery-a54200032?variant=48424623702302",
+        "scope": "design_piece",
+        "materials": "Made with plastic",
+        "dimensions": {
+          "width": 838.2,
+          "depth": 787.4,
+          "height": 1828.8
+        }
+      }
+    },
+    {
+      "id": "dop:DINF-TABLE",
+      "localId": "opus-din-def-20261023::DINF-TABLE",
+      "designId": "opus-din-def-20261023:F",
+      "designIds": [
+        "opus-din-def-20261023:F"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · F · Pale Oak and Rush",
+      "name": "IKEA TONSTAD Table",
+      "url": "/408/#design=opus-din-def-20261023%3AF",
+      "product": {
+        "role": "dining_table",
+        "name": "TONSTAD Table",
+        "brand": "IKEA",
+        "sku": "80594064",
+        "variant": "Table, oak veneer, 150x80 cm (59x31 1/2 \")",
+        "family": "IKEA TONSTAD",
+        "url": "https://www.ikea.com/ph/en/p/tonstad-table-oak-veneer-80594064/",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 1500,
+          "depth": 800
+        }
+      }
+    },
+    {
+      "id": "dop:DINF-CHAIR",
+      "localId": "opus-din-def-20261023::DINF-CHAIR",
+      "designId": "opus-din-def-20261023:F",
+      "designIds": [
+        "opus-din-def-20261023:F"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · F · Pale Oak and Rush",
+      "name": "Crate & Barrel Forge Barley Brown Oak Wood Dining Side Chair by Jake Arnold",
+      "url": "/408/#design=opus-din-def-20261023%3AF",
+      "product": {
+        "role": "dining_chair",
+        "name": "Forge Barley Brown Oak Wood Dining Side Chair by Jake Arnold",
+        "brand": "Crate & Barrel",
+        "sku": "265938",
+        "variant": "Forge Barley Brown Oak Wood Dining Side Chair by Jake Arnold; Single listed configuration; published SKU 265938; Shopify variant 43717493752024",
+        "family": "Crate & Barrel Forge",
+        "url": "https://crateandbarrel.com.ph/products/forge-barley-brown-oak-wood-dining-side-chair-by-jake-arnold?variant=43717493752024",
+        "scope": "design_piece",
+        "materials": "FSC®-certified red oak with barley brown finish; Woven seagrass",
+        "dimensions": {
+          "width": 533.4,
+          "depth": 565.15,
+          "height": 901.7
+        }
+      }
+    },
+    {
+      "id": "dop:DINF-RUG",
+      "localId": "opus-din-def-20261023::DINF-RUG",
+      "designId": "opus-din-def-20261023:F",
+      "designIds": [
+        "opus-din-def-20261023:F"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · F · Pale Oak and Rush",
+      "name": "Crate & Barrel Bozeman Wool Textured Light Tan Area Rug 8'x10'",
+      "url": "/408/#design=opus-din-def-20261023%3AF",
+      "product": {
+        "role": "rug",
+        "name": "Bozeman Wool Textured Light Tan Area Rug 8'x10'",
+        "brand": "Crate & Barrel",
+        "sku": "186418",
+        "variant": "Bozeman Wool Textured Light Tan Area Rug 8'x10'; Single listed configuration; published SKU 186418; Shopify variant 44998418137304",
+        "family": "Crate & Barrel Bozeman",
+        "url": "https://crateandbarrel.com.ph/products/bozeman-wool-textured-light-tan-area-rug-8x10?variant=44998418137304",
+        "scope": "design_piece",
+        "materials": "100% New Zealand wool",
+        "dimensions": {
+          "width": 3048,
+          "depth": 2438
+        }
+      }
+    },
+    {
+      "id": "dop:DINF-BUFFET",
+      "localId": "opus-din-def-20261023::DINF-BUFFET",
+      "designId": "opus-din-def-20261023:F",
+      "designIds": [
+        "opus-din-def-20261023:F"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · F · Pale Oak and Rush",
+      "name": "Mandaue Foam Larson Bamboo Console Table",
+      "url": "/408/#design=opus-din-def-20261023%3AF",
+      "product": {
+        "role": "buffet",
+        "name": "Larson Bamboo Console Table",
+        "brand": "Mandaue Foam",
+        "sku": "111721",
+        "variant": "Single published variant; SKU 111721",
+        "family": "Mandaue Foam Larson",
+        "url": "https://mandauefoam.ph/products/larson-bamboo-console-table?variant=43178081484978",
+        "scope": "design_piece",
+        "materials": "Bamboo",
+        "dimensions": {
+          "width": 900,
+          "depth": 350,
+          "height": 760
+        }
+      }
+    },
+    {
+      "id": "dop:DINF-ART",
+      "localId": "opus-din-def-20261023::DINF-ART",
+      "designId": "opus-din-def-20261023:F",
+      "designIds": [
+        "opus-din-def-20261023:F"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · F · Pale Oak and Rush",
+      "name": "Ashley A58000483 Wall Art",
+      "url": "/408/#design=opus-din-def-20261023%3AF",
+      "product": {
+        "role": "art",
+        "name": "A58000483 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000483",
+        "variant": "A58000483 Wall Art; manufacturer SKU A58000483; Default Title; Multi",
+        "family": "Ashley A58000483",
+        "url": "https://store.ashleyfurniture.ph/products/a58000483-wall-art?variant=50443729600798",
+        "scope": "design_piece",
+        "materials": "Made of sturdy canvas material",
+        "dimensions": {
+          "width": 1200.15,
+          "depth": 35.052,
+          "height": 800.1
+        }
+      }
+    },
+    {
+      "id": "dop:DINF-PLANT",
+      "localId": "opus-din-def-20261023::DINF-PLANT",
+      "designId": "opus-din-def-20261023:F",
+      "designIds": [
+        "opus-din-def-20261023:F"
+      ],
+      "board": "dop",
+      "label": "Claude Opus · F · Pale Oak and Rush",
+      "name": "Crate & Barrel Faux Manzanita Leaf Spray 51\"",
+      "url": "/408/#design=opus-din-def-20261023%3AF",
+      "product": {
+        "role": "plant",
+        "name": "Faux Manzanita Leaf Spray 51\"",
+        "brand": "Crate & Barrel",
+        "sku": "623546",
+        "variant": "Faux Manzanita Leaf Spray 51\"; Single listed configuration; published SKU 623546; Shopify variant 50720995737816",
+        "family": "Crate & Barrel Manzanita",
+        "url": "https://crateandbarrel.com.ph/products/faux-manzanita-leaf-spray-51?variant=50720995737816",
+        "scope": "design_piece",
+        "materials": "Plastic and iron; Contains 30% recycled post-consumer plastic",
+        "dimensions": {
+          "width": 635,
+          "height": 1295.4
+        }
+      }
+    },
+    {
       "id": "din:DINA-TABLE",
       "localId": "fable-din-abc-20261023::DINA-TABLE",
       "designId": "fable-din-abc-20261023:A",
