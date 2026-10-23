@@ -17604,6 +17604,370 @@
         "scope": "",
         "dimensions": ""
       }
+    },
+    {
+      "id": "hal:HA-CABINET",
+      "localId": "fable-hal-abc-20261023::HA-CABINET",
+      "designId": "fable-hal-abc-20261023:A",
+      "designIds": [
+        "fable-hal-abc-20261023:A"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · A · Black Marble Archive",
+      "name": "Fargenta Six Drawer Dresser — Fargenta Six Drawer Dresser; manufacturer SKU B2618-31W1; Default Title",
+      "url": "/408/#design=fable-hal-abc-20261023%3AA",
+      "product": {
+        "role": "console",
+        "name": "Fargenta Six Drawer Dresser",
+        "brand": "Ashley",
+        "sku": "B2618-31W1",
+        "variant": "Fargenta Six Drawer Dresser; manufacturer SKU B2618-31W1; Default Title",
+        "family": "Ashley Fargenta",
+        "url": "https://store.ashleyfurniture.ph/products/fargenta-six-drawer-dresser?variant=50761711780126",
+        "scope": "design_piece",
+        "materials": "Replicated marble",
+        "dimensions": {
+          "width": 1498.6,
+          "depth": 406.4,
+          "height": 889
+        }
+      }
+    },
+    {
+      "id": "hal:HA-LAMP",
+      "localId": "fable-hal-abc-20261023::HA-LAMP",
+      "designId": "fable-hal-abc-20261023:A",
+      "designIds": [
+        "fable-hal-abc-20261023:A"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · A · Black Marble Archive",
+      "name": "At Home Gwen Table Lamp - Gold — HWP-39253723",
+      "url": "/408/#design=fable-hal-abc-20261023%3AA",
+      "product": {
+        "role": "table_lamp",
+        "name": "At Home Gwen Table Lamp - Gold",
+        "brand": "At Home",
+        "sku": "HWP-39253723",
+        "variant": "HWP-39253723",
+        "family": "At Home At",
+        "url": "https://smhome.ph/products/at-home-gwen-table-lamp-gold?variant=49503958958273",
+        "scope": "design_piece",
+        "materials": "Material: Metal",
+        "dimensions": {
+          "width": 250,
+          "depth": 250,
+          "height": 490
+        }
+      }
+    },
+    {
+      "id": "hal:HA-RUG",
+      "localId": "fable-hal-abc-20261023::HA-RUG",
+      "designId": "fable-hal-abc-20261023:A",
+      "designIds": [
+        "fable-hal-abc-20261023:A"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · A · Black Marble Archive",
+      "name": "STRÖG Rug, flatwoven — STRÖG Rug, flatwoven, natural, 120x180 cm; article 30527048",
+      "url": "/408/#design=fable-hal-abc-20261023%3AA",
+      "product": {
+        "role": "rug",
+        "name": "STRÖG Rug, flatwoven",
+        "brand": "IKEA",
+        "sku": "30527048",
+        "variant": "STRÖG Rug, flatwoven, natural, 120x180 cm; article 30527048",
+        "family": "IKEA STRÖG",
+        "url": "https://www.ikea.com/ph/en/p/stroeg-rug-flatwoven-natural-30527048/",
+        "scope": "design_piece",
+        "materials": "100 % jute",
+        "dimensions": {
+          "width": 1200,
+          "depth": 1800,
+          "height": 8
+        }
+      }
+    },
+    {
+      "id": "hal:HA-LED",
+      "localId": "fable-hal-abc-20261023::HA-LED",
+      "designId": "fable-hal-abc-20261023:A",
+      "designIds": [
+        "fable-hal-abc-20261023:A"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · A · Black Marble Archive",
+      "name": "LED halo behind the LEGO map — 24 V warm-white (2700 K) LED strip in an aluminium diffuser channel on a 20 mm spacer frame behind the map's four edges; dimmable driver on the nearest socket circuit",
+      "url": "/408/#design=fable-hal-abc-20261023%3AA",
+      "product": {
+        "role": "led_halo",
+        "name": "LED halo behind the LEGO map",
+        "brand": "To source",
+        "sku": null,
+        "variant": "24 V warm-white (2700 K) LED strip in an aluminium diffuser channel on a 20 mm spacer frame behind the map's four edges; dimmable driver on the nearest socket circuit",
+        "family": "To source LED halo behind the LEGO map",
+        "url": null,
+        "scope": "technical_essential",
+        "dimensions": {
+          "width": 1080,
+          "depth": 40,
+          "height": 690
+        }
+      }
+    },
+    {
+      "id": "hal:HAL-MAP",
+      "localId": "fable-hal-abc-20261023::HAL-MAP",
+      "designId": "fable-hal-abc-20261023:A",
+      "designIds": [
+        "fable-hal-abc-20261023:A",
+        "fable-hal-abc-20261023:B",
+        "fable-hal-abc-20261023:C"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · A · Black Marble Archive",
+      "name": "LEGO Art World Map 31203 (owner-supplied) — 11,695-piece mosaic, 104 x 65 cm assembled, wall-hung; owned, not purchased",
+      "url": "/408/#design=fable-hal-abc-20261023%3AA",
+      "product": {
+        "role": "art",
+        "name": "LEGO Art World Map 31203 (owner-supplied)",
+        "brand": "LEGO",
+        "sku": "31203",
+        "variant": "11,695-piece mosaic, 104 x 65 cm assembled, wall-hung; owned, not purchased",
+        "family": "LEGO Art World Map 31203 (owner-supplied)",
+        "url": null,
+        "scope": "fixed_room_treatment",
+        "dimensions": {
+          "width": 1040,
+          "depth": 40,
+          "height": 650
+        }
+      }
+    },
+    {
+      "id": "hal:HB-CABINET",
+      "localId": "fable-hal-abc-20261023::HB-CABINET",
+      "designId": "fable-hal-abc-20261023:B",
+      "designIds": [
+        "fable-hal-abc-20261023:B"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · B · Chalk and Linen",
+      "name": "HAUGA 6-drawer dresser — HAUGA 6-drawer dresser, white, 138x46x84 cm; article 80581537",
+      "url": "/408/#design=fable-hal-abc-20261023%3AB",
+      "product": {
+        "role": "console",
+        "name": "HAUGA 6-drawer dresser",
+        "brand": "IKEA",
+        "sku": "80581537",
+        "variant": "HAUGA 6-drawer dresser, white, 138x46x84 cm; article 80581537",
+        "family": "IKEA HAUGA",
+        "url": "https://www.ikea.com/ph/en/p/hauga-6-drawer-dresser-white-80581537/",
+        "scope": "design_piece",
+        "materials": "Side panel/ Drawer front: Particleboard, Paper foil, Plastic edging; Top panel/ Back rail/ Partition/ Bottom panel: Particleboard, Paper foil; Back panel/ Drawer bottom: Fiberboard; Drawer side/ Drawer back: Particleboard",
+        "dimensions": {
+          "width": 1380,
+          "depth": 460,
+          "height": 840
+        }
+      }
+    },
+    {
+      "id": "hal:HB-LAMP",
+      "localId": "fable-hal-abc-20261023::HB-LAMP",
+      "designId": "fable-hal-abc-20261023:B",
+      "designIds": [
+        "fable-hal-abc-20261023:B"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · B · Chalk and Linen",
+      "name": "VINDKRAFT Table lamp — VINDKRAFT Table lamp, white moulded paper pulp, 46 cm; article 70601300",
+      "url": "/408/#design=fable-hal-abc-20261023%3AB",
+      "product": {
+        "role": "table_lamp",
+        "name": "VINDKRAFT Table lamp",
+        "brand": "IKEA",
+        "sku": "70601300",
+        "variant": "VINDKRAFT Table lamp, white moulded paper pulp, 46 cm; article 70601300",
+        "family": "IKEA VINDKRAFT",
+        "url": "https://www.ikea.com/ph/en/p/vindkraft-table-lamp-white-moulded-paper-pulp-70601300/",
+        "scope": "design_piece",
+        "materials": "Base/ Shade: Molded paper pulp; Insert: ABS plastic (min. 50% recycled); Joint/ Tube: Steel, Galvanized; Joint/ Cup/ Ball/ Frame: Steel, Nickel plated; Bushing: Polyethylene; Arm: Steel, Powder coating",
+        "dimensions": {
+          "width": 250,
+          "depth": 250,
+          "height": 460
+        }
+      }
+    },
+    {
+      "id": "hal:HB-RUG",
+      "localId": "fable-hal-abc-20261023::HB-RUG",
+      "designId": "fable-hal-abc-20261023:B",
+      "designIds": [
+        "fable-hal-abc-20261023:B"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · B · Chalk and Linen",
+      "name": "TIPHEDE Rug, flatwoven — TIPHEDE Rug, flatwoven, natural/black, 120x180 cm; article 00456759",
+      "url": "/408/#design=fable-hal-abc-20261023%3AB",
+      "product": {
+        "role": "rug",
+        "name": "TIPHEDE Rug, flatwoven",
+        "brand": "IKEA",
+        "sku": "00456759",
+        "variant": "TIPHEDE Rug, flatwoven, natural/black, 120x180 cm; article 00456759",
+        "family": "IKEA TIPHEDE",
+        "url": "https://www.ikea.com/ph/en/p/tiphede-rug-flatwoven-natural-black-00456759/",
+        "scope": "design_piece",
+        "materials": "100 % cotton",
+        "dimensions": {
+          "width": 1200,
+          "depth": 1800,
+          "height": 6
+        }
+      }
+    },
+    {
+      "id": "hal:HB-PLANT",
+      "localId": "fable-hal-abc-20261023::HB-PLANT",
+      "designId": "fable-hal-abc-20261023:B",
+      "designIds": [
+        "fable-hal-abc-20261023:B"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · B · Chalk and Linen",
+      "name": "Flourish Schefflera — Single listed variant; SKU 39227065",
+      "url": "/408/#design=fable-hal-abc-20261023%3AB",
+      "product": {
+        "role": "plant",
+        "name": "Flourish Schefflera",
+        "brand": "Flourish",
+        "sku": "39227065",
+        "variant": "Single listed variant; SKU 39227065",
+        "family": "Flourish Flourish",
+        "url": "https://ourhome.ph/products/flourish-schefflera",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 450,
+          "depth": 450,
+          "height": 1190
+        }
+      }
+    },
+    {
+      "id": "hal:HC-CABINET",
+      "localId": "fable-hal-abc-20261023::HC-CABINET",
+      "designId": "fable-hal-abc-20261023:C",
+      "designIds": [
+        "fable-hal-abc-20261023:C"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · C · Honey and Ink",
+      "name": "Fowler 6-Chest Drawer — 6-Drawer, MDF Particle Board, Summer Oak",
+      "url": "/408/#design=fable-hal-abc-20261023%3AC",
+      "product": {
+        "role": "console",
+        "name": "Fowler 6-Chest Drawer",
+        "brand": "abensonHome",
+        "sku": "",
+        "variant": "6-Drawer, MDF Particle Board, Summer Oak",
+        "family": "abensonHome Fowler",
+        "url": "https://home.abenson.com/abensonhome-fowler-6-chest-drawer-summer-oak.html",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 1400,
+          "depth": 390,
+          "height": 780
+        }
+      }
+    },
+    {
+      "id": "hal:HC-LAMP",
+      "localId": "fable-hal-abc-20261023::HC-LAMP",
+      "designId": "fable-hal-abc-20261023:C",
+      "designIds": [
+        "fable-hal-abc-20261023:C"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · C · Honey and Ink",
+      "name": "Lanson Metal Table Lamp — Lanson Metal Table Lamp; manufacturer SKU L204454; Default Title",
+      "url": "/408/#design=fable-hal-abc-20261023%3AC",
+      "product": {
+        "role": "table_lamp",
+        "name": "Lanson Metal Table Lamp",
+        "brand": "Ashley",
+        "sku": "L204454",
+        "variant": "Lanson Metal Table Lamp; manufacturer SKU L204454; Default Title",
+        "family": "Ashley Lanson",
+        "url": "https://store.ashleyfurniture.ph/products/lanson-metal-table-lamp?variant=50498206466334",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 280,
+          "depth": 280,
+          "height": 610
+        }
+      }
+    },
+    {
+      "id": "hal:HC-RUG",
+      "localId": "fable-hal-abc-20261023::HC-RUG",
+      "designId": "fable-hal-abc-20261023:C",
+      "designIds": [
+        "fable-hal-abc-20261023:C"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · C · Honey and Ink",
+      "name": "Asne Geo Printed Rug — 80x150 cm; SKU 140583",
+      "url": "/408/#design=fable-hal-abc-20261023%3AC",
+      "product": {
+        "role": "rug",
+        "name": "Asne Geo Printed Rug",
+        "brand": "Mandaue Foam",
+        "sku": "140583",
+        "variant": "80x150 cm; SKU 140583",
+        "family": "Mandaue Foam Asne",
+        "url": "https://mandauefoam.ph/products/asne-geo-printed-rug?variant=47887278964914",
+        "scope": "design_piece",
+        "materials": "Pile Material: 100% Polyester Backing Material: Gel-dots backing",
+        "dimensions": {
+          "width": 800,
+          "depth": 1500,
+          "height": 6
+        }
+      }
+    },
+    {
+      "id": "hal:HC-PLANT",
+      "localId": "fable-hal-abc-20261023::HC-PLANT",
+      "designId": "fable-hal-abc-20261023:C",
+      "designIds": [
+        "fable-hal-abc-20261023:C"
+      ],
+      "board": "hal",
+      "label": "Claude Fable · C · Honey and Ink",
+      "name": "Heim Monstera Artificial Potted Plant Green 120cm — Item 284400024093; model Jws3034",
+      "url": "/408/#design=fable-hal-abc-20261023%3AC",
+      "product": {
+        "role": "plant",
+        "name": "Heim Monstera Artificial Potted Plant Green 120cm",
+        "brand": "Heim",
+        "sku": "284400024093",
+        "variant": "Item 284400024093; model Jws3034",
+        "family": "Heim Heim",
+        "url": "https://shop.wilcon.com.ph/monstera-artificial-plant-284400024093.html",
+        "scope": "design_piece",
+        "materials": "Plastic",
+        "dimensions": {
+          "width": 500,
+          "depth": 500,
+          "height": 1200
+        }
+      }
     }
   ]
 }
