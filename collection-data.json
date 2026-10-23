@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-living-def / 2026-10-23T22:51:00+08:00",
+  "build": "408-living-def / 2026-10-23T23:21:55+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -28286,7 +28286,7 @@
         "Seating option D, a crisp city room in saturated jewel colours: navy velvet 3-seater along the south window, one cherry-red wing chair along the east window south of the window AC, white high gloss, chrome and a white marble look; two glass-door bookcases fill the TV-wall recess.",
         "Author Claude Opus (Opus 5.5 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout. None of D/E/F repeats the palettes of Fable A/B/C or Astra A/B/C (CONCEPTS.md).",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
-        "Render QA 23 Oct 2026: 4 of 4 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day)"
+        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)"
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/lop/",
       "hero": "lop/assets/LVD-render-liv_entry.webp",
@@ -28323,6 +28323,38 @@
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "lop/assets/LVD-render-liv_arch.webp",
           "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Entrance door · Night",
+          "kind": "liv-door-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_entry-night.webp",
+          "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "TV wall · Night",
+          "kind": "liv-tv-wall-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_main-night.webp",
+          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Window corner · Night",
+          "kind": "liv-window-corner-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_opposite-night.webp",
+          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Hallway arch · Night",
+          "kind": "liv-arch-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVD-render-liv_arch-night.webp",
+          "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
         }
       ],
       "products": [
@@ -28586,7 +28618,7 @@
         "Seating option E, soft modern with rounded forms: a round-armed apricot-tan sofa along the south window, a cream swivel chair on the east side turned toward the TV, a charcoal concrete-look pedestal table as the one heavy anchor; three black wall shelves in the TV-wall recess.",
         "Author Claude Opus (Opus 5.5 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout. None of D/E/F repeats the palettes of Fable A/B/C or Astra A/B/C (CONCEPTS.md).",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
-        "Render QA 23 Oct 2026: 4 of 4 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day)"
+        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)"
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/lop/",
       "hero": "lop/assets/LVE-render-liv_entry.webp",
@@ -28623,6 +28655,38 @@
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "lop/assets/LVE-render-liv_arch.webp",
           "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Entrance door · Night",
+          "kind": "liv-door-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_entry-night.webp",
+          "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "TV wall · Night",
+          "kind": "liv-tv-wall-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_main-night.webp",
+          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Window corner · Night",
+          "kind": "liv-window-corner-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_opposite-night.webp",
+          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Hallway arch · Night",
+          "kind": "liv-arch-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVE-render-liv_arch-night.webp",
+          "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
         }
       ],
       "products": [
@@ -28886,7 +28950,7 @@
         "Seating option F, a Filipino heritage sala in dark narra-stained hardwood and solihiya cane: a 2-seater along the south window and two matching lounge chairs side by side along the east window, a round cane-arched coffee table; a rack in the TV-wall recess.",
         "Author Claude Opus (Opus 5.5 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout. None of D/E/F repeats the palettes of Fable A/B/C or Astra A/B/C (CONCEPTS.md).",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
-        "Render QA 23 Oct 2026: 4 of 4 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day)"
+        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)"
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/lop/",
       "hero": "lop/assets/LVF-render-liv_entry.webp",
@@ -28923,6 +28987,38 @@
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "lop/assets/LVF-render-liv_arch.webp",
           "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Entrance door · Night",
+          "kind": "liv-door-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_entry-night.webp",
+          "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "TV wall · Night",
+          "kind": "liv-tv-wall-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_main-night.webp",
+          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Window corner · Night",
+          "kind": "liv-window-corner-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_opposite-night.webp",
+          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+        },
+        {
+          "label": "Hallway arch · Night",
+          "kind": "liv-arch-night",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "lop/assets/LVF-render-liv_arch-night.webp",
+          "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
         }
       ],
       "products": [
