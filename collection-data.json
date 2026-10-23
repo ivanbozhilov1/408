@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-view-titles / 2026-10-23T03:39:57+00:00",
+  "build": "408-view-titles / 2026-10-23T03:50:11+00:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -29,14 +29,14 @@
         "The omitted plant and P planter allowance retain their product IDs and supplier references as history. The published plant-removal budget excludes floor plants and planters; its figures are preserved without further recalculation."
       ],
       "originalUrl": "astra-human-views.html#P",
-      "hero": "collection-assets/699f066a759c0badd49f7299.png",
+      "hero": "collection-assets/699f066a759c0badd49f7299.webp",
       "plan": "collection-assets/6fb356e758faf1a4dc0578ff.svg",
       "views": [
         {
           "slot": "P-entrance-day",
           "kind": "entrance-day",
           "label": "Entrance door · Day",
-          "image": "collection-assets/699f066a759c0badd49f7299.png",
+          "image": "collection-assets/699f066a759c0badd49f7299.webp",
           "sha256": "699f066a759c0badd49f7299aaaf7dd9ad12d346abe693c626bdc58214b69dc0",
           "cameraPlan": "collection-assets/df45963d9db6ec26de234e65.svg",
           "caption": "Human-eye illustration from entrance doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Adjacent hallway clearance remains unsurveyed.",
@@ -48,7 +48,7 @@
           "slot": "P-bathroom-day",
           "kind": "bathroom-day",
           "label": "Bathroom door · Day",
-          "image": "collection-assets/5fbde62d776098b951c95833.png",
+          "image": "collection-assets/5fbde62d776098b951c95833.webp",
           "sha256": "5fbde62d776098b951c9583343981520dac80fe186303d9c3b2226aeec248376",
           "cameraPlan": "collection-assets/d493459af5427c9e0524cb8a.svg",
           "caption": "Human-eye illustration from bathroom doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -60,7 +60,7 @@
           "slot": "P-window-ac-day",
           "kind": "window-ac-day",
           "label": "Window corner · Day",
-          "image": "collection-assets/219d2cc0568583054f14781a.png",
+          "image": "collection-assets/219d2cc0568583054f14781a.webp",
           "sha256": "219d2cc0568583054f14781a92a2177811885b2f63e4bb702572d42b001b0506",
           "cameraPlan": "collection-assets/3dd591ee4802c436bf3021af.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -72,7 +72,7 @@
           "slot": "P-entrance-night",
           "kind": "entrance-night",
           "label": "Entrance door · Night",
-          "image": "collection-assets/3275f2f56dcc6925900104c2.png",
+          "image": "collection-assets/3275f2f56dcc6925900104c2.webp",
           "sha256": "3275f2f56dcc6925900104c297cc9ba4e4e073ce94b684f1f9143e7104d609dc",
           "cameraPlan": "collection-assets/df45963d9db6ec26de234e65.svg",
           "caption": "Human-eye illustration from entrance doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Adjacent hallway clearance remains unsurveyed.",
@@ -84,7 +84,7 @@
           "slot": "P-bathroom-night",
           "kind": "bathroom-night",
           "label": "Bathroom door · Night",
-          "image": "collection-assets/e2161606751634d82e505d5d.png",
+          "image": "collection-assets/e2161606751634d82e505d5d.webp",
           "sha256": "e2161606751634d82e505d5d43dfd71d27dbd87696e64df78ed44e6a77ea6cfc",
           "cameraPlan": "collection-assets/d493459af5427c9e0524cb8a.svg",
           "caption": "Human-eye illustration from bathroom doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -96,7 +96,7 @@
           "slot": "P-window-ac-night",
           "kind": "window-ac-night",
           "label": "Window corner · Night",
-          "image": "collection-assets/9b8f96c7ad46beadf9af344f.png",
+          "image": "collection-assets/9b8f96c7ad46beadf9af344f.webp",
           "sha256": "9b8f96c7ad46beadf9af344f64182bb1202f64073e80fd081ee50d07c0e89bc0",
           "cameraPlan": "collection-assets/3dd591ee4802c436bf3021af.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -108,7 +108,7 @@
           "slot": "P-window-ac-golden",
           "kind": "window-ac-golden",
           "label": "Window corner · Golden hour",
-          "image": "collection-assets/7e86da86f998b0fc4d1b6141.png",
+          "image": "collection-assets/7e86da86f998b0fc4d1b6141.webp",
           "sha256": "7e86da86f998b0fc4d1b6141ceaa0b2e5426456563e950cc63aecb3c1919cf2d",
           "cameraPlan": "collection-assets/3dd591ee4802c436bf3021af.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Golden-hour light is an illustrative study.",
@@ -783,7 +783,7 @@
       "renderHistory": [
         {
           "version": "v001-plant-removal",
-          "hero": "collection-assets/5a7935fbbd26b475ffe923ed.png",
+          "hero": "collection-assets/5a7935fbbd26b475ffe923ed.webp",
           "views": [
             {
               "label": "Main · Day",
@@ -792,7 +792,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "5a7935fbbd26b475ffe923ed875fc9a2802b03ce57c73e99b2364c893bf450b6",
               "reviewAccepted": true,
-              "image": "collection-assets/5a7935fbbd26b475ffe923ed.png"
+              "image": "collection-assets/5a7935fbbd26b475ffe923ed.webp"
             },
             {
               "label": "Main · Night",
@@ -801,7 +801,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "563da7df49391df0fe84db868bbaa60a9864d3e3ae3fed188547787b0ceb791f",
               "reviewAccepted": true,
-              "image": "collection-assets/563da7df49391df0fe84db86.png"
+              "image": "collection-assets/563da7df49391df0fe84db86.webp"
             },
             {
               "label": "Opposite · Day",
@@ -810,7 +810,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "0d7fdaaa25c7b55f8d0b952d1fc7d047eaf898d1dbdf82bd9a53452942b6bf02",
               "reviewAccepted": true,
-              "image": "collection-assets/0d7fdaaa25c7b55f8d0b952d.png"
+              "image": "collection-assets/0d7fdaaa25c7b55f8d0b952d.webp"
             },
             {
               "label": "Opposite · Night",
@@ -819,7 +819,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "904180adc1f3409c417a3212408d577c1fad1f141683f53668297b6f25c0df31",
               "reviewAccepted": true,
-              "image": "collection-assets/904180adc1f3409c417a3212.png"
+              "image": "collection-assets/904180adc1f3409c417a3212.webp"
             }
           ],
           "reviewNotes": [
@@ -864,14 +864,14 @@
         "The omitted plant and P planter allowance retain their product IDs and supplier references as history. The published plant-removal budget excludes floor plants and planters; its figures are preserved without further recalculation."
       ],
       "originalUrl": "astra-human-views.html#Q",
-      "hero": "collection-assets/61f590ed91cc670fa59b491c.png",
+      "hero": "collection-assets/61f590ed91cc670fa59b491c.webp",
       "plan": "collection-assets/3d42a5a92f86a685495a057f.svg",
       "views": [
         {
           "slot": "Q-entrance-day",
           "kind": "entrance-day",
           "label": "Entrance door · Day",
-          "image": "collection-assets/61f590ed91cc670fa59b491c.png",
+          "image": "collection-assets/61f590ed91cc670fa59b491c.webp",
           "sha256": "61f590ed91cc670fa59b491c8a21515e4c16d14c1d86cff54257a8ac96a3091a",
           "cameraPlan": "collection-assets/3f57f88404c66a53e315b3fb.svg",
           "caption": "Human-eye illustration from entrance doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Adjacent hallway clearance remains unsurveyed.",
@@ -883,7 +883,7 @@
           "slot": "Q-bathroom-day",
           "kind": "bathroom-day",
           "label": "Bathroom door · Day",
-          "image": "collection-assets/a2a04b5aec413d5d21be8f84.png",
+          "image": "collection-assets/a2a04b5aec413d5d21be8f84.webp",
           "sha256": "a2a04b5aec413d5d21be8f84822654a6962ea61cce06f1dc039b6c0257e5a72a",
           "cameraPlan": "collection-assets/953a9c77b4879c215a94ab51.svg",
           "caption": "Human-eye illustration from bathroom doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -895,7 +895,7 @@
           "slot": "Q-window-ac-day",
           "kind": "window-ac-day",
           "label": "Window corner · Day",
-          "image": "collection-assets/3bc9f088f48e4b5ef2492cd1.png",
+          "image": "collection-assets/3bc9f088f48e4b5ef2492cd1.webp",
           "sha256": "3bc9f088f48e4b5ef2492cd13238722bc724e97554fbc07fe558fc118cde608c",
           "cameraPlan": "collection-assets/c6a125a55a25fe813caee274.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -907,7 +907,7 @@
           "slot": "Q-entrance-night",
           "kind": "entrance-night",
           "label": "Entrance door · Night",
-          "image": "collection-assets/6ea3fa56807cccbaa430ac6b.png",
+          "image": "collection-assets/6ea3fa56807cccbaa430ac6b.webp",
           "sha256": "6ea3fa56807cccbaa430ac6bd7705d7052f20f878f3d3d32407e5833ba56fd51",
           "cameraPlan": "collection-assets/3f57f88404c66a53e315b3fb.svg",
           "caption": "Human-eye illustration from entrance doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Adjacent hallway clearance remains unsurveyed.",
@@ -919,7 +919,7 @@
           "slot": "Q-bathroom-night",
           "kind": "bathroom-night",
           "label": "Bathroom door · Night",
-          "image": "collection-assets/df6699c1eb8c392fba27c078.png",
+          "image": "collection-assets/df6699c1eb8c392fba27c078.webp",
           "sha256": "df6699c1eb8c392fba27c0785a2762339ca69e265058d1b79a87f50d6e178d60",
           "cameraPlan": "collection-assets/953a9c77b4879c215a94ab51.svg",
           "caption": "Human-eye illustration from bathroom doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -931,7 +931,7 @@
           "slot": "Q-window-ac-night",
           "kind": "window-ac-night",
           "label": "Window corner · Night",
-          "image": "collection-assets/f86b480d6bb7d58e58c0d7f1.png",
+          "image": "collection-assets/f86b480d6bb7d58e58c0d7f1.webp",
           "sha256": "f86b480d6bb7d58e58c0d7f10b1b9491d2487011fb555dc107cfdc2a4be42832",
           "cameraPlan": "collection-assets/c6a125a55a25fe813caee274.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -943,7 +943,7 @@
           "slot": "Q-window-ac-golden",
           "kind": "window-ac-golden",
           "label": "Window corner · Golden hour",
-          "image": "collection-assets/4e73985ea6d506588ba6870e.png",
+          "image": "collection-assets/4e73985ea6d506588ba6870e.webp",
           "sha256": "4e73985ea6d506588ba6870e84c92070ba7d7559e923694e79e9b4c0fc669625",
           "cameraPlan": "collection-assets/c6a125a55a25fe813caee274.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Golden-hour light is an illustrative study.",
@@ -1568,7 +1568,7 @@
       "renderHistory": [
         {
           "version": "v001-plant-removal",
-          "hero": "collection-assets/93178b0d0f31cab187f728df.png",
+          "hero": "collection-assets/93178b0d0f31cab187f728df.webp",
           "views": [
             {
               "label": "Main · Day",
@@ -1577,7 +1577,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "93178b0d0f31cab187f728dfb4bed394eab837776201aa5d81cfee1ee2c701c5",
               "reviewAccepted": true,
-              "image": "collection-assets/93178b0d0f31cab187f728df.png"
+              "image": "collection-assets/93178b0d0f31cab187f728df.webp"
             },
             {
               "label": "Main · Night",
@@ -1586,7 +1586,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "6512b4b5c7342f33f1d5cf881518db8b0a6f80a53257cf6ed9bc5904062b8eb9",
               "reviewAccepted": true,
-              "image": "collection-assets/6512b4b5c7342f33f1d5cf88.png"
+              "image": "collection-assets/6512b4b5c7342f33f1d5cf88.webp"
             },
             {
               "label": "Opposite · Day",
@@ -1595,7 +1595,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "479e2d673d4f313fa3f47cfb4b65ffa45115544f0f4e3babc308df8249d7517c",
               "reviewAccepted": true,
-              "image": "collection-assets/479e2d673d4f313fa3f47cfb.png"
+              "image": "collection-assets/479e2d673d4f313fa3f47cfb.webp"
             },
             {
               "label": "Opposite · Night",
@@ -1604,7 +1604,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "132157206b204221717efa922274f29d11977cdc2c3d7a6dcbc21027da115f2d",
               "reviewAccepted": true,
-              "image": "collection-assets/132157206b204221717efa92.png"
+              "image": "collection-assets/132157206b204221717efa92.webp"
             }
           ],
           "reviewNotes": [
@@ -1649,14 +1649,14 @@
         "The omitted plant and P planter allowance retain their product IDs and supplier references as history. The published plant-removal budget excludes floor plants and planters; its figures are preserved without further recalculation."
       ],
       "originalUrl": "astra-human-views.html#R",
-      "hero": "collection-assets/4065c2375fd00e83e9dd6396.png",
+      "hero": "collection-assets/4065c2375fd00e83e9dd6396.webp",
       "plan": "collection-assets/b62b6fe8859d3a19435294a6.svg",
       "views": [
         {
           "slot": "R-entrance-day",
           "kind": "entrance-day",
           "label": "Entrance door · Day",
-          "image": "collection-assets/4065c2375fd00e83e9dd6396.png",
+          "image": "collection-assets/4065c2375fd00e83e9dd6396.webp",
           "sha256": "4065c2375fd00e83e9dd639613ff776d953eb473cef8f59578ae5dbf02a8e235",
           "cameraPlan": "collection-assets/4efc6f718f742bf573841aef.svg",
           "caption": "Human-eye illustration from entrance doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Adjacent hallway clearance remains unsurveyed.",
@@ -1668,7 +1668,7 @@
           "slot": "R-bathroom-day",
           "kind": "bathroom-day",
           "label": "Bathroom door · Day",
-          "image": "collection-assets/76b53d38e393abc61c52f4e7.png",
+          "image": "collection-assets/76b53d38e393abc61c52f4e7.webp",
           "sha256": "76b53d38e393abc61c52f4e7c87d043606910525d18c64b5731232a12e430066",
           "cameraPlan": "collection-assets/e15ed2b82a0aa5682f49c5c7.svg",
           "caption": "Human-eye illustration from bathroom doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -1680,7 +1680,7 @@
           "slot": "R-window-ac-day",
           "kind": "window-ac-day",
           "label": "Window corner · Day",
-          "image": "collection-assets/e1cbbfc4cb54c90e0cf5362c.png",
+          "image": "collection-assets/e1cbbfc4cb54c90e0cf5362c.webp",
           "sha256": "e1cbbfc4cb54c90e0cf5362c9892c37c48f8be44d18d0f8d9a5e7f2f80417af3",
           "cameraPlan": "collection-assets/dd9b7b5bd37663da48a3d2f0.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -1692,7 +1692,7 @@
           "slot": "R-entrance-night",
           "kind": "entrance-night",
           "label": "Entrance door · Night",
-          "image": "collection-assets/f31b5b8b66c325d483544cb0.png",
+          "image": "collection-assets/f31b5b8b66c325d483544cb0.webp",
           "sha256": "f31b5b8b66c325d483544cb0826af76f63fcc8f2599fdac1efa6d82ba0a74d5f",
           "cameraPlan": "collection-assets/4efc6f718f742bf573841aef.svg",
           "caption": "Human-eye illustration from entrance doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Adjacent hallway clearance remains unsurveyed.",
@@ -1704,7 +1704,7 @@
           "slot": "R-bathroom-night",
           "kind": "bathroom-night",
           "label": "Bathroom door · Night",
-          "image": "collection-assets/305b10a0178e40fb2c9239d8.png",
+          "image": "collection-assets/305b10a0178e40fb2c9239d8.webp",
           "sha256": "305b10a0178e40fb2c9239d86487f160a9476f15cc71c15adc532334958c7590",
           "cameraPlan": "collection-assets/e15ed2b82a0aa5682f49c5c7.svg",
           "caption": "Human-eye illustration from bathroom doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -1716,7 +1716,7 @@
           "slot": "R-window-ac-night",
           "kind": "window-ac-night",
           "label": "Window corner · Night",
-          "image": "collection-assets/9de6ab6df4077e7782efcc79.png",
+          "image": "collection-assets/9de6ab6df4077e7782efcc79.webp",
           "sha256": "9de6ab6df4077e7782efcc79c996bdbd59c81f281bbb13ac9bc912d271d00337",
           "cameraPlan": "collection-assets/dd9b7b5bd37663da48a3d2f0.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -1728,7 +1728,7 @@
           "slot": "R-window-ac-golden",
           "kind": "window-ac-golden",
           "label": "Window corner · Golden hour",
-          "image": "collection-assets/af1048a3859f32fa0c77e8f9.png",
+          "image": "collection-assets/af1048a3859f32fa0c77e8f9.webp",
           "sha256": "af1048a3859f32fa0c77e8f91966b81b4d8a62df9db6d1a4164ff8bfd5e9a622",
           "cameraPlan": "collection-assets/dd9b7b5bd37663da48a3d2f0.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Golden-hour light is an illustrative study.",
@@ -2363,7 +2363,7 @@
       "renderHistory": [
         {
           "version": "v001-plant-removal",
-          "hero": "collection-assets/9d77c47db07924fe1d531efd.png",
+          "hero": "collection-assets/9d77c47db07924fe1d531efd.webp",
           "views": [
             {
               "label": "Main · Day",
@@ -2372,7 +2372,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "9d77c47db07924fe1d531efdbce5a9afcd9315eb0ff8b48ebefba3d47c75d4b1",
               "reviewAccepted": true,
-              "image": "collection-assets/9d77c47db07924fe1d531efd.png"
+              "image": "collection-assets/9d77c47db07924fe1d531efd.webp"
             },
             {
               "label": "Main · Night",
@@ -2381,7 +2381,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "7fee161c52fb23cdddfc5451042ca1d798338345cf2864b8ff15cc37e7b30c0c",
               "reviewAccepted": true,
-              "image": "collection-assets/7fee161c52fb23cdddfc5451.png"
+              "image": "collection-assets/7fee161c52fb23cdddfc5451.webp"
             },
             {
               "label": "Opposite · Day",
@@ -2390,7 +2390,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "cf7e7c2a712bec8e018f0c3b98c9e804bcedf0692db9e778f0fe3d10ace02fcf",
               "reviewAccepted": true,
-              "image": "collection-assets/cf7e7c2a712bec8e018f0c3b.png"
+              "image": "collection-assets/cf7e7c2a712bec8e018f0c3b.webp"
             },
             {
               "label": "Opposite · Night",
@@ -2399,7 +2399,7 @@
               "effectiveStatus": "Plant-removal edit reviewed; fit remains conditional",
               "sha256": "755556d4c81a6c538a34f2401e3b148a29c11af6eafddd12253e8d4ab21a8714",
               "reviewAccepted": true,
-              "image": "collection-assets/755556d4c81a6c538a34f240.png"
+              "image": "collection-assets/755556d4c81a6c538a34f240.webp"
             }
           ],
           "reviewNotes": [
@@ -2432,7 +2432,7 @@
         "Three latest main views; curtain/new-rug integration and opposite/evening were pending at its own delivery. Older outputs explicitly include REJECTED_FOR_FINAL_COMPARISON. No standalone HTML entry."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/449d419e247bbf2fb444d07c.png",
+      "hero": "collection-assets/449d419e247bbf2fb444d07c.webp",
       "plan": null,
       "views": [
         {
@@ -2440,7 +2440,7 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_REVIEWED_DRAFT_INCOMPLETE",
-          "image": "collection-assets/449d419e247bbf2fb444d07c.png"
+          "image": "collection-assets/449d419e247bbf2fb444d07c.webp"
         }
       ],
       "products": [],
@@ -2470,7 +2470,7 @@
         "Three latest main views; curtain/new-rug integration and opposite/evening were pending at its own delivery. Older outputs explicitly include REJECTED_FOR_FINAL_COMPARISON. No standalone HTML entry."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/adb39d02ad2f8b9af9c62cbd.png",
+      "hero": "collection-assets/adb39d02ad2f8b9af9c62cbd.webp",
       "plan": null,
       "views": [
         {
@@ -2478,7 +2478,7 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_REVIEWED_DRAFT_INCOMPLETE",
-          "image": "collection-assets/adb39d02ad2f8b9af9c62cbd.png"
+          "image": "collection-assets/adb39d02ad2f8b9af9c62cbd.webp"
         }
       ],
       "products": [],
@@ -2508,7 +2508,7 @@
         "Three latest main views; curtain/new-rug integration and opposite/evening were pending at its own delivery. Older outputs explicitly include REJECTED_FOR_FINAL_COMPARISON. No standalone HTML entry."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/023aec910e021f8ca7eda961.png",
+      "hero": "collection-assets/023aec910e021f8ca7eda961.webp",
       "plan": null,
       "views": [
         {
@@ -2516,7 +2516,7 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_REVIEWED_DRAFT_INCOMPLETE",
-          "image": "collection-assets/023aec910e021f8ca7eda961.png"
+          "image": "collection-assets/023aec910e021f8ca7eda961.webp"
         }
       ],
       "products": [],
@@ -2546,7 +2546,7 @@
         "Final selected views are deterministic model renders; visuals/ contains superseded AI style concepts. Dated above-TV AC instruction is not the current instruction."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/bb25c832671bb0ab205d7edb.png",
+      "hero": "collection-assets/bb25c832671bb0ab205d7edb.webp",
       "plan": null,
       "views": [
         {
@@ -2554,21 +2554,21 @@
           "kind": "main-day",
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "HISTORICAL_FIXED_PLAN_STUDY",
-          "image": "collection-assets/bb25c832671bb0ab205d7edb.png"
+          "image": "collection-assets/bb25c832671bb0ab205d7edb.webp"
         },
         {
           "label": "A-opposite.png",
           "kind": "opposite-day",
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "HISTORICAL_FIXED_PLAN_STUDY",
-          "image": "collection-assets/7149957f8c31a3312901c70d.png"
+          "image": "collection-assets/7149957f8c31a3312901c70d.webp"
         },
         {
           "label": "A-evening.png",
           "kind": "main-night",
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "HISTORICAL_FIXED_PLAN_STUDY",
-          "image": "collection-assets/7bb2d0b228fdd204e70a4b53.png"
+          "image": "collection-assets/7bb2d0b228fdd204e70a4b53.webp"
         }
       ],
       "products": [],
@@ -2598,7 +2598,7 @@
         "Final selected views are deterministic model renders; visuals/ contains superseded AI style concepts. Dated above-TV AC instruction is not the current instruction."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/061c9e33cc7053f1db99e0d8.png",
+      "hero": "collection-assets/061c9e33cc7053f1db99e0d8.webp",
       "plan": null,
       "views": [
         {
@@ -2606,14 +2606,14 @@
           "kind": "main-day",
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "HISTORICAL_FIXED_PLAN_STUDY",
-          "image": "collection-assets/061c9e33cc7053f1db99e0d8.png"
+          "image": "collection-assets/061c9e33cc7053f1db99e0d8.webp"
         },
         {
           "label": "B-opposite.png",
           "kind": "opposite-day",
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "HISTORICAL_FIXED_PLAN_STUDY",
-          "image": "collection-assets/4a7b7a3e652ee1e5b97c71b3.png"
+          "image": "collection-assets/4a7b7a3e652ee1e5b97c71b3.webp"
         }
       ],
       "products": [],
@@ -2643,7 +2643,7 @@
         "Final selected views are deterministic model renders; visuals/ contains superseded AI style concepts. Dated above-TV AC instruction is not the current instruction."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/3e1e79cc08faf2c96cff50a1.png",
+      "hero": "collection-assets/3e1e79cc08faf2c96cff50a1.webp",
       "plan": null,
       "views": [
         {
@@ -2651,14 +2651,14 @@
           "kind": "main-day",
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "HISTORICAL_FIXED_PLAN_STUDY",
-          "image": "collection-assets/3e1e79cc08faf2c96cff50a1.png"
+          "image": "collection-assets/3e1e79cc08faf2c96cff50a1.webp"
         },
         {
           "label": "C-opposite.png",
           "kind": "opposite-day",
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "HISTORICAL_FIXED_PLAN_STUDY",
-          "image": "collection-assets/306ecd4466bfc40272c8ecf7.png"
+          "image": "collection-assets/306ecd4466bfc40272c8ecf7.webp"
         }
       ],
       "products": [],
@@ -2688,7 +2688,7 @@
         "Nine style images plus deterministic/model and plan evidence. Shared console/armchair/mirror reflect the earlier brief; no current acceptance inferred."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/0c65c0469917103a443bca61.png",
+      "hero": "collection-assets/0c65c0469917103a443bca61.webp",
       "plan": null,
       "views": [
         {
@@ -2696,21 +2696,21 @@
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_CONCEPT_STUDY",
-          "image": "collection-assets/0c65c0469917103a443bca61.png"
+          "image": "collection-assets/0c65c0469917103a443bca61.webp"
         },
         {
           "label": "A-seating-style.png",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_CONCEPT_STUDY",
-          "image": "collection-assets/71db13da05cf3b33506b7d27.png"
+          "image": "collection-assets/71db13da05cf3b33506b7d27.webp"
         },
         {
           "label": "A-style.png",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_CONCEPT_STUDY",
-          "image": "collection-assets/3fbe304e6657fefab4f9cd57.png"
+          "image": "collection-assets/3fbe304e6657fefab4f9cd57.webp"
         }
       ],
       "products": [],
@@ -2740,7 +2740,7 @@
         "Nine style images plus deterministic/model and plan evidence. Shared console/armchair/mirror reflect the earlier brief; no current acceptance inferred."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/9a6fbfa50552943c8b6225e9.png",
+      "hero": "collection-assets/9a6fbfa50552943c8b6225e9.webp",
       "plan": null,
       "views": [
         {
@@ -2748,21 +2748,21 @@
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_CONCEPT_STUDY",
-          "image": "collection-assets/9a6fbfa50552943c8b6225e9.png"
+          "image": "collection-assets/9a6fbfa50552943c8b6225e9.webp"
         },
         {
           "label": "B-seating-style.png",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_CONCEPT_STUDY",
-          "image": "collection-assets/4ab3476860a683c5887675ba.png"
+          "image": "collection-assets/4ab3476860a683c5887675ba.webp"
         },
         {
           "label": "B-style.png",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_CONCEPT_STUDY",
-          "image": "collection-assets/c23ed92a0ece2e393db12ca5.png"
+          "image": "collection-assets/c23ed92a0ece2e393db12ca5.webp"
         }
       ],
       "products": [],
@@ -2792,7 +2792,7 @@
         "Nine style images plus deterministic/model and plan evidence. Shared console/armchair/mirror reflect the earlier brief; no current acceptance inferred."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/1bfe4c9ce01e05c0446f99fa.png",
+      "hero": "collection-assets/1bfe4c9ce01e05c0446f99fa.webp",
       "plan": null,
       "views": [
         {
@@ -2800,21 +2800,21 @@
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_CONCEPT_STUDY",
-          "image": "collection-assets/1bfe4c9ce01e05c0446f99fa.png"
+          "image": "collection-assets/1bfe4c9ce01e05c0446f99fa.webp"
         },
         {
           "label": "C-seating-style.png",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_CONCEPT_STUDY",
-          "image": "collection-assets/7c32f61c3c87227e1e915344.png"
+          "image": "collection-assets/7c32f61c3c87227e1e915344.webp"
         },
         {
           "label": "C-style.png",
           "kind": "other",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "HISTORICAL_CONCEPT_STUDY",
-          "image": "collection-assets/01407b6f63bc69c395d78396.png"
+          "image": "collection-assets/01407b6f63bc69c395d78396.webp"
         }
       ],
       "products": [],
@@ -2844,7 +2844,7 @@
         "56 unique active items / 95 schedule lines in dated status. Shared consoles/mirrors triggered owner rejection. Keep all history/ originals as historical only."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/8456c2a8f1ef7b71b0003746.png",
+      "hero": "collection-assets/8456c2a8f1ef7b71b0003746.webp",
       "plan": null,
       "views": [
         {
@@ -2852,14 +2852,14 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "SUPERSEDED_DO_NOT_PUBLISH_OWNER_REJECTED_SHARED_ITEMS",
-          "image": "collection-assets/8456c2a8f1ef7b71b0003746.png"
+          "image": "collection-assets/8456c2a8f1ef7b71b0003746.webp"
         },
         {
           "label": "A-opposite.png",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "SUPERSEDED_DO_NOT_PUBLISH_OWNER_REJECTED_SHARED_ITEMS",
-          "image": "collection-assets/186ffbc457eadad0b8fc8203.png"
+          "image": "collection-assets/186ffbc457eadad0b8fc8203.webp"
         }
       ],
       "products": [
@@ -3718,7 +3718,7 @@
         "56 unique active items / 95 schedule lines in dated status. Shared consoles/mirrors triggered owner rejection. Keep all history/ originals as historical only."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/f248e080748dd3c1ded753c8.png",
+      "hero": "collection-assets/f248e080748dd3c1ded753c8.webp",
       "plan": null,
       "views": [
         {
@@ -3726,14 +3726,14 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "SUPERSEDED_DO_NOT_PUBLISH_OWNER_REJECTED_SHARED_ITEMS",
-          "image": "collection-assets/f248e080748dd3c1ded753c8.png"
+          "image": "collection-assets/f248e080748dd3c1ded753c8.webp"
         },
         {
           "label": "B-opposite.png",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "SUPERSEDED_DO_NOT_PUBLISH_OWNER_REJECTED_SHARED_ITEMS",
-          "image": "collection-assets/d50edbea9651ce601b37f855.png"
+          "image": "collection-assets/d50edbea9651ce601b37f855.webp"
         }
       ],
       "products": [
@@ -4566,7 +4566,7 @@
         "56 unique active items / 95 schedule lines in dated status. Shared consoles/mirrors triggered owner rejection. Keep all history/ originals as historical only."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/9687084af4c47526439e9db8.png",
+      "hero": "collection-assets/9687084af4c47526439e9db8.webp",
       "plan": null,
       "views": [
         {
@@ -4574,14 +4574,14 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "SUPERSEDED_DO_NOT_PUBLISH_OWNER_REJECTED_SHARED_ITEMS",
-          "image": "collection-assets/9687084af4c47526439e9db8.png"
+          "image": "collection-assets/9687084af4c47526439e9db8.webp"
         },
         {
           "label": "C-opposite.png",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "SUPERSEDED_DO_NOT_PUBLISH_OWNER_REJECTED_SHARED_ITEMS",
-          "image": "collection-assets/9e25a392c466d762f48feb76.png"
+          "image": "collection-assets/9e25a392c466d762f48feb76.webp"
         }
       ],
       "products": [
@@ -5444,7 +5444,7 @@
         "Later owner rejection overrides earlier FINAL-STATUS complete/PASS language. First live Site must remain unchanged; later readback identifies public/access revision 2/version 1 despite original status calling it owner-private."
       ],
       "originalUrl": "https://unit-408-three-bedroom-designs.bozhilov-ivan.chatgpt.site",
-      "hero": "astra/original/A-main.png",
+      "hero": "astra/original/A-main.webp",
       "plan": null,
       "views": [
         {
@@ -5452,14 +5452,14 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "OWNER_REJECTED_FRESH_DESIGN_REQUIRED",
-          "image": "astra/original/A-main.png"
+          "image": "astra/original/A-main.webp"
         },
         {
           "label": "A-opposite.png",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "OWNER_REJECTED_FRESH_DESIGN_REQUIRED",
-          "image": "astra/original/A-opposite.png"
+          "image": "astra/original/A-opposite.webp"
         }
       ],
       "products": [
@@ -6153,7 +6153,7 @@
         "Later owner rejection overrides earlier FINAL-STATUS complete/PASS language. First live Site must remain unchanged; later readback identifies public/access revision 2/version 1 despite original status calling it owner-private."
       ],
       "originalUrl": "https://unit-408-three-bedroom-designs.bozhilov-ivan.chatgpt.site",
-      "hero": "astra/original/B-main.png",
+      "hero": "astra/original/B-main.webp",
       "plan": null,
       "views": [
         {
@@ -6161,14 +6161,14 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "OWNER_REJECTED_FRESH_DESIGN_REQUIRED",
-          "image": "astra/original/B-main.png"
+          "image": "astra/original/B-main.webp"
         },
         {
           "label": "B-opposite.png",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "OWNER_REJECTED_FRESH_DESIGN_REQUIRED",
-          "image": "astra/original/B-opposite.png"
+          "image": "astra/original/B-opposite.webp"
         }
       ],
       "products": [
@@ -6916,7 +6916,7 @@
         "Later owner rejection overrides earlier FINAL-STATUS complete/PASS language. First live Site must remain unchanged; later readback identifies public/access revision 2/version 1 despite original status calling it owner-private."
       ],
       "originalUrl": "https://unit-408-three-bedroom-designs.bozhilov-ivan.chatgpt.site",
-      "hero": "astra/original/C-main.png",
+      "hero": "astra/original/C-main.webp",
       "plan": null,
       "views": [
         {
@@ -6924,14 +6924,14 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "OWNER_REJECTED_FRESH_DESIGN_REQUIRED",
-          "image": "astra/original/C-main.png"
+          "image": "astra/original/C-main.webp"
         },
         {
           "label": "C-opposite.png",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "OWNER_REJECTED_FRESH_DESIGN_REQUIRED",
-          "image": "astra/original/C-opposite.png"
+          "image": "astra/original/C-opposite.webp"
         }
       ],
       "products": [
@@ -7676,7 +7676,7 @@
         "Canonical final-view-map has 12 rejected views with prior PASS preserved. Existing site/dist contains only 8 A/B room views; C is pending in that older presentation. Use canonical rejected map for complete historical record; do not treat site incompleteness as 12 accepted views."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/dad2cf6da7f242e64f1db79b.png",
+      "hero": "collection-assets/dad2cf6da7f242e64f1db79b.webp",
       "plan": null,
       "views": [
         {
@@ -7684,28 +7684,28 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/dad2cf6da7f242e64f1db79b.png"
+          "image": "collection-assets/dad2cf6da7f242e64f1db79b.webp"
         },
         {
           "label": "A-opposite-D3-guided.png",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/432829e35a5d70d81ae6a736.png"
+          "image": "collection-assets/432829e35a5d70d81ae6a736.webp"
         },
         {
           "label": "A-main-N1.png",
           "kind": "main-night",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/27172d8b7704ed2ef169652e.png"
+          "image": "collection-assets/27172d8b7704ed2ef169652e.webp"
         },
         {
           "label": "A-opposite-N1.png",
           "kind": "opposite-night",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/7ce4de1c0a9e0dda151a205b.png"
+          "image": "collection-assets/7ce4de1c0a9e0dda151a205b.webp"
         }
       ],
       "products": [
@@ -8514,7 +8514,7 @@
         "Canonical final-view-map has 12 rejected views with prior PASS preserved. Existing site/dist contains only 8 A/B room views; C is pending in that older presentation. Use canonical rejected map for complete historical record; do not treat site incompleteness as 12 accepted views."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/37c424b71655e313e16c29b4.png",
+      "hero": "collection-assets/37c424b71655e313e16c29b4.webp",
       "plan": null,
       "views": [
         {
@@ -8522,28 +8522,28 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/37c424b71655e313e16c29b4.png"
+          "image": "collection-assets/37c424b71655e313e16c29b4.webp"
         },
         {
           "label": "B-opposite-D3-fix2.png",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/e7add86deb2c8ad8d7145fd7.png"
+          "image": "collection-assets/e7add86deb2c8ad8d7145fd7.webp"
         },
         {
           "label": "B-main-N1-curtain-fix.png",
           "kind": "main-night",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/5c3899e64ec511c4a4e4f5f8.png"
+          "image": "collection-assets/5c3899e64ec511c4a4e4f5f8.webp"
         },
         {
           "label": "B-opposite-N1.png",
           "kind": "opposite-night",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/259a2fac0a11dfe3c2425ad4.png"
+          "image": "collection-assets/259a2fac0a11dfe3c2425ad4.webp"
         }
       ],
       "products": [
@@ -9326,7 +9326,7 @@
         "Canonical final-view-map has 12 rejected views with prior PASS preserved. Existing site/dist contains only 8 A/B room views; C is pending in that older presentation. Use canonical rejected map for complete historical record; do not treat site incompleteness as 12 accepted views."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/363c41e39c6f41c9a04d0a57.png",
+      "hero": "collection-assets/363c41e39c6f41c9a04d0a57.webp",
       "plan": null,
       "views": [
         {
@@ -9334,28 +9334,28 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/363c41e39c6f41c9a04d0a57.png"
+          "image": "collection-assets/363c41e39c6f41c9a04d0a57.webp"
         },
         {
           "label": "C-opposite-D3-fix.png",
           "kind": "opposite-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/168332799f2378761f412616.png"
+          "image": "collection-assets/168332799f2378761f412616.webp"
         },
         {
           "label": "C-main-N1-H5v2.png",
           "kind": "main-night",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/6fef1c7ac55e483638655ee5.png"
+          "image": "collection-assets/6fef1c7ac55e483638655ee5.webp"
         },
         {
           "label": "C-opposite-N1-H5v2.png",
           "kind": "opposite-night",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "REJECTED_BY_OWNER_FRESH_SESSION_REQUIRED",
-          "image": "collection-assets/a155c292e5b060e429837b4a.png"
+          "image": "collection-assets/a155c292e5b060e429837b4a.webp"
         }
       ],
       "products": [
@@ -10164,7 +10164,7 @@
         "Only A-main D3 and N1 are selected photoreal renders; whole schemes pending remaining views. v2 source basket is frozen with render_acceptance false. site/dist is a READ-ONLY old-identity source clone, not a completed successor. site-reset has metadata only, no published payload."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/d3b9948a92de93a7c22121fa.png",
+      "hero": "collection-assets/d3b9948a92de93a7c22121fa.webp",
       "plan": null,
       "views": [
         {
@@ -10172,14 +10172,14 @@
           "kind": "main-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "PRESERVED_AS_FOUND_NO_ACCEPTANCE_PROMOTION_INCOMPLETE",
-          "image": "collection-assets/d3b9948a92de93a7c22121fa.png"
+          "image": "collection-assets/d3b9948a92de93a7c22121fa.webp"
         },
         {
           "label": "A-main-N1-v1-454b3f8189d303e1.png",
           "kind": "main-night",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "PRESERVED_AS_FOUND_NO_ACCEPTANCE_PROMOTION_INCOMPLETE",
-          "image": "collection-assets/454b3f8189d303e10f0cec90.png"
+          "image": "collection-assets/454b3f8189d303e10f0cec90.webp"
         }
       ],
       "products": [
@@ -11797,14 +11797,14 @@
         "A/B bed dimensions and some furniture heights are planning assumptions; the camera plans do not replace a supplier or site measurement. The 50 mm sleeping pad and continuous support deck require fabrication confirmation."
       ],
       "originalUrl": "astra-human-views.html#A",
-      "hero": "collection-assets/eea8d11a05b89028d84adb18.png",
+      "hero": "collection-assets/eea8d11a05b89028d84adb18.webp",
       "plan": null,
       "views": [
         {
           "slot": "A-entrance-day",
           "kind": "entrance-day",
           "label": "Entrance door · Day",
-          "image": "collection-assets/eea8d11a05b89028d84adb18.png",
+          "image": "collection-assets/eea8d11a05b89028d84adb18.webp",
           "sha256": "eea8d11a05b89028d84adb18da78a32da9e584ce612e8d2e155d1db831a009c3",
           "cameraPlan": "collection-assets/5428c825542303c48447c737.svg",
           "caption": "Human-eye illustration from entrance doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Adjacent hallway clearance remains unsurveyed.",
@@ -11816,7 +11816,7 @@
           "slot": "A-bathroom-day",
           "kind": "bathroom-day",
           "label": "Bathroom door · Day",
-          "image": "collection-assets/003bb929188c71d79556fdbd.png",
+          "image": "collection-assets/003bb929188c71d79556fdbd.webp",
           "sha256": "003bb929188c71d79556fdbdc62771a2b2dbb70b472d5a86ed642d7794668f73",
           "cameraPlan": "collection-assets/d58ba6649431604df21a1dd1.svg",
           "caption": "Human-eye illustration from bathroom doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -11828,7 +11828,7 @@
           "slot": "A-window-ac-day",
           "kind": "window-ac-day",
           "label": "Window corner · Day",
-          "image": "collection-assets/a63c9c3727e50ea9bed705c9.png",
+          "image": "collection-assets/a63c9c3727e50ea9bed705c9.webp",
           "sha256": "a63c9c3727e50ea9bed705c9a95bb6690bc341824c9d19ae1ab4410bb236fd2f",
           "cameraPlan": "collection-assets/49f40fe30432992139f11f6d.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -12579,14 +12579,14 @@
         "A/B bed dimensions and some furniture heights are planning assumptions; the camera plans do not replace a supplier or site measurement. The 50 mm sleeping pad and continuous support deck require fabrication confirmation."
       ],
       "originalUrl": "astra-human-views.html#B",
-      "hero": "collection-assets/01185c6bd97626cbbf460dae.png",
+      "hero": "collection-assets/01185c6bd97626cbbf460dae.webp",
       "plan": null,
       "views": [
         {
           "slot": "B-entrance-day",
           "kind": "entrance-day",
           "label": "Entrance door · Day",
-          "image": "collection-assets/01185c6bd97626cbbf460dae.png",
+          "image": "collection-assets/01185c6bd97626cbbf460dae.webp",
           "sha256": "01185c6bd97626cbbf460dae048dc3f279f15a28658963e290f5887f92f5d96a",
           "cameraPlan": "collection-assets/65633af626132cf4651061e8.svg",
           "caption": "Human-eye illustration from entrance doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Adjacent hallway clearance remains unsurveyed.",
@@ -12598,7 +12598,7 @@
           "slot": "B-bathroom-day",
           "kind": "bathroom-day",
           "label": "Bathroom door · Day",
-          "image": "collection-assets/9c9e2218c37b812c191f3ec0.png",
+          "image": "collection-assets/9c9e2218c37b812c191f3ec0.webp",
           "sha256": "9c9e2218c37b812c191f3ec0b4aa78f92b9cc3c634ec140455d588a010bfb6ce",
           "cameraPlan": "collection-assets/fcdd65c50b1343809f9e5d7c.svg",
           "caption": "Human-eye illustration from bathroom doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -12610,7 +12610,7 @@
           "slot": "B-window-ac-day",
           "kind": "window-ac-day",
           "label": "Window corner · Day",
-          "image": "collection-assets/d424e3ee21aadc435efbdf04.png",
+          "image": "collection-assets/d424e3ee21aadc435efbdf04.webp",
           "sha256": "d424e3ee21aadc435efbdf04e6b054646d99c6b6ed44acce168ecacc88e1a5aa",
           "cameraPlan": "collection-assets/50af60457d4ed66f5a5f18dd.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -13367,14 +13367,14 @@
         "A/B bed dimensions and some furniture heights are planning assumptions; the camera plans do not replace a supplier or site measurement. The 50 mm sleeping pad and continuous support deck require fabrication confirmation."
       ],
       "originalUrl": "astra-human-views.html#C",
-      "hero": "collection-assets/b7aaff7849f5407db492aa6a.png",
+      "hero": "collection-assets/b7aaff7849f5407db492aa6a.webp",
       "plan": null,
       "views": [
         {
           "slot": "C-entrance-day",
           "kind": "entrance-day",
           "label": "Entrance door · Day",
-          "image": "collection-assets/b7aaff7849f5407db492aa6a.png",
+          "image": "collection-assets/b7aaff7849f5407db492aa6a.webp",
           "sha256": "b7aaff7849f5407db492aa6a53df361ee251dfea745417d278ddd35024972c08",
           "cameraPlan": "collection-assets/2fd16f56962e5e5ebb7a5d27.svg",
           "caption": "Human-eye illustration from entrance doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate. Adjacent hallway clearance remains unsurveyed.",
@@ -13386,7 +13386,7 @@
           "slot": "C-bathroom-day",
           "kind": "bathroom-day",
           "label": "Bathroom door · Day",
-          "image": "collection-assets/2bcdc44d7c9d2a54bf234cc4.png",
+          "image": "collection-assets/2bcdc44d7c9d2a54bf234cc4.webp",
           "sha256": "2bcdc44d7c9d2a54bf234cc4ac7620b5d8095f272d6fa793ba7d0c3117f04779",
           "cameraPlan": "collection-assets/f550d56eeabd303a7d86b160.svg",
           "caption": "Human-eye illustration from bathroom doorway. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -13398,7 +13398,7 @@
           "slot": "C-window-ac-day",
           "kind": "window-ac-day",
           "label": "Window corner · Day",
-          "image": "collection-assets/4d92ad853623e7a7448b7dd2.png",
+          "image": "collection-assets/4d92ad853623e7a7448b7dd2.webp",
           "sha256": "4d92ad853623e7a7448b7dd250d9772255b785e1f08e4f50388fb2181f0e7376",
           "cameraPlan": "collection-assets/6c9de674c5242898223fa03c.svg",
           "caption": "Human-eye illustration from old window ac side. Room-model guide and supplier references inform the view; AI perspective and dimensions are approximate.",
@@ -14196,7 +14196,7 @@
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/fable-def.html",
-      "hero": "assets/D-render-entry.png",
+      "hero": "assets/D-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -14204,7 +14204,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/D-render-entry.png",
+          "image": "assets/D-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -14212,7 +14212,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/D-render-bathroom.png",
+          "image": "assets/D-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -14220,7 +14220,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/D-render-windowac.png",
+          "image": "assets/D-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -15028,7 +15028,7 @@
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/fable-def.html",
-      "hero": "assets/E-render-entry.png",
+      "hero": "assets/E-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -15036,7 +15036,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/E-render-entry.png",
+          "image": "assets/E-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -15044,7 +15044,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/E-render-bathroom.png",
+          "image": "assets/E-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -15052,7 +15052,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/E-render-windowac.png",
+          "image": "assets/E-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -15861,7 +15861,7 @@
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/fable-def.html",
-      "hero": "assets/F-render-entry.png",
+      "hero": "assets/F-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -15869,7 +15869,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/F-render-entry.png",
+          "image": "assets/F-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -15877,7 +15877,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/F-render-bathroom.png",
+          "image": "assets/F-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -15885,7 +15885,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/F-render-windowac.png",
+          "image": "assets/F-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -16695,7 +16695,7 @@
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/ghi/",
-      "hero": "ghi/assets/G-render-entry.png",
+      "hero": "ghi/assets/G-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -16703,7 +16703,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/G-render-entry.png",
+          "image": "ghi/assets/G-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -16711,7 +16711,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/G-render-bathroom.png",
+          "image": "ghi/assets/G-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -16719,7 +16719,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/G-render-windowac.png",
+          "image": "ghi/assets/G-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -17480,7 +17480,7 @@
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/ghi/",
-      "hero": "ghi/assets/H-render-entry.png",
+      "hero": "ghi/assets/H-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -17488,7 +17488,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/H-render-entry.png",
+          "image": "ghi/assets/H-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -17496,7 +17496,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/H-render-bathroom.png",
+          "image": "ghi/assets/H-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -17504,7 +17504,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/H-render-windowac.png",
+          "image": "ghi/assets/H-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -18316,7 +18316,7 @@
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/ghi/",
-      "hero": "ghi/assets/I-render-entry.png",
+      "hero": "ghi/assets/I-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -18324,7 +18324,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/I-render-entry.png",
+          "image": "ghi/assets/I-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -18332,7 +18332,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/I-render-bathroom.png",
+          "image": "ghi/assets/I-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -18340,7 +18340,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "ghi/assets/I-render-windowac.png",
+          "image": "ghi/assets/I-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -19127,7 +19127,7 @@
         "J-main mattress reads about 100 mm despite 50 mm requirement; final status retains QA major after cap. Local dist lacks the later live cross-browser sync/header version; do not redeploy it over public jkl/."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/jkl/",
-      "hero": "jkl/assets/J-render-entry.png",
+      "hero": "jkl/assets/J-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -19135,7 +19135,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/J-render-entry.png",
+          "image": "jkl/assets/J-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -19143,7 +19143,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/J-render-bathroom.png",
+          "image": "jkl/assets/J-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -19151,7 +19151,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/J-render-windowac.png",
+          "image": "jkl/assets/J-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -19959,7 +19959,7 @@
         "J-main mattress reads about 100 mm despite 50 mm requirement; final status retains QA major after cap. Local dist lacks the later live cross-browser sync/header version; do not redeploy it over public jkl/."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/jkl/",
-      "hero": "jkl/assets/K-render-entry.png",
+      "hero": "jkl/assets/K-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -19967,7 +19967,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/K-render-entry.png",
+          "image": "jkl/assets/K-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -19975,7 +19975,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/K-render-bathroom.png",
+          "image": "jkl/assets/K-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -19983,7 +19983,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/K-render-windowac.png",
+          "image": "jkl/assets/K-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -20765,7 +20765,7 @@
         "J-main mattress reads about 100 mm despite 50 mm requirement; final status retains QA major after cap. Local dist lacks the later live cross-browser sync/header version; do not redeploy it over public jkl/."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/jkl/",
-      "hero": "jkl/assets/L-render-entry.png",
+      "hero": "jkl/assets/L-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -20773,7 +20773,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/L-render-entry.png",
+          "image": "jkl/assets/L-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -20781,7 +20781,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/L-render-bathroom.png",
+          "image": "jkl/assets/L-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -20789,7 +20789,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "jkl/assets/L-render-windowac.png",
+          "image": "jkl/assets/L-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -21597,7 +21597,7 @@
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/mno/",
-      "hero": "mno/assets/M-render-entry.png",
+      "hero": "mno/assets/M-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -21605,7 +21605,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/M-render-entry.png",
+          "image": "mno/assets/M-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -21613,7 +21613,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/M-render-bathroom.png",
+          "image": "mno/assets/M-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -21621,7 +21621,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/M-render-windowac.png",
+          "image": "mno/assets/M-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -22382,7 +22382,7 @@
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/mno/",
-      "hero": "mno/assets/N-render-entry.png",
+      "hero": "mno/assets/N-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -22390,7 +22390,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/N-render-entry.png",
+          "image": "mno/assets/N-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -22398,7 +22398,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/N-render-bathroom.png",
+          "image": "mno/assets/N-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -22406,7 +22406,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/N-render-windowac.png",
+          "image": "mno/assets/N-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -23217,7 +23217,7 @@
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/mno/",
-      "hero": "mno/assets/O-render-entry.png",
+      "hero": "mno/assets/O-render-entry.webp",
       "plan": null,
       "views": [
         {
@@ -23225,7 +23225,7 @@
           "kind": "entrance-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/O-render-entry.png",
+          "image": "mno/assets/O-render-entry.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the hallway door, looking at the bed and the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -23233,7 +23233,7 @@
           "kind": "bathroom-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/O-render-bathroom.png",
+          "image": "mno/assets/O-render-bathroom.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the bathroom door, looking across the foot of the bed to the window wall, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         },
         {
@@ -23241,7 +23241,7 @@
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "mno/assets/O-render-windowac.png",
+          "image": "mno/assets/O-render-windowac.webp",
           "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
         }
       ],
@@ -24003,7 +24003,7 @@
         "Technical render PASS strings predate human rejection. Six photoreal main concepts plus six measured proxy reverse illustrations; not twelve final photoreal product/material views. Source selections are latest pointers in ACTIVE-SELECTIONS.json, not original v001 selections. Never use these rejected images as new rendering seeds."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/b4c1098ad13c08e2c2f4b99b.png",
+      "hero": "collection-assets/b4c1098ad13c08e2c2f4b99b.webp",
       "plan": null,
       "views": [
         {
@@ -24012,7 +24012,7 @@
           "method": "PHOTOREAL_CONCEPT",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/b4c1098ad13c08e2c2f4b99b.png"
+          "image": "collection-assets/b4c1098ad13c08e2c2f4b99b.webp"
         },
         {
           "label": "Photoreal main concept / warm evening. Source and visible-view review passed; physical fit remains conditional.",
@@ -24020,7 +24020,7 @@
           "method": "PHOTOREAL_CONCEPT",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/dba5b70e447c105dd7c98dab.png"
+          "image": "collection-assets/dba5b70e447c105dd7c98dab.webp"
         },
         {
           "label": "Measured reverse 3D illustration / overcast day. Source-informed proxy forms and approximate materials; supplier photographs govern appearance. Beyond-door background is unmodeled. Lighting is qualitative; physical fit unverified.",
@@ -24028,7 +24028,7 @@
           "method": "MEASURED_FURNISHED_3D_ILLUSTRATION",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/e0d94116470f266292f1864e.png"
+          "image": "collection-assets/e0d94116470f266292f1864e.webp"
         },
         {
           "label": "Measured reverse 3D illustration / warm evening. Source-informed proxy forms and approximate materials; supplier photographs govern appearance. Beyond-door background is unmodeled. Lighting is qualitative; physical fit unverified.",
@@ -24036,7 +24036,7 @@
           "method": "MEASURED_FURNISHED_3D_ILLUSTRATION",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/2d67e6803af0309ad595217d.png"
+          "image": "collection-assets/2d67e6803af0309ad595217d.webp"
         }
       ],
       "products": [
@@ -24383,7 +24383,7 @@
         "Technical render PASS strings predate human rejection. Six photoreal main concepts plus six measured proxy reverse illustrations; not twelve final photoreal product/material views. Source selections are latest pointers in ACTIVE-SELECTIONS.json, not original v001 selections. Never use these rejected images as new rendering seeds."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/777e57f6750ca46b0b1308b9.png",
+      "hero": "collection-assets/777e57f6750ca46b0b1308b9.webp",
       "plan": null,
       "views": [
         {
@@ -24392,7 +24392,7 @@
           "method": "PHOTOREAL_CONCEPT",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/777e57f6750ca46b0b1308b9.png"
+          "image": "collection-assets/777e57f6750ca46b0b1308b9.webp"
         },
         {
           "label": "Photoreal main concept / warm evening. Source and visible-view review passed; physical fit remains conditional.",
@@ -24400,7 +24400,7 @@
           "method": "PHOTOREAL_CONCEPT",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/2cd75fcb3578e99975454711.png"
+          "image": "collection-assets/2cd75fcb3578e99975454711.webp"
         },
         {
           "label": "Measured reverse 3D illustration / overcast day. Source-informed proxy forms and approximate materials; supplier photographs govern appearance. Beyond-door background is unmodeled. Lighting is qualitative; physical fit unverified.",
@@ -24408,7 +24408,7 @@
           "method": "MEASURED_FURNISHED_3D_ILLUSTRATION",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/46db74119d0b959782ebf725.png"
+          "image": "collection-assets/46db74119d0b959782ebf725.webp"
         },
         {
           "label": "Measured reverse 3D illustration / warm evening. Source-informed proxy forms and approximate materials; supplier photographs govern appearance. Beyond-door background is unmodeled. Lighting is qualitative; physical fit unverified.",
@@ -24416,7 +24416,7 @@
           "method": "MEASURED_FURNISHED_3D_ILLUSTRATION",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/0069a4fc692a76e824027e6d.png"
+          "image": "collection-assets/0069a4fc692a76e824027e6d.webp"
         }
       ],
       "products": [
@@ -24763,7 +24763,7 @@
         "Technical render PASS strings predate human rejection. Six photoreal main concepts plus six measured proxy reverse illustrations; not twelve final photoreal product/material views. Source selections are latest pointers in ACTIVE-SELECTIONS.json, not original v001 selections. Never use these rejected images as new rendering seeds."
       ],
       "originalUrl": null,
-      "hero": "collection-assets/2a9f4da2e8a1e92bf2c0873c.png",
+      "hero": "collection-assets/2a9f4da2e8a1e92bf2c0873c.webp",
       "plan": null,
       "views": [
         {
@@ -24772,7 +24772,7 @@
           "method": "PHOTOREAL_CONCEPT",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/2a9f4da2e8a1e92bf2c0873c.png"
+          "image": "collection-assets/2a9f4da2e8a1e92bf2c0873c.webp"
         },
         {
           "label": "Photoreal main concept / warm evening. Source and visible-view review passed; physical fit remains conditional.",
@@ -24780,7 +24780,7 @@
           "method": "PHOTOREAL_CONCEPT",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/8f55b72fbc1e977a02deeb9c.png"
+          "image": "collection-assets/8f55b72fbc1e977a02deeb9c.webp"
         },
         {
           "label": "Measured reverse 3D illustration / overcast day. Source-informed proxy forms and approximate materials; supplier photographs govern appearance. Beyond-door background is unmodeled. Lighting is qualitative; physical fit unverified.",
@@ -24788,7 +24788,7 @@
           "method": "MEASURED_FURNISHED_3D_ILLUSTRATION",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/e7bac81ff0b4044079ceb35a.png"
+          "image": "collection-assets/e7bac81ff0b4044079ceb35a.webp"
         },
         {
           "label": "Measured reverse 3D illustration / warm evening. Source-informed proxy forms and approximate materials; supplier photographs govern appearance. Beyond-door background is unmodeled. Lighting is qualitative; physical fit unverified.",
@@ -24796,7 +24796,7 @@
           "method": "MEASURED_FURNISHED_3D_ILLUSTRATION",
           "effectiveStatus": "HUMAN_REJECTED",
           "originalReviewStatus": "PASS",
-          "image": "collection-assets/eedb8b4eddde505b75d9fb62.png"
+          "image": "collection-assets/eedb8b4eddde505b75d9fb62.webp"
         }
       ],
       "products": [
