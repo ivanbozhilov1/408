@@ -1,0 +1,492 @@
+{
+  "title": "Unit 408 hallway: three directions (A, B, C)",
+  "as_of": "23 October 2026",
+  "overview": "Three hallway directions for Unit 408 around one fixed idea: the owner's LEGO Art World Map 31203 hung at true scale (104 x 65 cm, bottom edge at 1.1 m) on the plain wall over a solid floor-standing cabinet with six drawers whose top holds photos and keepsakes. A Black Marble Archive (black lacquer, marble top, brass, jute, an LED halo behind the map for the night), B Chalk and Linen (white, moulded paper pulp, natural-and-black cotton, the quietest and cheapest build) and C Honey and Ink (summer-oak mid-century on splayed legs, an anthracite lamp, a terracotta-and-ink rug). Fixed in all three: both arches dark, the honey-amber parquet, Davies Beige blackout and voile with valance boards on the window run, no hallway aircon. Nothing in the hallway is measured: conditional fit; hallway unmeasured.",
+  "requirements": [
+    "Three distinct hallway sets with the same wall composition: the owner's LEGO Art World Map 31203 at true scale (1040 x 650, bottom at 1100) over a solid floor-standing cabinet with six or more drawers and a display top. No model or family repeats across the schemes, the parallel Astra hallway set (walnut gallery, pale floating oak, oxblood atelier) or the other rooms' claims.",
+    "Conditional fit; hallway unmeasured: the ceiling, the corridor width and length, both arches, the window run and the light switch position are accepted assumptions (ASSUMED.md); every plan and view depends on them until the tape numbers arrive.",
+    "The cabinet, lamp, rug and plant are real catalogue products with a supplier photo, price and source link; the map is owner-supplied at nil and the LED halo (scheme A) is an electrical allowance, not a product.",
+    "Kept in every scheme: both arches dark, the parquet throughout, Davies Beige blackout + voile with valance boards on the window run (Seoul Blinds offer, priced in the curtain quote, not here), no hallway aircon, no added ceiling light."
+  ],
+  "procurement_gates": [
+    "Prices are frozen 20 Oct 2026 catalogue references with each line's own price date. Product existence and photos are verified; exact Cebu stock, address delivery and checkout totals are not.",
+    "No scheme is purchase-ready until the hallway is taped: the cabinet length against the light switch position and the corridor length, the cabinet depth against the passage width, and the map's hanging height against the cabinet top.",
+    "Pieces flagged \"dims unpublished\" or \"partial\" in the room placement report (the lamps, the plants, the rug depths) keep the layout size; measure them at the showroom before ordering.",
+    "Style renders are AI interpretations painted over the dimension-led model views; the supplier photo boards, the plan and the item schedule are the acceptance basis."
+  ],
+  "allowances": [
+    {
+      "id": "Q-DELIVERY",
+      "name": "Cebu delivery and handling (one dresser, small goods)",
+      "low_centavos": 300000,
+      "high_centavos": 800000,
+      "basis": "Planning allowance only; no shipping rates or address allocation obtained."
+    },
+    {
+      "id": "Q-MOUNTING",
+      "name": "LEGO map hanging, dresser levelling, scheme A halo wiring",
+      "low_centavos": 300000,
+      "high_centavos": 900000,
+      "basis": "Planning allowance only; the map hangs on its own LEGO brackets, the halo needs a driver on the nearest socket circuit; installer to verify the substrate."
+    }
+  ],
+  "schemes": [
+    {
+      "id": "HA",
+      "title": "Black Marble Archive",
+      "rationale": "a black six-drawer dresser with a white marble top and brass pulls under the map, a gold lamp, natural jute and nothing else on the wall: the map reads as the single lit exhibit, with a slim LED halo behind it for the night (no plant by design; every tall faux tree in the catalogue is already claimed by another room)",
+      "palette": [
+        "#1f1d1c",
+        "#b4915a",
+        "#e4dbc8"
+      ],
+      "budget": {
+        "design_centavos": 6059800,
+        "common_centavos": 0,
+        "priced_centavos": 6059800,
+        "reserve_low_centavos": 600000,
+        "reserve_high_centavos": 1700000,
+        "total_low_php": 74000,
+        "total_high_php": 86000
+      },
+      "fit_notes": [
+        "Ashley Fargenta 1499 x 406 x 889: top at 889, so the map's bottom edge at 1100 leaves a 211 mm reveal; the map (1040) is centred on the dresser (1499) with 230 mm of top free at each end for the lamp and the photos.",
+        "Passage: 2300 (assumed) less 406 leaves about 1.9 m beside the dresser. The map is centred at 2200 from the living end (edges 1680 to 2720); if the light switch proves to sit more than 1.6 m along the wall, slide the whole composition 200 mm toward the dining arch.",
+        "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
+      ]
+    },
+    {
+      "id": "HB",
+      "title": "Chalk and Linen",
+      "rationale": "a white six-drawer dresser, a paper-pulp mushroom lamp, a natural-and-black cotton flatweave and a schefflera: the quietest wall for the map and the cheapest full build",
+      "palette": [
+        "#efece6",
+        "#cdbfa3",
+        "#f7f5f0"
+      ],
+      "budget": {
+        "design_centavos": 1895610,
+        "common_centavos": 0,
+        "priced_centavos": 1895610,
+        "reserve_low_centavos": 600000,
+        "reserve_high_centavos": 1700000,
+        "total_low_php": 28000,
+        "total_high_php": 40000
+      },
+      "fit_notes": [
+        "IKEA HAUGA 1380 x 460 x 840: top at 840 leaves a 260 mm reveal under the map; the map overhangs nothing (1040 on 1380, 170 mm free each end).",
+        "The deepest cabinet of the three: 2300 (assumed) less 460 leaves about 1.84 m of passage; re-check if the corridor tapes under 2.0 m.",
+        "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
+      ]
+    },
+    {
+      "id": "HC",
+      "title": "Honey and Ink",
+      "rationale": "a summer-oak mid-century six-drawer on splayed legs, tonal with the parquet, with an anthracite lamp, a terracotta-and-ink geometric rug and a faux monstera: the map's blue is the only cool colour",
+      "palette": [
+        "#b8782f",
+        "#c2502a",
+        "#efe3cf"
+      ],
+      "budget": {
+        "design_centavos": 2335650,
+        "common_centavos": 0,
+        "priced_centavos": 2335650,
+        "reserve_low_centavos": 600000,
+        "reserve_high_centavos": 1700000,
+        "total_low_php": 33000,
+        "total_high_php": 45000
+      },
+      "fit_notes": [
+        "abensonHome Fowler 1400 x 390 x 780: the lowest top (780) gives a 320 mm reveal under the map; the drawers sit on legs, so the skirting line stays visible along the wall.",
+        "Passage: 2300 (assumed) less 390 leaves about 1.9 m; the 80 x 150 rug sits in front of the dresser only, parquet showing on every side.",
+        "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "HA-CABINET",
+      "schemes": [
+        "HA"
+      ],
+      "room": "HAL",
+      "role": "console",
+      "name": "Fargenta Six Drawer Dresser",
+      "brand": "Ashley",
+      "sku": "B2618-31W1",
+      "variant": "Fargenta Six Drawer Dresser; manufacturer SKU B2618-31W1; Default Title",
+      "quantity": 1,
+      "unit_centavos": 5610000,
+      "line_centavos": 5610000,
+      "url": "https://store.ashleyfurniture.ph/products/fargenta-six-drawer-dresser?variant=50761711780126",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Black lacquer six-drawer dresser (3 x 2) with a white replicated-marble top and slim brass bar pulls on short black legs; 1499 x 406 x 889. Solid, floor-standing, the display top for photos and keepsakes. Alternate: BoConcept Lugano double dresser, carved fronts (PHP 133,690).",
+      "dimensions": {
+        "width": 1498.6,
+        "depth": 406.4,
+        "height": 889
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HA-CABINET.jpg",
+      "family": "Ashley Fargenta",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Replicated marble"
+    },
+    {
+      "id": "HA-LAMP",
+      "schemes": [
+        "HA"
+      ],
+      "room": "HAL",
+      "role": "table_lamp",
+      "name": "At Home Gwen Table Lamp - Gold",
+      "brand": "At Home",
+      "sku": "HWP-39253723",
+      "variant": "HWP-39253723",
+      "quantity": 1,
+      "unit_centavos": 249900,
+      "line_centavos": 249900,
+      "url": "https://smhome.ph/products/at-home-gwen-table-lamp-gold?variant=49503958958273",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-08 | At Home",
+      "notes": "Gold stem and base with a white drum shade, 250 x 250 x 490; stands at the dining end of the dresser top, beside the map, not over it.",
+      "dimensions": {
+        "width": 250,
+        "depth": 250,
+        "height": 490
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HA-LAMP.jpg",
+      "family": "At Home At",
+      "price_date": "2026-09-08",
+      "price_basis": "per selected exact listed item",
+      "materials": "Material: Metal"
+    },
+    {
+      "id": "HA-RUG",
+      "schemes": [
+        "HA"
+      ],
+      "room": "HAL",
+      "role": "rug",
+      "name": "STRÖG Rug, flatwoven",
+      "brand": "IKEA",
+      "sku": "30527048",
+      "variant": "STRÖG Rug, flatwoven, natural, 120x180 cm; article 30527048",
+      "quantity": 1,
+      "unit_centavos": 199900,
+      "line_centavos": 199900,
+      "url": "https://www.ikea.com/ph/en/p/stroeg-rug-flatwoven-natural-30527048/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Natural flatwoven jute, 120 x 180 (published), long side along the corridor in front of the dresser; the parquet shows on every side.",
+      "dimensions": {
+        "width": 1200,
+        "depth": 1800,
+        "height": 8
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HA-RUG.jpg",
+      "family": "IKEA STRÖG",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "100 % jute"
+    },
+    {
+      "id": "HA-LED",
+      "schemes": [
+        "HA"
+      ],
+      "room": "HAL",
+      "role": "led_halo",
+      "scope": "technical_essential",
+      "name": "LED halo behind the LEGO map",
+      "brand": "To source",
+      "sku": null,
+      "variant": "24 V warm-white (2700 K) LED strip in an aluminium diffuser channel on a 20 mm spacer frame behind the map's four edges; dimmable driver on the nearest socket circuit",
+      "quantity": 1,
+      "unit_centavos": null,
+      "line_centavos": null,
+      "url": null,
+      "status": "Allowance; no supplier chosen, no quote obtained",
+      "notes": "Ivan, 23 Oct: 'maybe put some led frame around it'. Scheme A only. Night-view rule: the halo and the LED behind the curtain valance are the only added light; no ceiling light is added.",
+      "dimensions": {
+        "width": 1080,
+        "depth": 40,
+        "height": 690
+      },
+      "price_basis": "allowance",
+      "image": null,
+      "family": "To source LED halo behind the LEGO map",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "HB-CABINET",
+      "schemes": [
+        "HB"
+      ],
+      "room": "HAL",
+      "role": "console",
+      "name": "HAUGA 6-drawer dresser",
+      "brand": "IKEA",
+      "sku": "80581537",
+      "variant": "HAUGA 6-drawer dresser, white, 138x46x84 cm; article 80581537",
+      "quantity": 1,
+      "unit_centavos": 1199900,
+      "line_centavos": 1199900,
+      "url": "https://www.ikea.com/ph/en/p/hauga-6-drawer-dresser-white-80581537/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "White six-drawer dresser (3 x 2) with flat fronts and small round knobs, 1380 x 460 x 840; the quietest cabinet under the map and the cheapest of the three. Alternate: IKEA IDANÄS 6-drawer dresser, white (PHP 27,999, taller).",
+      "dimensions": {
+        "width": 1380,
+        "depth": 460,
+        "height": 840
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HB-CABINET.avif",
+      "family": "IKEA HAUGA",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Side panel/ Drawer front: Particleboard, Paper foil, Plastic edging; Top panel/ Back rail/ Partition/ Bottom panel: Particleboard, Paper foil; Back panel/ Drawer bottom: Fiberboard; Drawer side/ Drawer back: Particleboard"
+    },
+    {
+      "id": "HB-LAMP",
+      "schemes": [
+        "HB"
+      ],
+      "room": "HAL",
+      "role": "table_lamp",
+      "name": "VINDKRAFT Table lamp",
+      "brand": "IKEA",
+      "sku": "70601300",
+      "variant": "VINDKRAFT Table lamp, white moulded paper pulp, 46 cm; article 70601300",
+      "quantity": 1,
+      "unit_centavos": 149900,
+      "line_centavos": 149900,
+      "url": "https://www.ikea.com/ph/en/p/vindkraft-table-lamp-white-moulded-paper-pulp-70601300/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "White moulded paper-pulp lamp, 46 cm high (published; footprint estimated at 250), a soft matte glow on the dresser top at the dining end. IKEA DEJSA (PHP 2,999) was dropped: a bedroom set already claims it.",
+      "dimensions": {
+        "width": 250,
+        "depth": 250,
+        "height": 460
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HB-LAMP.avif",
+      "family": "IKEA VINDKRAFT",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Base/ Shade: Molded paper pulp; Insert: ABS plastic (min. 50% recycled); Joint/ Tube: Steel, Galvanized; Joint/ Cup/ Ball/ Frame: Steel, Nickel plated; Bushing: Polyethylene; Arm: Steel, Powder coating"
+    },
+    {
+      "id": "HB-RUG",
+      "schemes": [
+        "HB"
+      ],
+      "room": "HAL",
+      "role": "rug",
+      "name": "TIPHEDE Rug, flatwoven",
+      "brand": "IKEA",
+      "sku": "00456759",
+      "variant": "TIPHEDE Rug, flatwoven, natural/black, 120x180 cm; article 00456759",
+      "quantity": 1,
+      "unit_centavos": 59900,
+      "line_centavos": 59900,
+      "url": "https://www.ikea.com/ph/en/p/tiphede-rug-flatwoven-natural-black-00456759/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Natural and black cotton flatweave with a fine stripe, 120 x 180 (published), long side along the corridor in front of the dresser.",
+      "dimensions": {
+        "width": 1200,
+        "depth": 1800,
+        "height": 6
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HB-RUG.jpg",
+      "family": "IKEA TIPHEDE",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "100 % cotton"
+    },
+    {
+      "id": "HB-PLANT",
+      "schemes": [
+        "HB"
+      ],
+      "room": "HAL",
+      "role": "plant",
+      "name": "Flourish Schefflera",
+      "brand": "Flourish",
+      "sku": "39227065",
+      "variant": "Single listed variant; SKU 39227065",
+      "quantity": 1,
+      "unit_centavos": 485910,
+      "line_centavos": 485910,
+      "url": "https://ourhome.ph/products/flourish-schefflera",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Flourish",
+      "notes": "Faux schefflera, 1.19 m high (published), in a dark square planter by the dining end of the plain wall, between the dresser and the arch; footprint estimated at 450.",
+      "dimensions": {
+        "width": 450,
+        "depth": 450,
+        "height": 1190
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HB-PLANT.jpg",
+      "family": "Flourish Flourish",
+      "price_date": "2026-10-20",
+      "price_basis": "Official online store price for this exact variant (products.json variant 42508843090161: price 4859.1, compare-at 5399); per listed unit as titled",
+      "materials": null
+    },
+    {
+      "id": "HC-CABINET",
+      "schemes": [
+        "HC"
+      ],
+      "room": "HAL",
+      "role": "console",
+      "name": "Fowler 6-Chest Drawer",
+      "brand": "abensonHome",
+      "sku": "",
+      "variant": "6-Drawer, MDF Particle Board, Summer Oak",
+      "quantity": 1,
+      "unit_centavos": 1299500,
+      "line_centavos": 1299500,
+      "url": "https://home.abenson.com/abensonhome-fowler-6-chest-drawer-summer-oak.html",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | abensonHome",
+      "notes": "Summer-oak mid-century six-drawer chest (3 x 2) on splayed legs with angled drawer fronts, 1400 x 390 x 780; tonal with the honey-amber parquet. Alternate: Mandaue Foam Ardel chest of 6 drawers (PHP 15,100, walnut chevron, closer to the Astra set's walnut, so second choice).",
+      "dimensions": {
+        "width": 1400,
+        "depth": 390,
+        "height": 780
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HC-CABINET.jpg",
+      "family": "abensonHome Fowler",
+      "price_date": "2026-09-10",
+      "price_basis": "Published official category-card online price",
+      "materials": null
+    },
+    {
+      "id": "HC-LAMP",
+      "schemes": [
+        "HC"
+      ],
+      "room": "HAL",
+      "role": "table_lamp",
+      "name": "Lanson Metal Table Lamp",
+      "brand": "Ashley",
+      "sku": "L204454",
+      "variant": "Lanson Metal Table Lamp; manufacturer SKU L204454; Default Title",
+      "quantity": 1,
+      "unit_centavos": 750000,
+      "line_centavos": 750000,
+      "url": "https://store.ashleyfurniture.ph/products/lanson-metal-table-lamp?variant=50498206466334",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Textured charcoal-black metal bottle base with a beige linen drum shade; dims unpublished, estimated 280 x 280 x 610 from the retailer photo, measure at the showroom. The ink accent on the dresser top at the dining end. IKEA NYMÅNE (PHP 1,999) was dropped: a bedroom set already claims it.",
+      "dimensions": {
+        "width": 280,
+        "depth": 280,
+        "height": 610
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HC-LAMP.jpg",
+      "family": "Ashley Lanson",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": null
+    },
+    {
+      "id": "HC-RUG",
+      "schemes": [
+        "HC"
+      ],
+      "room": "HAL",
+      "role": "rug",
+      "name": "Asne Geo Printed Rug",
+      "brand": "Mandaue Foam",
+      "sku": "140583",
+      "variant": "80x150 cm; SKU 140583",
+      "quantity": 1,
+      "unit_centavos": 54250,
+      "line_centavos": 54250,
+      "url": "https://mandauefoam.ph/products/asne-geo-printed-rug?variant=47887278964914",
+      "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | Mandaue Foam",
+      "notes": "Printed geometric rug in terracotta, black and ivory blocks, 80 x 150 (published), in front of the dresser with the parquet showing on every side.",
+      "dimensions": {
+        "width": 800,
+        "depth": 1500,
+        "height": 6
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HC-RUG.jpg",
+      "family": "Mandaue Foam Asne",
+      "price_date": "2026-09-10",
+      "price_basis": "Official public catalog price in PHP for the selected exact variant; no member discount inferred.",
+      "materials": "Pile Material: 100% Polyester Backing Material: Gel-dots backing"
+    },
+    {
+      "id": "HC-PLANT",
+      "schemes": [
+        "HC"
+      ],
+      "room": "HAL",
+      "role": "plant",
+      "name": "Heim Monstera Artificial Potted Plant Green 120cm",
+      "brand": "Heim",
+      "sku": "284400024093",
+      "variant": "Item 284400024093; model Jws3034",
+      "quantity": 1,
+      "unit_centavos": 231900,
+      "line_centavos": 231900,
+      "url": "https://shop.wilcon.com.ph/monstera-artificial-plant-284400024093.html",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Heim",
+      "notes": "Faux monstera, 120 cm (published in the title; footprint estimated at 500), broad split leaves in a black pot by the dining end of the plain wall, between the dresser and the arch. The Heim fiddle tree was dropped: bedroom E already claims it.",
+      "dimensions": {
+        "width": 500,
+        "depth": 500,
+        "height": 1200
+      },
+      "scope": "design_piece",
+      "image": "assets/products/HC-PLANT.jpg",
+      "family": "Heim Heim",
+      "price_date": "2026-10-20",
+      "price_basis": "Official online price for item 284400024093 (Wilcon GraphQL final_price 2319, regular_price 2319); per listed unit",
+      "materials": "Plastic"
+    },
+    {
+      "id": "HAL-MAP",
+      "schemes": [
+        "HA",
+        "HB",
+        "HC"
+      ],
+      "room": "HAL",
+      "role": "art",
+      "scope": "fixed_room_treatment",
+      "name": "LEGO Art World Map 31203 (owner-supplied)",
+      "brand": "LEGO",
+      "sku": "31203",
+      "variant": "11,695-piece mosaic, 104 x 65 cm assembled, wall-hung; owned, not purchased",
+      "quantity": 1,
+      "unit_centavos": null,
+      "line_centavos": null,
+      "url": null,
+      "status": "Owned; priced at nil; modelled as a fixed room element",
+      "notes": "At true scale on the plain wall: bottom edge 1100, top 1750, centred at 2200 from the living end, 211 to 320 mm over each scheme's cabinet top. Ivan, 23 Oct: 'make sure the lego map on the wall is up to scale'.",
+      "dimensions": {
+        "width": 1040,
+        "depth": 40,
+        "height": 650
+      },
+      "price_basis": "owned",
+      "image": null,
+      "family": "LEGO Art World Map 31203 (owner-supplied)",
+      "price_date": "2026-10-20"
+    }
+  ],
+  "source_notes": [
+    "Pieces come from the frozen 20 Oct 2026 catalogue export (prices as published that day); photos are the suppliers' own. No Airtable writes.",
+    "Room geometry: no drawing and no tape for the hallway; the room file carries accepted assumptions from the F034 and F035 photo camera fits and Ivan's 23 Oct answers (see ASSUMED.md). The dark arches, the parquet and the window run are fixed; the light switch position is untaped.",
+    "The LEGO Art World Map 31203 is the owner's, priced at nil and modelled as a fixed element at its published 1040 x 650; curtains per the Seoul Blinds quote are not priced in these sets.",
+    "Eleven visible selections, each with a supplier photo; models and families were checked against the Astra hallway set and the other rooms' claims (uniqueness.py)."
+  ]
+}
