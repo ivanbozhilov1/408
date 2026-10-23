@@ -16796,7 +16796,7 @@
       "version": "fable-ghi-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Chalk-white tufted Gavino bed and a plain white duvet against anthracite powder-coated steel: GRÅFJÄLLET door bedsides, a FJÄLLBO mesh-door console and a slim black floor mirror. A graphite embossed-felt Kartell Clap armchair, a storm-grey chunky wool cushion and a grey-black TANNISBY kilim give the felt-and-wool texture. Light is directional: two black Tripod HM9 angled task lamps and a dark HEKTAR industrial pendant. Two brushed-black frames over the bed hold the owners' own black-and-white photographs; a spiky agave in a cement bowl softens the console. Squint phrase: black steel, chalk, felt.",
+      "summary": "Chalk-white tufted Gavino bed and a plain white duvet against anthracite powder-coated steel: GRÅFJÄLLET door bedsides, a FJÄLLBO mesh-door console and a slim black floor mirror. A graphite embossed-felt Kartell Clap armchair, a storm-grey chunky wool cushion and a grey-black TANNISBY kilim give the felt-and-wool texture. Light is directional: two black Tripod HM9 angled task lamps. Two brushed-black frames over the bed hold the owners' own black-and-white photographs; a spiky agave in a cement bowl softens the console. Squint phrase: black steel, chalk, felt.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
@@ -17029,7 +17029,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "ghi/assets/products/G-CEILING.avif"
+          "image": "ghi/assets/products/G-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-ghi-20261021::G-BEDSPREAD",
@@ -17561,11 +17562,11 @@
         }
       ],
       "budget": {
-        "retailCents": 37704850,
+        "retailCents": 37554950,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 45400000,
-        "totalHighCents": 50800000,
+        "totalLowCents": 45200000,
+        "totalHighCents": 50600000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -17582,7 +17583,7 @@
       "version": "fable-ghi-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery (listed Grey; the supplier photo reads sand), taupe percale bedding on a soft low-pile leaf rug; stone surfaces carry the room: sintered-stone Venice bedsides, a white-marble Youset console, a marble-banded Emilia mirror and a stone-textured round wall piece. Blush is the single accent, on one coral-blush striped cushion and one blush-banded ceramic vase. Light is frosted: opal-globe Journey SHY1 bedside lamps and a three-globe SIMRISHAMN opal pendant. A soft beige Heather armchair with a back pillow sits in the window corner. Squint phrase: stone and blush.",
+      "summary": "Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery (listed Grey; the supplier photo reads sand), taupe percale bedding on a soft low-pile leaf rug; stone surfaces carry the room: sintered-stone Venice bedsides, a white-marble Youset console, a marble-banded Emilia mirror and a stone-textured round wall piece. Blush is the single accent, on one coral-blush striped cushion and one blush-banded ceramic vase. Light is frosted: opal-globe Journey SHY1 bedside lamps. A soft beige Heather armchair with a back pillow sits in the window corner. Squint phrase: stone and blush.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
@@ -17815,7 +17816,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "ghi/assets/products/H-CEILING.avif"
+          "image": "ghi/assets/products/H-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-ghi-20261021::H-BEDSPREAD",
@@ -18340,7 +18342,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "technical_essential",
           "priceBasis": null,
-          "image": "jkl/assets/products/B-LAMP-BULBS.jpg"
+          "image": "jkl/assets/products/B-LAMP-BULBS.jpg",
+          "removedFromDesign": true
         },
         {
           "id": "fable-ghi-20261021::REQUIRED-MATTRESS50",
@@ -18398,11 +18401,11 @@
         }
       ],
       "budget": {
-        "retailCents": 35827828,
+        "retailCents": 35383228,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 43300000,
-        "totalHighCents": 48700000,
+        "totalLowCents": 42800000,
+        "totalHighCents": 48200000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -18419,7 +18422,7 @@
       "version": "fable-ghi-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Charcoal button-tufted wingback Griffin II on a walnut drawer base, dressed in a quiet grey quilt cover with a plum-and-lilac handwoven Pintig cushion and a 1.8 m dark-red eucalyptus branch in a smoked-grey glass floor vase. Dark case goods: black-brown KULLEN two-drawer bedsides and a black Sigma Senor console. Smoked glass is the light: HÖGVIND grey-glass table lamps and the matching three-lamp HÖGVIND pendant. A dark-grey Kelly swivel tub chair, a black wavy Sabrina floor mirror, a dark RÅVAROR stripe flatweave with fine wine-red lines and one large black-and-grey abstract canvas over the bed. Squint phrase: dark lacquer, plum, smoked glass.",
+      "summary": "Charcoal button-tufted wingback Griffin II on a walnut drawer base, dressed in a quiet grey quilt cover with a plum-and-lilac handwoven Pintig cushion and a 1.8 m dark-red eucalyptus branch in a smoked-grey glass floor vase. Dark case goods: black-brown KULLEN two-drawer bedsides and a black Sigma Senor console. Smoked glass is the light: HÖGVIND grey-glass table lamps. A dark-grey Kelly swivel tub chair, a black wavy Sabrina floor mirror, a dark RÅVAROR stripe flatweave with fine wine-red lines and one large black-and-grey abstract canvas over the bed. Squint phrase: dark lacquer, plum, smoked glass.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "NOT rejected GPT GHI. G-opposite retains unselected knitted throw after fix cap. Earlier H-main Seaglass reference superseded by Simply Taupe; original preserved in work/H-main-v1-parker-seaglass-ref.png."
@@ -18652,7 +18655,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "ghi/assets/products/I-CEILING.avif"
+          "image": "ghi/assets/products/I-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-ghi-20261021::I-BEDSPREAD",
@@ -19152,7 +19156,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "technical_essential",
           "priceBasis": null,
-          "image": "jkl/assets/products/B-LAMP-BULBS.jpg"
+          "image": "jkl/assets/products/B-LAMP-BULBS.jpg",
+          "removedFromDesign": true
         },
         {
           "id": "fable-ghi-20261021::REQUIRED-MATTRESS50",
@@ -19210,11 +19215,11 @@
         }
       ],
       "budget": {
-        "retailCents": 29464550,
+        "retailCents": 28819950,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 36300000,
-        "totalHighCents": 41700000,
+        "totalLowCents": 35600000,
+        "totalHighCents": 41000000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -19464,7 +19469,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "jkl/assets/products/J-CEILING.avif"
+          "image": "jkl/assets/products/J-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-jkl-20261021::J-VALANCE-LED",
@@ -20043,11 +20049,11 @@
         }
       ],
       "budget": {
-        "retailCents": 22527250,
+        "retailCents": 22427350,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 28700000,
-        "totalHighCents": 34100000,
+        "totalLowCents": 28600000,
+        "totalHighCents": 34000000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -20064,7 +20070,7 @@
       "version": "fable-jkl-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; a faceted silver-glass Blown pendant as the jewel; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.",
+      "summary": "Our Home Geo with a box-stitched linen-look headboard in a walnut-stained frame; oak TONSTAD bedsides and a fluted Sierra oak-look console on black legs; Terni black-steel lounge chair with ivory-grey weave; black faceted Ashley mirror; Deidra black-metal lamps; pale quilted coverlet with an ink-black cushion and black/white throw; Bodrum ivory rug with charcoal linework; a white-on-black line-mandala print; crystal-effect branches and a clear glass hurricane. Oak dominant, black line accent, crystal light.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "J-main mattress reads about 100 mm despite 50 mm requirement; final status retains QA major after cap. Local dist lacks the later live cross-browser sync/header version; do not redeploy it over public jkl/."
@@ -20297,7 +20303,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Per selected retailer listing variant; PHP amount matched public feed and individual product page JSON.",
-          "image": "jkl/assets/products/K-CEILING.webp"
+          "image": "jkl/assets/products/K-CEILING.webp",
+          "removedFromDesign": true
         },
         {
           "id": "fable-jkl-20261021::K-BEDSPREAD",
@@ -20850,11 +20857,11 @@
         }
       ],
       "budget": {
-        "retailCents": 53605750,
+        "retailCents": 50365750,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 62900000,
-        "totalHighCents": 68300000,
+        "totalLowCents": 59300000,
+        "totalHighCents": 64700000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -21104,7 +21111,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "jkl/assets/products/L-CEILING.avif"
+          "image": "jkl/assets/products/L-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-jkl-20261021::L-BEDSPREAD",
@@ -21683,11 +21691,11 @@
         }
       ],
       "budget": {
-        "retailCents": 26061950,
+        "retailCents": 25762050,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 32600000,
-        "totalHighCents": 38000000,
+        "totalLowCents": 32200000,
+        "totalHighCents": 37600000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -21704,7 +21712,7 @@
       "version": "fable-mno-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing panels and attached walnut drawers as the bedside pair; one poppy-red velvet cushion and one oxblood-red bottle vase as the only colour; black stone-jug lamps and a bare-bulb Mega Bulb pendant on a black cord; taupe wool flatweave with parquet margins. Squint phrase: walnut and red.",
+      "summary": "Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing panels and attached walnut drawers as the bedside pair; one poppy-red velvet cushion and one oxblood-red bottle vase as the only colour; black stone-jug lamps; taupe wool flatweave with parquet margins. Squint phrase: walnut and red.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
@@ -21805,7 +21813,7 @@
           "source": "https://mejore.ph/products/ebony-stone-jug-table-lamp?variant=51717300224274",
           "priceDate": "2026-09-09",
           "variant": "Ebony Stone Jug Table Lamp; official listing SKU PJ-TL6872B",
-          "notes": "Black stone jug base on a brass foot with a white drum shade: a dark, weighty bedside glow beside the walnut drawers (bare-bulb character stays with the Mega Bulb pendant). Dimensions unpublished — planning Ø300 × 600 mm; socket type to confirm.",
+          "notes": "Black stone jug base on a brass foot with a white drum shade: a dark, weighty bedside glow beside the walnut drawers. Dimensions unpublished — planning Ø300 × 600 mm; socket type to confirm.",
           "commonToSchemes": [
             "M"
           ],
@@ -21937,7 +21945,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Design Story live variant price PHP 18,200 (product .js read 21 Oct 2026, research/variant-photos)",
-          "image": "mno/assets/products/M-CEILING.webp"
+          "image": "mno/assets/products/M-CEILING.webp",
+          "removedFromDesign": true
         },
         {
           "id": "fable-mno-20261021::M-BEDSPREAD",
@@ -22395,14 +22404,14 @@
           ],
           "category": "technical",
           "name": "SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack",
-          "qty": 3,
+          "qty": 2,
           "unitCents": 9900,
-          "totalCents": 29700,
+          "totalCents": 19800,
           "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
           "source": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/",
           "priceDate": null,
           "variant": "105.914.84",
-          "notes": "Three 2-packs per scheme: bedside pair, ceiling fitting and spares. Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
+          "notes": "Two 2-packs per scheme for the bedside pair plus spare (no ceiling fitting). Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
           "commonToSchemes": [
             "M",
             "N",
@@ -22469,11 +22478,11 @@
         }
       ],
       "budget": {
-        "retailCents": 40513860,
+        "retailCents": 38683960,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 48500000,
-        "totalHighCents": 53900000,
+        "totalLowCents": 46500000,
+        "totalHighCents": 51800000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -22490,7 +22499,7 @@
       "version": "fable-mno-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral headboard; butter-yellow print cushions and white pillowcases on a sand-camel Brave Brown duvet; Imogen rattan-door bedsides, FRYKSÅS rattan console, AGEN rattan armchair and a bamboo MISTERHULT pendant; pleated KUDDLAVA lamps; yellow-beige TELEGRAFLINJE flat-weave. Squint phrase: yellow, bamboo, embroidery.",
+      "summary": "Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral headboard; butter-yellow print cushions and white pillowcases on a sand-camel Brave Brown duvet; Imogen rattan-door bedsides, FRYKSÅS rattan console and AGEN rattan armchair; pleated KUDDLAVA lamps; yellow-beige TELEGRAFLINJE flat-weave. Squint phrase: yellow, bamboo, embroidery.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
@@ -22723,7 +22732,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-          "image": "mno/assets/products/N-CEILING.avif"
+          "image": "mno/assets/products/N-CEILING.avif",
+          "removedFromDesign": true
         },
         {
           "id": "fable-mno-20261021::N-BEDSPREAD",
@@ -23231,14 +23241,14 @@
           ],
           "category": "technical",
           "name": "SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack",
-          "qty": 3,
+          "qty": 2,
           "unitCents": 9900,
-          "totalCents": 29700,
+          "totalCents": 19800,
           "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
           "source": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/",
           "priceDate": null,
           "variant": "105.914.84",
-          "notes": "Three 2-packs per scheme: bedside pair, ceiling fitting and spares. Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
+          "notes": "Two 2-packs per scheme for the bedside pair plus spare (no ceiling fitting). Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
           "commonToSchemes": [
             "M",
             "N",
@@ -23305,11 +23315,11 @@
         }
       ],
       "budget": {
-        "retailCents": 26310090,
+        "retailCents": 25800290,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 32800000,
-        "totalHighCents": 38200000,
+        "totalLowCents": 32300000,
+        "totalHighCents": 37700000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -23326,7 +23336,7 @@
       "version": "fable-mno-20261021",
       "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Low charcoal SLATTUM bed with a rounded headboard on slim black legs; GT01 charcoal two-drawer bedsides with white marble-look tops and champagne legs; WEST fluted sideboard with a white stone top; Flowerpot VP1 dome pendant in polished copper; black Pantop cone lamps; dark-grey Safi rug, LILLEHEM charcoal armchair, Aosta black arch mirror and a monstera in a cement pot against white walls. Squint phrase: charcoal, marble, copper.",
+      "summary": "Low charcoal SLATTUM bed with a rounded headboard on slim black legs; GT01 charcoal two-drawer bedsides with white marble-look tops and champagne legs; WEST fluted sideboard with a white stone top; black Pantop cone lamps; dark-grey Safi rug, LILLEHEM charcoal armchair, Aosta black arch mirror and a monstera in a cement pot against white walls. Squint phrase: charcoal, marble, copper.",
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool may be Codex image generation. Do not conflate tool with design author. No later human approval inferred. Historical packs may contain ceiling-light purchases conflicting with the latest no-new-ceiling rule; keep them visible as historical scope, not new procurement recommendations.",
         "Known minor quilt/cushion/console drift; M bulb, N MISTERHULT and O copper pendant were rendered. Latest no-new-ceiling requirement conflicts with those historical selections."
@@ -23427,7 +23437,7 @@
           "source": "https://www.designstory.com.ph/products/copy-of-pantop-table-lamp-pre-order?variant=43081612525802",
           "priceDate": "2026-09-10",
           "variant": "Matt Black",
-          "notes": "Cone/bell metal table lamp Ø230 × 380 mm in Matt Black (photo is that colour; live price read 21 Oct 2026 PHP 22,400 each = frozen offer). No copper table lamp exists in the catalogue (swap logged); copper is carried by the VP1 pendant.",
+          "notes": "Cone/bell metal table lamp Ø230 × 380 mm in Matt Black (photo is that colour; live price read 21 Oct 2026 PHP 22,400 each = frozen offer). No copper table lamp exists in the catalogue (swap logged).",
           "commonToSchemes": [
             "O"
           ],
@@ -23559,7 +23569,8 @@
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
           "priceBasis": "Design Story live variant price PHP 28,600 for Polished copper (product .js read 21 Oct 2026, research/variant-photos)",
-          "image": "mno/assets/products/O-CEILING.webp"
+          "image": "mno/assets/products/O-CEILING.webp",
+          "removedFromDesign": true
         },
         {
           "id": "fable-mno-20261021::O-BEDSPREAD",
@@ -24017,14 +24028,14 @@
           ],
           "category": "technical",
           "name": "SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack",
-          "qty": 3,
+          "qty": 2,
           "unitCents": 9900,
-          "totalCents": 29700,
+          "totalCents": 19800,
           "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
           "source": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/",
           "priceDate": null,
           "variant": "105.914.84",
-          "notes": "Three 2-packs per scheme: bedside pair, ceiling fitting and spares. Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
+          "notes": "Two 2-packs per scheme for the bedside pair plus spare (no ceiling fitting). Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
           "commonToSchemes": [
             "M",
             "N",
@@ -24091,11 +24102,11 @@
         }
       ],
       "budget": {
-        "retailCents": 38784870,
+        "retailCents": 35914970,
         "reserveLowCents": 3500000,
         "reserveHighCents": 8400000,
-        "totalLowCents": 46600000,
-        "totalHighCents": 52000000,
+        "totalLowCents": 43400000,
+        "totalHighCents": 48800000,
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null

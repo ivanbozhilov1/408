@@ -15,7 +15,7 @@
     "No scheme is purchase-ready until the bed supplier accepts the exact 50 mm mattress and a continuous flat deck. Gervaise (M) and Fulton (N) publish no deck construction or King outer size; SLATTUM (O) has a slatted base and a 180 cm opening, so the deck must sit on its rails (rail height unpublished).",
     "Owner decision: an earlier pack excluded Gervaise because its drawers are attached to the headboard wings; M uses them as the bedside pair. Accept that, or swap M's bed and add a closed walnut bedside pair.",
     "Prices are frozen pass-3 catalogue references (snapshot 20 Oct 2026, 23:14–23:17 Manila) with each line's own price date; beds and soft goods were read from supplier JSON on 20 Oct 2026; six chosen-colour variants and the SLATTUM page were read live on 21 Oct 2026. Product existence and photos are verified; exact Cebu stock, address delivery and checkout totals are not.",
-    "Colour and size gates: the Uratex Brave Brown (N) and Great Gray (O) covers photograph as sand-camel and pale greige; every Queen cover must be at least 72 in wide; GT01, WEST, Ebony Stone Jug, Q/Wood and Gervaise drawer sizes are unpublished; Imogen showed sold out in the capture; lamp and pendant socket types.",
+    "Colour and size gates: the Uratex Brave Brown (N) and Great Gray (O) covers photograph as sand-camel and pale greige; every Queen cover must be at least 72 in wide; GT01, WEST, Ebony Stone Jug, Q/Wood and Gervaise drawer sizes are unpublished; Imogen showed sold out in the capture; lamp socket types.",
     "TV mount is the True Vision TV73-69F (in stock per manufacturer API); installer to confirm substrate, anchors and Samsung fixings.",
     "Curtain ₱42,420 is the carried 16 October quote reference: ₱36,720 master treatment plus ₱3,800 valance and ₱1,900 sticks allocations. Remeasurement quote required.",
     "Trade/freight/mattress/deck reserves total ₱35,000–84,000 as estimator allowances, not supplier quotations. 10 % contingency added, totals rounded up to the next ₱1,000.",
@@ -69,20 +69,20 @@
     {
       "id": "M",
       "title": "Walnut Poppy",
-      "rationale": "Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing panels and attached walnut drawers as the bedside pair; one poppy-red velvet cushion and one oxblood-red bottle vase as the only colour; black stone-jug lamps and a bare-bulb Mega Bulb pendant on a black cord; taupe wool flatweave with parquet margins. Squint phrase: walnut and red.",
+      "rationale": "Deep walnut Gervaise platform with grid-padded taupe headboard, walnut wing panels and attached walnut drawers as the bedside pair; one poppy-red velvet cushion and one oxblood-red bottle vase as the only colour; black stone-jug lamps; taupe wool flatweave with parquet margins. Squint phrase: walnut and red.",
       "palette": [
         "#5a3626",
         "#c8312b",
         "#efe8dc"
       ],
       "budget": {
-        "design_centavos": 28393510,
-        "common_centavos": 12120350,
-        "priced_centavos": 40513860,
+        "design_centavos": 26573510,
+        "common_centavos": 12110450,
+        "priced_centavos": 38683960,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 485000,
-        "total_high_php": 539000
+        "total_low_php": 465000,
+        "total_high_php": 518000
       },
       "fit_notes": [
         "Gervaise King outer size is not published; planning envelope 1990 × 2140 mm platform plus attached wing/drawer units about 520 mm each side (total about 3.0 m) — confirm with Our Home before order.",
@@ -94,20 +94,20 @@
     {
       "id": "N",
       "title": "Butter Embroidery",
-      "rationale": "Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral headboard; butter-yellow print cushions and white pillowcases on a sand-camel Brave Brown duvet; Imogen rattan-door bedsides, FRYKSÅS rattan console, AGEN rattan armchair and a bamboo MISTERHULT pendant; pleated KUDDLAVA lamps; yellow-beige TELEGRAFLINJE flat-weave. Squint phrase: yellow, bamboo, embroidery.",
+      "rationale": "Francis Libiran Fulton bed with an embroidered, slightly winged light-neutral headboard; butter-yellow print cushions and white pillowcases on a sand-camel Brave Brown duvet; Imogen rattan-door bedsides, FRYKSÅS rattan console and AGEN rattan armchair; pleated KUDDLAVA lamps; yellow-beige TELEGRAFLINJE flat-weave. Squint phrase: yellow, bamboo, embroidery.",
       "palette": [
         "#c9a26b",
         "#e8c95a",
         "#f4f0e6"
       ],
       "budget": {
-        "design_centavos": 14189740,
-        "common_centavos": 12120350,
-        "priced_centavos": 26310090,
+        "design_centavos": 13689840,
+        "common_centavos": 12110450,
+        "priced_centavos": 25800290,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 328000,
-        "total_high_php": 382000
+        "total_low_php": 323000,
+        "total_high_php": 377000
       },
       "fit_notes": [
         "Fulton King outer size is not published (the listed L211 × W185 × H117 cm is the Queen listing); planning envelope mattress + 160 mm each way, headboard 1170 mm.",
@@ -118,20 +118,20 @@
     {
       "id": "O",
       "title": "Copper Marble",
-      "rationale": "Low charcoal SLATTUM bed with a rounded headboard on slim black legs; GT01 charcoal two-drawer bedsides with white marble-look tops and champagne legs; WEST fluted sideboard with a white stone top; Flowerpot VP1 dome pendant in polished copper; black Pantop cone lamps; dark-grey Safi rug, LILLEHEM charcoal armchair, Aosta black arch mirror and a monstera in a cement pot against white walls. Squint phrase: charcoal, marble, copper.",
+      "rationale": "Low charcoal SLATTUM bed with a rounded headboard on slim black legs; GT01 charcoal two-drawer bedsides with white marble-look tops and champagne legs; WEST fluted sideboard with a white stone top; black Pantop cone lamps; dark-grey Safi rug, LILLEHEM charcoal armchair, Aosta black arch mirror and a monstera in a cement pot against white walls. Squint phrase: charcoal, marble, copper.",
       "palette": [
         "#3a3b3d",
         "#b87333",
         "#f4f3f0"
       ],
       "budget": {
-        "design_centavos": 26664520,
-        "common_centavos": 12120350,
-        "priced_centavos": 38784870,
+        "design_centavos": 23804520,
+        "common_centavos": 12110450,
+        "priced_centavos": 35914970,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 466000,
-        "total_high_php": 520000
+        "total_low_php": 434000,
+        "total_high_php": 488000
       },
       "fit_notes": [
         "SLATTUM 180 × 200 cm has an inner opening narrower than the 72 in mattress: the custom continuous deck must sit ON the rails (outer 1840 × 2060 mm), not inside them — REQUIRED-FLAT-DECK.",
@@ -207,7 +207,7 @@
       "line_centavos": 2619800,
       "url": "https://mejore.ph/products/ebony-stone-jug-table-lamp?variant=51717300224274",
       "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-09 | Mejore Home",
-      "notes": "Black stone jug base on a brass foot with a white drum shade: a dark, weighty bedside glow beside the walnut drawers (bare-bulb character stays with the Mega Bulb pendant). Dimensions unpublished — planning Ø300 × 600 mm; socket type to confirm.",
+      "notes": "Black stone jug base on a brass foot with a white drum shade: a dark, weighty bedside glow beside the walnut drawers. Dimensions unpublished — planning Ø300 × 600 mm; socket type to confirm.",
       "dimensions": {
         "width": 300,
         "depth": 300,
@@ -348,7 +348,8 @@
       "family": "&Tradition Mega Bulb",
       "price_date": "2026-10-21",
       "price_basis": "Design Story live variant price PHP 18,200 (product .js read 21 Oct 2026, research/variant-photos)",
-      "materials": "Mouth-blown glass; porcelain lamp holder; clear PVC cord"
+      "materials": "Mouth-blown glass; porcelain lamp holder; clear PVC cord",
+      "removedFromDesign": true
     },
     {
       "id": "M-BEDSPREAD",
@@ -720,7 +721,8 @@
       "family": "IKEA MISTERHULT",
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Base/ Shade: Bamboo, Clear acrylic lacquer; Bracket: Steel, Epoxy/polyester powder coating"
+      "materials": "Base/ Shade: Bamboo, Clear acrylic lacquer; Bracket: Steel, Epoxy/polyester powder coating",
+      "removedFromDesign": true
     },
     {
       "id": "N-BEDSPREAD",
@@ -1006,7 +1008,7 @@
       "line_centavos": 4480000,
       "url": "https://www.designstory.com.ph/products/copy-of-pantop-table-lamp-pre-order?variant=43081612525802",
       "status": "Available online | Cebu delivery: unconfirmed | price date 2026-09-10 | Verpan",
-      "notes": "Cone/bell metal table lamp Ø230 × 380 mm in Matt Black (photo is that colour; live price read 21 Oct 2026 PHP 22,400 each = frozen offer). No copper table lamp exists in the catalogue (swap logged); copper is carried by the VP1 pendant.",
+      "notes": "Cone/bell metal table lamp Ø230 × 380 mm in Matt Black (photo is that colour; live price read 21 Oct 2026 PHP 22,400 each = frozen offer). No copper table lamp exists in the catalogue (swap logged).",
       "dimensions": {
         "width": 230,
         "depth": 230,
@@ -1156,7 +1158,8 @@
       "family": "&Tradition Flowerpot VP1",
       "price_date": "2026-10-21",
       "price_basis": "Design Story live variant price PHP 28,600 for Polished copper (product .js read 21 Oct 2026, research/variant-photos)",
-      "materials": "Lacquered metal; fabric cord"
+      "materials": "Lacquered metal; fabric cord",
+      "removedFromDesign": true
     },
     {
       "id": "O-BEDSPREAD",
@@ -1586,12 +1589,12 @@
       "brand": "",
       "sku": "105.914.84",
       "variant": "105.914.84",
-      "quantity": 3,
+      "quantity": 2,
       "unit_centavos": 9900,
-      "line_centavos": 29700,
+      "line_centavos": 19800,
       "url": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/",
       "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
-      "notes": "Three 2-packs per scheme: bedside pair, ceiling fitting and spares. Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
+      "notes": "Two 2-packs per scheme for the bedside pair plus spare (no ceiling fitting). Socket types of Ebony Stone Jug, KUDDLAVA, Pantop, Mega Bulb, MISTERHULT and Flowerpot VP1 are not all published — confirm E27/E14 before purchase; Mega Bulb needs a decorative clear-filament bulb.",
       "dimensions": {},
       "scope": "technical_essential",
       "image": "assets/products/AC-LAMP-BULBS.jpg",
@@ -1645,7 +1648,7 @@
     }
   ],
   "source_notes": [
-    "44 visible selections across M/N/O, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across M, N, O or the twelve earlier schemes (UNIQUENESS-MATRIX.md).",
+    "41 visible selections across M/N/O, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across M, N, O or the twelve earlier schemes (UNIQUENESS-MATRIX.md).",
     "Catalogue prices are the frozen pass-3 Airtable capture (20 Oct 2026); the O bed price is the IKEA Philippines page read 21 Oct 2026. Where a published colour other than the priced variant is selected, the line says so and the price must be confirmed.",
     "No purchases, supplier contact or Airtable writes were made."
   ]
