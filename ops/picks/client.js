@@ -32,7 +32,10 @@
   const exportButton = document.createElement('button');
   exportButton.type = 'button'; exportButton.dataset.regeneration = '';
   exportButton.textContent = 'Prepare regeneration brief'; exportButton.disabled = true;
-  panel.append(exclusionsPanel, exportButton);
+  const generationOptions = document.createElement('label'), unusedOnly = document.createElement('input');
+  unusedOnly.type = 'checkbox'; unusedOnly.dataset.unusedOnly = '';
+  generationOptions.append(unusedOnly, document.createTextNode(' Unused items only for the next design'));
+  panel.append(exclusionsPanel, generationOptions, exportButton);
   const dialog = document.createElement('dialog');
   dialog.className = 'exclusion-dialog';
   dialog.innerHTML = '<form method="dialog"><h2 data-exclusion-title></h2><p>The same product and its family will be excluded across all sets. Also avoid any checked characteristic in this furniture category.</p><div data-exclusion-traits></div><label>Anything else to avoid?<textarea data-exclusion-note maxlength="500" rows="3" placeholder="For example: avoid chunky frames; prefer slim legs."></textarea></label><p>Written notes and visual resemblance must also be checked when creating the next design. Existing images stay unchanged.</p><button type="button" data-exclusion-save>Exclude item and similar pieces</button> <button value="cancel">Cancel</button></form>';
@@ -343,13 +346,19 @@
     exportButton.setAttribute('aria-busy', 'true');
     exportButton.disabled = true;
     try {
+      const generation = {unusedItemsOnly: unusedOnly.checked};
+      if (generation.unusedItemsOnly) {
+        const response = await fetch(board === 'def' ? 'collection-data.json' : '../collection-data.json', {cache: 'no-store'});
+        if (!response.ok || !window.Unit408Usage) throw new Error('Saved design usage is unavailable. Reload before preparing an unused-only brief.');
+        generation.usage = window.Unit408Usage.build((await response.json()).designs).snapshot;
+      }
       const snapshot = await request();
       if (turn !== epoch || pending().length) throw new Error('Wait for all changes to sync before exporting.');
       if (snapshot.preferenceSchema !== 2) throw new Error('The shared service needs its exclusions update before export.');
       accept(snapshot);
       if (snapshot.revision < revision) throw new Error('Preferences changed during download. Prepare a fresh brief.');
       paint();
-      const brief = rules.compile(snapshot, CATALOG);
+      const brief = rules.compile(snapshot, CATALOG, generation);
       if (brief.conflicts.length || brief.unresolved.length) throw new Error([...brief.conflicts, ...brief.unresolved].join(' '));
       const blob = new Blob([JSON.stringify(brief, null, 2) + '\n'], {type: 'application/json'});
       const url = URL.createObjectURL(blob), link = document.createElement('a');
