@@ -21,13 +21,16 @@ const compareKey=storageKey+'-compare';
 if(testMode)document.querySelectorAll('a[href="archive.html"],a[href="./"]').forEach(a=>a.setAttribute('href',a.getAttribute('href')+'?test=1'));
 const archivePage=document.body.dataset.collection==='archive';
 let data, designs=[], pageDesigns=[], products=new Map(), picks=new Set(), compared=[], activeDesign=null, toastTimer, usageIndex=null;
+let rooms=[], activeRoom='';
 let sharedController=null, sharedState={managed:false,readonly:false,items:[],pending:0,phase:'local'}, choiceStates=new Map(), localAtConnect=null;
 function routeCollectionHash(){
   let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return false}
+  if(id.startsWith('room=')){if(!rooms.some(r=>r.id===id.slice(5)))return false;setRoom(id.slice(5));document.getElementById('collection')?.scrollIntoView({block:'start'});return false}
   const target=id.startsWith('set-')?designs.find(d=>d.namespace===id.slice(4)):id.startsWith('design=')?designs.find(d=>d.id===id.slice(7)):null;
   if(!target)return false;
   if(Boolean(target.archival)!==archivePage){location.replace((target.archival?'archive.html':'./')+location.search+location.hash);return true}
   if(id.startsWith('design=')){openDesign(target.id);return false}
+  if(activeRoom&&target.room!==activeRoom)setRoom(target.room);
   $('#author-filter').value='';$('#status-filter').value='';$('#search').value='';renderGrid();
   document.getElementById(id)?.scrollIntoView({block:'start'});
   return false;
@@ -108,10 +111,24 @@ function setStatus(d){
   if(/NO_HUMAN_ACCEPTANCE/i.test(d.status))return 'Concept study · no recorded owner acceptance';
   return 'Historical study · preserved source version';
 }
+function roomDesigns(){return activeRoom?pageDesigns.filter(d=>d.room===activeRoom):pageDesigns}
+function setRoom(id){if(!rooms.some(r=>r.id===id))return;activeRoom=id;const sel=$('#room-filter');if(sel&&sel.value!==id)sel.value=id;renderRoom();renderFeatured();renderGrid()}
+function roomFigure(f,kind){return `<figure class="room-figure ${kind}"><button type="button" class="room-thumb" data-enlarge="${esc(f.image)}" data-caption="${esc(f.caption||'')}" aria-label="Enlarge"><img src="${esc(f.image)}" alt="${esc(f.caption||'')}" loading="lazy"></button><figcaption>${esc(f.caption||'')}</figcaption></figure>`}
+function renderRoom(){
+  const box=$('#room-panel');if(!box)return;const room=rooms.find(r=>r.id===activeRoom);if(!room){box.hidden=true;return}
+  const count=roomDesigns().length;
+  const figures=[...(room.plan?[roomFigure(room.plan,'plan')]:[]),...(room.photos||[]).map(f=>roomFigure(f,'photo')),...(room.model||[]).map(f=>roomFigure(f,'model'))].join('');
+  box.innerHTML=`<div class="room-head"><div><p class="eyebrow">ROOM</p><h3>${esc(room.label)}</h3><p class="room-status ${esc(room.status||'')}">${esc(room.statusLabel||'')}${count?' · '+count+' design versions here':''}</p></div><p class="room-lead">${esc(room.lead||'')}</p></div>`
+    +(figures?`<div class="room-figures">${figures}</div>`:'')
+    +`<div class="room-facts"><div><p class="eyebrow">WHAT IS KNOWN</p><dl class="room-dims">${(room.dimensions||[]).map(x=>`<div><dt>${esc(x.label)}</dt><dd>${esc(x.value)} <span class="basis">${esc(x.basis||'')}</span></dd></div>`).join('')}</dl></div>`
+    +`<div><p class="eyebrow">STILL TO MEASURE</p><ul class="room-todo">${(room.toMeasure||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p class="subtle">${esc(room.packs||'')}</p></div></div>`;
+  box.hidden=false;
+}
 function designCard(d){return `<article class="design-card"><button class="thumb-button" data-open="${esc(d.id)}" aria-label="Open ${esc(d.letter+' — '+d.name+' / '+d.author)}">${d.hero?`<img src="${esc(d.hero)}" alt="${esc(d.name)}" loading="lazy">`:'<div class="empty">Images not delivered in this source version</div>'}<span class="badge ${statusClass(d)}">${esc(badge(d))}</span></button><div class="card-meta"><span>${esc(d.author)} · ${esc(d.letter)}</span><span>${esc(d.date)}</span></div><h5>${esc(d.name)}</h5><p class="summary">${esc(d.summary||d.version)}</p><div class="card-actions"><button data-open="${esc(d.id)}">Explore ${esc(d.letter)} →</button><button data-compare="${esc(d.id)}" aria-pressed="${compared.includes(d.id)}">${compared.includes(d.id)?'✓ Comparing':'+ Compare'}</button></div></article>`}
 function renderGrid(){
   const author=$('#author-filter').value,status=$('#status-filter').value,search=$('#search').value.trim().toLocaleLowerCase();
-  const list=pageDesigns.filter(d=>{
+  const inRoom=roomDesigns(),room=rooms.find(r=>r.id===activeRoom);
+  const list=inRoom.filter(d=>{
     if(author&&designerFor(d)!==author)return false;
     if(status==='new'&&!d.isNew)return false;
     if(status==='study'&&(d.archival||d.isNew))return false;
@@ -126,14 +143,14 @@ function renderGrid(){
     return {author,title:author==='Astra'?'Astra / GPT':'Fable / Claude',members,sets:[...sets.values()].sort((a,b)=>Number(!!b[0].isNew)-Number(!!a[0].isNew)||Number(!!a[0].archival)-Number(!!b[0].archival)||b[0].date.localeCompare(a[0].date))};
   }).filter(g=>g.members.length);
   const setCount=groups.reduce((n,g)=>n+g.sets.length,0);
-  $('#result-count').textContent=`${list.length} of ${pageDesigns.length} ${archivePage?'archived versions':'finished designs'} · ${setCount} of ${new Set(pageDesigns.map(d=>d.namespace)).size} sets`;
+  $('#result-count').textContent=`${list.length} of ${inRoom.length} ${archivePage?'archived versions':'finished designs'} · ${setCount} of ${new Set(inRoom.map(d=>d.namespace)).size} sets`;
   $('#collection-jumps').innerHTML=groups.map(g=>`<a href="#designer-${g.author.toLowerCase()}"><strong>${g.title}</strong><span>${g.sets.length} sets · ${g.members.length} design versions</span><span aria-hidden="true">↓</span></a>`).join('');
   $('#design-grid').innerHTML=groups.map(g=>`<section id="designer-${g.author.toLowerCase()}" class="designer-group" aria-labelledby="heading-${g.author.toLowerCase()}"><div class="designer-heading"><div><p class="eyebrow">${g.author==='Astra'?'ASTRA / GPT COLLECTION':'FABLE / CLAUDE COLLECTION'}</p><h3 id="heading-${g.author.toLowerCase()}">${g.title}</h3></div><p class="subtle">${g.sets.length} sets · ${g.members.length} design versions</p></div><nav class="set-jumps" aria-label="${g.title} sets">${g.sets.map(set=>`<a href="#set-${esc(set[0].namespace)}">${esc(setLabel(set[0]))}</a>`).join('')}</nav>${g.sets.map(set=>{
     const d=set[0],source=data.coverage?.sets?.find(s=>s.namespace===d.namespace);
     return `<section id="set-${esc(d.namespace)}" class="design-set" aria-labelledby="heading-${esc(d.namespace)}"><div class="set-heading"><div><p class="set-meta"><time datetime="${esc(d.date)}">${esc(d.date)}</time> · ${d.version!==d.namespace?'Version '+esc(d.version):'Preserved source version'}</p><h4 id="heading-${esc(d.namespace)}">${esc(setLabel(d))}</h4>${source?`<p class="set-description">${esc(source.title)}</p>`:''}<p class="set-namespace">${esc(d.namespace)}</p></div><p class="set-status ${statusClass(d)}">${esc(setStatus(d))}</p></div><div class="design-grid">${set.map(designCard).join('')}</div></section>`;
-  }).join('')}</section>`).join('')||'<div class="empty">No designs match these filters.</div>';
+  }).join('')}</section>`).join('')||'<div class="empty">'+esc(!inRoom.length&&room?.emptyNote||'No designs match these filters.')+'</div>';
 }
-function renderFeatured(){const fresh=pageDesigns.filter(d=>d.isNew);$('#featured').innerHTML=fresh.map(d=>`<article class="feature" data-open="${esc(d.id)}" tabindex="0" role="button" aria-label="Explore new ${esc(d.letter+' '+d.name)}">${d.hero?`<img src="${esc(d.hero)}" alt="${esc(d.name)}">`:'<div class="empty">New design in preparation</div>'}<div class="feature-text"><span class="feature-letter">${esc(d.letter)}</span><div><h3>${esc(d.name)}</h3><p>GPT Astra · ${d.reviewAccepted?'reviewed concept':'new direction'}</p></div></div></article>`).join('');$('#featured').hidden=!fresh.length}
+function renderFeatured(){const fresh=roomDesigns().filter(d=>d.isNew);$('#featured').innerHTML=fresh.map(d=>`<article class="feature" data-open="${esc(d.id)}" tabindex="0" role="button" aria-label="Explore new ${esc(d.letter+' '+d.name)}">${d.hero?`<img src="${esc(d.hero)}" alt="${esc(d.name)}">`:'<div class="empty">New design in preparation</div>'}<div class="feature-text"><span class="feature-letter">${esc(d.letter)}</span><div><h3>${esc(d.name)}</h3><p>GPT Astra · ${d.reviewAccepted?'reviewed concept':'new direction'}</p></div></div></article>`).join('');$('#featured').hidden=!fresh.length}
 function budgetMarkup(b){
   if(!b)return'<p>No complete priced schedule was delivered in this historical version.</p>';
   let out='';
@@ -162,6 +179,10 @@ $('#import-picks').onclick=()=>{const r=importPicks($('#import-text').value,$('#
 async function init(){try{
   const response=await fetch('collection-data.json',{cache:'no-store'});if(!response.ok)throw Error('Cannot load design data');
   data=await response.json();designs=data.designs;pageDesigns=designs.filter(d=>Boolean(d.archival)===archivePage);
+  rooms=Array.isArray(data.rooms)&&data.rooms.length?data.rooms:[{id:'master',label:'Master bedroom',status:'designs',statusLabel:'Finished designs'}];
+  for(const d of designs)d.room=d.room||'master';
+  const roomSelect=$('#room-filter');
+  if(roomSelect){roomSelect.innerHTML=rooms.map(r=>{const n=pageDesigns.filter(d=>d.room===r.id).length;return `<option value="${esc(r.id)}">${esc(r.label)} · ${n?n+' designs':r.status==='placeholder'?'placeholder':'no designs yet'}</option>`}).join('');roomSelect.onchange=()=>{location.hash='room='+roomSelect.value};activeRoom=rooms[0].id}
   usageIndex=globalThis.Unit408Usage?.build(designs)||null;
   for(const d of designs)for(const p of d.products){p.namespace=d.namespace;p.designArchival=Boolean(d.archival);p.designLabel=d.author+' · '+d.letter+' · '+d.name;products.set(p.id,p)}
   load();if(testMode){document.body.classList.add('testing');$('#build-label').textContent='ISOLATED QA STORAGE'}else $('#build-label').textContent=data.build;
@@ -170,7 +191,7 @@ async function init(){try{
   $('#scope-summary').innerHTML=['Astra','Fable'].map(author=>{const count=pageDesigns.filter(d=>designerFor(d)===author).length;return count?`<a href="#designer-${author.toLowerCase()}"><strong>${author==='Astra'?'Astra / GPT':'Fable / Claude'} · ${count} ${archivePage?'archived versions':'designs'}</strong></a>`:''}).filter(Boolean).join(' &nbsp; / &nbsp; ');
   const otherCount=designs.length-pageDesigns.length;
   if($('#other-collection'))$('#other-collection').textContent=archivePage?`View ${otherCount} finished designs →`:`Archive · ${otherCount} older and rejected versions →`;
-  renderFeatured();renderGrid();renderCompare();refreshPicks();
+  renderRoom();renderFeatured();renderGrid();renderCompare();refreshPicks();
   if(window.unit408CollectionSync)sharedController=await window.unit408CollectionSync.start({testMode,get:()=>localAtConnect||[...picks],restore:()=>{load()},update:updateShared});
   const namespaces=new Set(pageDesigns.map(d=>d.namespace));
   $('#coverage').innerHTML=`<p>${pageDesigns.length} ${archivePage?'archived versions':'finished designs'} across ${namespaces.size} sets. Original source and review statuses are preserved.</p>`+(data.coverage?.sets||[]).filter(s=>namespaces.has(s.namespace)).map(s=>`<div class="coverage-row"><strong>${esc(s.title)}</strong><br>${esc(s.namespace)} · ${esc(s.status)}</div>`).join('');
