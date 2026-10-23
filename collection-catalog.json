@@ -19689,6 +19689,537 @@
           "height": 609
         }
       }
+    },
+    {
+      "id": "din:DINA-TABLE",
+      "localId": "fable-din-abc-20261023::DINA-TABLE",
+      "designId": "fable-din-abc-20261023:A",
+      "designIds": [
+        "fable-din-abc-20261023:A"
+      ],
+      "board": "din",
+      "label": "Claude Fable · A · Walnut and Linen",
+      "name": "Our Home Stanley 6 Seater Dining Table — Natural/ Walnut",
+      "url": "/408/#design=fable-din-abc-20261023%3AA",
+      "product": {
+        "role": "dining_table",
+        "name": "Our Home Stanley 6 Seater Dining Table",
+        "brand": "Our Home",
+        "sku": "10426595",
+        "variant": "Natural/ Walnut",
+        "family": "Our Home Stanley",
+        "url": "https://ourhome.ph/products/our-home-stanley-vi-seater-dining-table?variant=43903182897393",
+        "scope": "design_piece",
+        "materials": "solid rubberwood; MDF",
+        "dimensions": {
+          "width": 1800,
+          "depth": 900,
+          "height": 750
+        }
+      }
+    },
+    {
+      "id": "din:DINA-CHAIR",
+      "localId": "fable-din-abc-20261023::DINA-CHAIR",
+      "designId": "fable-din-abc-20261023:A",
+      "designIds": [
+        "fable-din-abc-20261023:A"
+      ],
+      "board": "din",
+      "label": "Claude Fable · A · Walnut and Linen",
+      "name": "Carmen Dining Chair — Beige + Whitewash; SKU 124791",
+      "url": "/408/#design=fable-din-abc-20261023%3AA",
+      "product": {
+        "role": "dining_chair",
+        "name": "Carmen Dining Chair",
+        "brand": "Mandaue Foam",
+        "sku": "124791",
+        "variant": "Beige + Whitewash; SKU 124791",
+        "family": "Mandaue Foam Carmen",
+        "url": "https://mandauefoam.ph/products/carmen-dining-chair?variant=43664551018674",
+        "scope": "design_piece",
+        "materials": "Upholstered in fabric + Rubber Wood legs",
+        "dimensions": {
+          "width": 450,
+          "depth": 530,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": "din:DINA-BENCH",
+      "localId": "fable-din-abc-20261023::DINA-BENCH",
+      "designId": "fable-din-abc-20261023:A",
+      "designIds": [
+        "fable-din-abc-20261023:A"
+      ],
+      "board": "din",
+      "label": "Claude Fable · A · Walnut and Linen",
+      "name": "Mizell Bench — Whitewash + Cocoa Milk; SKU 107929",
+      "url": "/408/#design=fable-din-abc-20261023%3AA",
+      "product": {
+        "role": "bench",
+        "name": "Mizell Bench",
+        "brand": "Mandaue Foam",
+        "sku": "107929",
+        "variant": "Whitewash + Cocoa Milk; SKU 107929",
+        "family": "Mandaue Foam Mizell",
+        "url": "https://mandauefoam.ph/products/mizell-bench?variant=43165094248626",
+        "scope": "design_piece",
+        "materials": "Frame & legs: Solid Rubberwood Upholstery: Foam covered with Fabric",
+        "dimensions": {
+          "width": 1220,
+          "depth": 440,
+          "height": 465
+        }
+      }
+    },
+    {
+      "id": "din:DINA-RUG",
+      "localId": "fable-din-abc-20261023::DINA-RUG",
+      "designId": "fable-din-abc-20261023:A",
+      "designIds": [
+        "fable-din-abc-20261023:A"
+      ],
+      "board": "din",
+      "label": "Claude Fable · A · Walnut and Linen",
+      "name": "STOENSE off-white rug 200x300cm [00426809] — STOENSE Rug, low pile - off-white 200x300 cm; off-white; 200x300cm; SKU 004.268.09",
+      "url": "/408/#design=fable-din-abc-20261023%3AA",
+      "product": {
+        "role": "rug",
+        "name": "STOENSE off-white rug 200x300cm [00426809]",
+        "brand": "IKEA",
+        "sku": "004.268.09",
+        "variant": "STOENSE Rug, low pile - off-white 200x300 cm; off-white; 200x300cm; SKU 004.268.09",
+        "family": "IKEA STOENSE",
+        "url": "https://www.ikea.com/ph/en/p/stoense-rug-low-pile-off-white-00426809/",
+        "scope": "design_piece",
+        "materials": "Use surface: 100% polypropylene. Backing: 100% synthetic rubber",
+        "dimensions": {
+          "width": 3000,
+          "depth": 2000
+        }
+      }
+    },
+    {
+      "id": "din:DINA-ART",
+      "localId": "fable-din-abc-20261023::DINA-ART",
+      "designId": "fable-din-abc-20261023:A",
+      "designIds": [
+        "fable-din-abc-20261023:A"
+      ],
+      "board": "din",
+      "label": "Claude Fable · A · Walnut and Linen",
+      "name": "BLODFLÄDER Picture — BLODFLÄDER Picture, The Seine at Giverny, 118x78 cm; article 00601916",
+      "url": "/408/#design=fable-din-abc-20261023%3AA",
+      "product": {
+        "role": "art",
+        "name": "BLODFLÄDER Picture",
+        "brand": "IKEA",
+        "sku": "00601916",
+        "variant": "BLODFLÄDER Picture, The Seine at Giverny, 118x78 cm; article 00601916",
+        "family": "IKEA BLODFLADER",
+        "url": "https://www.ikea.com/ph/en/p/blodflaeder-picture-the-seine-at-giverny-00601916/",
+        "scope": "design_piece",
+        "materials": "Poster: 80 % polyester (100% recycled), 20 % linen; Frame: Fiberboard, Paper foil",
+        "dimensions": {
+          "width": 1180,
+          "depth": 30,
+          "height": 780
+        }
+      }
+    },
+    {
+      "id": "din:DINA-CONSOLE",
+      "localId": "fable-din-abc-20261023::DINA-CONSOLE",
+      "designId": "fable-din-abc-20261023:A",
+      "designIds": [
+        "fable-din-abc-20261023:A"
+      ],
+      "board": "din",
+      "label": "Claude Fable · A · Walnut and Linen",
+      "name": "Console Table Walnut 210029 — San-Yang Furniture Console Table Walnut 210029; Walnut; One console table.",
+      "url": "/408/#design=fable-din-abc-20261023%3AA",
+      "product": {
+        "role": "buffet",
+        "name": "Console Table Walnut 210029",
+        "brand": "San-Yang",
+        "sku": "210029",
+        "variant": "San-Yang Furniture Console Table Walnut 210029; Walnut; One console table.",
+        "family": "San-Yang 210029",
+        "url": "https://www.lazada.com.ph/products/san-yang-furniture-console-table-walnut-210029-i3526847407-s18170304232.html",
+        "scope": "design_piece",
+        "materials": "Particle Board. PVC, and Powder Coated Metal",
+        "dimensions": {
+          "width": 1050,
+          "depth": 360,
+          "height": 760
+        }
+      }
+    },
+    {
+      "id": "din:DINA-PLANT",
+      "localId": "fable-din-abc-20261023::DINA-PLANT",
+      "designId": "fable-din-abc-20261023:A",
+      "designIds": [
+        "fable-din-abc-20261023:A"
+      ],
+      "board": "din",
+      "label": "Claude Fable · A · Walnut and Linen",
+      "name": "Flourish Eucalyptus Tree — Default Title",
+      "url": "/408/#design=fable-din-abc-20261023%3AA",
+      "product": {
+        "role": "plant",
+        "name": "Flourish Eucalyptus Tree",
+        "brand": "Flourish",
+        "sku": "39243067",
+        "variant": "Default Title",
+        "family": "Flourish Eucalyptus",
+        "url": "https://ourhome.ph/products/flourish-eucalyptus-tree?variant=48096628310257",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 500,
+          "depth": 500,
+          "height": 1700
+        }
+      }
+    },
+    {
+      "id": "din:DINB-TABLE",
+      "localId": "fable-din-abc-20261023::DINB-TABLE",
+      "designId": "fable-din-abc-20261023:B",
+      "designIds": [
+        "fable-din-abc-20261023:B"
+      ],
+      "board": "din",
+      "label": "Claude Fable · B · Black Frame and Cane",
+      "name": "Jimmi 6 Seater Dining Table — Cement + Black; SKU 121850",
+      "url": "/408/#design=fable-din-abc-20261023%3AB",
+      "product": {
+        "role": "dining_table",
+        "name": "Jimmi 6 Seater Dining Table",
+        "brand": "Mandaue Foam",
+        "sku": "121850",
+        "variant": "Cement + Black; SKU 121850",
+        "family": "Mandaue Foam Jimmi",
+        "url": "https://mandauefoam.ph/products/jimmi-6-seater-dining-table?variant=44632362746034",
+        "scope": "design_piece",
+        "materials": "Table: MDF with melamine Frame: Metal in powder coating finish",
+        "dimensions": {
+          "width": 1500,
+          "depth": 900,
+          "height": 750
+        }
+      }
+    },
+    {
+      "id": "din:DINB-CHAIR",
+      "localId": "fable-din-abc-20261023::DINB-CHAIR",
+      "designId": "fable-din-abc-20261023:B",
+      "designIds": [
+        "fable-din-abc-20261023:B"
+      ],
+      "board": "din",
+      "label": "Claude Fable · B · Black Frame and Cane",
+      "name": "Hadwin Rattan Dining Chair — Almond; SKU 122727",
+      "url": "/408/#design=fable-din-abc-20261023%3AB",
+      "product": {
+        "role": "dining_chair",
+        "name": "Hadwin Rattan Dining Chair",
+        "brand": "Mandaue Foam",
+        "sku": "122727",
+        "variant": "Almond; SKU 122727",
+        "family": "Mandaue Foam Hadwin",
+        "url": "https://mandauefoam.ph/products/hadwin-rattan-dining-chair?variant=43461908103346",
+        "scope": "design_piece",
+        "materials": "Frame & legs: Metal tube Seat pad: Foam with PU in plywood frame Backrest: Plastic Rattan",
+        "dimensions": {
+          "width": 530,
+          "depth": 575,
+          "height": 840
+        }
+      }
+    },
+    {
+      "id": "din:DINB-RUG",
+      "localId": "fable-din-abc-20261023::DINB-RUG",
+      "designId": "fable-din-abc-20261023:B",
+      "designIds": [
+        "fable-din-abc-20261023:B"
+      ],
+      "board": "din",
+      "label": "Claude Fable · B · Black Frame and Cane",
+      "name": "R5004615 Large Rug — R5004615 Large Rug; manufacturer SKU R5004615; Default Title; Light Gray",
+      "url": "/408/#design=fable-din-abc-20261023%3AB",
+      "product": {
+        "role": "rug",
+        "name": "R5004615 Large Rug",
+        "brand": "Ashley",
+        "sku": "R5004615",
+        "variant": "R5004615 Large Rug; manufacturer SKU R5004615; Default Title; Light Gray",
+        "family": "Ashley R5004615",
+        "url": "https://store.ashleyfurniture.ph/products/r5004615-large-rug?variant=50111956222238",
+        "scope": "design_piece",
+        "materials": "Made with nylon",
+        "dimensions": {
+          "width": 2900,
+          "depth": 2007,
+          "height": 9.906
+        }
+      }
+    },
+    {
+      "id": "din:DINB-ART",
+      "localId": "fable-din-abc-20261023::DINB-ART",
+      "designId": "fable-din-abc-20261023:B",
+      "designIds": [
+        "fable-din-abc-20261023:B"
+      ],
+      "board": "din",
+      "label": "Claude Fable · B · Black Frame and Cane",
+      "name": "A58000287 Wall Art — A58000287 Wall Art; manufacturer SKU A58000287; Default Title; Black/Gray",
+      "url": "/408/#design=fable-din-abc-20261023%3AB",
+      "product": {
+        "role": "art",
+        "name": "A58000287 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000287",
+        "variant": "A58000287 Wall Art; manufacturer SKU A58000287; Default Title; Black/Gray",
+        "family": "Ashley A58000287",
+        "url": "https://store.ashleyfurniture.ph/products/a58000287-wall-art?variant=45493293089054",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 1200,
+          "depth": 35,
+          "height": 800
+        }
+      }
+    },
+    {
+      "id": "din:DINB-CONSOLE",
+      "localId": "fable-din-abc-20261023::DINB-CONSOLE",
+      "designId": "fable-din-abc-20261023:B",
+      "designIds": [
+        "fable-din-abc-20261023:B"
+      ],
+      "board": "din",
+      "label": "Claude Fable · B · Black Frame and Cane",
+      "name": "5002 Console Table — SKU tym-5002-consoletable-blackpowdercoating-ic",
+      "url": "/408/#design=fable-din-abc-20261023%3AB",
+      "product": {
+        "role": "buffet",
+        "name": "5002 Console Table",
+        "brand": "Furniture Manila",
+        "sku": "tym-5002-consoletable-blackpowdercoating-ic",
+        "variant": "SKU tym-5002-consoletable-blackpowdercoating-ic",
+        "family": "Furniture Manila 5002",
+        "url": "https://www.furnituremanila.com.ph/product/5002-console-table/",
+        "scope": "design_piece",
+        "materials": "MDF",
+        "dimensions": {
+          "width": 996.9,
+          "depth": 349.2,
+          "height": 730.2
+        }
+      }
+    },
+    {
+      "id": "din:DINB-PLANT",
+      "localId": "fable-din-abc-20261023::DINB-PLANT",
+      "designId": "fable-din-abc-20261023:B",
+      "designIds": [
+        "fable-din-abc-20261023:B"
+      ],
+      "board": "din",
+      "label": "Claude Fable · B · Black Frame and Cane",
+      "name": "A54200038 Greenery — A54200038 Greenery; manufacturer SKU A54200038; Default Title; Green",
+      "url": "/408/#design=fable-din-abc-20261023%3AB",
+      "product": {
+        "role": "plant",
+        "name": "A54200038 Greenery",
+        "brand": "Ashley",
+        "sku": "A54200038",
+        "variant": "A54200038 Greenery; manufacturer SKU A54200038; Default Title; Green",
+        "family": "Ashley A54200038",
+        "url": "https://store.ashleyfurniture.ph/products/greenery-a54200038?variant=48426914447646",
+        "scope": "design_piece",
+        "materials": "Made with plastic and metal",
+        "dimensions": {
+          "width": 762,
+          "depth": 762,
+          "height": 1829
+        }
+      }
+    },
+    {
+      "id": "din:DINC-TABLE",
+      "localId": "fable-din-abc-20261023::DINC-TABLE",
+      "designId": "fable-din-abc-20261023:C",
+      "designIds": [
+        "fable-din-abc-20261023:C"
+      ],
+      "board": "din",
+      "label": "Claude Fable · C · Cocoa and Charcoal",
+      "name": "Our Home Geordie 6 Seater Dining Table — Cocoa / 6 Seater",
+      "url": "/408/#design=fable-din-abc-20261023%3AC",
+      "product": {
+        "role": "dining_table",
+        "name": "Our Home Geordie 6 Seater Dining Table",
+        "brand": "Our Home",
+        "sku": "10426917",
+        "variant": "Cocoa / 6 Seater",
+        "family": "Our Home Geordie",
+        "url": "https://ourhome.ph/products/our-home-geordie-6-seater-dining-table?variant=45972880326897",
+        "scope": "design_piece",
+        "materials": "Solid Rubberwood",
+        "dimensions": {
+          "width": 1800,
+          "depth": 900,
+          "height": 750
+        }
+      }
+    },
+    {
+      "id": "din:DINC-CHAIR",
+      "localId": "fable-din-abc-20261023::DINC-CHAIR",
+      "designId": "fable-din-abc-20261023:C",
+      "designIds": [
+        "fable-din-abc-20261023:C"
+      ],
+      "board": "din",
+      "label": "Claude Fable · C · Cocoa and Charcoal",
+      "name": "Macie Dining Chair — Dark Grey; SKU 107972",
+      "url": "/408/#design=fable-din-abc-20261023%3AC",
+      "product": {
+        "role": "dining_chair",
+        "name": "Macie Dining Chair",
+        "brand": "Mandaue Foam",
+        "sku": "107972",
+        "variant": "Dark Grey; SKU 107972",
+        "family": "Mandaue Foam Macie",
+        "url": "https://mandauefoam.ph/products/macie-dining-chair-1?variant=43085729104050",
+        "scope": "design_piece",
+        "materials": "Upholstered with polyester fabric & Rubber wood frame & legs",
+        "dimensions": {
+          "width": 465,
+          "depth": 550,
+          "height": 985
+        }
+      }
+    },
+    {
+      "id": "din:DINC-RUG",
+      "localId": "fable-din-abc-20261023::DINC-RUG",
+      "designId": "fable-din-abc-20261023:C",
+      "designIds": [
+        "fable-din-abc-20261023:C"
+      ],
+      "board": "din",
+      "label": "Claude Fable · C · Cocoa and Charcoal",
+      "name": "R5004635 Large Rug — R5004635 Large Rug; manufacturer SKU R5004635; Default Title; Brown",
+      "url": "/408/#design=fable-din-abc-20261023%3AC",
+      "product": {
+        "role": "rug",
+        "name": "R5004635 Large Rug",
+        "brand": "Ashley",
+        "sku": "R5004635",
+        "variant": "R5004635 Large Rug; manufacturer SKU R5004635; Default Title; Brown",
+        "family": "Ashley R5004635",
+        "url": "https://store.ashleyfurniture.ph/products/r5004635-large-rug?variant=50111989088542",
+        "scope": "design_piece",
+        "materials": "Made with polyester",
+        "dimensions": {
+          "width": 2900,
+          "depth": 2007,
+          "height": 9.906
+        }
+      }
+    },
+    {
+      "id": "din:DINC-ART",
+      "localId": "fable-din-abc-20261023::DINC-ART",
+      "designId": "fable-din-abc-20261023:C",
+      "designIds": [
+        "fable-din-abc-20261023:C"
+      ],
+      "board": "din",
+      "label": "Claude Fable · C · Cocoa and Charcoal",
+      "name": "A58000487 Wall Art — A58000487 Wall Art; manufacturer SKU A58000487; Brown",
+      "url": "/408/#design=fable-din-abc-20261023%3AC",
+      "product": {
+        "role": "art",
+        "name": "A58000487 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000487",
+        "variant": "A58000487 Wall Art; manufacturer SKU A58000487; Brown",
+        "family": "Ashley A58000487",
+        "url": "https://store.ashleyfurniture.ph/products/a58000487-wall-art?variant=50443729797406",
+        "scope": "design_piece",
+        "materials": "Canvas",
+        "dimensions": {
+          "width": 1200,
+          "depth": 35,
+          "height": 800
+        }
+      }
+    },
+    {
+      "id": "din:DINC-CONSOLE",
+      "localId": "fable-din-abc-20261023::DINC-CONSOLE",
+      "designId": "fable-din-abc-20261023:C",
+      "designIds": [
+        "fable-din-abc-20261023:C"
+      ],
+      "board": "din",
+      "label": "Claude Fable · C · Cocoa and Charcoal",
+      "name": "Blythe Console Table — Single published variant; SKU 140955",
+      "url": "/408/#design=fable-din-abc-20261023%3AC",
+      "product": {
+        "role": "buffet",
+        "name": "Blythe Console Table",
+        "brand": "Mandaue Foam",
+        "sku": "140955",
+        "variant": "Single published variant; SKU 140955",
+        "family": "Mandaue Foam Blythe",
+        "url": "https://mandauefoam.ph/products/blythe-console-table?variant=47751733117106",
+        "scope": "design_piece",
+        "materials": "15mm thick MDF w/melamine top , bottom & drawer front 45mm thick Hollow board in paper finish side 12mm thick MDF w/ paper finish drawer side 3mm thick MDF w/ paper finish drawer bottom Metal legs in powder coated finish",
+        "dimensions": {
+          "width": 1200,
+          "depth": 300,
+          "height": 765
+        }
+      }
+    },
+    {
+      "id": "din:DINC-PLANT",
+      "localId": "fable-din-abc-20261023::DINC-PLANT",
+      "designId": "fable-din-abc-20261023:C",
+      "designIds": [
+        "fable-din-abc-20261023:C"
+      ],
+      "board": "din",
+      "label": "Claude Fable · C · Cocoa and Charcoal",
+      "name": "Flourish Schefflera Tree — Default Title",
+      "url": "/408/#design=fable-din-abc-20261023%3AC",
+      "product": {
+        "role": "plant",
+        "name": "Flourish Schefflera Tree",
+        "brand": "Flourish",
+        "sku": "39243373",
+        "variant": "Default Title",
+        "family": "Flourish Schefflera",
+        "url": "https://ourhome.ph/products/flourish-schefflera-tree?variant=48409523519729",
+        "scope": "design_piece",
+        "materials": null,
+        "dimensions": {
+          "width": 600,
+          "depth": 600,
+          "height": 1350
+        }
+      }
     }
   ]
 }
