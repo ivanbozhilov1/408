@@ -11,7 +11,11 @@ import os
 from pathlib import Path
 import shutil
 import subprocess
+import sys
 import time
+# make_pack launches this canonical entrypoint with Python -I. Resolve only its
+# own trusted sibling modules; never import release helpers from the caller's cwd.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from public_artifact import build, digest, reachable, resolve
 
 class Hold(ValueError):

@@ -7,6 +7,7 @@ import zlib
 from pathlib import Path
 import shutil
 import subprocess
+import sys
 import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
@@ -83,6 +84,10 @@ console.log(JSON.stringify(globalThis.Unit408Preferences.compile({preferenceSche
         self.write('review.json', review); self.accepted['review'] = self.bound('review.json')
     def test_current_unused_policy_passes_with_bound_canonical_collection(self):
         self.unused_gate(); self.check()
+    def test_cli_entrypoint_supports_isolated_python(self):
+        result = subprocess.run([sys.executable, '-I', '-X', 'utf8', str(HERE/'ops/release/release.py'), '--help'], capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn('prepare', result.stdout)
     def test_unused_policy_without_collection_binding_holds(self):
         self.unused_gate(); self.accepted['candidateGate'].pop('collection')
         with self.assertRaisesRegex(Hold, 'current frozen collection binding'):
