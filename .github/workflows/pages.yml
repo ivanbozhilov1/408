@@ -1,0 +1,58 @@
+name: Curated gallery Pages artifact
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: unit408-pages-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned browser tooling
+        run: npm install --no-save playwright@1.60.0
+      - name: Test release guards
+        env:
+          UNIT408_CHROMIUM: /usr/bin/google-chrome
+        run: python -m unittest discover -s ops/release -p 'test_*.py'
+      - name: Test render derivative freshness
+        run: UNIT408_CHROMIUM=/usr/bin/google-chrome node --test ops/images/test_webp_views.mjs ops/release/test_readback.mjs
+      - uses: actions/cache@v4
+        with:
+          path: .cache/render-webp
+          key: render-webp-v1-${{ runner.os }}-${{ github.sha }}
+          restore-keys: render-webp-v1-${{ runner.os }}-
+      - name: Build reachable public artifact
+        run: python ops/release/public_artifact.py --gallery . --out ../unit408-public --chromium /usr/bin/google-chrome --cache-dir .cache/render-webp
+      - name: Verify actual local served bytes and browser workflow
+        run: node ops/release/readback.mjs --manifest ../unit408-public/public-manifest.json --serve-dir ../unit408-public --chromium /usr/bin/google-chrome > /tmp/unit408-readback.json
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ../unit408-public
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy verified curated artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
