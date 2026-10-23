@@ -5,7 +5,7 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[2]
 BOARDS = ('def', 'ghi', 'jkl', 'mno')
-LATER_BOARDS = ('stu',)  # sets published after the combined catalogue; read when their folder exists
+LATER_BOARDS = ('stu', 'liv')  # sets published after the combined catalogue; read when their folder exists
 FIELDS = ('role', 'name', 'brand', 'sku', 'variant', 'family', 'url', 'scope', 'materials', 'dimensions')
 ROLES = {
     'bedside': 'nightstand', 'bedside table': 'nightstand',
