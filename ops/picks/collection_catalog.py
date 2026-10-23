@@ -5,6 +5,7 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[2]
 BOARDS = ('def', 'ghi', 'jkl', 'mno')
+LATER_BOARDS = ('stu',)  # sets published after the combined catalogue; read when their folder exists
 FIELDS = ('role', 'name', 'brand', 'sku', 'variant', 'family', 'url', 'scope', 'materials', 'dimensions')
 ROLES = {
     'bedside': 'nightstand', 'bedside table': 'nightstand',
@@ -25,7 +26,7 @@ KNOWN = {'bed', 'nightstand', 'chair', 'console', 'lamp', 'ceiling', 'mirror', '
 
 def build(root=ROOT):
     original = {}
-    for board in BOARDS:
+    for board in BOARDS + tuple(b for b in LATER_BOARDS if (root / b / 'data/designs.json').exists()):
         folder = root if board == 'def' else root / board
         source = json.loads((folder / 'data/designs.json').read_text(encoding='utf-8'))
         for product in source['items']:

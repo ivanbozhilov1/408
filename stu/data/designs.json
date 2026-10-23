@@ -1,0 +1,1512 @@
+{
+  "title": "Unit 408 master bedroom: set S/T/U",
+  "as_of": "21 October 2026",
+  "overview": "Three complete, fully sourced master-bedroom schemes for Unit 408: S Wengue Teal (dark wengue bed in an ivory room, one teal accent, chrome and white light), T Birch Coral (pale birch, one coral accent, glazed ceramic lamps) and U Whitewash Emerald (whitewashed pine, one emerald accent, clear glass light). Every piece is a published retail product; prices are frozen catalogue or dated page reads; unknown prices are QUOTE REQUIRED.",
+  "requirements": [
+    "MANDATORY: finished 50 mm mattress, 72 × 78 inches (1828.8 × 1981.2 mm), on continuous flat support with no exposed slats or gaps. No thick mattress, topper or box spring.",
+    "All prices assume new purchases. Three distinct sets of visible furniture, bedside lamps, fixtures, mirrors, rugs, textiles, plants and decor. Matching bedside pairs within each design.",
+    "Closed practical bedside storage, armrests on every chair, compact console with sourced decor. No extra generic styling objects.",
+    "75-inch wall TV baseline; 65-inch minimum, 85-inch optional pending price and clearance checks. 65-inch reference saves ₱12,000 in merchandise before contingency.",
+    "Split AC at the window-side corner of the TV wall, with airflow directed away from sleepers. Installer must verify location and capacity.",
+    "Mirror on the wall return between the two perpendicular doors. Preserve native irregular geometry, both doors, closet and warm narrow-block parquet.",
+    "Common technical essentials are owner-approved. Existing Davies Beige blackout/voile treatment and concealed old window AC remain a fixed room requirement."
+  ],
+  "procurement_gates": [
+    "No scheme is purchase-ready until the bed supplier accepts the exact 50 mm mattress on a continuous flat deck. Fino (S) support is unpublished; BJÖRKSNÄS (T) and HEMNES (U) ship with Luröy slats and are 180×200 cm frames against the 1828.8 mm mattress (SIZE FLAG). King outer sizes are unpublished for all three beds (plans use assumed outers).",
+    "Prices are frozen catalogue references (live-Airtable snapshot 20 Oct 2026) with each line's own price date; beds were read from supplier JSON or the IKEA PH search API on 21 Oct 2026. Product existence and photos are verified; exact Cebu stock, address delivery and checkout totals are not.",
+    "Colour, variant and size gates: Bamboo Luxury duvet cover Ivory is a Queen listing (King to confirm); Family Home Hotel Living sheets are rendered peach as photographed but listed White, Mocha, Sand and Gray (priced on White / Queen; colour and King SKU to confirm); Canadian T300 Fossil Gray King SKU and price to confirm; Amanda TV cabinet finish as photographed (pale grey-oak; the listing says Cherry) to confirm; HAY Arbour Club price and fabric to quote; Taylow lamp dimensions unpublished; Nat13 (450×400×500) and Porro Neve (570×530×780) dimensions are plan assumptions; every duvet cover and insert in King.",
+    "TV mount is the True Vision TV73-69F; installer to confirm substrate, anchors and Samsung fixings.",
+    "Curtain ₱42,420 is the carried 16 October quote reference: ₱36,720 master treatment plus ₱3,800 valance and ₱1,900 sticks allocations. Remeasurement quote required.",
+    "Trade/freight/mattress/deck reserves total ₱35,000–84,000 as estimator allowances, not supplier quotations. 10 % contingency added, totals rounded up to the next ₱1,000."
+  ],
+  "allowances": [
+    {
+      "id": "Q-DELIVERY",
+      "name": "Cebu freight,delivery and handling",
+      "low_centavos": 500000,
+      "high_centavos": 1500000,
+      "basis": "Planning allowance only; no shipping rates/address allocation obtained. Overseas freight not included."
+    },
+    {
+      "id": "Q-AC-INSTALL",
+      "name": "Split-AC installation and normal pipe/electrical provision",
+      "low_centavos": 1000000,
+      "high_centavos": 2000000,
+      "basis": "Planning allowance only; actual pipe length,capacity,condensate path,condenser mounting and building permissions unmeasured."
+    },
+    {
+      "id": "Q-MOUNTING",
+      "name": "TV/mirror/art/ceiling fixture installation and assembly",
+      "low_centavos": 500000,
+      "high_centavos": 1000000,
+      "basis": "Planning allowance only; installer must specify anchors and verify substrate. Includes no structural rebuilding."
+    },
+    {
+      "id": "Q-FINISH",
+      "name": "Paint touch-up and site coordination",
+      "low_centavos": 500000,
+      "high_centavos": 1200000,
+      "basis": "Estimator reserve, not a contractor quote. Optional curtain LED is not selected, displayed or included as a retail item."
+    },
+    {
+      "id": "Q-MATTRESS50",
+      "name": "REQUIRED: custom50mm mattress,72×78in",
+      "low_centavos": 400000,
+      "high_centavos": 1200000,
+      "basis": "Provisional reserve only,not a manufacturer price. Exact finished50mm thickness,cover and foam specification need supplier acceptance and quotation. Replaces rejected8in mattress; not added on top of it."
+    },
+    {
+      "id": "Q-FLATDECK",
+      "name": "REQUIRED unless existing deck proven compliant: custom continuous flat support",
+      "low_centavos": 600000,
+      "high_centavos": 1500000,
+      "basis": "Provisional reserve only,not a contractor quote. All current bed supports unverified. Must resolve structure,bearing,fixings,recess/rail height and bed warranty. No exposed slats accepted."
+    }
+  ],
+  "schemes": [
+    {
+      "id": "S",
+      "title": "Wengue Teal",
+      "rationale": "The dark wengue Fino bed with its black floating headboard carries the room; everything else is pale so it reads. Teal is the one colour: a teal sunburst cushion on an ivory bamboo duvet, a faceted teal glass vase on the console and the blue-teal abstract over the bed. White MALM drawers, a white-gloss BYÅS console and a cream ISMANTORP armchair with bentwood-style arms keep the floor light; satin-nickel Larcy lamps and a chrome-framed mirror give the cool metal. Ivory GEOLOG rug, grey bamboo sheets and a pencil succulent in a white bowl. Squint phrase: dark bed, ivory, teal.",
+      "palette": [
+        "#2b211c",
+        "#2c8a8f",
+        "#f3efe6",
+        "#c8cbcd"
+      ],
+      "budget": {
+        "design_centavos": 15624700,
+        "common_centavos": 12791950,
+        "priced_centavos": 28416650,
+        "reserve_low_centavos": 3500000,
+        "reserve_high_centavos": 8400000,
+        "total_low_php": 352000,
+        "total_high_php": 405000
+      },
+      "fit_notes": [
+        "MALM 400×480 bedsides each side of the Fino King; Fino King outer size unpublished, fit uses an assumed outer.",
+        "BYÅS 1600 mm console is at the ≤1600 mm short-wall limit.",
+        "GEOLOG 160×230 rug under the lower two-thirds of the bed."
+      ]
+    },
+    {
+      "id": "T",
+      "title": "Birch Coral",
+      "rationale": "Pale birch and oak throughout: the spindle-headboard BJÖRKSNÄS bed, Astrid two-drawer bedsides, an Amanda light-oak console and a maple-framed Jea mirror. Coral is the one accent, in a terracotta linen lumbar cushion and the coral half-circle prints over the bed, with the pink JÄRNVÄG rug as its quiet echo. Off-white BLIDVÄDER stoneware lamps, a natural faux-linen comforter, sand sheets and an oak HAY Arbour chair in rose. An olive stem in a whitewashed terracotta vase. Squint phrase: pale birch, coral, ceramic.",
+      "palette": [
+        "#d9c3a0",
+        "#df7f6f",
+        "#ece6da",
+        "#b8956a"
+      ],
+      "budget": {
+        "design_centavos": 12561320,
+        "common_centavos": 11992450,
+        "priced_centavos": 24553770,
+        "reserve_low_centavos": 3500000,
+        "reserve_high_centavos": 8400000,
+        "total_low_php": 309000,
+        "total_high_php": 363000
+      },
+      "fit_notes": [
+        "Astrid 550×420 bedsides are the widest in the set; check the clearance to the window wall.",
+        "Amanda 1500 mm console fits the ≤1600 mm short wall.",
+        "BJÖRKSNÄS is a 180×200 frame: SIZE FLAG against the 1828.8 mm mattress."
+      ]
+    },
+    {
+      "id": "U",
+      "title": "Whitewash Emerald",
+      "rationale": "A whitewashed HEMNES pine bed against black: black faux-leather two-drawer night tables, a JÄTTESTA console, a Porro Neve black ash armchair and a ribbed black arch mirror. Emerald is the accent, in a green Santiago cushion, a fern-green marble tray and the green palm canvas over the bed. Smoked glass gives the light: the Taylow faceted lamps. White quilted coverlet, grey Tencel sheets, a black-and-natural striped Rouen jute rug and a peperomia in a black pot. Squint phrase: whitewash, black, emerald.",
+      "palette": [
+        "#e8e4dc",
+        "#1e1e1f",
+        "#23935a",
+        "#8a8580"
+      ],
+      "budget": {
+        "design_centavos": 20743280,
+        "common_centavos": 11992450,
+        "priced_centavos": 32735730,
+        "reserve_low_centavos": 3500000,
+        "reserve_high_centavos": 8400000,
+        "total_low_php": 399000,
+        "total_high_php": 453000
+      },
+      "fit_notes": [
+        "Furniture Manila 002 night tables are 406×406 mm; lamps sit centred.",
+        "JÄTTESTA 1600 mm console is at the ≤1600 mm short-wall limit.",
+        "Rouen 183×274 rug is the largest in the set; check the door swing and wardrobe clearance."
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "S-BED",
+      "schemes": [
+        "S"
+      ],
+      "role": "bed",
+      "name": "Our Home Fino Bedframe — Black/Wengue / King 72 x 78 in",
+      "brand": "Our Home",
+      "sku": "10395563",
+      "variant": "Black/Wengue / King 72 x 78 in",
+      "quantity": 1,
+      "unit_centavos": 5215500,
+      "line_centavos": 5215500,
+      "url": "https://ourhome.ph/products/our-home-fino-bedframe?variant=43710185865457",
+      "status": "Supplier JSON available=True (read 2026-10-21) | Cebu delivery unconfirmed",
+      "notes": "Solid mahogany frame in a dark wengue stain, black PU four-panel floating headboard, chunky tapered posts, low platform. Support is not published (\"industrial gravity fit bedframe\") => UNVERIFIED, not ready to order until the deck is confirmed; King outer dimensions unpublished (Queen only on the page). Captured by the GHI set's bed search on 21 Oct 2026 (Shopify collection JSON).",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/S-BED.jpg",
+      "family": "Our Home Fino",
+      "price_date": "2026-10-21",
+      "price_basis": "Our Home Shopify product JSON, King 72×78 variant"
+    },
+    {
+      "id": "T-BED",
+      "schemes": [
+        "T"
+      ],
+      "role": "bed",
+      "name": "BJÖRKSNÄS bed frame — birch/Luröy, 180x200 cm",
+      "brand": "IKEA",
+      "sku": "692.475.70",
+      "variant": "birch/Luröy, 180x200 cm",
+      "quantity": 1,
+      "unit_centavos": 3099900,
+      "line_centavos": 3099900,
+      "url": "https://www.ikea.com/ph/en/p/bjoerksnaes-bed-frame-birch-luroey-s69247570/",
+      "status": "IKEA PH search API read 2026-10-21 14:23: HOME_DELIVERY HIGH_IN_STOCK | Cebu delivery unconfirmed",
+      "notes": "Natural birch frame, spindle headboard with leather straps holding two beige cushions, round posts. Luröy slats => CONDITIONAL: custom continuous deck required. SIZE FLAG: 1800 mm internal width vs the 1828.8 mm mattress; the deck must sit on the rails or the mattress be re-specced to 1800 mm. Outer dimensions unpublished in the capture.",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/T-BED.jpg",
+      "family": "IKEA BJÖRKSNÄS",
+      "price_basis": "IKEA Philippines search API price PHP 30,999 (read 2026-10-21 14:23, research/king-beds)",
+      "materials": "birch, birch veneer, leather straps, polyester cushions",
+      "price_date": "2026-10-21"
+    },
+    {
+      "id": "U-BED",
+      "schemes": [
+        "U"
+      ],
+      "role": "bed",
+      "name": "HEMNES bed frame — white stain/Luröy, 180x200 cm",
+      "brand": "IKEA",
+      "sku": "891.984.13",
+      "variant": "white stain/Luröy, 180x200 cm",
+      "quantity": 1,
+      "unit_centavos": 2099900,
+      "line_centavos": 2099900,
+      "url": "https://www.ikea.com/ph/en/p/hemnes-bed-frame-white-stain-luroey-s89198413/",
+      "status": "IKEA PH search API read 2026-10-21 14:23: HOME_DELIVERY HIGH_IN_STOCK | Cebu delivery unconfirmed",
+      "notes": "Solid pine in a white stain (whitewashed, grain visible), slatted headboard, panelled footboard, square legs. Luröy slats => CONDITIONAL: custom continuous deck required. SIZE FLAG: 1800 mm internal width vs the 1828.8 mm mattress; the deck must sit on the rails or the mattress be re-specced to 1800 mm. Outer dimensions unpublished in the capture.",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/U-BED.jpg",
+      "family": "IKEA HEMNES",
+      "price_basis": "IKEA Philippines search API price PHP 20,999 (read 2026-10-21 14:23, research/king-beds)",
+      "materials": "solid pine, white stain, Luröy slats",
+      "price_date": "2026-10-21"
+    },
+    {
+      "id": "S-NIGHTSTAND",
+      "schemes": [
+        "S"
+      ],
+      "role": "nightstand",
+      "name": "MALM 2-drawer chest",
+      "brand": "IKEA",
+      "sku": "10354642",
+      "variant": "MALM 2-drawer chest, white, 40x55 cm; article 10354642",
+      "quantity": 2,
+      "unit_centavos": 299900,
+      "line_centavos": 599800,
+      "url": "https://www.ikea.com/ph/en/p/malm-2-drawer-chest-white-10354642/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "",
+      "dimensions": {
+        "width": 400,
+        "depth": 480,
+        "height": 550
+      },
+      "scope": "design_piece",
+      "image": "assets/products/S-NIGHTSTAND.avif",
+      "family": "IKEA MALM",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Top panel/ Side panel/ Rail/ Drawer front: Particleboard, Acrylic paint; Support rail, back: Particleboard; Back: Fiberboard; Drawer bottom: Fiberboard, Acrylic paint"
+    },
+    {
+      "id": "S-LAMP",
+      "schemes": [
+        "S"
+      ],
+      "role": "lamp",
+      "name": "at home Larcy Table Lamp",
+      "brand": "abensonHOME catalog",
+      "sku": "",
+      "variant": "Table Lamp, Satin Nickel",
+      "quantity": 2,
+      "unit_centavos": 299900,
+      "line_centavos": 599800,
+      "url": "https://home.abenson.com/at-home-larcy-32-5x32-5x39cm-satin-nickel-metal-table-lamp.html",
+      "status": "Sold out | Cebu delivery: unconfirmed | price date 2026-09-10 | abensonHOME catalog",
+      "notes": "",
+      "dimensions": {
+        "width": 325,
+        "depth": 325,
+        "height": 390
+      },
+      "scope": "design_piece",
+      "image": "assets/products/S-LAMP.jpg",
+      "family": "abensonHOME Larcy",
+      "price_date": "2026-09-10",
+      "price_basis": "Published official category-card online price",
+      "materials": null
+    },
+    {
+      "id": "S-CHAIR",
+      "schemes": [
+        "S"
+      ],
+      "role": "chair",
+      "name": "ISMANTORP Armchair",
+      "brand": "IKEA",
+      "sku": "00598216",
+      "variant": "ISMANTORP Armchair, metal light grey-beige/Tibbleby light beige; article 00598216",
+      "quantity": 1,
+      "unit_centavos": 399900,
+      "line_centavos": 399900,
+      "url": "https://www.ikea.com/ph/en/p/ismantorp-armchair-metal-light-grey-beige-tibbleby-light-beige-00598216/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "",
+      "dimensions": {
+        "width": 720,
+        "depth": 660,
+        "height": 710
+      },
+      "scope": "design_piece",
+      "image": "assets/products/S-CHAIR.avif",
+      "family": "IKEA ISMANTORP",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Fabric: 100% polyester (min. 90% recycled); Backrest frame/ Bracket/ Armrest/ Seat frame/ Seat crossbar: Steel, Epoxy/polyester powder coating; Backrest: Layer-glued wood veneer; Seat: Particleboard"
+    },
+    {
+      "id": "S-CONSOLE",
+      "schemes": [
+        "S"
+      ],
+      "role": "console",
+      "name": "BYÅS TV unit",
+      "brand": "IKEA",
+      "sku": "00352573",
+      "variant": "TV unit, high gloss white, 160x42x45 cm (63x16 1/2x17 3/4 \")",
+      "quantity": 1,
+      "unit_centavos": 999900,
+      "line_centavos": 999900,
+      "url": "https://www.ikea.com/ph/en/p/byas-tv-unit-high-gloss-white-00352573/",
+      "status": "Available for delivery | Cebu delivery: unconfirmed | price date 2026-09-08 | IKEA",
+      "notes": "",
+      "dimensions": {
+        "width": 1600,
+        "depth": 420,
+        "height": 450
+      },
+      "scope": "design_piece",
+      "image": "assets/products/S-CONSOLE.avif",
+      "family": "IKEA BYÅS",
+      "price_date": "2026-09-08",
+      "price_basis": "Per listed item/combination for exact article number",
+      "materials": "Particleboard and fiberboard construction, including paper-honeycomb top; acrylic-painted, lacquered and foil finishes with plastic edging."
+    },
+    {
+      "id": "S-MIRROR",
+      "schemes": [
+        "S"
+      ],
+      "role": "mirror",
+      "name": "A58000346 Mirror",
+      "brand": "Ashley",
+      "sku": "A58000346",
+      "variant": "A58000346 Mirror; manufacturer SKU A58000346; Default Title; Silver",
+      "quantity": 1,
+      "unit_centavos": 2610000,
+      "line_centavos": 2610000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000346-mirror?variant=50120857354526",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "",
+      "dimensions": {
+        "width": 609.6,
+        "depth": 124.968,
+        "height": 914.4
+      },
+      "scope": "design_piece",
+      "image": "assets/products/S-MIRROR.webp",
+      "family": "Ashley A58000346",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made with mirroed glass, metal and MDF"
+    },
+    {
+      "id": "S-RUG",
+      "schemes": [
+        "S"
+      ],
+      "role": "rug",
+      "name": "GEOLOG Rug, high pile",
+      "brand": "IKEA",
+      "sku": "60627715",
+      "variant": "GEOLOG Rug, high pile, off-white, 160x230 cm; article 60627715",
+      "quantity": 1,
+      "unit_centavos": 849900,
+      "line_centavos": 849900,
+      "url": "https://www.ikea.com/ph/en/p/geolog-rug-high-pile-off-white-60627715/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "",
+      "dimensions": {
+        "width": 1600,
+        "depth": 2300
+      },
+      "scope": "design_piece",
+      "image": "assets/products/S-RUG.avif",
+      "family": "IKEA GEOLOG",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Use surface: 100% polyester (min. 90% recycled); Backing: 100 % Synthetic rubber"
+    },
+    {
+      "id": "S-BEDSPREAD",
+      "schemes": [
+        "S"
+      ],
+      "role": "bedspread",
+      "name": "Bamboo Luxury Duvet Cover",
+      "brand": "Linen & Homes",
+      "sku": "2400030",
+      "variant": "Ivory; listed Ivory / Queen, King to confirm",
+      "quantity": 1,
+      "unit_centavos": 525000,
+      "line_centavos": 525000,
+      "url": "https://www.rustans.com/products/linen-homes-bamboo-luxury-duvet-cover",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Linen & Homes",
+      "notes": "",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/S-BEDSPREAD.webp",
+      "family": "Linen & Homes Bamboo Luxury",
+      "price_date": "2026-10-20",
+      "price_basis": "Official online store price for this exact variant (products.json variant 44338126422155: price 5250, compare-at none); per listed unit as titled",
+      "materials": "100% bamboo fibers"
+    },
+    {
+      "id": "S-PILLOWCASES",
+      "schemes": [
+        "S"
+      ],
+      "role": "sleeping_pillowcase_pack",
+      "name": "Bamboo Luxury Sheet Set (4-Piece) - Gray",
+      "brand": "Linen & Homes",
+      "sku": "2400011",
+      "variant": "Variant 'King'; SKU 2400011",
+      "quantity": 1,
+      "unit_centavos": 695000,
+      "line_centavos": 695000,
+      "url": "https://www.rustans.com/products/linen-and-homes-bamboo-luxury-sheet-set-4-piece-gray",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Linen & Homes",
+      "notes": "",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/S-PILLOWCASES.webp",
+      "family": "Linen & Homes Bamboo Luxury",
+      "price_date": "2026-10-20",
+      "price_basis": "Official online store price for this exact variant (products.json variant 39330796896395: price 6950, compare-at none); per listed unit as titled",
+      "materials": "100% bamboo fiber, 300 thread count"
+    },
+    {
+      "id": "S-CUSHION",
+      "schemes": [
+        "S"
+      ],
+      "role": "accent_cushion_cover",
+      "name": "A51000320 Pillow",
+      "brand": "Ashley",
+      "sku": "A51000320",
+      "variant": "A51000320 Pillow; manufacturer SKU A51000320; Default Title; White/Blue",
+      "quantity": 1,
+      "unit_centavos": 260000,
+      "line_centavos": 260000,
+      "url": "https://store.ashleyfurniture.ph/products/a51000320-pillow?variant=50438790775070",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "",
+      "dimensions": {
+        "width": 450.088,
+        "depth": 450.088,
+        "height": 150.114
+      },
+      "scope": "design_piece",
+      "image": "assets/products/S-CUSHION.jpg",
+      "family": "Ashley A51000320",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made of soft fabric with 100% polyester fiber front and reverse"
+    },
+    {
+      "id": "S-ART",
+      "schemes": [
+        "S"
+      ],
+      "role": "art",
+      "name": "A58000395 Wall Art",
+      "brand": "Ashley",
+      "sku": "A58000395",
+      "variant": "A58000395 Wall Art; manufacturer SKU A58000395; Default Title; Multi",
+      "quantity": 1,
+      "unit_centavos": 1560000,
+      "line_centavos": 1560000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000395-wall-art?variant=49911216996638",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "",
+      "dimensions": {
+        "width": 1016,
+        "depth": 50.8,
+        "height": 1016
+      },
+      "scope": "design_piece",
+      "image": "assets/products/S-ART.webp",
+      "family": "Ashley A58000395",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made with canvas"
+    },
+    {
+      "id": "S-PLANT",
+      "schemes": [
+        "S"
+      ],
+      "role": "plant",
+      "name": "Faux Pencil Succulent",
+      "brand": "Crate & Barrel",
+      "sku": "577288",
+      "variant": "Faux Pencil Succulent; Single listed configuration; published SKU 577288; Shopify variant 44463580774616",
+      "quantity": 1,
+      "unit_centavos": 349900,
+      "line_centavos": 349900,
+      "url": "https://crateandbarrel.com.ph/products/faux-pencil-succulent?variant=44463580774616",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+      "notes": "",
+      "dimensions": {
+        "width": 240.03,
+        "height": 199.898
+      },
+      "scope": "design_piece",
+      "image": "assets/products/S-PLANT.webp",
+      "family": "Crate & Barrel Pencil Succulent",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+      "materials": "65% plastic, 20% cement vase, 10% artificial soil and 5% iron wire"
+    },
+    {
+      "id": "S-DECOR",
+      "schemes": [
+        "S"
+      ],
+      "role": "decor",
+      "name": "A52000139 Vase",
+      "brand": "Ashley",
+      "sku": "A52000139",
+      "variant": "A52000139 Vase; manufacturer SKU A52000139; Default Title; Transparent Blue",
+      "quantity": 1,
+      "unit_centavos": 960000,
+      "line_centavos": 960000,
+      "url": "https://store.ashleyfurniture.ph/products/a52000139-vase?variant=45493388968222",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "",
+      "dimensions": {
+        "width": 180.34,
+        "depth": 647.7,
+        "height": 231.14
+      },
+      "scope": "design_piece",
+      "image": "assets/products/S-DECOR.webp",
+      "family": "Ashley A52000139",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": null
+    },
+    {
+      "id": "T-NIGHTSTAND",
+      "schemes": [
+        "T"
+      ],
+      "role": "nightstand",
+      "name": "Nat13 Night Table",
+      "brand": "Furniture Manila",
+      "sku": "13-nighttable-natural-pcf",
+      "variant": "SKU 13-nighttable-natural-pcf",
+      "quantity": 2,
+      "unit_centavos": 350000,
+      "line_centavos": 700000,
+      "url": "https://www.furnituremanila.com.ph/product/nat13-night-table/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | Furniture Manila",
+      "notes": "Two closed drawers in natural rubberwood on splayed legs (photo). Dimensions unpublished: plans assume 450×400×500 mm; confirm before purchase.",
+      "dimensions": {
+        "width": 450,
+        "depth": 400,
+        "height": 500
+      },
+      "scope": "design_piece",
+      "image": "assets/products/T-NIGHTSTAND.jpg",
+      "family": "Furniture Manila Nat13",
+      "price_date": "2026-09-10",
+      "price_basis": "Published price for the selected listing variant",
+      "materials": "Engineered Wood with Veneer"
+    },
+    {
+      "id": "T-LAMP",
+      "schemes": [
+        "T"
+      ],
+      "role": "lamp",
+      "name": "BLIDVÄDER Table lamp",
+      "brand": "IKEA",
+      "sku": "80514166",
+      "variant": "BLIDVÄDER Table lamp, off-white ceramic/beige, 50 cm; article 80514166",
+      "quantity": 2,
+      "unit_centavos": 349900,
+      "line_centavos": 699800,
+      "url": "https://www.ikea.com/ph/en/p/blidvaeder-table-lamp-off-white-ceramic-beige-80514166/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "",
+      "dimensions": {
+        "height": 500
+      },
+      "scope": "design_piece",
+      "image": "assets/products/T-LAMP.avif",
+      "family": "IKEA BLIDVÄDER",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Base: Stoneware, Colored glaze; Tube: Steel, Brass plated; Shade: 85 % polyester (100% recycled), 15 % linen"
+    },
+    {
+      "id": "T-CHAIR",
+      "schemes": [
+        "T"
+      ],
+      "role": "chair",
+      "name": "Arbour Club Armchair",
+      "brand": "HAY",
+      "sku": "AB215-A414-AA43-01LS",
+      "variant": "Oiled waxed solid oak frame, Atlas 621 upholstery",
+      "quantity": 1,
+      "unit_centavos": null,
+      "line_centavos": null,
+      "url": "https://www.hay.com/hay/furniture/seating/sofa/arbour/arbour-club-armchair-oiled-waxed-solid-oak-frame-upholstery-atlas-621",
+      "status": "QUOTE REQUIRED | PH route: Design Story Philippines (catalogue offer has no price) | Cebu delivery unconfirmed",
+      "notes": "Oak frame with rose Atlas 621 cushions, the coral-family chair. Frozen catalogue offer carries no price, so the line is QUOTE REQUIRED; fabric colour to confirm against a swatch.",
+      "dimensions": {
+        "width": 750,
+        "depth": 850,
+        "height": 750
+      },
+      "scope": "design_piece",
+      "image": "assets/products/T-CHAIR.jpg",
+      "family": "HAY Arbour Club",
+      "price_basis": "QUOTE REQUIRED (frozen catalogue offer OFF-DS-CAT-BA0B055E95B342 has no price)",
+      "materials": "Atlas 621 upholstery; oiled waxed solid oak frame",
+      "price_date": "2026-10-21"
+    },
+    {
+      "id": "T-CONSOLE",
+      "schemes": [
+        "T"
+      ],
+      "role": "console",
+      "name": "Amanda Multi-Layered TV Cabinet",
+      "brand": "abensonHome",
+      "sku": "",
+      "variant": "Finish as photographed (pale grey-oak); listing text says Cherry. Confirm the finish before purchase.",
+      "quantity": 1,
+      "unit_centavos": 499500,
+      "line_centavos": 499500,
+      "url": "https://home.abenson.com/abensonhome-amanda-amino-cherry-tv-cabinet.html",
+      "status": "Sold out | Cebu delivery: unconfirmed | price date 2026-09-10 | abensonHome",
+      "notes": "",
+      "dimensions": {
+        "width": 1500,
+        "depth": 400,
+        "height": 450
+      },
+      "scope": "design_piece",
+      "image": "assets/products/T-CONSOLE.jpg",
+      "family": "abensonHome Amanda",
+      "price_date": "2026-09-10",
+      "price_basis": "Published official category-card online price",
+      "materials": null
+    },
+    {
+      "id": "T-MIRROR",
+      "schemes": [
+        "T"
+      ],
+      "role": "mirror",
+      "name": "Jea Natural Maple Framed Mirror 60x150cm",
+      "brand": "Mandaue Foam",
+      "sku": "138697",
+      "variant": "Single published variant; SKU 138697",
+      "quantity": 1,
+      "unit_centavos": 216000,
+      "line_centavos": 216000,
+      "url": "https://mandauefoam.ph/products/jea-natural-maple-framed-mirror-60x150-cm?variant=46960645210290",
+      "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | Mandaue Foam",
+      "notes": "",
+      "dimensions": {
+        "width": 600,
+        "height": 1500
+      },
+      "scope": "design_piece",
+      "image": "assets/products/T-MIRROR.webp",
+      "family": "Mandaue Foam Jea",
+      "price_date": "2026-09-10",
+      "price_basis": "Official public catalog price in PHP for the selected exact variant; no member discount inferred.",
+      "materials": "Body: MDF Backing: MDF"
+    },
+    {
+      "id": "T-RUG",
+      "schemes": [
+        "T"
+      ],
+      "role": "rug",
+      "name": "JÄRNVÄG Rug, low pile",
+      "brand": "IKEA",
+      "sku": "70623076",
+      "variant": "JÄRNVÄG Rug, low pile, ornament pattern pink/beige, 160x230 cm; article 70623076",
+      "quantity": 1,
+      "unit_centavos": 799900,
+      "line_centavos": 799900,
+      "url": "https://www.ikea.com/ph/en/p/jaernvaeg-rug-low-pile-ornament-pattern-pink-beige-70623076/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "",
+      "dimensions": {
+        "width": 1600,
+        "depth": 2300
+      },
+      "scope": "design_piece",
+      "image": "assets/products/T-RUG.avif",
+      "family": "IKEA JÄRNVÄG",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Use surface: 100 % polypropylene; Backing: 100 % Synthetic rubber"
+    },
+    {
+      "id": "T-BEDSPREAD",
+      "schemes": [
+        "T"
+      ],
+      "role": "bedspread",
+      "name": "REMS bedspread",
+      "brand": "BoConcept",
+      "sku": "104011033760",
+      "variant": "REMS bedspread; manufacturer variant/SKU 104011033760; master 104011033760; selected configuration codes: ",
+      "quantity": 1,
+      "unit_centavos": 3189000,
+      "line_centavos": 3189000,
+      "url": "https://www.boconcept.com/en-ph/p/rems/104_11033760/",
+      "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | BoConcept",
+      "notes": "",
+      "dimensions": {
+        "width": 2500,
+        "depth": 2500
+      },
+      "scope": "design_piece",
+      "image": "assets/products/T-BEDSPREAD.jpg",
+      "family": "BoConcept REMS",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact selected configuration; selected public product price.value, not the lower family starting-price field. Displayed selected RRP; no separate positive beforePrice published.",
+      "materials": "Published material groups: Fabric; composition: Front: 100% linen - Back: 100% cotton"
+    },
+    {
+      "id": "T-PILLOWCASES",
+      "schemes": [
+        "T"
+      ],
+      "role": "sleeping_pillowcase_pack",
+      "name": "Family Home Hotel Living Fitted Sheet Set",
+      "brand": "Family Home",
+      "sku": "38200101",
+      "variant": "Colour as photographed (peach); listed colours White, Mocha, Sand, Gray. Confirm colour and King SKU; priced on White / Queen SKU 38200101.",
+      "quantity": 1,
+      "unit_centavos": 367920,
+      "line_centavos": 367920,
+      "url": "https://ourhome.ph/products/family-home-hotel-living-fitted-sheet-set",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Family Home",
+      "notes": "",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/T-PILLOWCASES.webp",
+      "family": "Family Home Hotel Living",
+      "price_date": "2026-10-20",
+      "price_basis": "Official online store price for this exact variant (products.json variant 32571948499023: price 3679.2, compare-at 4599); per listed unit as titled",
+      "materials": null
+    },
+    {
+      "id": "T-CUSHION",
+      "schemes": [
+        "T"
+      ],
+      "role": "accent_cushion_cover",
+      "name": "Terracotta 36\"x16\" Laundered Linen Throw Pillow Cover",
+      "brand": "Crate & Barrel",
+      "sku": "462148",
+      "variant": "Terracotta 36\"x16\" Laundered Linen Throw Pillow Cover; Terracotta; published SKU 462148; Shopify variant 43189788016856",
+      "quantity": 1,
+      "unit_centavos": 149500,
+      "line_centavos": 149500,
+      "url": "https://crateandbarrel.com.ph/products/terracotta-36x16-laundered-linen-throw-pillow-cover?variant=43189788016856",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+      "notes": "",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/T-CUSHION.jpg",
+      "family": "Crate & Barrel Laundered Linen lumbar",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+      "materials": "Linen-rayon; Reverses to cream cotton-linen"
+    },
+    {
+      "id": "T-ART",
+      "schemes": [
+        "T"
+      ],
+      "role": "art",
+      "name": "A58000251 Wall Art",
+      "brand": "Ashley",
+      "sku": "A58000251",
+      "variant": "A58000251 Wall Art; manufacturer SKU A58000251; Default Title; Multi",
+      "quantity": 2,
+      "unit_centavos": 1130000,
+      "line_centavos": 2260000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000251-wall-art?variant=45493205369118",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "",
+      "dimensions": {
+        "width": 609.6,
+        "depth": 25.4,
+        "height": 787.4
+      },
+      "scope": "design_piece",
+      "image": "assets/products/T-ART.webp",
+      "family": "Ashley A58000251",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made with paperboard"
+    },
+    {
+      "id": "T-PLANT",
+      "schemes": [
+        "T"
+      ],
+      "role": "plant",
+      "name": "Faux Olive and Berry Stem",
+      "brand": "Crate & Barrel",
+      "sku": "478700",
+      "variant": "Faux Olive and Berry Stem; Single listed configuration; published SKU 478700; Shopify variant 43898183680216",
+      "quantity": 1,
+      "unit_centavos": 229900,
+      "line_centavos": 229900,
+      "url": "https://crateandbarrel.com.ph/products/faux-olive-and-berry-stem?variant=43898183680216",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+      "notes": "",
+      "dimensions": {
+        "width": 127,
+        "height": 1016
+      },
+      "scope": "design_piece",
+      "image": "assets/products/T-PLANT.webp",
+      "family": "Crate & Barrel Olive and Berry Stem",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+      "materials": "Polyester, split twigs, plastic, iron and styrofoam"
+    },
+    {
+      "id": "T-PLANTER",
+      "schemes": [
+        "T"
+      ],
+      "role": "planter",
+      "name": "Antiguo White Terracotta Vase 8\"",
+      "brand": "Crate & Barrel",
+      "sku": "349209",
+      "variant": "Antiguo White Terracotta Vase 8\"; Single listed configuration; published SKU 349209; Shopify variant 51611369898200",
+      "quantity": 1,
+      "unit_centavos": 349900,
+      "line_centavos": 349900,
+      "url": "https://crateandbarrel.com.ph/products/antiguo-white-terracotta-vase-9?variant=51611369898200",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+      "notes": "The single cream Antiguo vase (the supplier photo shows it in a group of four).",
+      "dimensions": {
+        "height": 199.898
+      },
+      "scope": "design_piece",
+      "image": "assets/products/T-PLANTER.webp",
+      "family": "Crate & Barrel Antiguo",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+      "materials": null
+    },
+    {
+      "id": "U-NIGHTSTAND",
+      "schemes": [
+        "U"
+      ],
+      "role": "nightstand",
+      "name": "002 Night Table",
+      "brand": "Furniture Manila",
+      "sku": "002-nighttable-black-gat",
+      "variant": "SKU 002-nighttable-black-gat",
+      "quantity": 2,
+      "unit_centavos": 265000,
+      "line_centavos": 530000,
+      "url": "https://www.furnituremanila.com.ph/product/002-night-table/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | Furniture Manila",
+      "notes": "Black faux-leather two-drawer night table with chrome knobs; both drawers closed (photo). Catalogue closure field unverified.",
+      "dimensions": {
+        "width": 406.4,
+        "depth": 406.4,
+        "height": 457.2
+      },
+      "scope": "design_piece",
+      "image": "assets/products/U-NIGHTSTAND.jpg",
+      "family": "Furniture Manila 002",
+      "price_date": "2026-09-10",
+      "price_basis": "Published price for the selected listing variant",
+      "materials": "Leather"
+    },
+    {
+      "id": "U-LAMP",
+      "schemes": [
+        "U"
+      ],
+      "role": "lamp",
+      "name": "Taylow Glass Table Lamp",
+      "brand": "Ashley",
+      "sku": "L430794",
+      "variant": "Taylow Glass Table Lamp; manufacturer SKU L430794; Default Title",
+      "quantity": 2,
+      "unit_centavos": 550000,
+      "line_centavos": 1100000,
+      "url": "https://store.ashleyfurniture.ph/products/taylow-glass-table-lamp?variant=50595170091294",
+      "status": "sold_out_online | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/U-LAMP.webp",
+      "family": "Ashley Taylow",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": null
+    },
+    {
+      "id": "U-CHAIR",
+      "schemes": [
+        "U"
+      ],
+      "role": "chair",
+      "name": "Porro Neve armchair",
+      "brand": "Porro",
+      "sku": "PNEFN/W35",
+      "variant": "Porro Neve armchair / Black Stained Ash; manufacturer SKU PNEFN/W35",
+      "quantity": 1,
+      "unit_centavos": 3903350,
+      "line_centavos": 3903350,
+      "url": "https://kuysenstore.com/products/porro-neve-armchair",
+      "status": "Sold out | Cebu delivery: unconfirmed | price date 2026-09-10 | Porro",
+      "notes": "Black-stained ash frame with flat wooden arms and a black seat. Dimensions unpublished in the catalogue: plans assume 570×530×780 mm.",
+      "dimensions": {
+        "width": 570,
+        "depth": 530,
+        "height": 780
+      },
+      "scope": "design_piece",
+      "image": "assets/products/U-CHAIR.webp",
+      "family": "Porro Neve",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected official online-store variant: Porro Neve armchair / Black Stained Ash",
+      "materials": "Black Stained Ash, Red Stained Ash, Natural Ash, Stained Ash Leather"
+    },
+    {
+      "id": "U-CONSOLE",
+      "schemes": [
+        "U"
+      ],
+      "role": "console",
+      "name": "JÄTTESTA TV unit",
+      "brand": "IKEA",
+      "sku": "70514609",
+      "variant": "TV unit, black, 160x40x49 cm (63x15 3/4x19 1/4 \")",
+      "quantity": 1,
+      "unit_centavos": 799900,
+      "line_centavos": 799900,
+      "url": "https://www.ikea.com/ph/en/p/jaettesta-tv-unit-black-70514609/",
+      "status": "Available for delivery | Cebu delivery: unconfirmed | price date 2026-09-08 | IKEA",
+      "notes": "",
+      "dimensions": {
+        "width": 1600,
+        "depth": 400,
+        "height": 490
+      },
+      "scope": "design_piece",
+      "image": "assets/products/U-CONSOLE.avif",
+      "family": "IKEA JÄTTESTA",
+      "price_date": "2026-09-08",
+      "price_basis": "Per listed item/combination for exact article number",
+      "materials": "Stained bamboo panels with tinted acrylic lacquer; powder-coated steel frame and aluminum cover caps."
+    },
+    {
+      "id": "U-MIRROR",
+      "schemes": [
+        "U"
+      ],
+      "role": "mirror",
+      "name": "A58000438 Accent Mirror",
+      "brand": "Ashley",
+      "sku": "A58000438",
+      "variant": "A58000438 Accent Mirror; manufacturer SKU A58000438; Default Title; Black",
+      "quantity": 1,
+      "unit_centavos": 1680000,
+      "line_centavos": 1680000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000438-accent-mirror?variant=50124782731550",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "",
+      "dimensions": {
+        "width": 584.2,
+        "depth": 22.098,
+        "height": 1066.8
+      },
+      "scope": "design_piece",
+      "image": "assets/products/U-MIRROR.webp",
+      "family": "Ashley A58000438",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": null
+    },
+    {
+      "id": "U-RUG",
+      "schemes": [
+        "U"
+      ],
+      "role": "rug",
+      "name": "Rouen Jute/Wool Blend Triple Striped Black Area Rug 6'x9'",
+      "brand": "Crate & Barrel",
+      "sku": "230625",
+      "variant": "Rouen Jute/Wool Blend Triple Striped Black Area Rug 6'x9'; Single listed configuration; published SKU 230625; Shopify variant 44999344160984",
+      "quantity": 1,
+      "unit_centavos": 3599500,
+      "line_centavos": 3599500,
+      "url": "https://crateandbarrel.com.ph/products/rouen-jute-wool-blend-triple-striped-black-area-rug-6x9?variant=44999344160984",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
+      "notes": "",
+      "dimensions": {
+        "width": 1830,
+        "depth": 2740
+      },
+      "scope": "design_piece",
+      "image": "assets/products/U-RUG.webp",
+      "family": "Crate & Barrel Rouen",
+      "price_date": "2026-09-10",
+      "price_basis": "Per selected Philippine listing configuration; set quantities, covers and inserts follow exact title. Published PHP price excludes unquoted delivery/crating/assembly.",
+      "materials": "wool; jute"
+    },
+    {
+      "id": "U-BEDSPREAD",
+      "schemes": [
+        "U"
+      ],
+      "role": "bedspread",
+      "name": "Q5001671K King Coverlet Duvet Cover Set",
+      "brand": "Ashley",
+      "sku": "Q5001671K",
+      "variant": "Q5001671K King Coverlet Duvet Cover Set; manufacturer SKU Q5001671K; Default Title; White",
+      "quantity": 1,
+      "unit_centavos": 2180000,
+      "line_centavos": 2180000,
+      "url": "https://store.ashleyfurniture.ph/products/q5001671k-king-coverlet-duvet-cover-set?variant=50111664849182",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/U-BEDSPREAD.png",
+      "family": "Ashley Q5001671K",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made with cotton; Polyester fill"
+    },
+    {
+      "id": "U-PILLOWCASES",
+      "schemes": [
+        "U"
+      ],
+      "role": "sleeping_pillowcase_pack",
+      "name": "Canadian T300 Tencel Fitted Sheet Set",
+      "brand": "Our Home Philippines",
+      "sku": "39230983",
+      "variant": "Fossil Gray / King (listed Steel Blue / Queen SKU 39230983; Fossil Gray King SKU and price to confirm)",
+      "quantity": 1,
+      "unit_centavos": 639920,
+      "line_centavos": 639920,
+      "url": "https://ourhome.ph/products/canadian-t300-tencel-fitted-sheet-set",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Our Home Philippines",
+      "notes": "",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/U-PILLOWCASES.webp",
+      "family": "Our Home Canadian T300",
+      "price_date": "2026-10-20",
+      "price_basis": "Official online store price for this exact variant (products.json variant 43854428668145: price 6399.2, compare-at 7999); per listed unit as titled",
+      "materials": "Tencel (lyocell and modal fibers, per listing)"
+    },
+    {
+      "id": "U-CUSHION",
+      "schemes": [
+        "U"
+      ],
+      "role": "accent_cushion_cover",
+      "name": "Telas De Mercato Santiago Green Plain Cushion Cover",
+      "brand": "Telas de Mercato",
+      "sku": "39237341",
+      "variant": "Default Title",
+      "quantity": 1,
+      "unit_centavos": 80910,
+      "line_centavos": 80910,
+      "url": "https://ourhome.ph/products/telas-de-mercato-santiago-green-plain-cushion-cover?variant=46019275522289",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Telas de Mercato",
+      "notes": "",
+      "dimensions": {},
+      "scope": "design_piece",
+      "image": "assets/products/U-CUSHION.jpg",
+      "family": "Telas de Mercato Santiago",
+      "price_date": "2026-09-10",
+      "price_basis": "Official public online catalog price for the selected variant; per item. Cebu branch quotation and delivered total unconfirmed.",
+      "materials": "100% Polyester"
+    },
+    {
+      "id": "U-ART",
+      "schemes": [
+        "U"
+      ],
+      "role": "art",
+      "name": "A58000352 Wall Art",
+      "brand": "Ashley",
+      "sku": "A58000352",
+      "variant": "A58000352 Wall Art; manufacturer SKU A58000352; Default Title; Multi",
+      "quantity": 1,
+      "unit_centavos": 3280000,
+      "line_centavos": 3280000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000352-wall-art?variant=49910784327966",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "",
+      "dimensions": {
+        "width": 1059.942,
+        "depth": 50.038,
+        "height": 1059.942
+      },
+      "scope": "design_piece",
+      "image": "assets/products/U-ART.webp",
+      "family": "Ashley A58000352",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made with canvas"
+    },
+    {
+      "id": "U-PLANT",
+      "schemes": [
+        "U"
+      ],
+      "role": "plant",
+      "name": "at home Jael Peperomia Plant",
+      "brand": "abensonHOME catalog",
+      "sku": "",
+      "variant": "Artificial Plastic Peperomia Plant, Plastic Pot",
+      "quantity": 1,
+      "unit_centavos": 49900,
+      "line_centavos": 49900,
+      "url": "https://home.abenson.com/at-home-jael-peperomia-plant-green-artificial-plastic-peperomia-plant.html",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | abensonHOME catalog",
+      "notes": "",
+      "dimensions": {
+        "width": 254,
+        "depth": 254,
+        "height": 317.5
+      },
+      "scope": "design_piece",
+      "image": "assets/products/U-PLANT.jpg",
+      "family": "abensonHOME Jael Peperomia",
+      "price_date": "2026-09-10",
+      "price_basis": "Published official category-card online price",
+      "materials": null
+    },
+    {
+      "id": "U-DECOR",
+      "schemes": [
+        "U"
+      ],
+      "role": "decor",
+      "name": "Fern Green 12.5\" Round Marble Tray",
+      "brand": "Crate & Barrel",
+      "sku": "605874",
+      "variant": "Single listed variant; SKU 605874",
+      "quantity": 1,
+      "unit_centavos": 799900,
+      "line_centavos": 799900,
+      "url": "https://crateandbarrel.com.ph/products/fern-green-12-5-round-marble-tray",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Crate & Barrel",
+      "notes": "",
+      "dimensions": {
+        "width": 317.5,
+        "depth": 317.5,
+        "height": 25.4
+      },
+      "scope": "design_piece",
+      "image": "assets/products/U-DECOR.webp",
+      "family": "Crate & Barrel Fern Green marble tray",
+      "price_date": "2026-10-20",
+      "price_basis": "Official online store price for this exact variant (products.json variant 50721025622232: price 7999, compare-at 7999); per listed unit as titled",
+      "materials": "Green marble"
+    },
+    {
+      "id": "DUVET-INSERT",
+      "schemes": [
+        "S"
+      ],
+      "role": "bedding_insert",
+      "name": "Hypoallergenic Lightweight King Duvet Insert",
+      "brand": "Crate & Barrel",
+      "sku": "448389",
+      "variant": "Single listed variant; SKU 448389",
+      "quantity": 1,
+      "unit_centavos": 799500,
+      "line_centavos": 799500,
+      "url": "https://crateandbarrel.com.ph/products/hypoallergenic-lightweight-king-duvet-insert",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-10-20 | Crate & Barrel",
+      "notes": "King duvet insert for the S duvet cover (hidden). T uses a filled comforter and U a coverlet set, so neither needs one.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/DUVET-INSERT.webp",
+      "family": "Crate & Barrel Hypoallergenic insert",
+      "price_date": "2026-10-20",
+      "price_basis": "Official online store price for this exact variant (products.json variant 42852610801880: price 7995, compare-at 19999); per listed unit as titled",
+      "materials": "100% cambric cotton cover; microfiber cluster fill"
+    },
+    {
+      "id": "SYS-TV75",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "75-inch Crystal UHD TV UA75U8520HGXXP",
+      "brand": "",
+      "sku": "10179413",
+      "variant": "10179413",
+      "quantity": 1,
+      "unit_centavos": 5199000,
+      "line_centavos": 5199000,
+      "url": "https://www.smappliance.com/products/ua75u8520hgxxp-samsung-75-crystal-uhd-4k-smart-tv",
+      "status": "Live retailer available=true; Cebu branch allocation unconfirmed",
+      "notes": "TV is wall mounted; feet not used; published VESA400x300,21.6kg without stand.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/SYS-TV75.jpg",
+      "family": "SYS-TV75"
+    },
+    {
+      "id": "SYS-AC",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "TCL 1.5 HP split inverter TAC-13CSD/KEI2",
+      "brand": "",
+      "sku": "10177771",
+      "variant": "10177771",
+      "quantity": 1,
+      "unit_centavos": 1963150,
+      "line_centavos": 1963150,
+      "url": "https://www.smappliance.com/products/tac-13csd-kei2-tcl-1-5hp-ai-split-inv-ac-full-dc",
+      "status": "Live retailer available=true; Cebu branch allocation unconfirmed",
+      "notes": "Equipment-only reference. 1.5HP is a budget candidate, not a heat-load approval; installer must confirm capacity, piping, drainage, condenser location and corner clearances.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/SYS-AC.jpg",
+      "family": "SYS-AC"
+    },
+    {
+      "id": "SYS-MOUNT",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "True Vision extra-large TV wall mount TV73-69F, 60–120 in, 120 kg, VESA 400×300 listed",
+      "brand": "",
+      "sku": "TV73-69F",
+      "variant": "TV73-69F (manufacturer product 5959)",
+      "quantity": 1,
+      "unit_centavos": 299000,
+      "line_centavos": 299000,
+      "url": "https://www.truevision.com.ph/product/true-vision-extra-large-full-motion-tv-wall-mount-for-60-120/",
+      "status": "Manufacturer store API is_in_stock:true, is_purchasable:true (technical research 20 Oct 2026) | Cebu delivery not checked",
+      "notes": "Replaces the unavailable Westinghouse reference. Published 35×1005×625 mm; installer to confirm substrate, anchors, Samsung screw/spacer lengths and rear connector access.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/SYS-MOUNT.jpg",
+      "family": "SYS-MOUNT",
+      "price_date": "2026-10-20",
+      "price_basis": "Manufacturer current Store API price 2,990 (sale price not applied)"
+    },
+    {
+      "id": "CUR-BASE",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "Master bedroom drapes + sheers,2 tracks,inverted pleats",
+      "brand": "",
+      "sku": "16 Oct2026 supplier quotation",
+      "variant": "16 Oct2026 supplier quotation",
+      "quantity": 1,
+      "unit_centavos": 3672000,
+      "line_centavos": 3672000,
+      "url": null,
+      "status": "DATED QUOTE - fabric identity and current scope require reconfirmation",
+      "notes": "Quoted master-bedroom discounted row. Davies Beige+voile remain owner selected, but this quote does not name exact fabric SKU; no claim of verified fabric match. Install/travel terms need reconfirmation.",
+      "dimensions": {},
+      "scope": "fixed_room_treatment",
+      "image": null,
+      "family": "CUR-BASE"
+    },
+    {
+      "id": "CUR-BOARD",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "Finished valance/pelmet:1 of6 quoted areas",
+      "brand": "",
+      "sku": "22800/6 allocation",
+      "variant": "22800/6 allocation",
+      "quantity": 1,
+      "unit_centavos": 380000,
+      "line_centavos": 380000,
+      "url": null,
+      "status": "PLANNING ALLOCATION - supplier has not separately quoted this room",
+      "notes": "Equal allocation of quoted whole-apartment valance total22800 across6 areas. Not an independently quoted per-room price.",
+      "dimensions": {},
+      "scope": "fixed_room_treatment",
+      "image": null,
+      "family": "CUR-BOARD"
+    },
+    {
+      "id": "CUR-STICKS",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "Four curtain pull sticks:1 of6 quoted areas",
+      "brand": "",
+      "sku": "11400/6 allocation",
+      "variant": "11400/6 allocation",
+      "quantity": 1,
+      "unit_centavos": 190000,
+      "line_centavos": 190000,
+      "url": null,
+      "status": "PLANNING ALLOCATION - supplier has not separately quoted this room",
+      "notes": "Quoted whole-apartment24sticks total11400; allocate4sticks1900. Confirm length/quantity and no-cord operation.",
+      "dimensions": {},
+      "scope": "fixed_room_treatment",
+      "image": null,
+      "family": "CUR-STICKS"
+    },
+    {
+      "id": "SHARED-FLAT-SHEET",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "DVALA flat sheet, white",
+      "brand": "",
+      "sku": "806.211.71",
+      "variant": "806.211.71",
+      "quantity": 1,
+      "unit_centavos": 69900,
+      "line_centavos": 69900,
+      "url": "https://www.ikea.com/ph/en/p/dvala-flat-sheet-white-80621171/",
+      "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
+      "notes": "Neatly wrap50mm mattress; not an elastic fitted-sheet claim.2400×2600 less1828.8×1981.2 leaves285.6mm per side and309.4mm per end before50mm depth; ample proposed tuck. Catalogue says63–71in beds; this is a proposed thin-mattress flat wrap, verify onsite. No thick mattress/duvet inferred.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/SHARED-FLAT-SHEET.jpg",
+      "family": "SHARED-FLAT-SHEET"
+    },
+    {
+      "id": "SHARED-SLEEPING-PILLOWS",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "LAPPTATEL pillow, side/back sleeper",
+      "brand": "",
+      "sku": "604.603.72",
+      "variant": "604.603.72",
+      "quantity": 2,
+      "unit_centavos": 39900,
+      "line_centavos": 79800,
+      "url": "https://www.ikea.com/ph/en/p/lapptatel-pillow-side-back-sleeper-60460372/",
+      "status": "https://schema.org/InStock; Cebu allocation unconfirmed",
+      "notes": "2individual50×80cm sleeping pillow inserts per scheme; no health or comfort certification.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/SHARED-SLEEPING-PILLOWS.jpg",
+      "family": "SHARED-SLEEPING-PILLOWS"
+    },
+    {
+      "id": "SHARED-RUG-UNDERLAY",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "STOPP FILT anti-slip rug underlay",
+      "brand": "",
+      "sku": "301.830.84",
+      "variant": "301.830.84",
+      "quantity": 2,
+      "unit_centavos": 49900,
+      "line_centavos": 99800,
+      "url": "https://www.ikea.com/ph/en/p/stopp-filt-rug-underlay-with-anti-slip-30183084/",
+      "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
+      "notes": "Two 165×235 cm sheets per rug, cut flat beneath the 160×230 cm rug (S, T) or combined beneath the 183×274 cm rug (U).",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/SHARED-RUG-UNDERLAY.jpg",
+      "family": "SHARED-RUG-UNDERLAY"
+    },
+    {
+      "id": "SHARED-CUSHION-INSERT",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "INNER cushion insert, white",
+      "brand": "",
+      "sku": "402.621.94",
+      "variant": "402.621.94",
+      "quantity": 1,
+      "unit_centavos": 20000,
+      "line_centavos": 20000,
+      "url": "https://www.ikea.com/ph/en/p/inner-cushion-white-40262194/",
+      "status": "https://schema.org/InStock; Cebu allocation unconfirmed",
+      "notes": "One INNER 50×50 cm insert for the scheme cushion cover (S, T and U each have one cover).",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/SHARED-CUSHION-INSERT.jpg",
+      "family": "SHARED-CUSHION-INSERT"
+    },
+    {
+      "id": "LAMP-BULBS-E27",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "SOLHETTA E27 opal LED bulb 470 lm, 2-piece pack",
+      "brand": "",
+      "sku": "105.914.84",
+      "variant": "105.914.84",
+      "quantity": 2,
+      "unit_centavos": 9900,
+      "line_centavos": 19800,
+      "url": "https://www.ikea.com/ph/en/p/solhetta-led-bulb-e27-470-lumen-globe-opal-10591484/",
+      "status": "https://schema.org/InStoreOnly; Cebu allocation unconfirmed",
+      "notes": "Two 2-packs per scheme for the bedside pair plus spare. Socket types for Larcy (S), BLIDVÄDER (T) and Taylow (U) are not all published; confirm E27 before purchase.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": "assets/products/AC-LAMP-BULBS.jpg",
+      "family": "AC-LAMP-BULBS"
+    },
+    {
+      "id": "REQUIRED-MATTRESS50",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "Made-to-order mattress, finished 50 mm × 1828.8 × 1981.2 mm",
+      "brand": "",
+      "sku": "Exact specification requires supplier acceptance",
+      "variant": "Exact specification requires supplier acceptance",
+      "quantity": 1,
+      "unit_centavos": null,
+      "line_centavos": null,
+      "url": "https://uratex.com.ph/products/mattress-made-to-order",
+      "status": "QUOTE REQUIRED; exact finished thickness not yet accepted",
+      "notes": "Real MTO service, not a verified off-the-shelf 50mm model. Reserve ₱4,000–12,000 below; never treat as free.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": null,
+      "family": "REQUIRED-MATTRESS50"
+    },
+    {
+      "id": "REQUIRED-FLAT-DECK",
+      "schemes": [
+        "S",
+        "T",
+        "U"
+      ],
+      "role": "technical",
+      "name": "Continuous flat bed support and any frame adaptation",
+      "brand": "",
+      "sku": "Bed-specific engineered specification required",
+      "variant": "Bed-specific engineered specification required",
+      "quantity": 1,
+      "unit_centavos": null,
+      "line_centavos": null,
+      "url": null,
+      "status": "QUOTE REQUIRED; all three frames conditional",
+      "notes": "No slats or gaps at contact surface. Confirm load, bearing, fixings, seams, recess/rail height, finished mattress exposure, moisture requirements and warranty. Reserve ₱6,000–15,000 below.",
+      "dimensions": {},
+      "scope": "technical_essential",
+      "image": null,
+      "family": "REQUIRED-FLAT-DECK"
+    }
+  ],
+  "source_notes": [
+    "Catalogue of record: frozen live-Airtable snapshot of 20 Oct 2026 (tmp/408-bedroom-fresh-live-airtable-2026-10-20). No Airtable writes.",
+    "39 visible selections across S/T/U, each with a supplier photo copied into dist/assets/products; models and families were checked against the earlier schemes and the GHI, JKL and MNO claims (UNIQUENESS-MATRIX.md).",
+    "Product photos are unaltered retailer references. Plans use published dimensions where available and flag defaults where not.",
+    "PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made."
+  ]
+}

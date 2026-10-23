@@ -1,8 +1,8 @@
 # Isah’s shared picks
 
-The main `index.html` shows all 18 finished GPT/Astra and Claude/Fable designs together. Connect through **Shared choices** to synchronize preferred, neutral and excluded items on this same page. Without a private connection, choices stay in the current browser and support explicit export/import.
+The main `index.html` shows all 21 finished GPT/Astra and Claude/Fable designs together. Connect through **Shared choices** to synchronize preferred, neutral and excluded items on this same page. Without a private connection, choices stay in the current browser and support explicit export/import.
 
-The original D/E/F page is preserved at `fable-def.html`; G/H/I, J/K/L and M/N/O retain their original folders. Root private-access links connect directly on the combined page and remove the private fragment before loading collection data. Existing legacy item/picks links remain compatible. The catalogue keeps all 243 original IDs and adds Astra items for 627 unique IDs across current and historical versions. Historical choices remain retained even though archive browsing links and archived picks are hidden from the main page.
+The original D/E/F page is preserved at `fable-def.html`; G/H/I, J/K/L, M/N/O and S/T/U retain their original folders. Root private-access links connect directly on the combined page and remove the private fragment before loading collection data. Existing legacy item/picks links remain compatible. The catalogue keeps all 243 original IDs and adds Astra and S/T/U items for 680 unique IDs across current and historical versions. Historical choices remain retained even though archive browsing links and archived picks are hidden from the main page.
 
 ## Exclusions and the next design
 
