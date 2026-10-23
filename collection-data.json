@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-room-switcher / 2026-10-23T16:10:00+08:00",
+  "build": "408-dining-room-file / 2026-10-23T16:30:00+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -27693,82 +27693,108 @@
       "label": "Dining area",
       "short": "Dining",
       "status": "queued",
-      "statusLabel": "Room file ready · no designs yet",
-      "lead": "Sheet 1 right blow-up (1:50). XY traced from the chains; heights placeholder. Checked 23 Oct 2026 against Jamaica's J055 (from the hallway) and J060 (kitchen pass-through): orientation confirmed, one discrepancy on the west wall.",
+      "statusLabel": "Room file set from photos and Ivan's answers · no designs yet",
+      "lead": "Sheet 1 right blow-up (1:50), re-read on 23 Oct 2026 against the 7 Sep contractor photos (F023–F029) and Ivan's answers: the dining is 3680 wide and ends at the arch–counter corner (90°, Ivan); the arch to the living is in the WEST wall; the kitchen pass-through starts at the north wall's east end and runs on along the passage; the east wall's free north end is the passage to the master bedroom; the kitchen has no door. Nothing taped yet.",
       "plan": {
         "image": "rooms/dining-plan.png",
-        "caption": "Sheet 1 dining blow-up, 1:50. 3680 clear × 4468 mm; west window 1735 between piers, south window 3558 in four lights."
+        "caption": "Sheet 1 dining blow-up, 1:50. Re-read 23 Oct as 3680 × 4468 mm (the 3831 chain ran past the arch–counter corner); west window 1735 between piers, south window 3558 in four lights."
       },
       "photos": [
         {
-          "image": "rooms/hallway-photo-j055.jpg",
-          "caption": "22 Oct 2026, Jamaica J055, from the hallway looking south: the four-light south window with the AC under its east end, the dark arch to the living on the left, the ceiling fan with light kit."
+          "image": "rooms/dining-photo-f027.jpg",
+          "caption": "7 Sep 2026, contractor photo F027, from the north-west corner looking south-east: the four-light south window with the window AC under its east end, the ceiling fan, the east wall where the split unit would go."
+        },
+        {
+          "image": "rooms/dining-photo-f025.jpg",
+          "caption": "7 Sep 2026, contractor photo F025, from the south-east looking north-west: the arch to the living in the west wall, the plain north wall, the kitchen pass-through opening at the north-east corner."
         },
         {
           "image": "rooms/dining-photo-j060.jpg",
-          "caption": "22 Oct 2026, Jamaica J060: the two-level marble pass-through from the kitchen on the dining's north wall; the arch to the living at the far left."
+          "caption": "22 Oct 2026, Jamaica J060: the two-level marble pass-through from the kitchen at the north wall's east end; the counter continues east along the passage. The arch to the living is in the west wall, far left."
         }
       ],
       "model": [
         {
           "image": "rooms/DIN-plan.webp",
-          "caption": "Deterministic room model from 408-DIN.json, plan view, with the pass-through counter and the fan where the photos put them."
+          "caption": "Deterministic room model from 408-DIN.json, plan view: table 1800 × 900 north–south for six, rug 2000 × 2900, pass-through at the north-east, piers framing the west window, the passage to the master bedroom at the east wall's north end."
         },
         {
-          "image": "rooms/DIN-main.webp",
-          "caption": "Deterministic room model, main view. The red band lists the values still placeholder."
+          "image": "rooms/DIN-arch.webp",
+          "caption": "Room model from the arch looking east: the table and chairs, the proposed split unit high on the east wall centred on the table, the passage beyond."
+        },
+        {
+          "image": "rooms/DIN-window.webp",
+          "caption": "Room model from the south window's east end looking north-west to the arch and the pass-through."
+        },
+        {
+          "image": "rooms/dining-overlay-f027.webp",
+          "caption": "F027 with the proposal drawn at true scale: 1800 × 900 table, six chairs, 200 × 290 rug, split unit on the east wall. Camera matched by eye; dimensions plan-drawn, not surveyed."
+        },
+        {
+          "image": "rooms/dining-overlay-f025.webp",
+          "caption": "F025 with the same proposal, looking at the arch and the pass-through; the table's north end leaves a lane between the arch and the passage. Camera matched by eye; dimensions plan-drawn, not surveyed."
+        },
+        {
+          "image": "rooms/dining-overlay-f023.webp",
+          "caption": "F023 with the same proposal, from in front of the west window looking north-east to the pass-through and the passage. Camera matched by eye; dimensions plan-drawn, not surveyed."
         }
       ],
       "dimensions": [
         {
           "label": "Footprint",
-          "value": "3680 × 4468 mm clear (3831 is to the outer face)",
-          "basis": "drawn"
+          "value": "3680 × 4468 mm",
+          "basis": "drawn, re-read 23 Oct; corner 90° (Ivan)"
+        },
+        {
+          "label": "Arch to the living A-W",
+          "value": "≈1400 wide, head ≈2200, in the west wall 370 from the north corner",
+          "basis": "photos; sizes assumed"
+        },
+        {
+          "label": "Passage to the master bedroom",
+          "value": "1566 mm at the east wall's north end",
+          "basis": "drawn + Ivan"
+        },
+        {
+          "label": "Kitchen pass-through W-PASS",
+          "value": "920 mm counter opening from the north wall's east end, counter ≈1050, head ≈1550; door-less kitchen off the passage",
+          "basis": "photos + Ivan; heights assumed"
         },
         {
           "label": "South window W-S",
-          "value": "3558 mm, four lights, AC under the east end",
+          "value": "3558 mm, four lights, window AC under the east end (to go)",
           "basis": "drawn + photo"
         },
         {
           "label": "West window W-W",
-          "value": "1735 mm between piers",
-          "basis": "drawn"
-        },
-        {
-          "label": "Arch to the living A-E",
-          "value": "1566 mm on the east wall",
-          "basis": "drawn + photo"
-        },
-        {
-          "label": "North-east opening A-N",
-          "value": "1071 mm, destination unknown",
-          "basis": "drawn"
-        },
-        {
-          "label": "Kitchen pass-through",
-          "value": "two-level counter on the north wall",
-          "basis": "photo, not drawn"
+          "value": "1735 mm between piers; same blinds as the rest of the unit",
+          "basis": "drawn + Ivan"
         },
         {
           "label": "Ceiling fan",
-          "value": "centred, south of mid-depth",
-          "basis": "photo, placeholder"
+          "value": "stays; drawn centred over the table",
+          "basis": "Ivan; position assumed"
+        },
+        {
+          "label": "Split AC",
+          "value": "proposed high on the east wall over the table; outdoor unit outside the south window's east end",
+          "basis": "Ivan, 23 Oct; not yet bought"
         },
         {
           "label": "Ceiling, sills, heads",
           "value": "2700 / 900 / 2350 mm",
-          "basis": "placeholder"
+          "basis": "assumed, stated basis, not accepted"
         }
       ],
       "toMeasure": [
-        "Ceiling height, sills, heads, arch head",
-        "Fan position",
-        "Counter height and length",
-        "Site check: which wall holds the dark arch. Facing the pass-through, the photos put it on the left-hand (west) wall near the pass-through corner; the drawing leaves a gap on the east wall instead."
+        "Tape: ceiling height, window sills and heads, the arch (width, head, offset from the north corner)",
+        "Tape: the pass-through opening (length, counter height, head) and the passage width to the master bedroom",
+        "Fan centre from the west and north walls",
+        "Ivan to confirm: standing at the counter facing the dining, is the arch on the RIGHT? The photos say yes; the drawing was first read the other way.",
+        "Blind line for the 1735 west window (the quote needs it)"
       ],
-      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack); the room-pack wiring for the rest of the unit is draft PR ivanbozhilov1/Ivan#6. The engine's gate blocks AI renders while a room file still holds placeholder values, so the first pack for a room needs its heights taped or accepted as assumptions.",
-      "emptyNote": "No dining-area designs are published yet. Packs are generated offline by the room-pack chain and appear here as a set once published."
+      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack). The dining room file now passes the engine's gate with warnings only: every height is an assumed value with a stated basis and none is accepted yet. The photo overlays (tools/design-pack/room/overlay/dining) are the first-pass layout check before any AI render.",
+      "emptyNote": "No dining-area designs are published yet. The layout proposal (1800 × 900 table for six, no buffet, split unit on the east wall, fan kept) is on the overlays above."
     },
     {
       "id": "hallway",
