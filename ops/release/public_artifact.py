@@ -54,8 +54,8 @@ def resolve(root: Path, parent: Path, ref: str) -> Path | None:
         return None
     if '\\' in value or '\x00' in value:
         raise ValueError(f'unsafe local reference in {parent.relative_to(root)}')
-    if value.startswith('/bedroom-design-options/'):
-        value = value[len('/bedroom-design-options/'):]
+    if value.startswith('/408/'):
+        value = value[len('/408/'):]
         target = root / value
     elif value.startswith('/'):
         target = root / value.lstrip('/')

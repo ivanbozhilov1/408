@@ -27,6 +27,13 @@ class PublicArtifactTests(unittest.TestCase):
         self.write('index.html', '<img src="missing.png">')
         with self.assertRaisesRegex(ValueError, 'missing'):
             reachable(self.root)
+    def test_site_root_links_resolve_under_408_only(self):
+        self.write('index.html', '<img src="/408/assets/hero.webp"><a href="/408/ghi/?shared-picks=1#row-G-BED">set</a>')
+        self.write('assets/hero.webp', 'synthetic image'); self.write('ghi/index.html', '<p>set</p>')
+        self.assertIn('assets/hero.webp', {p.relative_to(self.root.resolve()).as_posix() for p in reachable(self.root)})
+        self.write('index.html', '<img src="/bedroom-design-options/assets/hero.webp">')
+        with self.assertRaisesRegex(ValueError, 'missing'):
+            reachable(self.root)
     def test_traversal_fails(self):
         self.write('index.html', '<a href="../outside.pdf">escape</a>')
         with self.assertRaisesRegex(ValueError, 'traversal'):

@@ -5,7 +5,7 @@
 ```sh
 python ops/release/public_artifact.py --gallery . --out ../public --cache-dir ../render-cache --chromium /path/to/chrome
 python ops/release/release.py prepare --gallery /current/gallery --accepted-manifest /private/accepted.json --catalogue /private/catalogue-readback.json --out /fresh/release --chromium /path/to/chrome
-python ops/release/release.py readback --manifest /fresh/release/release-manifest.json --base-url https://ivanbozhilov1.github.io/bedroom-design-options/ --chromium /path/to/chrome
+python ops/release/release.py readback --manifest /fresh/release/release-manifest.json --base-url https://ivanbozhilov1.github.io/408/ --chromium /path/to/chrome
 ```
 
 The operator selects the trusted gallery. The deterministic checker is always its canonical `ops/picks/check_design.mjs` and adjacent `preferences.js` and `usage.js`; a job cannot supply an executable or shell hook. Prepare requires a clean tracked checkout, pins HEAD, queries the actual `origin/main` tip with read-only `git ls-remote`, requires it match `targetHead` and be an ancestor, and repeats admission after encoding. A repository with no origin can prepare a synthetic/local fixture but records a deployment hold. No implicit Git/API/network mutation occurs.
