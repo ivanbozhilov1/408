@@ -68,20 +68,20 @@
     {
       "id": "G",
       "title": "Graphite Steel",
-      "rationale": "Chalk-white tufted Gavino bed and a plain white duvet against anthracite powder-coated steel: GRÅFJÄLLET door bedsides, a FJÄLLBO mesh-door console and a slim black floor mirror. A graphite embossed-felt Kartell Clap armchair, a storm-grey chunky wool cushion and a grey-black TANNISBY kilim give the felt-and-wool texture. Light is directional: two black Tripod HM9 angled task lamps and a dark HEKTAR industrial pendant. Two brushed-black frames over the bed hold the owners' own black-and-white photographs; a spiky agave in a cement bowl softens the console. Squint phrase: black steel, chalk, felt.",
+      "rationale": "Chalk-white tufted Gavino bed and a plain white duvet against anthracite powder-coated steel: GRÅFJÄLLET door bedsides, a FJÄLLBO mesh-door console and a slim black floor mirror. A graphite embossed-felt Kartell Clap armchair, a storm-grey chunky wool cushion and a grey-black TANNISBY kilim give the felt-and-wool texture. Light is directional: two black Tripod HM9 angled task lamps. Two brushed-black frames over the bed hold the owners' own black-and-white photographs; a spiky agave in a cement bowl softens the console. Squint phrase: black steel, chalk, felt.",
       "palette": [
         "#2f3133",
         "#f2f0eb",
         "#6b6e70"
       ],
       "budget": {
-        "design_centavos": 25614400,
+        "design_centavos": 25464500,
         "common_centavos": 12090450,
-        "priced_centavos": 37704850,
+        "priced_centavos": 37554950,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 454000,
-        "total_high_php": 508000
+        "total_low_php": 452000,
+        "total_high_php": 506000
       },
       "fit_notes": [
         "GRÅFJÄLLET bedsides 450×360 each side of the Gavino King; Gavino outer size not published, fit uses the mattress envelope.",
@@ -93,20 +93,20 @@
     {
       "id": "H",
       "title": "Travertine Blush",
-      "rationale": "Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery (listed Grey; the supplier photo reads sand), taupe percale bedding on a soft low-pile leaf rug; stone surfaces carry the room: sintered-stone Venice bedsides, a white-marble Youset console, a marble-banded Emilia mirror and a stone-textured round wall piece. Blush is the single accent, on one coral-blush striped cushion and one blush-banded ceramic vase. Light is frosted: opal-globe Journey SHY1 bedside lamps and a three-globe SIMRISHAMN opal pendant. A soft beige Heather armchair with a back pillow sits in the window corner. Squint phrase: stone and blush.",
+      "rationale": "Frances bed with a big curved wraparound headboard in warm sand-taupe upholstery (listed Grey; the supplier photo reads sand), taupe percale bedding on a soft low-pile leaf rug; stone surfaces carry the room: sintered-stone Venice bedsides, a white-marble Youset console, a marble-banded Emilia mirror and a stone-textured round wall piece. Blush is the single accent, on one coral-blush striped cushion and one blush-banded ceramic vase. Light is frosted: opal-globe Journey SHY1 bedside lamps. A soft beige Heather armchair with a back pillow sits in the window corner. Squint phrase: stone and blush.",
       "palette": [
         "#e9e2d8",
         "#d9a49a",
         "#8f8a86"
       ],
       "budget": {
-        "design_centavos": 23692678,
-        "common_centavos": 12135150,
-        "priced_centavos": 35827828,
+        "design_centavos": 23292778,
+        "common_centavos": 12090450,
+        "priced_centavos": 35383228,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 433000,
-        "total_high_php": 487000
+        "total_low_php": 428000,
+        "total_high_php": 482000
       },
       "fit_notes": [
         "Venice bedsides 500×400 each side of the Frances King (published King outer not confirmed; fit uses the mattress envelope plus wings).",
@@ -118,20 +118,20 @@
     {
       "id": "I",
       "title": "Plum Lacquer",
-      "rationale": "Charcoal button-tufted wingback Griffin II on a walnut drawer base, dressed in a quiet grey quilt cover with a plum-and-lilac handwoven Pintig cushion and a 1.8 m dark-red eucalyptus branch in a smoked-grey glass floor vase. Dark case goods: black-brown KULLEN two-drawer bedsides and a black Sigma Senor console. Smoked glass is the light: HÖGVIND grey-glass table lamps and the matching three-lamp HÖGVIND pendant. A dark-grey Kelly swivel tub chair, a black wavy Sabrina floor mirror, a dark RÅVAROR stripe flatweave with fine wine-red lines and one large black-and-grey abstract canvas over the bed. Squint phrase: dark lacquer, plum, smoked glass.",
+      "rationale": "Charcoal button-tufted wingback Griffin II on a walnut drawer base, dressed in a quiet grey quilt cover with a plum-and-lilac handwoven Pintig cushion and a 1.8 m dark-red eucalyptus branch in a smoked-grey glass floor vase. Dark case goods: black-brown KULLEN two-drawer bedsides and a black Sigma Senor console. Smoked glass is the light: HÖGVIND grey-glass table lamps. A dark-grey Kelly swivel tub chair, a black wavy Sabrina floor mirror, a dark RÅVAROR stripe flatweave with fine wine-red lines and one large black-and-grey abstract canvas over the bed. Squint phrase: dark lacquer, plum, smoked glass.",
       "palette": [
         "#2b2326",
         "#5e2a45",
         "#7d7f84"
       ],
       "budget": {
-        "design_centavos": 17329400,
-        "common_centavos": 12135150,
-        "priced_centavos": 29464550,
+        "design_centavos": 16729500,
+        "common_centavos": 12090450,
+        "priced_centavos": 28819950,
         "reserve_low_centavos": 3500000,
         "reserve_high_centavos": 8400000,
-        "total_low_php": 363000,
-        "total_high_php": 417000
+        "total_low_php": 356000,
+        "total_high_php": 410000
       },
       "fit_notes": [
         "KULLEN bedsides 350×400 each side of the Griffin II King (drawer base, slats: CONDITIONAL flat deck).",
@@ -349,7 +349,8 @@
       "family": "IKEA HEKTAR",
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Ceiling cup/ Reflector: Steel, Epoxy/polyester powder coating; Shade: Steel, Paint, Epoxy/polyester powder coating"
+      "materials": "Ceiling cup/ Reflector: Steel, Epoxy/polyester powder coating; Shade: Steel, Paint, Epoxy/polyester powder coating",
+      "removedFromDesign": true
     },
     {
       "id": "G-BEDSPREAD",
@@ -716,7 +717,8 @@
       "family": "IKEA SIMRISHAMN",
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Ceiling cup/ Arm: Steel, Chrome plated; Shade: Glass, Paint"
+      "materials": "Ceiling cup/ Arm: Steel, Chrome plated; Shade: Glass, Paint",
+      "removedFromDesign": true
     },
     {
       "id": "H-BEDSPREAD",
@@ -1111,7 +1113,8 @@
       "family": "IKEA HÖGVIND pendant",
       "price_date": "2026-09-10",
       "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
-      "materials": "Shade: Glass; Ceiling cup/ Shade holder/ Lampholder cup: Steel, Brush finish nickel-plated"
+      "materials": "Shade: Glass; Ceiling cup/ Shade holder/ Lampholder cup: Steel, Brush finish nickel-plated",
+      "removedFromDesign": true
     },
     {
       "id": "I-BEDSPREAD",
@@ -1570,7 +1573,8 @@
       "dimensions": {},
       "scope": "technical_essential",
       "image": "assets/products/B-LAMP-BULBS.jpg",
-      "family": "B-LAMP-BULBS"
+      "family": "B-LAMP-BULBS",
+      "removedFromDesign": true
     },
     {
       "id": "REQUIRED-MATTRESS50",
@@ -1621,7 +1625,7 @@
   ],
   "source_notes": [
     "Catalogue of record: frozen live-Airtable snapshot of 20 Oct 2026 (tmp/408-bedroom-fresh-live-airtable-2026-10-20). No Airtable writes.",
-    "43 visible selections across G/H/I, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across G, H, I or the twelve earlier schemes, and sibling-set claims (JKL, MNO) were respected (UNIQUENESS-MATRIX.md).",
+    "40 visible selections across G/H/I, each with a supplier photo copied into dist/assets/products; no visible model or model family repeats across G, H, I or the twelve earlier schemes, and sibling-set claims (JKL, MNO) were respected (UNIQUENESS-MATRIX.md).",
     "Product photos are unaltered retailer references; the Parker duvet and sham use the supplier's own Simply Taupe variant images. Plans use published dimensions where available and flag defaults where not.",
     "PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made."
   ]
