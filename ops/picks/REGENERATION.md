@@ -18,6 +18,20 @@ After changing product data, run `python ops/picks/patch_gallery.py --gallery . 
 
 ## Regeneration workflow
 
+Product cards in the combined gallery show **Saved designs** links for recorded product-model and exact-variant appearances, including historical versions. Links use saved design IDs; names alone never establish identity. Entries removed from a particular design are not counted as appearances in that version.
+
+Select **Unused items only for the next design** beside the shared-choices export to check candidates against all saved versions. A different colour or variant of a used model remains used. Exclusions still apply. If a preferred product is already used, export stops with a conflict: keep the preference and turn off unused-only, or make it neutral explicitly. The option does not alter preferences, A/B/C or existing images.
+
+Unused-only exports fetch fresh design data and retain its usage snapshot with the preference revision. Some older entries are allowances or have only item aliases; the brief records those coverage limits. Identity matching cannot prove physical novelty for entries without a verifiable product source. Actual source-photo comparison and final visual review remain required.
+
+For an unused-only brief, run the gate with the current collection:
+
+```sh
+node ops/picks/check_design.mjs --brief /private/current-brief.json --candidates /private/candidates.json --collection collection-data.json --out /private/candidate-check.json
+```
+
+A missing collection, changed usage snapshot, reused product, unresolved identity, preference conflict or excluded candidate blocks generation. Re-export after saved product usage or preferences change. Before publishing, rerun against the latest gallery collection; a downloaded brief is not a reservation against concurrent updates. The existing image workflow must consume this brief and gate result; no image generation service is added here.
+
 There is no render service in the gallery. The button prepares the inputs for the existing local design workflow; it does not create an image.
 
 1. Download a current brief after Isah finishes her choices. Keep `revision` and `generatedAt` with the design job. Re-export and recheck if her choices change before rendering or publication.
