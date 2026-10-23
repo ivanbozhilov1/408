@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-hallway-set-opus-def / 2026-10-23T22:50:00+08:00",
+  "build": "408-hallway-set-opus-def-night / 2026-10-24T00:18:00+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -27502,7 +27502,8 @@
       "reviewNotes": [
         "Design author: Claude Opus (Opus 5.5). The AI style renders come from Codex image generation; do not conflate tool with design author. No human approval inferred.",
         "LEGO scale gate (Ivan, 23 Oct): the elevation and quarter renders are measured against the true-scale projection of the 1040 x 650 map and the catalogue dresser (±5%), the dresser ends read by eye on 1:1 crops of each render; a failing view is regenerated up to 3 times, and one that still fails is not published. 1 view(s) of this design withheld; they show the true-scale model view. Measurements: scale/ in the pack.",
-        "Arches open (Ivan, 23 Oct: \"i need to see opening to the other rooms\"): both arches are open passages with dark-stained timber casings, and the map-wall view stands back far enough to show both. Night views (valance LED only, no added ceiling light) follow separately.",
+        "Arches open (Ivan, 23 Oct: \"i need to see opening to the other rooms\"): both arches are open passages with dark-stained timber casings, and the map-wall view stands back far enough to show both.",
+        "Night views (Ivan, 23 Oct: valance-LED rule, no added ceiling light): blackout curtains closed, lit only by the valance LED, the existing downlight and the table lamp, with the proposed lights off; the elevation and quarter night renders go through the same LEGO scale gate. Both gated night views pass. Measurements: scale-night/ in the pack.",
         "Conditional fit; hallway unmeasured: every dimension is assumed with a stated basis, none taped (ceiling 2700; corridor 2300 x 4400, the length from the F035 camera fit and the quoted 3590 window run; the window run from 500 off the dining end, sill 900, head 2350; the light switch back-projected to about 1.95 m from the living end at about 1.42 m, where the Fable hallway file has 0.5 to 1.7 m). Tape the switch before drilling.",
         "Layout: the owner's LEGO Art World Map 31203 at true scale (1040 x 650), bottom 1100, centred 2870 from the living end so it clears the switch; a solid dresser with more drawers centred below it (Ivan, 23 Oct); parquet kept with a rug; dark-stained arch casings kept; Davies Beige blackout and voile with valances; no hallway aircon.",
         "Proposals, not decisions: hallway lighting is undecided (Ivan, 23 Oct), so the wall lights in this design are proposals; the renders show the lights switched off.",
@@ -27545,6 +27546,38 @@
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "hop/assets/HD-render-hal_quarter.png",
           "caption": "AI style render (Codex image generation) at eye level 1.55 m with a 62° lens, from just outside the living arch turned toward the map wall: the dresser and the map in perspective, the corridor receding to the open dining arch, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. LEGO scale check PASS on attempt 1: map width/dresser width +3.7% against the true-scale projection (limit ±5%). The LED bar light is a proposal: hallway lighting is undecided."
+        },
+        {
+          "label": "From the living arch · Night",
+          "kind": "living-arch-night",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HD-render-hal_main-night.png",
+          "caption": "AI style render at night (Codex image generation), same camera as the day view: at eye level 1.45 m with a 62° lens, from the living just outside its arch, looking down the corridor to the open dining arch, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight and the navy art-glass table lamp on the dresser; no added ceiling light, and the proposed LED bar light above the map switched off (a proposal: hallway lighting is undecided). Painted over the night deterministic model view; dimensions from the model, finishes and light interpretive. Not scale-gated: the map wall is seen at a grazing angle in this view."
+        },
+        {
+          "label": "From the dining arch · Night",
+          "kind": "dining-arch-night",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HD-render-hal_opposite-night.png",
+          "caption": "AI style render at night (Codex image generation), same camera as the day view: at eye level 1.5 m with a 62° lens, from the dining just outside its arch, looking back to the open living arch, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight and the navy art-glass table lamp on the dresser; no added ceiling light, and the proposed LED bar light above the map switched off (a proposal: hallway lighting is undecided). Painted over the night deterministic model view; dimensions from the model, finishes and light interpretive. Not scale-gated: the map wall is seen at a grazing angle in this view."
+        },
+        {
+          "label": "Facing the map wall · Night",
+          "kind": "map-wall-night",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HD-render-hal_elevation-night.png",
+          "caption": "AI style render at night (Codex image generation), same camera as the day view: level at 1.35 m with a 62° lens, from 3.1 m back beyond the window run (the window wall, its curtains and their valance glow cut away), square on to the map wall, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight and the navy art-glass table lamp on the dresser; no added ceiling light, and the proposed LED bar light above the map switched off (a proposal: hallway lighting is undecided). Painted over the night deterministic model view; dimensions from the model, finishes and light interpretive. LEGO scale check PASS on attempt 1: map width/height +4.0%, width/dresser width +1.4% against the true-scale projection (limit ±5%)."
+        },
+        {
+          "label": "Map wall from the living end · Night",
+          "kind": "map-wall-quarter-night",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HD-render-hal_quarter-night.png",
+          "caption": "AI style render at night (Codex image generation), same camera as the day view: at eye level 1.55 m with a 62° lens, from just outside the living arch turned toward the map wall, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight and the navy art-glass table lamp on the dresser; no added ceiling light, and the proposed LED bar light above the map switched off (a proposal: hallway lighting is undecided). Painted over the night deterministic model view; dimensions from the model, finishes and light interpretive. LEGO scale check PASS on attempt 1: map width/dresser width -3.5% against the true-scale projection (limit ±5%)."
         }
       ],
       "budget": {
@@ -27728,7 +27761,8 @@
       "reviewNotes": [
         "Design author: Claude Opus (Opus 5.5). The AI style renders come from Codex image generation; do not conflate tool with design author. No human approval inferred.",
         "LEGO scale gate (Ivan, 23 Oct): the elevation and quarter renders are measured against the true-scale projection of the 1040 x 650 map and the catalogue dresser (±5%), the dresser ends read by eye on 1:1 crops of each render; a failing view is regenerated up to 3 times, and one that still fails is not published. 1 view(s) of this design withheld; they show the true-scale model view. Measurements: scale/ in the pack.",
-        "Arches open (Ivan, 23 Oct: \"i need to see opening to the other rooms\"): both arches are open passages with dark-stained timber casings, and the map-wall view stands back far enough to show both. Night views (valance LED only, no added ceiling light) follow separately.",
+        "Arches open (Ivan, 23 Oct: \"i need to see opening to the other rooms\"): both arches are open passages with dark-stained timber casings, and the map-wall view stands back far enough to show both.",
+        "Night views (Ivan, 23 Oct: valance-LED rule, no added ceiling light): blackout curtains closed, lit only by the valance LED and the existing downlight, with the proposed lights off; the elevation and quarter night renders go through the same LEGO scale gate. Pending: Facing the map wall · Night (its AI night render failed the LEGO scale check and the next regeneration is queued); the page shows the true-scale night model view until then. Measurements: scale-night/ in the pack.",
         "Conditional fit; hallway unmeasured: every dimension is assumed with a stated basis, none taped (ceiling 2700; corridor 2300 x 4400, the length from the F035 camera fit and the quoted 3590 window run; the window run from 500 off the dining end, sill 900, head 2350; the light switch back-projected to about 1.95 m from the living end at about 1.42 m, where the Fable hallway file has 0.5 to 1.7 m). Tape the switch before drilling.",
         "Layout: the owner's LEGO Art World Map 31203 at true scale (1040 x 650), bottom 1100, centred 2870 from the living end so it clears the switch; a solid dresser with more drawers centred below it (Ivan, 23 Oct); parquet kept with a rug; dark-stained arch casings kept; Davies Beige blackout and voile with valances; no hallway aircon.",
         "Proposals, not decisions: hallway lighting is undecided (Ivan, 23 Oct), so the wall lights and the wall paint in this design are proposals; the renders show the lights switched off.",
@@ -27771,6 +27805,38 @@
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "hop/assets/HE-room-hal_quarter.png",
           "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at eye level 1.55 m with a 62° lens, from just outside the living arch turned toward the map wall: the dresser and the map in perspective, the corridor receding to the open dining arch; the sage wall paint and the proposed wall lamps are not modelled. The AI render of this view is withheld: Failed the LEGO scale check on attempt 4, the last of 3 regenerations: the map reads 17.2% too wide against the dresser (limit ±5%). Not published."
+        },
+        {
+          "label": "From the living arch · Night",
+          "kind": "living-arch-night",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HE-render-hal_main-night.png",
+          "caption": "AI style render at night (Codex image generation), same camera as the day view: at eye level 1.45 m with a 62° lens, from the living just outside its arch, looking down the corridor to the open dining arch, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight; no added ceiling light, and the two proposed wall lamps switched off (a proposal: hallway lighting is undecided). Painted over the night deterministic model view; dimensions from the model, finishes and light interpretive. Not scale-gated: the map wall is seen at a grazing angle in this view."
+        },
+        {
+          "label": "From the dining arch · Night",
+          "kind": "dining-arch-night",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HE-render-hal_opposite-night.png",
+          "caption": "AI style render at night (Codex image generation), same camera as the day view: at eye level 1.5 m with a 62° lens, from the dining just outside its arch, looking back to the open living arch, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight; no added ceiling light, and the two proposed wall lamps switched off (a proposal: hallway lighting is undecided). Painted over the night deterministic model view; dimensions from the model, finishes and light interpretive. Not scale-gated: the map wall is seen at a grazing angle in this view."
+        },
+        {
+          "label": "Facing the map wall · Night",
+          "kind": "map-wall-night",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HE-room-hal_elevation-night.png",
+          "caption": "Deterministic room-model view at night, at true scale, not an AI render: proxy forms level at 1.35 m with a 62° lens, from 3.1 m back beyond the window run (the window wall, its curtains and their valance glow cut away), square on to the map wall, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight; no added ceiling light, and the two proposed wall lamps switched off (a proposal: hallway lighting is undecided). The night model draws the LEGO map as dark panels. The AI night render of this view is pending. Attempt 2 failed the LEGO scale check: the map reads 6.5% too narrow against the dresser and 5.8% too wide for its height (limit ±5%). Its regeneration (2 of 3 left) waits: the Codex image quota ran out (usage limit until 30 Oct 2026, 21:12). Not published yet."
+        },
+        {
+          "label": "Map wall from the living end · Night",
+          "kind": "map-wall-quarter-night",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HE-render-hal_quarter-night.png",
+          "caption": "AI style render at night (Codex image generation), same camera as the day view: at eye level 1.55 m with a 62° lens, from just outside the living arch turned toward the map wall, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight; no added ceiling light, and the two proposed wall lamps switched off (a proposal: hallway lighting is undecided). Painted over the night deterministic model view; dimensions from the model, finishes and light interpretive. LEGO scale check PASS on attempt 1: map width/dresser width +3.2% against the true-scale projection (limit ±5%)."
         }
       ],
       "budget": {
@@ -27954,7 +28020,8 @@
       "reviewNotes": [
         "Design author: Claude Opus (Opus 5.5). The AI style renders come from Codex image generation; do not conflate tool with design author. No human approval inferred.",
         "LEGO scale gate (Ivan, 23 Oct): the elevation and quarter renders are measured against the true-scale projection of the 1040 x 650 map and the catalogue dresser (±5%), the dresser ends read by eye on 1:1 crops of each render; a failing view is regenerated up to 3 times, and one that still fails is not published. 1 view(s) of this design withheld; they show the true-scale model view. Measurements: scale/ in the pack.",
-        "Arches open (Ivan, 23 Oct: \"i need to see opening to the other rooms\"): both arches are open passages with dark-stained timber casings, and the map-wall view stands back far enough to show both. Night views (valance LED only, no added ceiling light) follow separately.",
+        "Arches open (Ivan, 23 Oct: \"i need to see opening to the other rooms\"): both arches are open passages with dark-stained timber casings, and the map-wall view stands back far enough to show both.",
+        "Night views (Ivan, 23 Oct: valance-LED rule, no added ceiling light): blackout curtains closed, lit only by the valance LED, the existing downlight and the table lamp, with the proposed lights off; the elevation and quarter night renders go through the same LEGO scale gate. Pending: Facing the map wall · Night (its AI night render failed the LEGO scale check and the next regeneration is queued); the page shows the true-scale night model view until then. Measurements: scale-night/ in the pack.",
         "Conditional fit; hallway unmeasured: every dimension is assumed with a stated basis, none taped (ceiling 2700; corridor 2300 x 4400, the length from the F035 camera fit and the quoted 3590 window run; the window run from 500 off the dining end, sill 900, head 2350; the light switch back-projected to about 1.95 m from the living end at about 1.42 m, where the Fable hallway file has 0.5 to 1.7 m). Tape the switch before drilling.",
         "Layout: the owner's LEGO Art World Map 31203 at true scale (1040 x 650), bottom 1100, centred 2870 from the living end so it clears the switch; a solid dresser with more drawers centred below it (Ivan, 23 Oct); parquet kept with a rug; dark-stained arch casings kept; Davies Beige blackout and voile with valances; no hallway aircon.",
         "Proposals, not decisions: hallway lighting is undecided (Ivan, 23 Oct), so the wall lights and the wall paint in this design are proposals; the renders show the lights switched off.",
@@ -27997,6 +28064,38 @@
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "hop/assets/HF-room-hal_quarter.png",
           "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at eye level 1.55 m with a 62° lens, from just outside the living arch turned toward the map wall: the dresser and the map in perspective, the corridor receding to the open dining arch; the charcoal wall paint and the proposed spotlights are not modelled. The AI render of this view is withheld: Failed the LEGO scale check on attempt 4, the last of 3 regenerations: the map reads 17.8% too wide against the dresser (limit ±5%). Not published."
+        },
+        {
+          "label": "From the living arch · Night",
+          "kind": "living-arch-night",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HF-render-hal_main-night.png",
+          "caption": "AI style render at night (Codex image generation), same camera as the day view: at eye level 1.45 m with a 62° lens, from the living just outside its arch, looking down the corridor to the open dining arch, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight and the amber-glass table lamp on the dresser; no added ceiling light, and the two proposed spotlights switched off (a proposal: hallway lighting is undecided). Painted over the night deterministic model view; dimensions from the model, finishes and light interpretive. Not scale-gated: the map wall is seen at a grazing angle in this view."
+        },
+        {
+          "label": "From the dining arch · Night",
+          "kind": "dining-arch-night",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HF-render-hal_opposite-night.png",
+          "caption": "AI style render at night (Codex image generation), same camera as the day view: at eye level 1.5 m with a 62° lens, from the dining just outside its arch, looking back to the open living arch, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight and the amber-glass table lamp on the dresser; no added ceiling light, and the two proposed spotlights switched off (a proposal: hallway lighting is undecided). Painted over the night deterministic model view; dimensions from the model, finishes and light interpretive. Not scale-gated: the map wall is seen at a grazing angle in this view. Rendered twice: visual QA rejected the first, which drew an opening where the floor mirror stands."
+        },
+        {
+          "label": "Facing the map wall · Night",
+          "kind": "map-wall-night",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HF-room-hal_elevation-night.png",
+          "caption": "Deterministic room-model view at night, at true scale, not an AI render: proxy forms level at 1.35 m with a 62° lens, from 3.1 m back beyond the window run (the window wall, its curtains and their valance glow cut away), square on to the map wall, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight and the amber-glass table lamp on the dresser; no added ceiling light, and the two proposed spotlights switched off (a proposal: hallway lighting is undecided). The night model draws the LEGO map and the floor mirror's glass as dark panels. The AI night render of this view is pending. Attempt 2 failed the LEGO scale check: the map reads 6.7% too narrow against the dresser and 19.5% too wide for its height (limit ±5%). Its regeneration (2 of 3 left) waits: the Codex image quota ran out (usage limit until 30 Oct 2026, 21:12). Not published yet."
+        },
+        {
+          "label": "Map wall from the living end · Night",
+          "kind": "map-wall-quarter-night",
+          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "hop/assets/HF-render-hal_quarter-night.png",
+          "caption": "AI style render at night (Codex image generation), same camera as the day view: at eye level 1.55 m with a 62° lens, from just outside the living arch turned toward the map wall, lit only by the room's own fixtures: the warm LED strip hidden behind the curtain valance (blackout curtains closed), the existing recessed downlight and the amber-glass table lamp on the dresser; no added ceiling light, and the two proposed spotlights switched off (a proposal: hallway lighting is undecided). Painted over the night deterministic model view; dimensions from the model, finishes and light interpretive. LEGO scale check PASS on attempt 1: map width/dresser width -0.8% against the true-scale projection (limit ±5%)."
         }
       ],
       "budget": {
