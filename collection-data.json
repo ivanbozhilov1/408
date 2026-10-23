@@ -14246,9 +14246,9 @@
           "label": "Window corner · Day",
           "kind": "window-ac-day",
           "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "assets/D-render-windowac.webp",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the corner by the old window air-conditioner, looking across the foot of the bed to the TV wall, both doors and the mirror, painted over the dimension-led deterministic model view; dimensions from the model, finishes interpretive. Replaces the earlier virtual-cutaway views, whose camera stood 1175 mm beyond the south wall."
+          "effectiveStatus": "INDEPENDENTLY_REVIEWED_2600_MM_ONE_VIEW_PILOT_OTHER_D_VIEWS_PENDING",
+          "image": "assets/D-render-windowac-ceiling2600-v1.webp",
+          "caption": "Independently reviewed 2600 mm ceiling and 50 mm mattress source-model view from the old window-AC corner, with no fan. This is the only D view updated so far; the other five D views remain pending. AI perspective and physical fit remain conditional."
         },
         {
           "label": "Entrance door · Night",
