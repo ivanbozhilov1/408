@@ -40,83 +40,83 @@
     {
       "id": "DIND",
       "title": "Midnight Velvet",
-      "rationale": "a smoked dark oak table on slab legs with six navy velvet chairs with woven backs, a cream rug drawn in fine brown diamonds, a navy sideboard under a navy-and-sand abstract in the counter-to-arch corner, a split-leaf philodendron in the window corner",
+      "rationale": "a smoked dark oak table on slab legs with five navy velvet chairs with woven backs in the window and east-wall corner, a cream rug drawn in fine brown diamonds, an open black-and-walnut three-tier shelf in the arch-counter corner, a navy-and-sand abstract on the west wall at the table's end, a split-leaf philodendron in the window corner",
       "palette": [
         "#3b2e26",
         "#1f2a44",
         "#ece4d4"
       ],
       "budget": {
-        "design_centavos": 28433710,
+        "design_centavos": 26668210,
         "common_centavos": 0,
-        "priced_centavos": 28433710,
+        "priced_centavos": 26668210,
         "reserve_low_centavos": 1500000,
         "reserve_high_centavos": 3700000,
-        "total_low_php": 330000,
-        "total_high_php": 354000
+        "total_low_php": 310000,
+        "total_high_php": 335000
       },
       "fit_notes": [
-        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 and head 1550, the passage to the master bedroom 1566, the fan centred over the table. Drawn or photo-fixed: 3680 wide, 4468 deep, south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
-        "Table 1600 x 850 centred 2750 from the counter wall: 1040 clear from each table end to the side walls; six seats as 2 + 2 + 1 + 1.",
-        "Sideboard 1200 x 380 on the plain north wall between the arch and the pass-through (Ivan 23 Oct: the corner between counter and arch gets furniture or shelves); about 1.35 m stays clear between its front and the tucked north chairs for the arch-to-passage lane.",
-        "Rug 8'x10' (2438 x 3048) laid long side to the window: about 316 to each side wall; every tucked chair stands on it.",
-        "No pendant (the fan stays); split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
+        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Table 1600 x 850 in the window and east-wall corner (Ivan, 23 Oct): east end 100 off the east wall under the split unit, south edge 3455; five seats as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 58 short of the 180 curtain strip.",
+        "Shelf 640 x 340, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 155 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.49 m stays clear between the shelf and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
+        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
       ],
-      "table": "1600 x 850, the current proposal (not yet approved); long side parallel to the south window, centre 2750 from the counter wall"
+      "table": "1600 x 850, the current proposal (not yet approved); long side parallel to the south window, in the south-east corner: centre 3030 from the counter wall, east end 100 off the east wall"
     },
     {
       "id": "DINE",
       "title": "Heritage Persian",
-      "rationale": "a black stone oval on a reeded black X-base with six turned dark-wood cane-back side chairs, a soft grey hand-knotted Persian-pattern rug, a dark turned-leg console under a warm dune print in the counter-to-arch corner, a leafy tree in the window corner",
+      "rationale": "a black stone oval on a reeded black X-base with five turned dark-wood cane-back side chairs in the window and east-wall corner, a soft grey hand-knotted Persian-pattern rug, a dark walnut ladder shelf in the arch-counter corner, a warm dune print on the west wall at the table's end, a leafy tree in the window corner",
       "palette": [
         "#1c1c1e",
         "#5a3a26",
         "#c9c2b6"
       ],
       "budget": {
-        "design_centavos": 30814900,
+        "design_centavos": 24907400,
         "common_centavos": 0,
-        "priced_centavos": 30814900,
+        "priced_centavos": 24907400,
         "reserve_low_centavos": 1500000,
         "reserve_high_centavos": 3700000,
-        "total_low_php": 356000,
-        "total_high_php": 380000
+        "total_low_php": 291000,
+        "total_high_php": 315000
       },
       "fit_notes": [
-        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 and head 1550, the passage to the master bedroom 1566, the fan centred over the table. Drawn or photo-fixed: 3680 wide, 4468 deep, south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
-        "Oval 1400 x 900 centred 2750 from the counter wall: 1140 clear from each end to the side walls; the pedestal base leaves the knees free; six seats as 2 + 2 + 1 + 1.",
-        "Console 1524 x 406 on the plain north wall between the arch and the pass-through (Ivan 23 Oct corner rule); about 1.4 m stays clear between its front and the tucked north chairs for the arch-to-passage lane.",
-        "Rug 8'x10' (2438 x 3048) laid long side to the window: about 316 to each side wall; every tucked chair stands on it.",
-        "No pendant (the fan stays); split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
+        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Oval 1400 x 900 in the window and east-wall corner (Ivan, 23 Oct): east end 200 off the east wall under the split unit; the pedestal base leaves the knees free; five seats as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 108 short of the 180 curtain strip.",
+        "Ladder shelf 670 x 330, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its foot stops 160 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.54 m stays clear between the shelf and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
+        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
       ],
-      "table": "1400 x 900 oval (Mejore 6-seater), in the 1600 x 850 class; long axis parallel to the south window, centre 2750 from the counter wall"
+      "table": "1400 x 900 oval (Mejore 6-seater), in the 1600 x 850 class; long axis parallel to the south window, in the south-east corner: centre 3030 from the counter wall, east end 200 off the east wall"
     },
     {
       "id": "DINF",
       "title": "Pale Oak and Rush",
-      "rationale": "a pale oak veneer table with six solid oak armchairs with woven rush seats and backs, a light tan textured wool rug, a cream four-door sideboard under a soft green landscape in the counter-to-arch corner, a manzanita spray in a cream vase in the window corner",
+      "rationale": "a pale oak veneer table with five solid oak armchairs with woven rush seats and backs in the window and east-wall corner, a light tan textured wool rug, an open natural bamboo console in the arch-counter corner, a soft green landscape on the west wall at the table's end, a manzanita spray in a cream vase in the window corner",
       "palette": [
         "#d9b98a",
         "#c49a62",
         "#e6d8c0"
       ],
       "budget": {
-        "design_centavos": 27806300,
+        "design_centavos": 24766800,
         "common_centavos": 0,
-        "priced_centavos": 27806300,
+        "priced_centavos": 24766800,
         "reserve_low_centavos": 1500000,
         "reserve_high_centavos": 3700000,
-        "total_low_php": 323000,
-        "total_high_php": 347000
+        "total_low_php": 289000,
+        "total_high_php": 314000
       },
       "fit_notes": [
-        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 and head 1550, the passage to the master bedroom 1566, the fan centred over the table. Drawn or photo-fixed: 3680 wide, 4468 deep, south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
-        "Table 1500 x 800 centred 2750 from the counter wall: 1090 clear from each table end to the side walls; six armchairs 533 wide as 2 + 2 + 1 + 1.",
-        "Sideboard 1400 x 400 on the plain north wall between the arch and the pass-through (Ivan 23 Oct corner rule); about 1.35 m stays clear between its front and the tucked north chairs for the arch-to-passage lane.",
-        "Rug 8'x10' (2438 x 3048) laid long side to the window: about 316 to each side wall; every tucked chair stands on it.",
-        "No pendant (the fan stays); split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
+        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Table 1500 x 800 in the window and east-wall corner (Ivan, 23 Oct): east end 150 off the east wall under the split unit; five armchairs 533 wide as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 100 short of the 180 curtain strip.",
+        "Console 900 x 350, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 150 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.52 m stays clear between the console and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
+        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
       ],
-      "table": "1500 x 800, in the 1600 x 850 class; long side parallel to the south window, centre 2750 from the counter wall"
+      "table": "1500 x 800, in the 1600 x 850 class; long side parallel to the south window, in the south-east corner: centre 3030 from the counter wall, east end 150 off the east wall"
     }
   ],
   "items": [
@@ -160,12 +160,12 @@
       "brand": "Our Home",
       "sku": "10426073",
       "variant": "Blue",
-      "quantity": 6,
+      "quantity": 5,
       "unit_centavos": 1165500,
-      "line_centavos": 6993000,
+      "line_centavos": 5827500,
       "url": "https://ourhome.ph/products/our-home-hilaire-dining-chair?variant=45293841121521",
       "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-08 | Our Home",
-      "notes": "Navy velvet tub seat with a woven-strap back on slim black legs (variant Blue, as the product photo); 2 + 2 + 1 + 1",
+      "notes": "Navy velvet tub seat with a woven-strap back on slim black legs (variant Blue, as the product photo); 2 + 2 + 1, the wall end unseated",
       "dimensions": {
         "width": 600,
         "depth": 650,
@@ -213,26 +213,26 @@
       ],
       "room": "DIN",
       "role": "buffet",
-      "name": "SKRUVBY Sideboard",
-      "brand": "IKEA",
-      "sku": "50568721",
-      "variant": "Sideboard, black-blue, 120x38x90 cm (47 1/4x14 3/4x35 3/8 \")",
+      "name": "StackLine Industrial 3-Tier Open Shelf Bookcase",
+      "brand": "Furniture Manila",
+      "sku": "bs1513-shelf-darkwalnut-mob",
+      "variant": "SKU bs1513-shelf-darkwalnut-mob",
       "quantity": 1,
-      "unit_centavos": 899900,
-      "line_centavos": 899900,
-      "url": "https://www.ikea.com/ph/en/p/skruvby-sideboard-black-blue-50568721/",
-      "status": "Available for delivery | Cebu delivery: unconfirmed | price date 2026-09-08 | IKEA",
-      "notes": "Black-blue sideboard with an oak-look top, 1200 x 380 x 900, on the plain north wall between the arch and the pass-through",
+      "unit_centavos": 299900,
+      "line_centavos": 299900,
+      "url": "https://www.furnituremanila.com.ph/product/1513-display-shelf/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | Furniture Manila",
+      "notes": "Open three-tier shelf, black steel frame with grey oak-look shelves, 640 x 340 x 940, in the north-west corner between the arch and the pass-through; open, no doors",
       "dimensions": {
-        "width": 1200,
-        "depth": 380,
-        "height": 900
+        "width": 640,
+        "depth": 340,
+        "height": 940
       },
       "scope": "design_piece",
       "image": "assets/products/DIND-BUFFET.jpg",
-      "family": "IKEA SKRUVBY",
-      "price_date": "2026-09-08",
-      "price_basis": "Per listed item/combination for exact article number",
+      "family": "Furniture Manila StackLine",
+      "price_date": "2026-09-10",
+      "price_basis": "Published price for the selected listing variant",
       "materials": null
     },
     {
@@ -251,7 +251,7 @@
       "line_centavos": 1210000,
       "url": "https://store.ashleyfurniture.ph/products/a58000239-wall-art?variant=45493165359390",
       "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
-      "notes": "Framed abstract in navy, sand and olive, 71 x 99 portrait, over the sideboard",
+      "notes": "Framed abstract in navy, sand and olive, 71 x 99 portrait, on the plain west wall at the table's west end",
       "dimensions": {
         "width": 711.2,
         "depth": 25.4,
@@ -331,12 +331,12 @@
       "brand": "Mejore",
       "sku": "MCI-PHI-DBCH-C&S0003S",
       "variant": "Philip Side Chair; official listing SKU MCI-PHI-DBCH-C&S0003S",
-      "quantity": 6,
+      "quantity": 5,
       "unit_centavos": 1522500,
-      "line_centavos": 9135000,
+      "line_centavos": 7612500,
       "url": "https://mejore.ph/products/philip-cane-back-side-chair?variant=44369465311506",
       "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-09 | Mejore",
-      "notes": "Dark turned-wood side chair with a cane back and a pale grey seat, 48 x 46 x 93 (published on the listing); 2 + 2 + 1 + 1",
+      "notes": "Dark turned-wood side chair with a cane back and a pale grey seat, 48 x 46 x 93 (published on the listing); 2 + 2 + 1, the wall end unseated",
       "dimensions": {
         "width": 480,
         "depth": 460,
@@ -384,27 +384,27 @@
       ],
       "room": "DIN",
       "role": "buffet",
-      "name": "Rashida Console Table",
-      "brand": "Mejore",
-      "sku": "MCI-RAS-LRTB002",
-      "variant": "Rashida Console Table; official listing SKU MCI-RAS-LRTB002",
+      "name": "TierCraft Industrial Ladder Shelf Bookcase",
+      "brand": "Furniture Manila",
+      "sku": "bs1518-bookshelf-darkwalnut-mob",
+      "variant": "SKU bs1518-bookshelf-darkwalnut-mob",
       "quantity": 1,
-      "unit_centavos": 4850000,
-      "line_centavos": 4850000,
-      "url": "https://mejore.ph/products/rashida-console-table?variant=43967547638034",
-      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-09 | Mejore",
-      "notes": "Dark wood console on turned legs with a low shelf, 1524 x 406 x 862, on the plain north wall between the arch and the pass-through",
+      "unit_centavos": 465000,
+      "line_centavos": 465000,
+      "url": "https://www.furnituremanila.com.ph/product/tiercraft-industrial-ladder-shelf-bookcase-5-tier-dark-walnut-finish/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | Furniture Manila",
+      "notes": "Five-tier leaning ladder shelf, dark walnut-look shelves on a black steel A-frame, 670 x 330 x 1600, in the north-west corner between the arch and the pass-through; open, no doors",
       "dimensions": {
-        "width": 1524,
-        "depth": 406,
-        "height": 862
+        "width": 670,
+        "depth": 330,
+        "height": 1600
       },
       "scope": "design_piece",
       "image": "assets/products/DINE-BUFFET.jpg",
-      "family": "Mejore Rashida",
-      "price_date": "2026-09-09",
-      "price_basis": "Per selected exact variant Default Title; published PHP variant price, not a from-price. Table only; chairs or styling accessories not assumed included.",
-      "materials": "Solid Wood"
+      "family": "Furniture Manila TierCraft",
+      "price_date": "2026-09-10",
+      "price_basis": "Published price for the selected listing variant",
+      "materials": null
     },
     {
       "id": "DINE-ART",
@@ -422,7 +422,7 @@
       "line_centavos": 1380000,
       "url": "https://store.ashleyfurniture.ph/products/a58000478-wall-art?variant=50443729568030",
       "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
-      "notes": "Framed print of ochre and sand dunes, 120 x 80, over the console",
+      "notes": "Framed print of ochre and sand dunes, 120 x 80, on the plain west wall at the table's west end",
       "dimensions": {
         "width": 1200.15,
         "depth": 35.052,
@@ -480,7 +480,7 @@
       "line_centavos": 1799900,
       "url": "https://www.ikea.com/ph/en/p/tonstad-table-oak-veneer-80594064/",
       "status": "Available for delivery | Cebu delivery: unconfirmed | price date 2026-09-08 | IKEA",
-      "notes": "Oak veneer table 1500 x 800 on square legs; long side parallel to the window",
+      "notes": "Oak veneer table 1500 x 800 on round legs; long side parallel to the window",
       "dimensions": {
         "width": 1500,
         "depth": 800
@@ -503,12 +503,12 @@
       "brand": "Crate & Barrel",
       "sku": "265938",
       "variant": "Forge Barley Brown Oak Wood Dining Side Chair by Jake Arnold; Single listed configuration; published SKU 265938; Shopify variant 43717493752024",
-      "quantity": 6,
+      "quantity": 5,
       "unit_centavos": 2309500,
-      "line_centavos": 13857000,
+      "line_centavos": 11547500,
       "url": "https://crateandbarrel.com.ph/products/forge-barley-brown-oak-wood-dining-side-chair-by-jake-arnold?variant=43717493752024",
       "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Crate & Barrel",
-      "notes": "Solid oak armchair with a woven rush seat and back (Barley Brown Oak, as the product photo), 533 x 565 x 902; 2 + 2 + 1 + 1",
+      "notes": "Solid oak armchair with a woven rush seat and back (Barley Brown Oak, as the product photo), 533 x 565 x 902; 2 + 2 + 1, the wall end unseated",
       "dimensions": {
         "width": 533.4,
         "depth": 565.15,
@@ -556,27 +556,27 @@
       ],
       "room": "DIN",
       "role": "buffet",
-      "name": "Natali 4 Door Cabinet",
+      "name": "Larson Bamboo Console Table",
       "brand": "Mandaue Foam",
-      "sku": "133913",
-      "variant": "SKU 133913; Cream",
+      "sku": "111721",
+      "variant": "Single published variant; SKU 111721",
       "quantity": 1,
-      "unit_centavos": 1290000,
-      "line_centavos": 1290000,
-      "url": "https://mandauefoam.ph/products/natali-4-door-cabinet?variant=46168842633394",
-      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-08 | Mandaue Foam",
-      "notes": "Cream painted four-door sideboard on slim legs, 1400 x 400 x 850, on the plain north wall between the arch and the pass-through",
+      "unit_centavos": 560000,
+      "line_centavos": 560000,
+      "url": "https://mandauefoam.ph/products/larson-bamboo-console-table?variant=43178081484978",
+      "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | Mandaue Foam",
+      "notes": "Natural bamboo console with a slatted lower shelf, 900 x 350 x 760, in the north-west corner between the arch and the pass-through; open, no doors",
       "dimensions": {
-        "width": 1400,
-        "depth": 400,
-        "height": 850
+        "width": 900,
+        "depth": 350,
+        "height": 760
       },
       "scope": "design_piece",
-      "image": "assets/products/DINF-BUFFET.jpg",
-      "family": "Mandaue Foam Natali",
-      "price_date": "2026-09-08",
-      "price_basis": "per listed item; selected exact variant",
-      "materials": "15mm thick MDF with color paint + dia38mm rubber wood with color paint"
+      "image": "assets/products/DINF-BUFFET.webp",
+      "family": "Mandaue Foam Larson",
+      "price_date": "2026-09-10",
+      "price_basis": "Official public catalog price in PHP for the selected exact variant; no member discount inferred.",
+      "materials": "Bamboo"
     },
     {
       "id": "DINF-ART",
@@ -594,7 +594,7 @@
       "line_centavos": 1360000,
       "url": "https://store.ashleyfurniture.ph/products/a58000483-wall-art?variant=50443729600798",
       "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
-      "notes": "Framed soft green landscape with trees, 120 x 80, over the sideboard",
+      "notes": "Framed soft green landscape with trees, 120 x 80, on the plain west wall at the table's west end",
       "dimensions": {
         "width": 1200.15,
         "depth": 35.052,
