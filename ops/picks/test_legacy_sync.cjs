@@ -44,7 +44,7 @@ async function harness({positive='preferred',futureRestore=false,astraExclusion=
   const snapshot=()=>({revision:server.revision,picks:[...server.picks],exclusions:[...server.exclusions.values()],preferenceSchema:2,role:'editor'});
   const document=new Element();document.body=new Element();document.createElement=()=>new Element();document.createTextNode=text=>text;document.hidden=false;
   const context=vm.createContext({console,document,URL,URLSearchParams,TextEncoder,Uint8Array,crypto:webcrypto,AbortController,localStorage:storage,
-    location:{hash:'',pathname:'/bedroom-design-options/fable-def.html',search:''},history:{replaceState(){}},setTimeout,clearTimeout,setInterval(){},addEventListener(){},
+    location:{hash:'',pathname:'/408/fable-def.html',search:''},history:{replaceState(){}},setTimeout,clearTimeout,setInterval(){},addEventListener(){},
     unit408Picks:{get:()=>[],set(){},readonly(){},managed(){},restore(){}},
     fetch:async(_url,options)=>{
       let status=200;
