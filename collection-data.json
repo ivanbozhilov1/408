@@ -835,7 +835,8 @@
         }
       ],
       "renderReviewSha256": "bbaf45f07b49556d6ca16f49f0b4ccb3d2738f59d3b8e105f09485f74fc04d54",
-      "originalLabel": "Current views and camera plans"
+      "originalLabel": "Current views and camera plans",
+      "room": "master"
     },
     {
       "id": "astra-pqr-20261021-v001::Q",
@@ -1620,7 +1621,8 @@
         }
       ],
       "renderReviewSha256": "bbaf45f07b49556d6ca16f49f0b4ccb3d2738f59d3b8e105f09485f74fc04d54",
-      "originalLabel": "Current views and camera plans"
+      "originalLabel": "Current views and camera plans",
+      "room": "master"
     },
     {
       "id": "astra-pqr-20261021-v001::R",
@@ -2415,7 +2417,8 @@
         }
       ],
       "renderReviewSha256": "bbaf45f07b49556d6ca16f49f0b4ccb3d2738f59d3b8e105f09485f74fc04d54",
-      "originalLabel": "Current views and camera plans"
+      "originalLabel": "Current views and camera plans",
+      "room": "master"
     },
     {
       "id": "gpt-abc-initial-draft-20261020:A",
@@ -2453,7 +2456,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-initial-draft-20261020:B",
@@ -2491,7 +2495,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-initial-draft-20261020:C",
@@ -2529,7 +2534,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-integrated-20261020:A",
@@ -2581,7 +2587,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-integrated-20261020:B",
@@ -2626,7 +2633,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-integrated-20261020:C",
@@ -2671,7 +2679,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-new-directions-20261020:A",
@@ -2723,7 +2732,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-new-directions-20261020:B",
@@ -2775,7 +2785,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-new-directions-20261020:C",
@@ -2827,7 +2838,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-sourced-budget-20261020:A",
@@ -3701,7 +3713,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-sourced-budget-20261020:B",
@@ -4549,7 +4562,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-sourced-budget-20261020:C",
@@ -5427,7 +5441,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-distinct-20261020:A",
@@ -6136,7 +6151,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-distinct-20261020:B",
@@ -6899,7 +6915,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-distinct-20261020:C",
@@ -7659,7 +7676,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-fresh-live-20261021:A",
@@ -8497,7 +8515,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-fresh-live-20261021:B",
@@ -9309,7 +9328,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-fresh-live-20261021:C",
@@ -10147,7 +10167,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-successor-reset-20261021:A",
@@ -10700,7 +10721,8 @@
         "reserveCents": null,
         "totalCents": null,
         "datedCurtainCents": 4242000
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-successor-reset-20261021:B",
@@ -11262,7 +11284,8 @@
         "reserveCents": null,
         "totalCents": null,
         "datedCurtainCents": 4242000
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-successor-reset-20261021:C",
@@ -11776,7 +11799,8 @@
         "reserveCents": null,
         "totalCents": null,
         "datedCurtainCents": 4242000
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-abc-astra-upgrade-20261021:A",
@@ -12558,7 +12582,8 @@
         "reserveCents": null,
         "totalCents": null
       },
-      "originalLabel": "Current views and camera plans"
+      "originalLabel": "Current views and camera plans",
+      "room": "master"
     },
     {
       "id": "gpt-abc-astra-upgrade-20261021:B",
@@ -13346,7 +13371,8 @@
         "reserveCents": null,
         "totalCents": null
       },
-      "originalLabel": "Current views and camera plans"
+      "originalLabel": "Current views and camera plans",
+      "room": "master"
     },
     {
       "id": "gpt-abc-astra-upgrade-20261021:C",
@@ -14179,7 +14205,8 @@
         "reserveCents": null,
         "totalCents": null
       },
-      "originalLabel": "Current views and camera plans"
+      "originalLabel": "Current views and camera plans",
+      "room": "master"
     },
     {
       "id": "fable-def-20261021:D",
@@ -15037,7 +15064,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-def-20261021:E",
@@ -15895,7 +15923,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-def-20261021:F",
@@ -16754,7 +16783,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-ghi-20261021:G",
@@ -17539,7 +17569,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-ghi-20261021:H",
@@ -18375,7 +18406,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-ghi-20261021:I",
@@ -19186,7 +19218,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-jkl-20261021:J",
@@ -20018,7 +20051,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-jkl-20261021:K",
@@ -20824,7 +20858,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-jkl-20261021:L",
@@ -21656,7 +21691,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-mno-20261021:M",
@@ -22441,7 +22477,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-mno-20261021:N",
@@ -23276,7 +23313,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-mno-20261021:O",
@@ -24061,7 +24099,8 @@
         "note": "Historical dated planning range; current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-stu-20261023:S",
@@ -24077,7 +24116,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
-        "Known render limit (QA pass 3, 23 Oct): the S window-AC view adds a snake plant in a floor pot that is not in the scheme; the scheme plant is the pencil succulent on the console. The T window-AC view was re-rendered the same day to remove an invented floor olive tree (QA pass 4)."
+        "Render fixes (23 Oct): both window-AC views were re-rendered once to remove an invented floor plant, the snake plant in S (QA pass 5) and the olive tree in T (QA pass 4). Each scheme now shows only its own plant."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
       "hero": "stu/assets/S-render-entry.webp",
@@ -24820,7 +24859,8 @@
         "note": "Dated planning range (frozen pass-3 catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-stu-20261023:T",
@@ -24836,7 +24876,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
-        "Known render limit (QA pass 3, 23 Oct): the S window-AC view adds a snake plant in a floor pot that is not in the scheme; the scheme plant is the pencil succulent on the console. The T window-AC view was re-rendered the same day to remove an invented floor olive tree (QA pass 4)."
+        "Render fixes (23 Oct): both window-AC views were re-rendered once to remove an invented floor plant, the snake plant in S (QA pass 5) and the olive tree in T (QA pass 4). Each scheme now shows only its own plant."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
       "hero": "stu/assets/T-render-entry.webp",
@@ -25554,7 +25594,8 @@
         "note": "Dated planning range (frozen pass-3 catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "fable-stu-20261023:U",
@@ -25570,7 +25611,7 @@
       "reviewNotes": [
         "Author namespace is Fable/Claude; raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
         "Follows the latest no-new-ceiling rule: no ceiling light or bulb is bought; the two existing ceiling discs stay off. Every visible product passed the shared-picks exclusion gate at preference revision 194 (no exclusions recorded).",
-        "Known render limit (QA pass 3, 23 Oct): the S window-AC view adds a snake plant in a floor pot that is not in the scheme; the scheme plant is the pencil succulent on the console. The T window-AC view was re-rendered the same day to remove an invented floor olive tree (QA pass 4)."
+        "Render fixes (23 Oct): both window-AC views were re-rendered once to remove an invented floor plant, the snake plant in S (QA pass 5) and the olive tree in T (QA pass 4). Each scheme now shows only its own plant."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/bedroom-design-options/stu/",
       "hero": "stu/assets/U-render-entry.webp",
@@ -26288,7 +26329,8 @@
         "note": "Dated planning range (frozen pass-3 catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-ghi-rejected-v001-20261021:G",
@@ -26668,7 +26710,8 @@
         "totalCents": null,
         "datedCurtainCents": 4242000,
         "commonTechnicalCents": 7580950
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-ghi-rejected-v001-20261021:H",
@@ -27048,7 +27091,8 @@
         "totalCents": null,
         "datedCurtainCents": 4242000,
         "commonTechnicalCents": 7580950
-      }
+      },
+      "room": "master"
     },
     {
       "id": "gpt-ghi-rejected-v001-20261021:I",
@@ -27428,7 +27472,8 @@
         "totalCents": null,
         "datedCurtainCents": 4242000,
         "commonTechnicalCents": 7580950
-      }
+      },
+      "room": "master"
     }
   ],
   "coverage": {
@@ -27510,5 +27555,294 @@
         "status": "HUMAN_REJECTED_AND_STOPPED_INCOMPLETE_PHOTOREAL_REVERSE_GATE"
       }
     ]
-  }
+  },
+  "rooms": [
+    {
+      "id": "master",
+      "label": "Master bedroom",
+      "short": "Master",
+      "status": "designs",
+      "statusLabel": "Finished designs",
+      "lead": "The room every design on this page was made for. Drawn on sheet 2 of Joanna's plan (1:40); the Fable model takes the ceiling as 2600 mm, never taped.",
+      "plan": {
+        "image": "rooms/master-plan.png",
+        "caption": "Sheet 2 blow-up, 1:40. Closet back face to window glass 5270 mm, north to south 3925 mm."
+      },
+      "photos": [
+        {
+          "image": "rooms/master-photo-f004.jpg",
+          "caption": "7 Sep 2026, contractor photo F004: the east window run with the AC under it. The arched panels on the floor are kitchen cabinet doors in for refinishing."
+        }
+      ],
+      "model": [],
+      "dimensions": [
+        {
+          "label": "Shell",
+          "value": "5270 × 3925 mm",
+          "basis": "drawn"
+        },
+        {
+          "label": "Built-in closet",
+          "value": "600 deep × 2161 long, west wall",
+          "basis": "drawn"
+        },
+        {
+          "label": "Clear width beside the closet",
+          "value": "4670 mm; 4859 mm south of it",
+          "basis": "derived"
+        },
+        {
+          "label": "East window run",
+          "value": "3613 mm between 151 and 161 piers",
+          "basis": "drawn"
+        },
+        {
+          "label": "Doors",
+          "value": "south 978, west 869 (frame)",
+          "basis": "drawn"
+        },
+        {
+          "label": "Ceiling, sills, heads",
+          "value": "2600 mm ceiling in the model",
+          "basis": "assumed"
+        }
+      ],
+      "toMeasure": [
+        "Ceiling height, sill and head",
+        "Closet depth and length as built"
+      ],
+      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack); the room-pack wiring for the rest of the unit is draft PR ivanbozhilov1/Ivan#6. The engine's gate blocks AI renders while a room file still holds placeholder values, so the first pack for a room needs its heights taped or accepted as assumptions.",
+      "emptyNote": "No master-bedroom designs match these filters."
+    },
+    {
+      "id": "living",
+      "label": "Living area",
+      "short": "Living",
+      "status": "queued",
+      "statusLabel": "Room file ready · no designs yet",
+      "lead": "Sheet 1 left blow-up (1:50); every dimension chain closes. Heights, sills, heads and the ceiling-fan position are placeholders. Checked 23 Oct 2026 against Jamaica's photo J055 (the bay looking east); J054 is low confidence.",
+      "plan": {
+        "image": "rooms/living-plan.png",
+        "caption": "Sheet 1 living blow-up, 1:50. Inner footprint 7111 × 4926 mm; east window 3608, south window 3531."
+      },
+      "photos": [
+        {
+          "image": "rooms/hallway-photo-j055.jpg",
+          "caption": "22 Oct 2026, Jamaica J055: just inside door D-W looking along the bay; glass on the right, the cross wall ending on the left, the east window with its AC ahead, the arch to the hallway at the far left."
+        },
+        {
+          "image": "rooms/living-photo-j054.jpg",
+          "caption": "22 Oct 2026, Jamaica J054: a four-light window run with the AC under its far end and a door frame at the left. Low confidence that this frame is the living; it may be the master bedroom."
+        }
+      ],
+      "model": [
+        {
+          "image": "rooms/LIV-plan.webp",
+          "caption": "Deterministic room model from 408-LIV.json, plan view. Joanna's proposal furniture only exercises the engine."
+        },
+        {
+          "image": "rooms/LIV-main.webp",
+          "caption": "Deterministic room model, main view. The red band lists the values still placeholder."
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Inner footprint",
+          "value": "7111 × 4926 mm, irregular (160 column, diagonal wall, 400 × 300 pier)",
+          "basis": "drawn"
+        },
+        {
+          "label": "East window W-E",
+          "value": "3608 mm; window AC under its north end",
+          "basis": "drawn + photo"
+        },
+        {
+          "label": "South window W-S",
+          "value": "3531 mm between the 1320 and 1860 wall pieces",
+          "basis": "drawn"
+        },
+        {
+          "label": "Floating-shelf recess",
+          "value": "1161 × 307 mm, 1614 high",
+          "basis": "drawn, sheet 4"
+        },
+        {
+          "label": "Doors",
+          "value": "west 968 frame, north 780",
+          "basis": "drawn"
+        },
+        {
+          "label": "Ceiling, sills, heads",
+          "value": "2700 / 900 / 2350 mm",
+          "basis": "placeholder"
+        },
+        {
+          "label": "North-east diagonal",
+          "value": "drawn as a thin line, 2022 run × 684 rise; the photos show the arch to the hallway here",
+          "basis": "photo, unmeasured"
+        }
+      ],
+      "toMeasure": [
+        "Ceiling height",
+        "Sill and head of both window runs",
+        "Door heights",
+        "Window AC position along the run",
+        "Whether a ceiling fan exists (J054 shows only downlights)",
+        "Is the north-east diagonal an arch: clear width and head"
+      ],
+      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack); the room-pack wiring for the rest of the unit is draft PR ivanbozhilov1/Ivan#6. The engine's gate blocks AI renders while a room file still holds placeholder values, so the first pack for a room needs its heights taped or accepted as assumptions.",
+      "emptyNote": "No living-area designs are published yet. Packs are generated offline by the room-pack chain and appear here as a set once published."
+    },
+    {
+      "id": "dining",
+      "label": "Dining area",
+      "short": "Dining",
+      "status": "queued",
+      "statusLabel": "Room file ready · no designs yet",
+      "lead": "Sheet 1 right blow-up (1:50). XY traced from the chains; heights placeholder. Checked 23 Oct 2026 against Jamaica's J055 (from the hallway) and J060 (kitchen pass-through): orientation confirmed, one discrepancy on the west wall.",
+      "plan": {
+        "image": "rooms/dining-plan.png",
+        "caption": "Sheet 1 dining blow-up, 1:50. 3680 clear × 4468 mm; west window 1735 between piers, south window 3558 in four lights."
+      },
+      "photos": [
+        {
+          "image": "rooms/hallway-photo-j055.jpg",
+          "caption": "22 Oct 2026, Jamaica J055, from the hallway looking south: the four-light south window with the AC under its east end, the dark arch to the living on the left, the ceiling fan with light kit."
+        },
+        {
+          "image": "rooms/dining-photo-j060.jpg",
+          "caption": "22 Oct 2026, Jamaica J060: the two-level marble pass-through from the kitchen on the dining's north wall; the arch to the living at the far left."
+        }
+      ],
+      "model": [
+        {
+          "image": "rooms/DIN-plan.webp",
+          "caption": "Deterministic room model from 408-DIN.json, plan view, with the pass-through counter and the fan where the photos put them."
+        },
+        {
+          "image": "rooms/DIN-main.webp",
+          "caption": "Deterministic room model, main view. The red band lists the values still placeholder."
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Footprint",
+          "value": "3680 × 4468 mm clear (3831 is to the outer face)",
+          "basis": "drawn"
+        },
+        {
+          "label": "South window W-S",
+          "value": "3558 mm, four lights, AC under the east end",
+          "basis": "drawn + photo"
+        },
+        {
+          "label": "West window W-W",
+          "value": "1735 mm between piers",
+          "basis": "drawn"
+        },
+        {
+          "label": "Arch to the living A-E",
+          "value": "1566 mm on the east wall",
+          "basis": "drawn + photo"
+        },
+        {
+          "label": "North-east opening A-N",
+          "value": "1071 mm, destination unknown",
+          "basis": "drawn"
+        },
+        {
+          "label": "Kitchen pass-through",
+          "value": "two-level counter on the north wall",
+          "basis": "photo, not drawn"
+        },
+        {
+          "label": "Ceiling fan",
+          "value": "centred, south of mid-depth",
+          "basis": "photo, placeholder"
+        },
+        {
+          "label": "Ceiling, sills, heads",
+          "value": "2700 / 900 / 2350 mm",
+          "basis": "placeholder"
+        }
+      ],
+      "toMeasure": [
+        "Ceiling height, sills, heads, arch head",
+        "Fan position",
+        "Counter height and length",
+        "Site check: which wall holds the dark arch. Facing the pass-through, the photos put it on the left-hand (west) wall near the pass-through corner; the drawing leaves a gap on the east wall instead."
+      ],
+      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack); the room-pack wiring for the rest of the unit is draft PR ivanbozhilov1/Ivan#6. The engine's gate blocks AI renders while a room file still holds placeholder values, so the first pack for a room needs its heights taped or accepted as assumptions.",
+      "emptyNote": "No dining-area designs are published yet. Packs are generated offline by the room-pack chain and appear here as a set once published."
+    },
+    {
+      "id": "hallway",
+      "label": "Hallway, dining to living",
+      "short": "Hallway",
+      "status": "placeholder",
+      "statusLabel": "Placeholder · not drawn, not taped",
+      "lead": "Not on any sheet of the plan. Read from the 7 Sep contractor photos F030–F035 and the 23 Oct dimension audit: a straight corridor from the living's north-east arch to the arch in the dining's west wall, with a window run on one side. It stays a placeholder until it is taped.",
+      "plan": null,
+      "photos": [
+        {
+          "image": "rooms/hallway-photo-f034.jpg",
+          "caption": "7 Sep 2026, F034: from the living through its arch, down the corridor to the dining arch and the dining's ceiling fan."
+        },
+        {
+          "image": "rooms/hallway-photo-f030.jpg",
+          "caption": "7 Sep 2026, F030: the corridor's window run (three sliding panels, about 3.6 m by the curtain quote) with the living arch frame at the right."
+        }
+      ],
+      "model": [
+        {
+          "image": "rooms/HAL-plan.webp",
+          "caption": "Placeholder room model: 2150 × 3600 mm guessed from a single-photo perspective reading (width about 0.83 of floor-to-ceiling)."
+        },
+        {
+          "image": "rooms/HAL-main.webp",
+          "caption": "Placeholder room model, looking up the corridor to the living arch. Every value is a placeholder."
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Width",
+          "value": "about 2.0–2.3 m",
+          "basis": "photo estimate, low confidence"
+        },
+        {
+          "label": "Length",
+          "value": "about 3.6–4.5 m: the window run plus the two arch jambs",
+          "basis": "photo estimate, low confidence"
+        },
+        {
+          "label": "Window side",
+          "value": "three-panel sliding run, about 3.6 m",
+          "basis": "curtain quote + photo"
+        },
+        {
+          "label": "Other side",
+          "value": "plain wall with a switch",
+          "basis": "photo"
+        },
+        {
+          "label": "Living end",
+          "value": "round-headed dark timber arch in the living's north-east diagonal, the wider of the two; width and head unmeasured",
+          "basis": "photo"
+        },
+        {
+          "label": "Dining end",
+          "value": "round-headed dark timber arch into the dining's west wall; width and head unmeasured",
+          "basis": "photo"
+        }
+      ],
+      "toMeasure": [
+        "Length between the arch faces, clear width",
+        "Both arch widths and heads",
+        "Ceiling height",
+        "Window run, sill and head"
+      ],
+      "packs": "Design packs are generated offline by the design-pack chain in the Ivan repository (tools/design-pack); the room-pack wiring for the rest of the unit is draft PR ivanbozhilov1/Ivan#6. The engine's gate blocks AI renders while a room file still holds placeholder values, so the first pack for a room needs its heights taped or accepted as assumptions.",
+      "emptyNote": "The hallway has no drawing and no measurements, so no pack can be generated yet. Tape it (length, width, arch widths and heads, ceiling, sill, head) and this placeholder becomes a room file."
+    }
+  ]
 }
