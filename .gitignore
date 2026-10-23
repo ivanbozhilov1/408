@@ -2,3 +2,7 @@
 unit408-regeneration-*.json
 candidate-check*.json
 private-preferences/
+__pycache__/
+debug.log
+.cache/
+node_modules/
