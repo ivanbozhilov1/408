@@ -678,5 +678,21 @@
   "stu:U-CUSHION",
   "stu:U-ART",
   "stu:U-PLANT",
-  "stu:U-DECOR"
+  "stu:U-DECOR",
+  "din:DINA-TABLE",
+  "din:DINA-CHAIR",
+  "din:DINA-BENCH",
+  "din:DINA-RUG",
+  "din:DINA-ART",
+  "din:DINA-PLANT",
+  "din:DINB-TABLE",
+  "din:DINB-CHAIR",
+  "din:DINB-RUG",
+  "din:DINB-ART",
+  "din:DINB-PLANT",
+  "din:DINC-TABLE",
+  "din:DINC-CHAIR",
+  "din:DINC-RUG",
+  "din:DINC-ART",
+  "din:DINC-PLANT"
 ]

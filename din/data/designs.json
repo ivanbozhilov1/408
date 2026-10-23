@@ -1,0 +1,593 @@
+{
+  "title": "Unit 408 dining area: three directions (A, B, C)",
+  "as_of": "23 October 2026",
+  "overview": "Three dining area directions for Unit 408: DINA Walnut and Linen, DINB Black Frame and Cane and DINC Cocoa and Charcoal.",
+  "requirements": [
+    "All prices assume new purchases. Three distinct sets of visible furniture, lighting, rugs, textiles and decor; no model or family repeats across the schemes or the parallel sets.",
+    "Every piece fits the measured room with clear walkways and door swings; plans use published dimensions and flag the rest.",
+    "Seating, tables and storage are real catalogue products with a supplier photo, price and source link."
+  ],
+  "procurement_gates": [
+    "Prices are catalogue references with each line's own price date. Product existence and photos are verified; exact Cebu stock, address delivery and checkout totals are not.",
+    "Pieces flagged \"dims unpublished\" in the room placement report keep the layout size; measure them at the showroom before ordering.",
+    "Delivery path for the sofa, dining table and buffet (lift, corridor, door widths) to be confirmed with the building before ordering.",
+    "Style renders are AI interpretations painted over the dimension-led model views; supplier photo boards, measured plans and the item schedule are the acceptance basis."
+  ],
+  "allowances": [
+    {
+      "id": "Q-DELIVERY",
+      "name": "Cebu freight, delivery and handling",
+      "low_centavos": 500000,
+      "high_centavos": 1500000,
+      "basis": "Planning allowance only; no shipping rates/address allocation obtained. Overseas freight not included."
+    },
+    {
+      "id": "Q-MOUNTING",
+      "name": "TV/art/pendant installation and assembly",
+      "low_centavos": 500000,
+      "high_centavos": 1000000,
+      "basis": "Planning allowance only; installer must specify anchors and verify substrate. Includes no structural rebuilding."
+    },
+    {
+      "id": "Q-FINISH",
+      "name": "Paint touch-up and site coordination",
+      "low_centavos": 500000,
+      "high_centavos": 1200000,
+      "basis": "Estimator reserve, not a contractor quote."
+    }
+  ],
+  "schemes": [
+    {
+      "id": "DINA",
+      "title": "Walnut and Linen",
+      "rationale": "a walnut rubberwood table for six on splayed legs with oatmeal fabric chairs and a whitewash bench on the lane side, an off-white rug, a framed botanical print, eucalyptus in the window corner",
+      "palette": [
+        "#6b4a36",
+        "#e3cfa6",
+        "#efe9dc"
+      ],
+      "budget": {
+        "design_centavos": 7134210,
+        "common_centavos": 0,
+        "priced_centavos": 7134210,
+        "reserve_low_centavos": 1500000,
+        "reserve_high_centavos": 3700000,
+        "total_low_php": 95000,
+        "total_high_php": 120000
+      },
+      "fit_notes": [
+        "Conditional fit: the layout rests on assumed values with a stated basis and none accepted yet: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 and head 1550, the passage to the master bedroom 1566, the fan centred over the table. Drawn or photo-fixed: 3680 wide, 4468 deep, south window 3558 in four lights, west window 1735 between piers. See ASSUMED.md.",
+        "Table 1800 x 900 centred 2750 from the counter wall: 940 clear to each side wall at the table ends, the end chairs pulled back still 440 clear; the bench sits on the lane (north) side and slides under the table; the north 1.7 m stays a lane between the arch and the passage.",
+        "Rug 300 x 200 laid long side to the window: 340 to each side wall, every pulled-back chair and the bench stay on it.",
+        "No buffet (the room is 3680 wide), no pendant (the fan stays), split unit high on the east wall over the table, Davies Beige blackout + voile on both windows.",
+        "The existing window unit under the south window is shown removed: the proposed split unit on the east wall replaces it (Ivan 23 Oct: split above the table); removal date pending."
+      ],
+      "table": "1800 x 900, the size Ivan approved on 23 Oct ('1800 x 900 table for six'); long side parallel to the south window"
+    },
+    {
+      "id": "DINB",
+      "title": "Black Frame and Cane",
+      "rationale": "a dark cement-look top on a slim black steel frame, six cane-back chairs with almond-tan seats on slim light wood-look legs, a light grey and beige patchwork rug, a black and grey canvas, a tall faux olive-style tree in the corner",
+      "palette": [
+        "#3a3a38",
+        "#d6b57e",
+        "#e4e2dc"
+      ],
+      "budget": {
+        "design_centavos": 8559000,
+        "common_centavos": 0,
+        "priced_centavos": 8559000,
+        "reserve_low_centavos": 1500000,
+        "reserve_high_centavos": 3700000,
+        "total_low_php": 111000,
+        "total_high_php": 135000
+      },
+      "fit_notes": [
+        "Conditional fit: the layout rests on assumed values with a stated basis and none accepted yet: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 and head 1550, the passage to the master bedroom 1566, the fan centred over the table. Drawn or photo-fixed: 3680 wide, 4468 deep, south window 3558 in four lights, west window 1735 between piers. See ASSUMED.md.",
+        "Table 1500 x 900 centred 2750 from the counter wall: 1090 clear to each side wall at the table ends, the end chairs pulled back still 590 clear; six seats as 2 + 2 + 1 + 1; the north 1.7 m stays a lane between the arch and the passage.",
+        "Rug 290 x 200 laid long side to the window: 390 to each side wall, every pulled-back chair stays on it.",
+        "No buffet (the room is 3680 wide), no pendant (the fan stays), split unit high on the east wall over the table, Davies Beige blackout + voile on both windows.",
+        "The existing window unit under the south window is shown removed: the proposed split unit on the east wall replaces it (Ivan 23 Oct: split above the table); removal date pending."
+      ],
+      "table": "1500 x 900, the compact alternative (Ivan: '1800x900 feels massive table'); long side parallel to the south window"
+    },
+    {
+      "id": "DINC",
+      "title": "Cocoa and Charcoal",
+      "rationale": "solid rubberwood in cocoa on splayed braced legs with six tall dark-grey upholstered chairs, a wide-striped taupe and greige rug, a brown Highland-cow canvas, a schefflera in the corner",
+      "palette": [
+        "#5a3a2a",
+        "#55524e",
+        "#efe4cf"
+      ],
+      "budget": {
+        "design_centavos": 13882910,
+        "common_centavos": 0,
+        "priced_centavos": 13882910,
+        "reserve_low_centavos": 1500000,
+        "reserve_high_centavos": 3700000,
+        "total_low_php": 170000,
+        "total_high_php": 194000
+      },
+      "fit_notes": [
+        "Conditional fit: the layout rests on assumed values with a stated basis and none accepted yet: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 and head 1550, the passage to the master bedroom 1566, the fan centred over the table. Drawn or photo-fixed: 3680 wide, 4468 deep, south window 3558 in four lights, west window 1735 between piers. See ASSUMED.md.",
+        "Table 1800 x 900 centred 2750 from the counter wall: 940 clear to each side wall at the table ends, the end chairs pulled back still 440 clear; six seats as 2 + 2 + 1 + 1; the north 1.7 m stays a lane between the arch and the passage.",
+        "Rug 290 x 200 laid long side to the window: 390 to each side wall, every pulled-back chair stays on it.",
+        "No buffet (the room is 3680 wide), no pendant (the fan stays), split unit high on the east wall over the table, Davies Beige blackout + voile on both windows.",
+        "The existing window unit under the south window is shown removed: the proposed split unit on the east wall replaces it (Ivan 23 Oct: split above the table); removal date pending."
+      ],
+      "table": "1800 x 900, the size Ivan approved on 23 Oct ('1800 x 900 table for six'); long side parallel to the south window"
+    }
+  ],
+  "items": [
+    {
+      "id": "DINA-TABLE",
+      "schemes": [
+        "DINA"
+      ],
+      "room": "DIN",
+      "role": "dining_table",
+      "name": "Our Home Stanley 6 Seater Dining Table",
+      "brand": "Our Home",
+      "sku": "10426595",
+      "variant": "Natural/ Walnut",
+      "quantity": 1,
+      "unit_centavos": 2065500,
+      "line_centavos": 2065500,
+      "url": "https://ourhome.ph/products/our-home-stanley-vi-seater-dining-table?variant=43903182897393",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-08 | Our Home",
+      "notes": "Walnut-finish rubberwood top on splayed, braced walnut legs, 1800 x 900 x 750: the size Ivan approved; long side parallel to the window, centre 2750 from the counter wall. The frozen catalogue has no pale-timber six-seater at this length (Our Home Spring and abensonHOME Shera checked), so the pale-ash idea became walnut",
+      "dimensions": {
+        "width": 1800,
+        "depth": 900,
+        "height": 750
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINA-TABLE.webp",
+      "family": "Our Home Stanley",
+      "price_date": "2026-09-08",
+      "price_basis": "Official online listed price for the exact variant; per item. Cebu branch price and delivered total unconfirmed.",
+      "materials": "solid rubberwood; MDF"
+    },
+    {
+      "id": "DINA-CHAIR",
+      "schemes": [
+        "DINA"
+      ],
+      "room": "DIN",
+      "role": "dining_chair",
+      "name": "Carmen Dining Chair",
+      "brand": "Mandaue Foam",
+      "sku": "124791",
+      "variant": "Beige + Whitewash; SKU 124791",
+      "quantity": 4,
+      "unit_centavos": 560000,
+      "line_centavos": 2240000,
+      "url": "https://mandauefoam.ph/products/carmen-dining-chair?variant=43664551018674",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-08 | Mandaue Foam",
+      "notes": "Beige fabric seat and back on whitewash legs; two on the window side and one at each end, the bench takes the lane side",
+      "dimensions": {
+        "width": 450,
+        "depth": 530,
+        "height": 900
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINA-CHAIR.webp",
+      "family": "Mandaue Foam Carmen",
+      "price_date": "2026-09-08",
+      "price_basis": "per listed item; selected exact variant",
+      "materials": "Upholstered in fabric + Rubber Wood legs"
+    },
+    {
+      "id": "DINA-BENCH",
+      "schemes": [
+        "DINA"
+      ],
+      "room": "DIN",
+      "role": "bench",
+      "name": "Mizell Bench",
+      "brand": "Mandaue Foam",
+      "sku": "107929",
+      "variant": "Whitewash + Cocoa Milk; SKU 107929",
+      "quantity": 1,
+      "unit_centavos": 725000,
+      "line_centavos": 725000,
+      "url": "https://mandauefoam.ph/products/mizell-bench?variant=43165094248626",
+      "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | Mandaue Foam",
+      "notes": "1220 whitewash bench with an upholstered seat on the lane (north) side, slides under the table when not in use",
+      "dimensions": {
+        "width": 1220,
+        "depth": 440,
+        "height": 465
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINA-BENCH.webp",
+      "family": "Mandaue Foam Mizell",
+      "price_date": "2026-09-10",
+      "price_basis": "Official public catalog price in PHP for the selected exact variant; no member discount inferred.",
+      "materials": "Frame & legs: Solid Rubberwood Upholstery: Foam covered with Fabric"
+    },
+    {
+      "id": "DINA-RUG",
+      "schemes": [
+        "DINA"
+      ],
+      "room": "DIN",
+      "role": "rug",
+      "name": "STOENSE off-white rug 200x300cm [00426809]",
+      "brand": "IKEA",
+      "sku": "004.268.09",
+      "variant": "STOENSE Rug, low pile - off-white 200x300 cm; off-white; 200x300cm; SKU 004.268.09",
+      "quantity": 1,
+      "unit_centavos": 849900,
+      "line_centavos": 849900,
+      "url": "https://www.ikea.com/ph/en/p/stoense-rug-low-pile-off-white-00426809/",
+      "status": "Source listing available; local stock unverified | Cebu delivery: unconfirmed | price date 2026-10-20 | IKEA",
+      "notes": "Off-white low pile 200 x 300 laid long side to the window; table, chairs and bench all stay on it when pulled back",
+      "dimensions": {
+        "width": 3000,
+        "depth": 2000
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINA-RUG.avif",
+      "family": "IKEA STOENSE",
+      "price_date": "2026-10-20",
+      "price_basis": "Public exact-variant selling price for one rug; delivery and underlay excluded/unverified. No purchase or reservation. Web offer linked to existing retailer record; named branch stock not confirmed.",
+      "materials": "Use surface: 100% polypropylene. Backing: 100% synthetic rubber"
+    },
+    {
+      "id": "DINA-ART",
+      "schemes": [
+        "DINA"
+      ],
+      "room": "DIN",
+      "role": "art",
+      "name": "BLODFLÄDER Picture",
+      "brand": "IKEA",
+      "sku": "00601916",
+      "variant": "BLODFLÄDER Picture, The Seine at Giverny, 118x78 cm; article 00601916",
+      "quantity": 1,
+      "unit_centavos": 299900,
+      "line_centavos": 299900,
+      "url": "https://www.ikea.com/ph/en/p/blodflaeder-picture-the-seine-at-giverny-00601916/",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-10 | IKEA",
+      "notes": "Framed print 118 x 78 in beige, brown and green on the plain north wall, centred on the free run between the arch and the pass-through",
+      "dimensions": {
+        "width": 1180,
+        "depth": 30,
+        "height": 780
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINA-ART.avif",
+      "family": "IKEA BLODFLADER",
+      "price_date": "2026-09-10",
+      "price_basis": "Official Philippine product-page price for the complete selected listing/variant; included quantity follows the exact specification variant. Delivery and assembly are additional.",
+      "materials": "Poster: 80 % polyester (100% recycled), 20 % linen; Frame: Fiberboard, Paper foil"
+    },
+    {
+      "id": "DINA-PLANT",
+      "schemes": [
+        "DINA"
+      ],
+      "room": "DIN",
+      "role": "plant",
+      "name": "Flourish Eucalyptus Tree",
+      "brand": "Flourish",
+      "sku": "39243067",
+      "variant": "Default Title",
+      "quantity": 1,
+      "unit_centavos": 953910,
+      "line_centavos": 953910,
+      "url": "https://ourhome.ph/products/flourish-eucalyptus-tree?variant=48096628310257",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Flourish",
+      "notes": "Faux eucalyptus tree 170 high in the south-west corner by the window",
+      "dimensions": {
+        "width": 500,
+        "depth": 500,
+        "height": 1700
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINA-PLANT.webp",
+      "family": "Flourish Eucalyptus",
+      "price_date": "2026-09-10",
+      "price_basis": "Official public online catalog price for the selected variant; per item. Cebu branch quotation and delivered total unconfirmed.",
+      "materials": null
+    },
+    {
+      "id": "DINB-TABLE",
+      "schemes": [
+        "DINB"
+      ],
+      "room": "DIN",
+      "role": "dining_table",
+      "name": "Jimmi 6 Seater Dining Table",
+      "brand": "Mandaue Foam",
+      "sku": "121850",
+      "variant": "Cement + Black; SKU 121850",
+      "quantity": 1,
+      "unit_centavos": 609000,
+      "line_centavos": 609000,
+      "url": "https://mandauefoam.ph/products/jimmi-6-seater-dining-table?variant=44632362746034",
+      "status": "In stock according to source | Cebu delivery: unconfirmed | price date 2026-09-08 | Mandaue Foam",
+      "notes": "Dark cement-look top (variant Cement + Black) on a slim black powder-coated steel frame, 1500 x 900 x 750: the compact alternative to 1800 (Ivan: '1800x900 feels massive table'); long side parallel to the window",
+      "dimensions": {
+        "width": 1500,
+        "depth": 900,
+        "height": 750
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINB-TABLE.webp",
+      "family": "Mandaue Foam Jimmi",
+      "price_date": "2026-09-08",
+      "price_basis": "per listed item; selected exact variant",
+      "materials": "Table: MDF with melamine Frame: Metal in powder coating finish"
+    },
+    {
+      "id": "DINB-CHAIR",
+      "schemes": [
+        "DINB"
+      ],
+      "room": "DIN",
+      "role": "dining_chair",
+      "name": "Hadwin Rattan Dining Chair",
+      "brand": "Mandaue Foam",
+      "sku": "122727",
+      "variant": "Almond; SKU 122727",
+      "quantity": 6,
+      "unit_centavos": 515000,
+      "line_centavos": 3090000,
+      "url": "https://mandauefoam.ph/products/hadwin-rattan-dining-chair?variant=43461908103346",
+      "status": "Available online | Cebu delivery: unconfirmed | price date 2026-09-08 | Mandaue Foam",
+      "notes": "Curved woven cane back and almond-tan upholstered seat on a slim frame with light wood-look legs (listing: metal tube frame, Almond Black; the product photo shows light legs); 2 + 2 + 1 + 1",
+      "dimensions": {
+        "width": 530,
+        "depth": 575,
+        "height": 840
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINB-CHAIR.webp",
+      "family": "Mandaue Foam Hadwin",
+      "price_date": "2026-09-08",
+      "price_basis": "Per listed item; selected exact variant",
+      "materials": "Frame & legs: Metal tube Seat pad: Foam with PU in plywood frame Backrest: Plastic Rattan"
+    },
+    {
+      "id": "DINB-RUG",
+      "schemes": [
+        "DINB"
+      ],
+      "room": "DIN",
+      "role": "rug",
+      "name": "R5004615 Large Rug",
+      "brand": "Ashley",
+      "sku": "R5004615",
+      "variant": "R5004615 Large Rug; manufacturer SKU R5004615; Default Title; Light Gray",
+      "quantity": 1,
+      "unit_centavos": 2360000,
+      "line_centavos": 2360000,
+      "url": "https://store.ashleyfurniture.ph/products/r5004615-large-rug?variant=50111956222238",
+      "status": "sold_out_online | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Light grey and beige patchwork rug (listed as Light Gray; the product photo shows the patchwork) 200 x 290 laid long side to the window; every pulled-back chair stays on it. Replaces the Our Home Metro Weave, which the living and master sets claimed in parallel",
+      "dimensions": {
+        "width": 2900,
+        "depth": 2007,
+        "height": 9.906
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINB-RUG.webp",
+      "family": "Ashley R5004615",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made with nylon"
+    },
+    {
+      "id": "DINB-ART",
+      "schemes": [
+        "DINB"
+      ],
+      "room": "DIN",
+      "role": "art",
+      "name": "A58000287 Wall Art",
+      "brand": "Ashley",
+      "sku": "A58000287",
+      "variant": "A58000287 Wall Art; manufacturer SKU A58000287; Default Title; Black/Gray",
+      "quantity": 1,
+      "unit_centavos": 1100000,
+      "line_centavos": 1100000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000287-wall-art?variant=45493293089054",
+      "status": "sold_out_online | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Black/Gray canvas 120 x 80 on the plain north wall; replaces the Ashley A58000378, which set GHI scheme I already claims",
+      "dimensions": {
+        "width": 1200,
+        "depth": 35,
+        "height": 800
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINB-ART.webp",
+      "family": "Ashley A58000287",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": null
+    },
+    {
+      "id": "DINB-PLANT",
+      "schemes": [
+        "DINB"
+      ],
+      "room": "DIN",
+      "role": "plant",
+      "name": "A54200038 Greenery",
+      "brand": "Ashley",
+      "sku": "A54200038",
+      "variant": "A54200038 Greenery; manufacturer SKU A54200038; Default Title; Green",
+      "quantity": 1,
+      "unit_centavos": 1400000,
+      "line_centavos": 1400000,
+      "url": "https://store.ashleyfurniture.ph/products/greenery-a54200038?variant=48426914447646",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Faux greenery 182 high in the south-west corner by the window; replaces the Crate and Barrel cactus, which living set B already claims",
+      "dimensions": {
+        "width": 762,
+        "depth": 762,
+        "height": 1829
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINB-PLANT.webp",
+      "family": "Ashley A54200038",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made with plastic and metal"
+    },
+    {
+      "id": "DINC-TABLE",
+      "schemes": [
+        "DINC"
+      ],
+      "room": "DIN",
+      "role": "dining_table",
+      "name": "Our Home Geordie 6 Seater Dining Table",
+      "brand": "Our Home",
+      "sku": "10426917",
+      "variant": "Cocoa / 6 Seater",
+      "quantity": 1,
+      "unit_centavos": 2795000,
+      "line_centavos": 2795000,
+      "url": "https://ourhome.ph/products/our-home-geordie-6-seater-dining-table?variant=45972880326897",
+      "status": "Online listing unavailable | Cebu delivery: unconfirmed | price date 2026-09-08 | Our Home",
+      "notes": "Solid rubberwood in cocoa, 1800 x 900 x 750: the size Ivan approved; long side parallel to the window, centre 2750 from the counter wall",
+      "dimensions": {
+        "width": 1800,
+        "depth": 900,
+        "height": 750
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINC-TABLE.webp",
+      "family": "Our Home Geordie",
+      "price_date": "2026-09-08",
+      "price_basis": "Official online listed price for the exact variant; per item. Cebu branch price and delivered total unconfirmed.",
+      "materials": "Solid Rubberwood"
+    },
+    {
+      "id": "DINC-CHAIR",
+      "schemes": [
+        "DINC"
+      ],
+      "room": "DIN",
+      "role": "dining_chair",
+      "name": "Macie Dining Chair",
+      "brand": "Mandaue Foam",
+      "sku": "107972",
+      "variant": "Dark Grey; SKU 107972",
+      "quantity": 6,
+      "unit_centavos": 540000,
+      "line_centavos": 3240000,
+      "url": "https://mandauefoam.ph/products/macie-dining-chair-1?variant=43085729104050",
+      "status": "Unknown | Cebu delivery: unconfirmed | price date 2026-09-08 | Mandaue Foam",
+      "notes": "Tall upholstered back and seat in dark grey fabric (variant Dark Grey, as the product photo) on dark legs; 2 + 2 + 1 + 1. The camel idea had no priced offer in the frozen catalogue",
+      "dimensions": {
+        "width": 465,
+        "depth": 550,
+        "height": 985
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINC-CHAIR.webp",
+      "family": "Mandaue Foam Macie",
+      "price_date": "2026-09-08",
+      "price_basis": "Per listed item; selected exact variant; price retained from existing official snapshot dated 2026-09-08; fresh refresh rate-limited",
+      "materials": "Upholstered with polyester fabric & Rubber wood frame & legs"
+    },
+    {
+      "id": "DINC-RUG",
+      "schemes": [
+        "DINC"
+      ],
+      "room": "DIN",
+      "role": "rug",
+      "name": "R5004635 Large Rug",
+      "brand": "Ashley",
+      "sku": "R5004635",
+      "variant": "R5004635 Large Rug; manufacturer SKU R5004635; Default Title; Brown",
+      "quantity": 1,
+      "unit_centavos": 5070000,
+      "line_centavos": 5070000,
+      "url": "https://store.ashleyfurniture.ph/products/r5004635-large-rug?variant=50111989088542",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-10 | Ashley",
+      "notes": "Wide-striped taupe-brown and greige polyester rug with fringed ends (listed as Brown) 200 x 290 laid long side to the window; every pulled-back chair stays on it. Third choice: the IKEA LOHALS jute is claimed by living set A and the Ashley R5005135 orange by an Astra design",
+      "dimensions": {
+        "width": 2900,
+        "depth": 2007,
+        "height": 9.906
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINC-RUG.webp",
+      "family": "Ashley R5004635",
+      "price_date": "2026-09-10",
+      "price_basis": "Per exact listed official Philippine storefront variant; verify quantity/configuration in listing. Cebu branch quotation is not established.",
+      "materials": "Made with polyester"
+    },
+    {
+      "id": "DINC-ART",
+      "schemes": [
+        "DINC"
+      ],
+      "room": "DIN",
+      "role": "art",
+      "name": "A58000487 Wall Art",
+      "brand": "Ashley",
+      "sku": "A58000487",
+      "variant": "A58000487 Wall Art; manufacturer SKU A58000487; Brown",
+      "quantity": 1,
+      "unit_centavos": 1500000,
+      "line_centavos": 1500000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000487-wall-art?variant=50443729797406",
+      "status": "online_variant_available_cebu_stock_unconfirmed | Cebu delivery: unconfirmed | price date 2026-09-08 | Ashley",
+      "notes": "Brown-toned Highland cow canvas 120 x 80 on the plain north wall",
+      "dimensions": {
+        "width": 1200,
+        "depth": 35,
+        "height": 800
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINC-ART.webp",
+      "family": "Ashley A58000487",
+      "price_date": "2026-09-08",
+      "price_basis": "Per listed item, exact official Philippine online variant price; not a confirmed Cebu branch quotation.",
+      "materials": "Canvas"
+    },
+    {
+      "id": "DINC-PLANT",
+      "schemes": [
+        "DINC"
+      ],
+      "room": "DIN",
+      "role": "plant",
+      "name": "Flourish Schefflera Tree",
+      "brand": "Flourish",
+      "sku": "39243373",
+      "variant": "Default Title",
+      "quantity": 1,
+      "unit_centavos": 1277910,
+      "line_centavos": 1277910,
+      "url": "https://ourhome.ph/products/flourish-schefflera-tree?variant=48409523519729",
+      "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-10 | Flourish",
+      "notes": "Faux schefflera tree 135 high in the south-west corner",
+      "dimensions": {
+        "width": 600,
+        "depth": 600,
+        "height": 1350
+      },
+      "scope": "design_piece",
+      "image": "assets/products/DINC-PLANT.webp",
+      "family": "Flourish Schefflera",
+      "price_date": "2026-09-10",
+      "price_basis": "Official public online catalog price for the selected variant; per item. Cebu branch quotation and delivered total unconfirmed.",
+      "materials": null
+    }
+  ],
+  "source_notes": [
+    "Catalogue of record: the frozen Airtable catalogue snapshot. No Airtable writes.",
+    "16 visible selections, each with a supplier photo where one was captured; models and families were checked against the earlier schemes and the parallel sets' claims (uniqueness.py).",
+    "Product photos are unaltered retailer references. Plans use published dimensions where available and flag defaults where not.",
+    "PH retailer routes establish real-product sourcing. Cebu fulfilment requires checkout/branch confirmation; no supplier contact or order has been made."
+  ]
+}
