@@ -19689,6 +19689,671 @@
           "height": 609
         }
       }
+    },
+    {
+      "id": "liv:LVA-SOFA",
+      "localId": "fable-liv-abc-20261023::LVA-SOFA",
+      "designId": "fable-liv-abc-20261023:A",
+      "designIds": [
+        "fable-liv-abc-20261023:A"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · A · Linen Daylight",
+      "name": "BLIMS Fine Furniture SUZY 3-SEATER SOFA",
+      "url": "/408/#design=fable-liv-abc-20261023%3AA",
+      "product": {
+        "role": "sofa",
+        "name": "SUZY 3-SEATER SOFA",
+        "brand": "BLIMS Fine Furniture",
+        "sku": "ISTF0097C",
+        "variant": "Beige; SKU ISTF0097C",
+        "family": "BLIMS Fine Furniture SUZY 3-SEATER SOFA",
+        "url": "https://blimsfurniture.com.ph/products/suzy-3-seater-sofa",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 2000,
+          "depth": 950,
+          "height": 920
+        }
+      }
+    },
+    {
+      "id": "liv:LVA-ARMCHAIR",
+      "localId": "fable-liv-abc-20261023::LVA-ARMCHAIR",
+      "designId": "fable-liv-abc-20261023:A",
+      "designIds": [
+        "fable-liv-abc-20261023:A"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · A · Linen Daylight",
+      "name": "IKEA STOCKHOLM 2025 Chair",
+      "url": "/408/#design=fable-liv-abc-20261023%3AA",
+      "product": {
+        "role": "armchair",
+        "name": "STOCKHOLM 2025 Chair",
+        "brand": "IKEA",
+        "sku": "60594786",
+        "variant": "STOCKHOLM 2025 Chair, birch veneer; article 60594786",
+        "family": "IKEA STOCKHOLM 2025 Chair",
+        "url": "https://www.ikea.com/ph/en/p/stockholm-2025-chair-birch-veneer-60594786/",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 710,
+          "depth": 790,
+          "height": 630
+        }
+      }
+    },
+    {
+      "id": "liv:LVA-COFFEE",
+      "localId": "fable-liv-abc-20261023::LVA-COFFEE",
+      "designId": "fable-liv-abc-20261023:A",
+      "designIds": [
+        "fable-liv-abc-20261023:A"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · A · Linen Daylight",
+      "name": "Mandaue Foam Gabler Coffee Table",
+      "url": "/408/#design=fable-liv-abc-20261023%3AA",
+      "product": {
+        "role": "coffee_table",
+        "name": "Gabler Coffee Table",
+        "brand": "Mandaue Foam",
+        "sku": "112308",
+        "variant": "Natural; SKU 112308",
+        "family": "Mandaue Foam Gabler Coffee Table",
+        "url": "https://mandauefoam.ph/products/gabler-coffee-table",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1100,
+          "depth": 480,
+          "height": 400
+        }
+      }
+    },
+    {
+      "id": "liv:LVA-SIDE",
+      "localId": "fable-liv-abc-20261023::LVA-SIDE",
+      "designId": "fable-liv-abc-20261023:A",
+      "designIds": [
+        "fable-liv-abc-20261023:A"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · A · Linen Daylight",
+      "name": "Mandaue Foam Jill Round Side Table",
+      "url": "/408/#design=fable-liv-abc-20261023%3AA",
+      "product": {
+        "role": "side_table",
+        "name": "Jill Round Side Table",
+        "brand": "Mandaue Foam",
+        "sku": "141197",
+        "variant": "Single published variant; SKU 141197",
+        "family": "Mandaue Foam Jill Round Side Table",
+        "url": "https://mandauefoam.ph/products/deia-side-table-copy",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 500,
+          "depth": 500,
+          "height": 500
+        }
+      }
+    },
+    {
+      "id": "liv:LVA-CONSOLE",
+      "localId": "fable-liv-abc-20261023::LVA-CONSOLE",
+      "designId": "fable-liv-abc-20261023:A",
+      "designIds": [
+        "fable-liv-abc-20261023:A"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · A · Linen Daylight",
+      "name": "Mandaue Foam Astrid TV Cabinet",
+      "url": "/408/#design=fable-liv-abc-20261023%3AA",
+      "product": {
+        "role": "tv_console",
+        "name": "Astrid TV Cabinet",
+        "brand": "Mandaue Foam",
+        "sku": "140995",
+        "variant": "SKU 140995; Oak",
+        "family": "Mandaue Foam Astrid TV Cabinet",
+        "url": "https://mandauefoam.ph/products/astrid-tv-cabinet",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1600,
+          "depth": 420,
+          "height": 495
+        }
+      }
+    },
+    {
+      "id": "liv:LVA-RUG",
+      "localId": "fable-liv-abc-20261023::LVA-RUG",
+      "designId": "fable-liv-abc-20261023:A",
+      "designIds": [
+        "fable-liv-abc-20261023:A"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · A · Linen Daylight",
+      "name": "IKEA LOHALS natural rug 200x300cm [80277396]",
+      "url": "/408/#design=fable-liv-abc-20261023%3AA",
+      "product": {
+        "role": "rug",
+        "name": "LOHALS natural rug 200x300cm [80277396]",
+        "brand": "IKEA",
+        "sku": "802.773.96",
+        "variant": "LOHALS Rug, flatwoven - natural 200x300 cm; natural; 200x300cm; SKU 802.773.96",
+        "family": "IKEA LOHALS natural rug 200x300cm [80277396]",
+        "url": "https://www.ikea.com/ph/en/p/lohals-rug-flatwoven-natural-80277396/",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 2000,
+          "depth": 3000
+        }
+      }
+    },
+    {
+      "id": "liv:LVA-LAMP",
+      "localId": "fable-liv-abc-20261023::LVA-LAMP",
+      "designId": "fable-liv-abc-20261023:A",
+      "designIds": [
+        "fable-liv-abc-20261023:A"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · A · Linen Daylight",
+      "name": "IKEA KINNAHULT Floor lamp",
+      "url": "/408/#design=fable-liv-abc-20261023%3AA",
+      "product": {
+        "role": "floor_lamp",
+        "name": "KINNAHULT Floor lamp",
+        "brand": "IKEA",
+        "sku": "50559260",
+        "variant": "KINNAHULT Floor lamp, ash/white, 150 cm; article 50559260",
+        "family": "IKEA KINNAHULT Floor lamp",
+        "url": "https://www.ikea.com/ph/en/p/kinnahult-floor-lamp-ash-white-50559260/",
+        "scope": "design_piece",
+        "dimensions": {
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "liv:LVA-PLANT",
+      "localId": "fable-liv-abc-20261023::LVA-PLANT",
+      "designId": "fable-liv-abc-20261023:A",
+      "designIds": [
+        "fable-liv-abc-20261023:A"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · A · Linen Daylight",
+      "name": "Flourish Flourish Faux Olive Tree",
+      "url": "/408/#design=fable-liv-abc-20261023%3AA",
+      "product": {
+        "role": "plant",
+        "name": "Flourish Faux Olive Tree",
+        "brand": "Flourish",
+        "sku": "39243062",
+        "variant": "Default Title",
+        "family": "Flourish Faux Olive Tree",
+        "url": "https://ourhome.ph/products/flourish-faux-olive-tree",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1000,
+          "depth": 1000,
+          "height": 1750
+        }
+      }
+    },
+    {
+      "id": "liv:LVA-ART",
+      "localId": "fable-liv-abc-20261023::LVA-ART",
+      "designId": "fable-liv-abc-20261023:A",
+      "designIds": [
+        "fable-liv-abc-20261023:A"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · A · Linen Daylight",
+      "name": "Crate & Barrel \"Off Shore\" by Kim Knoll 32\"x20\" Framed Wall Art Print",
+      "url": "/408/#design=fable-liv-abc-20261023%3AA",
+      "product": {
+        "role": "art",
+        "name": "\"Off Shore\" by Kim Knoll 32\"x20\" Framed Wall Art Print",
+        "brand": "Crate & Barrel",
+        "sku": "568779",
+        "variant": "\"Off Shore\" by Kim Knoll 32\"x20\" Framed Wall Art Print; Single listed configuration; published SKU 568779; Shopify variant 44253412065496",
+        "family": "Crate & Barrel \"Off Shore\" by Kim Knoll 32\"x20\" Framed Wall Art Print",
+        "url": "https://crateandbarrel.com.ph/products/off-shore-by-kim-knoll-32x20-framed-wall-art-print",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 812.8,
+          "depth": 50.8,
+          "height": 508
+        }
+      }
+    },
+    {
+      "id": "liv:LVB-SOFA",
+      "localId": "fable-liv-abc-20261023::LVB-SOFA",
+      "designId": "fable-liv-abc-20261023:B",
+      "designIds": [
+        "fable-liv-abc-20261023:B"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · B · Teal and Ochre",
+      "name": "Mandaue Foam Clark 3 Seater Sofa",
+      "url": "/408/#design=fable-liv-abc-20261023%3AB",
+      "product": {
+        "role": "sofa",
+        "name": "Clark 3 Seater Sofa",
+        "brand": "Mandaue Foam",
+        "sku": "133097",
+        "variant": "Fabric Belfast Light Teal (published option; listing photo shows Parson Light Gray)",
+        "family": "Mandaue Foam Clark 3 Seater Sofa",
+        "url": "https://mandauefoam.ph/products/clark-3-seater-sofa",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 2604,
+          "depth": 979,
+          "height": 1060
+        }
+      }
+    },
+    {
+      "id": "liv:LVB-OTTOMAN",
+      "localId": "fable-liv-abc-20261023::LVB-OTTOMAN",
+      "designId": "fable-liv-abc-20261023:B",
+      "designIds": [
+        "fable-liv-abc-20261023:B"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · B · Teal and Ochre",
+      "name": "Mandaue Foam Ava Ottoman with Storage",
+      "url": "/408/#design=fable-liv-abc-20261023%3AB",
+      "product": {
+        "role": "ottoman",
+        "name": "Ava Ottoman with Storage",
+        "brand": "Mandaue Foam",
+        "sku": "133067",
+        "variant": "Carbon (published option; listing photo shows Parson Light Gray)",
+        "family": "Mandaue Foam Ava Ottoman with Storage",
+        "url": "https://mandauefoam.ph/products/ava-ottoman-with-storage",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 902,
+          "depth": 902,
+          "height": 396
+        }
+      }
+    },
+    {
+      "id": "liv:LVB-ARMCHAIR",
+      "localId": "fable-liv-abc-20261023::LVB-ARMCHAIR",
+      "designId": "fable-liv-abc-20261023:B",
+      "designIds": [
+        "fable-liv-abc-20261023:B"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · B · Teal and Ochre",
+      "name": "BLIMS ALICE ACCENT CHAIR",
+      "url": "/408/#design=fable-liv-abc-20261023%3AB",
+      "product": {
+        "role": "armchair",
+        "name": "ALICE ACCENT CHAIR",
+        "brand": "BLIMS",
+        "sku": "ISSF0062L",
+        "variant": "Yellow (published option; listing variant is Light Grey)",
+        "family": "BLIMS ALICE ACCENT CHAIR",
+        "url": "https://blimsfurniture.com.ph/products/alice-accent-chair",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 790,
+          "depth": 800,
+          "height": 730
+        }
+      }
+    },
+    {
+      "id": "liv:LVB-COFFEE",
+      "localId": "fable-liv-abc-20261023::LVB-COFFEE",
+      "designId": "fable-liv-abc-20261023:B",
+      "designIds": [
+        "fable-liv-abc-20261023:B"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · B · Teal and Ochre",
+      "name": "Mandaue Foam Lovisa Coffee Table",
+      "url": "/408/#design=fable-liv-abc-20261023%3AB",
+      "product": {
+        "role": "coffee_table",
+        "name": "Lovisa Coffee Table",
+        "brand": "Mandaue Foam",
+        "sku": "133945",
+        "variant": "Single published variant; SKU 133945",
+        "family": "Mandaue Foam Lovisa Coffee Table",
+        "url": "https://mandauefoam.ph/products/lovisa-coffee-table",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 800,
+          "depth": 800,
+          "height": 400
+        }
+      }
+    },
+    {
+      "id": "liv:LVB-CONSOLE",
+      "localId": "fable-liv-abc-20261023::LVB-CONSOLE",
+      "designId": "fable-liv-abc-20261023:B",
+      "designIds": [
+        "fable-liv-abc-20261023:B"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · B · Teal and Ochre",
+      "name": "Mandaue Foam Haru 180 cm TV Cabinet",
+      "url": "/408/#design=fable-liv-abc-20261023%3AB",
+      "product": {
+        "role": "tv_console",
+        "name": "Haru 180 cm TV Cabinet",
+        "brand": "Mandaue Foam",
+        "sku": "122707",
+        "variant": "Columbia; SKU 122707",
+        "family": "Mandaue Foam Haru 180 cm TV Cabinet",
+        "url": "https://mandauefoam.ph/products/haru-180-cm-tv-cabinet",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1800,
+          "depth": 396,
+          "height": 494
+        }
+      }
+    },
+    {
+      "id": "liv:LVB-RUG",
+      "localId": "fable-liv-abc-20261023::LVB-RUG",
+      "designId": "fable-liv-abc-20261023:B",
+      "designIds": [
+        "fable-liv-abc-20261023:B"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · B · Teal and Ochre",
+      "name": "OUR HOME / Francis Libiran Metro Weave Carpet by Francis Libiran 200x290cm [39242457]",
+      "url": "/408/#design=fable-liv-abc-20261023%3AB",
+      "product": {
+        "role": "rug",
+        "name": "Metro Weave Carpet by Francis Libiran 200x290cm [39242457]",
+        "brand": "OUR HOME / Francis Libiran",
+        "sku": "39242457",
+        "variant": "Metro Weave Carpet by Francis Libiran; No named color variant published; confirm actual sample; 200x290cm; SKU 39242457",
+        "family": "OUR HOME / Francis Libiran Metro Weave Carpet by Francis Libiran 200x290cm [39242457]",
+        "url": "https://ourhome.ph/products/metro-weave?variant=47562107027697",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 2000,
+          "depth": 2900
+        }
+      }
+    },
+    {
+      "id": "liv:LVB-LAMP",
+      "localId": "fable-liv-abc-20261023::LVB-LAMP",
+      "designId": "fable-liv-abc-20261023:B",
+      "designIds": [
+        "fable-liv-abc-20261023:B"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · B · Teal and Ochre",
+      "name": "BoConcept Kuta Floor Lamp",
+      "url": "/408/#design=fable-liv-abc-20261023%3AB",
+      "product": {
+        "role": "floor_lamp",
+        "name": "Kuta Floor Lamp",
+        "brand": "BoConcept",
+        "sku": "630",
+        "variant": "Kuta Floor Lamp; outlet SKU 630; Brushed Copper Finish; representative listing https://www.boconcept.com/en-ph/outlet/lamps/731902f9-a88e-4ffe-bbc5-1c558d43cfe3/",
+        "family": "BoConcept Kuta Floor Lamp",
+        "url": "https://www.boconcept.com/en-ph/outlet/lamps/731902f9-a88e-4ffe-bbc5-1c558d43cfe3/",
+        "scope": "design_piece",
+        "dimensions": {
+          "height": 2000
+        }
+      }
+    },
+    {
+      "id": "liv:LVB-PLANT",
+      "localId": "fable-liv-abc-20261023::LVB-PLANT",
+      "designId": "fable-liv-abc-20261023:B",
+      "designIds": [
+        "fable-liv-abc-20261023:B"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · B · Teal and Ochre",
+      "name": "Crate & Barrel Faux Tall Potted Cactus Plant",
+      "url": "/408/#design=fable-liv-abc-20261023%3AB",
+      "product": {
+        "role": "plant",
+        "name": "Faux Tall Potted Cactus Plant",
+        "brand": "Crate & Barrel",
+        "sku": "605127",
+        "variant": "Faux Tall Potted Cactus Plant; Single listed configuration; published SKU 605127; Shopify variant 44187554873560",
+        "family": "Crate & Barrel Faux Tall Potted Cactus Plant",
+        "url": "https://crateandbarrel.com.ph/products/faux-tall-potted-cactus-plant",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 320.04,
+          "height": 1358.9
+        }
+      }
+    },
+    {
+      "id": "liv:LVC-SOFA",
+      "localId": "fable-liv-abc-20261023::LVC-SOFA",
+      "designId": "fable-liv-abc-20261023:C",
+      "designIds": [
+        "fable-liv-abc-20261023:C"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · C · Charcoal and Brass",
+      "name": "abensonHome Amora 2-Seater Sofa",
+      "url": "/408/#design=fable-liv-abc-20261023%3AC",
+      "product": {
+        "role": "sofa",
+        "name": "Amora 2-Seater Sofa",
+        "brand": "abensonHome",
+        "sku": "",
+        "variant": "Polyester, Grey, No-Zag Springs, Comfortable",
+        "family": "abensonHome Amora 2-Seater Sofa",
+        "url": "https://home.abenson.com/abensonhome-amora-grey-brown-2-seater-sofa.html",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1860,
+          "depth": 860,
+          "height": 800
+        }
+      }
+    },
+    {
+      "id": "liv:LVC-CORNER",
+      "localId": "fable-liv-abc-20261023::LVC-CORNER",
+      "designId": "fable-liv-abc-20261023:C",
+      "designIds": [
+        "fable-liv-abc-20261023:C"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · C · Charcoal and Brass",
+      "name": "Mandaue Foam Cavo Real Marble Side Table",
+      "url": "/408/#design=fable-liv-abc-20261023%3AC",
+      "product": {
+        "role": "side_table",
+        "name": "Cavo Real Marble Side Table",
+        "brand": "Mandaue Foam",
+        "sku": "140974",
+        "variant": "Single published variant; SKU 140974",
+        "family": "Mandaue Foam Cavo Real Marble Side Table",
+        "url": "https://mandauefoam.ph/products/cavo-real-marble-side-table",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 610,
+          "depth": 508,
+          "height": 588
+        }
+      }
+    },
+    {
+      "id": "liv:LVC-COFFEE",
+      "localId": "fable-liv-abc-20261023::LVC-COFFEE",
+      "designId": "fable-liv-abc-20261023:C",
+      "designIds": [
+        "fable-liv-abc-20261023:C"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · C · Charcoal and Brass",
+      "name": "Mandaue Foam Bexley Glass Top Coffee Table",
+      "url": "/408/#design=fable-liv-abc-20261023%3AC",
+      "product": {
+        "role": "coffee_table",
+        "name": "Bexley Glass Top Coffee Table",
+        "brand": "Mandaue Foam",
+        "sku": "116619",
+        "variant": "Single published variant; SKU 116619",
+        "family": "Mandaue Foam Bexley Glass Top Coffee Table",
+        "url": "https://mandauefoam.ph/products/bexley-glass-top-coffee-table",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1100,
+          "depth": 500,
+          "height": 420
+        }
+      }
+    },
+    {
+      "id": "liv:LVC-LOUNGE",
+      "localId": "fable-liv-abc-20261023::LVC-LOUNGE",
+      "designId": "fable-liv-abc-20261023:C",
+      "designIds": [
+        "fable-liv-abc-20261023:C"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · C · Charcoal and Brass",
+      "name": "Ashley Bradett Accent Chair",
+      "url": "/408/#design=fable-liv-abc-20261023%3AC",
+      "product": {
+        "role": "lounge_chair",
+        "name": "Bradett Accent Chair",
+        "brand": "Ashley",
+        "sku": "A3000763",
+        "variant": "Bradett Accent Chair; manufacturer SKU A3000763; Default Title",
+        "family": "Ashley Bradett Accent Chair",
+        "url": "https://store.ashleyfurniture.ph/products/bradett-accent-chair",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 762,
+          "depth": 736.6,
+          "height": 863.6
+        }
+      }
+    },
+    {
+      "id": "liv:LVC-CONSOLE",
+      "localId": "fable-liv-abc-20261023::LVC-CONSOLE",
+      "designId": "fable-liv-abc-20261023:C",
+      "designIds": [
+        "fable-liv-abc-20261023:C"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · C · Charcoal and Brass",
+      "name": "BLIMS Fine Furniture EXTREME TV CABINET",
+      "url": "/408/#design=fable-liv-abc-20261023%3AC",
+      "product": {
+        "role": "tv_console",
+        "name": "EXTREME TV CABINET",
+        "brand": "BLIMS Fine Furniture",
+        "sku": "ITVB0111A",
+        "variant": "Default published variant; SKU ITVB0111A",
+        "family": "BLIMS Fine Furniture EXTREME TV CABINET",
+        "url": "https://blimsfurniture.com.ph/products/extreme-tv-cabinet",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 1800,
+          "depth": 400,
+          "height": 400
+        }
+      }
+    },
+    {
+      "id": "liv:LVC-RUG",
+      "localId": "fable-liv-abc-20261023::LVC-RUG",
+      "designId": "fable-liv-abc-20261023:C",
+      "designIds": [
+        "fable-liv-abc-20261023:C"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · C · Charcoal and Brass",
+      "name": "OUR HOME / Francis Libiran Silken Arches Carpet by Francis Libiran 200x290cm [39242454]",
+      "url": "/408/#design=fable-liv-abc-20261023%3AC",
+      "product": {
+        "role": "rug",
+        "name": "Silken Arches Carpet by Francis Libiran 200x290cm [39242454]",
+        "brand": "OUR HOME / Francis Libiran",
+        "sku": "39242454",
+        "variant": "Silken Arches Carpet by Francis Libiran; No named color variant published; confirm actual sample; 200x290cm; SKU 39242454",
+        "family": "OUR HOME / Francis Libiran Silken Arches Carpet by Francis Libiran 200x290cm [39242454]",
+        "url": "https://ourhome.ph/products/silken-arches?variant=47562107584753",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 2000,
+          "depth": 2900
+        }
+      }
+    },
+    {
+      "id": "liv:LVC-LAMP",
+      "localId": "fable-liv-abc-20261023::LVC-LAMP",
+      "designId": "fable-liv-abc-20261023:C",
+      "designIds": [
+        "fable-liv-abc-20261023:C"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · C · Charcoal and Brass",
+      "name": "BoConcept Kip floor lamp",
+      "url": "/408/#design=fable-liv-abc-20261023%3AC",
+      "product": {
+        "role": "floor_lamp",
+        "name": "Kip floor lamp",
+        "brand": "BoConcept",
+        "sku": "105030000730",
+        "variant": "Kip floor lamp; manufacturer variant/SKU 105030000730; master 105030000730; selected configuration codes: vaMaterialLamp=81",
+        "family": "BoConcept Kip floor lamp",
+        "url": "https://www.boconcept.com/en-ph/p/kip/105_30000730-8:81/",
+        "scope": "design_piece",
+        "dimensions": {
+          "height": 1460
+        }
+      }
+    },
+    {
+      "id": "liv:LVC-ART",
+      "localId": "fable-liv-abc-20261023::LVC-ART",
+      "designId": "fable-liv-abc-20261023:C",
+      "designIds": [
+        "fable-liv-abc-20261023:C"
+      ],
+      "board": "liv",
+      "label": "Claude Fable · C · Charcoal and Brass",
+      "name": "Ashley A58000329 Wall Art",
+      "url": "/408/#design=fable-liv-abc-20261023%3AC",
+      "product": {
+        "role": "art",
+        "name": "A58000329 Wall Art",
+        "brand": "Ashley",
+        "sku": "A58000329",
+        "variant": "A58000329 Wall Art; manufacturer SKU A58000329; Default Title; Black/White",
+        "family": "Ashley A58000329 Wall Art",
+        "url": "https://store.ashleyfurniture.ph/products/a58000329-wall-art",
+        "scope": "design_piece",
+        "dimensions": {
+          "width": 800.1,
+          "depth": 34.798,
+          "height": 800.1
+        }
+      }
     }
   ]
 }

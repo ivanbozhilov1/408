@@ -27,7 +27,7 @@ class LegacyRegeneration(unittest.TestCase):
                 target = fixture / relative
                 target.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(ROOT / relative, target)
-            for board in ['', 'ghi', 'jkl', 'mno', 'stu', 'hal', 'hop', 'dop', 'lop']:
+            for board in ['', 'ghi', 'jkl', 'mno', 'stu', 'hal', 'hop', 'dop', 'lop', 'liv']:
                 for relative in ['site.js', 'site.css', 'data/designs.json'] + (['index.html'] if board else []):
                     target = fixture / board / relative
                     target.parent.mkdir(parents=True, exist_ok=True)
@@ -38,24 +38,24 @@ class LegacyRegeneration(unittest.TestCase):
             historic = 'historical:retained-regeneration-fixture'
             allowed_path.write_text(json.dumps(original_ids + [historic]), encoding='utf-8')
             expected = {x['id'] for x in json.loads((ROOT / 'collection-catalog.json').read_text(encoding='utf-8'))['items']}
-            self.assertEqual(len(expected), 757)
+            self.assertEqual(len(expected), 782)
             for _ in range(2):
                 boards = patch_gallery.patch(fixture, 'https://seo.cebugrandrealty.com:8443/api/picks', allowed_path)
-                self.assertEqual(set(boards), {'def', 'ghi', 'jkl', 'mno', 'stu', 'hal', 'hop', 'dop', 'lop'})
+                self.assertEqual(set(boards), {'def', 'ghi', 'jkl', 'mno', 'stu', 'hal', 'hop', 'dop', 'lop', 'liv'})
                 allowed = set(json.loads(allowed_path.read_text()))
                 self.assertTrue(expected <= allowed)
                 self.assertTrue(set(original_ids) <= allowed)
                 self.assertIn(historic, allowed)
                 self.assertEqual(hashlib.sha256((fixture / 'index.html').read_bytes()).hexdigest(), index_hash)
-                for board in ['', 'ghi', 'jkl', 'mno', 'stu', 'hal', 'hop', 'dop', 'lop']:
+                for board in ['', 'ghi', 'jkl', 'mno', 'stu', 'hal', 'hop', 'dop', 'lop', 'liv']:
                     script = (fixture / board / 'site.js').read_text(encoding='utf-8')
                     match = re.search(r'  const CATALOG = (\[.*?\]);\n', script)
                     self.assertIsNotNone(match)
                     entries = json.loads(match[1])
                     self.assertEqual({x['id'] for x in entries}, expected)
-                    self.assertEqual(len(entries), 757)
-                    legacy = [x for x in entries if re.match(r'^(def|ghi|jkl|mno|stu|hal|hop|dop|lop):', x['id'])]
-                    self.assertEqual(len(legacy), 373)
+                    self.assertEqual(len(entries), 782)
+                    legacy = [x for x in entries if re.match(r'^(def|ghi|jkl|mno|stu|hal|hop|dop|lop|liv):', x['id'])]
+                    self.assertEqual(len(legacy), 398)
                     for item in legacy:
                         self.assertIn('?shared-picks=1#row-', item['url'])
                         self.assertTrue(item['product'].get('name'))
