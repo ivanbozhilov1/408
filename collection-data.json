@@ -27494,34 +27494,35 @@
       "name": "Black Marble Archive",
       "date": "2026-10-23",
       "version": "fable-hal-abc-20261023",
-      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "status": "PARTLY_RENDERED_STYLE_STUDY_MODEL_VIEWS_FOR_THE_REST_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Black Marble Archive. A short corridor between two dark-painted arches, honey-amber parquet underfoot, the curtained window run on one side and the plain off-white wall on the other. On the plain wall the owner's LEGO Art World Map 31203, a 104 x 65 cm mosaic of small LEGO studs in deep blue oceans with tan and white continents, hangs at true scale with its bottom edge 1.1 m from the floor, centred over an Ashley Fargenta six-drawer dresser in black lacquer with a white replicated-marble top and slim brass bar pulls, standing on short black legs. On the dresser top, at the dining end, an At Home Gwen table lamp in gold with a white drum shade; at the living end a few framed family photographs and one small keepsake. A slim warm LED halo frame sits behind the map, switched off in daylight so it reads only as a thin shadow line around the mosaic. On the parquet in front of the dresser an IKEA STRÖG flatwoven natural jute rug, 120 x 180, its long side along the corridor, parquet showing on every side. The plain wall between the dresser and the dining arch stays empty, so the map is the single exhibit in the corridor. Davies Beige blackout and voile curtains with a valance board run the full length of the window side; daylight from the window, no ceiling light on. Conditional fit; hallway unmeasured: the corridor 2300 x 4400, ceiling 2700, both arches, the 3590 window run (Seoul Blinds quote O04) with sill 900 and head 2350, and the light switch are assumed values with a stated basis, none taped. The LEGO Art World Map 31203 hangs at its product size, 1040 x 650, bottom 1100. Nothing taped, nothing bought.",
+      "summary": "Partly rendered. Black Marble Archive. A short corridor between two dark-painted arches, honey-amber parquet underfoot, the curtained window run on one side and the plain off-white wall on the other. On the plain wall the owner's LEGO Art World Map 31203, a 104 x 65 cm mosaic of small LEGO studs in deep blue oceans with tan and white continents, hangs at true scale with its bottom edge 1.1 m from the floor, centred over an Ashley Fargenta six-drawer dresser in black lacquer with a white replicated-marble top and slim brass bar pulls, standing on short black legs. On the dresser top, at the dining end, an At Home Gwen table lamp in gold with a white drum shade; at the living end a few framed family photographs and one small keepsake. A slim warm LED halo frame sits behind the map, switched off in daylight so it reads only as a thin shadow line around the mosaic. On the parquet in front of the dresser an IKEA STRÖG flatwoven natural jute rug, 120 x 180, its long side along the corridor, parquet showing on every side. The plain wall between the dresser and the dining arch stays empty, so the map is the single exhibit in the corridor. Davies Beige blackout and voile curtains with a valance board run the full length of the window side; daylight from the window, no ceiling light on. Conditional fit; hallway unmeasured: the corridor 2300 x 4400, ceiling 2700, both arches, the 3590 window run (Seoul Blinds quote O04) with sill 900 and head 2350, and the light switch are assumed values with a stated basis, none taped. The LEGO Art World Map 31203 hangs at its product size, 1040 x 650, bottom 1100. Nothing taped, nothing bought.",
       "reviewNotes": [
+        "Images (24 Oct): both arches are round-headed, per Ivan (\"Both hallway arches are full semicircles.\" and \"The two hallway arches are about the same width.\"), drawn 1450 wide with a 2240 crown. The views from the living, from the dining and at three-quarter show their round-arch model views until their AI renders are redone after the 30 Oct Codex reset; the map wall straight on keeps its AI render, which shows no arch and passed the LEGO scale check.",
         "Render QA (a reviewer per design against the 3:2 model views and the product photos, then an independent verifier, 23 Oct): the three-quarter view passes. In the other three the dresser comes out too deep (from the living and from the dining, about 20 to 25%) or too low (straight on, about 8%), and the view from the living adds a dark timber strip at its left edge; two fix passes did not correct them, so the truest render of each is shown. Minor: the lamp reads about 1.3 to 1.5 times its size. LEGO scale check: both map-wall views pass (straight on: map aspect +3.2%, map to dresser +0.2%; three-quarter: map to dresser +4.98%).",
         "Ashley Fargenta 1499 x 406 x 889: top at 889, so the map's bottom edge at 1100 leaves a 211 mm reveal; the map (1040) is centred on the dresser (1499) with 230 mm of top free at each end for the lamp and the photos.",
         "Passage: 2300 (assumed) less 406 leaves about 1.9 m beside the dresser. The map is centred at 2200 from the living end (edges 1680 to 2720); if the light switch proves to sit more than 1.6 m along the wall, slide the whole composition 200 mm toward the dining arch.",
         "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/hal/",
-      "hero": "hal/assets/HA-render-hal_main.png",
+      "hero": "hal/assets/HA-render-hal_elevation.png",
       "plan": "hal/assets/PLAN-HA-HAL.png",
       "views": [
         {
-          "label": "From the living · Day",
+          "label": "From the living · Model view · Day",
           "kind": "hallway-living-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "hal/assets/HA-render-hal_main.png",
-          "caption": "AI style render from the living, 1.5 m back from its arch (eye 1.45 m, 62° lens), looking down the corridor to the dining arch: the plain wall with the dresser and the LEGO World Map on the left, the curtained window run on the right; painted over the dimension-led deterministic model view. Not gated by the LEGO scale check (the map is seen at a grazing angle). Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "hal/assets/HA-room-hal_main.png",
+          "caption": "Model view, render pending. Deterministic model view from the living, 1.5 m back from its arch (eye 1.45 m, 62° lens), looking down the corridor to the dining arch: the plain wall with the dresser and the LEGO World Map on the left, the curtained window run on the right. Both arches are drawn as round-headed semicircles of the same width (1450 wide, 2240 crown), as Ivan described them on 24 Oct; the selected pieces are proxy forms at the room file's dimensions, colours and finishes approximate. Not a render: this view's AI render showed flat-topped openings, so it is redone from this model view after the 30 Oct Codex reset."
         },
         {
-          "label": "From the dining · Day",
+          "label": "From the dining · Model view · Day",
           "kind": "hallway-dining-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "hal/assets/HA-render-hal_opposite.png",
-          "caption": "AI style render from the dining, 1.5 m back from its arch (eye 1.5 m, 62° lens), looking back down the corridor to the living arch: the window run on the left, the dresser and the map on the right; painted over the deterministic model view. Not gated by the LEGO scale check. Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "hal/assets/HA-room-hal_opposite.png",
+          "caption": "Model view, render pending. Deterministic model view from the dining, 1.5 m back from its arch (eye 1.5 m, 62° lens), looking back down the corridor to the living arch: the window run on the left, the dresser and the map on the right. Both arches are drawn as round-headed semicircles of the same width (1450 wide, 2240 crown), as Ivan described them on 24 Oct; the selected pieces are proxy forms at the room file's dimensions, colours and finishes approximate. Not a render: this view's AI render showed flat-topped openings, so it is redone from this model view after the 30 Oct Codex reset."
         },
         {
           "label": "Map wall, straight on · Day",
@@ -27532,12 +27533,12 @@
           "caption": "AI style render level and straight on, from 700 mm beyond the window wall (eye 0.9 m, 62° lens), so verticals stay parallel; painted over the dimension-led deterministic model view. Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification. LEGO scale check passed on this image (map aspect +3.2%, map to dresser +0.2%; limit ±5%)."
         },
         {
-          "label": "Map wall, three-quarter · Day",
+          "label": "Map wall, three-quarter · Model view · Day",
           "kind": "hallway-quarter-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "hal/assets/HA-render-hal_quarter.png",
-          "caption": "AI style render from just outside the living arch, turned toward the plain wall (eye 1.55 m, 62° lens): the dresser and the map in perspective, the corridor receding to the dining arch; painted over the dimension-led deterministic model view. Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification. LEGO scale check passed on this image (map to dresser +4.98%; limit ±5%)."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "hal/assets/HA-room-hal_quarter.png",
+          "caption": "Model view, render pending. Deterministic model view from just outside the living arch, turned toward the plain wall (eye 1.55 m, 62° lens): the dresser and the map in perspective, the corridor receding to the dining arch. Both arches are drawn as round-headed semicircles of the same width (1450 wide, 2240 crown), as Ivan described them on 24 Oct; the selected pieces are proxy forms at the room file's dimensions, colours and finishes approximate. Not a render: this view's AI render showed flat-topped openings, so it is redone from this model view after the 30 Oct Codex reset. The LEGO map is drawn at its product size (1040 x 650), the scale the LEGO check measures renders against."
         }
       ],
       "products": [
@@ -27687,34 +27688,35 @@
       "name": "Chalk and Linen",
       "date": "2026-10-23",
       "version": "fable-hal-abc-20261023",
-      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "status": "PARTLY_RENDERED_STYLE_STUDY_MODEL_VIEWS_FOR_THE_REST_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Chalk and Linen. A short corridor between two dark-painted arches, honey-amber parquet underfoot, the curtained window run on one side and the plain off-white wall on the other. On the plain wall the owner's LEGO Art World Map 31203, a 104 x 65 cm mosaic of small LEGO studs in deep blue oceans with tan and white continents, hangs at true scale with its bottom edge 1.1 m from the floor, centred over an IKEA HAUGA 6-drawer dresser in white with flat fronts and small round knobs, two per drawer, standing flat on the floor. On the dresser top, at the dining end, an IKEA VINDKRAFT table lamp in white moulded paper pulp, a ridged dome shade on a tapered base; at the living end framed photographs in pale wood frames and a white ceramic bowl. On the parquet in front of the dresser an IKEA TIPHEDE flatwoven cotton rug in natural with fine black stripes, 120 x 180, its long side along the corridor, parquet showing on every side. By the dining end of the plain wall, between the dresser and the arch, a Flourish schefflera 1.2 m tall in a dark square planter. Davies Beige blackout and voile curtains with a valance board run the full length of the window side; daylight from the window, no ceiling light on; the whole wall stays pale so the map is the only colour. Conditional fit; hallway unmeasured: the corridor 2300 x 4400, ceiling 2700, both arches, the 3590 window run (Seoul Blinds quote O04) with sill 900 and head 2350, and the light switch are assumed values with a stated basis, none taped. The LEGO Art World Map 31203 hangs at its product size, 1040 x 650, bottom 1100. Nothing taped, nothing bought.",
+      "summary": "Partly rendered. Chalk and Linen. A short corridor between two dark-painted arches, honey-amber parquet underfoot, the curtained window run on one side and the plain off-white wall on the other. On the plain wall the owner's LEGO Art World Map 31203, a 104 x 65 cm mosaic of small LEGO studs in deep blue oceans with tan and white continents, hangs at true scale with its bottom edge 1.1 m from the floor, centred over an IKEA HAUGA 6-drawer dresser in white with flat fronts and small round knobs, two per drawer, standing flat on the floor. On the dresser top, at the dining end, an IKEA VINDKRAFT table lamp in white moulded paper pulp, a ridged dome shade on a tapered base; at the living end framed photographs in pale wood frames and a white ceramic bowl. On the parquet in front of the dresser an IKEA TIPHEDE flatwoven cotton rug in natural with fine black stripes, 120 x 180, its long side along the corridor, parquet showing on every side. By the dining end of the plain wall, between the dresser and the arch, a Flourish schefflera 1.2 m tall in a dark square planter. Davies Beige blackout and voile curtains with a valance board run the full length of the window side; daylight from the window, no ceiling light on; the whole wall stays pale so the map is the only colour. Conditional fit; hallway unmeasured: the corridor 2300 x 4400, ceiling 2700, both arches, the 3590 window run (Seoul Blinds quote O04) with sill 900 and head 2350, and the light switch are assumed values with a stated basis, none taped. The LEGO Art World Map 31203 hangs at its product size, 1040 x 650, bottom 1100. Nothing taped, nothing bought.",
       "reviewNotes": [
+        "Images (24 Oct): both arches are round-headed, per Ivan (\"Both hallway arches are full semicircles.\" and \"The two hallway arches are about the same width.\"), drawn 1450 wide with a 2240 crown. The views from the living, from the dining and at three-quarter show their round-arch model views until their AI renders are redone after the 30 Oct Codex reset; the map wall straight on keeps its AI render, which shows no arch and passed the LEGO scale check.",
         "Render QA (a reviewer per design against the 3:2 model views and the product photos, then an independent verifier, 23 Oct): the views from the living and from the dining and the three-quarter view pass. The straight-on view draws the dresser about 15% too low and adds wall returns at both edges; both of its fixes failed the LEGO scale check, so the first render is shown. Minor: a cream arch head in the view from the dining; near-black knobs where the photo shows grey; the floor reads redder than the honey-amber parquet. LEGO scale check: both map-wall views pass (straight on: map aspect -0.1%, map to dresser +1.2%; three-quarter: map to dresser +2.9%).",
         "IKEA HAUGA 1380 x 460 x 840: top at 840 leaves a 260 mm reveal under the map; the map overhangs nothing (1040 on 1380, 170 mm free each end).",
         "The deepest cabinet of the three: 2300 (assumed) less 460 leaves about 1.84 m of passage; re-check if the corridor tapes under 2.0 m.",
         "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/hal/",
-      "hero": "hal/assets/HB-render-hal_main.png",
+      "hero": "hal/assets/HB-render-hal_elevation.png",
       "plan": "hal/assets/PLAN-HB-HAL.png",
       "views": [
         {
-          "label": "From the living · Day",
+          "label": "From the living · Model view · Day",
           "kind": "hallway-living-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "hal/assets/HB-render-hal_main.png",
-          "caption": "AI style render from the living, 1.5 m back from its arch (eye 1.45 m, 62° lens), looking down the corridor to the dining arch: the plain wall with the dresser and the LEGO World Map on the left, the curtained window run on the right; painted over the dimension-led deterministic model view. Not gated by the LEGO scale check (the map is seen at a grazing angle). Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "hal/assets/HB-room-hal_main.png",
+          "caption": "Model view, render pending. Deterministic model view from the living, 1.5 m back from its arch (eye 1.45 m, 62° lens), looking down the corridor to the dining arch: the plain wall with the dresser and the LEGO World Map on the left, the curtained window run on the right. Both arches are drawn as round-headed semicircles of the same width (1450 wide, 2240 crown), as Ivan described them on 24 Oct; the selected pieces are proxy forms at the room file's dimensions, colours and finishes approximate. Not a render: this view's AI render showed flat-topped openings, so it is redone from this model view after the 30 Oct Codex reset."
         },
         {
-          "label": "From the dining · Day",
+          "label": "From the dining · Model view · Day",
           "kind": "hallway-dining-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "hal/assets/HB-render-hal_opposite.png",
-          "caption": "AI style render from the dining, 1.5 m back from its arch (eye 1.5 m, 62° lens), looking back down the corridor to the living arch: the window run on the left, the dresser and the map on the right; painted over the deterministic model view. Not gated by the LEGO scale check. Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "hal/assets/HB-room-hal_opposite.png",
+          "caption": "Model view, render pending. Deterministic model view from the dining, 1.5 m back from its arch (eye 1.5 m, 62° lens), looking back down the corridor to the living arch: the window run on the left, the dresser and the map on the right. Both arches are drawn as round-headed semicircles of the same width (1450 wide, 2240 crown), as Ivan described them on 24 Oct; the selected pieces are proxy forms at the room file's dimensions, colours and finishes approximate. Not a render: this view's AI render showed flat-topped openings, so it is redone from this model view after the 30 Oct Codex reset."
         },
         {
           "label": "Map wall, straight on · Day",
@@ -27725,12 +27727,12 @@
           "caption": "AI style render level and straight on, from 700 mm beyond the window wall (eye 0.9 m, 62° lens), so verticals stay parallel; painted over the dimension-led deterministic model view. Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification. LEGO scale check passed on this image (map aspect −0.1%, map to dresser +1.2%; limit ±5%)."
         },
         {
-          "label": "Map wall, three-quarter · Day",
+          "label": "Map wall, three-quarter · Model view · Day",
           "kind": "hallway-quarter-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "hal/assets/HB-render-hal_quarter.png",
-          "caption": "AI style render from just outside the living arch, turned toward the plain wall (eye 1.55 m, 62° lens): the dresser and the map in perspective, the corridor receding to the dining arch; painted over the dimension-led deterministic model view. Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification. LEGO scale check passed on this image (map to dresser +2.9%; limit ±5%)."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "hal/assets/HB-room-hal_quarter.png",
+          "caption": "Model view, render pending. Deterministic model view from just outside the living arch, turned toward the plain wall (eye 1.55 m, 62° lens): the dresser and the map in perspective, the corridor receding to the dining arch. Both arches are drawn as round-headed semicircles of the same width (1450 wide, 2240 crown), as Ivan described them on 24 Oct; the selected pieces are proxy forms at the room file's dimensions, colours and finishes approximate. Not a render: this view's AI render showed flat-topped openings, so it is redone from this model view after the 30 Oct Codex reset. The LEGO map is drawn at its product size (1040 x 650), the scale the LEGO check measures renders against."
         }
       ],
       "products": [
@@ -27880,34 +27882,35 @@
       "name": "Honey and Ink",
       "date": "2026-10-23",
       "version": "fable-hal-abc-20261023",
-      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "status": "PARTLY_RENDERED_STYLE_STUDY_MODEL_VIEWS_FOR_THE_REST_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Honey and Ink. A short corridor between two dark-painted arches, honey-amber parquet underfoot, the curtained window run on one side and the plain off-white wall on the other. On the plain wall the owner's LEGO Art World Map 31203, a 104 x 65 cm mosaic of small LEGO studs in deep blue oceans with tan and white continents, hangs at true scale with its bottom edge 1.1 m from the floor, centred over an abensonHome Fowler 6-chest drawer in summer oak, a mid-century chest of six drawers with angled drawer fronts and slim splayed legs, its honey timber tonal with the parquet. On the dresser top, at the dining end, an Ashley Lanson metal table lamp, a textured charcoal-black bottle base under a beige linen drum shade; at the living end framed photographs in thin black frames. On the parquet in front of the dresser a Mandaue Foam Asne Geo printed rug, 80 x 150, blocks of terracotta, black and ivory, its long side along the corridor, parquet showing on every side. By the dining end of the plain wall, between the dresser and the arch, a Heim monstera 1.2 m tall, broad split dark-green leaves in a black pot. Davies Beige blackout and voile curtains with a valance board run the full length of the window side; daylight from the window, no ceiling light on; the map's blue is the only cool colour in the picture. Conditional fit; hallway unmeasured: the corridor 2300 x 4400, ceiling 2700, both arches, the 3590 window run (Seoul Blinds quote O04) with sill 900 and head 2350, and the light switch are assumed values with a stated basis, none taped. The LEGO Art World Map 31203 hangs at its product size, 1040 x 650, bottom 1100. Nothing taped, nothing bought.",
+      "summary": "Partly rendered. Honey and Ink. A short corridor between two dark-painted arches, honey-amber parquet underfoot, the curtained window run on one side and the plain off-white wall on the other. On the plain wall the owner's LEGO Art World Map 31203, a 104 x 65 cm mosaic of small LEGO studs in deep blue oceans with tan and white continents, hangs at true scale with its bottom edge 1.1 m from the floor, centred over an abensonHome Fowler 6-chest drawer in summer oak, a mid-century chest of six drawers with angled drawer fronts and slim splayed legs, its honey timber tonal with the parquet. On the dresser top, at the dining end, an Ashley Lanson metal table lamp, a textured charcoal-black bottle base under a beige linen drum shade; at the living end framed photographs in thin black frames. On the parquet in front of the dresser a Mandaue Foam Asne Geo printed rug, 80 x 150, blocks of terracotta, black and ivory, its long side along the corridor, parquet showing on every side. By the dining end of the plain wall, between the dresser and the arch, a Heim monstera 1.2 m tall, broad split dark-green leaves in a black pot. Davies Beige blackout and voile curtains with a valance board run the full length of the window side; daylight from the window, no ceiling light on; the map's blue is the only cool colour in the picture. Conditional fit; hallway unmeasured: the corridor 2300 x 4400, ceiling 2700, both arches, the 3590 window run (Seoul Blinds quote O04) with sill 900 and head 2350, and the light switch are assumed values with a stated basis, none taped. The LEGO Art World Map 31203 hangs at its product size, 1040 x 650, bottom 1100. Nothing taped, nothing bought.",
       "reviewNotes": [
+        "Images (24 Oct): both arches are round-headed, per Ivan (\"Both hallway arches are full semicircles.\" and \"The two hallway arches are about the same width.\"), drawn 1450 wide with a 2240 crown. The views from the living, from the dining and at three-quarter show their round-arch model views until their AI renders are redone after the 30 Oct Codex reset; the map wall straight on keeps its AI render, which shows no arch and passed the LEGO scale check.",
         "Render QA (a reviewer per design against the 3:2 model views and the product photos, then an independent verifier, 23 Oct): the views from the living and from the dining pass. The straight-on view adds a wall return at its left edge, and the three-quarter view draws the geo rug at least 1.3 times too wide and the map in teal and orange in a black frame; their fixes failed the LEGO scale check, so the earlier renders are shown. Minor: cream arch jambs; the floor reads redder than the honey-amber parquet. LEGO scale check: both map-wall views pass (straight on: map aspect +4.5%, map to chest +2.5%; three-quarter: map to chest -4.5%).",
         "abensonHome Fowler 1400 x 390 x 780: the lowest top (780) gives a 320 mm reveal under the map; the drawers sit on legs, so the skirting line stays visible along the wall.",
         "Passage: 2300 (assumed) less 390 leaves about 1.9 m; the 80 x 150 rug sits in front of the dresser only, parquet showing on every side.",
         "Conditional fit; hallway unmeasured: ceiling, corridor width and length, arches, window run and switch are accepted assumptions (ASSUMED.md)."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/hal/",
-      "hero": "hal/assets/HC-render-hal_main.png",
+      "hero": "hal/assets/HC-render-hal_elevation.png",
       "plan": "hal/assets/PLAN-HC-HAL.png",
       "views": [
         {
-          "label": "From the living · Day",
+          "label": "From the living · Model view · Day",
           "kind": "hallway-living-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "hal/assets/HC-render-hal_main.png",
-          "caption": "AI style render from the living, 1.5 m back from its arch (eye 1.45 m, 62° lens), looking down the corridor to the dining arch: the plain wall with the dresser and the LEGO World Map on the left, the curtained window run on the right; painted over the dimension-led deterministic model view. Not gated by the LEGO scale check (the map is seen at a grazing angle). Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "hal/assets/HC-room-hal_main.png",
+          "caption": "Model view, render pending. Deterministic model view from the living, 1.5 m back from its arch (eye 1.45 m, 62° lens), looking down the corridor to the dining arch: the plain wall with the dresser and the LEGO World Map on the left, the curtained window run on the right. Both arches are drawn as round-headed semicircles of the same width (1450 wide, 2240 crown), as Ivan described them on 24 Oct; the selected pieces are proxy forms at the room file's dimensions, colours and finishes approximate. Not a render: this view's AI render showed flat-topped openings, so it is redone from this model view after the 30 Oct Codex reset."
         },
         {
-          "label": "From the dining · Day",
+          "label": "From the dining · Model view · Day",
           "kind": "hallway-dining-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "hal/assets/HC-render-hal_opposite.png",
-          "caption": "AI style render from the dining, 1.5 m back from its arch (eye 1.5 m, 62° lens), looking back down the corridor to the living arch: the window run on the left, the dresser and the map on the right; painted over the deterministic model view. Not gated by the LEGO scale check. Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "hal/assets/HC-room-hal_opposite.png",
+          "caption": "Model view, render pending. Deterministic model view from the dining, 1.5 m back from its arch (eye 1.5 m, 62° lens), looking back down the corridor to the living arch: the window run on the left, the dresser and the map on the right. Both arches are drawn as round-headed semicircles of the same width (1450 wide, 2240 crown), as Ivan described them on 24 Oct; the selected pieces are proxy forms at the room file's dimensions, colours and finishes approximate. Not a render: this view's AI render showed flat-topped openings, so it is redone from this model view after the 30 Oct Codex reset."
         },
         {
           "label": "Map wall, straight on · Day",
@@ -27918,12 +27921,12 @@
           "caption": "AI style render level and straight on, from 700 mm beyond the window wall (eye 0.9 m, 62° lens), so verticals stay parallel; painted over the dimension-led deterministic model view. Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification. LEGO scale check passed on this image (map aspect +4.5%, map to dresser +2.5%; limit ±5%)."
         },
         {
-          "label": "Map wall, three-quarter · Day",
+          "label": "Map wall, three-quarter · Model view · Day",
           "kind": "hallway-quarter-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "hal/assets/HC-render-hal_quarter.png",
-          "caption": "AI style render from just outside the living arch, turned toward the plain wall (eye 1.55 m, 62° lens): the dresser and the map in perspective, the corridor receding to the dining arch; painted over the dimension-led deterministic model view. Made from a 3:2 model view at the 3:2 size the image model returns, so nothing is stretched; a style interpretation, not a dimension certification. LEGO scale check passed on this image (map to dresser −4.5%; limit ±5%)."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "hal/assets/HC-room-hal_quarter.png",
+          "caption": "Model view, render pending. Deterministic model view from just outside the living arch, turned toward the plain wall (eye 1.55 m, 62° lens): the dresser and the map in perspective, the corridor receding to the dining arch. Both arches are drawn as round-headed semicircles of the same width (1450 wide, 2240 crown), as Ivan described them on 24 Oct; the selected pieces are proxy forms at the room file's dimensions, colours and finishes approximate. Not a render: this view's AI render showed flat-topped openings, so it is redone from this model view after the 30 Oct Codex reset. The LEGO map is drawn at its product size (1040 x 650), the scale the LEGO check measures renders against."
         }
       ],
       "products": [
@@ -30589,7 +30592,7 @@
       {
         "namespace": "fable-hal-abc-20261023",
         "title": "Hallway A / B / C · Black Marble Archive / Chalk and Linen / Honey and Ink",
-        "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED; hallway, conditional fit (hallway unmeasured); every published map-wall render passed the LEGO scale check"
+        "status": "PARTLY_RENDERED_STYLE_STUDY_MODEL_VIEWS_FOR_THE_REST_NO_HUMAN_ACCEPTANCE_EVIDENCED; hallway: 3 of 12 views rendered (the map wall straight on), the other 9 show round-arch model views until the 30 Oct re-render; conditional fit (hallway unmeasured); every published map-wall render passed the LEGO scale check"
       },
       {
         "namespace": "gpt-ghi-rejected-v001-20261021",
@@ -30817,8 +30820,8 @@
       "label": "Hallway, dining to living",
       "short": "Hallway",
       "status": "designs",
-      "statusLabel": "Six directions (three Fable, three Opus) · conditional fit, hallway unmeasured",
-      "lead": "Not on any sheet of the plan. A straight corridor from the living's north-east arch to the arch in the dining's west wall: the window run on the walker's right going living to dining, a plain wall on the left. Ivan's 23 Oct answers fix what goes where: the LEGO Art World Map on the plain wall over a solid cabinet with more drawers and room for photos on top, the accepted Seoul Blinds curtains, the parquet kept with a runner, no hallway aircon. Three Fable directions the same day (A Black Marble Archive, B Chalk and Linen, C Honey and Ink), each a six-drawer dresser under the map, rendered from four cameras. Ivan's rule: the hallway goes live only with the LEGO scale check, so every map-wall render is measured against the true-scale map before it is published. Every dimension is assumed until the corridor is taped.",
+      "statusLabel": "Six directions (three Fable, three Opus) · Fable: round-arch model views in 9 of 12 views, renders after 30 Oct · conditional fit, hallway unmeasured",
+      "lead": "Not on any sheet of the plan. A straight corridor from the living's north-east arch to the arch in the dining's west wall: the window run on the walker's right going living to dining, a plain wall on the left. Ivan's 23 Oct answers fix what goes where: the LEGO Art World Map on the plain wall over a solid cabinet with more drawers and room for photos on top, the accepted Seoul Blinds curtains, the parquet kept with a runner, no hallway aircon. Three Fable directions the same day (A Black Marble Archive, B Chalk and Linen, C Honey and Ink), each a six-drawer dresser under the map, rendered from four cameras. Since Ivan's 24 Oct answer that both arches are round-headed semicircles of about the same width, the three Fable views that show an arch carry round-arch model views until their renders are redone after the 30 Oct Codex reset. Ivan's rule: the hallway goes live only with the LEGO scale check, so every map-wall render is measured against the true-scale map before it is published. Every dimension is assumed until the corridor is taped.",
       "plan": null,
       "photos": [
         {
@@ -30833,15 +30836,15 @@
       "model": [
         {
           "image": "rooms/HAL-plan.webp",
-          "caption": "Room model in plan, drawn from the room file (assumed values, nothing taped): 2300 x 4400, living end at the top, the window run along the left edge, the plain wall at the right with the LEGO map (1040 x 650) over the cabinet slot, the runner centred, a plant by the dining end."
+          "caption": "Room model in plan, drawn from the room file (assumed values, nothing taped): 2300 x 4400, living end at the top, the window run along the left edge, the plain wall at the right with the LEGO map (1040 x 650) over the cabinet slot, the runner centred, a plant by the dining end, both arch openings 1450 wide."
         },
         {
           "image": "rooms/HAL-main.webp",
-          "caption": "Room model from the living end looking to the dining arch: the plain wall with the map, the cabinet slot and a lamp on the left, the window run on the right. Proxy shapes at the room file's sizes."
+          "caption": "Room model from the living end looking to the dining arch: the plain wall with the map, the cabinet slot and a lamp on the left, the window run on the right. Proxy shapes at the room file's sizes. Both arches are round-headed semicircles, 1450 wide with a 2240 crown (Ivan, 24 Oct)."
         },
         {
           "image": "rooms/HAL-opposite.webp",
-          "caption": "Room model from the dining end looking back to the living arch, drawn full width and square (the real living end is probably skewed: that arch is the living's diagonal wall)."
+          "caption": "Room model from the dining end looking back to the living arch: the same 1450 x 2240 round-headed semicircle as the dining arch (Ivan, 24 Oct), drawn square to the corridor (the real living end is probably skewed: that arch is the living's diagonal wall)."
         }
       ],
       "dimensions": [
@@ -30872,13 +30875,13 @@
         },
         {
           "label": "Living end",
-          "value": "round-headed dark timber arch in the living's north-east diagonal, the wider of the two; drawn full width with head 2350",
-          "basis": "photo, assumed"
+          "value": "round-headed dark timber arch in the living's north-east diagonal: a full semicircle about the same width as the dining arch, drawn 1450 wide (1390 clear) with a 2240 crown, piers 620 (window side) and 230 (plain-wall side)",
+          "basis": "Ivan 24 Oct + F034 camera fit, assumed"
         },
         {
           "label": "Dining end",
-          "value": "round-headed dark timber arch into the dining's west wall, 1450 clear, head 2300, piers 250 (plain-wall side) and 600 (window side)",
-          "basis": "F034/F035 proportions, assumed"
+          "value": "round-headed dark timber arch into the dining's west wall: a full semicircle drawn 1450 wide (1390 clear) with a 2240 crown, piers 190 (plain-wall side) and 660 (window side)",
+          "basis": "Ivan 24 Oct + F034 camera fit, assumed"
         },
         {
           "label": "Curtains",
