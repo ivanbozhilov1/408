@@ -2,45 +2,49 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import crypto from 'node:crypto'
 import fs from 'node:fs'
+import os from 'node:os'
 import path from 'node:path'
-import { fileURLToPath } from 'node:url'
 import { chromium } from 'playwright'
 import { convertAssets } from './webp_assets.mjs'
 
 const sha = bytes => crypto.createHash('sha256').update(bytes).digest('hex')
+const executablePath = process.env.UNIT408_CHROMIUM || chromium.executablePath()
+const tempRoot = prefix => fs.mkdtempSync(path.join(os.tmpdir(), prefix))
+const draw = async (page, kind, type, quality = 0.95) => Buffer.from(await page.evaluate(([kind, type, quality]) => {
+  const c = document.createElement('canvas'); c.width = kind === 'plan' ? 640 : 320; c.height = kind === 'plan' ? 400 : 200; const g = c.getContext('2d')
+  if (kind === 'photo') {
+    // Smooth gradients with mild grain, like a render: no dominant flat colours.
+    const d = g.createImageData(320, 200); let seed = 7
+    for (let i = 0; i < d.data.length; i += 4) {
+      const p = i / 4, x = p % 320, y = Math.floor(p / 320); seed = (seed * 1103515245 + 12345) & 0x7fffffff
+      d.data[i] = 90 + x / 3 + (seed % 9); d.data[i + 1] = 60 + y / 2 + (seed % 7); d.data[i + 2] = 40 + (x + y) / 5 + (seed % 5); d.data[i + 3] = 255
+    }
+    g.putImageData(d, 0, 0)
+  } else if (kind.startsWith('product')) {
+    // A grainy object on a white ground: most pixels are one flat colour.
+    g.fillStyle = '#fff'; g.fillRect(0, 0, 320, 200); const d = g.createImageData(110, 90); let seed = kind.length
+    for (let i = 0; i < d.data.length; i += 4) { seed = (seed * 1103515245 + 12345) & 0x7fffffff; d.data[i] = 120 + (seed % 40); d.data[i + 1] = 80 + (seed % 30); d.data[i + 2] = 50 + (seed % 20); d.data[i + 3] = 255 }
+    g.putImageData(d, 100, 55)
+  } else {
+    // A plan sheet: four line-art panels on white, flat and big enough that lossless WebP saves well over 10%
+    // (about 36% with Chrome 156; lossy q0.85 would be larger than the PNG).
+    g.fillStyle = '#fff'; g.fillRect(0, 0, 640, 400); g.strokeStyle = '#000'; g.lineWidth = 2; g.fillStyle = '#000'; g.font = '11px sans-serif'
+    for (const [x, y] of [[0, 0], [320, 0], [0, 200], [320, 200]]) {
+      for (let i = 0; i < 12; i++) g.strokeRect(x + 10 + i * 9, y + 10 + i * 5, 150, 90)
+      g.fillText('Bedroom 3200 x 2800', x + 170, y + 150)
+    }
+  }
+  return c.toDataURL(type, quality).split(',')[1]
+}, [kind, type, quality]), 'base64')
 
 test('page and JSON rasters become WebP; downloads, provenance, prose and sources stay original', async () => {
-  const root = fs.mkdtempSync(path.join(path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../../'), 'webp-assets-test-'))
-  const executablePath = process.env.UNIT408_CHROMIUM || chromium.executablePath()
+  const root = tempRoot('webp-assets-test-')
   const browser = await chromium.launch({ executablePath })
   try {
     const page = await browser.newPage()
-    const draw = async (kind, type, quality = 0.95) => Buffer.from(await page.evaluate(([kind, type, quality]) => {
-      const c = document.createElement('canvas'); c.width = 320; c.height = 200; const g = c.getContext('2d')
-      if (kind === 'photo') {
-        // Smooth gradients with mild grain, like a render: no dominant flat colours.
-        const d = g.createImageData(320, 200); let seed = 7
-        for (let i = 0; i < d.data.length; i += 4) {
-          const p = i / 4, x = p % 320, y = Math.floor(p / 320); seed = (seed * 1103515245 + 12345) & 0x7fffffff
-          d.data[i] = 90 + x / 3 + (seed % 9); d.data[i + 1] = 60 + y / 2 + (seed % 7); d.data[i + 2] = 40 + (x + y) / 5 + (seed % 5); d.data[i + 3] = 255
-        }
-        g.putImageData(d, 0, 0)
-      } else if (kind.startsWith('product')) {
-        // A grainy object on a white ground: most pixels are one flat colour.
-        g.fillStyle = '#fff'; g.fillRect(0, 0, 320, 200); const d = g.createImageData(110, 90); let seed = kind.length
-        for (let i = 0; i < d.data.length; i += 4) { seed = (seed * 1103515245 + 12345) & 0x7fffffff; d.data[i] = 120 + (seed % 40); d.data[i + 1] = 80 + (seed % 30); d.data[i + 2] = 50 + (seed % 20); d.data[i + 3] = 255 }
-        g.putImageData(d, 100, 55)
-      } else {
-        const shift = kind === 'plan' ? 0 : kind.length
-        g.fillStyle = '#fff'; g.fillRect(0, 0, 320, 200); g.strokeStyle = '#000'; g.lineWidth = 2
-        for (let i = 0; i < 12; i++) g.strokeRect(10 + shift + i * 9, 10 + i * 5, 150, 90)
-        g.fillStyle = '#000'; g.font = '11px sans-serif'; g.fillText('Bedroom 3200 x 2800', 170, 150)
-      }
-      return c.toDataURL(type, quality).split(',')[1]
-    }, [kind, type, quality]), 'base64')
-    const photo = await draw('photo', 'image/png'), plan = await draw('plan', 'image/png'), jpg = await draw('photo', 'image/jpeg'), cheap = await draw('photo', 'image/jpeg', 0.3)
+    const photo = await draw(page, 'photo', 'image/png'), plan = await draw(page, 'plan', 'image/png'), jpg = await draw(page, 'photo', 'image/jpeg'), cheap = await draw(page, 'photo', 'image/jpeg', 0.3)
     // Supplier product photos often look flat (white ground, palette PNG) but are still photographs.
-    const rug = await draw('product-rug', 'image/png'), cutout = await draw('product-cutout', 'image/png')
+    const rug = await draw(page, 'product-rug', 'image/png'), cutout = await draw(page, 'product-cutout', 'image/png')
     fs.mkdirSync(path.join(root, 'set/assets'), { recursive: true })
     fs.writeFileSync(path.join(root, 'set/assets/view.png'), photo); fs.writeFileSync(path.join(root, 'set/assets/plan.png'), plan)
     fs.writeFileSync(path.join(root, 'product.jpg'), jpg); fs.writeFileSync(path.join(root, 'cheap.jpg'), cheap)
@@ -78,17 +82,17 @@ test('page and JSON rasters become WebP; downloads, provenance, prose and source
     assert.equal(records.some(r => r.sourcePath === 'cheap.jpg'), false)
     for (const product of ['set/assets/products/rug.png', 'cutout.png']) assert.equal(records.find(r => r.sourcePath === product)?.lossless, false, product + ' is a lossy photo')
     assert.match(html, /<img src="assets\/products\/rug\.[a-f0-9]{24}\.webp">/)
+    // The flat plan sheet always qualifies: it is the one lossless conversion, and opaque, so it decodes pixel-identical.
     const planRecord = records.find(r => r.sourcePath === 'set/assets/plan.png')
-    if (planRecord) {
-      // Line art is only ever encoded losslessly.
-      assert.equal(planRecord.lossless, true)
-      const same = await page.evaluate(async ([a, b]) => {
-        const pixels = async src => { const i = new Image(); i.src = src; await i.decode(); const c = document.createElement('canvas'); c.width = i.width; c.height = i.height; const g = c.getContext('2d'); g.drawImage(i, 0, 0); return g.getImageData(0, 0, c.width, c.height).data }
-        const x = await pixels('data:image/png;base64,' + a), y = await pixels('data:image/webp;base64,' + b)
-        return x.length === y.length && x.every((v, i) => v === y[i])
-      }, [plan.toString('base64'), fs.readFileSync(path.join(root, 'set', planRecord.servedPath.slice(4))).toString('base64')])
-      assert.ok(same, 'lossless plan decodes pixel-identical')
-    } else assert.match(html, /<img src="assets\/plan\.png">/)
+    assert.equal(planRecord?.lossless, true, 'plan converted losslessly'); assert.equal(first.lossless, 1)
+    assert.ok(planRecord.bytes <= plan.length * 0.9, 'lossless plan saves at least 10%')
+    assert.match(html, /<img src="assets\/plan\.[a-f0-9]{24}\.webp">/)
+    const same = await page.evaluate(async ([a, b]) => {
+      const pixels = async src => { const i = new Image(); i.src = src; await i.decode(); const c = document.createElement('canvas'); c.width = i.width; c.height = i.height; const g = c.getContext('2d'); g.drawImage(i, 0, 0); return g.getImageData(0, 0, c.width, c.height).data }
+      const x = await pixels('data:image/png;base64,' + a), y = await pixels('data:image/webp;base64,' + b)
+      return x.length === y.length && x.every((v, i) => v === y[i])
+    }, [plan.toString('base64'), fs.readFileSync(path.join(root, 'set', planRecord.servedPath.slice(4))).toString('base64')])
+    assert.ok(same, 'lossless plan decodes pixel-identical')
     // Same bytes on a fresh copy reuse the cache, including kept-original decisions.
     fs.writeFileSync(path.join(root, 'collection-data.json'), JSON.stringify({ designs: [{ hero: 'set/assets/view.png' }] }))
     const second = await convertAssets(root, { executablePath, cacheDir: path.join(root, '.cache') })
@@ -97,7 +101,7 @@ test('page and JSON rasters become WebP; downloads, provenance, prose and source
 })
 
 test('rasters outside the scratch root are never read', async () => {
-  const base = fs.mkdtempSync(path.join(path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../../'), 'webp-assets-boundary-'))
+  const base = tempRoot('webp-assets-boundary-')
   const root = path.join(base, 'site'); fs.mkdirSync(root)
   fs.writeFileSync(path.join(base, 'outside.png'), 'private sentinel')
   fs.writeFileSync(path.join(root, 'index.html'), '<img src="../outside.png"><img src="/outside.png">')
