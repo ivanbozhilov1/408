@@ -13,6 +13,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 BASELINE_BYTES = 602_005_547
+ENCODER_TIMEOUT = 1200  # seconds per encoder run, so a hung Chrome cannot hold the build
 SUFFIXES = {'.html', '.js', '.css', '.json', '.png', '.webp', '.jpg', '.jpeg', '.svg', '.gif', '.avif', '.ico', '.csv', '.pdf', '.txt', '.woff', '.woff2', '.zip', '.7z', '.dwg', '.dxf', '.xlsx', '.docx', '.mp4', '.webm'}
 TEXT = {'.html', '.js', '.css', '.json', '.svg', '.txt', '.csv'}
 PRIVATE = re.compile(r'(^|/)(?:ops|\.git|\.github|private[^/]*|node_modules|reviews?)(/|$)|(?:auth\.json|review[^/]*\.json|candidate-check|unit408-regeneration|accepted-manifest|raw[-_]?export|build[-_]?logs?|preferences[-_](?:export|snapshot)|\.env|\.sqlite|\.db$|\.log$)', re.I)
@@ -133,7 +134,10 @@ def run_encoder(script: Path, scratch: Path, chromium, cache_dir, label: str) ->
         cmd.extend(['--chromium', str(chromium)])
     if cache_dir:
         cmd.extend(['--cache-dir', str(cache_dir)])
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=ENCODER_TIMEOUT)
+    except subprocess.TimeoutExpired:
+        raise ValueError(f'{label} derivative encoder {script.name} timed out after {ENCODER_TIMEOUT} s') from None
     if result.returncode:
         raise ValueError(f'{label} derivative encoder failed: ' + result.stderr[-1800:])
     return json.loads(result.stdout.strip().splitlines()[-1])
