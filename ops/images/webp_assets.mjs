@@ -21,6 +21,10 @@ export const FLAT_SHARE = 0.3
 // Keep the original unless the WebP saves at least this share of its bytes.
 export const MIN_SAVING = 0.1
 export const assetEncoder = quality => ({ name: 'chromium-canvas-webp-asset', version: 2, quality, flatShare: FLAT_SHARE, minSaving: MIN_SAVING })
+// Cache entries are hints: a missing, unreadable or torn entry is a miss, re-encoded and overwritten.
+const readCache = (file, parse) => { try { const bytes = fs.readFileSync(file); return parse ? JSON.parse(bytes.toString('utf8')) : bytes } catch { return null } }
+// Write beside the target, then rename over it, so an interrupted run cannot leave a torn cache entry.
+const writeAtomic = (file, data) => { fs.writeFileSync(file + '.tmp', data); fs.renameSync(file + '.tmp', file) }
 
 function files(root, ext) {
   return fs.readdirSync(root, { withFileTypes: true }).flatMap(e => e.name.startsWith('.') || e.name === 'ops' || e.name === 'node_modules' ? [] : e.isDirectory() ? files(path.join(root, e.name), ext) : ext.test(e.name) ? [path.join(root, e.name)] : [])
@@ -96,10 +100,12 @@ async function encode(page, source, mime, photo, quality) {
 export async function convertAssets(root, { quality = 0.85, executablePath, cacheDir } = {}) {
   root = path.resolve(root)
   if (!(quality > 0 && quality < 1)) throw Error('quality must be in (0, 1)')
-  const started = performance.now()
+  const started = performance.now(), rel = file => slash(path.relative(root, file))
   const settings = { ...assetEncoder(quality), chromiumExecutableSha256: sha(fs.readFileSync(executablePath || chromium.executablePath())) }
   const html = files(root, /\.html$/i), json = files(root, /\.json$/i).filter(f => !SKIP_JSON.has(path.basename(f)))
-  const parsed = new Map(json.map(f => [f, JSON.parse(fs.readFileSync(f, 'utf8').replace(/^\uFEFF/, ''))]))
+  const parsed = new Map(json.map(f => {
+    try { return [f, JSON.parse(fs.readFileSync(f, 'utf8').replace(/^\uFEFF/, ''))] } catch (error) { throw Error(`${rel(f)}: ${error.message}`, { cause: error }) }
+  }))
   const sources = new Map() // file -> product photo?
   const collect = from => (ref, inProducts = false) => {
     const file = target(root, from, ref)
@@ -112,35 +118,36 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
   let browser, page
   try {
     for (const [file, photo] of [...sources].sort()) {
-      const source = fs.readFileSync(file), sourceSha256 = sha(source)
-      const key = sha(JSON.stringify({ sourceSha256, photo, ...settings }))
-      const cacheFile = cacheDir && path.join(cacheDir, key + '.webp'), cacheMeta = cacheDir && path.join(cacheDir, key + '.json')
-      let result = null
-      if (cacheMeta && fs.existsSync(cacheMeta)) {
-        const cached = JSON.parse(fs.readFileSync(cacheMeta, 'utf8'))
-        if (cached.key === key && cached.sourceSha256 === sourceSha256 && (cached.keep || (fs.existsSync(cacheFile) && sha(fs.readFileSync(cacheFile)) === cached.servedSha256))) {
-          result = { ...cached, bytes: cached.keep ? null : fs.readFileSync(cacheFile) }; stats.reused++
+      try {
+        const source = fs.readFileSync(file), sourceSha256 = sha(source)
+        const key = sha(JSON.stringify({ sourceSha256, photo, ...settings }))
+        const cacheFile = cacheDir && path.join(cacheDir, key + '.webp'), cacheMeta = cacheDir && path.join(cacheDir, key + '.json')
+        let result = null
+        const hit = cacheMeta && readCache(cacheMeta, true)
+        if (hit?.key === key && hit.sourceSha256 === sourceSha256) {
+          const bytes = hit.keep ? null : readCache(cacheFile)
+          if (hit.keep || (bytes && sha(bytes) === hit.servedSha256)) { result = { ...hit, bytes }; stats.reused++ }
         }
-      }
-      if (!result) {
-        if (!browser) { browser = await chromium.launch(executablePath ? { executablePath } : {}); page = await browser.newPage() }
-        const image = await encode(page, source, /\.png$/i.test(file) ? 'image/png' : 'image/jpeg', photo, quality)
-        const bytes = Buffer.from(image.b64, 'base64')
-        const keep = bytes.length > source.length * (1 - MIN_SAVING)
-        result = { key, sourceSha256, keep, servedSha256: keep ? null : sha(bytes), width: image.width, height: image.height, lossless: image.lossless, flatShare: image.flatShare, bytes: keep ? null : bytes }
-        if (cacheDir) {
-          fs.mkdirSync(cacheDir, { recursive: true })
-          if (!keep) fs.writeFileSync(cacheFile, bytes)
-          const { bytes: _, ...meta } = result; fs.writeFileSync(cacheMeta, JSON.stringify(meta))
+        if (!result) {
+          if (!browser) { browser = await chromium.launch(executablePath ? { executablePath } : {}); page = await browser.newPage() }
+          const image = await encode(page, source, /\.png$/i.test(file) ? 'image/png' : 'image/jpeg', photo, quality)
+          const bytes = Buffer.from(image.b64, 'base64')
+          const keep = bytes.length > source.length * (1 - MIN_SAVING)
+          result = { key, sourceSha256, keep, servedSha256: keep ? null : sha(bytes), width: image.width, height: image.height, lossless: image.lossless, flatShare: image.flatShare, bytes: keep ? null : bytes }
+          if (cacheDir) {
+            fs.mkdirSync(cacheDir, { recursive: true })
+            if (!keep) writeAtomic(cacheFile, bytes)
+            const { bytes: _, ...meta } = result; writeAtomic(cacheMeta, JSON.stringify(meta))
+          }
+          stats.encoded++
         }
-        stats.encoded++
-      }
-      stats.sourceBytes += source.length
-      if (result.keep) { stats.keptOriginal++; stats.servedBytes += source.length; continue }
-      const out = servedFile(file, key)
-      fs.writeFileSync(out, result.bytes)
-      stats.converted++; stats.servedBytes += result.bytes.length; if (result.lossless) stats.lossless++
-      records.set(file, { key, sourcePath: slash(path.relative(root, file)), sourceSha256, servedPath: slash(path.relative(root, out)), servedSha256: result.servedSha256, width: result.width, height: result.height, bytes: result.bytes.length, lossless: result.lossless, encoder: settings })
+        stats.sourceBytes += source.length
+        if (result.keep) { stats.keptOriginal++; stats.servedBytes += source.length; continue }
+        const out = servedFile(file, key)
+        fs.writeFileSync(out, result.bytes)
+        stats.converted++; stats.servedBytes += result.bytes.length; if (result.lossless) stats.lossless++
+        records.set(file, { key, sourcePath: rel(file), sourceSha256, servedPath: rel(out), servedSha256: result.servedSha256, width: result.width, height: result.height, bytes: result.bytes.length, lossless: result.lossless, encoder: settings })
+      } catch (error) { throw Error(`${rel(file)}: ${error?.message ?? error}`, { cause: error }) }
     }
   } finally { await browser?.close() }
   const rewrite = from => {

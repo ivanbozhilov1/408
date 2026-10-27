@@ -111,3 +111,48 @@ test('rasters outside the scratch root are never read', async () => {
     assert.equal(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), '<img src="../outside.png"><img src="/outside.png">')
   } finally { fs.rmSync(base, { recursive: true, force: true }) }
 })
+
+test('an HTML page saved as a .jpg fails the run with an error that names the file', async () => {
+  const root = tempRoot('webp-assets-bad-image-')
+  try {
+    fs.mkdirSync(path.join(root, 'jkl/assets/products'), { recursive: true })
+    fs.writeFileSync(path.join(root, 'jkl/assets/products/K-CONSOLE.jpg'), '<!doctype html><title>404 Not Found</title><h1>Not Found</h1>')
+    fs.writeFileSync(path.join(root, 'jkl/index.html'), '<img src="assets/products/K-CONSOLE.jpg">')
+    await assert.rejects(convertAssets(root, { executablePath }), error => {
+      assert.match(error.message, /^jkl\/assets\/products\/K-CONSOLE\.jpg: /); assert.ok(error.cause, 'decoder error kept as cause'); return true
+    })
+    assert.equal(fs.readFileSync(path.join(root, 'jkl/index.html'), 'utf8'), '<img src="assets/products/K-CONSOLE.jpg">')
+  } finally { fs.rmSync(root, { recursive: true, force: true }) }
+})
+
+test('a public JSON file containing NaN fails the run with an error that names the file', async () => {
+  const root = tempRoot('webp-assets-bad-json-')
+  try {
+    fs.mkdirSync(path.join(root, 'astra/measured'), { recursive: true })
+    fs.writeFileSync(path.join(root, 'index.html'), '<a href="astra/measured/dimensions.json">dimensions</a>')
+    fs.writeFileSync(path.join(root, 'astra/measured/dimensions.json'), '{"width": NaN}\n')
+    await assert.rejects(convertAssets(root, { executablePath }), { message: /^astra\/measured\/dimensions\.json: / })
+  } finally { fs.rmSync(root, { recursive: true, force: true }) }
+})
+
+test('a torn cache meta is a cache miss: the image is encoded again and the entry rewritten', async () => {
+  const base = tempRoot('webp-assets-cache-'), cacheDir = path.join(base, 'cache')
+  const browser = await chromium.launch({ executablePath })
+  try {
+    const photo = await draw(await browser.newPage(), 'photo', 'image/png')
+    const site = name => { const root = path.join(base, name); fs.mkdirSync(root); fs.writeFileSync(path.join(root, 'index.html'), '<img src="view.png">'); fs.writeFileSync(path.join(root, 'view.png'), photo); return root }
+    const served = root => fs.readFileSync(path.join(root, fs.readdirSync(root).find(f => f.endsWith('.webp'))))
+    const first = await convertAssets(site('first'), { executablePath, cacheDir })
+    assert.equal(first.encoded, 1); assert.equal(first.converted, 1)
+    const metas = fs.readdirSync(cacheDir).filter(f => f.endsWith('.json')); assert.equal(metas.length, 1)
+    const metaPath = path.join(cacheDir, metas[0]), whole = fs.readFileSync(metaPath, 'utf8')
+    fs.writeFileSync(metaPath, whole.slice(0, Math.floor(whole.length / 2)))
+    const second = await convertAssets(site('second'), { executablePath, cacheDir })
+    assert.equal(second.encoded, 1); assert.equal(second.reused, 0)
+    assert.equal(fs.readFileSync(metaPath, 'utf8'), whole, 'meta rewritten in full')
+    assert.deepEqual(fs.readdirSync(cacheDir).filter(f => f.endsWith('.tmp')), [], 'no temporary cache files left')
+    assert.deepEqual(served(path.join(base, 'second')), served(path.join(base, 'first')))
+    const third = await convertAssets(site('third'), { executablePath, cacheDir })
+    assert.equal(third.encoded, 0); assert.equal(third.reused, 1)
+  } finally { await browser.close(); fs.rmSync(base, { recursive: true, force: true }) }
+})
