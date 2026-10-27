@@ -70,7 +70,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px;max-width:820px}
 <h1>Bed finder: Scandi Japanese Bed alternatives</h1>
 <p class="lede">275 bed frames from 23 sellers, combining Claude's research with Codex's comparison. Each one is shown with its photo, price, seller and main details, so you can compare them here and only open the seller's page for the ones you like. The reference bed is the Scandi Home <a href="https://www.scandihomeph.com/shop/japanese-bed/" rel="noopener noreferrer" target="_blank">Japanese Bed</a> (Queen, no bedsides, no storage). Details are the seller's own wording; prices were checked on 27–28 Oct 2026.</p>
 </header>
-<p class="lede"><b>Next closest Queen matches:</b> <a href="?matches=next-queen">compare Jessie, Akira and Celine</a>. These are research options, not new selections. Their exact Queen configurations, photos and seller stock were rechecked on 28 Oct 2026 at 01:10 Manila. Scandi lists AP Cargo to Cebu with customer assembly; freight and dispatch dates still need confirmation.</p>
+<p class="lede"><b>Browse all beds by default.</b> Use the filters to narrow the full catalogue, or <a href="?view=next-queen">compare just Jessie, Akira and Celine</a>. These are research options, not new selections. Their exact Queen configurations, photos and seller stock were rechecked on 28 Oct 2026 at 01:10 Manila. Scandi lists AP Cargo to Cebu with customer assembly; freight and dispatch dates still need confirmation.</p>
 <div class="bar" role="search">
 <input type="search" id="q" placeholder="Search name, seller, wood, finish…" aria-label="Search beds">
 <label class="toggle"><input type="checkbox" id="queen"> Queen only</label>
@@ -144,9 +144,8 @@ function render(){
  var grid=$('grid');grid.textContent='';list.forEach(function(r){grid.appendChild(card(r))});
  if(!list.length)grid.appendChild(el('p',{cls:'empty',text:'No beds match these filters.'}));
  $('count').textContent='Showing '+list.length+' of '+rows.length+' beds';
- try{localStorage.setItem('bedfinder',JSON.stringify({qo:qo,po:po,s:s,g:g,mt:mt,o:o}))}catch(e){}}
-try{var st=JSON.parse(localStorage.getItem('bedfinder')||'null');if(st){$('queen').checked=st.qo;$('priced').checked=st.po;$('seller').value=st.s;$('group').value=st.g;$('match').value=st.mt||'';$('sort').value=st.o}}catch(e){}
-if(new URLSearchParams(location.search).get('matches')==='next-queen'){$('focus').value='next-queen';$('queen').checked=true;$('priced').checked=false;$('seller').value='';$('match').value='';$('group').value='';$('q').value='';$('sort').value='style'}
+}
+if(new URLSearchParams(location.search).get('view')==='next-queen'){$('focus').value='next-queen';$('queen').checked=true;$('priced').checked=false;$('seller').value='';$('match').value='';$('group').value='';$('q').value='';$('sort').value='style'}
 ['q','queen','priced','seller','group','match','sort','focus'].forEach(function(id){$(id).addEventListener(id==='q'?'input':'change',render)});
 render();
 })();
