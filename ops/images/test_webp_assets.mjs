@@ -1,9 +1,11 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
+import { spawnSync } from 'node:child_process'
 import crypto from 'node:crypto'
 import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { chromium } from 'playwright'
 import { convertAssets } from './webp_assets.mjs'
 
@@ -155,4 +157,27 @@ test('a torn cache meta is a cache miss: the image is encoded again and the entr
     const third = await convertAssets(site('third'), { executablePath, cacheDir })
     assert.equal(third.encoded, 0); assert.equal(third.reused, 1)
   } finally { await browser.close(); fs.rmSync(base, { recursive: true, force: true }) }
+})
+
+test('the CLI refuses a missing ROOT and a repository checkout, and runs on a scratch tree', () => {
+  const cli = (...args) => spawnSync(process.execPath, [fileURLToPath(new URL('./webp_assets.mjs', import.meta.url)), ...args], { encoding: 'utf8' })
+  const missing = cli('--quality', '0.9', '--cache-dir', os.tmpdir())
+  assert.notEqual(missing.status, 0); assert.match(missing.stderr, /ROOT is required/)
+  for (const marker of ['.git', 'ops/release/public_artifact.py']) {
+    const root = tempRoot('webp-assets-checkout-')
+    try {
+      fs.mkdirSync(path.dirname(path.join(root, marker)), { recursive: true }); fs.writeFileSync(path.join(root, marker), 'checkout marker')
+      fs.writeFileSync(path.join(root, 'index.html'), '<img src="a.png">'); fs.writeFileSync(path.join(root, 'a.png'), 'not an image')
+      // With no browser at this path, a run that got past the guard would fail with a different message.
+      const refused = cli(root, '--chromium', path.join(root, 'no-browser'))
+      assert.notEqual(refused.status, 0); assert.ok(refused.stderr.includes(`it holds ${marker}`), refused.stderr)
+      assert.equal(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), '<img src="a.png">')
+    } finally { fs.rmSync(root, { recursive: true, force: true }) }
+  }
+  const scratch = tempRoot('webp-assets-scratch-')
+  try {
+    fs.writeFileSync(path.join(scratch, 'index.html'), '<p>No images.</p>')
+    const ran = cli(scratch, '--chromium', executablePath)
+    assert.equal(ran.status, 0, ran.stderr); assert.equal(JSON.parse(ran.stdout).referenced, 0)
+  } finally { fs.rmSync(scratch, { recursive: true, force: true }) }
 })

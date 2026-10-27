@@ -1,4 +1,5 @@
-// Site-wide raster derivatives for the public build scratch tree. Never run it on the repository working tree.
+// Site-wide raster derivatives for the public build scratch tree. Never run it on the repository working tree: it
+// rewrites ROOT in place, so the CLI refuses a missing ROOT and any ROOT that holds .git or ops/release/public_artifact.py.
 // Every PNG/JPEG that a page shows through an HTML src/href/srcset/poster/data-* attribute or a public JSON value
 // gets a WebP sibling when that is clearly smaller: JPEGs, product photos and photographic PNGs lossy; other flat or
 // transparent PNGs (plans, boards, model views with captions) lossless.
@@ -21,6 +22,16 @@ export const FLAT_SHARE = 0.3
 // Keep the original unless the WebP saves at least this share of its bytes.
 export const MIN_SAVING = 0.1
 export const assetEncoder = quality => ({ name: 'chromium-canvas-webp-asset', version: 2, quality, flatShare: FLAT_SHARE, minSaving: MIN_SAVING })
+
+// ROOT must be public_artifact.py's scratch copy: a checkout would have its tracked HTML/JSON rewritten in place.
+export function scratchRoot(root) {
+  if (!root) throw Error('ROOT is required: pass the scratch build directory, never the repository')
+  const resolved = path.resolve(root)
+  for (const marker of ['.git', 'ops/release/public_artifact.py']) {
+    if (fs.existsSync(path.join(resolved, marker))) throw Error(`refusing to rewrite ${resolved}: it holds ${marker}, so it is a repository checkout, not a scratch build`)
+  }
+  return resolved
+}
 // Cache entries are hints: a missing, unreadable or torn entry is a miss, re-encoded and overwritten.
 const readCache = (file, parse) => { try { const bytes = fs.readFileSync(file); return parse ? JSON.parse(bytes.toString('utf8')) : bytes } catch { return null } }
 // Write beside the target, then rename over it, so an interrupted run cannot leave a torn cache entry.
@@ -98,7 +109,7 @@ async function encode(page, source, mime, photo, quality) {
 }
 
 export async function convertAssets(root, { quality = 0.85, executablePath, cacheDir } = {}) {
-  root = path.resolve(root)
+  root = scratchRoot(root)
   if (!(quality > 0 && quality < 1)) throw Error('quality must be in (0, 1)')
   const started = performance.now(), rel = file => slash(path.relative(root, file))
   const settings = { ...assetEncoder(quality), chromiumExecutableSha256: sha(fs.readFileSync(executablePath || chromium.executablePath())) }
@@ -180,5 +191,11 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   const args = process.argv.slice(2), value = name => args[args.indexOf(name) + 1]
-  console.log(JSON.stringify(await convertAssets(args[0] || '.', { quality: args.includes('--quality') ? Number(value('--quality')) : 0.85, executablePath: args.includes('--chromium') ? value('--chromium') : process.env.UNIT408_CHROMIUM, cacheDir: args.includes('--cache-dir') ? value('--cache-dir') : undefined })))
+  // ROOT is the first argument that is neither a flag nor a flag's value. There is no default.
+  const root = args.find((arg, i) => !arg.startsWith('--') && !['--quality', '--chromium', '--cache-dir'].includes(args[i - 1]))
+  try {
+    console.log(JSON.stringify(await convertAssets(root, { quality: args.includes('--quality') ? Number(value('--quality')) : 0.85, executablePath: args.includes('--chromium') ? value('--chromium') : process.env.UNIT408_CHROMIUM, cacheDir: args.includes('--cache-dir') ? value('--cache-dir') : undefined })))
+  } catch (error) {
+    console.error(`webp_assets: ${error?.message ?? error}`); process.exitCode = 1
+  }
 }
