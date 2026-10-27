@@ -22,6 +22,8 @@ export const FLAT_SHARE = 0.3
 // Keep the original unless the WebP saves at least this share of its bytes.
 export const MIN_SAVING = 0.1
 export const assetEncoder = quality => ({ name: 'chromium-canvas-webp-asset', version: 2, quality, flatShare: FLAT_SHARE, minSaving: MIN_SAVING })
+// Part of every derivative key, so an edit to this encoder re-encodes instead of reusing older cached bytes.
+const ENCODER_SOURCE_SHA256 = sha(fs.readFileSync(new URL(import.meta.url)))
 
 // ROOT must be public_artifact.py's scratch copy: a checkout would have its tracked HTML/JSON rewritten in place.
 export function scratchRoot(root) {
@@ -112,7 +114,6 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
   root = scratchRoot(root)
   if (!(quality > 0 && quality < 1)) throw Error('quality must be in (0, 1)')
   const started = performance.now(), rel = file => slash(path.relative(root, file))
-  const settings = { ...assetEncoder(quality), chromiumExecutableSha256: sha(fs.readFileSync(executablePath || chromium.executablePath())) }
   const html = files(root, /\.html$/i), json = files(root, /\.json$/i).filter(f => !SKIP_JSON.has(path.basename(f)))
   const parsed = new Map(json.map(f => {
     try { return [f, JSON.parse(fs.readFileSync(f, 'utf8').replace(/^\uFEFF/, ''))] } catch (error) { throw Error(`${rel(f)}: ${error.message}`, { cause: error }) }
@@ -126,8 +127,14 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
   for (const f of html) htmlRefs(fs.readFileSync(f, 'utf8'), collect(f))
   for (const [f, data] of parsed) jsonRefs(data, collect(f))
   const records = new Map(), stats = { referenced: sources.size, converted: 0, keptOriginal: 0, encoded: 0, reused: 0, lossless: 0, sourceBytes: 0, servedBytes: 0 }
-  let browser, page
+  let browser, page, settings
   try {
+    if (sources.size) {
+      browser = await chromium.launch(executablePath ? { executablePath } : {}); page = await browser.newPage()
+      // The file at the executable path can be a launcher script (CI's google-chrome is a 1 KB wrapper), so the key
+      // also carries the launched browser's version and this encoder's own source hash.
+      settings = { ...assetEncoder(quality), chromiumExecutableSha256: sha(fs.readFileSync(executablePath || chromium.executablePath())), browserVersion: browser.version(), encoderSourceSha256: ENCODER_SOURCE_SHA256 }
+    }
     for (const [file, photo] of [...sources].sort()) {
       try {
         const source = fs.readFileSync(file), sourceSha256 = sha(source)
@@ -140,7 +147,6 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
           if (hit.keep || (bytes && sha(bytes) === hit.servedSha256)) { result = { ...hit, bytes }; stats.reused++ }
         }
         if (!result) {
-          if (!browser) { browser = await chromium.launch(executablePath ? { executablePath } : {}); page = await browser.newPage() }
           const image = await encode(page, source, /\.png$/i.test(file) ? 'image/png' : 'image/jpeg', photo, quality)
           const bytes = Buffer.from(image.b64, 'base64')
           const keep = bytes.length > source.length * (1 - MIN_SAVING)

@@ -81,6 +81,9 @@ test('page and JSON rasters become WebP; downloads, provenance, prose and source
     const records = JSON.parse(fs.readFileSync(path.join(root, 'render-derivatives.json'), 'utf8')).derivatives
     const viewRecord = records.find(r => r.sourcePath === 'set/assets/view.png')
     assert.equal(viewRecord.lossless, false); assert.equal(viewRecord.width, 320); assert.equal(viewRecord.height, 200)
+    // The key covers the launched browser and this encoder's code, not just the file at the executable path.
+    assert.equal(viewRecord.encoder.browserVersion, browser.version())
+    assert.equal(viewRecord.encoder.encoderSourceSha256, sha(fs.readFileSync(new URL('./webp_assets.mjs', import.meta.url))))
     assert.equal(records.some(r => r.sourcePath === 'cheap.jpg'), false)
     for (const product of ['set/assets/products/rug.png', 'cutout.png']) assert.equal(records.find(r => r.sourcePath === product)?.lossless, false, product + ' is a lossy photo')
     assert.match(html, /<img src="assets\/products\/rug\.[a-f0-9]{24}\.webp">/)
