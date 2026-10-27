@@ -29,7 +29,7 @@ jobs:
           UNIT408_CHROMIUM: /usr/bin/google-chrome
         run: python -m unittest discover -s ops/release -p 'test_*.py'
       - name: Test render derivative freshness
-        run: UNIT408_CHROMIUM=/usr/bin/google-chrome node --test ops/images/test_webp_views.mjs ops/release/test_readback.mjs
+        run: UNIT408_CHROMIUM=/usr/bin/google-chrome node --test ops/images/test_webp_views.mjs ops/images/test_webp_assets.mjs ops/release/test_readback.mjs
       - uses: actions/cache@v4
         with:
           path: .cache/render-webp
