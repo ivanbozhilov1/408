@@ -1,8 +1,10 @@
 // Site-wide raster derivatives for the public build scratch tree. Never run it on the repository working tree: it
 // rewrites ROOT in place, so the CLI refuses a missing ROOT and any ROOT that holds .git or ops/release/public_artifact.py.
 // Every PNG/JPEG that a page shows through an HTML src/href/srcset/poster/data-* attribute or a public JSON value
-// gets a WebP sibling when that is clearly smaller: JPEGs, product photos and photographic PNGs lossy; other flat or
-// transparent PNGs (plans, boards, model views with captions) lossless.
+// gets a WebP sibling when that is clearly smaller: JPEGs, product photos and photographic PNGs lossy; any other PNG
+// lossless when it has transparency or its 16 most common colours cover at least FLAT_SHARE of its pixels (plans,
+// boards, line art). The cut is per image, so captioned model views land on both sides of it. Lossless is exact for
+// opaque pixels only: the canvas premultiplies alpha, so translucent pixels can shift colour.
 // Download links (<a download>, data-original) and JSON provenance keys keep pointing at the original.
 // node ops/images/webp_assets.mjs ROOT [--quality 0.85] [--chromium EXE] [--cache-dir DIR]
 import fs from 'node:fs'
@@ -100,7 +102,8 @@ async function encode(page, source, mime, photo, quality) {
     }
     const top = [...counts.values()].sort((a, b) => b - a).slice(0, 16).reduce((a, b) => a + b, 0) / (d.length / 4)
     // JPEGs and supplier product photos are photographs (product PNGs are often palette-reduced or on white, so they
-    // look flat). Any other PNG that is flat or transparent (plans, boards, model views with captions) stays lossless.
+    // look flat). Any other PNG is lossless when it has transparency or top >= flatShare (plans, boards, line art);
+    // captioned model views sit close to that cut, so some of them are lossy.
     const lossless = mime === 'image/png' && !photo && (alpha || top >= flatShare)
     const blob = await new Promise(resolve => c.toBlob(resolve, 'image/webp', lossless ? 1 : quality))
     if (!blob || blob.type !== 'image/webp') throw Error('WebP encoding unavailable')
