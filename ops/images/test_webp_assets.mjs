@@ -84,6 +84,8 @@ test('page and JSON rasters become WebP; downloads, provenance, prose and source
     // The key covers the launched browser and this encoder's code, not just the file at the executable path.
     assert.equal(viewRecord.encoder.browserVersion, browser.version())
     assert.equal(viewRecord.encoder.encoderSourceSha256, sha(fs.readFileSync(new URL('./webp_assets.mjs', import.meta.url))))
+    // Names come from the served bytes, not that key, so a browser or encoder change that keeps the bytes keeps the URL.
+    for (const r of records) assert.equal(r.servedPath.match(/\.([a-f0-9]{24})\.webp$/)?.[1], r.servedSha256.slice(0, 24), r.servedPath)
     assert.equal(records.some(r => r.sourcePath === 'cheap.jpg'), false)
     for (const product of ['set/assets/products/rug.png', 'cutout.png']) assert.equal(records.find(r => r.sourcePath === product)?.lossless, false, product + ' is a lossy photo')
     assert.match(html, /<img src="assets\/products\/rug\.[a-f0-9]{24}\.webp">/)
@@ -140,7 +142,7 @@ test('a public JSON file containing NaN fails the run with an error that names t
   } finally { fs.rmSync(root, { recursive: true, force: true }) }
 })
 
-test('a torn cache meta is a cache miss: the image is encoded again and the entry rewritten', async () => {
+test('a torn cache meta is a cache miss and a cache write that fails is skipped: the image is encoded again', async () => {
   const base = tempRoot('webp-assets-cache-'), cacheDir = path.join(base, 'cache')
   const browser = await chromium.launch({ executablePath })
   try {
@@ -159,10 +161,16 @@ test('a torn cache meta is a cache miss: the image is encoded again and the entr
     assert.deepEqual(served(path.join(base, 'second')), served(path.join(base, 'first')))
     const third = await convertAssets(site('third'), { executablePath, cacheDir })
     assert.equal(third.encoded, 0); assert.equal(third.reused, 1)
+    // Cache writes are best effort: an entry that cannot be replaced (here a directory in its place) costs a re-encode, not the run.
+    fs.rmSync(metaPath); fs.mkdirSync(metaPath)
+    const fourth = await convertAssets(site('fourth'), { executablePath, cacheDir })
+    assert.equal(fourth.encoded, 1); assert.equal(fourth.converted, 1)
+    assert.deepEqual(served(path.join(base, 'fourth')), served(path.join(base, 'first')))
+    assert.deepEqual(fs.readdirSync(cacheDir).filter(f => f.endsWith('.tmp')), [], 'failed cache write leaves no temporary file')
   } finally { await browser.close(); fs.rmSync(base, { recursive: true, force: true }) }
 })
 
-test('the CLI refuses a missing ROOT and a repository checkout, and runs on a scratch tree', () => {
+test('the CLI refuses a missing ROOT, a repository checkout and any folder inside one, and runs on a scratch tree', () => {
   const cli = (...args) => spawnSync(process.execPath, [fileURLToPath(new URL('./webp_assets.mjs', import.meta.url)), ...args], { encoding: 'utf8' })
   const missing = cli('--quality', '0.9', '--cache-dir', os.tmpdir())
   assert.notEqual(missing.status, 0); assert.match(missing.stderr, /ROOT is required/)
@@ -177,6 +185,18 @@ test('the CLI refuses a missing ROOT and a repository checkout, and runs on a sc
       assert.equal(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), '<img src="a.png">')
     } finally { fs.rmSync(root, { recursive: true, force: true }) }
   }
+  // `node ops/images/webp_assets.mjs queen-oct23` from a checkout: a set folder, or a folder below it, is refused too.
+  const checkout = tempRoot('webp-assets-checkout-')
+  try {
+    fs.mkdirSync(path.join(checkout, 'ops/release'), { recursive: true }); fs.writeFileSync(path.join(checkout, 'ops/release/public_artifact.py'), 'checkout marker')
+    for (const sub of ['queen-oct23', 'tmp/scratch']) {
+      const root = path.join(checkout, sub); fs.mkdirSync(root, { recursive: true })
+      fs.writeFileSync(path.join(root, 'index.html'), '<img src="a.png">'); fs.writeFileSync(path.join(root, 'a.png'), 'not an image')
+      const refused = cli(root, '--chromium', path.join(checkout, 'no-browser'))
+      assert.notEqual(refused.status, 0); assert.ok(refused.stderr.includes(`it is inside ${checkout}, which holds ops/release/public_artifact.py`), refused.stderr)
+      assert.deepEqual(fs.readdirSync(root).sort(), ['a.png', 'index.html']); assert.equal(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), '<img src="a.png">')
+    }
+  } finally { fs.rmSync(checkout, { recursive: true, force: true }) }
   const scratch = tempRoot('webp-assets-scratch-')
   try {
     fs.writeFileSync(path.join(scratch, 'index.html'), '<p>No images.</p>')

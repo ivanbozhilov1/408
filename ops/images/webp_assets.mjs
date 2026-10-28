@@ -1,5 +1,6 @@
 // Site-wide raster derivatives for the public build scratch tree. Never run it on the repository working tree: it
-// rewrites ROOT in place, so the CLI refuses a missing ROOT and any ROOT that holds .git or ops/release/public_artifact.py.
+// rewrites ROOT in place, so it refuses a missing ROOT, a ROOT that holds .git, and a ROOT at or below a directory
+// that holds ops/release/public_artifact.py.
 // Every PNG/JPEG that a page shows through an HTML src/href/srcset/poster/data-* attribute or a public JSON value
 // gets a WebP sibling when that is clearly smaller: JPEGs, product photos and photographic PNGs lossy; any other PNG
 // lossless when it has transparency or its 16 most common colours cover at least FLAT_SHARE of its pixels (plans,
@@ -27,19 +28,27 @@ export const assetEncoder = quality => ({ name: 'chromium-canvas-webp-asset', ve
 // Part of every derivative key, so an edit to this encoder re-encodes instead of reusing older cached bytes.
 const ENCODER_SOURCE_SHA256 = sha(fs.readFileSync(new URL(import.meta.url)))
 
-// ROOT must be public_artifact.py's scratch copy: a checkout would have its tracked HTML/JSON rewritten in place.
+// ROOT must be public_artifact.py's scratch copy: a checkout, or any folder inside one (a set folder such as
+// queen-oct23), would have its tracked HTML/JSON rewritten in place. An ancestor .git proves nothing: scratch
+// builds may sit in another repository's ignored tmp/, so only this repository's own marker is looked for above ROOT.
 export function scratchRoot(root) {
   if (!root) throw Error('ROOT is required: pass the scratch build directory, never the repository')
-  const resolved = path.resolve(root)
-  for (const marker of ['.git', 'ops/release/public_artifact.py']) {
-    if (fs.existsSync(path.join(resolved, marker))) throw Error(`refusing to rewrite ${resolved}: it holds ${marker}, so it is a repository checkout, not a scratch build`)
+  const resolved = path.resolve(root), marker = 'ops/release/public_artifact.py'
+  if (fs.existsSync(path.join(resolved, '.git'))) throw Error(`refusing to rewrite ${resolved}: it holds .git, so it is a repository checkout, not a scratch build`)
+  for (let dir = resolved; ; dir = path.dirname(dir)) {
+    if (fs.existsSync(path.join(dir, marker))) throw Error(`refusing to rewrite ${resolved}: ${dir === resolved ? 'it holds' : `it is inside ${dir}, which holds`} ${marker}, so it is a repository checkout, not a scratch build`)
+    if (path.dirname(dir) === dir) return resolved
   }
-  return resolved
 }
 // Cache entries are hints: a missing, unreadable or torn entry is a miss, re-encoded and overwritten.
 const readCache = (file, parse) => { try { const bytes = fs.readFileSync(file); return parse ? JSON.parse(bytes.toString('utf8')) : bytes } catch { return null } }
-// Write beside the target, then rename over it, so an interrupted run cannot leave a torn cache entry.
-const writeAtomic = (file, data) => { fs.writeFileSync(file + '.tmp', data); fs.renameSync(file + '.tmp', file) }
+// Write beside the target under a name no other process uses, then rename over it, so an interrupted run cannot
+// leave a torn entry and two builds sharing the cache cannot take each other's temporary file. Best effort: a write
+// that fails (Windows refuses a rename over a file another build has open; a full disk) only costs a re-encode later.
+const writeAtomic = (file, data) => {
+  const tmp = `${file}.${process.pid}.${crypto.randomUUID()}.tmp`
+  try { fs.writeFileSync(tmp, data); fs.renameSync(tmp, file) } catch { try { fs.rmSync(tmp, { force: true }) } catch {} }
+}
 
 function files(root, ext) {
   return fs.readdirSync(root, { withFileTypes: true }).flatMap(e => e.name.startsWith('.') || e.name === 'ops' || e.name === 'node_modules' ? [] : e.isDirectory() ? files(path.join(root, e.name), ext) : ext.test(e.name) ? [path.join(root, e.name)] : [])
@@ -57,9 +66,11 @@ function target(root, from, ref) {
   const real = fs.realpathSync(file)
   return real.startsWith(fs.realpathSync(root) + path.sep) ? file : null
 }
-// Replace only the extension so query strings, fragments, /408/ prefixes and percent-encoding survive.
-const served = (ref, key) => ref.replace(/\.(?:png|jpe?g)(?=$|[?#])/i, `.${key.slice(0, 24)}.webp`)
-const servedFile = (file, key) => file.replace(RASTER, `.${key.slice(0, 24)}.webp`)
+// Replace only the extension so query strings, fragments, /408/ prefixes and percent-encoding survive. A WebP is named
+// after its own bytes (first 24 hex digits of servedSha256), not the cache key, so a new Chrome version or an encoder
+// edit that re-encodes to the same bytes keeps every URL; only changed bytes get a new name.
+const served = (ref, servedSha256) => ref.replace(/\.(?:png|jpe?g)(?=$|[?#])/i, `.${servedSha256.slice(0, 24)}.webp`)
+const servedFile = (file, servedSha256) => file.replace(RASTER, `.${servedSha256.slice(0, 24)}.webp`)
 
 function htmlRefs(text, each) {
   // Rewrites attribute values inside tags only; inline script text and <meta content> stay untouched.
@@ -163,7 +174,7 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
         }
         stats.sourceBytes += source.length
         if (result.keep) { stats.keptOriginal++; stats.servedBytes += source.length; continue }
-        const out = servedFile(file, key)
+        const out = servedFile(file, result.servedSha256)
         fs.writeFileSync(out, result.bytes)
         stats.converted++; stats.servedBytes += result.bytes.length; if (result.lossless) stats.lossless++
         records.set(file, { key, sourcePath: rel(file), sourceSha256, servedPath: rel(out), servedSha256: result.servedSha256, width: result.width, height: result.height, bytes: result.bytes.length, lossless: result.lossless, encoder: settings })
@@ -174,7 +185,7 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
     const each = ref => {
       const record = records.get(target(root, from, ref))
       if (!record) return ref
-      each.changes.set(ref, record); return served(ref, record.key)
+      each.changes.set(ref, record); return served(ref, record.servedSha256)
     }
     each.changes = new Map()
     return each
