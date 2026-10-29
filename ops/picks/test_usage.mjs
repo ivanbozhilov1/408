@@ -161,7 +161,7 @@ test('ordering is deterministic and repeated items aggregate per design', () => 
 test('real saved data includes every actual current/history appearance without source mutation', async () => {
   const data=JSON.parse(await readFile(new URL('../../collection-data.json',import.meta.url),'utf8'));
   const before=JSON.stringify(data), index=build(data.designs);
-  assert.equal(data.designs.length,57);
+  assert.equal(data.designs.length,61);
   assert.equal(index.snapshot.complete,true);
   assert.equal(validSnapshot(index.snapshot),true);
   assert.equal(index.snapshot.appearances.length,data.designs.flatMap(d=>d.products.filter(p=>!p.removedFromDesign)).length);

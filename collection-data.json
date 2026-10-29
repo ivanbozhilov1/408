@@ -30508,10 +30508,231 @@
         "totalCents": null
       },
       "room": "living"
+    },
+    {
+      "id": "opus-queen-abce-20261028:QA",
+      "namespace": "opus-queen-abce-20261028",
+      "author": "Claude Opus",
+      "letter": "QA",
+      "originalLetter": "A",
+      "name": "Eames corner",
+      "date": "2026-10-28",
+      "version": "opus-queen-abce-20261028",
+      "status": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "isNew": true,
+      "summary": "Queen plan A, Eames corner: Bed moves 350 mm west, toward the wardrobe. The Eames lounge chair and ottoman sit beside the TV console, turned 40° toward the bed. Bed: Scandi Home Japanese Bed, Queen (mattress 1500 x 2000). Rug about 3000 x 2500 between bed and TV console; blackout curtain + sheer kept clear along the window.",
+      "reviewNotes": [
+        "Bed: Scandi Home Japanese Bed, Queen (mattress 1500 x 2000); frame 1500 mm wide (frame = mattress width). Eames Lounge Chair + Ottoman owned, tan cognac leather on walnut shells, black base (confirmed 29 Oct). Ceiling 2600 mm in the model, not taped.",
+        "For Isah: Eames chair + ottoman by the TV, angled to the bed.",
+        "The 350 mm shift is what lets the ottoman stay in front of the chair and still leave about 0.65 m to walk to the window side of the bed.",
+        "Window side stays open; the plant fills the corner beside the right bedside.",
+        "Plan checks on the to-scale drawing: 12 of 12 pass.",
+        "Author Claude Opus; raster tool Codex image generation (sketch-to-render over the model view). No product schedule yet beyond the bed; no human approval inferred.",
+        "Render QA 2026-10-28: 0 of 3 day views pass; withheld (true-scale model view shown): Entrance door · Day, Bathroom door · Day, Window corner · Day.",
+        "Day views only: night and golden-hour views do not exist yet for this set."
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/queen-oct28/#plan-A",
+      "hero": "queen-oct28/assets/QA-room-entry.png",
+      "plan": "queen-oct28/assets/QA-room-plan.png",
+      "views": [
+        {
+          "label": "Entrance door · Day",
+          "kind": "entrance-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QA-room-entry.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
+        },
+        {
+          "label": "Bathroom door · Day",
+          "kind": "bathroom-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QA-room-bathroom.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
+        },
+        {
+          "label": "Window corner · Day",
+          "kind": "window-ac-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QA-room-windowac.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render (Window corner · Day, eye 1.55 m). Render withheld: refute-first majority failed: bed_queen"
+        }
+      ],
+      "products": [],
+      "room": "master"
+    },
+    {
+      "id": "opus-queen-abce-20261028:QB",
+      "namespace": "opus-queen-abce-20261028",
+      "author": "Claude Opus",
+      "letter": "QB",
+      "originalLetter": "B",
+      "name": "Window vanity",
+      "date": "2026-10-28",
+      "version": "opus-queen-abce-20261028",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "isNew": true,
+      "summary": "Queen plan B, Window vanity: Bed moves 350 mm west, toward the wardrobe. A vanity sits on the north wall beside the window, lit from the side. Bed: Scandi Home Japanese Bed, Queen (mattress 1500 x 2000). Rug about 3000 x 2500 between bed and TV console; blackout curtain + sheer kept clear along the window.",
+      "reviewNotes": [
+        "Bed: Scandi Home Japanese Bed, Queen (mattress 1500 x 2000); frame 1500 mm wide (frame = mattress width). Eames Lounge Chair + Ottoman owned, tan cognac leather on walnut shells, black base (confirmed 29 Oct). Ceiling 2600 mm in the model, not taped.",
+        "For Isah: Vanity 900 × 400 + stool, daylight from the right.",
+        "Best make-up light: window to the side, never behind her.",
+        "Plant holds the south-east corner; the Eames can still go there later (see C).",
+        "Plan checks on the to-scale drawing: 13 of 13 pass.",
+        "Author Claude Opus; raster tool Codex image generation (sketch-to-render over the model view). No product schedule yet beyond the bed; no human approval inferred.",
+        "Render QA 2026-10-28: 1 of 3 day views pass; withheld (true-scale model view shown): Entrance door · Day, Bathroom door · Day.",
+        "Day views only: night and golden-hour views do not exist yet for this set."
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/queen-oct28/#plan-B",
+      "hero": "queen-oct28/assets/QB-room-entry.png",
+      "plan": "queen-oct28/assets/QB-room-plan.png",
+      "views": [
+        {
+          "label": "Entrance door · Day",
+          "kind": "entrance-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QB-room-entry.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
+        },
+        {
+          "label": "Bathroom door · Day",
+          "kind": "bathroom-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QB-room-bathroom.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
+        },
+        {
+          "label": "Window corner · Day",
+          "kind": "window-ac-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QB-render-windowac.png",
+          "caption": "AI style render at standing eye level (Window corner · Day), painted over the true-scale room-model view; dimensions from the model, finishes interpretive. Render QA 2026-10-28: PASS."
+        }
+      ],
+      "products": [],
+      "room": "master"
+    },
+    {
+      "id": "opus-queen-abce-20261028:QC",
+      "namespace": "opus-queen-abce-20261028",
+      "author": "Claude Opus",
+      "letter": "QC",
+      "originalLetter": "C",
+      "name": "Vanity + Eames corner",
+      "date": "2026-10-28",
+      "version": "opus-queen-abce-20261028",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "isNew": true,
+      "summary": "Queen plan C, Vanity + Eames corner: Plan B plus the Eames lounge chair and ottoman beside the console, turned 40° toward the bed. Bed: Scandi Home Japanese Bed, Queen (mattress 1500 x 2000). Rug about 3000 x 2500 between bed and TV console; blackout curtain + sheer kept clear along the window.",
+      "reviewNotes": [
+        "Bed: Scandi Home Japanese Bed, Queen (mattress 1500 x 2000); frame 1500 mm wide (frame = mattress width). Eames Lounge Chair + Ottoman owned, tan cognac leather on walnut shells, black base (confirmed 29 Oct). Ceiling 2600 mm in the model, not taped.",
+        "For Isah: Vanity by the window + Eames by the TV.",
+        "Most for Isah, and still every walkway passes, ottoman in place.",
+        "The chair sits under the split AC (high on the wall); the plant moves to the window beside it.",
+        "Plan checks on the to-scale drawing: 14 of 14 pass.",
+        "Author Claude Opus; raster tool Codex image generation (sketch-to-render over the model view). No product schedule yet beyond the bed; no human approval inferred.",
+        "Render QA 2026-10-28: 1 of 3 day views pass; withheld (true-scale model view shown): Entrance door · Day, Bathroom door · Day.",
+        "Day views only: night and golden-hour views do not exist yet for this set."
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/queen-oct28/#plan-C",
+      "hero": "queen-oct28/assets/QC-room-entry.png",
+      "plan": "queen-oct28/assets/QC-room-plan.png",
+      "views": [
+        {
+          "label": "Entrance door · Day",
+          "kind": "entrance-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QC-room-entry.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: refute-first majority failed: ceiling, layout_match"
+        },
+        {
+          "label": "Bathroom door · Day",
+          "kind": "bathroom-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QC-room-bathroom.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
+        },
+        {
+          "label": "Window corner · Day",
+          "kind": "window-ac-day",
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QC-render-windowac.png",
+          "caption": "AI style render at standing eye level (Window corner · Day), painted over the true-scale room-model view; dimensions from the model, finishes interpretive. Render QA 2026-10-28: PASS."
+        }
+      ],
+      "products": [],
+      "room": "master"
+    },
+    {
+      "id": "opus-queen-abce-20261028:QE",
+      "namespace": "opus-queen-abce-20261028",
+      "author": "Claude Opus",
+      "letter": "QE",
+      "originalLetter": "E",
+      "name": "Vanity as Isah's bedside",
+      "date": "2026-10-28",
+      "version": "opus-queen-abce-20261028",
+      "status": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "archival": false,
+      "isNew": true,
+      "summary": "Queen plan E, Vanity as Isah's bedside: Bed moves 650 mm east toward the window. A long vanity replaces Isah's bedside table; the Eames sits on the console's door side. Bed: Scandi Home Japanese Bed, Queen (mattress 1500 x 2000). Rug about 3000 x 2500 between bed and TV console; blackout curtain + sheer kept clear along the window.",
+      "reviewNotes": [
+        "Bed: Scandi Home Japanese Bed, Queen (mattress 1500 x 2000); frame 1500 mm wide (frame = mattress width). Eames Lounge Chair + Ottoman owned, tan cognac leather on walnut shells, black base (confirmed 29 Oct). Ceiling 2600 mm in the model, not taped.",
+        "For Isah: Vanity doubles as her nightstand + Eames.",
+        "The ottoman lives at the foot of the bed. Pulled in front of the chair (dashed) it leaves only about 0.35 m to the window side of the bed, so slide it back after sitting.",
+        "Vanity is 3 m from the window: needs a lit mirror for make-up.",
+        "The TV's right 0.66 m sits under the split AC (high on the wall): ask the installer about drip and airflow.",
+        "Plan checks on the to-scale drawing: 13 of 14 pass.",
+        "Author Claude Opus; raster tool Codex image generation (sketch-to-render over the model view). No product schedule yet beyond the bed; no human approval inferred.",
+        "Render QA 2026-10-28: 0 of 3 day views pass; withheld (true-scale model view shown): Entrance door · Day, Bathroom door · Day, Window corner · Day.",
+        "Day views only: night and golden-hour views do not exist yet for this set."
+      ],
+      "originalUrl": "https://ivanbozhilov1.github.io/408/queen-oct28/#plan-E",
+      "hero": "queen-oct28/assets/QE-room-entry.png",
+      "plan": "queen-oct28/assets/QE-room-plan.png",
+      "views": [
+        {
+          "label": "Entrance door · Day",
+          "kind": "entrance-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QE-room-entry.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
+        },
+        {
+          "label": "Bathroom door · Day",
+          "kind": "bathroom-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QE-room-bathroom.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: refute-first majority failed: bed_queen, bedsides_floating, parquet, layout_match"
+        },
+        {
+          "label": "Window corner · Day",
+          "kind": "window-ac-day",
+          "method": "DETERMINISTIC_MODEL_VIEW",
+          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QE-room-windowac.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render (Window corner · Day, eye 1.55 m). Render withheld: refute-first majority failed: bed_queen"
+        }
+      ],
+      "products": [],
+      "room": "master"
     }
   ],
   "coverage": {
-    "summary": "33 current finished concepts: six Astra, eighteen Fable (three of them hallway) and nine Opus (three each for the living area, the dining area and the hallway). Thirty current Astra images show three human viewpoints. Older studies remain outside the main gallery.",
+    "summary": "37 current finished concepts: six Astra, eighteen Fable (three of them hallway) and thirteen Opus (four queen-bed plans for the master bedroom and three each for the living area, the dining area and the hallway). Thirty current Astra images show three human viewpoints. Older studies remain outside the main gallery.",
     "sets": [
       {
         "namespace": "astra-pqr-20261021-v001",
@@ -30597,6 +30818,11 @@
         "namespace": "opus-liv-def-20261023",
         "title": "Opus living D / E / F · Midnight and Cherry / Apricot and Charcoal / Narra and Solihiya",
         "status": "Living-area set: three seating layouts with four views each by day and by night; conditional fit on assumed heights (ASSUMED.md), product availability and Cebu delivery unverified; no human acceptance evidenced."
+      },
+      {
+        "namespace": "opus-queen-abce-20261028",
+        "title": "Opus queen bed plans A / B / C / E · Eames corner / Window vanity / Vanity + Eames corner / Vanity as Isah's bedside",
+        "status": "Master-bedroom set: four queen-bed layouts with three day views each; renders that failed QA show the true-scale model view; no product schedule beyond the bed; no human acceptance evidenced."
       }
     ]
   },
