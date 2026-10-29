@@ -1,0 +1,127 @@
+{
+  "schema": "unit408-room-gallery/1",
+  "room_id": "dining",
+  "room_title": "Dining room",
+  "revision": "v7",
+  "publication_status": "prepared_local_not_published",
+  "review_status": "accepted_for_provisional_styling",
+  "image_count": 3,
+  "design_count": 1,
+  "angles_per_design": 3,
+  "geometry_caveat": "Illustrative layout; confirm dimensions on site.",
+  "geometry_basis": {
+    "dimension_contract_sha256": "d329a00810bbb0753415369e272046f19382a6b4c00b09b9529a713ed8df5eef",
+    "corrected_room_sha256": "1be14a72903cf537d0a90a84962f55967a18e798fa7ab0e8f0121fb866f49a56",
+    "status": "Corrected plan-derived outline; room dimensions and clearances remain unsurveyed."
+  },
+  "common_ac_proposal": {
+    "proposal_id": "DIN-COMMON-AC-V1",
+    "proposal_sha256": "431f854001cac72e922e35311d290c573ad51f4e616d5b66643a94a0aa80734b",
+    "summary": "One proposed split-air-conditioner position is shared across the three schemes. It is outside the arch-view frame. Mounting, service space and installation feasibility require on-site confirmation.",
+    "status": "Illustrative proposal; not surveyed installation dimensions."
+  },
+  "review_limits": [
+    "Approximate proportional illustrations; not exact photo composites.",
+    "Room dimensions, chair movement, curtain operation and route clearances remain unverified on site.",
+    "The proposed air conditioner requires mounting and service-clearance confirmation.",
+    "The existing dining fan and light kit are retained. Source-based local restoration preserves the accepted layout; dimensions and clearances remain unsurveyed."
+  ],
+  "product_status": "Furniture and materials are illustrative; no stock, price or purchase claim.",
+  "designs": [
+    {
+      "design_id": "DIN-C",
+      "title": "Mineral Gallery",
+      "summary": "Cream mineral rectangle and olive seating with bronze shelving.",
+      "seats": 6,
+      "palette": [
+        "cream mineral",
+        "olive",
+        "bronze",
+        "greige"
+      ],
+      "layout": "Table and carpet toward the main curtains; open counter-side route and shallow corner storage proposed.",
+      "layout_sha256": "18279c809ef65a8e30eb2a95be55d98fe510cb28c1e049314a985c719119b181",
+      "table_target_mm": [
+        1700,
+        850
+      ],
+      "carpet_target_mm": [
+        3200,
+        2300
+      ],
+      "corner_storage_footprint_mm": [
+        600,
+        250
+      ],
+      "dimension_status": "Illustrative layout; confirm dimensions on site.",
+      "images": [
+        {
+          "id": "DIN-C-window",
+          "angle": "window",
+          "angle_label": "Toward the main window",
+          "image_path": "images/DIN-C-window.png",
+          "width": 1086,
+          "height": 1448,
+          "sha256": "2a500d2c1f182a96bd24bfbdd347c396a5a6b18ca87bfc72d38916f2db77e5c6",
+          "alt": "Mineral Gallery, toward the main window, with 6 seats and a carpet. Existing dining fan and light kit retained.",
+          "caption": "Mineral Gallery: toward the main window. Existing dining fan and light kit retained. Illustrative layout; confirm dimensions on site.",
+          "source_evidence": {
+            "photo_reference": "F027",
+            "source_sha256": "c1f7d268bd0c2c6a126bf1e6aecdf79e1127437eb498bc8b91aa4ea0f665b59b",
+            "kind": "Real-room photograph",
+            "derived_image": "Approximate design illustration",
+            "geometry_status": "Room and clearances unsurveyed; regenerated background may differ.",
+            "local_edit": "Existing dining fan and light kit restored locally; current furniture, layout and surrounding repairs preserved."
+          }
+        },
+        {
+          "id": "DIN-C-arch",
+          "angle": "arch",
+          "angle_label": "Toward the arch and counter",
+          "image_path": "images/DIN-C-arch.png",
+          "width": 1086,
+          "height": 1448,
+          "sha256": "07c453863538284a2eb62bd46e7cfbde75b6467f238c18a8270327c9bea5566e",
+          "alt": "Mineral Gallery, toward the arch and counter, with 6 seats and a carpet. Existing dining fan and light kit retained.",
+          "caption": "Mineral Gallery: toward the arch and counter. Existing dining fan and light kit retained. Illustrative layout; confirm dimensions on site.",
+          "source_evidence": {
+            "photo_reference": "F025",
+            "source_sha256": "62798dc3902cfcf9af66286ebaaaf1c1ab45dd877fae71ea0e72b382f26f1c02",
+            "kind": "Real-room photograph",
+            "derived_image": "Approximate design illustration",
+            "geometry_status": "Room and clearances unsurveyed; regenerated background may differ.",
+            "local_edit": "Existing dining fan and light kit restored locally; current furniture, layout and surrounding repairs preserved."
+          }
+        },
+        {
+          "id": "DIN-C-passage",
+          "angle": "passage",
+          "angle_label": "Toward the kitchen counter",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Mineral Gallery, kitchen-counter angle with corner storage and an open crossing. Existing dining fan and light kit retained.",
+          "caption": "Mineral Gallery: toward the kitchen counter. Existing dining fan and light kit retained. Illustrative layout; confirm dimensions on site.",
+          "source_evidence": {
+            "photo_reference": "F023",
+            "source_sha256": "83c8377dda85aaa114e04f8243614ac9b4e861074311c89e66e7efa2f9de399c",
+            "kind": "Real-room photograph",
+            "derived_image": "Approximate design illustration",
+            "geometry_status": "Room and clearances unsurveyed; regenerated background may differ.",
+            "local_edit": "Existing dining fan and light kit restored locally; current furniture, layout and surrounding repairs preserved."
+          },
+          "image_path": "images/DIN-C-passage.png",
+          "sha256": "3fbd35fb2ffd704c5b9524880921e587460cf46fbf24c33db20167a2c402e471"
+        }
+      ],
+      "board": {
+        "path": "boards/DIN-C-board.svg",
+        "label": "Materials and proposed layout",
+        "sha256": "3af5c791ed7733d8e611a73497313497366a20215f31468d0a8786e516900bbe",
+        "status": "Illustrative layout; confirm dimensions on site."
+      }
+    }
+  ],
+  "packet_revision": "v7-keep-fan",
+  "local_edit_status": "Existing dining fan and light kit restored locally; affected regions independently reviewed and pixels outside declared masks verified unchanged.",
+  "fan_treatment": "Retain the existing dining ceiling fan and light kit in every visible viewpoint."
+}
