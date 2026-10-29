@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-queen-abce / 2026-10-28",
+  "build": "408-lop-model-views / 2026-10-29T15:42:43+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -29548,36 +29548,37 @@
       "name": "Midnight and Cherry",
       "date": "2026-10-23",
       "version": "opus-liv-def-20261023",
-      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "status": "PARTLY_RENDERED_STYLE_STUDY_MODEL_VIEWS_FOR_THE_REST_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
       "isNew": true,
-      "summary": "A navy velvet channel-tufted 3-seater and one cherry-red wing chair against white high gloss, chrome and black, a charcoal-and-white striped flatweave underfoot and white glass-door bookcases filling the TV-wall recess. Seating option D: 3-seater along the south window facing the TV, the wing chair along the east window south of the window AC, an oval coffee table between, a side table at the east end of the sofa, the striped rug 2400 x 1700 under the table and the front sofa legs. Conditional fit on assumed heights (see Still to measure).",
+      "summary": "Partly rendered. A navy velvet channel-tufted 3-seater and one cherry-red wing chair against white high gloss, chrome and black, a charcoal-and-white striped flatweave underfoot and white glass-door bookcases filling the TV-wall recess. Seating option D: 3-seater along the south window facing the TV, the wing chair along the east window south of the window AC, an oval coffee table between, a side table at the east end of the sofa, the striped rug 2400 x 1700 under the table and the front sofa legs. Conditional fit on assumed heights (see Still to measure).",
       "reviewNotes": [
-        "Conditional fit: the living area is not site-measured. The pack accepted these values as assumptions (ASSUMED.md): ceiling 2700 (as the master bedroom), east window sill/head 1000/1900 and south window 950/2050 (photo-fit from J055), door heights 2100, the window AC under the north end of the east window, the ceiling fan at its J055 position, and the hallway arch 1800 clear with its round head crowned at 2200 (photo F034). Every plan and view depends on them until taped.",
+        "Conditional fit: the living area is not site-measured. The ceiling is 2700, as Ivan stated it on 24 Oct (not taped), and the hallway arch is 1450 wide with its round head crowned at 2240, the size he kept the same day (photo fit, not taped; drawn 1800 x 2200 until 29 Oct). The pack accepted these values as assumptions (ASSUMED.md): east window sill/head 1000/1900 and south window 950/2050 (photo-fit from J055), door heights 2100, the window AC under the north end of the east window and the ceiling fan at its J055 position. Every plan and view depends on them until taped.",
         "Seating option D, a crisp city room in saturated jewel colours: navy velvet 3-seater along the south window, one cherry-red wing chair along the east window south of the window AC, white high gloss, chrome and a white marble look; two glass-door bookcases fill the TV-wall recess.",
         "Author Claude Opus (Opus 5.5 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout. None of D/E/F repeats the palettes of Fable A/B/C or Astra A/B/C (CONCEPTS.md).",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
-        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)"
+        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)",
+        "Images (29 Oct 2026): the hallway arch is redrawn 1450 wide with a 2240 crown, as Ivan kept it on 24 Oct, and the plans and model views are rebuilt. 4 of 8 views show their model view, render pending: Entrance door · Day (its armchair is 1.012 of its model width and 1.184 of its width:height (3% gate)); TV wall · Day (it painted the hallway arch at the old 1800 x 2200 and its TV is 1.034 of its model width and 1.034 of its width:height (3% gate)); TV wall · Night (it painted the hallway arch at the old 1800 x 2200 and its TV console is 1.072 of its model width and 1.188 of its width:height (3% gate)); Hallway arch · Night (its coffee table is 0.913 of its model width and 1.186 of its width:height (3% gate)). No new AI render was made (Codex hold)."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/lop/",
-      "hero": "lop/assets/LVD-render-liv_entry.png",
+      "hero": "lop/assets/LVD-render-liv_opposite.png",
       "plan": "lop/assets/PLAN-LVD-LIV.png",
       "views": [
         {
-          "label": "Entrance door · Day",
+          "label": "Entrance door · Model view · Day",
           "kind": "liv-door-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "lop/assets/LVD-render-liv_entry.png",
-          "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "lop/assets/LVD-room-liv_entry.png",
+          "caption": "Model view, render pending. Deterministic model view at standing eye level just inside the entrance door, looking east along the bay to the seating. Proxy forms at the room file's dimensions and colours in the drawn shell; the hallway arch is drawn 1450 wide with its round head crowned at 2240, the size Ivan kept on 24 Oct. The AI render is held (29 Oct 2026): its armchair is 1.012 of its model width and 1.184 of its width:height (3% gate)."
         },
         {
-          "label": "TV wall · Day",
+          "label": "TV wall · Model view · Day",
           "kind": "liv-tv-wall-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "lop/assets/LVD-render-liv_main.png",
-          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "lop/assets/LVD-room-liv_main.png",
+          "caption": "Model view, render pending. Deterministic model view from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Proxy forms at the room file's dimensions and colours in the drawn shell; the hallway arch is drawn 1450 wide with its round head crowned at 2240, the size Ivan kept on 24 Oct. The AI render is held (29 Oct 2026): it painted the hallway arch at the old 1800 x 2200; its TV is 1.034 of its model width and 1.034 of its width:height (3% gate)."
         },
         {
           "label": "Window corner · Day",
@@ -29604,12 +29605,12 @@
           "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
         },
         {
-          "label": "TV wall · Night",
+          "label": "TV wall · Model view · Night",
           "kind": "liv-tv-wall-night",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "lop/assets/LVD-render-liv_main-night.png",
-          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "lop/assets/LVD-room-liv_main-night.png",
+          "caption": "Model view, render pending. Deterministic night model view from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Proxy forms at the room file's dimensions and colours in the drawn shell; the hallway arch is drawn 1450 wide with its round head crowned at 2240, the size Ivan kept on 24 Oct. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light. The AI render is held (29 Oct 2026): it painted the hallway arch at the old 1800 x 2200; its TV console is 1.072 of its model width and 1.188 of its width:height (3% gate)."
         },
         {
           "label": "Window corner · Night",
@@ -29620,12 +29621,12 @@
           "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
         },
         {
-          "label": "Hallway arch · Night",
+          "label": "Hallway arch · Model view · Night",
           "kind": "liv-arch-night",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "lop/assets/LVD-render-liv_arch-night.png",
-          "caption": "AI style render at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "lop/assets/LVD-room-liv_arch-night.png",
+          "caption": "Model view, render pending. Deterministic night model view at standing eye level from just inside the hallway arch, looking back across the seating to the bay. Proxy forms at the room file's dimensions and colours in the drawn shell; the hallway arch is drawn 1450 wide with its round head crowned at 2240, the size Ivan kept on 24 Oct. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light. The AI render is held (29 Oct 2026): its coffee table is 0.913 of its model width and 1.186 of its width:height (3% gate)."
         }
       ],
       "products": [
@@ -29881,16 +29882,17 @@
       "name": "Apricot and Charcoal",
       "date": "2026-10-23",
       "version": "opus-liv-def-20261023",
-      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "status": "PARTLY_RENDERED_STYLE_STUDY_MODEL_VIEWS_FOR_THE_REST_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
       "isNew": true,
-      "summary": "One sculptural round-armed bouclé sofa in warm apricot-tan with a cream swivel chair and a charcoal concrete pedestal table, a black fluted TV stand and black steel shelves, a rice-paper column lamp and one faux travertine drink table. Seating option E: round-armed 3-seater along the south window facing the TV, the swivel chair on the east side south of the window AC turned toward the TV, the 1117 round table between, the drink table at the east end of the sofa, an off-white rug 2400 x 1700. Conditional fit on assumed heights (see Still to measure).",
+      "summary": "Partly rendered. One sculptural round-armed bouclé sofa in warm apricot-tan with a cream swivel chair and a charcoal concrete pedestal table, a black fluted TV stand and black steel shelves, a rice-paper column lamp and one faux travertine drink table. Seating option E: round-armed 3-seater along the south window facing the TV, the swivel chair on the east side south of the window AC turned toward the TV, the 1117 round table between, the drink table at the east end of the sofa, an off-white rug 2400 x 1700. Conditional fit on assumed heights (see Still to measure).",
       "reviewNotes": [
-        "Conditional fit: the living area is not site-measured. The pack accepted these values as assumptions (ASSUMED.md): ceiling 2700 (as the master bedroom), east window sill/head 1000/1900 and south window 950/2050 (photo-fit from J055), door heights 2100, the window AC under the north end of the east window, the ceiling fan at its J055 position, and the hallway arch 1800 clear with its round head crowned at 2200 (photo F034). Every plan and view depends on them until taped.",
+        "Conditional fit: the living area is not site-measured. The ceiling is 2700, as Ivan stated it on 24 Oct (not taped), and the hallway arch is 1450 wide with its round head crowned at 2240, the size he kept the same day (photo fit, not taped; drawn 1800 x 2200 until 29 Oct). The pack accepted these values as assumptions (ASSUMED.md): east window sill/head 1000/1900 and south window 950/2050 (photo-fit from J055), door heights 2100, the window AC under the north end of the east window and the ceiling fan at its J055 position. Every plan and view depends on them until taped.",
         "Seating option E, soft modern with rounded forms: a round-armed apricot-tan sofa along the south window, a cream swivel chair on the east side turned toward the TV, a charcoal concrete-look pedestal table as the one heavy anchor; three black wall shelves in the TV-wall recess.",
         "Author Claude Opus (Opus 5.5 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout. None of D/E/F repeats the palettes of Fable A/B/C or Astra A/B/C (CONCEPTS.md).",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
-        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)"
+        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)",
+        "Images (29 Oct 2026): the hallway arch is redrawn 1450 wide with a 2240 crown, as Ivan kept it on 24 Oct, and the plans and model views are rebuilt. 2 of 8 views show their model view, render pending: TV wall · Day (it painted the hallway arch at the old 1800 x 2200); TV wall · Night (it painted the hallway arch at the old 1800 x 2200). No new AI render was made (Codex hold)."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/lop/",
       "hero": "lop/assets/LVE-render-liv_entry.png",
@@ -29905,12 +29907,12 @@
           "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
         },
         {
-          "label": "TV wall · Day",
+          "label": "TV wall · Model view · Day",
           "kind": "liv-tv-wall-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "lop/assets/LVE-render-liv_main.png",
-          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "lop/assets/LVE-room-liv_main.png",
+          "caption": "Model view, render pending. Deterministic model view from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Proxy forms at the room file's dimensions and colours in the drawn shell; the hallway arch is drawn 1450 wide with its round head crowned at 2240, the size Ivan kept on 24 Oct. The AI render is held (29 Oct 2026): it painted the hallway arch at the old 1800 x 2200."
         },
         {
           "label": "Window corner · Day",
@@ -29937,12 +29939,12 @@
           "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
         },
         {
-          "label": "TV wall · Night",
+          "label": "TV wall · Model view · Night",
           "kind": "liv-tv-wall-night",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "lop/assets/LVE-render-liv_main-night.png",
-          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "lop/assets/LVE-room-liv_main-night.png",
+          "caption": "Model view, render pending. Deterministic night model view from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Proxy forms at the room file's dimensions and colours in the drawn shell; the hallway arch is drawn 1450 wide with its round head crowned at 2240, the size Ivan kept on 24 Oct. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light. The AI render is held (29 Oct 2026): it painted the hallway arch at the old 1800 x 2200."
         },
         {
           "label": "Window corner · Night",
@@ -30214,16 +30216,17 @@
       "name": "Narra and Solihiya",
       "date": "2026-10-23",
       "version": "opus-liv-def-20261023",
-      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "status": "PARTLY_RENDERED_STYLE_STUDY_MODEL_VIEWS_FOR_THE_REST_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
       "isNew": true,
-      "summary": "A Filipino heritage sala in dark-stained solid wood and solihiya cane: a scroll-armed 2-seater and two matching lounge chairs with cream cushions, a round cane-arched coffee table, a dark walnut TV cabinet, a bamboo column lamp and a woven black-and-cream wall piece. Seating option F: 2-seater along the south window facing the TV, the two lounge chairs side by side along the east window, both south of the window AC, the round coffee table between, a cream rug 2400 x 1700. Conditional fit on assumed heights (see Still to measure).",
+      "summary": "Partly rendered. A Filipino heritage sala in dark-stained solid wood and solihiya cane: a scroll-armed 2-seater and two matching lounge chairs with cream cushions, a round cane-arched coffee table, a dark walnut TV cabinet, a bamboo column lamp and a woven black-and-cream wall piece. Seating option F: 2-seater along the south window facing the TV, the two lounge chairs side by side along the east window, both south of the window AC, the round coffee table between, a cream rug 2400 x 1700. Conditional fit on assumed heights (see Still to measure).",
       "reviewNotes": [
-        "Conditional fit: the living area is not site-measured. The pack accepted these values as assumptions (ASSUMED.md): ceiling 2700 (as the master bedroom), east window sill/head 1000/1900 and south window 950/2050 (photo-fit from J055), door heights 2100, the window AC under the north end of the east window, the ceiling fan at its J055 position, and the hallway arch 1800 clear with its round head crowned at 2200 (photo F034). Every plan and view depends on them until taped.",
+        "Conditional fit: the living area is not site-measured. The ceiling is 2700, as Ivan stated it on 24 Oct (not taped), and the hallway arch is 1450 wide with its round head crowned at 2240, the size he kept the same day (photo fit, not taped; drawn 1800 x 2200 until 29 Oct). The pack accepted these values as assumptions (ASSUMED.md): east window sill/head 1000/1900 and south window 950/2050 (photo-fit from J055), door heights 2100, the window AC under the north end of the east window and the ceiling fan at its J055 position. Every plan and view depends on them until taped.",
         "Seating option F, a Filipino heritage sala in dark narra-stained hardwood and solihiya cane: a 2-seater along the south window and two matching lounge chairs side by side along the east window, a round cane-arched coffee table; a rack in the TV-wall recess.",
         "Author Claude Opus (Opus 5.5 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout. None of D/E/F repeats the palettes of Fable A/B/C or Astra A/B/C (CONCEPTS.md).",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
-        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)"
+        "Render QA 23 Oct 2026: 8 of 8 views pass (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day, Entrance door · Night, TV wall · Night, Window corner · Night, Hallway arch · Night)",
+        "Images (29 Oct 2026): the hallway arch is redrawn 1450 wide with a 2240 crown, as Ivan kept it on 24 Oct, and the plans and model views are rebuilt. 2 of 8 views show their model view, render pending: TV wall · Day (it painted the hallway arch at the old 1800 x 2200); TV wall · Night (it painted the hallway arch at the old 1800 x 2200). No new AI render was made (Codex hold)."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/lop/",
       "hero": "lop/assets/LVF-render-liv_entry.png",
@@ -30238,12 +30241,12 @@
           "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
         },
         {
-          "label": "TV wall · Day",
+          "label": "TV wall · Model view · Day",
           "kind": "liv-tv-wall-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "lop/assets/LVF-render-liv_main.png",
-          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "lop/assets/LVF-room-liv_main.png",
+          "caption": "Model view, render pending. Deterministic model view from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Proxy forms at the room file's dimensions and colours in the drawn shell; the hallway arch is drawn 1450 wide with its round head crowned at 2240, the size Ivan kept on 24 Oct. The AI render is held (29 Oct 2026): it painted the hallway arch at the old 1800 x 2200."
         },
         {
           "label": "Window corner · Day",
@@ -30270,12 +30273,12 @@
           "caption": "AI style render at standing eye level just inside the entrance door, looking east along the bay to the seating. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
         },
         {
-          "label": "TV wall · Night",
+          "label": "TV wall · Model view · Night",
           "kind": "liv-tv-wall-night",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "lop/assets/LVF-render-liv_main-night.png",
-          "caption": "AI style render from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light; the old window AC is hidden behind the closed blackout. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA 23 Oct 2026: PASS."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "lop/assets/LVF-room-liv_main-night.png",
+          "caption": "Model view, render pending. Deterministic night model view from a virtual cut-away beyond the south window wall (eye 2.0 m) toward the TV wall and the hallway arch. Proxy forms at the room file's dimensions and colours in the drawn shell; the hallway arch is drawn 1450 wide with its round head crowned at 2240, the size Ivan kept on 24 Oct. Night: blackout closed under the valance boards, lit by the hidden valance LED and the scheme's own lamps; no added ceiling light. The AI render is held (29 Oct 2026): it painted the hallway arch at the old 1800 x 2200."
         },
         {
           "label": "Window corner · Night",
@@ -30823,7 +30826,7 @@
       {
         "namespace": "opus-liv-def-20261023",
         "title": "Opus living D / E / F · Midnight and Cherry / Apricot and Charcoal / Narra and Solihiya",
-        "status": "Living-area set: three seating layouts with four views each by day and by night; conditional fit on assumed heights (ASSUMED.md), product availability and Cebu delivery unverified; no human acceptance evidenced."
+        "status": "PARTLY_RENDERED_STYLE_STUDY_MODEL_VIEWS_FOR_THE_REST_NO_HUMAN_ACCEPTANCE_EVIDENCED; living: 16 of 24 views rendered, the other 8 show model views, render pending (the hallway arch redrawn 1450 x 2240 on 29 Oct). Three seating layouts with four views each by day and by night; conditional fit on assumed heights (ASSUMED.md), product availability and Cebu delivery unverified; no human acceptance evidenced."
       },
       {
         "namespace": "opus-queen-abce-20261028",
