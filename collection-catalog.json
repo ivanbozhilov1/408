@@ -18449,22 +18449,22 @@
       ],
       "board": "dop",
       "label": "Claude Opus · D · Midnight Velvet",
-      "name": "BoConcept axo series dining table",
+      "name": "Our Home Sheika Dining Table",
       "url": "/408/#design=opus-din-def-20261023%3AD",
       "product": {
         "role": "dining_table",
-        "name": "axo series dining table",
-        "brand": "BoConcept",
-        "sku": "370072300702",
-        "variant": "axo series dining table; manufacturer variant/SKU 370072300702; master 37007230; selected configuration codes: vaConfigurationSize=401; vaMaterialLeg=0702; vaMaterialTabletop=0702",
-        "family": "BoConcept axo",
-        "url": "https://www.boconcept.com/en-ph/p/axo-series/3707230-2:401-9:0702-13:0702/",
+        "name": "Our Home Sheika Dining Table",
+        "brand": "Our Home",
+        "sku": "10427046",
+        "variant": "Walnut / 6 Seater",
+        "family": "Our Home Sheika",
+        "url": "https://ourhome.ph/products/our-home-sheika-dining-table?variant=45293841973489",
         "scope": "design_piece",
-        "materials": "Published material groups: Wood; Oak; finish: Tabletop: lacquered|Leg: lacquered",
+        "materials": "solid Rubberwood; wood",
         "dimensions": {
-          "width": 1600,
-          "depth": 850,
-          "height": 745
+          "width": 1800,
+          "depth": 900,
+          "height": 740
         }
       }
     },
@@ -18627,7 +18627,7 @@
         "scope": "design_piece",
         "materials": "Solid wood base, stone top",
         "dimensions": {
-          "width": 1400,
+          "width": 1800,
           "depth": 900,
           "height": 760
         }
@@ -18794,8 +18794,8 @@
         "scope": "design_piece",
         "materials": null,
         "dimensions": {
-          "width": 1500,
-          "depth": 800
+          "width": 1800,
+          "depth": 900
         }
       }
     },

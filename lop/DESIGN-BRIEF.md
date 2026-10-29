@@ -32,7 +32,7 @@ a navy velvet channel-tufted 3-seater and one cherry-red wing chair against whit
 - Seating option D: 3-seater along the south window facing the TV, the wing chair along the east window south of the window AC, an oval coffee table between, a side table at the east end of the sofa, the striped rug 2400 x 1700 under the table and the front sofa legs.
 - TV-wall recess (307 x 1161): two white glass-door bookcases (2 x 400 wide, 300 deep, 2020 high) stand in it facing the room.
 - Curtain lines kept: 250 mm behind the sofa and the chair; the floor in front of the window AC stays clear; the hallway arch and the bay keep their walkways.
-- Conditional fit: the living is not site-measured; ceiling, sills, heads, door heights, the fan and AC positions, the TV-wall recess and the hallway arch are assumed (see ASSUMED.md) and every plan and view depends on them until taped.
+- Conditional fit: the living is not site-measured; sills, heads, door heights, the fan and AC positions, the TV-wall recess and the hallway arch (1450 x 2240) are assumed (see ASSUMED.md), the 2.7 m ceiling is as Ivan stated it, and every plan and view depends on them until taped.
 
 | Item | Exact variant / SKU | Qty | Unit PHP | Line PHP |
 |---|---|---:|---:|---:|
@@ -54,7 +54,7 @@ one sculptural round-armed bouclé sofa in warm apricot-tan with a cream swivel 
 - Seating option E: round-armed 3-seater along the south window facing the TV, the swivel chair on the east side south of the window AC turned toward the TV, the 1117 round table between, the drink table at the east end of the sofa, an off-white rug 2400 x 1700.
 - TV-wall recess (307 x 1161): three black bracket wall shelves (1010 wide, 200 deep) one above the other.
 - Curtain lines kept: 250 mm behind the sofa and the chair; the floor in front of the window AC stays clear; the hallway arch and the bay keep their walkways.
-- Conditional fit: the living is not site-measured; ceiling, sills, heads, door heights, the fan and AC positions, the TV-wall recess and the hallway arch are assumed (see ASSUMED.md) and every plan and view depends on them until taped.
+- Conditional fit: the living is not site-measured; sills, heads, door heights, the fan and AC positions, the TV-wall recess and the hallway arch (1450 x 2240) are assumed (see ASSUMED.md), the 2.7 m ceiling is as Ivan stated it, and every plan and view depends on them until taped.
 
 | Item | Exact variant / SKU | Qty | Unit PHP | Line PHP |
 |---|---|---:|---:|---:|
@@ -76,7 +76,7 @@ a Filipino heritage sala in dark-stained solid wood and solihiya cane: a scroll-
 - Seating option F: 2-seater along the south window facing the TV, the two lounge chairs side by side along the east window, both south of the window AC, the round coffee table between, a cream rug 2400 x 1700.
 - TV-wall recess (307 x 1161): an open rubberwood rack (900 wide, 300 deep, 1800 high).
 - Mejore publishes no dimensions for the 2-seater and the lounge chairs: the plan uses planning sizes (1550 x 850 and 900 x 850) until they are checked in the showroom.
-- Conditional fit: the living is not site-measured; ceiling, sills, heads, door heights, the fan and AC positions, the TV-wall recess and the hallway arch are assumed (see ASSUMED.md) and every plan and view depends on them until taped.
+- Conditional fit: the living is not site-measured; sills, heads, door heights, the fan and AC positions, the TV-wall recess and the hallway arch (1450 x 2240) are assumed (see ASSUMED.md), the 2.7 m ceiling is as Ivan stated it, and every plan and view depends on them until taped.
 
 | Item | Exact variant / SKU | Qty | Unit PHP | Line PHP |
 |---|---|---:|---:|---:|
