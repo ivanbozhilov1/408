@@ -7,7 +7,7 @@ import os from 'node:os'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { chromium } from 'playwright'
-import { convertAssets } from './webp_assets.mjs'
+import { convertAssets, kindOf, VIEW_QUALITY, PHOTO_MAX_EDGE } from './webp_assets.mjs'
 
 const sha = bytes => crypto.createHash('sha256').update(bytes).digest('hex')
 const executablePath = process.env.UNIT408_CHROMIUM || chromium.executablePath()
@@ -38,6 +38,67 @@ const draw = async (page, kind, type, quality = 0.95) => Buffer.from(await page.
   }
   return c.toDataURL(type, quality).split(',')[1]
 }, [kind, type, quality]), 'base64')
+// A w x h grainy gradient whose top `flat` share of rows is plain white (a caption band or wall), so a flat model view
+// passes the old colour cut yet still compresses well lossy.
+const drawSized = async (page, w, h, type, flat = 0) => Buffer.from(await page.evaluate(([w, h, type, flat]) => {
+  const c = document.createElement('canvas'); c.width = w; c.height = h; const g = c.getContext('2d'), d = g.createImageData(w, h); let seed = 11
+  for (let i = 0; i < d.data.length; i += 4) {
+    const p = i / 4, x = p % w, y = Math.floor(p / w); seed = (seed * 1103515245 + 12345) & 0x7fffffff
+    const white = y < h * flat
+    d.data[i] = white ? 255 : 90 + x * 96 / w + (seed % 9); d.data[i + 1] = white ? 255 : 60 + y * 100 / h + (seed % 7); d.data[i + 2] = white ? 255 : 40 + (x + y) * 64 / (w + h) + (seed % 5); d.data[i + 3] = 255
+  }
+  g.putImageData(d, 0, 0); return c.toDataURL(type, 0.95).split(',')[1]
+}, [w, h, type, flat]), 'base64')
+
+test('kindOf: plans first, then product photos, boards and model views; renders are other', () => {
+  for (const [file, kind] of [
+    ['assets/PLAN-D.png', 'plan'], ['astra/measured/A-main.png', 'plan'], ['rooms/dining-plan.png', 'plan'], ['hal/assets/scale/HA-hal_quarter-scale.jpg', 'plan'],
+    ['hal/assets/scale/HA-dimensioned-elevation.png', 'plan'], ['queen-oct23/assets/Q1-selection-matrix.jpg', 'plan'],
+    ['assets/D-main.png', 'model-view'], ['hop/assets/HD-room-hal_main.png', 'model-view'], ['queen-oct23/assets/QE-room-entry.png', 'model-view'],
+    ['assets/D-products.png', 'board'], ['assets/products/D-BED.jpg', 'photo'], ['assets/products/D-PLANT.jpg', 'photo'], ['queen-oct23/assets/products/Q1-E-PLANTER.png', 'photo'],
+    ['assets/D-render-entry.png', 'other'], ['assets/D-render-main.png', 'other'], ['astra/renders/A-main.png', 'other'], ['astra/original/A-opposite.png', 'other'], ['rooms/living-photo-j054.jpg', 'other']
+  ]) assert.equal(kindOf(file), kind, file)
+  assert.equal(kindOf('collection-assets/0069a4fc692a76e824027e6d.png', true), 'photo', 'JSON "products" key')
+  assert.equal(kindOf('assets/PLAN-D.png', true), 'plan', 'a plan stays a plan under "products"')
+})
+
+test('model views are lossy at VIEW_QUALITY, plans keep the colour cut, product photos are capped at PHOTO_MAX_EDGE', async () => {
+  const root = tempRoot('webp-assets-kinds-')
+  const browser = await chromium.launch({ executablePath })
+  try {
+    const page = await browser.newPage(), put = (file, bytes) => { fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true }); fs.writeFileSync(path.join(root, file), bytes); return bytes }
+    put('assets/D-room-entry.png', await drawSized(page, 320, 200, 'image/png', 0.6)); const plan = put('assets/PLAN-D.png', await draw(page, 'plan', 'image/png'))
+    put('assets/products/D-BED.jpg', await drawSized(page, 2400, 1200, 'image/jpeg')); put('assets/products/D-RUG.jpg', await drawSized(page, 1200, 800, 'image/jpeg'))
+    put('assets/products/D-SOFA.webp', await drawSized(page, 2000, 1000, 'image/webp'))
+    const small = put('assets/products/D-LAMP.webp', await drawSized(page, 1000, 500, 'image/webp')), view = put('assets/D-old.webp', await drawSized(page, 2000, 1000, 'image/webp'))
+    const rendered = put('assets/products/D-render.0123456789abcdef01234567.webp', await drawSized(page, 2000, 1000, 'image/webp'))
+    put('render-derivatives.json', JSON.stringify({ schema: 1, derivatives: [{ sourcePath: 'assets/products/D-render.png', servedPath: 'assets/products/D-render.0123456789abcdef01234567.webp' }] }))
+    const refs = ['D-room-entry.png', 'PLAN-D.png', 'products/D-BED.jpg', 'products/D-RUG.jpg', 'products/D-SOFA.webp', 'products/D-LAMP.webp', 'D-old.webp', 'products/D-render.0123456789abcdef01234567.webp'].map(f => `<img src="assets/${f}">`).join('\n')
+    put('index.html', refs)
+    const result = await convertAssets(root, { executablePath })
+    assert.equal(result.referenced, 6, 'the non-product WebP and the render-pass WebP are not sources'); assert.equal(result.resized, 2)
+    const records = new Map(JSON.parse(fs.readFileSync(path.join(root, 'render-derivatives.json'), 'utf8')).derivatives.map(r => [r.sourcePath, r]))
+    const room = records.get('assets/D-room-entry.png')
+    assert.equal(room?.kind, 'model-view'); assert.equal(room.lossless, false, 'a flat model view is lossy'); assert.equal(room.quality, VIEW_QUALITY)
+    const planRecord = records.get('assets/PLAN-D.png')
+    assert.equal(planRecord?.kind, 'plan'); assert.equal(planRecord.lossless, true, 'a flat plan stays lossless'); assert.equal(planRecord.quality, undefined); assert.ok(planRecord.bytes <= plan.length * 0.9)
+    const bed = records.get('assets/products/D-BED.jpg')
+    assert.equal(bed?.kind, 'photo'); assert.deepEqual([bed.width, bed.height], [PHOTO_MAX_EDGE, 800]); assert.deepEqual(bed.resizedFrom, [2400, 1200]); assert.equal(bed.quality, 0.85)
+    const rug = records.get('assets/products/D-RUG.jpg')
+    assert.deepEqual([rug?.width, rug?.height], [1200, 800]); assert.equal(rug.resizedFrom, undefined, 'within the cap: not resized')
+    const sofa = records.get('assets/products/D-SOFA.webp')
+    assert.deepEqual([sofa?.width, sofa?.height], [1600, 800]); assert.deepEqual(sofa.resizedFrom, [2000, 1000])
+    const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8')
+    assert.ok(html.includes(`<img src="${sofa.servedPath}">`) && !html.includes('D-SOFA.webp"'), 'capped WebP ref rewritten')
+    assert.equal(sofa.servedPath, `assets/products/D-SOFA.${sofa.servedSha256.slice(0, 24)}.webp`)
+    // Decoded dimensions match the record, as readback checks them.
+    const decoded = await page.evaluate(async b64 => { const i = new Image(); i.src = 'data:image/webp;base64,' + b64; await i.decode(); return [i.naturalWidth, i.naturalHeight] }, fs.readFileSync(path.join(root, sofa.servedPath)).toString('base64'))
+    assert.deepEqual(decoded, [1600, 800])
+    for (const [file, bytes] of [['assets/products/D-LAMP.webp', small], ['assets/D-old.webp', view], ['assets/products/D-render.0123456789abcdef01234567.webp', rendered]]) {
+      assert.equal(records.has(file), false, file + ' has no record'); assert.ok(html.includes(`<img src="${file}">`), file + ' ref unchanged'); assert.deepEqual(fs.readFileSync(path.join(root, file)), bytes)
+    }
+  } finally { await browser.close(); fs.rmSync(root, { recursive: true, force: true }) }
+})
 
 test('page and JSON rasters become WebP; downloads, provenance, prose and sources stay original', async () => {
   const root = tempRoot('webp-assets-test-')
