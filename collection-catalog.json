@@ -18781,21 +18781,22 @@
       ],
       "board": "dop",
       "label": "Claude Opus · F · Pale Oak and Rush",
-      "name": "IKEA TONSTAD Table",
+      "name": "IKEA VOXLÖV Dining table",
       "url": "/408/#design=opus-din-def-20261023%3AF",
       "product": {
         "role": "dining_table",
-        "name": "TONSTAD Table",
+        "name": "VOXLÖV Dining table",
         "brand": "IKEA",
-        "sku": "80594064",
-        "variant": "Table, oak veneer, 150x80 cm (59x31 1/2 \")",
-        "family": "IKEA TONSTAD",
-        "url": "https://www.ikea.com/ph/en/p/tonstad-table-oak-veneer-80594064/",
+        "sku": "60449266",
+        "variant": "Dining table, light bamboo, 180x90 cm (70 7/8x35 3/8 \")",
+        "family": "IKEA VOXLÖV",
+        "url": "https://www.ikea.com/ph/en/p/voxloev-dining-table-light-bamboo-60449266/",
         "scope": "design_piece",
         "materials": null,
         "dimensions": {
           "width": 1800,
-          "depth": 900
+          "depth": 900,
+          "height": 750
         }
       }
     },
