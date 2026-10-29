@@ -1,7 +1,11 @@
 import json
+import os
 from pathlib import Path
+import re
+import struct
 import tempfile
 import unittest
+import zlib
 from public_artifact import build, reachable
 
 class PublicArtifactTests(unittest.TestCase):
@@ -56,5 +60,20 @@ class PublicArtifactTests(unittest.TestCase):
         self.write('index.html', '<p>safe</p>')
         with self.assertRaises(ValueError):
             build(self.root, self.root / 'public', encode=False)
+    @unittest.skipUnless(os.environ.get('UNIT408_CHROMIUM'), 'explicit installed Chromium required for encoding')
+    def test_encoded_build_serves_flat_png_as_lossless_webp_and_reports_asset_encoding(self):
+        def chunk(kind, data):
+            return struct.pack('!I', len(data))+kind+data+struct.pack('!I', zlib.crc32(kind+data)&0xffffffff)
+        # A flat white 64x64 PNG stored without compression: its lossless WebP is far more than 10% smaller.
+        rows = b''.join(b'\x00'+b'\xff\xff\xff'*64 for _ in range(64))
+        png = b'\x89PNG\r\n\x1a\n'+chunk(b'IHDR', struct.pack('!2I5B', 64, 64, 8, 2, 0, 0, 0))+chunk(b'IDAT', zlib.compress(rows, 0))+chunk(b'IEND', b'')
+        (self.root / 'plan.png').write_bytes(png); self.write('index.html', '<img src="plan.png">')
+        images = Path(__file__).resolve().parents[1] / 'images'
+        result = build(self.root, self.base / 'public', chromium=os.environ['UNIT408_CHROMIUM'], encoder_script=images / 'webp_views.mjs')
+        counts = {k: result['assetEncoding'][k] for k in ('referenced', 'converted', 'keptOriginal', 'encoded', 'lossless')}
+        self.assertEqual(counts, {'referenced': 1, 'converted': 1, 'keptOriginal': 0, 'encoded': 1, 'lossless': 1})
+        files = {r['path'] for r in result['files']}
+        self.assertNotIn('plan.png', files)
+        self.assertEqual(len([f for f in files if re.fullmatch(r'plan\.[0-9a-f]{24}\.webp', f)]), 1)
 
 if __name__ == '__main__': unittest.main()
