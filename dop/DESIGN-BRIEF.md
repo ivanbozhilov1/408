@@ -14,7 +14,7 @@ As of 23 October 2026. All purchases priced as new.
 |---|---:|---:|---:|
 | DIND · Midnight Velvet | ₱167,247.10 | ₱15,000–37,000 | ₱201,000–225,000 |
 | DINE · Heritage Persian | ₱249,074.00 | ₱15,000–37,000 | ₱291,000–315,000 |
-| DINF · Pale Oak and Rush | ₱247,668.00 | ₱15,000–37,000 | ₱289,000–314,000 |
+| DINF · Pale Oak and Rush | ₱245,668.00 | ₱15,000–37,000 | ₱287,000–311,000 |
 
 Quote-required items are shown explicitly and covered by the reserves, not silently priced at zero.
 
@@ -65,17 +65,17 @@ a black stone oval on a reeded black X-base with five turned dark-wood cane-back
 
 ## DINF · Pale Oak and Rush
 
-a pale oak veneer table with five solid oak armchairs with woven rush seats and backs in the window and east-wall corner, a light tan textured wool rug, an open natural bamboo console in the arch-counter corner, a soft green landscape on the west wall at the table's end, a manzanita spray in a cream vase in the window corner
+a light bamboo table with five solid oak armchairs with woven rush seats and backs in the window and east-wall corner, a light tan textured wool rug, an open natural bamboo console in the arch-counter corner, a soft green landscape on the west wall at the table's end, a manzanita spray in a cream vase in the window corner
 
 - Conditional fit: the ceiling 2700 is quoted (Ivan, 24 Oct: "the living and dining ceilings are 2.7 m"), not taped; the other values are assumed with a stated basis, none site-measured: window sills 900 and heads 2350, the round-head arch about 1450 wide with its crown at 2240 and 320 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.
-- Table 1800 x 900 (Ivan, 29 Oct; no 1800 x 900 TONSTAD is listed yet) in the window and east-wall corner (Ivan, 23 Oct): east end 100 off the east wall under the split unit; five armchairs 533 wide as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 75 short of the 180 curtain strip.
+- Table 1800 x 900 (Ivan, 29 Oct; the IKEA VOXLÖV is listed at 180 x 90 cm) in the window and east-wall corner (Ivan, 23 Oct): east end 100 off the east wall under the split unit; five armchairs 533 wide as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 75 short of the 180 curtain strip.
 - Console 900 x 350, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 150 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.50 m stays clear between the console and the pulled-back lane-side chairs.
 - Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 440 past the pulled-back west-end chair toward the plain west wall.
 - No pendant: the existing ceiling fan and its light kit stay (the owner's dining rule as revised on 24 Oct), centred at about (1991, 2600) over the table's north-west corner; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out.
 
 | Item | Exact variant / SKU | Qty | Unit PHP | Line PHP |
 |---|---|---:|---:|---:|
-| [TONSTAD Table](https://www.ikea.com/ph/en/p/tonstad-table-oak-veneer-80594064/) | Table, oak veneer, 150x80 cm (59x31 1/2 ") | 1 | 17,999.00 | 17,999.00 |
+| [VOXLÖV Dining table](https://www.ikea.com/ph/en/p/voxloev-dining-table-light-bamboo-60449266/) | Dining table, light bamboo, 180x90 cm (70 7/8x35 3/8 ") | 1 | 15,999.00 | 15,999.00 |
 | [Forge Barley Brown Oak Wood Dining Side Chair by Jake Arnold](https://crateandbarrel.com.ph/products/forge-barley-brown-oak-wood-dining-side-chair-by-jake-arnold?variant=43717493752024) | Forge Barley Brown Oak Wood Dining Side Chair by Jake Arnold; Single listed configuration; published SKU 265938; Shopify variant 43717493752024 | 5 | 23,095.00 | 115,475.00 |
 | [Bozeman Wool Textured Light Tan Area Rug 8'x10'](https://crateandbarrel.com.ph/products/bozeman-wool-textured-light-tan-area-rug-8x10?variant=44998418137304) | Bozeman Wool Textured Light Tan Area Rug 8'x10'; Single listed configuration; published SKU 186418; Shopify variant 44998418137304 | 1 | 87,995.00 | 87,995.00 |
 | [Larson Bamboo Console Table](https://mandauefoam.ph/products/larson-bamboo-console-table?variant=43178081484978) | Single published variant; SKU 111721 | 1 | 5,600.00 | 5,600.00 |
