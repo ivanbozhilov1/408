@@ -3,7 +3,7 @@ const cm=n=>Number.isInteger(n/10)?String(n/10):(n/10).toFixed(2).replace(/0+$/,
 const dim=(a)=>a?.length?a.map(cm).join(' × ')+' cm':'Not published';
 const role=s=>String(s).replaceAll('_',' ');
 async function init(){
- const r=await fetch('design-data.json');if(!r.ok)throw new Error('Design data could not be loaded.');const data=await r.json();
+ const r=await fetch('design-data.json', {cache: 'no-store'});if(!r.ok)throw new Error('Design data could not be loaded.');const data=await r.json();
  const released=data.designs.length;document.querySelector('#released-count').textContent=String(released);document.querySelector('#pending-count').textContent=String(3-released);
  document.querySelector('#release-status').textContent=released?'Each design shown has two independently reviewed photoreal room views. These are generated design visualizations; the plans and actual catalogue photos govern dimensions and product selection.'+(released<3?' Further designs appear here as their reviews pass.':''):'No designs have completed final image review yet.';
  document.querySelector('#release-status').dataset.state=released?'ready':'pending';
