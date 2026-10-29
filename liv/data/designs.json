@@ -1,0 +1,811 @@
+{
+  "title": "Unit 408 living: three directions (A, B, C)",
+  "as_of": "23 October 2026",
+  "overview": "Three living directions for Unit 408, each with its own seating layout, so Ivan chooses a design rather than a plan: A Linen Daylight (a classic 3 + 1 + 1 in ivory fabric, woven linen chairs and light oak), B Teal and Ochre (a teal sofa with an ottoman chaise, an ochre tub chair, walnut and a cream-and-denim rug) and C Charcoal and Brass (two charcoal 2-seaters in an L with brass, marble and glass). Fixed in all three: the honey-amber parquet, Davies Beige blackout and voile curtains full length on both windows, the existing window AC with its front kept clear, the ceiling fan, and a 75 in TV on an 1800 x 400 console on the TV wall. Nothing in the living is site-measured yet: the room file carries assumed heights and positions (ASSUMED.md) and every plan is a conditional fit on them.",
+  "requirements": [
+    "All prices assume new purchases. Three distinct sets of visible furniture, lighting, rugs, textiles and decor; no model or family repeats across the schemes or the parallel sets.",
+    "Every piece fits the measured room with clear walkways and door swings; plans use published dimensions and flag the rest.",
+    "Seating, tables and storage are real catalogue products with a supplier photo, price and source link."
+  ],
+  "procurement_gates": [
+    "Prices are catalogue references with each line's own price date. Product existence and photos are verified; exact Cebu stock, address delivery and checkout totals are not.",
+    "Pieces flagged \"dims unpublished\" in the room placement report keep the layout size; measure them at the showroom before ordering.",
+    "Delivery path for the sofa, dining table and buffet (lift, corridor, door widths) to be confirmed with the building before ordering.",
+    "Style renders are AI interpretations painted over the dimension-led model views; supplier photo boards, measured plans and the item schedule are the acceptance basis."
+  ],
+  "allowances": [
+    {
+      "id": "Q-DELIVERY",
+      "name": "Cebu freight, delivery and handling",
+      "low_centavos": 500000,
+      "high_centavos": 1500000,
+      "basis": "Planning allowance only; no shipping rates/address allocation obtained. Overseas freight not included."
+    },
+    {
+      "id": "Q-MOUNTING",
+      "name": "TV/art/pendant installation and assembly",
+      "low_centavos": 500000,
+      "high_centavos": 1000000,
+      "basis": "Planning allowance only; installer must specify anchors and verify substrate. Includes no structural rebuilding."
+    },
+    {
+      "id": "Q-FINISH",
+      "name": "Paint touch-up and site coordination",
+      "low_centavos": 500000,
+      "high_centavos": 1200000,
+      "basis": "Estimator reserve, not a contractor quote."
+    }
+  ],
+  "schemes": [
+    {
+      "id": "LVA",
+      "title": "Linen Daylight",
+      "rationale": "ivory linen-look seating and cane in a daylight room, pale timber, one soft green: a classic 3 + 1 + 1 around a rectangular table",
+      "palette": [
+        "#cfc2a8",
+        "#7f9a5e",
+        "#f3eee4"
+      ],
+      "budget": {
+        "design_centavos": 15022010,
+        "common_centavos": 0,
+        "priced_centavos": 15022010,
+        "reserve_low_centavos": 1500000,
+        "reserve_high_centavos": 3700000,
+        "total_low_php": 182000,
+        "total_high_php": 206000
+      },
+      "fit_notes": [
+        "Seating option A: 3-seater along the south window facing the TV, two woven armchairs along the east window south of the window AC with a side table between them, rug 3400 x 2400 under the group.",
+        "Curtain lines kept: 250 mm behind the sofa and the chairs at both windows; the floor in front of the window AC stays clear.",
+        "Conditional fit: the living is not site-measured; ceiling, sills, heads, door heights and the fan and AC positions are assumed (see ASSUMED.md) and every plan and view depends on them until taped."
+      ]
+    },
+    {
+      "id": "LVB",
+      "title": "Teal and Ochre",
+      "rationale": "a teal sofa with an ottoman chaise, one ochre tub chair, walnut and a cream-and-denim rug under a copper arc lamp: a warm evening room without the usual browns",
+      "palette": [
+        "#1f6f78",
+        "#c9972b",
+        "#f1ebdd"
+      ],
+      "budget": {
+        "design_centavos": 19533850,
+        "common_centavos": 0,
+        "priced_centavos": 19533850,
+        "reserve_low_centavos": 1500000,
+        "reserve_high_centavos": 3700000,
+        "total_low_php": 232000,
+        "total_high_php": 256000
+      },
+      "fit_notes": [
+        "Seating option B: 3-seater along the south window with the ottoman at its east end as the chaise, round walnut coffee table in front of its west half, one tub armchair by the east window south of the window AC.",
+        "The ottoman and sofa are two SKUs, so the layout engine places both; together they read as a sectional with a chaise.",
+        "Conditional fit: the living is not site-measured; ceiling, sills, heads, door heights and the fan and AC positions are assumed (see ASSUMED.md) and every plan and view depends on them until taped."
+      ]
+    },
+    {
+      "id": "LVC",
+      "title": "Charcoal and Brass",
+      "rationale": "two charcoal 2-seaters in an L, brass as the single metal, marble and glass on ivory-grey, art on the notch wall",
+      "palette": [
+        "#3b3b3f",
+        "#b08a3c",
+        "#e3e1dc"
+      ],
+      "budget": {
+        "design_centavos": 27574050,
+        "common_centavos": 0,
+        "priced_centavos": 27574050,
+        "reserve_low_centavos": 1500000,
+        "reserve_high_centavos": 3700000,
+        "total_low_php": 320000,
+        "total_high_php": 345000
+      },
+      "fit_notes": [
+        "Seating option C: one 2-seater along the south window, one along the east window south of the window AC, corner table in the south-east corner, lounge chair on the TV-wall side of the rug.",
+        "The lounge chair stays 1000 mm off the TV console front so the bay-to-arch walkway holds.",
+        "Conditional fit: the living is not site-measured; ceiling, sills, heads, door heights and the fan and AC positions are assumed (see ASSUMED.md) and every plan and view depends on them until taped."
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "LVA-SOFA",
+      "schemes": [
+        "LVA"
+      ],
+      "room": "LIV",
+      "role": "sofa",
+      "name": "SUZY 3-SEATER SOFA",
+      "brand": "BLIMS Fine Furniture",
+      "sku": "ISTF0097C",
+      "variant": "Beige; SKU ISTF0097C",
+      "quantity": 1,
+      "unit_centavos": 4195000,
+      "line_centavos": 4195000,
+      "url": "https://blimsfurniture.com.ph/products/suzy-3-seater-sofa",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Cool ivory/beige fabric 3-seater with slim tapered timber legs, 2000 x 950, in stock; budget alternate with a softer, less linen texture. Alternate: BoConcept Aarhus 3-seater sofa (PHP 282,690).",
+      "dimensions": {
+        "width": 2000,
+        "depth": 950,
+        "height": 920
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVA-SOFA.webp",
+      "family": "BLIMS Fine Furniture SUZY 3-SEATER SOFA",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVA-ARMCHAIR",
+      "schemes": [
+        "LVA"
+      ],
+      "room": "LIV",
+      "role": "armchair",
+      "name": "STOCKHOLM 2025 Chair",
+      "brand": "IKEA",
+      "sku": "60594786",
+      "variant": "STOCKHOLM 2025 Chair, birch veneer; article 60594786",
+      "quantity": 2,
+      "unit_centavos": 1799900,
+      "line_centavos": 3599800,
+      "url": "https://www.ikea.com/ph/en/p/stockholm-2025-chair-birch-veneer-60594786/",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Woven natural linen webbing on a birch frame, 710 x 790: the cane/linen/pale-oak accent in one piece; low lounge chair, buy x2. Alternate: Mandaue Foam Alexia Accent Chair (PHP 12,200). Materials as published: Fabric: 100 % linen, 100 % linen, 100 % linen; Seat side/ Leg: Layer-glued wood veneer, Birch veneer, Clear acrylic lacquer.",
+      "dimensions": {
+        "width": 710,
+        "depth": 790,
+        "height": 630
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVA-ARMCHAIR.jpg",
+      "family": "IKEA STOCKHOLM 2025 Chair",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVA-COFFEE",
+      "schemes": [
+        "LVA"
+      ],
+      "room": "LIV",
+      "role": "coffee_table",
+      "name": "Gabler Coffee Table",
+      "brand": "Mandaue Foam",
+      "sku": "112308",
+      "variant": "Natural; SKU 112308",
+      "quantity": 1,
+      "unit_centavos": 560000,
+      "line_centavos": 560000,
+      "url": "https://mandauefoam.ph/products/gabler-coffee-table",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Simple pale-oak veneer top on tapered rubberwood legs, low and slim at 1100 mm; keeps the linen-and-oak daylight look quiet. Alternate: abensonHome Misha Center Table (PHP 4,395). Materials as published: Table top: MDF with veneer Legs: Rubberwood.",
+      "dimensions": {
+        "width": 1100,
+        "depth": 480,
+        "height": 400
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVA-COFFEE.webp",
+      "family": "Mandaue Foam Gabler Coffee Table",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVA-SIDE",
+      "schemes": [
+        "LVA"
+      ],
+      "room": "LIV",
+      "role": "side_table",
+      "name": "Jill Round Side Table",
+      "brand": "Mandaue Foam",
+      "sku": "141197",
+      "variant": "Single published variant; SKU 141197",
+      "quantity": 1,
+      "unit_centavos": 440000,
+      "line_centavos": 440000,
+      "url": "https://mandauefoam.ph/products/deia-side-table-copy",
+      "status": "Catalogue export 20 Oct 2026 | availability catalog listed | Cebu delivery unconfirmed",
+      "notes": "Round 500 mm light-timber top on a woven-rattan base; exact cane-and-pale-wood note for the daylight room. Alternate: Philux Renzo Pedestal (PHP 47,500). Materials as published: 25mm MDF board with paper Table top + MDF board with paper w/ PVC woven rattan legs.",
+      "dimensions": {
+        "width": 500,
+        "depth": 500,
+        "height": 500
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVA-SIDE.jpg",
+      "family": "Mandaue Foam Jill Round Side Table",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVA-CONSOLE",
+      "schemes": [
+        "LVA"
+      ],
+      "room": "LIV",
+      "role": "tv_console",
+      "name": "Astrid TV Cabinet",
+      "brand": "Mandaue Foam",
+      "sku": "140995",
+      "variant": "SKU 140995; Oak",
+      "quantity": 1,
+      "unit_centavos": 870000,
+      "line_centavos": 870000,
+      "url": "https://mandauefoam.ph/products/astrid-tv-cabinet",
+      "status": "Catalogue export 20 Oct 2026 | availability sold out | Cebu delivery unconfirmed",
+      "notes": "Light-oak finish cabinet with three panel doors and rounded ends, 1600 wide; fits the pale-oak, linen scheme (shorter than the 1800 slot, so 100 mm clear each side). Alternate: abensonHome Valerie TV Cabinet (PHP 5,995). Materials as published: 15mm thick MDF w/melamine top , bottom & shelf 38mm thick Hollow board in paper finish side.",
+      "dimensions": {
+        "width": 1600,
+        "depth": 420,
+        "height": 495
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVA-CONSOLE.webp",
+      "family": "Mandaue Foam Astrid TV Cabinet",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVA-RUG",
+      "schemes": [
+        "LVA"
+      ],
+      "room": "LIV",
+      "role": "rug",
+      "name": "LOHALS natural rug 200x300cm [80277396]",
+      "brand": "IKEA",
+      "sku": "802.773.96",
+      "variant": "LOHALS Rug, flatwoven - natural 200x300 cm; natural; 200x300cm; SKU 802.773.96",
+      "quantity": 1,
+      "unit_centavos": 799900,
+      "line_centavos": 799900,
+      "url": "https://www.ikea.com/ph/en/p/lohals-rug-flatwoven-natural-80277396/",
+      "status": "Catalogue export 20 Oct 2026 | availability verify | Cebu delivery unconfirmed",
+      "notes": "Natural jute flatweave in the right 2000 x 3000 class; warms the oatmeal linen and light oak, and the sage comes from plant and cushion (no priced in-range rug carries a green border). Alternate: BoConcept Calm Whisper rug (PHP 101,890). Materials as published: 100% jute. Backing: unpublished.",
+      "dimensions": {
+        "width": 2000,
+        "depth": 3000
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVA-RUG.avif",
+      "family": "IKEA LOHALS natural rug 200x300cm [80277396]",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVA-LAMP",
+      "schemes": [
+        "LVA"
+      ],
+      "room": "LIV",
+      "role": "floor_lamp",
+      "name": "KINNAHULT Floor lamp",
+      "brand": "IKEA",
+      "sku": "50559260",
+      "variant": "KINNAHULT Floor lamp, ash/white, 150 cm; article 50559260",
+      "quantity": 1,
+      "unit_centavos": 399900,
+      "line_centavos": 399900,
+      "url": "https://www.ikea.com/ph/en/p/kinnahult-floor-lamp-ash-white-50559260/",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Solid ash stem and white shade, 1500 high; light timber at the sofa end for the daylight room. Alternate: BoConcept Drum floor lamp (PHP 92,590). Materials as published: Upper tube/ Lower tube/ Base: Solid ash, Acrylic stain; Shade: 100% polyester (min. 90% recycled); Diffuser: Polystyrene plastic (min. 20% recycled); Shade ring/ Shade holder: Polypropylene; Support bracket/ Frame: Steel, Epoxy/polyester powder coating; Threaded Pin: Steel, Galvanized.",
+      "dimensions": {
+        "height": 1500
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVA-LAMP.avif",
+      "family": "IKEA KINNAHULT Floor lamp",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVA-PLANT",
+      "schemes": [
+        "LVA"
+      ],
+      "room": "LIV",
+      "role": "plant",
+      "name": "Flourish Faux Olive Tree",
+      "brand": "Flourish",
+      "sku": "39243062",
+      "variant": "Default Title",
+      "quantity": 1,
+      "unit_centavos": 1169910,
+      "line_centavos": 1169910,
+      "url": "https://ourhome.ph/products/flourish-faux-olive-tree",
+      "status": "Catalogue export 20 Oct 2026 | availability sold out | Cebu delivery unconfirmed",
+      "notes": "Faux olive tree 1750 high in a neutral stone-grey planter; the soft sage green accent for the daylight room. Alternate: Flourish Flourish Eucalyptus Tree (PHP 9,539).",
+      "dimensions": {
+        "width": 1000,
+        "depth": 1000,
+        "height": 1750
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVA-PLANT.webp",
+      "family": "Flourish Faux Olive Tree",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVA-ART",
+      "schemes": [
+        "LVA"
+      ],
+      "room": "LIV",
+      "role": "art",
+      "name": "\"Off Shore\" by Kim Knoll 32\"x20\" Framed Wall Art Print",
+      "brand": "Crate & Barrel",
+      "sku": "568779",
+      "variant": "\"Off Shore\" by Kim Knoll 32\"x20\" Framed Wall Art Print; Single listed configuration; published SKU 568779; Shopify variant 44253412065496",
+      "quantity": 1,
+      "unit_centavos": 2987500,
+      "line_centavos": 2987500,
+      "url": "https://crateandbarrel.com.ph/products/off-shore-by-kim-knoll-32x20-framed-wall-art-print",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Soft linen-toned abstract in a light oak frame, 813 x 508; the timber-frame, quiet-landscape brief. Alternate: Perfect Pieces Perfect Pieces Flourishing Blooms (PHP 8,450). Materials as published: Giclee print on artist paper; Wood frame with light oak finish; Glass.",
+      "dimensions": {
+        "width": 812.8,
+        "depth": 50.8,
+        "height": 508
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVA-ART.webp",
+      "family": "Crate & Barrel \"Off Shore\" by Kim Knoll 32\"x20\" Framed Wall Art Print",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVB-SOFA",
+      "schemes": [
+        "LVB"
+      ],
+      "room": "LIV",
+      "role": "sofa",
+      "name": "Clark 3 Seater Sofa",
+      "brand": "Mandaue Foam",
+      "sku": "133097",
+      "variant": "Fabric Belfast Light Teal (published option; listing photo shows Parson Light Gray)",
+      "quantity": 1,
+      "unit_centavos": 4130000,
+      "line_centavos": 4130000,
+      "url": "https://mandauefoam.ph/products/clark-3-seater-sofa",
+      "status": "Catalogue export 20 Oct 2026 | availability catalog listed | Cebu delivery unconfirmed",
+      "notes": "Straight 3-seater 2604 x 979 ordered in the Belfast Light Teal fabric option (the listing photo shows Light Gray): pairs with the ottoman as the chaise so no second chaise appears; the catalogue has no straight navy or teal sofa of this size in stock under PHP 400k. Alternate: IKEA EKTORP Sofa with chaise (PHP 39,999); BoConcept Carlton sofa (PHP 410,990). Materials as published: Frame: Plywood panel with Gemelina Fixed Seat Cushion: Flex foam Fixed Back Cushion: Syntex foam & Unisoft foam.",
+      "dimensions": {
+        "width": 2604,
+        "depth": 979,
+        "height": 1060
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVB-SOFA.png",
+      "family": "Mandaue Foam Clark 3 Seater Sofa",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVB-OTTOMAN",
+      "schemes": [
+        "LVB"
+      ],
+      "room": "LIV",
+      "role": "ottoman",
+      "name": "Ava Ottoman with Storage",
+      "brand": "Mandaue Foam",
+      "sku": "133067",
+      "variant": "Carbon (published option; listing photo shows Parson Light Gray)",
+      "quantity": 1,
+      "unit_centavos": 1190000,
+      "line_centavos": 1190000,
+      "url": "https://mandauefoam.ph/products/ava-ottoman-with-storage",
+      "status": "Catalogue export 20 Oct 2026 | availability catalog listed | Cebu delivery unconfirmed",
+      "notes": "Square storage ottoman 902 x 902 x 396 in mid grey fabric (supplier label Parson Light Gray, Carbon is a published option, so confirm the colour); budget alternate, not a true dark grey. Alternate: BoConcept Carlton footstool (PHP 148,490). Materials as published: Frame: Plywood & Gemelina wood Fixed Seat: Polyurethane foam Fabric: 100% Polyester Leg: Plastic Leg.",
+      "dimensions": {
+        "width": 902,
+        "depth": 902,
+        "height": 396
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVB-OTTOMAN.webp",
+      "family": "Mandaue Foam Ava Ottoman with Storage",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVB-ARMCHAIR",
+      "schemes": [
+        "LVB"
+      ],
+      "room": "LIV",
+      "role": "armchair",
+      "name": "ALICE ACCENT CHAIR",
+      "brand": "BLIMS",
+      "sku": "ISSF0062L",
+      "variant": "Yellow (published option; listing variant is Light Grey)",
+      "quantity": 1,
+      "unit_centavos": 2995000,
+      "line_centavos": 2995000,
+      "url": "https://blimsfurniture.com.ph/products/alice-accent-chair",
+      "status": "Catalogue export 20 Oct 2026 | availability catalog listed | Cebu delivery unconfirmed",
+      "notes": "Mustard/ochre fabric tub-shell armchair on black metal legs, 790 x 800 x 730; fixed, not swivel; the listing variant is Light Grey but Yellow is a published colour, so confirm the colour at purchase; catalogue-listed. Materials as published: fabric\nkiln-dried wood\nhigh-density foam\nmetal legs.",
+      "dimensions": {
+        "width": 790,
+        "depth": 800,
+        "height": 730
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVB-ARMCHAIR.webp",
+      "family": "BLIMS ALICE ACCENT CHAIR",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVB-COFFEE",
+      "schemes": [
+        "LVB"
+      ],
+      "room": "LIV",
+      "role": "coffee_table",
+      "name": "Lovisa Coffee Table",
+      "brand": "Mandaue Foam",
+      "sku": "133945",
+      "variant": "Single published variant; SKU 133945",
+      "quantity": 1,
+      "unit_centavos": 700000,
+      "line_centavos": 700000,
+      "url": "https://mandauefoam.ph/products/lovisa-coffee-table",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Round 800 mm walnut-tone drum with a fluted base; matches the walnut round-table brief for the cognac lounge. Alternate: Mandaue Foam Cassidy Coffee Table (PHP 5,075). Materials as published: 36mm thick MDF with paper laminate table top+ 5mm thick Corrugated MDF with paper laminate base.",
+      "dimensions": {
+        "width": 800,
+        "depth": 800,
+        "height": 400
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVB-COFFEE.jpg",
+      "family": "Mandaue Foam Lovisa Coffee Table",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVB-CONSOLE",
+      "schemes": [
+        "LVB"
+      ],
+      "room": "LIV",
+      "role": "tv_console",
+      "name": "Haru 180 cm TV Cabinet",
+      "brand": "Mandaue Foam",
+      "sku": "122707",
+      "variant": "Columbia; SKU 122707",
+      "quantity": 1,
+      "unit_centavos": 1150000,
+      "line_centavos": 1150000,
+      "url": "https://mandauefoam.ph/products/haru-180-cm-tv-cabinet",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Walnut-brown 1800 mm cabinet with ribbed slatted doors and splayed legs; fills the console slot and gives the walnut role. Alternate: BLIMS Fine Furniture SCARLETT TV CABINET (PHP 27,950). Materials as published: Panel: Particle board laminated with 3D paper lamination Apron & legs: MDF in paper lamination.",
+      "dimensions": {
+        "width": 1800,
+        "depth": 396,
+        "height": 494
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVB-CONSOLE.webp",
+      "family": "Mandaue Foam Haru 180 cm TV Cabinet",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVB-RUG",
+      "schemes": [
+        "LVB"
+      ],
+      "room": "LIV",
+      "role": "rug",
+      "name": "Metro Weave Carpet by Francis Libiran 200x290cm [39242457]",
+      "brand": "OUR HOME / Francis Libiran",
+      "sku": "39242457",
+      "variant": "Metro Weave Carpet by Francis Libiran; No named color variant published; confirm actual sample; 200x290cm; SKU 39242457",
+      "quantity": 1,
+      "unit_centavos": 3599550,
+      "line_centavos": 3599550,
+      "url": "https://ourhome.ph/products/metro-weave?variant=47562107027697",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Cream-blush ground with a denim-blue diamond lattice, 2000 x 2900; the blue echoes the indigo sofa, no rust or orange. Alternate: BoConcept Meadow Hue rug (PHP 129,590). Materials as published: 100% heatset and shrink polyester. Backing: Unpublished.",
+      "dimensions": {
+        "width": 2000,
+        "depth": 2900
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVB-RUG.webp",
+      "family": "OUR HOME / Francis Libiran Metro Weave Carpet by Francis Libiran 200x290cm [39242457]",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVB-LAMP",
+      "schemes": [
+        "LVB"
+      ],
+      "room": "LIV",
+      "role": "floor_lamp",
+      "name": "Kuta Floor Lamp",
+      "brand": "BoConcept",
+      "sku": "630",
+      "variant": "Kuta Floor Lamp; outlet SKU 630; Brushed Copper Finish; representative listing https://www.boconcept.com/en-ph/outlet/lamps/731902f9-a88e-4ffe-bbc5-1c558d43cfe3/",
+      "quantity": 1,
+      "unit_centavos": 4684800,
+      "line_centavos": 4684800,
+      "url": "https://www.boconcept.com/en-ph/outlet/lamps/731902f9-a88e-4ffe-bbc5-1c558d43cfe3/",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Brushed-copper arc with a dome shade, 2000 high; reaches over the chaise and sits warm against cognac and walnut. Alternate: IKEA SKOTTORP / SKAFTET Floor lamp, arched (PHP 4,899). Materials as published: Brushed Copper Finish.",
+      "dimensions": {
+        "height": 2000
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVB-LAMP.webp",
+      "family": "BoConcept Kuta Floor Lamp",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVB-PLANT",
+      "schemes": [
+        "LVB"
+      ],
+      "room": "LIV",
+      "role": "plant",
+      "name": "Faux Tall Potted Cactus Plant",
+      "brand": "Crate & Barrel",
+      "sku": "605127",
+      "variant": "Faux Tall Potted Cactus Plant; Single listed configuration; published SKU 605127; Shopify variant 44187554873560",
+      "quantity": 1,
+      "unit_centavos": 1084500,
+      "line_centavos": 1084500,
+      "url": "https://crateandbarrel.com.ph/products/faux-tall-potted-cactus-plant",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Faux tall potted cactus 1359 high in a brass planter; sculptural green with a warm metal pot (planter is brass, not dark). Alternate: Ashley A54200037 Greenery (PHP 11,200). Materials as published: Plastic, polyfoam, iron wire.",
+      "dimensions": {
+        "width": 320.04,
+        "height": 1358.9
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVB-PLANT.webp",
+      "family": "Crate & Barrel Faux Tall Potted Cactus Plant",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVC-SOFA",
+      "schemes": [
+        "LVC"
+      ],
+      "room": "LIV",
+      "role": "sofa",
+      "name": "Amora 2-Seater Sofa",
+      "brand": "abensonHome",
+      "sku": "",
+      "variant": "Polyester, Grey, No-Zag Springs, Comfortable",
+      "quantity": 2,
+      "unit_centavos": 3280500,
+      "line_centavos": 6561000,
+      "url": "https://home.abenson.com/abensonhome-amora-grey-brown-2-seater-sofa.html",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Charcoal plush-velvet look 2-seater with rounded tidy arms and slim black metal legs, 1860 x 860; photo reads near-black, listing says Grey; buy x2. Alternate: abensonHome Jacob 3-Seater Sofa (PHP 31,995).",
+      "dimensions": {
+        "width": 1860,
+        "depth": 860,
+        "height": 800
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVC-SOFA.jpg",
+      "family": "abensonHome Amora 2-Seater Sofa",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVC-CORNER",
+      "schemes": [
+        "LVC"
+      ],
+      "room": "LIV",
+      "role": "side_table",
+      "name": "Cavo Real Marble Side Table",
+      "brand": "Mandaue Foam",
+      "sku": "140974",
+      "variant": "Single published variant; SKU 140974",
+      "quantity": 1,
+      "unit_centavos": 1220000,
+      "line_centavos": 1220000,
+      "url": "https://mandauefoam.ph/products/cavo-real-marble-side-table",
+      "status": "Catalogue export 20 Oct 2026 | availability catalog listed | Cebu delivery unconfirmed",
+      "notes": "Real marble top on brass-toned legs, 610 x 508 x 588 mm; the marble-and-brass corner table the contrast room asks for. Alternate: Urban Concepts Tanya Side Table (PHP 14,360). Materials as published: 35mm thick real marble top+ MDF legs in lacquered finish.",
+      "dimensions": {
+        "width": 610,
+        "depth": 508,
+        "height": 588
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVC-CORNER.webp",
+      "family": "Mandaue Foam Cavo Real Marble Side Table",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVC-COFFEE",
+      "schemes": [
+        "LVC"
+      ],
+      "room": "LIV",
+      "role": "coffee_table",
+      "name": "Bexley Glass Top Coffee Table",
+      "brand": "Mandaue Foam",
+      "sku": "116619",
+      "variant": "Single published variant; SKU 116619",
+      "quantity": 1,
+      "unit_centavos": 635000,
+      "line_centavos": 635000,
+      "url": "https://mandauefoam.ph/products/bexley-glass-top-coffee-table",
+      "status": "Catalogue export 20 Oct 2026 | availability catalog listed | Cebu delivery unconfirmed",
+      "notes": "Glass top on a gold-finish tube frame with a timber shelf, 1100 mm; airy marble/glass-on-brass fit for the contrast room. Alternate: Furniture Manila Cascade Oval Center Table: White Marble-Look Top (PHP 4,750). Materials as published: Table top: 8 mm Tempered Glass Frame: Ø22 mm & 15 x 30 mm in 0.9 mm thick metal tube Panel: 18 mm thick MDF board laminated with melamine.",
+      "dimensions": {
+        "width": 1100,
+        "depth": 500,
+        "height": 420
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVC-COFFEE.webp",
+      "family": "Mandaue Foam Bexley Glass Top Coffee Table",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVC-LOUNGE",
+      "schemes": [
+        "LVC"
+      ],
+      "room": "LIV",
+      "role": "lounge_chair",
+      "name": "Bradett Accent Chair",
+      "brand": "Ashley",
+      "sku": "A3000763",
+      "variant": "Bradett Accent Chair; manufacturer SKU A3000763; Default Title",
+      "quantity": 1,
+      "unit_centavos": 6550000,
+      "line_centavos": 6550000,
+      "url": "https://store.ashleyfurniture.ph/products/bradett-accent-chair",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Near-black espresso leather-look seat with a brass-bronze metal frame, 762 x 737: low open profile and the brass ties to the scheme; colour is very dark brown, not true black. Alternate: Crate & Barrel Le Marché Blue Accent Chair by Athena Calderone (PHP 99,990). Materials as published: metal frame.",
+      "dimensions": {
+        "width": 762,
+        "depth": 736.6,
+        "height": 863.6
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVC-LOUNGE.webp",
+      "family": "Ashley Bradett Accent Chair",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVC-CONSOLE",
+      "schemes": [
+        "LVC"
+      ],
+      "room": "LIV",
+      "role": "tv_console",
+      "name": "EXTREME TV CABINET",
+      "brand": "BLIMS Fine Furniture",
+      "sku": "ITVB0111A",
+      "variant": "Default published variant; SKU ITVB0111A",
+      "quantity": 1,
+      "unit_centavos": 2429500,
+      "line_centavos": 2429500,
+      "url": "https://blimsfurniture.com.ph/products/extreme-tv-cabinet",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Dark taupe-bronze (greige-graphite) body on black legs with black open bays, full 1800 mm, low at 400; no light wood, bronze tone sits with the brass accent. Not true black. Alternate: abensonHome Prym TV Cabinet (PHP 5,995). Materials as published: : Laminated Board, Metal Legs.",
+      "dimensions": {
+        "width": 1800,
+        "depth": 400,
+        "height": 400
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVC-CONSOLE.webp",
+      "family": "BLIMS Fine Furniture EXTREME TV CABINET",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVC-RUG",
+      "schemes": [
+        "LVC"
+      ],
+      "room": "LIV",
+      "role": "rug",
+      "name": "Silken Arches Carpet by Francis Libiran 200x290cm [39242454]",
+      "brand": "OUR HOME / Francis Libiran",
+      "sku": "39242454",
+      "variant": "Silken Arches Carpet by Francis Libiran; No named color variant published; confirm actual sample; 200x290cm; SKU 39242454",
+      "quantity": 1,
+      "unit_centavos": 3599550,
+      "line_centavos": 3599550,
+      "url": "https://ourhome.ph/products/silken-arches?variant=47562107584753",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Ivory-grey ground with charcoal interlaced-arch geometry, 2000 x 2900; the exact charcoal-geometry brief. Alternate: BoConcept Angled Muse rug (PHP 101,890). Materials as published: 100% heatset polypropylene. Backing: Unpublished.",
+      "dimensions": {
+        "width": 2000,
+        "depth": 2900
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVC-RUG.webp",
+      "family": "OUR HOME / Francis Libiran Silken Arches Carpet by Francis Libiran 200x290cm [39242454]",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVC-LAMP",
+      "schemes": [
+        "LVC"
+      ],
+      "room": "LIV",
+      "role": "floor_lamp",
+      "name": "Kip floor lamp",
+      "brand": "BoConcept",
+      "sku": "105030000730",
+      "variant": "Kip floor lamp; manufacturer variant/SKU 105030000730; master 105030000730; selected configuration codes: vaMaterialLamp=81",
+      "quantity": 1,
+      "unit_centavos": 5999000,
+      "line_centavos": 5999000,
+      "url": "https://www.boconcept.com/en-ph/p/kip/105_30000730-8:81/",
+      "status": "Catalogue export 20 Oct 2026 | availability catalog listed | Cebu delivery unconfirmed",
+      "notes": "Slim brass-toned stem with a small dome head, 1460 high; the single brass lamp behind the lounge chair. Alternate: IKEA ÅRSTID Floor lamp (PHP 2,499). Materials as published: Published material groups: Metal.",
+      "dimensions": {
+        "height": 1460
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVC-LAMP.jpg",
+      "family": "BoConcept Kip floor lamp",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    },
+    {
+      "id": "LVC-ART",
+      "schemes": [
+        "LVC"
+      ],
+      "room": "LIV",
+      "role": "art",
+      "name": "A58000329 Wall Art",
+      "brand": "Ashley",
+      "sku": "A58000329",
+      "variant": "A58000329 Wall Art; manufacturer SKU A58000329; Default Title; Black/White",
+      "quantity": 1,
+      "unit_centavos": 580000,
+      "line_centavos": 580000,
+      "url": "https://store.ashleyfurniture.ph/products/a58000329-wall-art",
+      "status": "Catalogue export 20 Oct 2026 | availability available | Cebu delivery unconfirmed",
+      "notes": "Charcoal-black ink circle on ivory in a black frame, 800 x 800; strong contrast on the notch wall. Alternate: Ashley A58000471 Wall Art (PHP 13,000). Materials as published: Made with canvas.",
+      "dimensions": {
+        "width": 800.1,
+        "depth": 34.798,
+        "height": 800.1
+      },
+      "scope": "design_piece",
+      "image": "assets/products/LVC-ART.jpg",
+      "family": "Ashley A58000329 Wall Art",
+      "price_basis": "catalogue",
+      "price_date": "2026-10-20"
+    }
+  ],
+  "source_notes": [
+    "Pieces come from the frozen 20 Oct 2026 catalogue export (prices as published that day); photos are the suppliers' own.",
+    "Room geometry: owner-drawn plan plus Jamaica's 22 Oct photos; the living is not site-measured (tape items T1-T7 pending), see ASSUMED.md.",
+    "Curtains per the Seoul quote (Davies Beige blackout + voile, full length) are not priced in these sets; the TV is a technical slot, not a line item.",
+    "Where a supplier lists one colour variant but publishes others (Alice yellow, Ava carbon), the notes say which to confirm at purchase."
+  ]
+}
