@@ -30545,7 +30545,7 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "queen-oct28/assets/QA-room-entry.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
         },
         {
           "label": "Bathroom door · Day",
@@ -30553,7 +30553,7 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "queen-oct28/assets/QA-room-bathroom.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
         },
         {
           "label": "Window corner · Day",
@@ -30561,7 +30561,7 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "queen-oct28/assets/QA-room-windowac.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Window corner · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "caption": "Deterministic room-model view at true scale, not an AI render (Window corner · Day, eye 1.55 m). Render withheld: refute-first majority failed: bed_queen"
         }
       ],
       "products": [],
@@ -30576,7 +30576,7 @@
       "name": "Window vanity",
       "date": "2026-10-28",
       "version": "opus-queen-abce-20261028",
-      "status": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
       "isNew": true,
       "summary": "Queen plan B, Window vanity: Bed moves 350 mm west, toward the wardrobe. A vanity sits on the north wall beside the window, lit from the side. Bed: Scandi Home Japanese Bed, Queen (mattress 1500 x 2000). Rug about 3000 x 2500 between bed and TV console; blackout curtain + sheer kept clear along the window.",
@@ -30587,7 +30587,7 @@
         "Plant holds the south-east corner; the Eames can still go there later (see C).",
         "Plan checks on the to-scale drawing: 13 of 13 pass.",
         "Author Claude Opus; raster tool Codex image generation (sketch-to-render over the model view). No product schedule yet beyond the bed; no human approval inferred.",
-        "Render QA 2026-10-28: 0 of 3 day views pass; withheld (true-scale model view shown): Entrance door · Day, Bathroom door · Day, Window corner · Day.",
+        "Render QA 2026-10-28: 1 of 3 day views pass; withheld (true-scale model view shown): Entrance door · Day, Bathroom door · Day.",
         "Day views only: night and golden-hour views do not exist yet for this set."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/queen-oct28/#plan-B",
@@ -30600,7 +30600,7 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "queen-oct28/assets/QB-room-entry.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
         },
         {
           "label": "Bathroom door · Day",
@@ -30608,15 +30608,15 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "queen-oct28/assets/QB-room-bathroom.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
         },
         {
           "label": "Window corner · Day",
           "kind": "window-ac-day",
-          "method": "DETERMINISTIC_MODEL_VIEW",
-          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "queen-oct28/assets/QB-room-windowac.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Window corner · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QB-render-windowac.png",
+          "caption": "AI style render at standing eye level (Window corner · Day), painted over the true-scale room-model view; dimensions from the model, finishes interpretive. Render QA 2026-10-28: PASS."
         }
       ],
       "products": [],
@@ -30631,7 +30631,7 @@
       "name": "Vanity + Eames corner",
       "date": "2026-10-28",
       "version": "opus-queen-abce-20261028",
-      "status": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "status": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
       "isNew": true,
       "summary": "Queen plan C, Vanity + Eames corner: Plan B plus the Eames lounge chair and ottoman beside the console, turned 40° toward the bed. Bed: Scandi Home Japanese Bed, Queen (mattress 1500 x 2000). Rug about 3000 x 2500 between bed and TV console; blackout curtain + sheer kept clear along the window.",
@@ -30642,7 +30642,7 @@
         "The chair sits under the split AC (high on the wall); the plant moves to the window beside it.",
         "Plan checks on the to-scale drawing: 14 of 14 pass.",
         "Author Claude Opus; raster tool Codex image generation (sketch-to-render over the model view). No product schedule yet beyond the bed; no human approval inferred.",
-        "Render QA 2026-10-28: 0 of 3 day views pass; withheld (true-scale model view shown): Entrance door · Day, Bathroom door · Day, Window corner · Day.",
+        "Render QA 2026-10-28: 1 of 3 day views pass; withheld (true-scale model view shown): Entrance door · Day, Bathroom door · Day.",
         "Day views only: night and golden-hour views do not exist yet for this set."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/queen-oct28/#plan-C",
@@ -30655,7 +30655,7 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "queen-oct28/assets/QC-room-entry.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: refute-first majority failed: ceiling, layout_match"
         },
         {
           "label": "Bathroom door · Day",
@@ -30663,15 +30663,15 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "queen-oct28/assets/QC-room-bathroom.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
         },
         {
           "label": "Window corner · Day",
           "kind": "window-ac-day",
-          "method": "DETERMINISTIC_MODEL_VIEW",
-          "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "queen-oct28/assets/QC-room-windowac.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Window corner · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
+          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+          "image": "queen-oct28/assets/QC-render-windowac.png",
+          "caption": "AI style render at standing eye level (Window corner · Day), painted over the true-scale room-model view; dimensions from the model, finishes interpretive. Render QA 2026-10-28: PASS."
         }
       ],
       "products": [],
@@ -30711,7 +30711,7 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "queen-oct28/assets/QE-room-entry.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "caption": "Deterministic room-model view at true scale, not an AI render (Entrance door · Day, eye 1.55 m). Render withheld: no candidate drew the bed/TV within 5% of the plan width"
         },
         {
           "label": "Bathroom door · Day",
@@ -30719,7 +30719,7 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "queen-oct28/assets/QE-room-bathroom.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "caption": "Deterministic room-model view at true scale, not an AI render (Bathroom door · Day, eye 1.55 m). Render withheld: refute-first majority failed: bed_queen, bedsides_floating, parquet, layout_match"
         },
         {
           "label": "Window corner · Day",
@@ -30727,7 +30727,7 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "MODEL_VIEWS_PUBLISHED_AI_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "queen-oct28/assets/QE-room-windowac.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render (Window corner · Day, eye 1.55 m). Render withheld: photoreal render staged behind the Codex image quota (resets 2 Nov 2026 14:08 PHT); Eames finish confirmed by Ivan on 29 Oct: tan cognac leather, walnut veneer shells, black base"
+          "caption": "Deterministic room-model view at true scale, not an AI render (Window corner · Day, eye 1.55 m). Render withheld: refute-first majority failed: bed_queen"
         }
       ],
       "products": [],
