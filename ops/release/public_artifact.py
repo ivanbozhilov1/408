@@ -13,6 +13,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 BASELINE_BYTES = 602_005_547
+ENCODER_TIMEOUT = 1200  # seconds per encoder run, so a hung Chrome cannot hold the build
 SUFFIXES = {'.html', '.js', '.css', '.json', '.png', '.webp', '.jpg', '.jpeg', '.svg', '.gif', '.avif', '.ico', '.csv', '.pdf', '.txt', '.woff', '.woff2', '.zip', '.7z', '.dwg', '.dxf', '.xlsx', '.docx', '.mp4', '.webm'}
 TEXT = {'.html', '.js', '.css', '.json', '.svg', '.txt', '.csv'}
 PRIVATE = re.compile(r'(^|/)(?:ops|\.git|\.github|private[^/]*|node_modules|reviews?)(/|$)|(?:auth\.json|review[^/]*\.json|candidate-check|unit408-regeneration|accepted-manifest|raw[-_]?export|build[-_]?logs?|preferences[-_](?:export|snapshot)|\.env|\.sqlite|\.db$|\.log$)', re.I)
@@ -127,12 +128,26 @@ def reachable(root: Path) -> set[Path]:
         seen.add(root / '.nojekyll')
     return seen
 
+def run_encoder(script: Path, scratch: Path, chromium, cache_dir, label: str) -> dict:
+    cmd = ['node', str(script), str(scratch)]
+    if chromium:
+        cmd.extend(['--chromium', str(chromium)])
+    if cache_dir:
+        cmd.extend(['--cache-dir', str(cache_dir)])
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=ENCODER_TIMEOUT)
+    except subprocess.TimeoutExpired:
+        raise ValueError(f'{label} derivative encoder {script.name} timed out after {ENCODER_TIMEOUT} s') from None
+    if result.returncode:
+        raise ValueError(f'{label} derivative encoder failed: ' + result.stderr[-1800:])
+    return json.loads(result.stdout.strip().splitlines()[-1])
+
 def build(gallery: Path, out: Path, *, encode=True, chromium=None, cache_dir=None, encoder_script=None) -> dict:
     gallery = gallery.resolve(); out = out.resolve()
     if out.exists() or out.is_relative_to(gallery):
         raise ValueError('output must be a fresh directory outside the gallery')
     start = time.perf_counter(); inputs = reachable(gallery)
-    encoded = None
+    encoded = asset_encoding = None
     out.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='unit408-public-', dir=out.parent) as temporary:
         scratch = Path(temporary)
@@ -148,15 +163,9 @@ def build(gallery: Path, out: Path, *, encode=True, chromium=None, cache_dir=Non
                 for record in json.loads(old.read_text())['derivatives']:
                     source = resolve(gallery, gallery / 'collection-data.json', record['sourcePath'])
                     dest = scratch / source.relative_to(gallery); dest.parent.mkdir(parents=True, exist_ok=True); shutil.copyfile(source, dest)
-            cmd = ['node', str(encoder_script or gallery / 'ops/images/webp_views.mjs'), str(scratch)]
-            if chromium:
-                cmd.extend(['--chromium', str(chromium)])
-            if cache_dir:
-                cmd.extend(['--cache-dir', str(cache_dir)])
-            result = subprocess.run(cmd, capture_output=True, text=True)
-            if result.returncode:
-                raise ValueError('render derivative encoder failed: ' + result.stderr[-1800:])
-            encoded = json.loads(result.stdout.strip().splitlines()[-1])
+            # Render slots first, then every other page/JSON-referenced PNG/JPEG; originals then drop out of reach.
+            encoded = run_encoder(encoder_script or gallery / 'ops/images/webp_views.mjs', scratch, chromium, cache_dir, 'render')
+            asset_encoding = run_encoder(Path(__file__).resolve().parents[1] / 'images/webp_assets.mjs', scratch, chromium, cache_dir, 'asset')
         final = reachable(scratch)
         derivatives = scratch / 'render-derivatives.json'
         if derivatives.is_file():
@@ -167,7 +176,7 @@ def build(gallery: Path, out: Path, *, encode=True, chromium=None, cache_dir=Non
             rel = file.relative_to(scratch); dest = out / rel; dest.parent.mkdir(parents=True, exist_ok=True); shutil.copyfile(file, dest)
             entries.append({'path': rel.as_posix(), 'sha256': digest(dest), 'bytes': dest.stat().st_size})
     total = sum(e['bytes'] for e in entries)
-    manifest = {'schema': 1, 'policy': 'all-html-routes-and-reachable-runtime-v1; provenance paths excluded unless explicitly linked; originals retained in source repository', 'files': entries, 'bytes': total, 'baselineBytes': BASELINE_BYTES, 'reductionPercent': round((1-total/BASELINE_BYTES)*100, 3), 'buildSeconds': time.perf_counter()-start, 'encoding': encoded}
+    manifest = {'schema': 1, 'policy': 'all-html-routes-and-reachable-runtime-v1; provenance paths excluded unless explicitly linked; originals retained in source repository', 'files': entries, 'bytes': total, 'baselineBytes': BASELINE_BYTES, 'reductionPercent': round((1-total/BASELINE_BYTES)*100, 3), 'buildSeconds': time.perf_counter()-start, 'encoding': encoded, 'assetEncoding': asset_encoding}
     (out / 'public-manifest.json').write_text(json.dumps(manifest, indent=2)+'\n', encoding='utf-8')
     manifest['artifactBytes'] = total + (out / 'public-manifest.json').stat().st_size
     return manifest
@@ -177,7 +186,7 @@ def main():
     args = parser.parse_args()
     try:
         result = build(args.gallery, args.out, chromium=args.chromium, cache_dir=args.cache_dir)
-        print(json.dumps({k: result[k] for k in ('bytes', 'artifactBytes', 'baselineBytes', 'reductionPercent', 'buildSeconds', 'encoding')}))
+        print(json.dumps({k: result[k] for k in ('bytes', 'artifactBytes', 'baselineBytes', 'reductionPercent', 'buildSeconds', 'encoding', 'assetEncoding')}))
     except (ValueError, OSError, subprocess.CalledProcessError) as exc:
         parser.exit(1, f'public artifact HOLD: {exc}\n')
 if __name__ == '__main__':

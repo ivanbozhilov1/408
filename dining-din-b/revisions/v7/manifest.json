@@ -1,0 +1,127 @@
+{
+  "schema": "unit408-room-gallery/1",
+  "room_id": "dining",
+  "room_title": "Dining room",
+  "revision": "v7",
+  "publication_status": "prepared_local_not_published",
+  "review_status": "accepted_for_provisional_styling",
+  "image_count": 3,
+  "design_count": 1,
+  "angles_per_design": 3,
+  "geometry_caveat": "Illustrative layout; confirm dimensions on site.",
+  "geometry_basis": {
+    "dimension_contract_sha256": "d329a00810bbb0753415369e272046f19382a6b4c00b09b9529a713ed8df5eef",
+    "corrected_room_sha256": "1be14a72903cf537d0a90a84962f55967a18e798fa7ab0e8f0121fb866f49a56",
+    "status": "Corrected plan-derived outline; room dimensions and clearances remain unsurveyed."
+  },
+  "common_ac_proposal": {
+    "proposal_id": "DIN-COMMON-AC-V1",
+    "proposal_sha256": "431f854001cac72e922e35311d290c573ad51f4e616d5b66643a94a0aa80734b",
+    "summary": "One proposed split-air-conditioner position is shared across the three schemes. It is outside the arch-view frame. Mounting, service space and installation feasibility require on-site confirmation.",
+    "status": "Illustrative proposal; not surveyed installation dimensions."
+  },
+  "review_limits": [
+    "Approximate proportional illustrations; not exact photo composites.",
+    "Room dimensions, chair movement, curtain operation and route clearances remain unverified on site.",
+    "The proposed air conditioner requires mounting and service-clearance confirmation.",
+    "The existing dining fan and light kit are retained. Source-based local restoration preserves the accepted layout; dimensions and clearances remain unsurveyed."
+  ],
+  "product_status": "Furniture and materials are illustrative; no stock, price or purchase claim.",
+  "designs": [
+    {
+      "design_id": "DIN-B",
+      "title": "Oak Circle",
+      "summary": "Round pale oak and cognac with an ivory patterned carpet.",
+      "seats": 4,
+      "palette": [
+        "pale oak",
+        "cognac",
+        "ivory",
+        "muted blue"
+      ],
+      "layout": "Table and carpet toward the main curtains; open counter-side route and shallow corner storage proposed.",
+      "layout_sha256": "051ae7b266365dc6385e1958aa39ceda07f1d82bca8ebda6f1283336e7d3a792",
+      "table_target_mm": [
+        1200,
+        1200
+      ],
+      "carpet_target_mm": [
+        2700,
+        2700
+      ],
+      "corner_storage_footprint_mm": [
+        550,
+        260
+      ],
+      "dimension_status": "Illustrative layout; confirm dimensions on site.",
+      "images": [
+        {
+          "id": "DIN-B-window",
+          "angle": "window",
+          "angle_label": "Toward the main window",
+          "image_path": "images/DIN-B-window.png",
+          "width": 1086,
+          "height": 1448,
+          "sha256": "3c34c5004218bfdd8f66a9fd8be2dfbf3a3c33da0727832105d24d42460b0c33",
+          "alt": "Oak Circle, toward the main window, with 4 seats and a carpet. Existing dining fan and light kit retained.",
+          "caption": "Oak Circle: toward the main window. Existing dining fan and light kit retained. Illustrative layout; confirm dimensions on site.",
+          "source_evidence": {
+            "photo_reference": "F027",
+            "source_sha256": "c1f7d268bd0c2c6a126bf1e6aecdf79e1127437eb498bc8b91aa4ea0f665b59b",
+            "kind": "Real-room photograph",
+            "derived_image": "Approximate design illustration",
+            "geometry_status": "Room and clearances unsurveyed; regenerated background may differ.",
+            "local_edit": "Existing dining fan and light kit restored locally; current furniture, layout and surrounding repairs preserved."
+          }
+        },
+        {
+          "id": "DIN-B-arch",
+          "angle": "arch",
+          "angle_label": "Toward the arch and counter",
+          "image_path": "images/DIN-B-arch.png",
+          "width": 1086,
+          "height": 1448,
+          "sha256": "69ff6d6095655391d190996adb9d588c5aecb80b48a2b8f989f2eda983660e23",
+          "alt": "Oak Circle, toward the arch and counter, with 4 seats and a carpet. Existing dining fan and light kit retained.",
+          "caption": "Oak Circle: toward the arch and counter. Existing dining fan and light kit retained. Illustrative layout; confirm dimensions on site.",
+          "source_evidence": {
+            "photo_reference": "F025",
+            "source_sha256": "62798dc3902cfcf9af66286ebaaaf1c1ab45dd877fae71ea0e72b382f26f1c02",
+            "kind": "Real-room photograph",
+            "derived_image": "Approximate design illustration",
+            "geometry_status": "Room and clearances unsurveyed; regenerated background may differ.",
+            "local_edit": "Existing dining fan and light kit restored locally; current furniture, layout and surrounding repairs preserved."
+          }
+        },
+        {
+          "id": "DIN-B-passage",
+          "angle": "passage",
+          "angle_label": "Toward the kitchen counter",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Oak Circle, kitchen-counter angle with corner storage and an open crossing. Existing dining fan and light kit retained.",
+          "caption": "Oak Circle: toward the kitchen counter. Existing dining fan and light kit retained. Illustrative layout; confirm dimensions on site.",
+          "source_evidence": {
+            "photo_reference": "F023",
+            "source_sha256": "83c8377dda85aaa114e04f8243614ac9b4e861074311c89e66e7efa2f9de399c",
+            "kind": "Real-room photograph",
+            "derived_image": "Approximate design illustration",
+            "geometry_status": "Room and clearances unsurveyed; regenerated background may differ.",
+            "local_edit": "Existing dining fan and light kit restored locally; current furniture, layout and surrounding repairs preserved."
+          },
+          "image_path": "images/DIN-B-passage.png",
+          "sha256": "850edb34c672183bb52c427354687e6a221ee76200a8a6941a41dec1ee825fa9"
+        }
+      ],
+      "board": {
+        "path": "boards/DIN-B-board.svg",
+        "label": "Materials and proposed layout",
+        "sha256": "207a64ede786d4e12ef534c657f01d752898e209b9c2aaead74dd7223f7a7187",
+        "status": "Illustrative layout; confirm dimensions on site."
+      }
+    }
+  ],
+  "packet_revision": "v7-keep-fan",
+  "local_edit_status": "Existing dining fan and light kit restored locally; affected regions independently reviewed and pixels outside declared masks verified unchanged.",
+  "fan_treatment": "Retain the existing dining ceiling fan and light kit in every visible viewpoint."
+}
