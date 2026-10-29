@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-lop-model-views / 2026-10-29T15:42:43+08:00",
+  "build": "408-dining-set-opus-def / 2026-10-29T16:49:00+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -28882,60 +28882,59 @@
       "archival": false,
       "isNew": true,
       "room": "dining",
-      "summary": "Midnight Velvet. Squint and the room is deep navy velvet and smoked dark oak on cream, quiet and evening-rich. The BoConcept axo table, 1600 x 850, has a smoked dark-brown oak top, plain and rectangular, on two pairs of flat slab legs set in from the ends, as in the product photo; it stands in the corner between the four-light south window and the plain east wall, its long side parallel to the window and its east end a hand's width (10 cm) from the east wall under the split unit, so the counter side of the room stays open as a clear walkway from the kitchen and the bedroom passage to the arch. The tabletop is bare: no vase, bowl, runner, fruit or plant on it. Five Our Home Hilaire chairs, rounded tub seats in deep navy-blue velvet with a back of wide woven velvet straps, on slim black tapered legs, as in the product photo: two on the window side, two on the room side and one at the west end; the east end against the wall has no chair. Under them a Crate & Barrel Fez hand-tufted rug, 8 x 10 ft, a cream ground drawn with fine thin sand-brown lines in a large open diamond lattice with a few small dots, laid long side to the window and pushed up to the east wall, with every chair leg on it and its far edge short of the curtains. In the opposite corner, against the north wall right beside the arch and at the far end from the kitchen pass-through, a Furniture Manila StackLine open shelf, 64 wide, 34 deep and 94 high: a black square-post frame with ladder-rung sides and three grey-brown oak-look shelves, open with no doors and nothing on it, as in the product photo. On the plain west wall at the table's west end hangs one Ashley framed abstract, 71 x 99 portrait, a soft beige ground with a navy-blue curved shape, a pale blue block and a small olive circle, in a thin black frame. In the south-west corner by the window a Flourish faux split-leaf philodendron, large glossy dark-green split leaves in a black pot. Walls stay the existing cream, floor the honey-amber parquet, a plain flat white ceiling with no ceiling fan, pendant or hanging light of any kind, Davies Beige blackout and voile on the four-light south window, the room's only window, and a white split unit sits high on the east wall over the table.",
+      "summary": "Midnight Velvet. Squint and the room is deep navy velvet and dark walnut on cream, quiet and evening-rich. The Our Home Sheika table, 180 x 90, has a dark walnut-brown wood top, plain and rectangular, on two open rectangular frame legs set in from the ends and joined low by a stretcher, as in the product photo; it stands in the corner between the four-light south window and the plain east wall, its long side parallel to the window and its east end a hand's width (10 cm) from the east wall under the split unit, so the counter side of the room stays open as a clear walkway from the kitchen and the bedroom passage to the arch. The tabletop is bare: no vase, bowl, runner, fruit or plant on it. Five Our Home Hilaire chairs, rounded tub seats in deep navy-blue velvet with a back of wide woven velvet straps, on slim black tapered legs, as in the product photo: two on the window side, two on the room side and one at the west end; the east end against the wall has no chair. Under them a Crate & Barrel Fez hand-tufted rug, 8 x 10 ft, a cream ground drawn with fine thin sand-brown lines in a large open diamond lattice with a few small dots, laid long side to the window and pushed up to the east wall, with every chair leg on it and its far edge short of the curtains. In the opposite corner, against the north wall right beside the arch and at the far end from the kitchen pass-through, a Furniture Manila StackLine open shelf, 64 wide, 34 deep and 94 high: a black square-post frame with ladder-rung sides and three grey-brown oak-look shelves, open with no doors and nothing on it, as in the product photo. On the plain west wall at the table's west end hangs one Ashley framed abstract, 71 x 99 portrait, a soft beige ground with a navy-blue curved shape, a pale blue block and a small olive circle, in a thin black frame. In the south-west corner by the window a Flourish faux split-leaf philodendron, large glossy dark-green split leaves in a black pot. Walls stay the existing cream, floor the honey-amber parquet, a plain flat white ceiling with the existing dark five-blade ceiling fan and its small white three-lamp light kit hanging over the west end of the table, and no pendant or other hanging light, Davies Beige blackout and voile on the four-light south window, the room's only window, and a white split unit sits high on the east wall over the table.",
       "reviewNotes": [
         "Author namespace is Opus/Claude (Opus 5.5); raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
-        "Day views: four AI style renders that passed QA, each painted over the deterministic room-model view of its camera. Night views follow separately.",
-        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
-        "Table 1600 x 850 in the window and east-wall corner (Ivan, 23 Oct): east end 100 off the east wall under the split unit, south edge 3455; five seats as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 58 short of the 180 curtain strip.",
-        "Shelf 640 x 340, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 155 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.49 m stays clear between the shelf and the pulled-back lane-side chairs.",
-        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
-        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out.",
-        "Known limit, measured (projected table-top corners against the model view), not a QA criterion: Codex draws the table longer than it is; from the arch corner about 17% longer; from the passage its far end about 7% of the frame width past the model's; from the arch about 18% longer. Read sizes from the plan and the model views."
+        "Day views: all four show their true-scale model views, rebuilt on 29 Oct with the 1450 x 2240 round-head arch and the existing ceiling fan (the model draws no light kit); each caption says why the AI render is pending. The 23-24 Oct renders were drawn without the ceiling fan, under the earlier no-fan rule. Night views follow separately.",
+        "Conditional fit: the ceiling 2700 is quoted (Ivan, 24 Oct: \"the living and dining ceilings are 2.7 m\"), not taped; the other values are assumed with a stated basis, none site-measured: window sills 900 and heads 2350, the round-head arch about 1450 wide with its crown at 2240 and 320 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Table 1800 x 900 (Ivan, 29 Oct) in the window and east-wall corner (Ivan, 23 Oct): east end 100 off the east wall under the split unit, south edge 3480, 808 short of the curtain line; five seats as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 33 short of the 180 curtain strip.",
+        "Shelf 640 x 340, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 155 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.46 m stays clear between the shelf and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair tucked and occupied, though the side chairs pulled right back reach 6 past its long edges; it stops 39 short of the curtain strip and 411 short of the route band, and runs about 400 past the pulled-back west-end chair toward the plain west wall.",
+        "No pendant: the existing ceiling fan and its light kit stay (the owner's dining rule as revised on 24 Oct), centred at about (1991, 2600) over the table's north-west corner; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/dop/",
-      "hero": "dop/assets/DIND-render-din_main.png",
+      "hero": "dop/assets/DIND-room-din_main.png",
       "plan": "dop/assets/PLAN-DIND-DIN.png",
       "views": [
         {
           "label": "From the arch corner · Day",
           "kind": "arch-corner-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "dop/assets/DIND-render-din_main.png",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the north-west corner beside the arch, looking south-east over the table in the window corner to the four-light window and the east wall with the proposed split unit, the bedroom passage at the left edge, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 17% longer than the true-scale model."
+          "image": "dop/assets/DIND-room-din_main.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the north-west corner beside the arch, looking south-east over the table in the window corner to the four-light window and the east wall with the proposed split unit, the bedroom passage at the left edge. The AI render of this view is pending: its 24 Oct render drew the table about 17% longer than the true-scale model, and it was withdrawn on 29 Oct; new renders are on hold until the plans and sizes are settled."
         },
         {
           "label": "From the window corner · Day",
           "kind": "window-corner-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "dop/assets/DIND-render-din_opposite.png",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the south-east window corner, past the east end of the table, looking north-west to the art on the west wall, the open arch, the storage piece in the corner beside it and the kitchen pass-through at the right, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive."
+          "image": "dop/assets/DIND-room-din_opposite.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the south-east window corner, past the east end of the table, looking north-west to the art on the west wall, the open arch, the storage piece in the corner beside it and the kitchen pass-through at the right. The AI render of this view is pending: its 24 Oct render drew the arch as a plain square-headed opening, not the round-head arch now modelled at 1450 x 2240, and it was withdrawn on 29 Oct; new renders are on hold until the plans and sizes are settled."
         },
         {
           "label": "From the passage · Day",
           "kind": "passage-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "dop/assets/DIND-render-din_side.png",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the mouth of the bedroom passage on the east wall, looking south-west across the table to the window, the plant in the window corner, the art on the west wall and the arch at the right edge, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn longer than the true-scale model, its far end about 7% of the frame width past the model's."
+          "image": "dop/assets/DIND-room-din_side.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the mouth of the bedroom passage on the east wall, looking south-west across the table to the window, the plant in the window corner, the art on the west wall and the arch at the right edge. The AI render of this view is pending: its 24 Oct render drew the table longer than the true-scale model, its far end about 7% of the frame width past the model's, over the earlier model view with the flat-headed arch at the right edge, and it was withdrawn on 29 Oct; new renders are on hold until the plans and sizes are settled."
         },
         {
           "label": "From the arch · Day",
           "kind": "arch-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "dop/assets/DIND-render-din_arch.png",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from just inside the arch at its south end, looking east-south-east along the table to the east wall with the proposed split unit, the window at the right and the bedroom passage at the left, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 18% longer than the true-scale model."
+          "image": "dop/assets/DIND-room-din_arch.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from just inside the arch at its south end, looking east-south-east along the table to the east wall with the proposed split unit, the window at the right and the bedroom passage at the left. The AI render of this view is pending: its 24 Oct render drew the table about 18% longer than the true-scale model, and it was withdrawn on 29 Oct; new renders are on hold until the plans and sizes are settled."
         }
       ],
       "budget": {
-        "retailCents": 26668210,
+        "retailCents": 16724710,
         "reserveLowCents": 1500000,
         "reserveHighCents": 3700000,
-        "totalLowCents": 31000000,
-        "totalHighCents": 33500000,
+        "totalLowCents": 20100000,
+        "totalHighCents": 22500000,
         "note": "Dated planning range (frozen catalogue prices); current stock, fit, delivery, installation and quote completeness are not certified. Options are alternatives, so common rows must not be summed across designs.",
         "reserveCents": null,
         "totalCents": null
@@ -28949,22 +28948,22 @@
             "dop:DIND-TABLE"
           ],
           "category": "dining_table",
-          "name": "BoConcept axo series dining table",
+          "name": "Our Home Sheika Dining Table",
           "qty": 1,
-          "unitCents": 12189000,
-          "totalCents": 12189000,
-          "status": "Catalog listed | Cebu delivery: unconfirmed | price date 2026-09-10 | BoConcept",
-          "source": "https://www.boconcept.com/en-ph/p/axo-series/3707230-2:401-9:0702-13:0702/",
-          "priceDate": "2026-09-10",
-          "variant": "axo series dining table; manufacturer variant/SKU 370072300702; master 37007230; selected configuration codes: vaConfigurationSize=401; vaMaterialLeg=0702; vaMaterialTabletop=0702",
-          "notes": "Smoked dark oak top on slab legs, 1600 x 850 x 745 (the proposal footprint); long side parallel to the window",
+          "unitCents": 2245500,
+          "totalCents": 2245500,
+          "status": "Online listing available | Cebu delivery: unconfirmed | price date 2026-09-08 | Our Home",
+          "source": "https://ourhome.ph/products/our-home-sheika-dining-table?variant=45293841973489",
+          "priceDate": "2026-09-08",
+          "variant": "Walnut / 6 Seater",
+          "notes": "Dark walnut-finish solid rubberwood top on two open frame legs joined by a low stretcher, 1800 x 900 x 740 (published on the listing); long side parallel to the window",
           "commonToSchemes": [
             "D"
           ],
           "imageStatus": "Existing source-photo file",
           "scope": "design_piece",
-          "priceBasis": "Per exact selected configuration; selected public product price.value, not the lower family starting-price field. Displayed selected RRP; no separate positive beforePrice published.",
-          "image": "dop/assets/products/DIND-TABLE.jpg"
+          "priceBasis": "Official online listed price for the exact variant; per item. Cebu branch price and delivered total unconfirmed.",
+          "image": "dop/assets/products/DIND-TABLE.webp"
         },
         {
           "id": "opus-din-def-20261023::DIND-CHAIR",
@@ -29105,36 +29104,35 @@
       "archival": false,
       "isNew": true,
       "room": "dining",
-      "summary": "Heritage Persian. Squint and the room is a black stone oval, dark turned wood with cane, and a soft grey Persian rug on cream walls, warmed by an ochre print. The Mejore Benson oval table, 140 x 90, has a polished black marble-look stone top with faint white veining on a black reeded, vertically fluted X-shaped pedestal base, as in the product photo; it stands in the corner between the four-light south window and the plain east wall, its long axis parallel to the window and its east end 20 cm from the east wall under the split unit, so the counter side of the room stays open as a clear walkway from the kitchen and the bedroom passage to the arch. The tabletop is bare: no vase, bowl, runner, fruit or plant on it. Five Mejore Philip side chairs, dark reddish-brown wood frames with turned front legs and stretchers, a natural cane-webbing back panel and a pale grey upholstered seat, as in the product photo: two on the window side, two on the room side and one at the west end; the east end against the wall has no chair. Under them a Crate & Barrel Avalon hand-knotted wool rug, 8 x 10 ft, a traditional Persian all-over floral pattern in soft grey and taupe on cream with a wide patterned border, as in the product photo, laid long side to the window and pushed up to the east wall, with every chair leg on it and its far edge short of the curtains. In the opposite corner, against the north wall right beside the arch and at the far end from the kitchen pass-through, a Furniture Manila TierCraft ladder shelf, 67 wide, 33 deep and 160 high, leaning against the wall: five dark walnut-look tray shelves with low raised rims on two dark brown-black A-frame rails, open with no doors and nothing on it, as in the product photo. On the plain west wall at the table's west end hangs one Ashley framed print, 120 x 80, soft ochre, sand and caramel dune shapes on cream in a thin frame. In the south-west corner by the window an Ashley faux leafy tree, 183 high, small green leaves on slim stems in a black pot. Walls stay the existing cream, floor the honey-amber parquet, a plain flat white ceiling with no ceiling fan, pendant or hanging light of any kind, Davies Beige blackout and voile on the four-light south window, the room's only window, and a white split unit sits high on the east wall over the table.",
+      "summary": "Heritage Persian. Squint and the room is a black stone oval, dark turned wood with cane, and a soft grey Persian rug on cream walls, warmed by an ochre print. The Mejore Benson oval table, 180 x 90, has a polished black marble-look stone top with faint white veining on a black reeded, vertically fluted X-shaped pedestal base, as in the product photo; it stands in the corner between the four-light south window and the plain east wall, its long axis parallel to the window and its east end a hand's width (10 cm) from the east wall under the split unit, so the counter side of the room stays open as a clear walkway from the kitchen and the bedroom passage to the arch. The tabletop is bare: no vase, bowl, runner, fruit or plant on it. Five Mejore Philip side chairs, dark reddish-brown wood frames with turned front legs and stretchers, a natural cane-webbing back panel and a pale grey upholstered seat, as in the product photo: two on the window side, two on the room side and one at the west end; the east end against the wall has no chair. Under them a Crate & Barrel Avalon hand-knotted wool rug, 8 x 10 ft, a traditional Persian all-over floral pattern in soft grey and taupe on cream with a wide patterned border, as in the product photo, laid long side to the window and pushed up to the east wall, with every chair leg on it and its far edge short of the curtains. In the opposite corner, against the north wall right beside the arch and at the far end from the kitchen pass-through, a Furniture Manila TierCraft ladder shelf, 67 wide, 33 deep and 160 high, leaning against the wall: five dark walnut-look tray shelves with low raised rims on two dark brown-black A-frame rails, open with no doors and nothing on it, as in the product photo. On the plain west wall at the table's west end hangs one Ashley framed print, 120 x 80, soft ochre, sand and caramel dune shapes on cream in a thin frame. In the south-west corner by the window an Ashley faux leafy tree, 183 high, small green leaves on slim stems in a black pot. Walls stay the existing cream, floor the honey-amber parquet, a plain flat white ceiling with the existing dark five-blade ceiling fan and its small white three-lamp light kit hanging over the west end of the table, and no pendant or other hanging light, Davies Beige blackout and voile on the four-light south window, the room's only window, and a white split unit sits high on the east wall over the table.",
       "reviewNotes": [
         "Author namespace is Opus/Claude (Opus 5.5); raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
-        "Day views: three AI style renders that passed QA, each painted over the deterministic room-model view of its camera; 'From the passage' shows its true-scale model view instead, its AI render pending re-render after 30 Oct 2026 (two takes of it failed QA). Night views follow separately.",
-        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
-        "Oval 1400 x 900 in the window and east-wall corner (Ivan, 23 Oct): east end 200 off the east wall under the split unit; the pedestal base leaves the knees free; five seats as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 108 short of the 180 curtain strip.",
+        "Day views: all four show their true-scale model views, rebuilt on 29 Oct with the 1450 x 2240 round-head arch and the existing ceiling fan (the model draws no light kit); each caption says why the AI render is pending. The 23-24 Oct renders were drawn without the ceiling fan, under the earlier no-fan rule. Night views follow separately.",
+        "Conditional fit: the ceiling 2700 is quoted (Ivan, 24 Oct: \"the living and dining ceilings are 2.7 m\"), not taped; the other values are assumed with a stated basis, none site-measured: window sills 900 and heads 2350, the round-head arch about 1450 wide with its crown at 2240 and 320 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Oval 1800 x 900 (Ivan, 29 Oct; no 1800 x 900 Benson is listed yet) in the window and east-wall corner (Ivan, 23 Oct): east end 100 off the east wall under the split unit; the pedestal base leaves the knees free; five seats as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 108 short of the 180 curtain strip.",
         "Ladder shelf 670 x 330, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its foot stops 160 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.54 m stays clear between the shelf and the pulled-back lane-side chairs.",
-        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
-        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out.",
-        "Known limit, measured (projected table-top corners against the model view), not a QA criterion: Codex draws the table longer than it is; from the arch corner about 24% longer; from the arch about 10% longer. Read sizes from the plan and the model views."
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 470 past the pulled-back west-end chair toward the plain west wall.",
+        "No pendant: the existing ceiling fan and its light kit stay (the owner's dining rule as revised on 24 Oct), centred at about (1991, 2600) over the table's north-west corner; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/dop/",
-      "hero": "dop/assets/DINE-render-din_main.png",
+      "hero": "dop/assets/DINE-room-din_main.png",
       "plan": "dop/assets/PLAN-DINE-DIN.png",
       "views": [
         {
           "label": "From the arch corner · Day",
           "kind": "arch-corner-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "dop/assets/DINE-render-din_main.png",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the north-west corner beside the arch, looking south-east over the table in the window corner to the four-light window and the east wall with the proposed split unit, the bedroom passage at the left edge, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 24% longer than the true-scale model."
+          "image": "dop/assets/DINE-room-din_main.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the north-west corner beside the arch, looking south-east over the table in the window corner to the four-light window and the east wall with the proposed split unit, the bedroom passage at the left edge. The AI render of this view is pending: its 24 Oct render drew the table about 24% longer than the true-scale model, and it was withdrawn on 29 Oct; new renders are on hold until the plans and sizes are settled."
         },
         {
           "label": "From the window corner · Day",
           "kind": "window-corner-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "dop/assets/DINE-render-din_opposite.png",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the south-east window corner, past the east end of the table, looking north-west to the art on the west wall, the open arch, the storage piece in the corner beside it and the kitchen pass-through at the right, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive."
+          "image": "dop/assets/DINE-room-din_opposite.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the south-east window corner, past the east end of the table, looking north-west to the art on the west wall, the open arch, the storage piece in the corner beside it and the kitchen pass-through at the right. The AI render of this view is pending: its 24 Oct render drew the arch as a plain square-headed opening, not the round-head arch now modelled at 1450 x 2240, and it was withdrawn on 29 Oct; new renders are on hold until the plans and sizes are settled."
         },
         {
           "label": "From the passage · Day",
@@ -29142,15 +29140,15 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "dop/assets/DINE-room-din_side.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the mouth of the bedroom passage on the east wall, looking south-west across the table to the window, the plant in the window corner, the art on the west wall and the arch at the right edge. The AI render of this view is pending: two AI renders failed QA (the first drew the tree in the window corner as an olive tree with long narrow leaves where the Ashley tree has small round leaves, the second added a sixth chair); the next waits for the Codex image quota after 30 Oct 2026."
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the mouth of the bedroom passage on the east wall, looking south-west across the table to the window, the plant in the window corner, the art on the west wall and the arch at the right edge. The AI render of this view is pending: two AI renders failed QA (the first drew the tree in the window corner as an olive tree with long narrow leaves where the Ashley tree has small round leaves, the second added a sixth chair); new renders are on hold until the plans and sizes are settled."
         },
         {
           "label": "From the arch · Day",
           "kind": "arch-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "dop/assets/DINE-render-din_arch.png",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from just inside the arch at its south end, looking east-south-east along the table to the east wall with the proposed split unit, the window at the right and the bedroom passage at the left, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 10% longer than the true-scale model."
+          "image": "dop/assets/DINE-room-din_arch.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from just inside the arch at its south end, looking east-south-east along the table to the east wall with the proposed split unit, the window at the right and the bedroom passage at the left. The AI render of this view is pending: its 24 Oct render drew the table about 10% longer than the true-scale model, and it was withdrawn on 29 Oct; new renders are on hold until the plans and sizes are settled."
         }
       ],
       "budget": {
@@ -29180,7 +29178,7 @@
           "source": "https://mejore.ph/products/benson-dining-table?variant=51752749138194",
           "priceDate": "2026-09-09",
           "variant": "Benson Oval Dining Table with Reeded X-Base and Stone Top; 6-Seater; official listing SKU MCI-BEN-DNTB-001",
-          "notes": "Black stone oval top on a reeded black X-base, 6-seater 140 x 90 x 76 (published on the listing); long axis parallel to the window",
+          "notes": "Black stone oval top on a reeded black X-base, drawn 1800 x 900 x 760: size from Ivan's 1800 x 900, no listing yet (Mejore lists the Benson at 140 x 90 for six and 180 x 75 for eight; the price is the 6-seater's); long axis parallel to the window",
           "commonToSchemes": [
             "E"
           ],
@@ -29328,28 +29326,27 @@
       "archival": false,
       "isNew": true,
       "room": "dining",
-      "summary": "Pale Oak and Rush. Squint and the room is pale honey oak, woven rush and cream with a soft sage note, light and airy. The IKEA TONSTAD table, 150 x 80, is light natural oak veneer, a plain rectangular top with a slim apron on four slim straight round legs, as in the product photo; it stands in the corner between the four-light south window and the plain east wall, its long side parallel to the window and its east end 15 cm from the east wall under the split unit, so the counter side of the room stays open as a clear walkway from the kitchen and the bedroom passage to the arch. The tabletop is bare: no vase, bowl, runner, fruit or plant on it. Five Crate & Barrel Forge armchairs, solid light oak frames with round tapered legs and open arms, a curved backrest and a seat of woven natural rush cord, as in the product photo: two on the window side, two on the room side and one at the west end; the east end against the wall has no chair. Under them a Crate & Barrel Bozeman wool rug, 8 x 10 ft, textured cream with irregular light tan and taupe streaks, laid long side to the window and pushed up to the east wall, with every chair leg on it and its far edge short of the curtains. In the opposite corner, against the north wall right beside the arch and at the far end from the kitchen pass-through, a Mandaue Foam Larson bamboo console, 90 wide, 35 deep and 76 high: a plain natural bamboo top on four round splayed legs with a slatted lower shelf, open with no doors and nothing on it, as in the product photo. On the plain west wall at the table's west end hangs one Ashley framed print, 120 x 80, a soft green landscape with a few trees on pale sage grass under a pale sky, in a thin frame. In the south-west corner by the window a Crate & Barrel faux manzanita leaf spray, about 130 high, small green leaves on branching stems in a tall cream ceramic vase. Walls stay the existing cream, floor the honey-amber parquet, a plain flat white ceiling with no ceiling fan, pendant or hanging light of any kind, Davies Beige blackout and voile on the four-light south window, the room's only window, and a white split unit sits high on the east wall over the table.",
+      "summary": "Pale Oak and Rush. Squint and the room is pale honey oak, woven rush and cream with a soft sage note, light and airy. The IKEA TONSTAD table, 180 x 90, is light natural oak veneer, a plain rectangular top with a slim apron on four slim straight round legs, as in the product photo; it stands in the corner between the four-light south window and the plain east wall, its long side parallel to the window and its east end a hand's width (10 cm) from the east wall under the split unit, so the counter side of the room stays open as a clear walkway from the kitchen and the bedroom passage to the arch. The tabletop is bare: no vase, bowl, runner, fruit or plant on it. Five Crate & Barrel Forge armchairs, solid light oak frames with round tapered legs and open arms, a curved backrest and a seat of woven natural rush cord, as in the product photo: two on the window side, two on the room side and one at the west end; the east end against the wall has no chair. Under them a Crate & Barrel Bozeman wool rug, 8 x 10 ft, textured cream with irregular light tan and taupe streaks, laid long side to the window and pushed up to the east wall, with every chair leg on it and its far edge short of the curtains. In the opposite corner, against the north wall right beside the arch and at the far end from the kitchen pass-through, a Mandaue Foam Larson bamboo console, 90 wide, 35 deep and 76 high: a plain natural bamboo top on four round splayed legs with a slatted lower shelf, open with no doors and nothing on it, as in the product photo. On the plain west wall at the table's west end hangs one Ashley framed print, 120 x 80, a soft green landscape with a few trees on pale sage grass under a pale sky, in a thin frame. In the south-west corner by the window a Crate & Barrel faux manzanita leaf spray, about 130 high, small green leaves on branching stems in a tall cream ceramic vase. Walls stay the existing cream, floor the honey-amber parquet, a plain flat white ceiling with the existing dark five-blade ceiling fan and its small white three-lamp light kit hanging over the west end of the table, and no pendant or other hanging light, Davies Beige blackout and voile on the four-light south window, the room's only window, and a white split unit sits high on the east wall over the table.",
       "reviewNotes": [
         "Author namespace is Opus/Claude (Opus 5.5); raster tool is Codex image generation. Do not conflate tool with design author. No later human approval inferred.",
-        "Day views: two AI style renders that passed QA, each painted over the deterministic room-model view of its camera; 'From the window corner' and 'From the passage' show their true-scale model views instead, their AI renders pending re-render after 30 Oct 2026 (two takes of each failed QA). Night views follow separately.",
-        "Conditional fit: the layout rests on assumed values with a stated basis, none site-measured: ceiling 2700, window sills 900 and heads 2350, the arch about 1400 wide with its head at 2200 and 370 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
-        "Table 1500 x 800 in the window and east-wall corner (Ivan, 23 Oct): east end 150 off the east wall under the split unit; five armchairs 533 wide as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 100 short of the 180 curtain strip.",
-        "Console 900 x 350, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 150 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.52 m stays clear between the console and the pulled-back lane-side chairs.",
-        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 650 past the west-end chair toward the plain west wall.",
-        "No ceiling fan (the owner's dining rule: no fan in any finished design) and no pendant; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out.",
-        "Known limit, measured (projected table-top corners against the model view), not a QA criterion: Codex draws the table longer than it is; from the arch corner about 22% longer; from the arch about 15% longer. Read sizes from the plan and the model views."
+        "Day views: all four show their true-scale model views, rebuilt on 29 Oct with the 1450 x 2240 round-head arch and the existing ceiling fan (the model draws no light kit); each caption says why the AI render is pending. The 23-24 Oct renders were drawn without the ceiling fan, under the earlier no-fan rule. Night views follow separately.",
+        "Conditional fit: the ceiling 2700 is quoted (Ivan, 24 Oct: \"the living and dining ceilings are 2.7 m\"), not taped; the other values are assumed with a stated basis, none site-measured: window sills 900 and heads 2350, the round-head arch about 1450 wide with its crown at 2240 and 320 from the north corner, the pass-through counter 1050 high with a 250 projection and its head at 1550, the passage to the master bedroom 1566, the middle pier face 215 off the arch wall. Drawn: the stepped outline of the dimension contract (3831 across the arch end, 3680 across the window end, 4468 deep), the pass-through 1071, the south window 3558 in four lights; the west wall has no window (Ivan, 23 Oct). See ASSUMED.md.",
+        "Table 1800 x 900 (Ivan, 29 Oct; no 1800 x 900 TONSTAD is listed yet) in the window and east-wall corner (Ivan, 23 Oct): east end 100 off the east wall under the split unit; five armchairs 533 wide as 2 on the window side + 2 on the lane side + 1 at the west end, the wall end unseated. Pulled back 200, the window-side chairs stop 75 short of the 180 curtain strip.",
+        "Console 900 x 350, open with no doors, in the north-west corner between the arch and the pass-through (Ivan, 23 Oct: shelves or furniture in the opposite corner); its front stops 150 short of the 900 route band from the counter to the arch (y 500-1400), which no chair enters even pulled back: about 1.50 m stays clear between the console and the pulled-back lane-side chairs.",
+        "Rug 8'x10' (2438 x 3048) laid long side to the window and pushed to the east wall (25 off): it holds every chair pulled back, stops 39 short of the curtain strip and 411 short of the route band, and runs about 440 past the pulled-back west-end chair toward the plain west wall.",
+        "No pendant: the existing ceiling fan and its light kit stay (the owner's dining rule as revised on 24 Oct), centred at about (1991, 2600) over the table's north-west corner; the existing recessed downlights stay (not modelled). Split unit high on the east wall over the table; Davies Beige blackout + voile with valance boards on the south window. The old window unit stays hidden behind the curtains (Ivan 23 Oct), so the views leave it out."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/dop/",
-      "hero": "dop/assets/DINF-render-din_main.png",
+      "hero": "dop/assets/DINF-room-din_main.png",
       "plan": "dop/assets/PLAN-DINF-DIN.png",
       "views": [
         {
           "label": "From the arch corner · Day",
           "kind": "arch-corner-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "dop/assets/DINF-render-din_main.png",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from the north-west corner beside the arch, looking south-east over the table in the window corner to the four-light window and the east wall with the proposed split unit, the bedroom passage at the left edge, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 22% longer than the true-scale model."
+          "image": "dop/assets/DINF-room-din_main.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the north-west corner beside the arch, looking south-east over the table in the window corner to the four-light window and the east wall with the proposed split unit, the bedroom passage at the left edge. The AI render of this view is pending: its 24 Oct render drew the table about 22% longer than the true-scale model, and it was withdrawn on 29 Oct; new renders are on hold until the plans and sizes are settled."
         },
         {
           "label": "From the window corner · Day",
@@ -29357,7 +29354,7 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "dop/assets/DINF-room-din_opposite.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the south-east window corner, past the east end of the table, looking north-west to the art on the west wall, the open arch, the storage piece in the corner beside it and the kitchen pass-through at the right. The AI render of this view is pending: two AI renders failed QA (both drew the TONSTAD table on square legs; the product has round legs); the next waits for the Codex image quota after 30 Oct 2026."
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the south-east window corner, past the east end of the table, looking north-west to the art on the west wall, the open arch, the storage piece in the corner beside it and the kitchen pass-through at the right. The AI render of this view is pending: two AI renders failed QA (both drew the TONSTAD table on square legs; the product has round legs); new renders are on hold until the plans and sizes are settled."
         },
         {
           "label": "From the passage · Day",
@@ -29365,15 +29362,15 @@
           "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
           "image": "dop/assets/DINF-room-din_side.png",
-          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the mouth of the bedroom passage on the east wall, looking south-west across the table to the window, the plant in the window corner, the art on the west wall and the arch at the right edge. The AI render of this view is pending: two AI renders failed QA (the first drew the TONSTAD table on square legs where the product has round legs, the second drew the table too long and pulled an extra chair into view); the next waits for the Codex image quota after 30 Oct 2026."
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from the mouth of the bedroom passage on the east wall, looking south-west across the table to the window, the plant in the window corner, the art on the west wall and the arch at the right edge. The AI render of this view is pending: two AI renders failed QA (the first drew the TONSTAD table on square legs where the product has round legs, the second drew the table too long and pulled an extra chair into view); new renders are on hold until the plans and sizes are settled."
         },
         {
           "label": "From the arch · Day",
           "kind": "arch-day",
-          "method": "HISTORICAL_STYLE_OR_CONCEPT_IMAGE",
+          "method": "DETERMINISTIC_MODEL_VIEW",
           "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "dop/assets/DINF-render-din_arch.png",
-          "caption": "AI style render at standing eye level (eye 1.55 m, 24 mm lens) from just inside the arch at its south end, looking east-south-east along the table to the east wall with the proposed split unit, the window at the right and the bedroom passage at the left, painted over the dimension-led deterministic room-model view; dimensions from the model, finishes interpretive; the table is drawn about 15% longer than the true-scale model."
+          "image": "dop/assets/DINF-room-din_arch.png",
+          "caption": "Deterministic room-model view at true scale, not an AI render: proxy forms at standing eye level (eye 1.55 m, 24 mm lens) from just inside the arch at its south end, looking east-south-east along the table to the east wall with the proposed split unit, the window at the right and the bedroom passage at the left. The AI render of this view is pending: its 24 Oct render drew the table about 15% longer than the true-scale model, and it was withdrawn on 29 Oct; new renders are on hold until the plans and sizes are settled."
         }
       ],
       "budget": {
@@ -29403,7 +29400,7 @@
           "source": "https://www.ikea.com/ph/en/p/tonstad-table-oak-veneer-80594064/",
           "priceDate": "2026-09-08",
           "variant": "Table, oak veneer, 150x80 cm (59x31 1/2 \")",
-          "notes": "Oak veneer table 1500 x 800 on round legs; long side parallel to the window",
+          "notes": "Oak veneer table on round legs, drawn 1800 x 900: size from Ivan's 1800 x 900, no listing yet (IKEA lists the TONSTAD table at 150 x 80 only; the price is that listing's); long side parallel to the window",
           "commonToSchemes": [
             "F"
           ],
