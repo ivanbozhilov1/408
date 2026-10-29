@@ -1,6 +1,6 @@
 {
   "schema": "unit408-combined-review/1",
-  "build": "408-living-abc / 2026-10-29T15:02:46+08:00",
+  "build": "408-living-abc / 2026-10-29T17:48:06+08:00",
   "designs": [
     {
       "id": "astra-pqr-20261021-v001::P",
@@ -30521,19 +30521,20 @@
       "name": "Linen Daylight",
       "date": "2026-10-23",
       "version": "fable-liv-abc-20261023",
-      "status": "PARTLY_RENDERED_STYLE_STUDY_MODEL_VIEWS_FOR_THE_REST_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "status": "MODEL_VIEWS_ONLY_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Partly rendered. Ivory linen-look seating and cane in a daylight room, pale timber, one soft green: a classic 3 + 1 + 1 around a rectangular table. Seating option A: 3-seater along the south window facing the TV, two woven armchairs along the east window south of the window AC with a side table between them, rug 3400 x 2400 under the group. Conditional fit on assumed heights (see Still to measure).",
+      "summary": "Model views only, renders pending. Ivory linen-look seating and cane in a daylight room, pale timber, one soft green: a classic 3 + 1 + 1 around a rectangular table. Seating option A: 3-seater along the south window facing the TV, two woven armchairs along the east window south of the window AC with a side table between them, rug 3400 x 2400 under the group. Conditional fit on assumed heights (see Still to measure).",
       "reviewNotes": [
         "Conditional fit: the living area is not site-measured. The pack accepted these values as assumptions (ASSUMED.md): ceiling 2700 (as the master bedroom), east window sill/head 1000/1900, south window sill/head 950/2050 (from photo J055 and the Seoul curtain quote), door heights 2100, the window AC under the north end of the east window, the ceiling fan at the bedroom analogue position. Every plan and view depends on them until taped.",
         "Seating option A, a classic 3 + 1 + 1: sofa along the south window facing the TV, two woven armchairs along the east window south of the window AC with a side table between them.",
         "Author Claude Fable (Fable 5.1 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout.",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
         "Render QA pass 3 (24 Oct 2026): 3 of 4 views pass (Entrance door · Day, Window corner · Day, Hallway arch · Day); the others drift from the model view and wait for a corrected re-render.",
-        "Width check (23 Oct 2026): every render was made from its 3:2 model view and checked against it; 1 of 4 pass the 3% gate (Hallway arch · Day). A view shows its render only when it passes render QA and the width check: 1 of 4 do (Hallway arch · Day); the other views show the model view until a corrected re-render."
+        "Width check (23 Oct 2026): every render was made from its 3:2 model view and checked against it; 1 of 4 pass the 3% gate (Hallway arch · Day). A view shows its render only when it passes render QA and the width check: 1 of 4 pass both (Hallway arch · Day); the other views show the model view until a corrected re-render.",
+        "Layout (29 Oct 2026, Ivan’s clearance rules): the sofa moved 25 mm north, its back now 250 mm off the south glass (was 225), and the plant 64 mm west, its pot 250 mm off the east glass (was 186). No overlaps, door-swing or arch hits; the narrowest walkway stays 796 mm. The renders predate the move, so the views that show it (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day) show their model views until a re-render."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/liv/",
-      "hero": "liv/assets/LVA-render-liv_arch.png",
+      "hero": "liv/assets/LVA-room-liv_entry.png",
       "plan": "liv/assets/PLAN-LVA-LIV.png",
       "views": [
         {
@@ -30542,7 +30543,7 @@
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
           "image": "liv/assets/LVA-room-liv_entry.png",
-          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its coffee table missed the 3% width check (width 1.102, width:height 1.011 of the model). It stays held until a re-render passes both checks."
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its coffee table missed the 3% width check (width 1.102, width:height 1.011 of the model) and the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         },
         {
           "label": "TV wall · Model view · Day",
@@ -30550,7 +30551,7 @@
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
           "image": "liv/assets/LVA-room-liv_main.png",
-          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its TV missed the 3% width check (width 1.032, width:height 1.032 of the model) and render QA found it drifting from the model view. It stays held until a re-render passes both checks."
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its TV missed the 3% width check (width 1.032, width:height 1.032 of the model) and render QA found it drifting from the model view and the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         },
         {
           "label": "Window corner · Model view · Day",
@@ -30558,15 +30559,15 @@
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
           "image": "liv/assets/LVA-room-liv_opposite.png",
-          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its coffee table missed the 3% width check (width 0.973, width:height 0.950 of the model). It stays held until a re-render passes both checks."
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its coffee table missed the 3% width check (width 0.973, width:height 0.950 of the model) and the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         },
         {
-          "label": "Hallway arch · Day",
+          "label": "Hallway arch · Model view · Day",
           "kind": "liv-arch-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVA-render-liv_arch.png",
-          "caption": "AI style render at standing eye level from the hallway arch, looking back across the seating to the bay and door D-W. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 3 (24 Oct 2026): PASS. Width check: the floor lamp lands at 1.000 of its model width."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "liv/assets/LVA-room-liv_arch.png",
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         }
       ],
       "products": [
@@ -30799,19 +30800,20 @@
       "name": "Teal and Ochre",
       "date": "2026-10-23",
       "version": "fable-liv-abc-20261023",
-      "status": "PARTLY_RENDERED_STYLE_STUDY_MODEL_VIEWS_FOR_THE_REST_NO_HUMAN_ACCEPTANCE_EVIDENCED",
+      "status": "MODEL_VIEWS_ONLY_RENDERS_PENDING_NO_HUMAN_ACCEPTANCE_EVIDENCED",
       "archival": false,
-      "summary": "Partly rendered. A teal sofa with an ottoman chaise, one ochre tub chair, walnut and a cream-and-denim rug under a copper arc lamp: a warm evening room without the usual browns. Seating option B: 3-seater along the south window with the ottoman at its east end as the chaise, round walnut coffee table in front of its west half, one tub armchair by the east window south of the window AC. Conditional fit on assumed heights (see Still to measure).",
+      "summary": "Model views only, renders pending. A teal sofa with an ottoman chaise, one ochre tub chair, walnut and a cream-and-denim rug under a copper arc lamp: a warm evening room without the usual browns. Seating option B: 3-seater along the south window with the ottoman at its east end as the chaise, round walnut coffee table in front of its west half, one tub armchair by the east window south of the window AC. Conditional fit on assumed heights (see Still to measure).",
       "reviewNotes": [
         "Conditional fit: the living area is not site-measured. The pack accepted these values as assumptions (ASSUMED.md): ceiling 2700 (as the master bedroom), east window sill/head 1000/1900, south window sill/head 950/2050 (from photo J055 and the Seoul curtain quote), door heights 2100, the window AC under the north end of the east window, the ceiling fan at the bedroom analogue position. Every plan and view depends on them until taped.",
         "Seating option B: the straight Clark 3-seater is ordered in the published Belfast Light Teal fabric (listing photo grey), the Ava ottoman in Carbon and the Alice tub chair in Yellow; sofa plus ottoman read as a sectional with a chaise. The Crate & Barrel faux cactus shares a product family with bedroom set MNO’s faux palm stems (different SKU and role); kept because the two alternatives are claimed by bedroom set F and dining set A.",
         "Author Claude Fable (Fable 5.1 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout.",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
         "Render QA pass 3 (24 Oct 2026): 3 of 4 views pass (Entrance door · Day, Window corner · Day, Hallway arch · Day); the others drift from the model view and wait for a corrected re-render.",
-        "Width check (23 Oct 2026): every render was made from its 3:2 model view and checked against it; 1 of 4 pass the 3% gate (Window corner · Day). A view shows its render only when it passes render QA and the width check: 1 of 4 do (Window corner · Day); the other views show the model view until a corrected re-render."
+        "Width check (23 Oct 2026): every render was made from its 3:2 model view and checked against it; 1 of 4 pass the 3% gate (Window corner · Day). A view shows its render only when it passes render QA and the width check: 1 of 4 pass both (Window corner · Day); the other views show the model view until a corrected re-render.",
+        "Layout (29 Oct 2026, Ivan’s clearance rules): the sofa moved 15 mm north, its back now 250.5 mm off the south glass (was 235.5), the ottoman with it; the floor lamp 39 mm west, 250 mm off the east glass (was 211); the coffee table 254 mm north, 400.5 mm off the sofa front (was 161.5). No overlaps, door-swing or arch hits; the narrowest walkway stays 796 mm. The renders predate the move, so the views that show it (Entrance door · Day, TV wall · Day, Window corner · Day, Hallway arch · Day) show their model views until a re-render."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/liv/",
-      "hero": "liv/assets/LVB-render-liv_opposite.png",
+      "hero": "liv/assets/LVB-room-liv_entry.png",
       "plan": "liv/assets/PLAN-LVB-LIV.png",
       "views": [
         {
@@ -30820,7 +30822,7 @@
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
           "image": "liv/assets/LVB-room-liv_entry.png",
-          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its sofa missed the 3% width check (width 1.054, width:height 1.128 of the model). It stays held until a re-render passes both checks."
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its sofa missed the 3% width check (width 1.054, width:height 1.128 of the model) and the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         },
         {
           "label": "TV wall · Model view · Day",
@@ -30828,15 +30830,15 @@
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
           "image": "liv/assets/LVB-room-liv_main.png",
-          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its TV missed the 3% width check (width 1.042, width:height 1.017 of the model) and render QA found it drifting from the model view. It stays held until a re-render passes both checks."
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its TV missed the 3% width check (width 1.042, width:height 1.017 of the model) and render QA found it drifting from the model view and the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         },
         {
-          "label": "Window corner · Day",
+          "label": "Window corner · Model view · Day",
           "kind": "liv-window-corner-day",
-          "method": "AI_STYLE_RENDER_OVER_MODEL_VIEW",
-          "effectiveStatus": "DELIVERED_STYLE_STUDY_WITH_RECORDED_LIMITS_NO_HUMAN_ACCEPTANCE_EVIDENCED",
-          "image": "liv/assets/LVB-render-liv_opposite.png",
-          "caption": "AI style render at standing eye level from the TV-wall corner toward the window corner, the seating in front of both windows. Painted over the dimension-led model view of the drawn room shell; dimensions from the model, finishes interpretive; conditional fit on the assumed heights. Render QA pass 3 (24 Oct 2026): PASS. Width check: the armchair lands at 0.987 of its model width and 1.021 of its width:height."
+          "method": "DETERMINISTIC_MODEL",
+          "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
+          "image": "liv/assets/LVB-room-liv_opposite.png",
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         },
         {
           "label": "Hallway arch · Model view · Day",
@@ -30844,7 +30846,7 @@
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
           "image": "liv/assets/LVB-room-liv_arch.png",
-          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its coffee table missed the 3% width check (width 1.134 of the model). It stays held until a re-render passes both checks."
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its coffee table missed the 3% width check (width 1.134 of the model) and the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         }
       ],
       "products": [
@@ -31063,7 +31065,8 @@
         "Author Claude Fable (Fable 5.1 session, 23 Oct 2026); raster tool Codex image generation (sketch-to-render over the model view). No human approval inferred; Ivan chooses a design, not a layout.",
         "Prices from the frozen 20 Oct 2026 catalogue export; Cebu delivery unconfirmed. Not priced: the Davies Beige blackout + voile curtains (Seoul quote, same in every room), the 75 in TV, the retained window AC and ceiling fan.",
         "Render QA pass 3 (24 Oct 2026): 1 of 4 views pass (Window corner · Day); the others drift from the model view and wait for a corrected re-render. These renders also predate the floor-lamp move: the plan and model views show the lamp at the west arm of the south 2-seater, the renders still show it in front of the TV.",
-        "Width check (23 Oct 2026): every render was made from its 3:2 model view and checked against it; 1 of 4 pass the 3% gate (TV wall · Day). A view shows its render only when it passes render QA and the width check: 0 of 4 do; the other views show the model view until a corrected re-render."
+        "Width check (23 Oct 2026): every render was made from its 3:2 model view and checked against it; 1 of 4 pass the 3% gate (TV wall · Day). A view shows its render only when it passes render QA and the width check: 0 of 4 pass both; the other views show the model view until a corrected re-render.",
+        "Layout (29 Oct 2026, Ivan’s clearance rules): the east 2-seater moved 4 mm west and 30 mm south: its back now 250 mm off the east glass (was 246) and its north end 13 mm clear of the window AC (it reached 17 mm into it). No overlaps, door-swing or arch hits; the narrowest walkway stays 796 mm. The renders predate the move, so the views that show it (Entrance door · Day, TV wall · Day, Window corner · Day) show their model views until a re-render."
       ],
       "originalUrl": "https://ivanbozhilov1.github.io/408/liv/",
       "hero": "liv/assets/LVC-room-liv_entry.png",
@@ -31075,7 +31078,7 @@
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
           "image": "liv/assets/LVC-room-liv_entry.png",
-          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its sofa missed the 3% width check (width 1.068, width:height 1.179 of the model) and render QA found it drifting from the model view. It stays held until a re-render passes both checks."
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its sofa missed the 3% width check (width 1.068, width:height 1.179 of the model) and render QA found it drifting from the model view and the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         },
         {
           "label": "TV wall · Model view · Day",
@@ -31083,7 +31086,7 @@
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
           "image": "liv/assets/LVC-room-liv_main.png",
-          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: render QA found it drifting from the model view. It stays held until a re-render passes both checks."
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: render QA found it drifting from the model view and the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         },
         {
           "label": "Window corner · Model view · Day",
@@ -31091,7 +31094,7 @@
           "method": "DETERMINISTIC_MODEL",
           "effectiveStatus": "MODEL_VIEW_RENDER_PENDING",
           "image": "liv/assets/LVC-room-liv_opposite.png",
-          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its lounge chair missed the 3% width check (width 1.087 of the model). It stays held until a re-render passes both checks."
+          "caption": "Model view, render pending. Deterministic model view: proxy forms in the drawn Unit 408 shell. The AI render of this view is held back: its lounge chair missed the 3% width check (width 1.087 of the model) and the 29 Oct clearance moves changed what it shows. It stays held until a re-render passes both checks."
         },
         {
           "label": "Hallway arch · Model view · Day",
