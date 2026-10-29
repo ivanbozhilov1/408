@@ -1,0 +1,127 @@
+{
+  "schema": "unit408-room-gallery/1",
+  "room_id": "dining",
+  "room_title": "Dining room",
+  "revision": "v7",
+  "publication_status": "prepared_local_not_published",
+  "review_status": "accepted_for_provisional_styling",
+  "image_count": 3,
+  "design_count": 1,
+  "angles_per_design": 3,
+  "geometry_caveat": "Illustrative layout; confirm dimensions on site.",
+  "geometry_basis": {
+    "dimension_contract_sha256": "d329a00810bbb0753415369e272046f19382a6b4c00b09b9529a713ed8df5eef",
+    "corrected_room_sha256": "1be14a72903cf537d0a90a84962f55967a18e798fa7ab0e8f0121fb866f49a56",
+    "status": "Corrected plan-derived outline; room dimensions and clearances remain unsurveyed."
+  },
+  "common_ac_proposal": {
+    "proposal_id": "DIN-COMMON-AC-V1",
+    "proposal_sha256": "431f854001cac72e922e35311d290c573ad51f4e616d5b66643a94a0aa80734b",
+    "summary": "One proposed split-air-conditioner position is shared across the three schemes. It is outside the arch-view frame. Mounting, service space and installation feasibility require on-site confirmation.",
+    "status": "Illustrative proposal; not surveyed installation dimensions."
+  },
+  "review_limits": [
+    "Approximate proportional illustrations; not exact photo composites.",
+    "Room dimensions, chair movement, curtain operation and route clearances remain unverified on site.",
+    "The proposed air conditioner requires mounting and service-clearance confirmation.",
+    "The existing dining fan and light kit are retained. Source-based local restoration preserves the accepted layout; dimensions and clearances remain unsurveyed."
+  ],
+  "product_status": "Furniture and materials are illustrative; no stock, price or purchase claim.",
+  "designs": [
+    {
+      "design_id": "DIN-A",
+      "title": "Walnut Salon",
+      "summary": "Oval walnut and cane with an oatmeal carpet.",
+      "seats": 6,
+      "palette": [
+        "walnut",
+        "cane",
+        "oatmeal",
+        "amber"
+      ],
+      "layout": "Table and carpet toward the main curtains; open counter-side route and shallow corner storage proposed.",
+      "layout_sha256": "0213a732d65a27ffe17d044b19b729daecaf9ad3a9646426b0825d82a07d3303",
+      "table_target_mm": [
+        1600,
+        850
+      ],
+      "carpet_target_mm": [
+        3100,
+        2300
+      ],
+      "corner_storage_footprint_mm": [
+        800,
+        280
+      ],
+      "dimension_status": "Illustrative layout; confirm dimensions on site.",
+      "images": [
+        {
+          "id": "DIN-A-window",
+          "angle": "window",
+          "angle_label": "Toward the main window",
+          "image_path": "images/DIN-A-window.png",
+          "width": 1086,
+          "height": 1448,
+          "sha256": "272b6ddf6a4d3c1f1e689803203d5ee1726bc29454e5e05c0f13cf081fdd104c",
+          "alt": "Walnut Salon, toward the main window, with 6 seats and a carpet. Existing dining fan and light kit retained.",
+          "caption": "Walnut Salon: toward the main window. Existing dining fan and light kit retained. Illustrative layout; confirm dimensions on site.",
+          "source_evidence": {
+            "photo_reference": "F027",
+            "source_sha256": "c1f7d268bd0c2c6a126bf1e6aecdf79e1127437eb498bc8b91aa4ea0f665b59b",
+            "kind": "Real-room photograph",
+            "derived_image": "Approximate design illustration",
+            "geometry_status": "Room and clearances unsurveyed; regenerated background may differ.",
+            "local_edit": "Existing dining fan and light kit restored locally; current furniture, layout and surrounding repairs preserved."
+          }
+        },
+        {
+          "id": "DIN-A-arch",
+          "angle": "arch",
+          "angle_label": "Toward the arch and counter",
+          "image_path": "images/DIN-A-arch.png",
+          "width": 1086,
+          "height": 1448,
+          "sha256": "fba2993ddb6285b930c259044d41fc920170be0966b8dc3fb9b7972fd579e6cf",
+          "alt": "Walnut Salon, toward the arch and counter, with 6 seats and a carpet. Existing dining fan and light kit retained.",
+          "caption": "Walnut Salon: toward the arch and counter. Existing dining fan and light kit retained. Illustrative layout; confirm dimensions on site.",
+          "source_evidence": {
+            "photo_reference": "F025",
+            "source_sha256": "62798dc3902cfcf9af66286ebaaaf1c1ab45dd877fae71ea0e72b382f26f1c02",
+            "kind": "Real-room photograph",
+            "derived_image": "Approximate design illustration",
+            "geometry_status": "Room and clearances unsurveyed; regenerated background may differ.",
+            "local_edit": "Existing dining fan and light kit restored locally; current furniture, layout and surrounding repairs preserved."
+          }
+        },
+        {
+          "id": "DIN-A-passage",
+          "angle": "passage",
+          "angle_label": "Toward the kitchen counter",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Walnut Salon, kitchen-counter angle with corner storage and an open crossing. Existing dining fan and light kit retained.",
+          "caption": "Walnut Salon: toward the kitchen counter. Existing dining fan and light kit retained. Illustrative layout; confirm dimensions on site.",
+          "source_evidence": {
+            "photo_reference": "F023",
+            "source_sha256": "83c8377dda85aaa114e04f8243614ac9b4e861074311c89e66e7efa2f9de399c",
+            "kind": "Real-room photograph",
+            "derived_image": "Approximate design illustration",
+            "geometry_status": "Room and clearances unsurveyed; regenerated background may differ.",
+            "local_edit": "Existing dining fan and light kit restored locally; current furniture, layout and surrounding repairs preserved."
+          },
+          "image_path": "images/DIN-A-passage.png",
+          "sha256": "a317c0ae4ec086bffbcdc6b165be76576d629402de2a454cdfb86a54c023271a"
+        }
+      ],
+      "board": {
+        "path": "boards/DIN-A-board.svg",
+        "label": "Materials and proposed layout",
+        "sha256": "45881e37c5694e4f6a104d7684b287b1a507f9b95c9306650f3570723116e841",
+        "status": "Illustrative layout; confirm dimensions on site."
+      }
+    }
+  ],
+  "packet_revision": "v7-keep-fan",
+  "local_edit_status": "Existing dining fan and light kit restored locally; affected regions independently reviewed and pixels outside declared masks verified unchanged.",
+  "fan_treatment": "Retain the existing dining ceiling fan and light kit in every visible viewpoint."
+}
