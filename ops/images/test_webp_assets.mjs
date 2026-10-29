@@ -50,13 +50,21 @@ const drawSized = async (page, w, h, type, flat = 0) => Buffer.from(await page.e
   g.putImageData(d, 0, 0); return c.toDataURL(type, 0.95).split(',')[1]
 }, [w, h, type, flat]), 'base64')
 
-test('kindOf: plans first, then product photos, boards and model views; renders are other', () => {
+test('the approved option-2 settings are pinned: views and boards at 0.9, photos capped at 1600 px', () => {
+  assert.equal(VIEW_QUALITY, 0.9); assert.equal(PHOTO_MAX_EDGE, 1600)
+})
+
+test('kindOf: plans first, then product photos, boards and model views; renders and measured views are other', () => {
   for (const [file, kind] of [
-    ['assets/PLAN-D.png', 'plan'], ['astra/measured/A-main.png', 'plan'], ['rooms/dining-plan.png', 'plan'], ['hal/assets/scale/HA-hal_quarter-scale.jpg', 'plan'],
-    ['hal/assets/scale/HA-dimensioned-elevation.png', 'plan'], ['queen-oct23/assets/Q1-selection-matrix.jpg', 'plan'],
-    ['assets/D-main.png', 'model-view'], ['hop/assets/HD-room-hal_main.png', 'model-view'], ['queen-oct23/assets/QE-room-entry.png', 'model-view'],
-    ['assets/D-products.png', 'board'], ['assets/products/D-BED.jpg', 'photo'], ['assets/products/D-PLANT.jpg', 'photo'], ['queen-oct23/assets/products/Q1-E-PLANTER.png', 'photo'],
-    ['assets/D-render-entry.png', 'other'], ['assets/D-render-main.png', 'other'], ['astra/renders/A-main.png', 'other'], ['astra/original/A-opposite.png', 'other'], ['rooms/living-photo-j054.jpg', 'other']
+    ['assets/PLAN-D.png', 'plan'], ['rooms/dining-plan.png', 'plan'], ['hal/assets/scale/HA-hal_quarter-scale.jpg', 'plan'],
+    ['hal/assets/scale/HA-dimensioned-elevation.png', 'plan'],
+    ['hop/assets/HD-room-hal_main.png', 'model-view'], ['queen-oct23/assets/QE-room-entry.png', 'model-view'], ['astra/photo-room/A-opposite.png', 'model-view'],
+    // The root D/E/F elevations are flat boards of scaled supplier photos, not 3D views.
+    ['assets/D-main.png', 'board'], ['assets/D-opposite.png', 'board'], ['assets/D-products.png', 'board'],
+    ['assets/products/D-BED.jpg', 'photo'], ['assets/products/D-PLANT.jpg', 'photo'], ['queen-oct23/assets/products/Q1-E-PLANTER.png', 'photo'],
+    ['assets/D-render-entry.png', 'other'], ['assets/D-render-main.png', 'other'], ['astra/renders/A-main.png', 'other'], ['astra/original/A-opposite.png', 'other'], ['rooms/living-photo-j054.jpg', 'other'],
+    // Kept at today's encoding (Ivan, 29 Oct): the measured astra views and the queen selection-matrix photo grids.
+    ['astra/measured/A-main.png', 'other'], ['queen-oct23/assets/Q1-selection-matrix.jpg', 'other']
   ]) assert.equal(kindOf(file), kind, file)
   assert.equal(kindOf('collection-assets/0069a4fc692a76e824027e6d.png', true), 'photo', 'JSON "products" key')
   assert.equal(kindOf('assets/PLAN-D.png', true), 'plan', 'a plan stays a plan under "products"')
@@ -77,9 +85,11 @@ test('model views are lossy at VIEW_QUALITY, plans keep the colour cut, product 
     put('index.html', refs)
     const result = await convertAssets(root, { executablePath })
     assert.equal(result.referenced, 6, 'the non-product WebP and the render-pass WebP are not sources'); assert.equal(result.resized, 2)
+    assert.equal(result.skipped, 1, 'D-LAMP.webp is within the cap'); assert.equal(result.converted + result.keptOriginal + result.skipped, result.referenced)
+    assert.equal(result.encoded + result.reused, result.referenced)
     const records = new Map(JSON.parse(fs.readFileSync(path.join(root, 'render-derivatives.json'), 'utf8')).derivatives.map(r => [r.sourcePath, r]))
     const room = records.get('assets/D-room-entry.png')
-    assert.equal(room?.kind, 'model-view'); assert.equal(room.lossless, false, 'a flat model view is lossy'); assert.equal(room.quality, VIEW_QUALITY)
+    assert.equal(room?.kind, 'model-view'); assert.equal(room.lossless, false, 'a flat model view is lossy'); assert.equal(room.quality, 0.9)
     const planRecord = records.get('assets/PLAN-D.png')
     assert.equal(planRecord?.kind, 'plan'); assert.equal(planRecord.lossless, true, 'a flat plan stays lossless'); assert.equal(planRecord.quality, undefined); assert.ok(planRecord.bytes <= plan.length * 0.9)
     const bed = records.get('assets/products/D-BED.jpg')
@@ -166,6 +176,59 @@ test('page and JSON rasters become WebP; downloads, provenance, prose and source
     const second = await convertAssets(root, { executablePath, cacheDir: path.join(root, '.cache') })
     assert.equal(second.encoded, 0); assert.ok(second.reused >= 2); assert.equal(second.reused, second.referenced)
   } finally { await browser.close(); fs.rmSync(root, { recursive: true, force: true }) }
+})
+
+test('boards at 0.9, portrait and JSON-only photos capped, big non-photos untouched, in-cap AVIF skipped', async () => {
+  const root = tempRoot('webp-assets-cases-')
+  const browser = await chromium.launch({ executablePath })
+  try {
+    const page = await browser.newPage(), put = (file, bytes) => { fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true }); fs.writeFileSync(path.join(root, file), bytes); return bytes }
+    put('assets/D-products.png', await drawSized(page, 320, 200, 'image/png', 0.6))
+    put('assets/products/D-TALL.jpg', await drawSized(page, 1200, 2400, 'image/jpeg'))
+    put('assets/D-room-big.png', await drawSized(page, 2400, 1200, 'image/png'))
+    put('collection-assets/D-ARMCHAIR.webp', await drawSized(page, 2000, 1000, 'image/webp'))
+    // WebP bytes behind an .avif name: Chrome sniffs the content, so it decodes, and within the cap it is skipped.
+    const avif = put('assets/products/D-CHAIR.avif', await drawSized(page, 1000, 500, 'image/webp'))
+    put('index.html', ['D-products.png', 'products/D-TALL.jpg', 'D-room-big.png', 'products/D-CHAIR.avif'].map(f => `<img src="assets/${f}">`).join('\n'))
+    put('data.json', JSON.stringify({ products: [{ image: 'collection-assets/D-ARMCHAIR.webp' }] }))
+    const result = await convertAssets(root, { executablePath })
+    const records = new Map(JSON.parse(fs.readFileSync(path.join(root, 'render-derivatives.json'), 'utf8')).derivatives.map(r => [r.sourcePath, r]))
+    const board = records.get('assets/D-products.png')
+    assert.equal(board?.kind, 'board'); assert.equal(board.lossless, false, 'a flat board is lossy'); assert.equal(board.quality, 0.9)
+    const tall = records.get('assets/products/D-TALL.jpg')
+    assert.deepEqual([tall?.width, tall?.height], [800, 1600]); assert.deepEqual(tall.resizedFrom, [1200, 2400])
+    const big = records.get('assets/D-room-big.png')
+    assert.equal(big?.kind, 'model-view'); assert.deepEqual([big.width, big.height], [2400, 1200]); assert.equal(big.resizedFrom, undefined, 'only photos are capped')
+    const chair = records.get('collection-assets/D-ARMCHAIR.webp')
+    assert.equal(chair?.kind, 'photo'); assert.deepEqual([chair.width, chair.height], [1600, 800]); assert.deepEqual(chair.resizedFrom, [2000, 1000])
+    assert.equal(JSON.parse(fs.readFileSync(path.join(root, 'data.json'), 'utf8')).products[0].image, chair.servedPath, 'JSON ref rewritten')
+    assert.equal(records.has('assets/products/D-CHAIR.avif'), false, 'in-cap AVIF has no record')
+    assert.ok(fs.readFileSync(path.join(root, 'index.html'), 'utf8').includes('<img src="assets/products/D-CHAIR.avif">'), 'AVIF ref unchanged')
+    assert.deepEqual(fs.readFileSync(path.join(root, 'assets/products/D-CHAIR.avif')), avif)
+    assert.equal(result.referenced, 5); assert.equal(result.skipped, 1); assert.equal(result.converted, 4); assert.equal(result.keptOriginal, 0)
+    assert.equal(result.converted + result.keptOriginal + result.skipped, result.referenced); assert.equal(result.encoded + result.reused, result.referenced)
+  } finally { await browser.close(); fs.rmSync(root, { recursive: true, force: true }) }
+})
+
+test('the cache key carries the file type: in-cap WebP bytes saved as .jpg are still converted', async () => {
+  const base = tempRoot('webp-assets-ext-'), cacheDir = path.join(base, 'cache')
+  const browser = await chromium.launch({ executablePath })
+  try {
+    const page = await browser.newPage(), bytes = await drawSized(page, 1000, 500, 'image/webp')
+    const run = async name => {
+      const root = path.join(base, name); fs.mkdirSync(path.join(root, 'products'), { recursive: true })
+      fs.writeFileSync(path.join(root, 'products', name), bytes); fs.writeFileSync(path.join(root, 'index.html'), `<img src="products/${name}">`)
+      return [root, await convertAssets(root, { executablePath, cacheDir })]
+    }
+    const [, webp] = await run('B.webp')
+    assert.equal(webp.skipped, 1); assert.equal(webp.converted, 0)
+    // A reused skip still counts as skipped.
+    const [, again] = await run('A.webp')
+    assert.equal(again.reused, 1); assert.equal(again.skipped, 1); assert.equal(again.keptOriginal, 0)
+    const [root, jpg] = await run('Z.jpg')
+    assert.equal(jpg.reused, 0, 'no cache entry shared with the .webp'); assert.equal(jpg.converted, 1); assert.equal(jpg.skipped, 0)
+    assert.match(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), /<img src="products\/Z\.[a-f0-9]{24}\.webp">/)
+  } finally { await browser.close(); fs.rmSync(base, { recursive: true, force: true }) }
 })
 
 test('rasters outside the scratch root are never read', async () => {

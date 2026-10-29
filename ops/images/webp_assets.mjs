@@ -3,11 +3,16 @@
 // that holds ops/release/public_artifact.py.
 // Every PNG/JPEG that a page shows through an HTML src/href/srcset/poster/data-* attribute or a public JSON value
 // gets a WebP sibling when that saves at least MIN_SAVING of the source bytes. The encoding follows kindOf(path):
-// 3D model views and product boards lossy at VIEW_QUALITY; supplier product photos lossy at --quality, first
-// downscaled to PHOTO_MAX_EDGE on the long edge when larger (product photos that are already WebP/AVIF are re-encoded
-// only for that cap); plans and every other PNG lossless when it has transparency or its 16 most common colours cover
-// at least FLAT_SHARE of its pixels, lossy at --quality otherwise; other JPEGs lossy at --quality. Lossless is exact
-// for opaque pixels only: the canvas premultiplies alpha, so translucent pixels can shift colour.
+// 3D model views (-room- names, astra photo-room/ views) and boards (*-products.*, the root D/E/F elevations
+// assets/D-main.png etc.) lossy at VIEW_QUALITY; supplier product photos lossy at --quality, first downscaled to
+// PHOTO_MAX_EDGE on the long edge when larger (product photos that are already WebP/AVIF are re-encoded only for that
+// cap, otherwise skipped); plans and every other PNG (renders, the astra/measured/ views) lossless when it has
+// transparency or its 16 most common colours cover at least FLAT_SHARE of its pixels, lossy at --quality otherwise;
+// other JPEGs (JPEG plans, site photos, the queen selection matrices) lossy at --quality. The measured astra views
+// and the queen selection matrices keep this rule at Ivan's request (29 Oct). Lossless is exact for opaque pixels
+// only: the canvas premultiplies alpha, so translucent pixels can shift colour.
+// Stats: referenced = converted + keptOriginal + skipped and encoded + reused = referenced; skipped counts WebP/AVIF
+// product photos within the cap, which are only decoded to read their size.
 // Download links (<a download>, data-original) and JSON provenance keys keep pointing at the original.
 // node ops/images/webp_assets.mjs ROOT [--quality 0.85] [--chromium EXE] [--cache-dir DIR]
 import fs from 'node:fs'
@@ -32,14 +37,18 @@ export const VIEW_QUALITY = 0.9
 export const PHOTO_MAX_EDGE = 1600
 export const assetEncoder = quality => ({ name: 'chromium-canvas-webp-asset', version: 3, quality, viewQuality: VIEW_QUALITY, photoMaxEdge: PHOTO_MAX_EDGE, flatShare: FLAT_SHARE, minSaving: MIN_SAVING })
 // Image kind from the site-relative path; inProducts is the JSON "products" key signal. Plans win over every other
-// name rule (astra/measured/A-main.png is a measured elevation), and -PLANT/-PLANTER product photos are not plans.
-// Renders (-render-, astra/renders/, astra/original/) are 'other', so they keep the colour-count rule.
+// name rule; -PLANT/-PLANTER product photos are not plans. Photos: a "products" key or a products/ folder.
+// Boards: *-products.<ext>, and the root D/E/F elevations assets/D-main.png etc., which are flat boards of scaled
+// supplier photos with label chips, not 3D views. Model views: -room- names, and the astra Cycles renders of the
+// model (photo-room/A-main.png etc.). Everything else is 'other' and keeps the colour-count rule: the -render- files,
+// astra/renders/, astra/original/, the 6 dimension-controlled astra/measured/ views (kept as today, Ivan 29 Oct) and
+// the queen-oct23 Q*-selection-matrix.jpg photo grids (JPEG, so lossy at --quality as today).
 export function kindOf(file, inProducts = false) {
   const name = file.split('/').pop()
-  if (/^PLAN-|-plan\.|dimensioned-elevation|selection-matrix|hal_[a-z]+-scale\./.test(name) || /(?:^|\/)measured\//.test(file)) return 'plan'
+  if (/^PLAN-|-plan\.|dimensioned-elevation|hal_[a-z]+-scale\./.test(name)) return 'plan'
   if (inProducts || /(?:^|\/)products\//.test(file)) return 'photo'
-  if (/-products\.[a-z]+$/i.test(name)) return 'board'
-  if (/-room-/.test(name) || (/^[A-Z]+-(?:main|opposite)\./.test(name) && !/(?:^|\/)(?:renders|original)\//.test(file))) return 'model-view'
+  if (/-products\.[a-z]+$/i.test(name) || /^assets\/[A-Z]+-(?:main|opposite)\.[A-Za-z]+$/.test(file)) return 'board'
+  if (/-room-/.test(name) || /(?:^|\/)photo-room\/[A-Z]+-(?:main|opposite)\.[A-Za-z]+$/.test(file)) return 'model-view'
   return 'other'
 }
 // Part of every derivative key, so an edit to this encoder re-encodes instead of reusing older cached bytes.
@@ -168,7 +177,7 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
   }
   for (const f of html) htmlRefs(fs.readFileSync(f, 'utf8'), collect(f))
   for (const [f, data] of parsed) jsonRefs(data, collect(f))
-  const records = new Map(), stats = { referenced: sources.size, converted: 0, keptOriginal: 0, encoded: 0, reused: 0, lossless: 0, resized: 0, sourceBytes: 0, servedBytes: 0 }
+  const records = new Map(), stats = { referenced: sources.size, converted: 0, keptOriginal: 0, skipped: 0, encoded: 0, reused: 0, lossless: 0, resized: 0, sourceBytes: 0, servedBytes: 0 }
   let browser, page, settings
   try {
     if (sources.size) {
@@ -180,7 +189,10 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
     for (const [file, inProducts] of [...sources].sort()) {
       try {
         const source = fs.readFileSync(file), sourceSha256 = sha(source), kind = kindOf(rel(file), inProducts)
-        const key = sha(JSON.stringify({ sourceSha256, kind, ...settings }))
+        // The extension decides both the decode mime and capOnly, so it is part of the key: the same bytes saved as
+        // .webp and as .jpg are different jobs.
+        const ext = path.extname(file).slice(1).toLowerCase(), mime = `image/${{ png: 'png', jpg: 'jpeg', jpeg: 'jpeg', webp: 'webp', avif: 'avif' }[ext]}`
+        const key = sha(JSON.stringify({ sourceSha256, kind, ext, ...settings }))
         const cacheFile = cacheDir && path.join(cacheDir, key + '.webp'), cacheMeta = cacheDir && path.join(cacheDir, key + '.json')
         let result = null
         const hit = cacheMeta && readCache(cacheMeta, true)
@@ -189,12 +201,11 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
           if (hit.keep || (bytes && sha(bytes) === hit.servedSha256)) { result = { ...hit, bytes }; stats.reused++ }
         }
         if (!result) {
-          const mime = `image/${{ png: 'png', jpg: 'jpeg', jpeg: 'jpeg', webp: 'webp', avif: 'avif' }[path.extname(file).slice(1).toLowerCase()]}`
           const image = await encode(page, source, mime, kind, quality, CAPPED.test(file))
-          // A WebP/AVIF within the cap is left as it is: same outcome as a WebP that saves too little.
-          const bytes = image.skip ? null : Buffer.from(image.b64, 'base64')
+          // A WebP/AVIF within the cap is left as it is (only decoded to read its size); it counts as skipped.
+          const skip = !!image.skip, bytes = skip ? null : Buffer.from(image.b64, 'base64')
           const keep = !bytes || bytes.length > source.length * (1 - MIN_SAVING)
-          result = { key, sourceSha256, keep, servedSha256: keep ? null : sha(bytes), width: image.width, height: image.height, kind, lossless: !!image.lossless, quality: image.quality, resizedFrom: image.resizedFrom, flatShare: image.flatShare, bytes: keep ? null : bytes }
+          result = { key, sourceSha256, keep, skip, servedSha256: keep ? null : sha(bytes), width: image.width, height: image.height, kind, lossless: !!image.lossless, quality: image.quality, resizedFrom: image.resizedFrom, flatShare: image.flatShare, bytes: keep ? null : bytes }
           if (cacheDir) {
             fs.mkdirSync(cacheDir, { recursive: true })
             if (!keep) writeAtomic(cacheFile, bytes)
@@ -203,7 +214,7 @@ export async function convertAssets(root, { quality = 0.85, executablePath, cach
           stats.encoded++
         }
         stats.sourceBytes += source.length
-        if (result.keep) { stats.keptOriginal++; stats.servedBytes += source.length; continue }
+        if (result.keep) { stats[result.skip ? 'skipped' : 'keptOriginal']++; stats.servedBytes += source.length; continue }
         const out = servedFile(file, result.servedSha256)
         fs.writeFileSync(out, result.bytes)
         stats.converted++; stats.servedBytes += result.bytes.length; if (result.lossless) stats.lossless++; if (result.resizedFrom) stats.resized++
